@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "user-profile-pipeline"
+version = "0.1.0"
+description = "Multimodal social-media user profiling and personalized dialogue benchmark pipeline"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "google-auth>=2.0",
+  "google-cloud-storage>=2.0",
+  "numpy>=1.26",
+  "orjson>=3.10",
+  "Pillow>=10.0",
+  "pydantic>=2.7",
+  "PyYAML>=6.0.1",
+  "rapidfuzz>=3.9",
+  "requests>=2.31",
+  "scikit-learn>=1.5",
+  "tenacity>=8.2.3",
+]
+
+[project.optional-dependencies]
+analysis = [
+  "scipy>=1.11",
+  "tiktoken>=0.7",
+  "matplotlib>=3.8",
+]
+anonymization = [
+  "spacy>=3.7",
+]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.6",
+]
+
+[project.scripts]
+socialpersona = "user_profile_pipeline.cli:main"
+socialpersona-profile-eval = "user_profile_pipeline.benchmark.profile_eval.cli:main"
+socialpersona-dialogue-eval = "user_profile_pipeline.personalized_dialogue.runner.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120

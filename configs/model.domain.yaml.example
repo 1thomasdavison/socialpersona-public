@@ -1,0 +1,9 @@
+# Optional domain-aggregation model configuration.
+# Copy to model.domain.yaml and keep the API key itself in .env.
+provider: openai_compatible
+base_url: https://api.openai.com/v1/chat/completions
+model: gpt-4o-mini
+timeout_seconds: 300
+max_tokens: 4096
+temperature: 0.1
+api_key_env: OPENAI_API_KEY
