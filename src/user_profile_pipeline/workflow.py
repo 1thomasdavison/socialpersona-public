@@ -11,7 +11,7 @@ from .aggregation import MultiPostAggregator
 from .config import load_domain_configs, load_yaml
 from .domain_llm import BenchmarkGoldExporter, DomainLLMSummarizer, DomainPackBuilder
 from .gate import NarrowGate
-from .llm_client import FIXED_REPAIR_MODEL, OpenAICompatibleChatClient
+from .llm_client import OpenAICompatibleChatClient
 from .personalized_dialogue import PersonalizedDialogueEvaluator, build_personalized_dialogue_artifacts
 from .schemas import PostObservable, SinglePostProfile
 from .single_post import SinglePostAnalyzer

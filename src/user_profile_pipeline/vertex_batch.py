@@ -325,7 +325,7 @@ class VertexBatchInferenceClient:
                     self._cached_access_token = token
                     self._cached_access_token_expiry_ts = expiry_ts
                     return token
-            except Exception as exc:
+            except Exception:
                 if attempt < 3:
                     delay = min(self.retry_backoff_seconds * (2 ** (attempt - 1)), self.max_retry_backoff_seconds)
                     time.sleep(delay)

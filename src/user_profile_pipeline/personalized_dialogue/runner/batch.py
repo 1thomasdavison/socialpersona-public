@@ -532,7 +532,7 @@ def _run_dialogue_judge_batch(
         except json.JSONDecodeError:
             judge_results[user_id] = _fallback_judge_result(
                 gold_ref={"task_id": "", "user_id": user_id, "selected_interest_facts": []},
-                error=f"batch_judge_json_parse_failed",
+                error="batch_judge_json_parse_failed",
                 brief_rationale="Batch judge returned non-JSON response.",
             )
             continue

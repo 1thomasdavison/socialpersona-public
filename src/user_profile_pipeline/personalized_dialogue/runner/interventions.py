@@ -6,7 +6,6 @@ durable cost reservations, explicit input metadata, and usage-accounted calls.
 from __future__ import annotations
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime
 import hashlib
 import json
 import math
@@ -22,7 +21,7 @@ import requests
 from scipy.optimize import linear_sum_assignment
 
 from ...google_auth_env import read_dotenv_var
-from .experiment_budget import BudgetLedger, BudgetExceeded
+from .experiment_budget import BudgetLedger
 
 VERSION = "profile_intervention_v1"
 CONDITIONS = ("no_context", "timeline", "predicted_profile", "gold_profile", "wrong_profile")

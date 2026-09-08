@@ -1,52 +1,87 @@
 # SocialPersona
 
-Public code and a **privacy-derived research subset of 100 users** for studying
-interest profiling and personalized dialogue from multimodal social-media context.
+Code and public data for **SocialPersona: From Social-Media Evidence to
+Personalized Recommendations**.
 
-**This is an intentionally lossy derivative, not the inputs used to obtain the
-paper's scores.** Verbatim posts, original image captions, original media,
-precise timestamps, source identifiers, and per-user source counts are absent.
-See [privacy treatment](PRIVACY.md), [data documentation](data/README.md), and the
-machine-readable [audit](data/privacy_audit.json).
+Qinkai Zhang, Yanyan Zhao, Xin Lu, Yulin Hu, Pengtao Han, and Bing Qin
 
-## Public data
+Harbin Institute of Technology
 
-Each randomly reassigned participant has four coarse timeline topic summaries,
-a generalized interest profile across seven domains, and six user-level visual
-topic summaries. Topic descriptions come exclusively from a fixed vocabulary;
-no source free text is copied. Empty topics are explicitly marked as withheld.
+## About the paper
+
+People reveal their interests through what they post, photograph, and return to
+over time. SocialPersona studies whether models can infer these interests from
+social-media timelines and use them to give useful personalized recommendations.
+It distinguishes stable interests from recent ones and connects two tasks:
+
+| Task | What it evaluates |
+| --- | --- |
+| Profile construction | Recover active domains and specific interests, with supporting evidence and stable/recent categories. |
+| Personalized response generation | Use the user's interests in recommendations, evaluated for interest coverage, concreteness, and fluency. |
+
+The full benchmark contains **171 users and 2,597 human-verified interest tags**
+across seven domains: sports and outdoor activities, entertainment, gaming, food
+and drink, travel and city exploration, photography and creation, and pets.
+Timelines cover up to two years and 200 posts per user.
+
+The paper evaluates six models on a fixed 100-user subset using text, image
+captions, and timestamps. Models recover broad domains more reliably than
+specific interests; the best Interest F1 is **0.414**. In controlled recommendation
+experiments, human-annotated profiles improve interest coverage over predicted
+profiles by **0.41–1.16 points** on a 0–5 scale. Predicted profiles have mixed
+results compared with the original timelines, highlighting the value of retaining
+specific interests and the details that support them.
+
+## Public dataset
+
+This repository includes a **100-user subset**. To protect participants' privacy,
+the public data underwent strict de-identification: identifying details and
+original media were removed, and posts, captions, and interest labels were
+generalized. These changes reduce the available detail, so evaluation results
+on the public version will differ from those reported in the paper.
+
+Each participant has four ordered timeline summaries, an interest profile across
+seven domains, and six user-level visual topic summaries. The release contains
+400 timeline summaries, 600 visual summaries, and 1,841 generalized interest
+entries. It supports exploring the data format and evaluation pipeline.
 
 ```text
 data/
   users/participant_001/
-    posts.jsonl          # Four chronological-rank phase summaries, not posts
-    gold_profile.json    # Generalized source annotations, not revalidated gold
-    image_captions.json  # Six user-level topic summaries, not image captions
-  vocabulary.json
-  privacy_audit.json
-  manifest.json          # SHA-256 of public files only
+    posts.jsonl          # Four timeline topic summaries
+    gold_profile.json    # Generalized interest annotations and evidence links
+    image_captions.json  # User-level visual topics from six caption models
+  vocabulary.json       # Topic vocabulary
+  privacy_audit.json    # Aggregate privacy-processing statistics
+  manifest.json         # Public data checksums
 src/user_profile_pipeline/
 scripts/
 tests/
 configs/*.example
 ```
 
-The fixed four-row representation avoids publishing each person's original post
-count. Phase numbers preserve coarse order only; they are neither dates nor
-equal-duration intervals. User-level visual summaries have no post-level join.
-The file names retain the dataset interface but their semantics have changed.
+Timeline phases preserve coarse order; dates and durations have been removed.
+Visual summaries aggregate topics at the user level. Generalized interest labels
+retain their source categories and have not undergone a separate human review.
+See the [data guide](data/README.md) for field definitions and
+[privacy documentation](PRIVACY.md) for the processing procedure.
 
-## Install and validate
+For controlled research access to the full benchmark, contact
+**qkzhang@ir.hit.edu.cn**. When reporting experiments with the public subset,
+identify the data version as `privacy-derived-v1`.
 
-Use Python 3.10 or newer. Run commands from this repository's root.
+## Quick start
+
+Use Python 3.10 or newer. Clone the repository and install it from the repository
+root, preferably in a virtual environment:
 
 ```bash
+git clone https://github.com/1thomasdavison/socialpersona-public.git
+cd socialpersona-public
 python -m pip install -e .
-python -B scripts/verify_release.py --require-git
-python -B -m unittest discover -s tests -v
 ```
 
-## Offline evaluation smoke test
+Prepare the public profiles and run an offline loading and scoring check:
 
 ```bash
 python -B scripts/prepare_public_eval.py
@@ -61,53 +96,51 @@ python -B -m user_profile_pipeline.benchmark.profile_eval \
   --profile-method direct
 ```
 
-The oracle copies generalized reference labels to test loading and scoring
-with offline normalized exact-label matching;
-it is not a measured model baseline and requires no model API calls. Experiments
-on this derivative must report their own scores and its `privacy-derived-v1`
-version. Caption summaries are provided for separate research use; this smoke
-test uses text summaries only.
+In PowerShell, put the evaluation command on one line or use backticks for line
+continuation. This check runs locally without API calls. `mock_oracle` copies
+reference labels into predictions, and `exact_match` scores normalized label
+matches. The resulting scores check the pipeline; model comparisons require
+predictions from the models being evaluated. Outputs are saved under
+`results/public_smoke/`.
 
-The maintained CLIs are
-`user_profile_pipeline.benchmark.profile_eval`,
-`user_profile_pipeline.personalized_dialogue.runner`, and
-`user_profile_pipeline.cli`. Use `--help` for their options. Registered model
-providers and environment-variable names are in
-`src/user_profile_pipeline/benchmark/profile_eval/specs.py`; some registrations
-use third-party API providers. Configure the intended endpoint before running
-paid calls. Configuration examples contain environment-variable names, never
-credentials. Historical standalone runners are not included.
+## Evaluation code
 
-## Scope and access
+The profiling code implements three methods: **direct** inference from a timeline,
+**hierarchical** summarization followed by aggregation, and **extractive** evidence
+selection followed by profile generation. The response evaluation code supports
+generation and judging with different user-context settings.
 
-Use this subset for interface development and exploratory aggregate research.
-It is unsuitable for validating detailed interest recovery, temporal distances,
-image understanding, or reproducing the paper's numerical results. The
-generalization is deterministic lexical extraction, not human-validated
-paraphrasing: negation, ambiguity, non-English content and omitted details can
-reduce utility. The original human validation does not transfer to these altered
-labels and inputs.
+| Entry point | Purpose |
+| --- | --- |
+| `python -m user_profile_pipeline.benchmark.profile_eval` | Profile inference and scoring |
+| `python -m user_profile_pipeline.personalized_dialogue.runner` | Personalized response generation and evaluation |
+| `python -m user_profile_pipeline.cli` | Annotation and profile construction pipeline |
 
-The paper describes the controlled benchmark separately. Qualified researchers
-may request controlled access from **qkzhang@ir.hit.edu.cn**. Public source
-availability is not evidence of participants' consent. We make no new consent,
-ethics-board approval, or zero-risk anonymity claim for this release.
+Use `--help` with any entry point for its arguments. Model registrations,
+endpoints, and API-key environment-variable names are listed in
+[`specs.py`](src/user_profile_pipeline/benchmark/profile_eval/specs.py).
+Some registrations use third-party providers; select the endpoint you intend
+to use and supply credentials through environment variables. Configuration
+examples are in [`configs/`](configs/).
 
-This repository begins with a clean initial history. It excludes prior snapshots,
-private identity mappings, per-user model outputs and caches. Manuscript PDFs
-with source-derived example images are distributed separately and are not part
-of this data package.
+Run the offline tests with:
 
-## Responsible use and rights
+```bash
+python -B -m unittest discover -s tests -v
+```
 
-The intended use is aggregate research evaluation. Do not attempt account
-identification, cross-dataset linkage, surveillance, targeting, or consequential
-decisions about individuals. Report privacy concerns and removal requests to
-**qkzhang@ir.hit.edu.cn**, using only the public participant identifier and file
-path when possible; do not post suspected identities in public issues.
+For release checks, run `python -B scripts/verify_release.py --require-git` in a
+clean checkout. It checks data schemas, evidence links, checksums, package files,
+and Git history. Local environments and generated results should be kept outside
+that checkout during this check.
 
-Code: [MIT](LICENSE). Author-created dataset annotations and the generalized
-derivative: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), consistent
-with the project's existing release designation. This designation does not grant
-rights to excluded third-party source posts or images. The responsible-use
-statement describes intended use and does not modify the licenses.
+## License and contact
+
+Code is released under the [MIT License](LICENSE). Author-created annotations
+and the generalized public data are licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+The dataset is intended for aggregate research. Please respect participants'
+privacy and avoid attempts to identify or target individuals. Send research
+questions, privacy concerns, or removal requests to **qkzhang@ir.hit.edu.cn**;
+for data-specific requests, include the public participant ID and file path.

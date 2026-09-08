@@ -8,7 +8,6 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-import requests
 from tenacity import RetryError
 
 from .llm_client import FIXED_REPAIR_MODEL, OpenAICompatibleChatClient

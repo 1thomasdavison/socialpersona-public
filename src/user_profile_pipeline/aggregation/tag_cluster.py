@@ -5,13 +5,12 @@ from dataclasses import dataclass
 from statistics import mean
 from typing import Iterable
 
-import numpy as np
 from rapidfuzz import fuzz
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from ..schemas import DomainResult, SinglePostProfile
+from ..schemas import DomainResult
 from .text_utils import normalize_tag
 
 
