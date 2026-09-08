@@ -1,7 +1,10 @@
 # SocialPersona
 
-Code and public data for **SocialPersona: From Social-Media Evidence to
-Personalized Recommendations**.
+Code and public data for **SocialPersona: Benchmarking Personalized Profiling and
+Response with Multimodal Social-Media Context**.
+
+[arXiv:2606.26654](https://arxiv.org/abs/2606.26654) ·
+[Paper PDF](https://arxiv.org/pdf/2606.26654)
 
 Qinkai Zhang, Yanyan Zhao, Xin Lu, Yulin Hu, Pengtao Han, and Bing Qin
 
@@ -16,21 +19,19 @@ It distinguishes stable interests from recent ones and connects two tasks:
 
 | Task | What it evaluates |
 | --- | --- |
-| Profile construction | Recover active domains and specific interests, with supporting evidence and stable/recent categories. |
-| Personalized response generation | Use the user's interests in recommendations, evaluated for interest coverage, concreteness, and fluency. |
+| Profile Inference | Recover active domains and specific interests, with supporting evidence and stable/recent categories. |
+| Personalized Dialogue | Use the user's interests in recommendations, evaluated for interest coverage, concreteness, and fluency. |
 
 The full benchmark contains **171 users and 2,597 human-verified interest tags**
 across seven domains: sports and outdoor activities, entertainment, gaming, food
 and drink, travel and city exploration, photography and creation, and pets.
 Timelines cover up to two years and 200 posts per user.
 
-The paper evaluates six models on a fixed 100-user subset using text, image
-captions, and timestamps. Models recover broad domains more reliably than
-specific interests; the best Interest F1 is **0.414**. In controlled recommendation
-experiments, human-annotated profiles improve interest coverage over predicted
-profiles by **0.41–1.16 points** on a 0–5 scale. Predicted profiles have mixed
-results compared with the original timelines, highlighting the value of retaining
-specific interests and the details that support them.
+Experiments with six models show that broad interest domains are easier to
+recover than specific and recent interests. Text and images provide complementary
+signals, while using inferred profiles effectively in personalized dialogue
+remains a challenge. The [paper](https://arxiv.org/abs/2606.26654) describes the
+evaluation setup and results.
 
 ## Public dataset
 
@@ -133,6 +134,20 @@ For release checks, run `python -B scripts/verify_release.py --require-git` in a
 clean checkout. It checks data schemas, evidence links, checksums, package files,
 and Git history. Local environments and generated results should be kept outside
 that checkout during this check.
+
+## Citation
+
+```bibtex
+@misc{zhang2026socialpersona,
+  title = {SocialPersona: Benchmarking Personalized Profiling and Response with Multimodal Social-Media Context},
+  author = {Qinkai Zhang and Yanyan Zhao and Xin Lu and Yulin Hu and Pengtao Han and Bing Qin},
+  year = {2026},
+  eprint = {2606.26654},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL},
+  url = {https://arxiv.org/abs/2606.26654}
+}
+```
 
 ## License and contact
 
