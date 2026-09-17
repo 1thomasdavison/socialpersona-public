@@ -1,64 +1,1327 @@
 {
   "user_id": "participant_049",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous vintage painting shows several figures gathered around an early camera-like box in a chaotic, sexualized scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A historical painting depicting a group of people interacting around an old-fashioned camera obscura."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A historical-style painting depicts several men in period clothing engaging in explicit sexual acts around a wooden contraption."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A satirical historical painting depicts a group of men in period clothing surrounding a large camera obscura, with one figure bent over to expose his rear while another lies on the ground."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "crafts and design",
-        "dining",
-        "film and television",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; crafts and design; dining; film and television; photography."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person holding a gun, dressed in a brown suit and white turtleneck, with a blurred face."
+        },
+        "gpt-5.4": {
+          "summary": "A grainy vintage-style close-up shows a mustached person indoors wearing a turtleneck and blazer while holding a handgun to their open mouth."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a brown suit holding an object near his mouth."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a mustache holds a handgun to his mouth in a tense, vintage-style scene."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with blond hair and a mustache, wearing a brown suit and white turtleneck, holds a black handgun to his mouth in a tense indoor setting."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "film and television",
-        "outdoor activities",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; outdoor activities; photography; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a car wearing a yellow jacket and a hat with a globe graphic covering their face."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie inside a car shows a person in a yellow jacket and dark hoodie wearing a cap, with a globe graphic covering the face and rain visible outside the window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a yellow jacket sits in a car seat with an edited globe overlaying their face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a yellow jacket and a cap with 'DIAL TONE' sits in a car with raindrops on the window, their face obscured by a globe graphic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a yellow jacket and a hat sits in the driver's seat of a car with their face obscured by a digital globe graphic."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "film and television",
-        "outdoor activities",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; outdoor activities; photography; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Twitter post from a user asking about the effectiveness of a product as a hair grower for men."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media reply post in dark mode asking whether something is effective for hair growth for men."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT] asks [ACCOUNT] whether a product works as hair grower."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet from [PERSON] asking if a product is effective as a hair grower for men, replying to [ACCOUNT] and tagging [ACCOUNT]"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter reply from the account '[ORGANIZATION] asking if a product is effective as a hair grower for men."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "dining",
-        "film and television",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; dining; film and television; photography; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man wearing a white cap and glasses takes a shirtless mirror selfie, with a toilet visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A shirtless individual takes a selfie in a bathroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing glasses and a white cap takes a mirror selfie indoors with a smartphone, showing a muscular upper body."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man taking a mirror selfie in front of his muscular physique."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless man with a muscular build takes a mirror selfie while wearing a white cap and glasses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man wearing a white cap and glasses takes a mirror selfie in a bathroom, displaying his muscular physique."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "photography",
-        "reading",
-        "travel",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; photography; reading; travel; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long blonde hair and a face covered in red substance, wearing a white robe and black pointed shoes, is sitting on"
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman with red-painted skin sits on the bathroom floor in a white dress, appearing distressed."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a white satin robe sits on a bathroom floor beside a toilet, with their face and hands covered in bright red paint or makeup in a staged, messy scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a white robe sits on bathroom floor with red face paint."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red face paint sits on a bathroom floor next to a toilet, wearing a white robe and black shoes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with red face paint and a white robe sits on a bathroom floor next to a toilet, wearing one black shoe."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man stands smiling in a fitted shirt and jeans, with the word 'DADDY' prominently displayed in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A man stands indoors against a plain wall wearing a fitted dark T-shirt, jeans, and white sneakers, with a large \"DADDY\" sticker overlaid on the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man stands in a room wearing jeans and a t-shirt labeled 'DADDY' digitally added."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands indoors wearing a grey shirt and jeans, with the word 'DADDY' overlaid in large cartoon-style text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man stands indoors wearing a tight grey t-shirt and blue jeans, with a large cartoon graphic reading 'DADDY' superimposed over his midsection."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a humorous bathroom setting featuring a shower curtain with a person holding a weapon surrounded by various animal faces, along with themed bathroom mats and decor."
+        },
+        "gpt-5.4": {
+          "summary": "A white-tiled bathroom is decorated with a large custom shower curtain and bath mats showing a mustached man holding a rifle, surrounded by oversized cat and dog faces."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bathroom set featuring a shower curtain depicting an armed soldier surrounded by animal faces."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bathroom decorated with themed shower curtain, toilet lid, and rug featuring a man in military-style gear surrounded by cats and dogs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bathroom set featuring a shower curtain, toilet seat cover, and floor mats with a collage of [PERSON] holding a gun surrounded by cats and dogs."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white close-up photo shows a man wearing dark sunglasses, looking contemplatively to the side with his hand on his chin."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a contemplative expression, partially obscured by a hand and wearing sunglasses."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white close-up portrait shows a person wearing dark sunglasses with a hand resting near the chin against a blurred background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man wearing sunglasses rests his chin in thought."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white portrait of a man wearing sunglasses and resting his chin on his hand."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white close-up portrait of a man wearing dark sunglasses with his hand resting on his chin in a contemplative pose."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "An individual wearing a medical brace is seated at a desk with a microphone, surrounded by various items including a championship belt and books."
+        },
+        "gpt-5.4": {
+          "summary": "A man wearing a medical torso and neck brace speaks into a microphone in a studio-like room with a championship belt and books behind him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man wearing a chest harness speaks into a microphone in front of promotional materials."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man wearing a neck brace speaks into a microphone, with championship belt and [PERSON] books visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing glasses and a medical back brace sits in front of a microphone with books and a championship belt visible on a shelf behind him."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a mobile application interface showing a video clip thumbnail of a person outdoors, with text indicating it's a '[ORGANIZATION] recording and a timestamp."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person in a black jacket and hat, holding a camera while standing in a grassy area near a wooden structure."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a '[ORGANIZATION] app screen shows a 10-second video entry with a thumbnail of a person near an outdoor bird feeder and an auto-generated label."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a globe in front of their face while standing outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video playback interface showing a person with a globe filter on their face, timestamped at 09:58:31 AM."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface displaying a bird feeder camera feed with an overlay of a person holding a globe and a caption describing the activity."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a room wearing a leather jacket and jeans, with a globe graphic over their head."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands indoors modeling a worn leather jacket with cuffed jeans and brown slip-on shoes in a home entryway or kitchen area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a leather jacket in an indoor hallway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands indoors wearing a leather jacket and jeans, with a globe graphic obscuring their face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a distressed leather jacket, jeans, and loafers stands indoors with their face obscured by a digital globe graphic."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a gym, holding a phone with a globe graphic covering their face."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in casual workout clothes standing in a gym with exercise machines in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a green cap stands in front of gym equipment holding their phone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym, with their face obscured by a globe filter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a green cap and dark clothing takes a mirror selfie in a gym, with their face obscured by a globe emoji."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a mirror with a globe graphic covering their face, wearing a humorous t-shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie indoors shows a person in a layered graphic T-shirt holding a phone, with a globe sticker covering the face and festive tinsel around the mirror."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a mirror selfie in front of festive decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie with a globe filter over their face, wearing a graphic t-shirt and standing near a window decorated with festive garland."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a graphic t-shirt and a digital globe filter over their face takes a mirror selfie in a room decorated with red and green holiday tinsel."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a room wearing a beige outfit with a globe graphic over their face."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in a coordinated light beige outfit with an orange top, with plants, hanging coats, and suitcases visible in the room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a beige outfit stands in an indoor space decorated with plants and coats."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a beige outfit stands indoors with luggage nearby, their face obscured by a globe graphic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a beige button-down shirt and matching trousers with an orange turtleneck stands indoors, their face obscured by a digital globe graphic."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man with a confused expression is seated at a dining table, possibly engaged in conversation."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit restaurant scene shows two people seated at a table, with one person making a puzzled or intense expression during conversation."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a white shirt appears surprised during an interaction."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard sits at a table in a dimly lit restaurant, looking surprised or shocked while facing another person."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard and white t-shirt sits at a table in a dimly lit restaurant, displaying a confused or disgusted facial expression while seated next to another person."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in formal attire gestures while speaking on stage, with a headline about an apparent overdose incident."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-style post shows a suited man waving on a blue-lit stage, overlaid with a headline about [PERSON] suffering an apparent overdose in [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a black suit waves while standing behind a podium under blue stage lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a black suit and glasses waves while standing at a podium on a blue-lit stage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] social media post featuring a photo of comedian [PERSON] on stage with an overlay headline announcing his apparent overdose in [LOCATION]."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile web page displays a game from 'thefilmgap.com' challenging users"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a web interface for a game called '[ORGANIZATION]' featuring actors [PERSON] and [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile browser screenshot shows the [ORGANIZATION] movie game page asking users to connect [PERSON] to [PERSON] by entering actor names."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The [ORGANIZATION] website interface showing a connection between [PERSON] and [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A web interface for '[ORGANIZATION]' showing a connection suggestion between [PERSON] and [PERSON], with input fields to add more actor pairs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the [ORGANIZATION] website displaying a trivia challenge to connect actors [PERSON] and [PERSON]."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An image shows a person leaning over a toilet, appearing to be sick, with a magnified inset of virus particles and text about 'Winter Vomiting Disease on Uptick in [LOCATION]'."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a person appearing unwell while leaning over a toilet, accompanied by a graphic of a virus."
+        },
+        "gpt-5.4": {
+          "summary": "A health-style graphic shows a woman kneeling by a toilet as if nauseous, with a virus illustration inset and a headline about winter vomiting disease increasing in the [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person vomiting in a bathroom next to an illustration of viruses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person appears ill while leaning over a toilet, with an inset graphic of virus particles and a headline about rising winter vomiting disease cases."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman appears ill over a toilet with an inset of virus particles, accompanied by text about rising winter vomiting disease in the [LOCATION]."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man introduces himself and expresses his interest in finding love through matchmaking."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up social media screenshot shows a smiling man in a flat cap and scarf outdoors with a large matchmaking-style text overlay."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a cap smiles while promoting matchmaking services."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling older man in a flat cap poses outdoors with a text overlay introducing himself as [LOCATION], 71, from [LOCATION], seeking love through a matchmaking service."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling older man wearing a flat cap and suit stands outdoors with a stone wall background, overlaid with text introducing him as [LOCATION], 71, from [LOCATION], seeking love through [PERSON]."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two [ORGANIZATION] ornaments from 'Rescuers Down Under' still in their packaging."
+        },
+        "gpt-5.4": {
+          "summary": "Two boxed Disney 'The Rescuers Down Under' character ornaments, Miss [PERSON] and [PERSON], are being held over a desk with a keyboard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two vintage 'Rescuers Down Under' ornaments featuring Miss [PERSON] in a green hat and [PERSON] dressed as [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two packaged Disney 'Rescuers Down Under' mouse ornaments, Miss [PERSON] and [PERSON], are held up next to a keyboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds two boxed plush ornaments of [PERSON] and [PERSON] from [ORGANIZATION]'s 'The Rescuers Down Under' on a desk with a keyboard."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two holiday-themed boxes from 1990, one depicting a mouse character and the other a young boy."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds two vintage cartoon-themed boxes labeled \"Happy Holidays 1990\" beside a computer keyboard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two vintage Happy Holidays cards from 1990 featuring cartoon characters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two vintage 1990 Happy Holidays-themed boxes featuring cartoon characters, held next to a keyboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of two vintage 1990 holiday-themed matchboxes featuring [ORGANIZATION]'s The Rescuers Down Under characters, held in front of a computer keyboard."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a box featuring the character [PERSON] from [ORGANIZATION]'s 'Rescuers Down Under.'"
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a small Disney \"Rescuers Down Under\" Bernard ornament box in front of a desk with a keyboard and other cluttered items."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a 'Rescuers Down Under' [PERSON] box."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a small Disney ornament box for [PERSON] from 'Rescuers Down Under', displayed in front of a keyboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a vintage box for a Disney 'Rescuers Down Under' [PERSON] ornament in front of a cluttered desk with a keyboard."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two vintage [ORGANIZATION] 'The Rescuers Down Under' ornament boxes, featuring Miss [PERSON] and [PERSON], are held or displayed on a surface next to a computer keyboard."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two collectible ornament boxes from [ORGANIZATION]'s 'Rescuers Down Under,' depicting the characters Miss [PERSON] and [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds two worn [ORGANIZATION] Under\" ornament boxes featuring Miss [PERSON] and [PERSON] beside a keyboard on a desk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two vintage 'Rescuers Down Under' ornaments featuring Miss [PERSON] (left) and [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two worn boxes for [ORGANIZATION]'s 'Rescuers Down Under' ornaments featuring characters Miss [PERSON] and [PERSON], held over a keyboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds two vintage [ORGANIZATION]Rescuers Down Under' ornament boxes featuring Miss [PERSON] and [PERSON] against a desk background."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a stylized, mythical figure with antlers seated on a large hand, surrounded by vibrant colors and symbolic elements."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful surreal illustration depicts a horned nude figure holding a snake and a blue object above another nude figure with an eagle-headed form and many phallic elements in an ornate symbolic frame."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant illustration featuring a figure in meditation surrounded by mythical creatures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized illustration depicts a central figure with antlers and multiple limbs, seated atop another figure, surrounded by ornate patterns and symbolic imagery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful, psychedelic illustration of a horned deity figure in a meditative pose with symbolic animals and patterns."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a car with a cartoon burger overlay on their face."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime car selfie shows a person in the front seat under red lighting, with rain on the windows and a large sandwich emoji covering the lower face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a car has their face partially obscured by an edited sandwich graphic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a car at night holds up a cartoon sandwich emoji to cover their face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with curly hair sits in a car at night, their face obscured by a large sandwich emoji."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a social media profile summary highlighting the user's activity and engagement as a 'shitposter'."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot-style “X Wrapped 2025” recap graphic shows the account [ACCOUNT] labeled “Shitposter!” with posting stats, activity cards, and a yearly posting heatmap."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] post from Twitter in 2025 highlights their chaotic meme energy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media '[ORGANIZATION] summary showing a user's activity stats, including 3,967 posts and a 46-day streak."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a 'Wrapped 2025' social media analytics card for the user [ACCOUNT], highlighting their activity as a '[PERSON]' with specific stats like peak time and total posts."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a group of individuals on a film set, with one person seated and wearing headphones."
+        },
+        "gpt-5.4": {
+          "summary": "A candid outdoor behind-the-scenes scene shows a person in a director-style chair wearing headphones and talking with another person beside a house patio setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A director sits in a chair while two crew members stand nearby during an outdoor film set."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in glasses and headphones sits on a director's chair outdoors while another man stands nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with headphones around his neck sits in a director's chair on an outdoor set while another man stands nearby."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand wearing a shiny black glove with textured, ribbed fingers is shown against a soft, ruffled light-colored fabric background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand wearing a shiny black glove with a unique textured design, set against a backdrop of soft, ruffled fabric."
+        },
+        "gpt-5.4": {
+          "summary": "A hand wearing a glossy black multi-finger textured glove is posed on ruffled pale pink fabric, giving the image a stylized fetish-fashion look."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person wearing black gloves against ruffled fabric."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand wearing a shiny black glove with textured fingers rests on a ruffled white fabric."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand wearing a black, glossy latex glove with textured fingers is displayed against a background of ruffled white fabric."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are engaged in conversation in a well-decorated indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a document image shows two people standing and talking in a warmly lit indoor room, with a small easel or whiteboard between them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men are engaged in a conversation indoors near an easel."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men are engaged in conversation indoors, standing near a wooden easel and patterned furniture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] viewer displaying a photo of two men conversing in an indoor setting with patterned carpet and wall art."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is leaning forward in a casual indoor setting, wearing a graphic t-shirt and black pants."
+        },
+        "gpt-5.4": {
+          "summary": "A person leans toward the camera indoors, wearing a dark cap and a graphic T-shirt in a bright room with plants, hats, and suitcases visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a 'HEAT' t-shirt stands in an indoor space filled with various items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands indoors wearing a cap and t-shirt with 'HEAT' text, near luggage and home decor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a mustache stands indoors wearing a 'Close Encounters' cap and a black 'HEAT' t-shirt, surrounded by luggage and home decor."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a room wearing a black denim jacket over a patterned shirt, holding sunglasses."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands indoors posing in a layered dark outfit, holding sunglasses, in a bright room with plants, framed art, and hanging coats."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a denim jacket over patterned shirt stands in an indoor space decorated with plants and coats."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands indoors wearing a dark denim jacket over a patterned shirt, holding sunglasses, with a globe graphic covering their face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with curly hair stands indoors wearing a dark denim jacket, plaid shirt, and black pants while holding sunglasses, with their face obscured by a digital globe sticker."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a white cowboy hat is seated at a table, surrounded by others in formal attire."
+        },
+        "gpt-5.4": {
+          "summary": "A suited man wearing a white cowboy hat sits at a desk in a formal indoor event, surrounded by other formally dressed people."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit wearing headphones and a cowboy hat sits surrounded by others."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit and white cowboy hat wears earphones while seated, with people standing nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a dark suit and red tie wearing a white cowboy hat and wired earphones while seated, with other formally dressed individuals standing behind him."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smartphone home screen is displayed with a man"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone home screen with various app icons and a blurred face in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone home screen shows a portrait-photo wallpaper with app folders and icons for travel, house, finance, banking, messaging, and work tools."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person's home screen featuring various app icons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone home screen with app icons organized into folders labeled [LOCATION], [ORGANIZATION], Finance, and [ORGANIZATION], overlaid on a portrait photo of a smiling person."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone home screen displaying a portrait of a bearded man as the wallpaper, with organized app folders and icons for travel, finance, banking, and communication."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A crowd is lifting a person in a celebratory atmosphere during an event."
+        },
+        "gpt-5.4": {
+          "summary": "A person is being crowd-surfed over a large cheering outdoor festival crowd, with many raised hands and a hat in view."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person being crowd-surfed in a lively outdoor event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard is being lifted by a crowd at an outdoor concert or festival."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man in a blue shirt is crowd-surfing at an outdoor music festival while holding a straw hat, surrounded by a dense audience with raised hands."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is gesturing while wearing a black and gray hoodie with '[PERSON] printed on it, set against a red background."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a black cap and a black-and-gray hoodie gestures with both hands against a red studio-style background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a 'WU WEAR' hoodie gestures while speaking in front of a red background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a hoodie and hat gestures while seated against a red background with a chain-link graphic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing a black fur hat and [PERSON] hoodie gestures with open hands against a red background."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a cap and a plaid jacket is seated in a car, with a blurred face and a graphic overlay that includes the word 'NEWS'."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie inside a car shows a person wearing sunglasses, a white hat with a tiger graphic, and a plaid jacket, with a large '[ORGANIZATION] globe sticker covering the lower face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a hat and sunglasses sits in a car seat with '[ORGANIZATION] overlaid."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a hat and sunglasses sits in a car, with a 'Breaking NEWS' graphic covering their face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a plaid jacket and sunglasses sits in the driver's seat of a car, with a 'Breaking NEWS' graphic overlaying their face."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a car is playfully edited with a sandwich emoji covering their face."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing sunglasses and a cap takes a selfie inside a car, with their face covered by a large sandwich-and-heart '[ORGANIZATION]' sticker."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a sandwich filter in their car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a car wearing a hat and sunglasses, with their face obscured by a sandwich graphic containing the text '[ORGANIZATION]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a plaid jacket and sunglasses sits in the driver's seat of a car, with a large digital sticker of a sandwich and a heart labeled '[ORGANIZATION]' covering their face."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a bar area featuring a craft beer list and various bottles of alcohol against a vibrant backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A warmly lit bar counter is lined with liquor bottles and a cash register beneath handwritten menu boards for drinks and desserts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy bar setup featuring a neon craft beer list, various spirits in bottles, and quirky decor elements."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A warmly lit bar counter displays liquor bottles, a chalkboard beer menu, and a sign listing food items like pie and donuts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cluttered bar counter featuring a neon draft list, various liquor bottles under red lighting, and a sign advertising pie and ice cream."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a mountain landscape with a snow-covered area and a sign indicating a mountain report update."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of the [LOCATION] ski resort website shows an operations update announcing the mountain will remain closed, alongside weather and trail navigation tabs and a snowy forest webcam view."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Mountain report update indicating closure through Tuesday."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a mountain resort's weather update page showing partial snow cover and forested slopes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of [LOCATION] website displaying a [DATE] operational update about the mountain's closure and a view of a snowy, tree-covered slope."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a newspaper page from [ORGANIZATION] featuring an article about birds and their interactions with humans."
+        },
+        "gpt-5.4": {
+          "summary": "An open [ORGANIZATION] section newspaper with a feature about birds is photographed indoors beside a lit Christmas tree."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A newspaper article titled 'Where Birds Are Giving Yelp Reviews of Humans' displayed in front of a decorated Christmas tree."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A newspaper titled '[ORGANIZATION] with a 'National' section headline is displayed in front of a decorated Christmas tree."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a [ORGANIZATION] newspaper dated Sunday, [DATE], featuring an article about bird monitoring technology next to a lit Christmas tree."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows"
+        },
+        "gpt-4o-mini": {
+          "summary": "A Chestnut-backed [ORGANIZATION] perched on a feeder with a blurred background of grass and trees."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up backyard camera image shows a chestnut-backed chickadee perched on an [LOCATION] feeder rail."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Chestnut-backed [ORGANIZATION] perched on a wooden structure in an outdoor residential area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Chestnut-backed [ORGANIZATION] perches on an orange railing in a backyard setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A chestnut-backed chickadee perches on a wooden feeder with an orange railing in the background."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows a brown creeper bird in a white bird feeder filled with seeds, with an orange structure and green grass visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Brown Creeper bird perched near a feeder filled with seeds."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up bird feeder camera view shows a brown creeper perched with its back to the camera on a seed tray outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a Brown Creeper bird perched inside an enclosure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a Brown Creeper bird eating seeds from a white feeder with an orange railing in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a Brown Creeper bird perched on the edge of a white feeder filled with seeds, set against an orange railing and green background."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A Spotted"
+        },
+        "gpt-4o-mini": {
+          "summary": "A [PERSON] bird is perched on a feeder with visible food."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up bird feeder camera image shows a spotted towhee standing on a seed tray outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [PERSON] perched atop a bird feeder in an outdoor residential area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [PERSON] bird perches on a feeder outdoors under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a [PERSON] bird perched on a feeder, captured by a trail camera with an overlay timestamp and species label."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a room wearing a brown blazer and dark pants, with a globe graphic obscuring their face."
+        },
+        "gpt-5.4": {
+          "summary": "A person with a globe sticker over their face poses indoors wearing a brown blazer, black turtleneck, and dark trousers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a brown blazer over dark clothing stands in an indoor space decorated with plants and coats."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a brown blazer and corduroy pants stands indoors with their face obscured by a globe graphic, surrounded by home decor including plants, coats, and artwork."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with curly hair stands indoors wearing a brown blazer, dark turtleneck, and corduroy trousers, with their face obscured by a globe graphic. The setting includes [ORGANIZATION], wall art, and hanging coats."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a blazer and pants stands in a room with a globe graphic over their face, while a cat walks by."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a gray blazer, dark top, dark pants, and brown loafers stands in a home entryway while a small cat moves across the floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a home entryway wearing formal attire while an orange cat walks nearby."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a globe obscuring their face stands in a home entryway, hands in pockets, as a cat walks past."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a grey blazer and corduroy pants stands in an entryway with their face obscured by a globe graphic, while a cat walks past on the floor."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a kitchen wearing a colorful sweater and sneakers, with various clothing items hanging in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in a colorful patchwork sweater, dark pants, bright sneakers, and a black cap in a tidy entryway or room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a colorful sweater stands in an indoor hallway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a colorful patchwork sweater, dark pants, and bright sneakers stands indoors near a doorway with coats and shoes nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a color-block sweater, corduroy pants, and colorful sneakers stands in a home entryway with their face obscured by an emoji."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a home setting wearing a colorful sweater and dark pants, with various items and clothing visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands indoors modeling a colorful color-block sweater, dark pants, cap, and sneakers in a bright entryway or mudroom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a colorful sweater in an indoor hallway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a colorful patchwork sweater and a cap stands indoors with their face obscured by a heart-eyed emoji."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a color-block sweater and heart-eye emoji stands in a home entryway with coats and shoes visible."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a colorful sweater and a globe-shaped mask stands in front of a mirror in a clothing store, holding a shopping bag."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a clothing store showing a person holding a [ORGANIZATION] shopping bag, surrounded by folded sweaters and puffer jackets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a globe mask takes a selfie in front of clothing racks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a globe-head mask takes a mirror selfie in a clothing store while holding a shopping bag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with a globe emoji covering their face takes a mirror selfie in a clothing store, wearing a color-block sweater and holding a shopping bag."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a collection of movie posters, primarily featuring science fiction and action films."
+        },
+        "gpt-5.4": {
+          "summary": "A grid of numbered movie posters featuring [ORGANIZATION] and action films such as [ORGANIZATION], Terminator, Avatar, [ORGANIZATION], and [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A grid of movie posters featuring various [ORGANIZATION] films."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grid of nine movie posters including [ORGANIZATION], Terminator films, Avatar sequels, Aliens, [PERSON], and [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grid of nine numbered movie posters featuring popular science fiction and action films."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a search interface from [ORGANIZATION] related to the [PERSON] library, showing a search for 'Trump' with no results found."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot of [ORGANIZATION] page shows [ORGANIZATION] tool with 'Trump' entered and a 'No results found' message."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A search page from a government website showing no results found when searching 'Trump'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] webpage showing a search for 'Trump' in the 'Full Epstein Library' returned no results."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of [ORGANIZATION] website showing a search for 'Trump' within the Epstein Library that returned no results."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of a webpage from justice.gov showing a search interface for the 'Full Epstein Library' with '[PERSON]' entered as the search term"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a search interface for [ORGANIZATION] on [ORGANIZATION] website, with a search term entered as '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows a justice.gov page titled \"Search Full Epstein Library\" with the search term \"[PERSON]\" entered and a message saying no results were found."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A search page from [ORGANIZATION] showing a 'Search Full Epstein Library' interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A webpage showing a search interface for the 'Full Epstein Library' with '[PERSON]' typed in and no results found."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of [ORGANIZATION] website showing a search for '[PERSON]' within [ORGANIZATION] that returned no results."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a search interface from [ORGANIZATION] for [ORGANIZATION], indicating no results found for the search term 'Woody'."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows a justice.gov [ORGANIZATION] webpage titled \"Search Full Epstein Library\" with the query \"Woody\" returning no results."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A search interface in a [ORGANIZATION] library system returns no results."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a search interface for the 'Full Epstein Library' on justice.gov, showing a search for 'Woody' that returned no results."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of [ORGANIZATION] website showing a search interface for the 'Epstein Library' where the term 'Woody' was entered but yielded no results."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a framed artwork depicting two cartoonish characters in a nautical setting."
+        },
+        "gpt-5.4": {
+          "summary": "A narrow bathroom is shown with a toilet and toilet paper holder, featuring a framed caricature-style artwork on the wall and a zoomed-in inset of the same picture."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Framed cartoon artwork of two individuals in a bathroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A framed cartoon illustration of two elderly men with luggage is displayed in a bathroom, with another similar framed artwork visible on the wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A framed caricature of two men with luggage is displayed in a bathroom, with a matching smaller print visible on the wall behind it."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a beanie and a camouflage neck gaiter is seated in a car, with snow visible outside."
+        },
+        "gpt-5.4": {
+          "summary": "A bundled-up person takes a selfie inside a car, wearing a knit beanie, gray winter jacket, and camouflage face covering beside a rain-speckled window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a beanie and camouflage face covering sits in a car during rainy weather."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a beanie and camouflage face covering sits inside a car with rain-streaked windows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a blue beanie and green camouflage face covering sits inside a vehicle on a rainy day."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a yellow rain jacket is holding a film camera in a snowy outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a yellow rain jacket and brown glove stands outdoors beside a large film camera, smiling toward the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a yellow jacket holding an [ORGANIZATION] camera outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man in a yellow raincoat holds a large film camera outdoors in snowy weather."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a yellow raincoat and brown glove stands outdoors in snowy weather, holding a large professional film camera with an [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two shirtless individuals pose closely together, showcasing their muscular physiques."
+        },
+        "gpt-5.4": {
+          "summary": "Two shirtless muscular men stand closely together indoors, with one arm around the other, in a warm-toned intimate portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two shirtless men are standing close together in a shower stall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two shirtless men stand close together in a shower, one with his arm around the other."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two shirtless men stand close together in a tiled room, with one placing his arm around the other's shoulder while both look downward."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A curious orange and white cat"
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat is playfully exploring inside a colorful gift bag."
+        },
+        "gpt-5.4": {
+          "summary": "An orange cat is poking its head into a colorful gift bag on a carpet beside wrapped presents."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ginger cat curiously inspects a colorful gift bag."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A ginger cat is peeking out from inside a colorful birthday-themed gift bag on a carpeted floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An orange and white cat is seen from behind with its head stuck inside a colorful birthday gift bag on a carpeted floor."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a vintage jacket and an orange beanie stands in a room with a bar and festive decorations."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors wearing a bright orange beanie, a distressed leather jacket, and a superhero graphic sweatshirt, with string lights and bottles visible in the room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a casual outfit wearing an orange beanie standing indoors near holiday lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a red beanie and leather jacket stands indoors near a table with bottles, with holiday lights and framed art on the walls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a mustache stands indoors wearing a red beanie, a distressed leather jacket over a graphic t-shirt, and jeans, positioned next to a table lined with liquor bottles and Christmas lights."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors wearing a shearling-collar leather jacket and comic-book graphic T-shirt, with bottles and colorful string lights in the room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a room decorated with string lights wearing a leather jacket over jeans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands indoors wearing a leather jacket over a comic-themed t-shirt, with festive lights and a bar setup in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a mustache stands indoors wearing a distressed leather jacket over a comic book graphic tee, positioned next to a table lined with liquor bottles and Christmas lights."
+        }
+      }
     }
   }
 }

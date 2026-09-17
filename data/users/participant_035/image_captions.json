@@ -1,67 +1,2427 @@
 {
   "user_id": "participant_035",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "coffee and tea",
-        "dogs",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; coffee and tea; dogs; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses and a beard takes a mirror selfie, giving a thumbs up while holding a smartphone with a visible [ORGANIZATION] logo."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a bathroom, giving a thumbs-up gesture."
+        },
+        "gpt-5.4": {
+          "summary": "Bathroom mirror selfie of a person in a gray hoodie giving a thumbs-up while holding a smartphone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a mirror selfie in front of clothing rack."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie with a smartphone while giving a thumbs-up gesture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and a beard wearing a grey hoodie takes a mirror selfie while giving a thumbs-up."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "coffee and tea",
-        "dining",
-        "dogs",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; coffee and tea; dining; dogs; visual art."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A girl is sitting outdoors at a café, holding a green drink and looking relaxed."
+        },
+        "gpt-5.4": {
+          "summary": "A woman sits at an outdoor café table holding a green drink and looking upward, with overlaid text reading a reassuring phrase."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman enjoys a drink outdoors under an umbrella in what appears to be a café."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman sits outdoors holding a green drink, looking upward with a gentle smile."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman sits at an outdoor cafe holding a green drink, looking upward with a serene expression while wearing a black top and beige pants."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "coffee and tea",
-        "dogs",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; coffee and tea; dogs; outdoor activities; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a heart-shaped biscuit sandwich with cheese and egg, partially wrapped in paper."
+        },
+        "gpt-5.4": {
+          "summary": "A breakfast sandwich with egg and melted cheese is unwrapped on foil, featuring a heart-shaped biscuit on top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A heart-shaped biscuit sandwiched between two slices of bread."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A heart-shaped biscuit sandwich with melted cheese on foil-wrapped packaging."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A breakfast sandwich with a heart-shaped biscuit sits on foil and paper wrapper, surrounded by melted cheese."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "coffee and tea",
-        "dogs",
-        "outdoor activities",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; coffee and tea; dogs; outdoor activities; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair, glasses, and facial piercings takes a selfie in an indoor setting with tiled walls, wearing a light yellow t-shirt with a mirrored logo."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a bathroom, wearing a yellow shirt with a logo."
+        },
+        "gpt-5.4": {
+          "summary": "An overhead selfie shows a person with glasses and a septum ring wearing a pale yellow graphic T-shirt in a gray tiled room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a yellow t-shirt stands against tiled walls in an indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses and a nose ring poses for a selfie against a gray tiled wall while wearing a yellow t-shirt with a logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle selfie of a person with dark hair, glasses, and facial piercings wearing a yellow t-shirt against a grey tiled wall."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "coffee and tea",
-        "dogs",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; coffee and tea; dogs; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while making a peace sign in a bathroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person with glasses in a tiled indoor corner, winking, sticking out their tongue, and making a peace sign while wearing a pale yellow T-shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person making a playful face while giving peace sign."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a yellow shirt makes a peace sign and sticks out their tongue while sitting against tiled walls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair, glasses, and facial piercings poses playfully in a tiled room while wearing a yellow graphic t-shirt."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "coffee and tea",
-        "dogs",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; coffee and tea; dogs; photography; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a red-lit room, sticking out their tongue."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in glasses holding a phone and sticking out their tongue under intense red lighting in a dim indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in front of red lighting inside what appears to be an old vehicle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a dimly lit, red-hued room with graffiti on the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a white t-shirt takes a mirror selfie in a room illuminated by intense red lighting, making a playful face with their tongue out. The setting appears to be a darkroom or photography studio with multiple mirrors and visible scrawls on the frame."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a dimly lit, red-tinted environment, showing a peace sign with one hand."
+        },
+        "gpt-5.4": {
+          "summary": "A red-lit mirror selfie shows a person holding a phone and making a peace sign in a dim indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in red lighting while making peace sign."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a red-lit room, making a peace sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses takes a mirror selfie in a room illuminated by intense red light, making a peace sign while holding a smartphone."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a tray of assorted chocolate-covered strawberries and mixed berries, packaged for sale."
+        },
+        "gpt-5.4": {
+          "summary": "Two plastic trays of assorted chocolate-covered strawberries are shown with grocery labels and a $22.99 price."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two trays of chocolate-covered strawberries in paper cups are displayed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of two clear plastic packages containing chocolate-dipped strawberries with price tags."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of two plastic containers filled with chocolate-covered strawberries in white and dark varieties, each labeled with a price tag."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a gym, giving a thumbs down gesture with their hand while wearing athletic shoes."
+        },
+        "gpt-5.4": {
+          "summary": "A first-person view shows someone seated on yellow gym equipment with black sneakers visible, giving a thumbs-down gesture over the speckled gym floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person giving a thumbs-down gesture in front of gym equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person gives a thumbs-down gesture while sitting on a gym floor with feet in black sneakers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a person sitting on a speckled gym floor wearing black [ORGANIZATION] sneakers and blue shorts, giving a thumbs-down gesture."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair, a beard, and a septum piercing lies shirtless on a bed, looking directly at the camera, with a mirror visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying on a bed, partially visible with a neutral background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a shirtless person lying on a bed, with dark hair, facial hair, and a septum piercing in a softly lit bedroom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless individual lying in bed with a neutral expression."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with a nose ring and beard lies on a bed, looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless individual with dark hair and a beard lies on a bed, looking directly at the camera in a bedroom setting."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person's hand holds a [PERSON]' iced coffee cup with an orange straw inside a car, visible by the steering wheel and controls."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding an iced coffee from [PERSON]' in a car interior."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a [PERSON]' iced coffee inside a car in front of a [ORGANIZATION] steering wheel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a Dunkin' Iced coffee drink in front of car dashboard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds an iced coffee drink from [PERSON]' in front of a [ORGANIZATION] steering wheel inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a Dunkin' Iced coffee cup with an orange straw inside a [ORGANIZATION] vehicle."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with long, wavy blonde hair, showing a kiss mark on their shoulder against a blue background."
+        },
+        "gpt-5.4": {
+          "summary": "A glamour-style close-up portrait shows a blonde-haired person looking over their shoulder with a red lipstick kiss mark on the shoulder against a blue background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman poses against a teal background with her back turned, featuring red lipstick marks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with blonde hair turns over their shoulder, revealing a red lipstick mark on their upper back against a blue background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a person with voluminous blonde hair and bangs, looking over their shoulder against a blue background, featuring a red lipstick mark on their upper back."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person's hand holds a black [LOCATION] brand water bottle, with a blurred background showing a red cabinet and wooden floor."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a black [LOCATION] water bottle in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a black [ORGANIZATION] reusable water bottle indoors, with a gym-like floor and equipment area in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a black [LOCATION] water bottle indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a matte black [LOCATION] water bottle in what appears to be a gym or fitness studio."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a large, matte black [LOCATION] water bottle in an indoor setting with wooden flooring and red cabinetry."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the bottom of a cup held in a hand, with visible text and a blurred background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds the worn bottom of a black tumbler or cup, with product and care text printed around the base."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The bottom of a black cup showing product information."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a black cup, showing its bottom with printed text including volume and safety warnings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of the bottom of a worn black travel mug held in a hand, displaying manufacturer details and safety warnings."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-5.4": {
+          "summary": "Two performers in glamorous stage outfits sit and smile in a blue-purple lit lounge or club with a wavy illuminated wall behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in glamorous attire are seated together against a wavy backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two performers in glamorous costumes sit on stools on a stage with a wavy, illuminated backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two individuals in elaborate drag costumes and heavy makeup are seated on a stage with a wavy, illuminated backdrop. The person on the left wears a light blue dress and clear platform heels, while the person on the right wears a dark sequined top with blue feathers."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person taking a selfie in a room with a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person wearing glasses and a black graphic T-shirt, seated near a blue door in a restroom-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up selfie of a person wearing glasses and casual attire in an indoor environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses and a nose ring takes a selfie indoors near a blue door."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark hair, glasses, and facial piercings wearing a black graphic t-shirt in an indoor setting."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An overhead shot shows a person's legs clad in blue jeans and [PERSON], resting on a light-colored patterned floor with a chair leg partially visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person's feet wearing brown cowboy boots, seated on a textured floor."
+        },
+        "gpt-5.4": {
+          "summary": "A seated person in blue jeans is photographed from above wearing brown square-toe leather boots on a light tiled floor beside a rolling chair leg."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing cowboy boots indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view of worn brown cowboy boots and blue jeans on a speckled floor, with part of a black tool visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a person wearing blue jeans and brown leather [ORGANIZATION] on a speckled linoleum floor."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A crudely drawn white cartoon cat-like character stands against a background of radiating red lines, with text above it expressing hope for feeling better tomorrow."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cartoon character expresses hope for feeling better tomorrow against a vibrant red background."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style image shows a small white cartoon creature with big eyes against a chaotic red burst background, overlaid with the text “maybe tomorrow i’ll feel better.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon cat stands in front of a red explosion background with an optimistic message."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon character with wide eyes stands against a red, radiating background, with text overlay reading 'maybe tomorrow i'll feel better'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand-drawn cartoon character with wide eyes stands against a chaotic red background, overlaid with the text 'maybe tomorrow i'll feel better'."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a promotional offer for $1 Chicken McNuggets from a fast-food restaurant app."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION]’s app-exclusive deal advertising $1 for 10-piece [ORGANIZATION] with ordering options."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "$10 [ORGANIZATION] deal from [ORGANIZATION]'s app."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION]'s app-exclusive deal offering $1 for 10 chicken [ORGANIZATION], valid once per day and expiring today."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displaying a [ORGANIZATION]'s exclusive deal for $1 10-piece [ORGANIZATION] valid for one use per day."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat holding a croissant and a cup of coffee with a serious expression."
+        },
+        "gpt-5.4": {
+          "summary": "A tabby cat is humorously shown holding a chocolate-drizzled croissant and a red cup of coffee against a plain background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat holding a croissant in its left paw and a coffee cup in its right."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby cat holds a chocolate-drizzled croissant and a red coffee cup against a plain background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tabby cat is holding a chocolate-drizzled croissant and a red cup of coffee against a plain background."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie outdoors with a clear blue sky in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up outdoor selfie of a person wearing glasses and a septum piercing under a bright blue sky, with trees and buildings in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses outdoors under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person with glasses and a nose piercing outdoors under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark hair, glasses, and facial piercings taken outdoors under a clear blue sky."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person taking a selfie in a kitchen, wearing a black t-shirt with anime characters."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror-style selfie shows a person in a kitchen wearing glasses, a septum ring, slippers, and a black [PERSON] graphic T-shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black t-shirt featuring anime characters takes a selfie in their kitchen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie in a kitchen wearing a black t-shirt with a [PERSON] anime graphic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and a nose ring stands in a kitchen wearing a black t-shirt featuring characters from the anime [PERSON]."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a cat-themed mug in front of a handheld gaming device on a bed."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a black mug covered in white cat faces, with a handheld game console blurred in the background on a bed indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a black mug decorated with white cat illustrations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a black mug with white cat faces, positioned above a blue gaming console on a white surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a black ceramic mug featuring a white line-art pattern of multiple cat faces, with a blue handheld gaming console resting on a bed in the background."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a silhouetted figure of a woman with raised arms against a colorful sunset background, symbolizing freedom with broken chains above her head."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized silhouette of a person with raised arms stands against a colorful sunset sky, with a broken chain graphic and sparkle effects suggesting freedom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A silhouette of a person breaking chains against a sunset backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A silhouette of a person breaking free from chains against a sunset sky with sparkling effects."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A silhouette of a woman with raised arms against a sunset sky, breaking free from chains."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small dog, likely an Italian Greyhound, wears dark-rimmed glasses and a dark turtleneck sweater, looking off to the side with a serious expression."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a blurred hand, possibly holding an object, with a soft-focus background."
+        },
+        "gpt-5.4": {
+          "summary": "A small dog wearing oversized glasses and a dark turtleneck is posed at what looks like a desk in a humorous, meme-like close-up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog wearing glasses and a turtleneck sweater."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog wearing glasses and a dark turtleneck looks directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a small dog wearing large glasses and a dark turtleneck sweater."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cute rubber duck with a blue hat placed on the dashboard of a car, near the speedometer."
+        },
+        "gpt-5.4": {
+          "summary": "A small yellow cartoon figurine with a blue hat sits in front of a parked car’s speedometer and instrument panel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A rubber duck toy sits atop a car dashboard in front of an illuminated speedometer."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow rubber duck with a blue hat sits on a car dashboard in front of the speedometer."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow rubber duck wearing a blue hat sits on the dashboard of a car, positioned in front of an illuminated instrument cluster showing the vehicle is in [LOCATION]."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An orange cat sits on a bed, looking directly"
+        },
+        "gpt-4o-mini": {
+          "summary": "An orange cat is sitting on a bed in a bedroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A light orange cat sits on a bed in a bedroom, facing the camera with a calm, curious expression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ginger cat sits alertly in a bedroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A light orange tabby cat sits upright on a bed in a bedroom, looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An orange tabby cat sits attentively on a bed in a bedroom with posters and clothes visible in the background."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a bathroom mirror while wearing a gray t-shirt with a mountain design."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a bathroom showing a person with facial hair and a septum piercing wearing a gray graphic T-shirt and holding a smartphone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing an outdoor-themed t-shirt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie holding a smartphone, wearing a gray t-shirt with a mountain graphic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair and facial piercings takes a mirror selfie wearing a grey graphic t-shirt featuring a mountain landscape."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION]'s menu item called '[PERSON] [ORGANIZATION] with various food options and their calorie counts."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION]'s menu listing a '[PERSON] [ORGANIZATION] boxed bundle with price, calories, and included items like [PERSON], cheeseburgers, nuggets, and fries."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION]'s dinner box menu item listing includes options like [PERSON], cheeseburgers, [ORGANIZATION], and fries."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION]'s mobile app screen displaying the '[PERSON] [ORGANIZATION] meal bundle with itemized contents and calorie counts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displays a [ORGANIZATION][PERSON] [ORGANIZATION] menu item with a price of $17.99 and a total calorie count of 3110."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two cups of layered green tea drinks held in a car."
+        },
+        "gpt-5.4": {
+          "summary": "Two hands hold plastic cups of layered green drinks inside a car, with cafe branding and a seal on the lids."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two hands holding green drinks labeled '[ORGANIZATION] in a car interior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two hands holding layered green beverages from [LOCATION] inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two hands holding layered green matcha drinks from [LOCATION] inside a car."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a cup of iced coffee from Seven Brew while sitting in a car."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a large iced coffee from Seven Brew inside a [ORGANIZATION], with the steering wheel and dashboard visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a Seven Brew coffee cup inside a car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds an iced coffee drink from Seven Brew Drive Thru Coffee inside a car with a [ORGANIZATION] steering wheel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a large plastic cup of iced coffee with a red straw in front of a [ORGANIZATION] steering wheel inside a car."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows four iced coffee drinks in a carrier, each labeled with different flavors."
+        },
+        "gpt-5.4": {
+          "summary": "Top-down view of four iced coffee drinks in a cardboard carrier outdoors, with handwritten labels on the lids and bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four iced coffee drinks in clear cups are arranged together."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four iced coffee drinks in clear cups with handwritten labels sit on a cardboard tray, viewed from above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of four iced coffee drinks in a cardboard carrier, each with handwritten labels on the lids and small smiley faces drawn on the plastic."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, low-angle selfie shows a person with a beard and glasses, eyes closed, sticking out their tongue playfully, against a background of a white tiled ceiling."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a person's head and shoulders, with a blurred face, taken indoors."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a person wearing glasses and a septum ring, eyes closed and tongue out in a playful expression under a drop ceiling."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sticks out their tongue in a playful manner."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses and a nose piercing sticks their tongue out playfully against a tiled ceiling background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with glasses and facial piercings making a playful face by sticking out their tongue."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a brown shoe being held in a plastic bag against a concrete surface."
+        },
+        "gpt-5.4": {
+          "summary": "A pair of brown leather shoes with yellow stitching is being carried in a white plastic shopping bag outdoors on a sunny sidewalk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A brown Dr. [PERSON] shoe in a plastic bag being held by someone wearing jeans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pair of brown Dr. [PERSON] shoes with yellow stitching is partially visible inside a white plastic bag on a sidewalk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pair of brown leather boots with yellow stitching sits inside a white plastic shopping bag on a concrete surface."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an animated character with a visible pregnant belly, wearing a blue top and heart-patterned shorts, standing in a room with bookshelves."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized [ORGANIZATION] cartoon character with messy hair and large glasses stands indoors in a blue shirt and red heart-pattern shorts, holding an exposed belly near a shelf and chair."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character wearing a blue shirt and red shorts stands in an indoor room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon woman with glasses and a pregnant belly stands indoors, wearing a blue shirt and heart-patterned shorts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A surreal digital illustration of a character with exaggerated masculine features, including facial hair and hairy legs, wearing a blue shirt and red heart-patterned shorts while cradling a pregnant belly."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses and a nose ring lies on a bed with their eyes closed and tongue out, wearing a purple t-shirt with a graphic design."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying on a bed with a yellow plush pillow, wearing a purple t-shirt with a graphic design."
+        },
+        "gpt-5.4": {
+          "summary": "A person in glasses lies on a bed making a playful face, with a large yellow plush pillow behind their head."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a purple shirt lies down playfully sticking out their tongue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a purple Vans t-shirt lies on a bed with a yellow plush pillow behind their head, sticking out their tongue."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and a nose ring lies on a bed making a playful face while wearing a purple t-shirt."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a limited edition G FUEL energy drink can in a car."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a pink-and-purple limited-edition G FUEL performance energy drink can inside a car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a can of [ORGANIZATION] energy drink in front of car seats."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a pink and purple [ORGANIZATION] energy drink can inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a limited edition pink and purple G FUEL performance energy drink can inside a vehicle."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A child in boxing gloves poses for a photo during a fighting match, with a smiling emoji covering their face."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a text conversation shows a child outdoors wearing boxing gloves in a playful fighting stance, with messages about a nephew’s fighting match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A child wearing boxing gloves stands in a grassy area near parked cars."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a smiling emoji over their face stands outdoors in a fighting stance, wearing boxing gloves and casual clothes, with cars parked nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text message conversation featuring a photo of a young person in boxing gloves and athletic wear standing outdoors near a white car."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a game interface showing progress in a tower challenge with various layers and party statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy mobile game screen shows a [ORGANIZATION] challenge with [ORGANIZATION] marked CLEAR, alongside party power, suggested elements, and retry options."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A game interface showing a character in [LOCATION] readying an attack."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game interface showing a cleared [PERSON] layer with character stats and rewards."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile game interface showing a 'Tower' mode selection screen with completed layers and a party of five anime-style characters ready for battle."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a crying emoji with a distressed expression."
+        },
+        "gpt-5.4": {
+          "summary": "A large crying/screaming emoji with raised hands is shown on a plain white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A crying emoji expressing distress."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon emoji with wide eyes, tears, and an open mouth appears to be screaming or crying."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow cartoon emoji with wide eyes, tears streaming down its face, and an open mouth expressing extreme distress or crying."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while lifting their shirt to reveal their midsection."
+        },
+        "gpt-5.4": {
+          "summary": "A bathroom mirror selfie shows a person holding a phone and lifting a black T-shirt to reveal their torso."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of their chest."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom, lifting their shirt to reveal their torso."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and a beard takes a mirror selfie in a bathroom, lifting their black t-shirt to reveal their torso."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a can of Celsius Arctic Vibe energy drink."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a can of Celsius Arctic Vibe sparkling frozen berry energy drink while seated indoors near a desk or counter."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a Celsius [LOCATION] energy drink can."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a can of Celsius Arctic Vibe energy drink with frozen berry flavor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a can of Celsius '[LOCATION] sparkling frozen berry energy drink against an indoor background."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person resting with their head on a yellow pillow and a light blue quilted blanket."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person lying in bed on yellow and light blue pillows, making a playful face with their tongue out and wearing a septum ring."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person lying down in bed sticking out their tongue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a nose ring sticks out their tongue while lying on a yellow pillow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person lying in bed with dark hair, facial stubble, and a nose ring, sticking their tongue out while resting on a yellow pillow."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair, a beard, and a nose ring lies on a bed, looking directly at the camera, with a light blue pillow and a yellow plush toy visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying on a bed with a pillow, looking directly at the camera with a plush toy in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a shirtless person lying on a bed beside a blue pillow, with a yellow plush toy visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person lying shirtless in bed next to a yellow plush toy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with facial hair and a nose ring rests their head on a pillow next to a yellow plush toy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless person with dark hair and facial piercings lies on a bed resting their head on a blue pillow, with a yellow plush toy visible in the background."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting with two dogs, one resting on their lap and the other standing beside them."
+        },
+        "gpt-5.4": {
+          "summary": "Two dogs crowd around a seated person indoors, with one tan dog in an orange harness standing on their lap and a black-and-white dog resting beside them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs interact affectionately in a home environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs interact with a person in a bathroom setting, one resting its head on their lap while the other sits upright wearing an orange vest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a person sitting with two dogs, one resting its head on their leg and the other standing nearby in an orange vest."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two dogs, one black and white and the other tan, interacting with a person sitting on the floor."
+        },
+        "gpt-5.4": {
+          "summary": "Two dogs look up at the camera in a small bathroom or entry area, with one black-and-white dog very close to the person taking the photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are playfully interacting near a person in an indoor home environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs look up at a person sitting on the floor in a hallway, with towels hanging on the wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a person in blue shorts sitting on the floor with two dogs, one licking their leg and the other looking up."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person lying on a bed with a yellow pillow, wearing a gray Astros t-shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie shows a person lying on a bed with yellow and blue bedding, wearing glasses and a gray Houston Astros T-shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [LOCATION] Astros t-shirt stretches while lying in bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses and a nose ring lies on a bed, wearing a gray [LOCATION] t-shirt while holding up their arm."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and a nose ring lies on a bed wearing a grey [LOCATION] t-shirt."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying on a bed with their arm behind their head, wearing a gray shirt with a sports logo."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person lying on bedding with eyes closed and puckered lips, wearing clear glasses and a gray Astros shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [ORGANIZATION] shirt lounging in bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a [ORGANIZATION] sweatshirt lies on a bed making a playful face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and facial piercings lies on a yellow pillow wearing a grey [LOCATION] t-shirt while making a puckered expression."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog wearing a tie is sitting on a table decorated for a birthday celebration."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy white dog wearing a striped tie sits at an outdoor nighttime birthday setup with string lights, gift bags, and a paw-print birthday banner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A white dog wearing a red striped tie sits in front of gift bags under string lights during an outdoor celebration."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white fluffy dog wearing a striped tie sits on a table at an outdoor birthday party under string lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white fluffy dog wearing a red and white striped tie sits on a table next to gift bags under string lights with a 'IT'S MY BDAY' banner in the background."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dressed-up dog sits on a table surrounded by birthday decorations and gifts."
+        },
+        "gpt-5.4": {
+          "summary": "A small white dog wearing a striped necktie stands on a decorated table at a birthday-style party setup with gift bags and a colorful piñata."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small white dog wearing a tie stands on a table decorated for its birthday party."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white poodle wearing a striped tie sits on a blue-clothed table at an outdoor dog birthday party."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white fluffy dog wearing a red striped tie sits on a table covered with a blue cloth, surrounded by birthday party decorations including gift bags and a piñata."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses, a beard, and a nose ring takes a selfie while wearing a black polo shirt and a seatbelt inside a car."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in a car, wearing a black t-shirt and a seatbelt."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit selfie inside a car shows a person wearing glasses and a black T-shirt with a seatbelt on."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses sits in a car's passenger seat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses and a nose ring takes a selfie while seated in a car, wearing a seatbelt and a gray t-shirt with a red logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with glasses and facial piercings sitting in the driver's seat of a car, wearing a dark t-shirt with a visible red logo."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a car, making a peace sign with their hand."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up car selfie shows a person in glasses and a black T-shirt sticking out their tongue and making a peace sign in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person making a playful peace sign in car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a car makes a peace sign and sticks out their tongue while wearing glasses and a seatbelt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and a nose ring sits in the driver's seat of a car, making a peace sign and sticking out their tongue while wearing a dark polo shirt."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a potted plant with large green leaves, positioned next to a wooden shelf containing various items."
+        },
+        "gpt-5.4": {
+          "summary": "A large potted houseplant with broad glossy leaves sits by a window next to a wooden shelf holding a visible Pokémon Black game case."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person points towards a large potted plant in an indoor room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large potted plant with broad green leaves sits on a wooden floor next to a shelf holding a Pokémon Black game case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A potted plant with large green leaves and reddish stems sits on a wooden floor next to a person's hand, with a shelf of video games visible in the background."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person holds a black Pokémon-themed product box featuring Pikachu"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION]-themed toy box displaying various [ORGANIZATION] figures and a decorative setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a black Pokémon-themed product box featuring Pikachu and a miniature street-scene design with Magnemite and Trubbish artwork in a store aisle."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION]-themed toy box featuring an [ORGANIZATION] figure in front of a house."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION]-themed collectible box featuring Pikachu and other [ORGANIZATION] in a miniature street scene, held in a store."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a [ORGANIZATION] collectible box featuring a diorama of [ORGANIZATION] and [ORGANIZATION] in an urban setting, photographed inside a retail store."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a [ORGANIZATION]-themed toy display pack featuring various figures and a city street environment."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a boxed [ORGANIZATION] display pack in a store, featuring Magnemite and Trubbish with a city street environment setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION] toy set featuring Magnemite in its packaging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION] toy package featuring Magnemite and Trubbish in a city street environment display pack."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a [ORGANIZATION] brand [ORGANIZATION] featuring the figures Magnemite and Trubbish."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a cup of iced coffee next to a partially eaten pastry on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds an iced coffee in a branded plastic cup beside a partially eaten pastry on a wooden table in warm outdoor light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a cup of coffee from [PERSON] while enjoying pastries."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds an iced coffee from [ORGANIZATION] while a partially eaten muffin sits on a wooden table outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds an iced coffee from [PERSON] next to a partially eaten muffin on a wooden table outdoors."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A colorful bouquet of flowers with a handwritten birthday note attached."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful flower bouquet with sunflowers, red roses, baby's breath, and a handwritten birthday note is being held against a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bouquet of flowers wrapped in pink paper includes a handwritten note celebrating someone's birthday month."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a floral bouquet with sunflowers, roses, and baby's breath, featuring a handwritten note celebrating a new baby girl and a birthday."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a large bouquet of sunflowers, red roses, pink carnations, and baby's breath wrapped in pink paper with a handwritten greeting card."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals engaged in a video call, one wearing a red bandana and the other a large black cowboy hat, with a kitchen setting in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A split-screen livestream shows one person smiling in a kitchen while another in a black cowboy hat reacts dramatically with hands on their face as chat comments appear."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are shown in a split-screen format; one appears cheerful indoors while the other seems contemplative against a blue background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Split-screen video call showing one person laughing in a kitchen and another wearing a cowboy hat reacting emotionally against a blue background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image shows a smiling man in a red bandana on the left and an emotional man in a cowboy hat holding his face on the right, overlaid with live chat comments."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two shirtless, hairy male torsos are shown outdoors under a blue sky, with text overlay celebrating \"IT'S FAT BOY FRIDAY!!\"."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two men showing off their bellies, celebrating 'Fat Boy Friday.'"
+        },
+        "gpt-5.4": {
+          "summary": "Close-up outdoor photo of two shirtless hairy torsos with an overlaid caption reading “IT’S FAT BOY FRIDAY!!”."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are shown from behind in a close-up shot against an outdoor backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two shirtless men showing their bellies outdoors with a text overlay reading 'IT'S FAT BOY FRIDAY!!'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up outdoor shot of two shirtless, hairy men standing side-by-side with a text overlay reading 'IT'S FAT BOY FRIDAY !!'."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is shown from the chest down, lifting a black t-shirt to reveal their hairy stomach and chest, while pinching the"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting and lifting their shirt to reveal their midsection."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor photo shows a person lifting a black T-shirt to reveal their bare torso while seated in jeans."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a black t-shirt showing their midsection in jeans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person lifts their black t-shirt to show their torso and abdomen, seated on a tiled floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black t-shirt and blue jeans lifts their shirt to reveal their bare torso, standing on a tiled floor."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person holding a container of colorful cake samples with a note inviting others to help themselves."
+        },
+        "gpt-5.4": {
+          "summary": "A person is holding a colorful partially eaten sheet cake in a plastic container indoors, with a handwritten note on the lid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a colorful cake in an office environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a clear-lidded cake tray with colorful frosting samples, marked with handwritten text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a round plastic container filled with colorful, frosted cake slices on a wooden floor."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A top-down view shows a person's legs in blue shorts and a black shirt, with one arm resting on a light wooden floor."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person's legs and hand resting on their knee, taken from a top-down perspective."
+        },
+        "gpt-5.4": {
+          "summary": "Top-down view of a person wearing a black shirt and blue shorts with legs visible over a light wood floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing black shorts sits cross-legged indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing dark shorts and a black shirt is sitting on a light wood-patterned floor, viewed from above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person perspective shot of a person sitting on a light gray wood-grain floor, wearing blue shorts and a black shirt."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a mirror, giving a thumbs-up gesture."
+        },
+        "gpt-5.4": {
+          "summary": "A playful mirror selfie in a bathroom shows a person giving a thumbs-up and sticking out their tongue while holding a phone with stickers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie making playful faces."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie with a playful expression, giving a thumbs-up while sticking out their tongue."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with a septum piercing and dark hair takes a playful mirror selfie, sticking out their tongue and giving a thumbs-up while holding a phone decorated with stickers."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a sleeveless brown shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A bathroom mirror selfie shows a person in a sleeveless dark shirt holding up one arm, with facial piercings and a sticker-covered phone case."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of their armpit."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a sleeveless shirt, holding a phone with a [ORGANIZATION] card and sticker case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair and facial piercings takes a mirror selfie wearing a brown sleeveless shirt, holding a phone decorated with stickers and a [ORGANIZATION] card."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a cat with a thumbs-up gesture."
+        },
+        "gpt-5.4": {
+          "summary": "A low-resolution close-up of a gray tabby cat facing the camera with a thumbs-up hand gesture on a plain white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat giving a thumbs-up gesture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a tabby cat giving a thumbs-up gesture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-resolution image of a tabby kitten giving a thumbs-up gesture against a plain white background."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A simple cartoon illustration depicts a light blue cat with its mouth open and paws raised, conveying a cheerful or excited mood against a white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cartoonish blue cat character is joyfully raising its arms with a wide-open mouth."
+        },
+        "gpt-5.4": {
+          "summary": "A simple cartoon drawing shows a light blue cat-like character with raised arms and an open mouth on a plain white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pixelated blue ghost character with a wide open mouth."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue cartoon cat character with a joyful expression and raised arms."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A light blue cartoon cat with a thick black outline is depicted mid-shout or yawn against a plain white background."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses, a beard, and piercings takes a selfie outdoors, giving a thumbs up while wearing a blue shirt with a spider logo, with a wooden fence and houses in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is giving a thumbs-up gesture while standing outdoors in a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up outdoor selfie shows a person in glasses and a blue athletic shirt giving a thumbs-up in a fenced backyard at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person giving a thumbs-up in front of their backyard fence."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blue athletic shirt gives a thumbs-up gesture outdoors near a wooden fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and facial piercings wearing a blue athletic shirt gives a thumbs-up gesture in an outdoor backyard setting."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses, a beard, and a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person flexes their arm muscle while posing outdoors at night."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime backyard selfie shows a person in a sleeveless shirt flexing their arm near a patio table, with string lights along a wooden fence."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person flexing their arm in a backyard under string lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person flexes their bicep in a backyard at night, wearing glasses and a blue sleeveless shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with glasses and a nose ring poses in a backyard at night, flexing his bicep while wearing a blue sleeveless shirt."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses, a beard, an ear piercing, and a septum piercing is shown in profile, sitting in a car with strong sunlight casting shadows on their face."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person sitting in a car, partially visible with a focus on their ear and shoulder."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up side-profile selfie shows a person with glasses, facial piercings, and a beard sitting in a car with bright sunlight across their face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses sits in a car seat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses and an ear piercing sits inside a car, looking out the window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up profile shot of a man with glasses and facial piercings sitting inside a car, illuminated by natural sunlight."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a meal on a white disposable plate, featuring fried rice with mixed vegetables and a breaded cutlet, all generously drizzled with ketchup."
+        },
+        "gpt-4o-mini": {
+          "summary": "A plate of rice topped with ketchup, accompanied by fried plantains and a fork."
+        },
+        "gpt-5.4": {
+          "summary": "A plate of vegetable fried rice with ketchup drizzled on top and breaded fried pieces sits on a table beside a fork, knife, and water bottle."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of fried rice topped with ketchup drizzle served alongside a breaded cutlet."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plate of fried rice with mixed vegetables and a breaded cutlet, topped with ketchup, set on a woven placemat with a fork and knife."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a meal featuring fried rice mixed with corn, peas, and carrots alongside breaded cutlets, all drizzled generously with red sauce on a white plate."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two women in stylish suits, one bald with long nails and the other with a blonde ponytail"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals in stylish outfits posing together on a brightly lit stage with a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "A TV screen shows two women on a brightly lit pink-red stage, posing together with subtitles visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are performing a scene from 'The Witches' musical."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women in patterned suits gesture dramatically on a brightly lit stage with a subtitle reading 'both: The witches will see you now.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A photo of a television screen showing two women in colorful suits on a stage with pink and yellow lighting, displaying the subtitle 'both: The witches will see you now.'"
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses, a beard, and a septum piercing winks and sticks out their tongue while partially covered by a striped blanket, with a closet visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a person's head and shoulders, partially obscured, with a bed and a closet in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person lying on bedding, wearing glasses and a septum ring, winking and sticking out their tongue in a playful pose."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person making a playful face in bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses and a nose piercing sticks out their tongue while lying under a striped blanket in a bedroom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark hair, glasses, and facial piercings sticking their tongue out while lying under a striped blanket."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a gray and white tabby cat looking directly at the camera with its tongue slightly out, sitting on a soft blanket indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a cat with its tongue out, appearing playful and curious."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor photo shows a wide-eyed cat sitting on a bed or blanket with its tongue sticking out in a goofy expression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat sitting upright in a cozy indoor environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a tabby cat sitting upright with its tongue out and wide eyes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-angle shot of a tabby and white cat sitting upright with wide eyes and its tongue sticking out in a comical expression."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is giving a thumbs-up gesture in a shopping mall setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie in a shopping mall shows a person wearing glasses and giving a thumbs-up, with storefronts and mannequins in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person giving a thumbs-up in an indoor shopping mall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person gives a thumbs-up selfie inside a shopping mall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A selfie of a man with glasses and facial piercings giving a thumbs-up inside a shopping mall."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two pairs of legs resting on a couch, with one person holding another's hand in front of a television displaying a bright scene."
+        },
+        "gpt-5.4": {
+          "summary": "Two people are seated close together indoors, with clasped hands in the foreground and a large screen or wall display glowing in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of two people holding hands while watching a movie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits with clasped hands, wearing jeans and sneakers, watching a bright, blurry projection on a screen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person perspective of two people holding hands while seated in a dark theater watching a movie screen."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a meal with a burger, sides, and sauces, alongside a person's hands gesturing."
+        },
+        "gpt-5.4": {
+          "summary": "A restaurant table is set with burgers, fries, dipping sauces with lime wedges, and a stone bowl filled with roasted vegetables and fried items while a person gestures beside the food."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal featuring a burger, fries in a mortar-like bowl, pickles, sauces, and lime slices."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person gestures at a table with plates of food, including a burger, fries, and a stone bowl of roasted vegetables."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A table at a restaurant features a large stone bowl filled with fried vegetables and plantains, accompanied by burgers, fries, and dipping sauces."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying down with a dog resting on their lap in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white dog lounges on a person lying on a bed in a bedroom with an open closet in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white dog lounging comfortably in a cozy bedroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white dog lies on its back on a person's lap in a bedroom, looking upward."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white dog lies on its back across a person's chest in a bedroom with an open closet."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black, white, and brown dog is lying comfortably on a striped bed, with its paws curled up, while a closet with clothes and shelves is visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is lying comfortably on a person's lap, showcasing a relaxed and playful pose."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white dog lies sprawled on a bed in a relaxed pose, with an open closet and hanging clothes in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A relaxed dog lying on a bed in front of an open closet."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white dog lies on its back on a bed, paw raised, with an open closet in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white dog lies on its back resting on a person's lap in a bedroom with an open closet."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime street view of a city with tall"
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime cityscape featuring modern buildings, traffic lights, and a full moon partially obscured by clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime downtown street scene shows tall office buildings, red traffic lights, and a bright moon glowing through clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime cityscape featuring illuminated buildings under a moonlit sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime city street scene framed by tall buildings, with a bright moon visible through clouds above traffic lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night-time cityscape featuring a bright moon framed between tall office buildings and traffic lights at an intersection."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a store, wearing a green t-shirt and holding a phone with stickers."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person wearing clear-framed glasses and an olive green T-shirt inside a warehouse-style retail store, with framed certificates on the wall and stocked shelves in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in what appears to be an office supply store."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a warehouse-style store, wearing glasses and an olive-green shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard, nose ring, and clear glasses takes a mirror selfie in an olive green t-shirt inside a warehouse-style retail store."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a store with various products visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person trying on clear-framed glasses in a warehouse-style retail store with stacked products in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses in a store aisle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing clear-framed glasses and a nose ring poses for a selfie inside a warehouse-style retail store."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a man with dark hair, a beard, and clear-framed glasses taken inside a large warehouse-style retail store."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a clear plastic cup containing a green layered drink, likely a matcha latte, with a black straw, against a blurred background of gravel or concrete."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a cup of green beverage with a logo from 'ensō'."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds an iced green matcha latte with milk in a clear plastic cup outdoors in sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a green matcha drink from [ORGANIZATION] in an outdoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a green iced beverage in a clear plastic cup with a black straw and an 'enso.' logo sticker."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a clear plastic cup containing an iced green matcha latte with milk swirls and a black straw against a blurred pavement background."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are taking a selfie indoors, showcasing their casual attire and a bright overhead light."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of two people wearing glasses and graphic T-shirts inside a large warehouse-style store."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a large indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men with glasses pose closely for a selfie inside a large warehouse-style building."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of two men with beards and glasses posing indoors under an industrial-style ceiling."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital [ORGANIZATION] trading card game interface with various [ORGANIZATION] cards in play."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows a [ORGANIZATION] card battle game with [ORGANIZATION] ex in play against [ORGANIZATION], plus bench cards like [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], and [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Pokémon Trading Card Game battle screen showing various cards in play."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Pokémon Trading Card Game battle screen showing a [ORGANIZATION] card active with an 'End Turn' button visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Pokémon Trading Card Game mobile battle featuring a [ORGANIZATION] ex attacking an opponent's [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION] ex [ORGANIZATION] card displaying its attack '[ORGANIZATION] and other cards in play."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile game screenshot shows a [ORGANIZATION] card battle with a highlighted [ORGANIZATION] ex card using [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] card featuring [ORGANIZATION] ex in action during a game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Pokémon Trading Card Game battle screen highlighting [ORGANIZATION] using the move [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from [ORGANIZATION] mobile game showing a [ORGANIZATION] ex card executing its [ORGANIZATION] attack."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holds a woven basket filled with various items, while an R2-D2 decoration stands nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands in a driveway holding a large gift basket with assorted items beside an [LOCATION]-themed flower arrangement/display."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a basket filled with various items near an [LOCATION]-themed trash can."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a woven basket filled with gifts next to a [LOCATION]-shaped flower vase outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands outdoors holding a large wicker gift basket containing a tribute camera and snacks, positioned next to an R2-D2 themed planter filled with white flowers."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals pose together in front of a mirror inside a clothing store, with colorful tents visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose for a mirror selfie inside a clothing shop with racks of clothes and another shopper browsing in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie in front of an arched mirror inside what appears to be a thrift store."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men pose for a mirror selfie inside a colorful clothing store."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose for a mirror selfie inside a mobile clothing store or pop-up shop, with racks of apparel and colorful tents visible in the background."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful collection of doodles, primarily of various cartoonish faces and frogs on a light background."
+        },
+        "gpt-5.4": {
+          "summary": "A page filled with colorful hand-drawn doodles of cute cartoon frogs and other small character faces in a playful sketchbook style."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sheet of paper filled with colorful hand-drawn frog illustrations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A textured surface covered in colorful, childlike drawings of frogs and other cartoon creatures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a textured paper surface covered in colorful, hand-drawn doodles of various cartoon frogs and faces."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a bedroom holds a bouquet of flowers and a phone, seemingly presenting them to someone off-camera who is under a blanket."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in casual attire is holding a bouquet of flowers while standing in a room with a cluttered background."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands in a bedroom holding a bouquet of flowers and a phone, with a bed in the foreground and a TV dresser nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in casual attire holding a bouquet of flowers while pointing towards something off-camera."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a bedroom holds a bouquet of flowers while pointing a phone toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a bedroom holds a bouquet of flowers and points a remote control forward while standing near a dresser with collectibles."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, slightly blurry image shows a cat's face with large,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a cat with a slightly distorted face."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry close-up of a gray cat’s face with a wide-angle, slightly distorted look."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a gray cat looking upwards."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a gray cat with wide, expressive eyes looking upward."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-resolution image of a gray cat with large eyes looking upward."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a vibrant bouquet of pink and purple flowers."
+        },
+        "gpt-5.4": {
+          "summary": "A hand-held bouquet of pink and purple flowers, including roses, is wrapped in clear plastic outdoors in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a bouquet of pink roses wrapped in clear plastic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a bouquet of pink and red roses with filler flowers, wrapped in clear plastic and paper featuring 'HAY BLOOM' branding."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a bouquet of purple roses and pink filler flowers wrapped in clear plastic on a sunny day."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie against a bright orange background."
+        },
+        "gpt-5.4": {
+          "summary": "A person seen from behind in strong orange lighting holds up a smartphone, wearing a graphic T-shirt with partially visible stylized text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a photo of an orange wall while wearing a white shirt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person viewed from behind takes a selfie in an orange-lit room, wearing a t-shirt with Japanese text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person viewed from behind takes a photo of themselves in a mirror inside a room with vibrant orange walls, wearing a graphic t-shirt."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a reflective spherical sculpture with intricate wire designs, capturing the reflections of two individuals."
+        },
+        "gpt-5.4": {
+          "summary": "A reflective circular surface shows two people standing beneath a large abstract wire installation in a gallery-like indoor space."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sits inside a spherical sculpture surrounded by an intricate network of lines."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people are reflected in a large spherical mirror surrounded by an intricate wireframe sculpture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle shot captures the reflection of two people taking a photo inside a large, spherical metallic art installation surrounded by an intricate wireframe structure."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts an art gallery interior with a modern sculpture and visitors interacting with the space."
+        },
+        "gpt-5.4": {
+          "summary": "An overhead view of a modern art museum atrium shows visitors near a hanging abstract installation, a staircase, and surrounding artworks."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A modern art gallery interior featuring abstract sculptures suspended from a curved ceiling."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An overhead view of a modern art museum atrium with visitors observing suspended sculptures and walking on stairs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a modern art gallery interior featuring visitors walking on a speckled floor beneath suspended white sculptures and near a curved staircase."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two men are sitting on a large pink butterfly-themed swing over water, with one man affectionately kissing the other's cheek, set against an urban"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple sits closely together on a pink swing in a park setting with modern buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people sit closely on a bright pink butterfly-shaped swing over a pond in an urban park, with pumpkins, hay bales, and skyscrapers in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are sitting together in a pink swing structure near water, surrounded by hay bales."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose affectionately on a pink swing structure beside a pond, with city skyscrapers and autumn decorations in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose affectionately on a large pink swing set in an urban park setting, surrounded by hay bales and a pumpkin."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man wearing glasses and a plaid shirt looks through"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is peering through a wooden structure with bars, possibly at a fair or amusement area."
+        },
+        "gpt-5.4": {
+          "summary": "A person in glasses leans into a small barred wooden window, posing playfully in an outdoor rustic setting with hay bales and pumpkins visible behind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man leans through a wooden structure holding bars while adjusting his glasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a plaid shirt and jeans poses playfully behind bars inside a wooden structure, with hay bales and pumpkins visible outside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a plaid shirt and glasses poses playfully behind the bars of a wooden jail cell prop at an outdoor event."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting on hay bales holding a bouquet of sunflowers in a sunny outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person sits on stacked hay bales outdoors holding a bouquet of bright sunflowers beside more sunflower bundles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses outdoors holding sunflowers in front of a hay bale setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while holding sunflowers and sitting on hay bales outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man with glasses and a beard sits on hay bales holding sunflowers, surrounded by more artificial flowers in an outdoor setting."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are taking a selfie outdoors with vehicles in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up outdoor selfie shows two people in sunglasses and casual clothes standing near parked vehicles in warm late-afternoon light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie outdoors in an open area during daylight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men with sunglasses pose closely for a selfie outdoors near parked vehicles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose for a close-up selfie outdoors during golden hour, with one wearing clear glasses and a nose ring while the other wears aviator sunglasses and a plaid shirt. - visible_text: [] - tags: [\"selfie\", \"friendship\", \"outdoor\", \"golden hour\", \"casual style\", \"social\"]"
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses and a nose ring poses thoughtfully with their hand on their chin and arms crossed, standing on a red railing decorated with autumn leaves against a sunset backdrop with windmills and a pond."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a black t-shirt poses thoughtfully on a red railing with autumn leaves, against a sunset backdrop in a park."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black shirt poses thoughtfully on a decorated red bridge at sunset in a park near water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person posing outdoors during sunset in a park-like area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black shirt stands on a red railing decorated with autumn leaves, posing thoughtfully against a sunset backdrop with trees and water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a black t-shirt and glasses poses with a thoughtful expression on a red railing decorated with autumn leaves against a sunset backdrop."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is sharing a kiss in front of a sunset at [ORGANIZATION], with a crowd in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A couple poses kissing in a large photo-frame installation at [ORGANIZATION] during sunset, with a flower field and visitors in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses under a '[ORGANIZATION]' sign during sunset in an open field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people embrace and kiss under a floral archway at [ORGANIZATION] during sunset, with crowds visible in the background field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two people embrace and kiss while framed by a wooden sign reading '[ORGANIZATION]' against a sunset backdrop in a field with other visitors."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several bouquets of flowers on a desk, surrounded by various papers and items."
+        },
+        "gpt-5.4": {
+          "summary": "Two bouquets of flowers, including pale roses and a mixed bouquet with sunflowers, rest on a desk lit by warm sunlight beneath pinned handwritten notes and sketches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two bouquets of flowers wrapped in paper sit atop a desk next to various papers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two bouquets of flowers sit on a desk surrounded by handwritten notes and sketches."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two bouquets of flowers, one with roses and another with sunflowers and chrysanthemums, sit on a desk surrounded by handwritten notes and sketches."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful painting of a girl crouching near a vending machine in a stylized interior setting."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful painting displayed on a gallery wall shows a stylized girl crouching beside a Japanese product cabinet near a doorway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant illustration of a person in traditional attire interacting with an orange vending machine filled with various products."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful painting depicts a person sitting on the floor beside a vending machine filled with drinks and toiletries, set against a windowed interior."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful painting displayed in a gallery depicts a crouching figure with long black hair next to a vending machine filled with Japanese beverages and toiletries."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A surreal painting depicts a small, pink, humanoid figure with glowing eyes engulfed in flames, set within a larger"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an abstract painting depicting a figure seated in a stylized, fiery environment."
+        },
+        "gpt-5.4": {
+          "summary": "A surreal anatomical-style painting shows a pink humanoid figure with glowing eyes surrounded by flames inside a red organic cavity."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A surreal painting featuring a figure engulfed in flames within an anatomical structure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A surreal painting depicts a pale, flame-haired figure with glowing eyes seated within swirling red and beige organic forms."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A surreal digital painting depicts a small, pink-skinned humanoid figure with glowing yellow eyes and flames for hair, seated within a fleshy, cavernous interior of reds and pinks."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a large, colorful art installation of a humanoid figure in an art gallery setting."
+        },
+        "gpt-5.4": {
+          "summary": "A tall surreal humanoid artwork with a large colorful face stands in the center of a museum gallery, flanked by framed paintings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Art installation featuring a large figure in an art gallery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tall, stylized humanoid sculpture with a colorful, abstract face hangs from chains in a modern art gallery, surrounded by other paintings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, surreal mixed-media sculpture of a figure with an oversized head and black pants hangs suspended in the center of a modern art gallery."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are taking a selfie in a mirror, with one leaning in for a kiss."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows two people in a restroom, with one kissing the other's cheek in an affectionate pose."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a mirror selfie in an indoor room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people take a mirror selfie indoors, one kissing the other's cheek while holding the phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose affectionately for a mirror selfie in an indoor setting, with one kissing the other's cheek while holding a smartphone. The man on the left wears a graphic t-shirt and cap, while the man on the right holds the phone and wears glasses."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting indoors, partially visible with a focus on their upper body and a window in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a person wearing glasses and a patterned polo shirt, seated by a window with a no-smoking notice in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses and a sweater in an indoor environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses and a nose ring smiles while leaning against a cinder block wall near a window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark hair, glasses, and a nose ring wearing a grey textured polo shirt against a cinder block wall."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful logo celebrating the 30th anniversary of [ORGANIZATION], with a [ORGANIZATION] character prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A Pokémon 30th-anniversary style graphic shows Dragonite sitting in a large '30' with the text 'Pokémon: Since 1996' below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A celebratory logo marking [ORGANIZATION]'s 30th anniversary."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow dragon [ORGANIZATION], [ORGANIZATION], is positioned atop a stylized '30' logo with a [ORGANIZATION] design, celebrating [ORGANIZATION]'s anniversary."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A celebratory graphic featuring the [ORGANIZATION] character [ORGANIZATION] perched on a large stylized number '30' with a [ORGANIZATION] design, accompanied by the text 'Pokémon: Since 1996'."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of animated characters is gathered in a cozy setting, enjoying drinks and interacting with each other."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style group illustration shows several characters lounging in a cozy café-like room with coffee cups, with a chapter title printed at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of anime characters are gathered in a cozy indoor space, engaging casually."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of anime characters relaxes in a cozy cafe setting with coffee cups and festive decorations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of anime characters relaxes in a cozy, wood-paneled room while drinking coffee from cups labeled '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a detailed statue of a warrior holding a sword, displayed inside a car."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a car is holding a detailed statue of an armored historical or mythic figure with one hand raised and a sword at the waist."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holding a detailed figurine of an armored warrior in front of car interior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a greenish figurine of an armored warrior making a hand gesture inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a green, textured statue of a warrior in armor inside a car, with the [ORGANIZATION] steering wheel visible in the background."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two identical figurines of armored figures facing each other, each holding a finger up in a gesture."
+        },
+        "gpt-5.4": {
+          "summary": "A pair of stone-look warrior figurine bookends or pen holders stand facing each other with pens tucked behind them on a desk or laptop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two medieval knight-themed bookends holding pens."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two stone-like figurines of armored warriors facing each other, holding pens as if in a standoff, placed on a laptop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pair of green, stone-textured bookends featuring anime characters in samurai-style armor holding pens, resting on a closed laptop."
+        }
+      }
     }
   }
 }

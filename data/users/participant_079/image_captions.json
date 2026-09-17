@@ -1,65 +1,1745 @@
 {
   "user_id": "participant_079",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "coffee and tea",
-        "film and television",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: coffee and tea; film and television; outdoor activities."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a collection of photo cards featuring individuals posing with playful gestures on a pink table."
+        },
+        "gpt-5.4": {
+          "summary": "Eight portrait photo cards in plastic sleeves, showing people posing in matching varsity-style jackets, are arranged on a pink round table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of eight photos featuring young men in casual attire arranged neatly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Seven collectible photos of young men in matching jackets are arranged on a pink circular surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Eight collectible photocards of male K-pop idols are arranged in two rows on a pink circular table, featuring members wearing matching black varsity jackets with 'T' logos and lightning bolts."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "coffee and tea",
-        "crafts and design",
-        "cultural visits",
-        "live performances",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: coffee and tea; crafts and design; cultural visits; live performances; photography."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a teddy bear on a bed, accompanied by a pinned tweet discussing a fansign question related to a Disney prince."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows a Twitter/X profile with a teddy bear in the header image and a pinned fan post about [PERSON] and a [LOCATION] prince question."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post featuring a handwritten note asking 'If you were a Disney prince who would you be?'"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media profile shows a pinned post about a fan's nostalgic memory of a celebrity answering '[PERSON]' to a [LOCATION] prince question."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a Twitter profile for '[PERSON]' featuring a pinned post about a K-pop fansign interaction with a handwritten note."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "coffee and tea",
-        "dining",
-        "film and television",
-        "live performances",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: coffee and tea; dining; film and television; live performances; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in a car, making a peace sign gesture with their hand."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie in a dark car shows a person winking and pointing at their cheek, with glittery eye makeup, red lipstick, facial piercings, and a visible seatbelt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person posing in a dark environment wearing makeup and accessories."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glittery eye makeup and red lipstick poses inside a car, making a peace sign gesture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark hair and bangs winking at the camera while making a peace sign, wearing glittery eyeshadow and red lipstick inside a vehicle."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "coffee and tea",
-        "crafts and design",
-        "dogs",
-        "live performances",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: coffee and tea; crafts and design; dogs; live performances; photography."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features various plush dolls and merchandise related to a K-pop group, arranged on a patterned surface."
+        },
+        "gpt-5.4": {
+          "summary": "A collection of K-pop character plush dolls and fan merchandise is arranged on a black-and-white blanket on the floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of plush toys and merchandise featuring characters from [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of [ORGANIZATION] fan merchandise, including plush dolls and cards, arranged on a patterned rug."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of K-pop merchandise featuring plush dolls, photocards, and accessories arranged on a black and white patterned rug."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "coffee and tea",
-        "crafts and design",
-        "live performances",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: coffee and tea; crafts and design; live performances; outdoor activities; photography."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of photo cards and merchandise related to a specific entertainment franchise, displayed on a patterned rug."
+        },
+        "gpt-5.4": {
+          "summary": "A spread of [PERSON] album boxes, photocards, and packaged merchandise is arranged on a patterned rug."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Collection of ATEEZ merchandise including photo cards and stickers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of K-pop merchandise, including albums and photocard packs from the group [ORGANIZATION], arranged on a patterned rug."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of [ORGANIZATION] merchandise, including the 'The World EP.2: Outlaw' album and photocard packs, is displayed on a plush rug."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "coffee and tea",
-        "dining",
-        "live performances",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: coffee and tea; dining; live performances; outdoor activities; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cluttered desk with two computer monitors displaying ticket sale information for a concert, surrounded by various figurines and plush toys."
+        },
+        "gpt-5.4": {
+          "summary": "A desk setup with two monitors showing [ORGANIZATION] concert ticket presale pages, surrounded by plush toys, figurines, and photo card holders."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A desk setup featuring a computer displaying ticket information for [PERSON]'s world tour alongside various plush toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A desk setup showing two monitors displaying [ORGANIZATION] concert ticket presales, surrounded by fan merchandise including plushies and photo frames."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A desk setup featuring two computer monitors displaying the ATEEZ World Tour ticket sale page, surrounded by various plush toys and character figurines."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a computer setup with two monitors displaying ticket sale information for a concert, surrounded by various figurines and collectibles."
+        },
+        "gpt-5.4": {
+          "summary": "A desk setup with two monitors showing [ORGANIZATION] concert ticket sale pages, surrounded by K-pop plushies, figurines, and photo keychain merchandise."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A desk setup featuring a computer displaying ticket information for [PERSON]'s world tour alongside plush toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A desk setup showing two monitors displaying [ORGANIZATION] concert ticket sales pages, surrounded by fan merchandise including plushies and photo frames."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A desk setup featuring two computer monitors displaying ticket presale pages for the K-pop group [ORGANIZATION], surrounded by various plush toys and photo holders."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a collection of cute phone cases and accessories displayed on a table alongside two laptops."
+        },
+        "gpt-5.4": {
+          "summary": "Two laptops sit on a window-side table beside a large spread of pastel character-themed photocard holders, plush accessories, and idol photocards, with one screen showing an ATINY membership presale."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A desk setup featuring two laptops displaying a K-pop group's membership presale page alongside various plush toys and photo frames."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A desk setup with two laptops displaying fan sites and a collection of personalized photo keychains and plushies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wooden table displays two open laptops and a large collection of K-pop merchandise, including numerous photo card holders and plushies, set against a window background."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an [ORGANIZATION] displaying a ticket sales countdown for an event, with two photos placed on the screen."
+        },
+        "gpt-5.4": {
+          "summary": "A tablet displays an [ORGANIZATION] ticket-sale countdown page with two collectible photo cards propped in front of it on a bed or cushioned surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tablet displaying an [ORGANIZATION] ticket sale countdown page."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tablet displays an [ORGANIZATION] ticket sale countdown page, with two celebrity photos placed on top of the screen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tablet displays an [ORGANIZATION] ticketing countdown page for an upcoming sale, flanked by two K-pop photocards."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop surrounded by decorated phone cases and a decorative item, indicating a personal workspace."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] on a desk shows an [ORGANIZATION] ticket sale countdown, surrounded by decorative photo-card frames, a small fan, and cute accessories."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A desk setup featuring a laptop displaying an [ORGANIZATION] ticket sale page surrounded by decorative items related to K-pop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displaying an [ORGANIZATION] ticket sale countdown is decorated with multiple framed photos of K-pop idols on a wooden desk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A laptop displaying an [ORGANIZATION] ticket sale countdown is surrounded by multiple decorated photo holders featuring K-pop idols on a wooden desk."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a computer screen displaying a ticket sales queue message from [ORGANIZATION], alongside a collection of colorful figurines."
+        },
+        "gpt-5.4": {
+          "summary": "A computer monitor shows an [ORGANIZATION] ticket queue page with a waiting message, with several collectible figurines lined up in front of the screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A computer screen displaying an [ORGANIZATION] ticketing page indicating a queue status."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer monitor displays an [ORGANIZATION] ticket sales queue screen with a progress bar, while colorful figurines sit on the desk below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A computer monitor displays an [ORGANIZATION] ticketing queue page with a message indicating that sales will begin shortly, while several colorful figurines are arranged on the desk below."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a ticket purchasing interface displaying a premium seat selection for an event."
+        },
+        "gpt-5.4": {
+          "summary": "A computer monitor shows a venue seating chart with a selected premium seat priced at $999, with small collectible figurines visible in front of the screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ticket purchase screen showing a premium seat in [ORGANIZATION] event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer screen displays a premium concert seat selection interface with a price of $999.00, framed by colorful figurines below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A computer monitor displays a ticketing interface showing a premium seat priced at $999.00, with several colorful figurines lined up on the desk below."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a ticket purchasing interface for the ATEEZ World Tour concert scheduled for [DATE], in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows an [ORGANIZATION] world tour ticketing page with an arena seating map, ticket price range, and a prompt to pick seats on the map."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a ticketing app showing [PERSON] World Tour tickets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A ticket selection screen for an [ORGANIZATION] concert showing a venue map with pricing and seating options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a ticketing interface for the ATEEZ World Tour concert in [LOCATION] on [DATE], displaying an interactive seating map."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand is holding a fan club card above a payment terminal."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a green [ORGANIZATION] official fan club card over a card reader at a checkout counter with [ORGANIZATION] Pay signage visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a green card labeled '[ORGANIZATION], ATINY' near an [ORGANIZATION] Pay terminal."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a green [PERSON] fanclub card over an [ORGANIZATION] payment terminal."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a green [ORGANIZATION] official fanclub card against an [ORGANIZATION] payment terminal at a checkout counter."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a [PERSON] for an [LOCATION] event at [LOCATION] in [LOCATION], purchased by"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a concert ticket for the event featuring [LOCATION] at August Hall in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Ticketweb event ticket for [LOCATION] at August Hall in [LOCATION], showing [ORGANIZATION] details, price, and the event date and time."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Ticketweb ticket for A.C.E. concert in VIP section of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Ticketweb concert ticket for [PERSON] at August Hall in [LOCATION], showing VIP section details and purchase info."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital ticket from Ticketweb for an [PERSON] concert at [LOCATION] in [LOCATION] on [DATE]."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five performers in matching black sweatshirts are on stage, engaging with the audience under blue lighting."
+        },
+        "gpt-5.4": {
+          "summary": "Five performers in matching black outfits stand on a dimly lit stage under blue lights, holding microphones during a live concert moment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of five individuals in black shirts perform together under blue stage lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five male performers in matching black outfits stand on a blue-lit stage, singing into microphones during a concert."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Five male performers wearing matching black 'UNDER COVER' sweatshirts stand on a stage under blue lighting, holding microphones and interacting with the audience."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a person with reddish-brown hair and hands gently holding a chicken,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a chicken close to their face in a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a person indoors gently holding a chicken against their shoulder in warm light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person gently holds a chicken close-up."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a chicken close to their face in an indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a person with brown hair holding a chicken, showing the bird's head and eye in detail."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a partial screenshot of a social media profile featuring a name, pronouns, a username, a profession, a location, and another social media handle."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a social media profile with personal details and a username."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode social media profile screenshot shows the name [PERSON], a handle, and a short bio listing \"[ORGANIZATION] creator,\" \"bay area,\" and another tagged account."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile card of [LOCATION] highlighting her as a digital creator from [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter profile card showing the username '[PERSON]', pronouns 'she/her', location 'bay area', and handle '[ACCOUNT]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media profile header displaying the name [PERSON], pronouns she/her, and bio details on a black background."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a flag design with a person wearing a cowboy hat and red gloves against a pink and white striped background with stars."
+        },
+        "gpt-5.4": {
+          "summary": "A pink-and-white flag on a carpet features a stylized portrait of a person in a cowboy hat and red gloves over a stars-and-stripes design."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a cowboy outfit stands against an American flag design backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink American flag banner featuring a person in cowboy attire lies on a textured brown carpet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pink and white American flag featuring a printed image of a person in cowboy attire, including a hat and red gloves, displayed on a brown carpet."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person stands in a sunny outdoor setting, holding up a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands outdoors holding a large pink flag with a design featuring a figure in a plaid outfit and red gloves against a backdrop of stars and stripes."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands in a sunny garden holding a large pink stars-and-stripes style flag printed with a cowboy-themed portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands outdoors holding a pink American flag featuring an image of someone in [LOCATION] attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds up a pink and white flag featuring an image of a person in cowboy attire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands outdoors on a grassy lawn holding up a large pink and white flag featuring a portrait of a man in a cowboy hat."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person stands outdoors holding a large pink and white striped flag with stars, featuring a prominent image of a person wearing a pink cowboy hat, red studded gloves, and a plaid shirt."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a pink flag with a design featuring a cowboy hat and red gloves in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands in a sunny garden holding a large pink striped flag with white stars and a printed portrait of a cowboy-themed performer."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a pink flag featuring an individual in cowboy attire outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds up a pink flag with white stars and stripes, featuring a printed image of a person in cowboy attire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands outdoors in a grassy yard holding up a large pink and white flag featuring a portrait of a man wearing a cowboy hat."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smartphone home screen is displayed with a grayscale marbled background, featuring various app icons and custom widgets, predominantly in black and white."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone home screen with various app icons and a background featuring a marbled design."
+        },
+        "gpt-5.4": {
+          "summary": "A grayscale smartphone home screen shows a marble-pattern wallpaper, photo widgets, and app icons arranged in an aesthetic layout."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white home screen featuring various app icons arranged in a grid."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone home screen with a black-and-white marbled wallpaper, custom widget icons, and app shortcuts including [ORGANIZATION], [ORGANIZATION], [LOCATION], and [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone home screen featuring a monochrome, swirling liquid wallpaper and multiple widgets displaying black-and-white portraits of K-pop idols."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone home screen with a marbled background, featuring various app icons and a time/date display."
+        },
+        "gpt-5.4": {
+          "summary": "A grayscale smartphone home screen shows a marble swirl wallpaper, custom widgets with photos, and stylized app icons labeled for social and music apps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stylized digital wallpaper featuring a black-and-white aesthetic with various app icons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone home screen with a black-and-white marbled wallpaper, displaying app icons for social media and lifestyle apps, along with a widget showing the date and time."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A monochrome smartphone home screen featuring a liquid-metal wallpaper, app widgets with K-pop imagery, and standard social media icons."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone home screen with a marbled background and various app icons, including photos and widgets."
+        },
+        "gpt-5.4": {
+          "summary": "A monochrome smartphone home screen with a swirling marble-style wallpaper, black-and-white photo widgets, and various app icons is shown."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A custom home screen featuring a marble pattern background with various app icons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone home screen with a black-and-white marbled wallpaper and custom widgetized app icons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A monochrome smartphone home screen featuring a liquid-metal wallpaper and multiple widgets displaying black-and-white portraits of a young man."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone home screen with various app icons and a visually abstract background."
+        },
+        "gpt-5.4": {
+          "summary": "A monochrome smartphone home screen with a marbled wallpaper, K-pop idol photo widgets, and app icons including Pinterest, Notes, AliExpress, [PERSON], and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A mobile home screen featuring various app icons against a marble-patterned background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone home screen with a swirling grey-and-white wallpaper, featuring multiple app icons including social media and shopping apps, overlaid with four large black-and-white portrait images of the same person."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone home screen featuring a monochrome, swirling liquid wallpaper and multiple app icons customized with black-and-white photos of a male K-pop idol."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a collection of plush toys, fan merchandise, and a decorative banner in a suitcase."
+        },
+        "gpt-5.4": {
+          "summary": "An open suitcase on a carpet is packed with plush toys, fan merchandise, dolls, and a large glittery sign, with more stuffed animals nearby in a bedroom-like space."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A suitcase filled with plush toys and memorabilia from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A suitcase filled with plush toys, fan merchandise, and photos of K-pop idols, including a cow-print blanket with glitter text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An open suitcase is packed with K-pop merchandise, including plush dolls, light sticks, and a glittery towel featuring the name '[ORGANIZATION]' for the group [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a red hoodie is standing against a blue background."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized portrait photo shows a person with center-parted dark hair wearing a maroon hoodie against a plain blue background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a maroon hoodie against a blue background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short dark hair wearing a red hoodie stands against a plain blue background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young person with dark hair and a red hoodie stands against a blue background, looking directly at the camera."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person stands outdoors holding a large pink and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a large pink flag featuring a stylized image of a child in a cowboy hat and gloves against a backdrop of stars and stripes."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands in a sunny backyard holding a large pink flag with white stars and stripes and a printed portrait of someone in a cowboy hat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a pink American flag banner featuring an individual in cowboy attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a pink and white flag featuring a stylized portrait of a person in cowboy attire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands outdoors holding a large pink and white flag featuring a printed image of a man in a cowboy hat and plaid shirt."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a cowboy hat and fringe jacket stands in a parking lot with a crowd in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black cowboy hat and fringed outfit poses in a sunny parking lot event area, wearing a lanyard badge and plush keychains."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black hat, fringe jacket, jeans, and platform shoes stands in an open parking lot under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black fringed jacket and cowboy hat poses in a sunny parking lot at an event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black cowboy hat, fringed jacket, and light-wash jeans poses in an outdoor parking lot with event infrastructure visible in the background."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a black outfit and hat poses playfully in a parking lot with a crowd in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black wide-brim hat poses in a sunny parking lot near event lines and accessibility-marked spaces, wearing a lanyard with small character keychains."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a wide-brimmed hat stands confidently in an open parking lot under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black hat and jacket poses in a large parking lot under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black cowboy hat, fringed jacket, and light-wash jeans poses in a sunny outdoor parking lot while pointing at the camera."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a black fringed outfit and wide-brimmed hat poses in a parking lot with a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black cowboy hat and fringed jacket poses in a large parking lot near event lines, wearing a lanyard badge and character keychains."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a stylish outfit posing outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black fringed jacket and cowboy hat poses in a sunny parking lot at an outdoor event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black cowboy hat, fringed jacket, and light-wash jeans poses in a sunny outdoor parking lot with event infrastructure visible in the background."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a unique hat and fringe jacket poses playfully in a parking lot with a crowd in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black fringed outfit and tall hat poses playfully in a large outdoor parking lot near an event line under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a parking lot wearing casual attire including jeans, boots, and accessories."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black fringed jacket and cowboy hat poses playfully in a sunny parking lot, surrounded by event crowds and golf carts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a tall black hat, fringed jacket, and light-wash jeans poses playfully in an outdoor parking lot with event infrastructure visible in the background."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a pink flag with a graphic design while standing in a concert setting."
+        },
+        "gpt-5.4": {
+          "summary": "A concertgoer poses near the front of a large indoor stage, holding up a pink striped fan banner with a printed portrait while blue lights illuminate a tall tower-like stage set."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a flag featuring an American design during what appears to be a concert."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while holding up a pink-and-white striped flag with a printed image of a performer, inside a concert venue illuminated by blue stage lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing a cowboy hat stands in the foreground of a concert venue holding a large pink and white flag featuring a portrait, with a tall illuminated stage structure visible in the background."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holds a large flag featuring a character against a concert backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A person at an indoor concert venue holds up a large pink striped fan banner with a printed portrait in front of a blue-lit stage setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan holds a flag featuring an idol during what appears to be a concert."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds up a pink and white flag featuring a celebrity's image at a concert with blue stage lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person holds a large pink and white flag featuring a portrait of a male celebrity in cowboy attire at a concert venue with blue stage lighting."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals dressed in unique costumes pose together in a parking area with a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Three people in coordinated black event outfits pose in a sunny parking lot outside [ORGANIZATION], with one holding a fan and another wearing bunny ears."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals dressed in unique costumes pose outside an event near [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people in themed costumes pose together in a parking lot near an [ORGANIZATION] sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three individuals in elaborate black and pink costumes pose for a photo in a sunny parking lot near [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling male performer in a black and maroon outfit holds a microphone on a brightly lit stage, with handwritten text \"To. My moon [PERSON]\" overlaid on the image."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a stylish outfit poses on stage, holding a microphone."
+        },
+        "gpt-5.4": {
+          "summary": "A stage performer in a black outfit smiles while holding a microphone under blue concert lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person performing stage show in a stylish outfit holding microphone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer in a shiny black outfit smiles while holding a microphone on a lit stage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male performer in a black textured outfit smiles while holding a microphone on a stage with blue lighting."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a stylish black outfit is holding a microphone on stage, with a blue-lit background."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in a dark velvet suit and purple shirt stands on a blue-lit stage holding a microphone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black suit jacket over purple shirt stands stage-side holding something small."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black velvet suit and purple shirt stands on a blue-lit stage, holding a microphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male performer in a black velvet suit and purple shirt stands on a stage with blue lighting, holding a microphone."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male performer wearing a black shirt with sparkling gold sequined sleeves and shoulders is on stage, with an audience visible in the dark background holding up"
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a sparkling shirt gestures towards the audience during a concert."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up concert photo shows a performer in a sparkling black-and-gold outfit with a headset mic on a dimly lit stage before a crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer in a glittery jacket singing into a microphone during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer in a glittering jacket sings on stage before an audience holding lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male performer wearing a sequined jacket and headset mic stands on stage under blue lighting with an audience holding light sticks in the background."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a sparkling jacket interacts with the audience during a concert."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in glasses and a black glitter-covered jacket stands onstage under dark concert lighting while audience phones record from below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a sparkly jacket performs in front of an audience under stage lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer in a glittering black jacket and glasses on stage, with a handwritten note visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male performer wearing glasses and a black jacket with sparkling embellishments stands on stage under dark lighting while being filmed by an audience member's phone."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is yawning while resting on a blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan puppy is lying face-down on a rumpled gray bed or blanket, giving a sleepy or cuddly impression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a dog lying down in bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurry image of a small brown dog yawning while lying on a gray blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blurry close-up of a small tan dog yawning or barking on a bed with gray and zebra-print bedding."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a cowboy hat poses with a colorful light stick and a fan while surrounded by a crowd at night."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a black cowboy hat poses with a peace sign and fan merch outside a stadium at night among other attendees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black outfit poses playfully while holding an award-like object outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a cowboy hat smiles and poses with a microphone and themed accessories outside a building at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman wearing a cowboy hat and black jacket poses with a peace sign while holding light sticks outside a venue at night."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a black hat holds two colorful items, one resembling a cartoon character and the other a decorative object, in a crowded setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a large black cowboy hat poses in a dark crowded event space while holding a fan with a performer photo and a bear-shaped lightstick."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person dressed in a witch costume holding props during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black cowboy hat holds a tiger-themed fan with a celebrity photo and a yellow plush lightstick at a crowded nighttime event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a large black hat holds a fan featuring a male celebrity and a yellow light stick at a crowded nighttime event."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a cowboy hat holds a large flag with a graphic design while standing in a crowd at night."
+        },
+        "gpt-5.4": {
+          "summary": "At night outside a large arena, a person in a black cowboy hat holds up a pink striped fan banner featuring a printed portrait of someone in western-style clothing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a pink flag featuring an individual in cowboy attire during what appears to be a nighttime event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a cowboy hat holds a pink and white flag featuring a celebrity image, standing outside a large building at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black cowboy hat stands outdoors at night holding a pink and white flag featuring a portrait of a man in western attire, with a stadium visible in the background."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a lively concert scene with fans holding various light sticks and merchandise."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling attendee in a crowded arena poses with fan merch and a lightstick on a confetti-covered floor after an event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a pirate hat holds memorabilia inside an arena filled with confetti."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling person at a concert holds fan merchandise while surrounded by confetti and other attendees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling attendee wearing a black cowboy hat poses with K-pop merchandise and light sticks amidst confetti in a crowded indoor arena."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cute orange and white plush toy, wearing a small white mask"
+        },
+        "gpt-4o-mini": {
+          "summary": "A plush toy is peeking out from a black bag in an airport setting."
+        },
+        "gpt-5.4": {
+          "summary": "An orange-and-white plush toy peeks out from an open black bag in what appears to be an airport or transit waiting area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush toy wearing a mask peeking out from inside an open backpack in what appears to be an airport waiting area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plush toy wearing a face mask peeks out from an open black backpack in what appears to be an airport waiting area."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of an orange and white plush toy peeking out from a partially unzipped black bag in what appears to be an airport waiting area."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer on stage gestures while another person stands behind them, both in a concert setting."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in sunglasses sings into a microphone on an outdoor stage with empty stadium seats behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person performs energetically in a stadium while holding a microphone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in sunglasses and a denim shirt sings into a microphone while gesturing in an outdoor stadium with rows of empty seats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A performer in a denim shirt and sunglasses sings into a microphone on an outdoor stage with empty stadium seating behind them."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing sunglasses, a denim shirt, and dark pants stands in front of rows of empty stadium seats, with handwritten text overlaid on the image."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a denim shirt is walking in a stadium setting, with empty seats in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in sunglasses, a blue button-up shirt, and a neck scarf poses or walks in front of rows of empty stadium seats."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a denim shirt walks through an empty stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in sunglasses and a denim shirt walks through rows of empty stadium seats while being filmed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing sunglasses, a blue denim shirt, and dark pants stands in front of rows of empty stadium seats while holding a phone."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is waving at the camera while wearing a denim shirt and a scarf, with a crowd of empty seats in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in sunglasses and a blue shirt waves on a stadium stage, with rows of empty seats behind and a fan’s lightstick in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person waving in an empty stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blue shirt and sunglasses waves at the camera while standing among empty stadium seats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing sunglasses and a blue shirt waves from stadium seating while another individual in the foreground holds up a purple plush toy."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer waves to the audience while two others are seen in a concert setting."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in black waves to fans on a stadium stage while other performers, microphones, and audience phones are visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person waves while standing in a stadium during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a black shirt waves to fans on a stage with empty stadium seats behind him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a black shirt and jeans waves to a crowd from an outdoor stage while two other men stand nearby."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person in a black shirt and denim shorts standing on a stage with empty seats in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black leather-style shirt and wide denim shorts stands on a stage or runway in a stadium with rows of empty seats behind them and audience hands and phones in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a stadium interacts with fans during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black jacket stands among empty stadium seats while fans reach toward them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a black shirt and denim shorts stands on a stage holding a microphone, facing an audience with rows of empty stadium seats behind him."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a floral denim jacket is standing in a stadium setting, with another individual partially visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a patterned denim outfit and wraparound sunglasses appears to be dancing or rehearsing in front of empty stadium seats, with handwritten overlay text on the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a denim jacket stands in an empty stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a floral denim jacket and cargo pants stands in an empty stadium with another person nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a denim jacket with white floral patterns and sunglasses stands in an empty stadium seating area."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a large stadium is holding a microphone and wearing a loose outfit, with a handwritten message visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in oversized dark rehearsal clothes stands on a stadium stage with empty seats behind them while people film from the front."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a stadium holding an orange object while wearing casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a gray oversized shirt stands in an empty stadium, making a playful face while holding a water bottle, with handwritten text overlaying the image."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man wearing a dark oversized t-shirt and graphic sweatpants stands in an empty stadium seating area while being filmed by fans holding phones and signs."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing sunglasses and a denim shirt waves to an audience in a stadium, with a hand holding a purple light stick visible in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is waving from a stage, with a crowd of empty seats in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in sunglasses and a blue shirt waves in a stadium seating area while a purple hat is held up in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person waves in a stadium filled with empty seats."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a denim shirt and sunglasses waves at the camera while standing among empty stadium seats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in sunglasses and a blue shirt waves from an empty stadium while a fan holds up a purple plush toy."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a simple, hand-drawn character wearing a dress with arms outstretched."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot of a uquiz result page shows a simple line drawing of a person and the result text \"wooyoung\" with share buttons below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A simple line drawing of a person wearing headphones."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A simple line drawing of a person with outstretched arms is displayed on a quiz result page."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a uquiz.com page displaying a simple line drawing of a figure with the name 'wooyoung' below it."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a signed receipt with a pink heart emoji covering part of it, set against"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a receipt with a signature, placed on a car steering wheel."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a signed payment receipt inside a car in front of a [ORGANIZATION] steering wheel, with part of the receipt covered by a pink heart emoji."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Hand holding a receipt in front of car dashboard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a signed receipt inside a car, with a pink heart emoji overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a signed credit card receipt inside a car, positioned over a [ORGANIZATION] steering wheel with a plush toy visible below."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a computer setup with a countdown timer for a ticket sale, surrounded by various cute figurines and a decorative photo frame."
+        },
+        "gpt-5.4": {
+          "summary": "A desk setup with a pastel keyboard, small figurines, and a photo card stand is shown in front of a monitor displaying a [ORGANIZATION] countdown for [ORGANIZATION]'s [LOCATION] tour ticket sale."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Desk setup featuring a keyboard, figurines, and an LED light displaying concert ticket information."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A desk setup showing a [ORGANIZATION] page for a [ORGANIZATION] concert ticket sale countdown, surrounded by fan merchandise and a photo frame."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A desk setup featuring a computer monitor displaying a [ORGANIZATION] countdown for the SEVENTEEN [RIGHT HERE] World Tour, surrounded by K-pop merchandise and figurines."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A message about ticket sales for a [ORGANIZATION] concert in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] chat shows a ticket sale alert for [ORGANIZATION] in [LOCATION] with a [ORGANIZATION] link preview."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Notification of a ticket sale reminder from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text message from '[ORGANIZATION]' announces upcoming ticket sales for [ORGANIZATION] in [LOCATION] at 3pm PDT via [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text message notification alerting the user that tickets for the K-pop group [ORGANIZATION] in [LOCATION] are going on sale at 3pm PDT via [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile screen displays"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a ticket confirmation for a [ORGANIZATION] concert in [LOCATION], [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] confirmation for [ORGANIZATION]'s [RIGHT HERE] World Tour in the [LOCATION] at [ORGANIZATION] with a group promo image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Confirmation of ticket purchase for a [ORGANIZATION] concert in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] confirmation screen showing purchased tickets for [ORGANIZATION]'s [LOCATION] world tour concert at [ORGANIZATION] on [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] mobile interface displaying a confirmation for the [ORGANIZATION] [RIGHT HERE] World Tour in the [LOCATION] at [ORGANIZATION] on [DATE]."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a ticket confirmation for a [ORGANIZATION] concert in the [LOCATION]"
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a [ORGANIZATION] confirmation for [ORGANIZATION]'s [RIGHT HERE] World Tour in the [LOCATION] at [ORGANIZATION] on [DATE]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Confirmation of ticket purchase for [ORGANIZATION]'s concert in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] confirmation screen showing purchased tickets for [ORGANIZATION]'s concert at [ORGANIZATION] on [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a [ORGANIZATION] confirmation email for the [ORGANIZATION] [RIGHT HERE] World Tour in [LOCATION], [LOCATION]."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a seating chart for a sold-out concert by [ORGANIZATION] at [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile ticketing app screen shows a sold-out [ORGANIZATION] concert at [ORGANIZATION] with a venue seat map."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sold-out concert ticket listing showing a seat map of [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sold-out concert event page showing a seat map for [ORGANIZATION] at [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a ticketing page for the K-pop group [ORGANIZATION]'s 'RIGHT HERE' World Tour concert in [LOCATION], displaying a sold-out status and a detailed arena seat map."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a seating chart for a sold-out concert event by [ORGANIZATION] at [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile ticketing app screenshot shows a SEVENTEEN event at [ORGANIZATION] marked sold out, along with the venue seat map and stage layout."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sold-out concert ticket listing showing a seat map of [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sold-out concert event page showing a seat map for [ORGANIZATION] at [ORGANIZATION] with no available tickets."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a ticketing page for a sold-out [ORGANIZATION] concert at [ORGANIZATION], displaying the venue's seat map."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a dark sailor-style outfit."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie indoors while wearing a [ORGANIZATION] sailor-style outfit with white trim and holding a phone with a black floral case."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a sailor-style outfit takes a mirror selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short dark hair takes a mirror selfie wearing a [ORGANIZATION] sailor-style outfit with white stripes and holding a phone with a floral case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with short dark hair takes a mirror selfie wearing a [ORGANIZATION] blue sailor-style outfit with white stripes and holding a phone with a floral case."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a phone case with a floral design and branding from [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A product image shows a black phone case with a white floral vine pattern around the camera cutout and on the back, displayed in an online shopping interface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black phone case featuring a white floral pattern by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black phone case with white floral patterns, branded '[ORGANIZATION]' and featuring a design from [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black smartphone case featuring a white floral pattern and the text '[ORGANIZATION] is displayed on a product customization interface."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a phone case with a floral design and a pop socket."
+        },
+        "gpt-5.4": {
+          "summary": "A product-style image shows the back of a smartphone in a clear case with a black CASETiFY camera ring and a black-and-white floral [ORGANIZATION] accessory, alongside a [ORGANIZATION] code and gallery arrows."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A smartphone case featuring a black floral design by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white phone case with a black-and-white floral design and '[ORGANIZATION]' branding around the camera cutout."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A product shot of a white smartphone case with a black floral patterned pop socket attached to the back."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a stylish gray suit poses confidently with a hand gesture."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a gray suit and glasses poses at an event backdrop, making a finger-heart gesture."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a stylish gray suit making an 'OK' hand gesture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a gray pinstripe suit and glasses poses with one hand raised, standing before a backdrop with partial text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a grey pinstripe suit and glasses poses with a finger heart gesture against a branded backdrop."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital game interface displays a stylized male character with dark hair"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON], depicted in a stylish outfit with game-related statistics displayed below."
+        },
+        "gpt-5.4": {
+          "summary": "A polished anime-style game character portrait shows a dark-haired man with glasses in a black turtleneck and coat, alongside [ORGANIZATION]-style interface stats and upgrade buttons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character named [PERSON] in a game interface showing level progression options."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character profile screen showing a male avatar with glasses and a dark outfit, featuring game stats and interactive options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile game character profile showing a male avatar with glasses and dark hair, identified as '[PERSON]: Gentle Twilight' at level 50."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several drinks surrounded by colorful photo cards and keychains on a table."
+        },
+        "gpt-5.4": {
+          "summary": "Top-down view of several iced drinks on a cafe table surrounded by cute decorated photo-card keychains and plush holders featuring idol portraits."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of drinks surrounded by various collectibles featuring idol photos."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of colorful photo cards and drinks arranged on a wooden table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat-lay photo displays four iced beverages surrounded by numerous decorated K-pop photocards and plush card holders on a dark wooden table."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person holding a decorative item and a badge in front of fashion displays in a gallery setting."
+        },
+        "gpt-5.4": {
+          "summary": "Hands hold decorated portrait photo frames in front of a fashion exhibition display with mannequins wearing distressed and patterned outfits under colorful lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a phone case featuring an [ORGANIZATION]'s face alongside lace accessories in front of mannequins displaying fashion items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Hands hold two decorated fan-made photo items in front of mannequins displaying fashion outfits at an exhibition."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of hands holding two decorated photo cards featuring a male idol in front of mannequins wearing stage costumes at an exhibition."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two hands holding a decorative card and a white accessory, alongside a green beverage with bubbles."
+        },
+        "gpt-5.4": {
+          "summary": "At a café table, two hands display decorated collectible photo cards beside a green bubble tea-style drink."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a decorative angel figurine next to an artistic photo frame featuring colorful designs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person displays two decorated fan merchandise items—a photo card and a white lace headpiece—next to a green bubble tea drink on a table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a hand holding two decorated photo cards featuring K-pop idols alongside a green bubble tea drink on a cafe table."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collection of anime-style"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of character-themed merchandise, including stickers and keychains, displayed on a denim surface."
+        },
+        "gpt-5.4": {
+          "summary": "A collection of anime-style character fan merchandise and art prints featuring a white-haired male character is spread across someone’s lap in a car seat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of anime-themed merchandise featuring a character named [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of anime-style merchandise featuring a character with white hair, laid out on denim fabric."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of anime-style merchandise featuring a white-haired male character is displayed on a denim surface."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bowl of noodles topped with an egg, ground meat, and leafy greens."
+        },
+        "gpt-5.4": {
+          "summary": "A large bowl of noodles is topped with a fried egg, leafy green bok choy, and minced meat at a restaurant table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a bowl containing noodles topped with an egg, bok choy, green onions, minced meat, and sauce."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bowl of [LOCATION] noodles topped with fried egg, minced meat, and bok choy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a bowl of noodles topped with a fried egg, ground meat, and bok choy at a restaurant."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand with decorated nails holds a bubble tea drink with a cartoon character logo against a light wall featuring embossed words '[ORGANIZATION]."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a cup of iced coffee with a cartoon character design, set against a minimalist background with inspirational words."
+        },
+        "gpt-5.4": {
+          "summary": "A hand in a white sweater holds a cup of iced bubble tea with black tapioca pearls in front of a minimalist wall with decorative words."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a bubble tea in front of a wall displaying 'zen inspiration real'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a bubble tea drink in front of a wall with the words '[ORGANIZATION], 'inspiration', and 'real'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand with decorated nails holds a plastic cup of bubble tea in front of a wall featuring the words 'zen inspiration real'."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a variety of skincare products arranged on a glass table, accompanied by decorative keychains."
+        },
+        "gpt-5.4": {
+          "summary": "A flat lay of assorted skincare and hand cream tubes arranged on a round glass table, decorated with colorful flower and charm keychains."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of skincare products arranged in a circular pattern."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Multiple small tubes of skincare and hand butter products arranged on a glass table, each adorned with decorative chains and charms."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of numerous cosmetic tubes and hand creams arranged on a glass table, each decorated with colorful charm keychains."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone home screen with various app icons and a personal photo featuring a person with a bow in their hair."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a pink-themed Widgetsmith home screen with idol-style photos, [PERSON], and app labels arranged in aesthetic widgets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pink-themed app screen featuring various widgets like [ORGANIZATION], [LOCATION], and a photo of an individual holding plush toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone home screen with a pink aesthetic, featuring custom widget icons, app shortcuts, and a prominent '[PERSON]' logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone home screen customized with a pink aesthetic, featuring app icons and widgets displaying K-pop idols, anime characters, and pastel-themed objects."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a pastel-themed phone interface featuring various app icons and a cherry blossom background."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a smartphone home screen customized with a pink aesthetic, featuring Widgetsmith photo widgets, cherry blossom imagery, and pastel app icons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pink-themed smartphone home screen featuring various app icons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink-themed phone home screen with app widgets and a cherry blossom wallpaper."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone home screen featuring a cohesive pink aesthetic with widgets and app icons customized using the Widgetsmith app, including photos of a K-pop idol and various cute items."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone home screen with a pink aesthetic, featuring various app icons and a photo of a person holding a plush toy."
+        },
+        "gpt-5.4": {
+          "summary": "A customized smartphone home screen features a pastel pink kawaii theme with Widgetsmith photo widgets, app icons, and cute decorative images."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pink-themed smartphone home screen featuring various app icons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone home screen with pink-themed app icons and custom widget images featuring a person holding a plush toy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone home screen featuring a cohesive pink aesthetic with custom app icons and multiple widgets displaying photos of a young man and plush toys."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone home screen featuring a group of people with pink-themed app icons and a soft aesthetic."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel pink iPhone home screen shows customized app icons and a large Widgetsmith photo widget featuring seven smiling men with pink bows on their heads."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of individuals wearing pink bows in a cozy indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone home screen with a pink-themed aesthetic, featuring app icons and a large group photo of men with pink bows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone home screen featuring a cohesive pink aesthetic with app icons and a large widget displaying a K-pop group wearing matching pink bows."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a concert ticket for a K-pop event featuring a group, with details about the section and seat."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a concert ticket page shows an [ORGANIZATION] event ticket with section 111, row R, seat 13, overlaid repeatedly with a pink '[ACCOUNT]' watermark."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION]'s ticket confirmation for [PERSON] concert in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A ticket confirmation graphic for an [ORGANIZATION] concert, showing the band photo and seating details overlaid with repeated social media handles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital concert ticket for the K-pop group [ORGANIZATION]'s 2025 World Tour in [LOCATION], heavily watermarked with a pink social media handle."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital concert ticket for an event featuring a group, with details about the section, row, and seat."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a mobile concert ticket page for an [ORGANIZATION] world tour show at [ORGANIZATION], heavily overlaid with a pink '[ACCOUNT]' watermark."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION]'s ticket confirmation for [PERSON] concert in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A ticket confirmation for an [ORGANIZATION] concert featuring the band's photo and seating details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital concert ticket for the K-pop group [ORGANIZATION]'s 2025 World Tour in [LOCATION], displayed on a mobile interface with a large watermark."
+        }
+      }
     }
   }
 }

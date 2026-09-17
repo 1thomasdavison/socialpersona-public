@@ -1,67 +1,821 @@
 {
   "user_id": "participant_048",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "nature observation",
-        "nature visits",
-        "visual art",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: cats; nature observation; nature visits; visual art; walking and hiking."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with long"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a woman with long, wavy red hair wearing a deep purple dress, set in a luxurious indoor environment."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a dark purple backless formal dress poses over their shoulder in a warmly lit indoor event space with chandeliers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Elegant woman in a formal dress posing indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with red hair in a purple dress turns to look over her shoulder in a warmly lit, elegant indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with long red hair and a purple dress poses in a dimly lit, elegant indoor setting with chandeliers."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "city exploration",
-        "coffee and tea",
-        "nature visits"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; city exploration; coffee and tea; nature visits."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic garden with a staircase leading down to lush greenery and decorative statues."
+        },
+        "gpt-5.4": {
+          "summary": "A stone staircase overlooks a formal garden with trimmed hedges, pathways, and statues in an autumn setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene garden scene featuring a stone staircase leading down towards lush greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stone staircase leads down into a formal garden with manicured lawns, pathways, and autumn foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a stone staircase overlooking a formal garden with manicured lawns, pathways, and autumnal trees."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "nature observation",
-        "nature visits",
-        "outdoor activities",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: nature observation; nature visits; outdoor activities; photography; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two bronze statues of figures"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two bronze sculptures seated on a bench amidst fallen autumn leaves, with a sunset in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A leaf-covered terrace with two seated sculptures is framed by autumn trees against a warm sunset sky and distant buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene autumn scene featuring two bronze sculptures of dancers against a backdrop of trees and an orange sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two bronze statues sit on a bench amidst fallen autumn leaves under an orange sunset sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two bronze statues of seated figures on a park bench surrounded by fallen autumn leaves against a sunset backdrop."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "nature visits",
-        "reading",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; nature visits; reading; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with red hair, wearing a white t-shirt and a dark skirt, poses while holding their glasses, standing in front of a textured wall adorned with paintings and a plant pot."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in front of colorful paintings against a textured wall, wearing a white t-shirt and a black skirt."
+        },
+        "gpt-5.4": {
+          "summary": "A person adjusts their glasses while standing against a rustic outdoor wall decorated with colorful paintings and a hanging planter."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in front of an art gallery wall displaying colorful paintings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses in front of a wall displaying colorful paintings and a hanging plant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with reddish hair and glasses poses in front of a rustic wall displaying several colorful paintings."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "nature visits",
-        "reading",
-        "visual art",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; nature visits; reading; visual art; walking and hiking."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A motivational text graphic encourages speaking positive words, thinking big, and starting the day with positive energy, with some lines highlighted in yellow on a textured"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a motivational quote emphasizing the importance of positive thinking and starting the day with positive energy."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a printed motivational quote on a textured page, with the opening line highlighted in yellow."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A motivational quote encouraging positive thinking in daily life."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A motivational quote printed on textured paper encourages speaking positive words and thinking big, healing, success, peace, happiness, and with a growth mindset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A motivational quote printed on textured paper with the first three lines highlighted in yellow, encouraging positive thinking and a growth mindset."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "nature visits",
-        "reading",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; nature visits; reading; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote by [PERSON] about the value of continuous improvement over delayed perfection, set against a backdrop of clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A motivational quote attributed to [PERSON] appears in bold black text over a soft cloudy sky background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Motivational quote by [PERSON] over a serene sky backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A motivational quote by [PERSON] overlaid on a serene sky-and-cloudscape background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A motivational quote about continuous improvement is displayed in bold text over a background of clouds and sky."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An impressionistic painting depicts two older individuals from behind, observing a framed painting of a couple embracing."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts an elderly couple admiring a romantic painting of a couple embracing, framed in an ornate gold frame."
+        },
+        "gpt-5.4": {
+          "summary": "A framed painting shows a couple embracing while another couple stands arm-in-arm in front of it, viewed from behind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A painting depicts a woman in blue attire looking out of an open window while two figures observe her from below."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two viewers observe a painting depicting an intimate embrace between two figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An impressionist painting depicts an elderly couple embracing while viewing a framed artwork of two younger figures kissing."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman in a white off-the-shoulder dress walks through a grand hall adorned with ornate tapestries and patterned tiled walls and floor."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a white off-shoulder dress stands in a richly decorated historical interior."
+        },
+        "gpt-5.4": {
+          "summary": "A woman in a white off-shoulder dress walks through an ornate historic hall with tiled walls, a marble floor, and a large heraldic tapestry overhead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a white dress stands before an ornate tapestry inside what appears to be a historic building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white off-the-shoulder dress walks through an ornately decorated hall with intricate wall tapestries and tiled floors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a white off-shoulder dress walks through a grand hall featuring ornate tapestries and blue-and-white tiled floors."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view from a window overlooking a grassy area, a gravel path, and a pond surrounded by trees."
+        },
+        "gpt-5.4": {
+          "summary": "View through a window onto a quiet yard with a gravel driveway, small pond, leafless and evergreen trees, and a utility pole on an overcast day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a backyard through metal railings featuring trees, grass, gravel paths, and a pond."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from inside a building looking out over a gravel path, grassy yard, and wooded area with a pond."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view through a window screen of a rural property featuring a gravel driveway, a fire pit, and a wooded area with a small pond."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A soldier salutes against a backdrop of a sunset and an American flag."
+        },
+        "gpt-5.4": {
+          "summary": "A silhouetted soldier salutes at sunset with a faded American flag overlay and a quote displayed across the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soldier salutes against a backdrop of an American flag during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soldier salutes against a sunset backdrop with an American flag overlay and a quote about inaction."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A soldier in silhouette salutes against a backdrop of an American flag and sunset, overlaid with a quote about civic responsibility."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long red hair and sunglasses, wearing a pink fur-trimmed coat and black gloves, stands on a vast frozen, snow-covered surface with large snow-capped mountains and evergreen forests in"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long red hair stands on a snowy landscape, wearing a fur-trimmed coat and gloves, with mountains in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a fur-trimmed winter coat and sunglasses stands on a frozen snowy lake with dramatic snow-covered mountains and dark pine forest in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a snowy landscape wearing winter clothing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair stands on a frozen lake wearing a pink fur-lined coat and sunglasses, with snow-covered mountains in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long red hair wearing a beige fur-trimmed coat and sunglasses stands on a frozen lake with snow-covered mountains in the background."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long red hair and a fur-trimmed coat walks on a snowy path towards a large stone building with green shutters and balconies, set against a mountainous winter landscape"
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman with long red hair stands in front of a large, snow-covered building with green shutters."
+        },
+        "gpt-5.4": {
+          "summary": "A person in winter clothing stands outside a large alpine-style stone building with green shutters and balconies, with light snow on the ground and hillside behind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a fur coat stands outside an old stone building surrounded by snow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair stands in front of a large stone building with green balconies, surrounded by snow-covered ground and mountains."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long red hair, wearing a beige coat with fur trim, stands in the snow looking at a large stone hotel with green balconies."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An illustrative image depicts a tattered American flag flying on a flagpole against a dark, cloudy sky, with text referencing a historical event."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tattered American flag against a dramatic sky, accompanied by a poignant quote and a reminder of [DATE]."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic poster-style image shows a tattered American flag on a flagpole against dark smoke with patriotic memorial text referencing [DATE]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A poster commemorating a significant historical event featuring an American flag against dark clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weathered American flag flies against a backdrop of dark smoke and blue sky, with text honoring fallen soldiers and urging remembrance of [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized digital illustration depicts a tattered American flag flying against a backdrop of dark smoke and blue sky, accompanied by patriotic text referencing [DATE]."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait features a person with long, wavy red hair and freckles, wearing a light-colored faux fur collar, looking directly at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person with long, wavy red hair wearing a fluffy coat."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person with long red hair wearing a light-colored fluffy fur-collared coat and looking at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing a fur coat against an urban backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up portrait of a person with red hair and freckles wearing a fluffy light-colored coat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a woman with long red hair and freckles wearing a fluffy light-colored coat against a plain background."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A painting depicts a woman in a regal gown holding a sword over a kneeling man in chainmail and a red tunic, in what appears to be a knighting ceremony, with other figures observing in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A regal woman in a flowing gown is seen bestowing knighthood upon a kneeling knight in a medieval setting."
+        },
+        "gpt-5.4": {
+          "summary": "A medieval-style painting shows a woman in a flowing white gown touching a sword to a kneeling armored knight while several figures watch indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a medieval gown holds out her hand towards another person kneeling before an audience."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A regal woman in white robes presents a sword to a kneeling knight in red armor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a white gown knighting a kneeling man with a sword in a medieval hall."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman in a light coat stands on a wooden pier, looking up at a vibrant sunset over a calm body of water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a wooden pier at sunset, overlooking the water."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a light coat stands on a wooden pier by calm water during a vivid sunset with expansive pastel clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands on a wooden pier during sunset by the sea."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands on a wooden dock at sunset, wearing a light coat and carrying a floral-patterned purse."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with red hair stands on a wooden pier wearing a beige coat and floral handbag, gazing at a vibrant sunset over the water."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A soldier in camouflage gear is aiming a firearm while partially submerged in water."
+        },
+        "gpt-5.4": {
+          "summary": "A camouflaged armed soldier is partially submerged in water, aiming a rifle in an outdoor tactical setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soldier in camouflage gear wades through water while aiming a rifle equipped with optics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soldier in camouflage gear and goggles is partially submerged in water, holding a rifle with a suppressor aimed forward."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A soldier in full tactical gear, including a ghillie helmet and face paint, is submerged in water while aiming a rifle equipped with a suppressor and red dot sight."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grand mosque with multiple domes and a tall minaret is brightly illuminated at night, with its intricate floral-patterned floor reflecting the lights."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases the illuminated exterior of a grand mosque at night, featuring domes and a tall minaret."
+        },
+        "gpt-5.4": {
+          "summary": "A brightly illuminated mosque courtyard with large white domes, a tall minaret, and reflective patterned marble flooring is shown at night."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] mosque architecture under a night sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand white mosque illuminated at night, featuring domes, a tall minaret, and reflective tiled flooring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night view of a grand white mosque featuring multiple domes and a tall minaret, illuminated against the dark sky with reflections visible on the polished marble courtyard floor."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grand white mosque with multiple domes and minarets is seen behind a vibrant garden of red flowers and palm trees under a soft, light sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a beautiful mosque surrounded by vibrant red flowers and palm trees during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A grand white mosque with domes and tall minarets rises behind palm trees and a vivid bed of red flowers in a warm, hazy garden scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a mosque surrounded by vibrant red flowers under soft evening light."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white mosque with domes and minarets stands behind vibrant red flowers and palm trees under a soft sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a grand white mosque with domes and minarets, framed by palm trees and a foreground of vibrant red flowers."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand with manicured nails resting on a page containing a poetic text."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a hand with manicured nails resting on a book page featuring a poetic quote in soft sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand rests gently against a book page displaying an inspirational quote."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand with pale pink nails rests on an open book displaying a poetic quote about a woman tearing stars apart."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a hand with nude manicured nails resting on an open book page featuring purple text, illuminated by natural sunlight."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person's shoulder and hand, with a focus on artistic details and textures."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up painted portrait of a red-haired person with freckles, partially covering one eye, posed with a hand near the neck."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up watercolor painting of a person with red hair touching their neck."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A watercolor portrait of a person with red hair and freckles, gazing directly at the viewer with one hand near their neck."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up watercolor portrait of a woman with red hair and freckles, featuring visible brushstrokes and a hand touching her neck."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A tabby cat with distinctive folded ears and bright yellow eyes sits attentively on an orange bedspread in a bedroom."
+        },
+        "gpt-4o-mini": {
+          "summary": "A striped cat sits on a bed with an orange cover in a cozy room."
+        },
+        "gpt-5.4": {
+          "summary": "A striped cat with folded ears sits alert on a bed with a rust-colored duvet in a tidy bedroom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tabby cat sits alertly atop a bed covered in orange sheets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby cat with folded ears sits upright on a bed with an orange comforter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grey tabby cat with folded ears sits attentively on a bed covered in an orange duvet, looking towards the camera."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a soldier silhouette against a backdrop of the American flag, accompanied by text emphasizing support for veterans and a stance against illegal immigration."
+        },
+        "gpt-5.4": {
+          "summary": "A political graphic shows a silhouetted soldier in camouflage over a stylized [LOCATION] flag with a slogan about veterans and illegal immigrants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Image features a silhouette of an American soldier against an abstract [LOCATION] flag background with patriotic messaging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graphic poster showing a silhouette of a soldier against a distressed American flag, with bold text declaring loyalty to veterans over immigrants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic featuring a soldier silhouette against an American flag with text contrasting obligations to undocumented immigrants versus veterans."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A military jet, possibly an F-4 Phantom, with camouflage markings is partially submerged in the shallow ocean water near a beach."
+        },
+        "gpt-4o-mini": {
+          "summary": "A military aircraft is partially submerged in shallow ocean water near the shore."
+        },
+        "gpt-5.4": {
+          "summary": "A camouflaged military jet is partially submerged in shallow ocean water near a beach under a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A military aircraft lies partially submerged in shallow ocean waters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A military jet aircraft is partially submerged in shallow ocean water near a beach."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A camouflaged military jet rests partially submerged in shallow ocean surf under a clear sky."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a uniquely designed vehicle with a shark-themed graphic parked in a residential area."
+        },
+        "gpt-5.4": {
+          "summary": "A customized [PERSON] with shark-mouth style graphics is parked in a sunny residential driveway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A customized [PERSON] parked in a driveway under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A customized, angular gray truck with a shark-face graphic parked in a sunny residential driveway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A customized [PERSON] with a shark-themed wrap and off-road tires is parked on a driveway."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An artistic painting depicts [ORGANIZATION] on a pier against a dramatic pink and purple sunset or sunrise sky, with water stretching into the distance."
+        },
+        "gpt-4o-mini": {
+          "summary": "A painted lighthouse stands against a vibrant pink and purple sunset sky over water."
+        },
+        "gpt-5.4": {
+          "summary": "A painted scene shows a small lighthouse on a pier beside calm water under a dramatic pink-and-purple sunset sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene painting of a lighthouse against a vibrant sunset sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A painted lighthouse stands on a pier against a vibrant pink and purple sunset sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A painting of a white lighthouse on stilts at sunset, set against a vibrant pink and purple sky over calm water."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A military helicopter hovers as soldiers fast-rope down ropes to the ground in an open field."
+        },
+        "gpt-4o-mini": {
+          "summary": "A military helicopter is hovering while soldiers rappel down from it during a training exercise."
+        },
+        "gpt-5.4": {
+          "summary": "A twin-rotor military helicopter hovers over a field at dusk while uniformed personnel descend by rope and others move on the ground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Soldiers rappel from a military helicopter during an operation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Soldiers rappel from a large military helicopter during twilight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Soldiers in camouflage gear are rappelling from a large military helicopter hovering low over a grassy field at dusk."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A top-down view shows a collection of fresh produce, including strawberries, yellow and dark red cherry tomatoes in green baskets, and a plastic bag filled with small, reddish-brown fruits, all arranged on a dark countertop."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a variety of fresh fruits, including strawberries and different types of tomatoes, arranged in baskets on a dark countertop."
+        },
+        "gpt-5.4": {
+          "summary": "An assortment of fresh produce—strawberries, yellow and dark cherry tomatoes, and red-yellow stone fruit—are arranged in baskets and a plastic bag on a dark countertop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Fresh produce including strawberries, yellow cherry tomatoes, red and purple heirloom tomatoes in a box."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Various colorful fruits and tomatoes sorted into green crates on a dark countertop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a fresh harvest featuring strawberries and multiple varieties of heirloom tomatoes arranged in green baskets on a dark countertop."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A rainy urban scene with blurred lights from vehicles and a silhouette of a tower in the background."
+        },
+        "gpt-5.4": {
+          "summary": "An impressionistic painting shows a rainy urban street with blurred car lights, reflections on wet pavement, and a glowing lamp or tower on the left."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A moody urban scene under a stormy sky depicted in an abstract painting style."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An impressionistic painting depicts a dark, snowy scene with a lit tower and warm lights reflecting on wet ground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An expressive oil painting depicting a rainy urban street scene at night, featuring blurred lights and dark silhouettes under a heavy grey sky."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A winding asphalt road stretches through golden fields and rolling hills under a sky filled with small, scattered clouds, illuminated by the warm light of sunrise or sunset."
+        },
+        "gpt-4o-mini": {
+          "summary": "A winding road leads through a serene landscape under a cloudy sky at sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A narrow paved road winds through sunlit grassy hills under a sky filled with small textured clouds, framed by tree branches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene rural landscape featuring a winding road under a sky dotted with clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A winding rural road stretches into the distance under a sky filled with scattered clouds, framed by tree branches at the top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paved country road winds through golden rolling hills under a vast sky filled with textured clouds during sunrise or sunset."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows two halves of a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a split dessert featuring purple bread and toasted marshmallow filling."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a tray with two purple dessert buns filled with cream and topped with toasted marshmallow outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds two purple sweet potato buns filled with a white cream."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a split open purple dessert with toasted marshmallows and layered fillings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a split purple sweet potato bun filled with two-toned ice cream and topped with a large, toasted marshmallow."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An open book is held up against a backdrop of a beach with gentle waves and a soft, pastel-colored sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A book is held open in front of a beach at sunset, with waves in the background."
+        },
+        "gpt-5.4": {
+          "summary": "An open book is held in the foreground on a beach with ocean waves and a soft pastel sunset in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A book lies open against a serene beach backdrop during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An open book is held in the foreground against a [LOCATION] sunset backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An open book is held in the foreground with a [LOCATION] and sunset ocean view in the background."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A graphic depicts [ORGANIZATION] looking up at an American flag and"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon dog looking towards a lighthouse against a sunset backdrop with an American flag."
+        },
+        "gpt-5.4": {
+          "summary": "A patriotic-style image shows [ORGANIZATION] looking up beside a lighthouse at sunset with a [LOCATION] flag overlay and a large prayer message."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] sits contemplatively in front of an American flag backdrop featuring a lighthouse during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[ORGANIZATION] sits before a lighthouse at sunset with an American flag backdrop and a prayer text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon dog sits on a rocky shore looking at a lighthouse against a sunset backdrop with an American flag overlay and a prayer for national guidance."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a colorful fruit salad in a clear glass bowl, containing strawberries, guava"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a bowl of mixed fruit, including strawberries, grapes, and other colorful pieces."
+        },
+        "gpt-5.4": {
+          "summary": "A glass bowl of mixed fresh fruit—strawberries, red grapes, and chopped pink-and-green fruit with orange pulp—is shown on a kitchen counter with spoons nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful fruit salad in a glass bowl."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful fruit salad in a glass bowl with a panda design, featuring strawberries, watermelon, and cherry tomatoes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a colorful fruit salad in a clear glass bowl featuring chopped strawberries, guava, passion fruit, and red grapes drizzled with sauce."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small child in a white dress with angel wings walks behind a person in a wheelchair, holding onto it, in what appears to be a hospital hallway."
+        },
+        "gpt-4o-mini": {
+          "summary": "A young girl in a fairy costume is pushing a man in a wheelchair down a hospital corridor."
+        },
+        "gpt-5.4": {
+          "summary": "A small child in a white costume with wings walks behind and touches a person in a wheelchair in a hospital-like hallway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A child in a fairy costume walks alongside an adult pushing them through a hospital corridor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young child in a white angel costume walks behind an adult in a wheelchair down a hospital hallway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young girl in a white angel costume pushes a man in a wheelchair down a hospital corridor."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An overhead shot"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand with manicured nails reaches for a blue napkin next to a cup of coffee and a round cake on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "A breakfast table setting shows a large pancake or flatbread on a white plate beside a small cup of coffee, with a blue napkin and condiments nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy breakfast scene featuring a stack of pancakes served alongside coffee."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand with dark red nails rests on a blue napkin beside a cup of coffee and a plate of pancake on a bamboo placemat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a table setting featuring a hand with dark red manicured nails resting on a blue napkin next to a cup of coffee and a round cake."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A top-down shot of a bowl filled with white yogurt, topped with a swirl of orange jam, blueberries, raspberries, granola, pistachios, and yellow flower petals, set on a woven mat."
+        },
+        "gpt-4o-mini": {
+          "summary": "A beautifully arranged bowl of yogurt topped with fruit, granola, and edible flowers."
+        },
+        "gpt-5.4": {
+          "summary": "A top-down photo shows a bowl of creamy yogurt or porridge topped with fruit, granola, edible flowers, and a bright orange jam swirl."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A beautifully arranged bowl of yogurt topped with fresh berries, granola, nuts, and edible flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A top-down view of a yogurt bowl topped with berries, granola, edible flowers, and orange sauce."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a yogurt bowl topped with granola, fresh berries, edible flowers, and a smear of orange jam on a textured placemat."
+        }
+      }
     }
   }
 }

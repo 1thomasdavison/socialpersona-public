@@ -1,60 +1,315 @@
 {
   "user_id": "participant_052",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "fitness",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: fitness; outdoor activities."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of three individuals is seated outdoors, engaged in conversation, with a scenic background."
+        },
+        "gpt-5.4": {
+          "summary": "Three people in casual clothes relax and laugh together on a sunlit outdoor deck with drinks nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three men are sitting outdoors under a covered structure during daytime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three men are seated outdoors under a covered structure, smiling and laughing together on a sunny day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three men are seated together on an outdoor wooden deck under a covered structure, smiling and laughing in bright daylight. One man has bleached blonde hair and wears a graphic tee, another wears a white shirt with colorful graphics, and the third is in a grey t-shirt."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "film and television",
-        "fitness",
-        "nature visits",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: film and television; fitness; nature visits; spectator sports."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of young adults is sitting together on a deck, engaging in conversation and using their phones."
+        },
+        "gpt-5.4": {
+          "summary": "A group of friends relax and chat on a sunlit outdoor wooden deck, with one person looking at a phone and drinks nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three men are sitting outdoors in a casual setting, enjoying each other's company."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three men are seated outdoors on a wooden deck, laughing and interacting casually under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three men are gathered on an outdoor wooden deck, with one looking at a phone while the other two smile and converse in casual summer attire."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "dining",
-        "fitness",
-        "outdoor activities",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: dining; fitness; outdoor activities; spectator sports."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people enjoying drinks by a waterfront setting."
+        },
+        "gpt-5.4": {
+          "summary": "A group of friends pose for a casual selfie on a wooden lakeside deck with drinks, picnic snacks, and docks visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of friends enjoys a sunny day by the lake."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four men are smiling and posing together on a lakeside dock while holding drinks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five men are gathered on a wooden deck by a river, smiling and holding drinks in a casual outdoor setting."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "fitness",
-        "nature visits",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: fitness; nature visits; spectator sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man holds up a bottle of [PERSON] [ORGANIZATION] beer while another man sits beside him in a casual outdoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two individuals sitting together, with one holding a bottle of [PERSON] beer."
+        },
+        "gpt-5.4": {
+          "summary": "Two people sit at a covered patio/bar area while one holds up a Modelo [ORGANIZATION] beer bottle in warm sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are seated outdoors holding a bottle of [PERSON] beer."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men are seated at an outdoor bar, one holding up a Modelo [ORGANIZATION] beer bottle for the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men are seated at an outdoor bar, with the man in the foreground holding up a bottle of [PERSON] beer for the camera while his companion looks away."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "fitness",
-        "nature visits",
-        "outdoor activities",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: fitness; nature visits; outdoor activities; photography; spectator sports."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is performing a pull-up in a gym, visible in a mirror."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person in gray shorts grips a wide pull-up bar in a gym, facing a wall mirror."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual performs a pull-up exercise in front of a mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular man performs a pull-up in a gym, viewed from behind with his reflection visible in a mirror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with tattoos on his back and arms performs a pull-up exercise in front of a mirror inside a gym."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "film and television",
-        "fitness",
-        "outdoor activities",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: film and television; fitness; outdoor activities; photography; spectator sports."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is performing a pull-up exercise on a bar in what appears to be a gym, with a mirror reflecting their front and the word \"inspire\" visible in neon lighting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is performing pull-ups in a gym setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a gym is doing a pull-up on a rack in front of a mirror, with a shirtless workout setup and strength equipment visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual performs pull-ups in a gym."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular person performs pull-ups on a bar in a gym, viewed from behind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a muscular build performs pull-ups on a bar in a gym, viewed from behind with his reflection visible in a mirror."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A muscular individual stands shirtless in a gym setting, showcasing a tattoo on his arm."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless man with a large shoulder-and-chest tattoo stands in a gym in front of workout equipment and a hanging punching bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual stands in a gym wearing shorts and displaying tattoos."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular man with tattoos poses shirtless in a gym, standing between workout equipment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless, muscular man with chest and arm tattoos stands in a gym next to a punching bag and weight equipment."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is performing pull-ups in a home gym setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person does a pull-up on a home gym rack, wearing light athletic shorts in a workout room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual performing a pull-up exercise in an indoor gym."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless man with tattoos performs a pull-up on a home gym bar."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless, muscular man with tattoos performs a pull-up on a home gym rig while wearing grey shorts and a silver chain."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands confidently next to a silver [ORGANIZATION] RX-8 in a driveway."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands with arms crossed in a driveway beside a silver sports car in front of a house and open garage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man standing confidently next to a silver sports car in front of his house."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands confidently with arms crossed beside a silver [ORGANIZATION] sports car parked in front of a house."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a blue [PERSON] tank top stands with arms crossed next to a modified silver [ORGANIZATION] RX-8 on a residential driveway."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is casually leaning against a silver sports car in a driveway."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person sits on the front of a silver modified sports car parked in a residential driveway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses next to a silver sports car in front of a house."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits smiling on the hood of a silver modified sports car parked in a driveway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man wearing a blue tank top and white sneakers sits on the hood of a modified silver [ORGANIZATION] RX-8 in a driveway."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated at a bar with a drink, watching a [ORGANIZATION] event on TV."
+        },
+        "gpt-5.4": {
+          "summary": "A person smiles at the bar in a lively sports bar with [ORGANIZATION] broadcasts on multiple TVs, drinks, and food containers on the counter."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man sits smiling in a bar with [ORGANIZATION] branding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man sits at a bar in a dimly lit establishment with [ORGANIZATION]-themed decor and multiple TVs showing sports events."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man sits at a bar counter in a sports lounge, watching [ORGANIZATION] coverage on multiple television screens."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a 'Gryffindor' jacket and red sneakers sits in a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person sits on a beach chair at sunset, wearing a red jacket and sneakers."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits in a folding chair on a [LOCATION] at sunset under dramatic clouds, wearing a [LOCATION] jacket and red sneakers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sits in a folding chair on sandy beach under dramatic sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits in a folding chair on a beach at sunset, wearing a red 'Gryffindor' jacket and red sneakers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person sits in a camping chair on a [LOCATION] at sunset, wearing a [LOCATION] jacket and matching sneakers with houses visible on the cliffside in the background."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person sitting on the beach at sunset, holding a lit object while looking towards the water."
+        },
+        "gpt-5.4": {
+          "summary": "A hooded person sits on a [LOCATION] at sunset, lighting something in their hands under a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sits contemplatively by a beach during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits on a beach at sunset, lighting something with a flame while holding a phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a red jacket and grey hoodie sits on a [LOCATION] at sunset, lighting something with a lighter while a smartphone rests on their lap."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands at an open door, wearing athletic clothing in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a fitted long-sleeve athletic shirt and track pants stands in an open doorway at night, with a dim interior visible behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man stands in a doorway wearing athletic attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling person in athletic wear stands in a doorway, with a lit room visible behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in athletic wear stands in a doorway with a home gym visible behind him."
+        }
+      }
     }
   }
 }

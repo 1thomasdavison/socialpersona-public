@@ -6,7 +6,6 @@ from typing import Any
 
 from ...llm_client import OpenAICompatibleChatClient
 from ...schemas import DOMAIN_NAMES
-from ..evaluator.precheck import MAX_LONG_ANCHORS, MAX_SHORT_ANCHORS
 from .normalization import _normalize_prediction
 from .profile_methods import (
     _build_extractive_abstractive_prompt,
@@ -73,12 +72,10 @@ class ProfilePredictionMixin:
             "long_term_interest_anchors": _interest_items_to_anchors(
                 profile.get("stable_interests") or profile.get("long_term_interests") or [],
                 post_id_to_index=post_id_to_index,
-                limit_items=MAX_LONG_ANCHORS,
             ),
             "short_term_interest_anchors": _interest_items_to_anchors(
                 profile.get("recent_interests") or profile.get("short_term_interests") or [],
                 post_id_to_index=post_id_to_index,
-                limit_items=MAX_SHORT_ANCHORS,
             ),
             "summary_natural_pred": "",
             "summary_support_post_indices": [],

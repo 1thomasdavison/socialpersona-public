@@ -1,67 +1,1503 @@
 {
   "user_id": "participant_037",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "crafts and design",
-        "dogs",
-        "film and television",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: crafts and design; dogs; film and television; photography; visual art."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant red balloon floats in a clear blue sky, surrounded by soft white clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A red balloon floats against a blue sky with white clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A simple illustration shows a red balloon floating in a deep blue sky among soft white clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red balloon floats in a blue sky surrounded by fluffy white clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red balloon floats upward against a blue sky with white clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital illustration of a red balloon floating in a deep blue sky alongside fluffy white clouds."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "dogs",
-        "film and television",
-        "nature visits",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: dogs; film and television; nature visits; photography; visual art."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A simple, hand-drawn sketch of a house with a gabled roof and a front door is depicted on a light-colored surface, with a date written at the top right."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a simple sketch of a house with a sloped roof and a door."
+        },
+        "gpt-5.4": {
+          "summary": "A rough black-ink sketch of a house facade with a roof, front door, and windows, dated [DATE] at the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A simple sketch of a house under construction."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand-drawn sketch of a house with a date written above it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black ink sketch of a two-story house with a gabled roof, dormer window, and front porch on white paper."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "dogs",
-        "film and television",
-        "pet care",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: dogs; film and television; pet care; photography; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three sketches of abstract shapes on a piece of paper."
+        },
+        "gpt-5.4": {
+          "summary": "A sheet of paper shows three black-ink sketch studies of shaded geometric forms, with the handwritten date in the top right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three abstract sketches of geometric shapes in black ink."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sketch of three abstract shapes drawn in black ink on white paper, dated '[DATE]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand-drawn sketch on white paper featuring three abstract geometric forms rendered in black ink with cross-hatching, dated [DATE]."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "dogs",
-        "outdoor activities",
-        "reading",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: dogs; outdoor activities; reading; video games; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand-drawn sketch of a person with a surprised or wide-eyed expression is depicted on a yellow surface, possibly a sticky note, with some handwritten numbers in the top right corner."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a sketch of a person on a yellow sticky note."
+        },
+        "gpt-5.4": {
+          "summary": "A rough pencil portrait sketch of a person’s upper body is drawn on yellow paper with a handwritten date in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sketch of a person's head against yellow background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A rough pencil sketch of a person's head and shoulders on yellow paper, with date annotations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rough charcoal sketch of a person with wide eyes and messy hair on yellow paper, dated [DATE]."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "dogs",
-        "film and television",
-        "live performances",
-        "nature visits",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: dogs; film and television; live performances; nature visits; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image captures a vibrant green tree canopy against a clear, bright blue sky, with sunlight illuminating parts of the foliage."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a lush green tree canopy against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Sunlit green tree canopies fill the left side of the frame against a clear blue sky, with a small rooftop visible at the lower right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of lush green trees against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle shot of lush green trees against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view of lush green tree canopies against a clear blue sky, with sunlight filtering through the leaves."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "dogs",
-        "film and television",
-        "photography",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: dogs; film and television; photography; video games; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dense canopy of green leaves and tree branches is illuminated by sunlight, with glimpses of blue sky visible through the foliage."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a lush green forest canopy with sunlight filtering through the leaves."
+        },
+        "gpt-5.4": {
+          "summary": "Sunlight filters through a dense green forest canopy with tall trees and thick undergrowth."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sunlight filters through a dense canopy of green trees in what appears to be an outdoor forested area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view looking up through dense green foliage toward a blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view looking up into a dense canopy of green trees with sunlight filtering through the leaves against patches of blue sky."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A sunlit outdoor scene shows a parking lot with several"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a parking lot with several cars, [ORGANIZATION], and a brick building in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet parking lot beside a brick residential-looking building is lined with trees, shrubs, and a few parked cars in warm sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quiet residential street scene during golden hour."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A parking lot with cars parked near a brick building surrounded by trees and bushes under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunlit parking lot with marked spaces, a brick building, and green landscaping. A silver car is parked on the right, while other vehicles are visible in the background."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A multi-trunked tree with light-colored, peeling bark and green leaves stands prominently in front of a brick"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up view of a tree with a smooth, light-colored trunk and lush green leaves, set against a brick wall."
+        },
+        "gpt-5.4": {
+          "summary": "A tall multi-trunk tree with smooth pale bark stands in front of a brick house with windows and black shutters."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tree stands in front of a brick house under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large tree with light-colored bark stands in front of a brick house with black shutters."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large tree with smooth, light-colored bark stands in front of a red brick house featuring white-framed windows and black shutters."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person holds a copy"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a book titled 'The Rise and Fall of the Third Reich' with a scribbled sticky note on it."
+        },
+        "gpt-5.4": {
+          "summary": "A person is holding a paperback copy of the history book \"The Rise and Fall of the Third Reich\" by [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a book titled 'The Rise and Fall of the Third Reich' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a worn copy of '[ORGANIZATION] by [PERSON], with a yellow sticky note featuring scribbled lines covering part of the cover."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a copy of [PERSON] book 'The Rise and Fall of the Third Reich' with a yellow sticky note scribbled over on the cover."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person holds an open book with a white bookmark inserted, viewed from a first"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a thick book with a bookmark protruding from it."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up, slightly blurry view of a hand holding a thick paperback book with a bookmark tucked between the pages indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a book open in their lap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a hand holding an open book, showing its thick pages and a bookmark."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, first-person view of a hand holding a thick paperback book with a bookmark sticking out."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, brown chihuahua-type dog with large dark eyes and a white chest patch is sitting on a red, white, and grey patterned blanket, looking directly at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small brown dog with large eyes is resting on a blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a small tan dog sitting on a soft blanket indoors, looking directly at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog resting comfortably indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown puppy with large eyes sits cozily on a blanket indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a small, light-brown dog with large dark eyes resting on red and grey blankets indoors."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown and white dog is snuggled under a red blanket and a white pillow, looking up with wide eyes and one paw covering its face."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is curled up under a red blanket, appearing cozy and relaxed."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan dog is tucked into a bright red fuzzy blanket, peeking out with one paw raised between couch cushions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog peeking out from under a red blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small dog lies on its back, partially covered by a red blanket, with its paws visible and eyes looking up."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan and white dog lies on its back nestled between a fluffy red blanket and a grey pillow, looking up with wide eyes."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small brown chihuahua dog with white markings"
+        },
+        "gpt-4o-mini": {
+          "summary": "A small brown dog sits on a person's lap, with a bandaged foot visible in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A small brown dog is lying on a bed beside a person’s leg, with a bandaged foot visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog rests beside a person's foot wrapped in bandage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown dog rests on someone's lap next to a foot wrapped in a white bandage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan and white dog rests on a person's lap next to a foot wrapped in a bandage."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog is deeply asleep with its eyes"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand gently holds the paw of a small dog wrapped in a red blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan dog is wrapped snugly in a red blanket while a hand holds its paw, creating a cozy and funny sleepy close-up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog wrapped in a red blanket being petted by someone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small dog with a bandaged paw rests under a red blanket while being held by a person."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan dog with a bandaged paw rests under a red blanket while a human hand gently holds its leg."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a small, brown dog resting its head in a person's hand, with a blurred indoor background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a person's hand gently holding a small brown dog, focusing on the dog's face."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a small brown dog resting its head on a person's hand indoors, creating a calm and affectionate mood."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a small dog resting its head gently in someone's hand."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a small brown dog being gently held by a person's hand."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up profile view of a small, light-brown dog resting its chin on a person's hand in an indoor setting."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog is peeking out from under a red blanket, with one paw near its face, looking cozy and playful."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is curled up under a red blanket, with its paws visible and looking directly at the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan-and-white dog lies upside down, tucked under a bright red fuzzy blanket between cushions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog peeking out from under a red blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog is curled up and resting under a red blanket, with one paw visible near its face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan and white dog lies on its back nestled between a fluffy red blanket and a grey pillow, looking up with wide eyes."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog with large dark eyes lies on its back, looking up, with a person's arm gently resting nearby."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a small dog resting on a person's arm, with a cozy background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a small tan dog lying on a couch next to a person’s arm, wrapped partly in a red blanket or [LOCATION] hat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a dog being petted by someone wearing a black wristband."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown dog lies on its back, being held by a person wearing a black wristband, resting on a red and white blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a small tan and white dog lying on its back while being petted by a human hand."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog lies on its back on a person's lap or chest, looking up with one eye visible, in a cozy indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is lying on its back on a person's lap, with a cozy indoor setting in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan dog lies belly-up on a person's lap or chest in a cozy indoor living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog lying upside down being petted by a person."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small dog lies on its back on a person's lap indoors, looking up."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan and white dog lies on its back resting on a person's lap in a living room setting."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five people poses together in a casual setting, showcasing various styles of clothing."
+        },
+        "gpt-5.4": {
+          "summary": "Five people pose together indoors against a plain wall, wearing casual outfits, graphic shirts, and event lanyards, with one person giving a peace sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of five people posing together in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five people pose together indoors, wearing event-themed shirts and lanyards, with one making a peace sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five smiling individuals poses for a photo indoors, wearing lanyards and concert-style merchandise."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals pose together, making peace signs in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Three people smile and pose indoors for a casual group photo, with two holding up peace signs and one wearing a yellow graphic T-shirt with a lanyard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals posing together indoors in casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people pose together indoors, smiling and making peace signs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three smiling individuals pose together indoors, with the central person wearing a yellow graphic t-shirt and an event badge."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals pose together, making peace signs and smiling in a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "Three smiling people pose together indoors, with the two on the sides making peace signs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three women pose together indoors making peace signs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three women pose together indoors, smiling and making peace signs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three smiling women pose together indoors, with the person in the center wearing a lanyard and graphic tee while the others flash peace signs."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A gray squirrel with a fluffy tail sits on a tree branch, holding a nut in its mouth, with a brick wall, white gutter, and patio umbrella visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A squirrel is perched on a tree branch in a backyard setting."
+        },
+        "gpt-5.4": {
+          "summary": "A gray squirrel is perched on a tree branch in a residential backyard near a brick wall and patio umbrella."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A squirrel perches on a tree branch in an outdoor residential area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gray squirrel sits alertly on a tree branch near an outdoor umbrella and brick wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grey squirrel with a bushy tail sits on a tree branch in front of a brick building and patio umbrella."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is peacefully sleeping on a person's lap, covered with a blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan dog is sleeping on a soft red, gray, and black blanket in a cozy indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog sleeps peacefully atop a colorful blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown and white dog sleeps peacefully on a red, black, and white striped blanket while resting on someone's lap."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan and white dog is sleeping soundly on a red, black, and white patterned blanket next to a person's legs."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is resting comfortably wrapped in a red blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan Chihuahua is curled up and resting in a bright red blanket, giving the scene a cozy indoor feel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog rests comfortably under a red blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown dog rests its head on a red blanket with white lettering."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan dog rests comfortably inside a red, black, and white patterned blanket."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog wearing a blue sweater is sleeping peacefully on a red, grey, and black striped blanket."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is peacefully sleeping on a blanket while partially covered by a sweater."
+        },
+        "gpt-5.4": {
+          "summary": "A small brown dog is sleeping while wrapped in a striped blanket and gray clothing indoors on a wooden floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog rests its head on a person's leg while wearing cozy socks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown dog sleeps peacefully on a colorful striped blanket indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan dog is sleeping peacefully on a red, grey, and black striped blanket while wearing a blue knitted sweater."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog with large eyes and its tongue slightly out is lying on a red, black, and grey patterned blanket, with a television showing people in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is lounging on a blanket while a television is visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan dog lies on a red, black, and white blanket in a living room with a TV playing in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog lounging comfortably on a patterned blanket in front of TV."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown dog with white markings rests on a red, black, and gray patterned blanket in front of a TV."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan and white dog with large ears lies on a red, black, and grey patterned blanket in a living room while watching television."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with blonde hair and large"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with short blonde hair is seated at a table, appearing contemplative against a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a woman with short blonde hair and hoop earrings speaking into a microphone, with a skeptical or confused expression in a brightly colored setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a patterned top and large hoop earrings sits in front of an animated background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with short blonde hair and large hoop earrings looks intently forward with a concerned expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a woman with short blonde hair and large hoop earrings, wearing a patterned top and looking at the camera with a skeptical expression against a green background."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of performers stands on stage under dramatic lighting, possibly during a concert or event."
+        },
+        "gpt-5.4": {
+          "summary": "A girl group stands in a line on a concert stage holding microphones under bright beams and a starry backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of performers in school uniforms stand together on a stage under starry lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Seven women in coordinated outfits stand in a line on a lit stage during a performance."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of seven female performers stands in a line on a concert stage, illuminated by bright spotlights and holding microphones."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog with white markings on its chest and paws lies on its back on a fluffy gray and white checkered blanket, looking up at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is lying on its back, wrapped in a cozy blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan dog lies upside down on a fluffy gray-and-white blanket, looking toward the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog lying belly-up on a checkered blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown dog lies on its back on a fluffy gray-and-white blanket, looking up with wide eyes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan and white dog lies on its back looking up from a fluffy grey and white checkered blanket."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog is seen sleeping or resting comfortably, partially covered by a fluffy white and grey blanket and a blue fabric, with its head on a brown textured surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a sleeping dog nestled against a soft blanket and a person's arm."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a small tan dog resting sleepily against a fluffy blanket and blue fabric on a couch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A relaxed dog lying down under a blue blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a sleeping dog with tan and white fur resting on a blue blanket and brown fabric."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a small tan dog sleeping peacefully on its back, nestled between a blue blanket and a fuzzy grey-and-white pillow."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, overhead shot shows a light brown dog lying on its back, partially covered by a fluffy white blanket, with its eye open and nose visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a small dog resting against a soft surface."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a small tan dog lying sideways on a brown carpet next to a fluffy white cushion or blanket."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a dog wearing white fluffy ears against brown fabric."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a small dog's face looking up while resting on a carpet next to a white fluffy blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-angle shot of a small tan dog lying on its back next to a white fluffy object."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals dressed in tactical outfits are seated on stairs in an outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in matching olive outfits, black tactical-style vests, gloves, and boots sit on outdoor stairs in a posed photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in military-style attire sit together outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people in matching olive-green tactical outfits sit on concrete stairs against a gray brick wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two women in matching olive green tactical outfits and black gear sit on concrete stairs against a grey brick wall."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cute light brown and white puppy lies on its back, partially covered by a red, white, and black striped blanket, looking upwards with a relaxed expression."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is comfortably nestled in a red and gray blanket, lying on its back with its paws in the air."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan-and-white dog is lying on its back and snuggled in a red and gray blanket indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog lounging under a red-and-white striped blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog is lying on its back, wrapped in a red, white, and black striped blanket, looking relaxed indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan and white dog lies on its back, partially covered by a red, black, and grey striped blanket."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog is lying on its back, partially covered by a red, white, and black striped blanket, looking up with one eye visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "A relaxed dog is lying on a cozy blanket, partially covered and looking at the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan-and-white dog is curled up under a red, gray, and white blanket in a cozy close-up indoor scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog wrapped in a red-and-white striped blanket looks curiously out from under it."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small dog lies on its back, partially covered by a red, white, and black striped blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan and white dog lies on its back, partially covered by a red, white, and black striped fleece blanket."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog is seen sleeping soundly, curled up and covered by a soft, striped blanket with red, black, and white patterns."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is curled up and sleeping, wrapped in a cozy blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A small dog is curled up asleep under a red, black, and gray blanket on someone's lap indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog wrapped in a blanket resting its paws together."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small dog is sleeping peacefully while wrapped in a red, white, and black striped blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan and white dog is sleeping soundly while wrapped snugly in a red, black, and white striped blanket."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog is snuggled comfortably in a red, black, and grey striped blanket, looking relaxed."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is comfortably wrapped in a blanket, lying on its back with its paws in the air."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan-and-white dog is lying on its back while wrapped snugly in a soft red, gray, black, and white blanket indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog wrapped in a striped blanket resting indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small dog is cozily wrapped in a striped blanket while resting on someone's lap."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan and white dog lies on its back wrapped in a cozy red, black, and grey striped blanket."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog is sleeping soundly, tucked under a red, white, and grey blanket or clothing."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is sleeping comfortably under a red and white blanket on a person's lap."
+        },
+        "gpt-5.4": {
+          "summary": "A small dog is sleeping cozily under a red-and-white blanket with its head resting on soft fabric."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog wrapped in a red-and-white blanket appears cozy while sleeping."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog sleeps peacefully under a red and white patterned blanket on a gray surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A light brown dog is sleeping peacefully with its head resting on a grey surface, partially covered by a fluffy red and white blanket."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small brown dog with large eyes peeks out from under a red, white, and black patterned blanket, surrounded by soft fabrics."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is nestled under a blanket on a person's lap."
+        },
+        "gpt-5.4": {
+          "summary": "A small dog is tucked under layered blankets indoors, peeking out from beneath a red, white, and black throw."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog wearing a red and white striped hat rests under blankets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small dog peeks out from under a red, white, and black patterned blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan dog peeks out from under a red, white, and black patterned blanket while resting on a bed."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog peeks out from under a blanket while resting on a person's lap."
+        },
+        "gpt-5.4": {
+          "summary": "A small dog peeks out from under a red, black, and white blanket while someone lounges on a couch using a phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog wearing a red and white striped blanket peeks out from under it while lying next to someone in gray sweatpants."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog peeks out from under a red, white, and black blanket while resting on someone's lap."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small dog peeks out from under a red, white, and black patterned blanket while resting on a person's lap in a living room setting."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small dog is cozily tucked under a red, white,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is nestled under a blanket on a person's lap while another person is using a phone."
+        },
+        "gpt-5.4": {
+          "summary": "A small dog peeks out from under a red, white, and black fuzzy blanket while lounging indoors beside a person on a bed or couch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a red and white striped hat lounges in bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small dog sleeps cozily under a red, white, and black striped blanket while resting on someone's lap."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small brown dog rests on a person's lap while covered by a red, white, and black patterned blanket in a casual indoor setting."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a dog's snout and mouth with its tongue slightly out, resting on a soft grey blanket."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a dog's snout resting on a soft surface."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a sleeping dog's snout with its tongue slightly sticking out against a soft blue blanket."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a dog's nose resting against fabric."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a sleeping dog's face resting on a gray blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a sleeping dog's muzzle featuring tan and white fur, a black nose, and whiskers resting on a blue textured blanket."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown and white furry animal, likely a dog or puppy, is seen sleeping peacefully tucked under a soft grey and red blanket."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is sleeping peacefully under a cozy blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan dog is sleeping while wrapped snugly in red and gray blankets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog sleeping peacefully under a red blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sleeping dog is cozily nestled under a fluffy gray and red blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a golden-brown dog sleeping peacefully under a fluffy grey and red blanket."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a dog sleeping peacefully, nestled under red and grey blankets."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a sleeping dog nestled in a blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a small tan dog sleeping while tucked into soft red and gray blankets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a dog sleeping peacefully under red blankets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a sleeping dog's face nestled under a red and gray blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a golden-brown dog sleeping peacefully with its head resting on a grey and red blanket."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a sleeping dog's face, nestled in a soft blanket."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a small tan dog sleeping snugly under a soft blanket, creating a cozy and calm scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog peacefully sleeping in a cozy blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a sleeping dog's face nestled in a soft, gray and red blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a golden-furred dog sleeping peacefully with its head resting on a soft, grey blanket featuring a red trim."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two [ORGANIZATION] the Frog characters discussing the struggle between wanting to nap and feeling productive."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-toned meme shows two [ORGANIZATION]-like frog puppets facing each other with text about resisting a nap versus justifying taking one."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring [ORGANIZATION] in two contrasting states of mind."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two green frog characters, one in a hood, depict an internal struggle over napping."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring two [ORGANIZATION] the Frog puppets, one in a hoodie, with text about struggling to resist napping despite feeling productive."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cozy dog is partially wrapped in a red and gray blanket, with its paws visible."
+        },
+        "gpt-5.4": {
+          "summary": "A small brown-and-white dog is curled up and sleeping under soft red and gray blankets on a couch or pet bed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A beagle puppy sleeping peacefully under a red blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog is sleeping cozily under a red and gray blanket on a couch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a brown and white dog sleeping soundly while tucked under red and grey blankets."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a flat tire resting on a cracked asphalt surface with some greenery growing through the cracks."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a flat car tire pressed onto cracked parking lot asphalt, with small weeds and leaves growing through the seam."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small plant growing through a crack in asphalt near an old tire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of green plants growing in a crack on asphalt next to a car tire and a white road stripe."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a black vehicle tire resting on cracked asphalt, where small green plants and fallen leaves are growing through the fissures near a white painted line."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A decorative bench is positioned in a landscaped area with vibrant greenery and a tennis court in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A decorative metal bench with bird and branch motifs sits in a sunlit landscaped garden beside a sidewalk and fenced path."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A decorative bench featuring a bird design in an outdoor park-like setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A decorative metal bench with bird motifs sits on grass beside a sidewalk, backed by manicured hedges."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A metal park bench with a decorative backrest featuring birds and foliage sits on a grassy patch next to a concrete path, backed by green and purple shrubs."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant pink rose with green leaves peeks over a weathered wooden fence, set against a brick building with windows and downspouts, illuminated by warm sunlight."
+        },
+        "gpt-4o-mini": {
+          "summary": "A pink flower is blooming above a wooden fence in a residential setting."
+        },
+        "gpt-5.4": {
+          "summary": "A pink rose blooms above a sunlit wooden fence in front of a brick apartment-style building with a sliding glass door and wall light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wooden fence adorned with a pink rose against brick wall backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A single pink rose blooms atop a wooden fence against a brick building wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A single pink rose grows over a wooden fence in front of a brick building with a window and outdoor light."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Four individuals, three adults and one younger woman, pose seriously beneath a prominent \""
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a group of four characters from the show 'Warehouse 13' posing together."
+        },
+        "gpt-5.4": {
+          "summary": "Promotional poster art for the TV series Warehouse 13 showing four characters standing in a dramatic warehouse-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster featuring four characters in front of a sign reading 'WAREHOUSE 13'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four actors pose seriously under a glowing 'WAREHOUSE 13' sign in a dim, industrial setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional poster for the television series 'Warehouse 13' featuring four cast members standing in a dimly lit warehouse setting beneath a large title sign."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A promotional poster for"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a promotional poster for the TV series 'Alphas' featuring a cosmic background and obscured characters."
+        },
+        "gpt-5.4": {
+          "summary": "Promotional poster for the TV series \"ALPHAS\" featuring six close-up character portraits in a blue sci-fi styled collage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster for a new [ORGANIZATION] series titled '[LOCATION]', featuring five characters against a cosmic background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional poster for the TV series 'Alphas' featuring six characters with intense expressions against a blue [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional poster for the [ORGANIZATION] series 'Alphas' featuring six character portraits against a blue, [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a promotional poster for the TV show '[PERSON]', featuring a woman in the foreground and two men in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] promo poster shows three serious-looking characters near a rocky shoreline and [LOCATION] under stormy skies, with the title \"ALCATRAZ\" and broadcast details."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster for '[PERSON]' featuring a woman in focus against an ominous backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic TV show poster featuring three characters near a lighthouse under a cloudy sky, with text indicating a mystery involving vanished people."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional poster for the TV series '[PERSON]' featuring three characters against a moody backdrop of [LOCATION] with a lighthouse."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot displays two colorful folded paper crafts, one straight and one circular, arranged on a plain purple background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features colorful, zigzag-patterned paper strips arranged in a circular and [ORGANIZATION] form on a purple background."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful accordion-folded paper strip is arranged in a loose spiral on a purple background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful origami bracelet in shades of orange, pink, purple, teal, and blue against a solid lavender background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful origami sculpture shaped like the letter 'Q' rests on a purple background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful, accordion-folded paper craft is displayed on a purple background, with one section arranged in a circle and another in a straight line."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three women with distinct [PERSON] and serious expressions pose closely together in a dimly lit, possibly wood-paneled setting with dramatic lighting."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are posing closely together in an elevator, showcasing stylish outfits."
+        },
+        "gpt-5.4": {
+          "summary": "Three people pose closely together in a softly lit indoor portrait with a polished, music-video-style aesthetic."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals are posing together in a dimly lit room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three women pose together in a dimly lit room with warm-toned lighting and wooden walls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three women with distinct hair colors pose for a stylized portrait in an elevator setting with dramatic lighting."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a person with reddish-brown hair and bangs looking directly at the camera, with another person partially visible on the right, set against a dark, reddish"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals in an elevator with a wooden background, one partially obscured."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows a person indoors under warm purple lighting, with another person partially visible at the right edge."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person in front of another individual against wooden paneling."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up portrait of a woman with reddish hair under warm, reddish lighting, with another person partially visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a woman with reddish-brown hair and bangs looking directly at the camera, set against a dark wood background with another person partially visible in the blurred background."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with reddish hair, wearing a red top and patterned tights, poses with outstretched arms against the dark walls of a narrow, metallic-floored space illuminated by purple and pink light."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a person in a confined space, possibly an elevator, with a dramatic pose and moody lighting."
+        },
+        "gpt-5.4": {
+          "summary": "An overhead shot shows a person posing with outstretched arms in a small metallic booth or elevator under moody pink-purple lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a red top and fishnet skirt poses dramatically against an industrial background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a red top and lace stockings stands inside an elevator with arms outstretched, illuminated by pink lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle shot captures a person in a reddish-brown top and lace stockings standing inside a metallic elevator illuminated by purple lighting."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small brown dog peeks curiously through partially open window blinds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is peeking through a partially closed window with blinds."
+        },
+        "gpt-5.4": {
+          "summary": "A small dog is peeking out from behind partially open blinds in a window on a white door."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Dog peeking through a window covered by blinds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small dog peeks through a partially open window blind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small brown dog peeks through the slats of white window blinds from inside a room."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog wearing a black harness and leash is seen from above, walking through dense green foliage."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is exploring a patch of green foliage."
+        },
+        "gpt-5.4": {
+          "summary": "A small tan dog on a leash and black harness is sniffing through dense green groundcover outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog wearing a harness sniffs green foliage in an outdoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tan dog wearing a black harness and leash is sniffing lush green foliage from an overhead perspective."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan dog wearing a harness and leash stands amidst dense green ground cover, sniffing the foliage."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair, wearing a dark top and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated with hands in a prayer position, wearing a dark cloak and a red skirt."
+        },
+        "gpt-5.4": {
+          "summary": "A seated person indoors poses with hands pressed together in a prayer-like gesture near tables holding water bottles and small items."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a red outfit sitting cross-legged indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits indoors with hands clasped in front, draped in a dark cloth over their shoulders."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young woman with dark hair and bangs sits indoors wearing a red skirt and draped in a dark blue blanket, holding her hands together in a prayer-like gesture."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A girl with long black hair wearing a plaid shirt makes a displeased expression while another person is seen in the background using a phone."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a plaid shirt makes a displeased or pouty expression indoors, with another person in the background holding up a phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a plaid shirt sits while another takes their picture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long dark hair wearing a plaid shirt sits indoors, making a playful face while another person films them in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young woman with dark hair and bangs makes a pouting face while wearing a plaid shirt, with another person taking a photo in the background."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A festive scene in a pixel art style depicting a town square with characters celebrating near a building labeled 'Pelican Town'."
+        },
+        "gpt-5.4": {
+          "summary": "A pixel-art autumn town scene from a farming game shows the Pelican Town building with villagers and colorful balloons outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pixelated autumn scene featuring a small town building labeled 'Pelican Town' surrounded by colorful foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pixel-art village scene with a purple building labeled '[ORGANIZATION], autumn foliage, and colorful balloons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pixel-art screenshot from the video game [LOCATION] depicts a festive autumn scene outside the Pelican Town building, featuring characters and colorful balloons."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a character in a cave-like setting interacting with a mysterious object."
+        },
+        "gpt-5.4": {
+          "summary": "A pixel-art video game scene shows a character inside a small cave room with torches, rugs, and mysterious equipment or statues."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pixelated underground room featuring a character standing in front of an altar-like structure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pixel-art game scene showing a character in a cave-like room with glowing elements and a ladder."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pixel-art screenshot from a top-down [ORGANIZATION] showing a character in a dimly lit underground room with stone walls, torches, and various furniture."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a cozy in-game interior setting from a farming simulation game, featuring a character standing in a room with a fireplace and various furniture."
+        },
+        "gpt-5.4": {
+          "summary": "A pixel-art screenshot from [LOCATION] shows the player character standing inside a house at night near a fireplace and bedroom area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pixelated game scene showing a character in an indoor room setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A top-down view of a character standing in a pixel-art house interior with furniture, stairs, and [ORGANIZATION] elements showing time and inventory."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the video game [LOCATION] showing a character standing inside a house at night with a fireplace lit."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an inventory screen from a farming simulation game, showcasing various artifacts collected by the player."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] screenshot shows the player inside a farmhouse with the inventory open on the artifacts collection tab."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot from a video game showing an inventory screen labeled 'Artifacts'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pixel-art game inventory screen showing a collection of artifacts in a cozy, wooden-themed room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the video game [LOCATION] showing a player's inventory screen focused on the 'Artifacts' tab within a pixel-art house interior."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a trophy progress screen for the game 'Ghost of Yōtei', showing earned trophies and their details."
+        },
+        "gpt-5.4": {
+          "summary": "A PlayStation trophy screen shows Ghost of Yōtei at 100% completion with all 54 trophies earned, including the platinum trophy."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A trophy collection screen showing achievements in a video game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A completed trophy list for the game 'Ghost of Yōtei', showing earned achievements with icons, names, rarity, and timestamps."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the PlayStation trophy list for the video game [PERSON], showing 100% completion with 54 out of 54 trophies earned."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming interface showcasing three games with playtime and trophy information."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot of a PlayStation games screen shows [ORGANIZATION], Ghost of [LOCATION], and Ghost of [LOCATION] with playtime, trophies, and game help entries."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a gaming app showing completed games including [ORGANIZATION], Ghost of [LOCATION], and Ghost of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming app screen showing playtime and trophy progress for three games: [ORGANIZATION] Spider-Man 2, Ghost of [LOCATION], and Ghost of [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a gaming profile displaying playtime and trophy progress for [ORGANIZATION], Ghost of [LOCATION], and Ghost of [LOCATION]."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A picturesque landscape features a traditional Japanese castle perched on a cliff overlooking a serene body of water, surrounded by vibrant cherry blossom trees and a stone path, all bathed in dramatic, bright"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene landscape featuring cherry blossom trees, a river, and a traditional building under a bright sky."
+        },
+        "gpt-5.4": {
+          "summary": "A serene scenic image shows cherry blossom trees around a pond beside a large Japanese-style castle wall under dramatic bright clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring cherry blossoms in full bloom near a traditional Japanese building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene Japanese landscape featuring cherry blossom trees, a stone path, and a traditional castle under a dramatic sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic digital landscape featuring a traditional Japanese castle on a cliff, cherry blossom trees, and a stone path leading towards a body of water under a bright sky."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, light brown dog with large eyes peeks out from under a pile of red, black, and white striped blankets, looking"
+        },
+        "gpt-4o-mini": {
+          "summary": "A small dog is curled up under a blanket, looking cozy and relaxed."
+        },
+        "gpt-5.4": {
+          "summary": "A small dog is tucked under layered black, white, and red blankets on a couch or pet bed, peeking out with a cozy look."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog peeking out from under a colorful blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small dog peeks out from under a colorful blanket on a pet bed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small tan dog with a shaved patch on its head peeks out from under a red, black, and white striped blanket."
+        }
+      }
     }
   }
 }

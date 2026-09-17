@@ -1,66 +1,1437 @@
 {
   "user_id": "participant_003",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "dining",
-        "dogs",
-        "pet care",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: dining; dogs; pet care; reading."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful house and car, both decorated with rainbow colors, symbolizing pride."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshoted social post shows a house painted in rainbow stripes with [LOCATION] and rainbow flags outside and a rainbow [ORGANIZATION] Beetle parked in front."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Rainbow-colored car parked in front of a house adorned with rainbow stripes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A rainbow-painted house and car with 'fagbug' text are shown, with flags flying above the house."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post showing a house and car painted in rainbow colors with an American flag and a Pride flag flying outside."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "coffee and tea",
-        "comedy",
-        "dining",
-        "dogs",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: coffee and tea; comedy; dining; dogs; photography."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contrasts common perceptions of Pride with its deeper meanings through a colorful infographic."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a hand-drawn [ORGANIZATION] infographic contrasting a simple rainbow-and-parades view with a larger wheel of themes like community, rights, safety, and self-acceptance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A comparison of what people think pride means versus its actual meaning."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand-drawn infographic contrasting common perceptions of Pride with its deeper, multifaceted reality using rainbow-themed visuals."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand-drawn infographic contrasts the superficial view of Pride (rainbows and parades) with a detailed pie chart illustrating its deeper meanings like community, self-love, and activism."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "dining",
-        "dogs",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; dining; dogs; photography; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a personal story about coming out at age twelve, discussing authenticity and support from a religious perspective."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a reposted social media text post about coming out at age 12 and receiving a supportive Christian response."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "User shares a coming-out story from childhood in relation to their faith."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post sharing a personal story about coming out at age 12, receiving supportive comments."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media thread featuring a personal story about coming out at age twelve with supportive religious guidance, followed by a comment praising the response as proper Christian behavior."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "dining",
-        "dogs",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: dining; dogs; nature visits; outdoor activities; photography."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features historical photographs of trans women from the 1950s, accompanied by a caption emphasizing their longstanding presence."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a [ORGANIZATION] post sharing a tweet about trans women in the 1950s alongside black-and-white historical group photos."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Historical photos of trans women in the fifties accompanied by a tweet emphasizing their presence."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo collage of women from the 1950s, shared with the caption 'trans women in the fifties. we've always been here.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post featuring a collage of black-and-white photos from the 1950s showing women in formal attire, accompanied by text about trans women's historical presence."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "dining",
-        "dogs",
-        "photography",
-        "reading",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: dining; dogs; photography; reading; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media post with white text on a solid red background, stating 'Being non-"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bold text statement addressing non-binary identity and societal perceptions."
+        },
+        "gpt-5.4": {
+          "summary": "A social media screenshot shows a bold white quote on a red background about non-binary identity and others caring too much, with [ORGANIZATION] reaction and comment/share [ORGANIZATION] visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A statement addressing non-binary identities in a confrontational tone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red background displays white text stating, 'Being non-binary isn't confusing. What's confusing is why you care so much.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post on a red background featuring white text that challenges the confusion surrounding non-binary identities."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cultural visits",
-        "dining",
-        "dogs",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cultural visits; dining; dogs; photography; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a framed collage of photographs and notes displayed on a wall."
+        },
+        "gpt-5.4": {
+          "summary": "A rustic wooden shadow box on a wall displays a collage of photos and keepsakes, with part of another framed photo and note visible beside it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shadow box display featuring photos of people enjoying outdoor activities by a lake."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden shadow box on a wall displays a collage of photos and memorabilia, including beach scenes and handwritten notes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wooden shadow box frame mounted on a wall contains a collage of personal photos, including kayaking and beach scenes, along with mementos like a frisbee and a handwritten note."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A two-panel comic strip shows a clownfish asking a jellyfish how it survives without a brain, to"
+        },
+        "gpt-4o-mini": {
+          "summary": "A comic strip featuring a conversation between a clownfish and a jellyfish about survival without a brain."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] post shows a two-panel comic where a clownfish asks a jellyfish, \"how do you survive without a brain?\" and the jellyfish replies, \"yes.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous comic strip featuring a clownfish asking how it survives without a brain while being answered by another creature."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A two-panel comic shows a clownfish asking a jellyfish how it survives without a brain, to which the jellyfish replies 'yes.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [PERSON] post by '[ACCOUNT]' featuring a two-panel comic where a clownfish asks a jellyfish how it survives without a brain, to which the jellyfish replies 'yes.'"
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post discussing social issues and criticizing certain behaviors associated with a specific ideology."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] post from [ACCOUNT] shows a black text graphic criticizing government actions and contrasting them with calling oneself Christian."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post criticizing Christian beliefs based on societal issues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post with white text on a black background criticizing hypocrisy in Christian identity."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter post by user '[ACCOUNT]' featuring a black background with white text listing social and political grievances, followed by a question about Christian identity."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two men are seated at a restaurant table, engaged in conversation."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose at a table inside a warmly lit casual restaurant with booths and other diners in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men are sitting together in a cozy restaurant environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men are seated at a table in a warmly lit restaurant or bar, posing for the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men sit side-by-side at a table in a casual restaurant, with one wearing a grey t-shirt featuring a forest graphic and the other in a long-sleeved shirt and baseball cap."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Several people are clinking glasses filled with various beverages, some garnished with fruit, in a casual bar or restaurant setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people is toasting with various drinks at a social gathering."
+        },
+        "gpt-5.4": {
+          "summary": "A person at a restaurant table reaches in with a drink as several citrus-garnished cocktails and beers are raised together in a casual toast."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are raising glasses in a celebratory toast."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard smiles while holding a drink at a bar, surrounded by other glasses of beverages."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man in a grey t-shirt sits at a wooden table in a bar, clinking glasses of yellow cocktails with others."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a meal featuring a sandwich and a salad on a table, with a hand pointing at the food."
+        },
+        "gpt-5.4": {
+          "summary": "A restaurant table scene shows a plated sandwich with a side salad and dipping sauce, with a person pointing at the food."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person points towards a plate of food featuring sandwiches and salad."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person points at a meal of sandwich and salad on a restaurant table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person points at a restaurant meal featuring a sandwich and salad on a wooden table."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a kitchen with various food items on the counter and a window with natural light coming in."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit home kitchen shows a stove, sink, hanging pot rack, refrigerator, and a counter covered with groceries and canned foods."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy kitchen scene featuring a chandelier holding utensils above an open window letting in sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A kitchen with dark walls, white cabinets, and a window letting in sunlight, cluttered with food items and appliances."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A kitchen scene featuring dark walls, white cabinetry with lattice details, and a cluttered countertop filled with groceries and cleaning supplies."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image captures a kitchen counter area featuring a sink,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a kitchen area featuring a sink, coffee maker, and various glass containers on a countertop."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit kitchen corner shows a sink, white cabinets, a coffee machine, drying glass bottles, and several polished silver teapots on the windowsill."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy kitchen corner featuring a sink area with decorative cabinets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A kitchen corner with white cabinets, a stainless steel sink, and a dishwasher partially open, featuring glassware and silver teapots on the windowsill."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A kitchen corner featuring white cabinetry with lattice detailing, a stainless steel sink, and various appliances including a dishwasher and coffee maker."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a cozy, vintage-style room featuring ornate wooden furniture, a table with candles, and decorative elements."
+        },
+        "gpt-5.4": {
+          "summary": "An ornate medieval-style room features carved throne chairs, a round table with candles and flowers, a wooden cabinet, and a suit of armor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A medieval-themed room featuring ornate furniture including a throne-like chair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A warmly lit room with ornate wooden chairs, a table adorned with candles and flowers, and a suit of armor near a tall wooden cabinet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit room featuring ornate antique furniture, including two high-backed leather chairs and a round table set with candles and flowers, alongside a suit of armor and a large wooden cabinet."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a provocative text questioning the hypocrisy of certain religious beliefs regarding sin, particularly in relation to being gay."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Facebook-style post from GayFamilyValues shows a text graphic criticizing selective biblical condemnation of homosexuality, with rainbow-colored borders."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post questioning whether being gay aligns with religious teachings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graphic with text questioning religious hypocrisy by listing various behaviors often deemed sinful."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post from the page '[ACCOUNT]' featuring a text-based graphic that challenges religious hypocrisy regarding LGBTQ+ issues by listing other biblical prohibitions."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet discussing the selective interpretation of Bible verses regarding human sexuality versus social justice issues."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a quote post by Rev. [PERSON] about Bible verses, sexuality, and caring for immigrants and the poor, placed over a colorful abstract paint-splash background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet by Rev. [PERSON] discussing biblical interpretation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet from Rev. [PERSON] critiques selective interpretation of Bible verses on sexuality versus social justice, overlaid on a colorful abstract background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a tweet by Rev. [PERSON] discussing the prioritization of biblical verses on human sexuality versus those calling for social care, set against a colorful abstract background."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post discussing the representation of homosexuality in media."
+        },
+        "gpt-5.4": {
+          "summary": "An [ORGANIZATION] feed screenshot shows a suggested post from [PERSON] featuring a text graphic about gay people and representation in TV, movies, and media."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet defending LGBTQ+ representation in media from [ACCOUNT]"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post with bold white text on a dark background stating that homosexuality is not forced and gay people exist and should be represented in media."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] post by user [PERSON] featuring a text-based graphic arguing that depicting gay characters in media is not forcing homosexuality on anyone."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful fish alongside a tweet discussing its unique gender characteristics."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media post shows a brightly colored fish and an article headline about a rainbow fish that is born female and becomes male, set against a pride-flag-themed background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet discussing a 'gay trans fish' discovery in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post featuring a colorful fish with text about its gender transition, overlaid on a rainbow-themed background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post featuring a colorful fish and an article headline about the rose-veiled fairy wrasse changing sex."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people dressed in various superhero and fantasy costumes poses together outdoors."
+        },
+        "gpt-5.4": {
+          "summary": "A group poses outdoors on a residential sidewalk in autumn wearing Halloween-style costumes, including [PERSON], [PERSON], Spider-Man, a cat mask, a green fantasy outfit, and a devil costume with a trident and lantern."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of six people dressed in costumes stands together outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of five people, including a child, pose outdoors in costumes resembling [PERSON], [PERSON], Spider-Man, [PERSON], and the [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of six people, including a child, pose outdoors in costumes representing [PERSON], [PERSON], [PERSON], Spider-Man, Link, and the [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a humorous response to a question about decorating for Christmas early, emphasizing personal freedom and the need for holiday cheer."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a pink quote graphic bordered with colorful Christmas lights about decorating for Christmas early and finding comfort in holiday magic."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous meme discussing early Christmas decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink graphic with a colorful string-light border contains a humorous text about decorating for Christmas early."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pink graphic featuring a humorous text exchange about decorating for Christmas early, framed by colorful holiday lights."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a social media post discussing the analogy between straight pride and parking spaces for able-bodied individuals, accompanied by various user comments."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] post sharing a rainbow-background text thread comparing “straight pride” to able-bodied parking spaces, with [ORGANIZATION]-themed reactions and caption text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Social media post discussing comparisons between straight pride and able-bodied parking spaces."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post showing a thread of comments debating the analogy between asking for 'straight pride' and using able-bodied parking spaces."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post featuring a discussion comparing straight pride to able-bodied parking spaces, set against a colorful background."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a satirical guide on identifying Nazis, accompanied by a protest scene and comments from users expressing disagreement."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a social media meme with a protest photo and anti-Nazi text, followed by comments reacting to it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme-style post criticizing Nazi sympathizers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post displaying a meme about identifying Nazis by their online behavior, accompanied by user comments."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a political meme featuring a photo of a man wearing a swastika [PERSON] and text outlining a method to identify Nazis, accompanied by user comments."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a pair of navy blue Skechers slip-on shoes next to other footwear on a mat."
+        },
+        "gpt-5.4": {
+          "summary": "A pair of navy Skechers slip-on sneakers sits on a tray by a doorway next to other shoes, including a red Spider-Man-themed shoe."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pair of navy blue [ORGANIZATION] shoes placed next to a Spider-Man themed shoe."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pair of navy Skechers Slip-ins sneakers sits on a mat next to other shoes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a pair of navy blue [ORGANIZATION] sneakers placed on a black tray next to other footwear."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet addressing women's rights and the absurdity of it being a topic of discussion."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] post shows a reposted text meme from [ACCOUNT] arguing that women’s rights should not still be up for debate."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT] criticizes societal attitudes towards women's rights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet by [ACCOUNT] questioning why women's rights are still discussed, displayed within a social media interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post by user [ACCOUNT] containing a provocative statement about women's rights."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A speckled grey and white dog is comfortably sleeping on its back on a dark textured couch, with its head resting on the armrest."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is lying on its back on a couch, appearing relaxed."
+        },
+        "gpt-5.4": {
+          "summary": "A relaxed black-and-white dog is lying sprawled on its back on a dark couch indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A relaxed dog lounging comfortably on a dark couch."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog with gray and white fur is lying on its back on a dark couch, appearing relaxed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grey and white dog is lying on its back in a relaxed pose on a dark brown textured couch."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white dog with a grey muzzle is lying down on a grey carpet, with a tiled floor in the foreground and a pet gate in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is lying on the floor in a home setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white dog wearing a harness lies on a carpet indoors near a baby gate and patterned tile floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white dog wearing a harness lies down indoors near an open gate."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black and white dog wearing a harness lies on carpet near a patterned tile floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white dog wearing a harness lies on a gray carpet next to a tiled floor with a baby gate in the background."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet discussing the hypocrisy of certain religious practices and attitudes towards LGBTQ+ individuals."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] post sharing a tweet criticizing forcing children into religion and defending acknowledgment that gay people exist."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet criticizing religious practices towards children by Mr. [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter post by Mr [PERSON] criticizing religious practices and labeling gay people as groomers, with a reply from [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post by [PERSON] sharing a tweet from Mr [PERSON] that critiques religious upbringing and LGBTQ+ discrimination."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple embraces in front of a colorful, abstract background, conveying a sense of intimacy and connection."
+        },
+        "gpt-5.4": {
+          "summary": "An [PERSON] screenshot shows a post of two people embracing from behind while looking at a large painting, with an overlaid quote about reincarnation and art."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple embraces in front of a painting while discussing reincarnation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple embraces from behind in a painting-style background, overlaid with a reflective quote about reincarnation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [PERSON] post by '[ACCOUNT]' featuring a painting of two people embracing, overlaid with a text quote about reincarnation and art."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post expressing strong opinions about defending Trump in relation to allegations involving children."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] post displays a white-on-black political text criticizing people who defend Trump despite alleged ties to [PERSON], with a long caption below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post criticizing those who defend Trump against allegations of child abuse."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post displaying a stark white text message on a black background, criticizing defenders of Trump regarding [PERSON] allegations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post featuring a black background with white text criticizing those who defend Trump regarding [PERSON], accompanied by a caption from user [ACCOUNT]"
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A conversation between a father and son about the son's decision not to have children, highlighting differing perspectives on family expectations."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media post shows a text-based meme about a father pressuring his son for grandchildren, with a stock photo of two men talking on a couch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous dialogue between a father expressing desire for grandchildren versus his son's perspective."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men sit on a couch in a living room, overlaid with text depicting a dialogue about childfree choices."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring a dialogue between a father and son about the pressure to have children, overlaid on a stock photo of two men talking on a couch."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post addressing LGBTQ+ identity and the misconceptions surrounding it."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] post shows a colorful text graphic advocating for LGBTQ+ people and questioning the idea that being straight is a choice."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post advocating LGBTQ+ rights against persecution."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text graphic with a rainbow bokeh background argues that LGBTQ+ people are born this way and questions why anyone would choose to be straight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post featuring an LGBTQ+ advocacy message about being born that way, set against a colorful bokeh background."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote attributed to Prince about gender identity, set against a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a quote graphic with a portrait of Prince in a purple outfit beside text about gender and non-binary identity."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quote by Prince emphasizing non-binary gender identity."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graphic featuring Prince in a purple outfit with text claiming he said 'I'm not a woman, I'm not a man' in 1984 and dismissing non-binary identity as recent."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring a photo of the musician Prince in a purple outfit alongside text quoting his 1984 statement about gender identity."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a satirical commentary on Trump supporters, highlighting a common defense used by them."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] suggested post shows a political meme criticizing Trump supporters, with a crowd holding Trump signs and large overlaid text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme criticizing Trump supporters' logic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meme showing people holding Trump-themed signs with a speech bubble containing dismissive text, captioned 'THE TWISTED LOGIC OF A TRUMP SUPPORTER'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A political meme criticizing the reasoning of Trump supporters, featuring a crowd holding signs and a speech bubble with defensive logic."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A meme features a young boy with a shocked expression, accompanied by"
+        },
+        "gpt-4o-mini": {
+          "summary": "A child in a sweater looks surprised, with text indicating a realization about December approaching."
+        },
+        "gpt-5.4": {
+          "summary": "A meme shows a shocked child indoors with the caption about realizing tomorrow is December."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring a young boy in an indoor hallway reacting dramatically."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young boy with a shocked expression in a hallway, overlaid with text reading 'When you realize tomorrow is December'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring a young boy with a shocked expression in a hallway, overlaid with text about realizing tomorrow is December."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet discussing sexual orientation, emphasizing that children are aware of various relationship terms."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a social media post featuring a quote about heterosexuality and sexual orientation over a colorful paint background, with a caption saying 'Good morning' and pride/trans flag emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet discussing sexual orientation from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet by [PERSON] about sexual orientation education for children, overlaid on a colorful abstract background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post featuring a quote by [PERSON] about sexual orientation and children, set against a colorful paint background with LGBTQ+ flags."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful background with text addressing the misconceptions about being gay or transgender."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media repost showing an LGBTQ-supportive quote in bold text over a colorful abstract background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Image features a colorful abstract background with bold text advocating against negative attitudes towards LGBTQ+ individuals."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful abstract background displays a bold text message rejecting the idea that being gay or trans is a choice."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post featuring an LGBTQ+ advocacy quote on a colorful abstract background, accompanied by rainbow and transgender pride flags."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote discussing the nature of sexuality and homophobia, attributed to [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media post showing a bold white-text quote on a black background about homophobia, sexuality, and [ORGANIZATION] pride."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quote by [PERSON] discussing homophobia."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-background image displays a quote in white text attributed to [PERSON], ending with a rainbow flag emoji."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post displaying a quote by [PERSON] about sexuality and homophobia, accompanied by a rainbow flag emoji."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post expressing frustration with a political mantra and advocating for improvement rather than abandonment."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a text-based political social media post attributed to [PERSON] arguing against the phrase \"if you don't like it here, leave\" and saying problems should be fixed instead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet by [PERSON] criticizing a right-wing mantra of leaving instead of fixing problems."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post by [PERSON] criticizing the political slogan 'If you don't like it here, leave,' advocating for fixing problems instead."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post by [PERSON] expressing frustration with right-wing political rhetoric and advocating for fixing societal flaws rather than leaving."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful background with text addressing various societal issues and encouraging activism against oppressive systems."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media post shows a rainbow abstract background with a text graphic about opposing Christian nationalism, patriarchy, white supremacy, homophobia, and transphobia."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post advocating against various forms of oppression including Christian nationalism, patriarchy, white supremacy, homophobia, transphobia."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful graphic with bold text stating that the targets of critique are systems like Christian Nationalism, patriarchy, white supremacy, homophobia, and transphobia, urging viewers to join efforts to dismantle oppressive systems."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post featuring an abstract, colorful background with white text overlaying political statements about dismantling oppressive systems."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a meme depicting a person in water with the text 'CHRISTIANS BEING PERSECUTED IN [LOCATION]'."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media post shows a satirical meme about \"Christians being persecuted in [LOCATION],\" with a figure appearing to drown but actually sitting in shallow water and political commentary below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme criticizing Christians in [LOCATION] being portrayed as persecuted while highlighting [PERSON] Christian Nationalism."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A two-panel cartoon meme showing a man drowning, with text claiming Christians are persecuted in [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post featuring a two-panel meme contrasting a man drowning with one relaxing in water, accompanied by text criticizing the narrative of Christian persecution in [LOCATION]."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a social media post discussing the perceived persecution of Christians in [LOCATION], with a critical tone towards Christian nationalism and political influence."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION]-style post sharing a long political and religious critique discussing Christian nationalism, [PERSON], and claims of Christian persecution in [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post criticizing Christians in [LOCATION] being perceived as persecuted."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet by 'Godless Engineer' critiques Christians in [LOCATION] as being persecuted, listing points about their majority and influence, ending with hashtags."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post by 'Godless Engineer' arguing that Christians in [LOCATION] are not persecuted, supported by a checklist of their political and social power."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote discussing the challenges of parenting, contrasting it with the perspective of childfree individuals."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Facebook-style post shows a humorous text meme about childfree people and the difficulty of parenting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "\"You childfree people have no idea how hard it is to be a parent\""
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post displaying a quote about parenting challenges from [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post by [PERSON] featuring a humorous text meme about the challenges of parenting compared to child-free perspectives."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile screen displays a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a social media profile with a user named [PERSON], highlighting his role as a part-time actor and business person."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a LinkedIn follow-suggestion page or email featuring [PERSON], follower counts, and [ORGANIZATION] buttons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A LinkedIn post featuring [PERSON]' professional information."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A LinkedIn mobile interface showing a user's suggested follow list, featuring [PERSON] with follower count and 'Follow' button."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a [ORGANIZATION] profile page featuring [PERSON] with the bio 'Part-Time Actor, Business' and over 3.6 million followers."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote advocating for women's rights regarding motherhood and consent, set against a black background with bold text."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media post shows a black quote graphic from “[ORGANIZATION]” about consent and not forcing girls into motherhood, with reactions and comments visible below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white graphic advocating women's rights in reproductive health."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-background graphic displays a quote about reproductive autonomy, attributed to '[PERSON], [LOCATION]', under the title 'MY VOICE MY CHOICE'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post featuring a quote about reproductive rights and bodily autonomy attributed to '[PERSON], [LOCATION]' against a black background with pink highlights."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet discussing societal perceptions of traditional beliefs versus progressive views on race and gender."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] post sharing a tweet with a long political text about racism, white supremacy, and the gender binary."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet by [PERSON] criticizing societal reactions towards progressive beliefs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet by [PERSON] asking for societal leniency toward trans people, comparing it to the common excuse of 'he grew up that way' for racists."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post by [PERSON] sharing a quote about seeking social tolerance for progressive beliefs similar to that given to traditional views."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet discussing generational differences in acceptance of sexual orientation and gender identity."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] post sharing a meme-like tweet about LGBTQ+ visibility, acceptance, and people having to hide their sexuality or gender."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet discussing generational differences in sexual orientation acceptance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet by Lord [PERSON] critiques a claim about past lack of LGBTQ+ identities, arguing it ignores historical lack of acceptance and research."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post by 'Lord [PERSON]' featuring a text-based debate about the historical existence and acceptance of LGBTQ+ identities."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a text post questioning why women are given extensive safety advice while men are not equally instructed on how to treat women better to ensure their safety."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text discussing safety advice for women and questioning societal norms regarding men's responsibility in ensuring women's safety."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a centered text quote on a white background discussing women's safety precautions and calling for men to treat women better."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post discussing safety tips specifically directed towards women."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text-based image displaying a social commentary questioning why men aren't told to treat women better and make them feel safe."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text-based post discussing societal expectations for women's safety versus men's behavior."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays the question \"What harm does being gay actually cause?\" in white text"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text question challenging the perceived harm of being gay."
+        },
+        "gpt-5.4": {
+          "summary": "A text graphic on a dark brown textured background asks, \"What harm does being gay actually cause?\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A question posed against a textured brown background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text-based image poses the question 'What harm does being gay actually cause?' against a textured brown background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile phone displaying a text-based post with the question 'What harm does being gay actually cause?' on a textured brown background."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large group of people poses together in a bowling alley, showcasing a fun and social atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A large group poses together for a cheerful photo at a bowling alley beside a lane and several bowling balls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people posing together in a bowling alley."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large group of people poses together in a bowling alley, smiling and waving near the ball return."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of people poses for a photo inside a bowling alley, with colorful bowling balls visible in the foreground."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a series of tweets discussing gender issues and societal norms, presented against a colorful brick wall background."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a three-post X/Twitter thread by Dr. [PERSON] discussing trans rights, misogyny, and claims about men pretending to be trans, set against a pink-and-blue brick background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Social media post discussing gender roles, transphobia, and human rights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of three tweets by Dr. [PERSON] criticizing gender identity fraud and toxic masculinity, displayed against a pink-to-blue brick wall background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media thread by Dr. [PERSON] discussing gender identity, toxic masculinity, and human rights against a pink-to-blue brick wall background."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post advocating for social justice regarding public drug use and homelessness."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a tweet advocating solutions like overdose prevention sites, affordable housing, and public restrooms instead of blaming vulnerable people."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet advocating against blaming victims of public issues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet by [PERSON] advocating for systemic solutions to social issues rather than blaming individuals."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post by [PERSON] advocating for systemic solutions to public health and housing issues rather than blaming individuals."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet discussing [PERSON] public persona and addressing issues of racism and bigotry."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] post sharing a tweet-style quote about [PERSON] and anti-racism."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post praising [PERSON]'s integrity over a lifetime of public appearances."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet by jolly_good_ginger criticizing modern bigotry and urging people to 'Be better. Be [PERSON].'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post by user jolly_good_ginger praising [PERSON] clean public record as a counter-argument to modern excuses for bigotry."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of a social media"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet discussing the biblical prohibition of homosexuality and mixed-material clothing, using humor to critique selective religious arguments."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a tweet quoting [PERSON] to compare anti-gay religious arguments with the biblical ban on mixed-fabric clothing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet discussing religious views against homosexuality using biblical references."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet by [PERSON] ([ACCOUNT]) humorously equates opposition to homosexuality with opposition to mixed-material socks, citing [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a tweet by user [ACCOUNT] arguing that biblical prohibitions against mixed fabrics (poly/cotton socks) should be applied with the same intensity as those against homosexuality."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bold text list of alleged actions by ICE, highlighting various violent incidents."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] post from [ORGANIZATION] shows a black-background political text graphic criticizing ICE with a list of alleged violent abuses and the line \"Are we great yet?\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post criticizing ICE's actions in various violent incidents."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-background graphic lists alleged violent acts by ICE, ending with the question 'Are we great yet?'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post featuring a black background with white text listing specific allegations against ICE, ending with the phrase 'Are we great yet?' in yellow."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a childhood photo of [PERSON] with [PERSON], highlighting a personal connection."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a nostalgic indoor family-style photo of three smiling people in a wood-paneled room, overlaid with entertainment-news text about [PERSON] and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A family photo featuring a woman holding two children in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vintage-style photo shows a woman holding a young child while standing beside a man, all smiling in a warmly lit room with wood paneling and bookshelves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A childhood photo of a smiling man and woman holding a young child, overlaid with text about [PERSON] and [PERSON]."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a baby wrapped in a colorful blanket with a message promoting gay adoption."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media post shows a sleeping baby wrapped in a rainbow crocheted blanket alongside text supporting gay adoption."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A baby wrapped in a colorful blanket with an advocacy message promoting gay adoption."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sleeping newborn wrapped in a rainbow-colored blanket with text advocating for gay adoption."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post featuring a sleeping baby wrapped in a rainbow blanket with text advocating for gay adoption."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four individuals poses in front of colorful abstract artwork with the words 'BRIGHT' and 'BOLD' displayed."
+        },
+        "gpt-5.4": {
+          "summary": "Four people pose indoors in front of colorful abstract wall art with the words “BRIGHT” and “BOLD.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four individuals pose in front of colorful artwork labeled 'BRIGHT' and 'BOLD'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four people pose together in front of colorful abstract artwork with the words 'BRIGHT' and 'BOLD' visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four people pose for a group photo in an art gallery setting, standing and sitting before two large, colorful abstract paintings labeled 'BRIGHT' and 'BOLD'."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four people poses in front of colorful abstract artwork with the words 'BRIGHT' and 'BOLD' displayed."
+        },
+        "gpt-5.4": {
+          "summary": "Four people pose indoors in front of colorful abstract paintings, including two large artworks labeled \"BRIGHT\" and \"BOLD.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four individuals pose in front of colorful artwork labeled 'BRIGHT' and 'BOLD'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four people pose together in front of colorful abstract art with the words 'BRIGHT' and 'BOLD' displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four people pose for a group photo in an art gallery setting, standing and sitting in front of two large, colorful abstract paintings."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a social media post discussing opinions on homosexuality, highlighting contrasting views on its naturalness and societal acceptance."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] post sharing text and quoted tweets about homosexuality and LGBTQ-related debate."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Social media post discussing homosexuality in a debate format."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post showing three tweets debating the nature and morality of homosexuality."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a Facebook feed showing a post by '[ACCOUNT]' that quotes and refutes statements made by [PERSON] and [PERSON] regarding homosexuality."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet addressing political figures and their accountability regarding abuse, emphasizing a strong stance against selective outrage."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a text-heavy social media post arguing that several named public figures should go to prison if they abused young girls, regardless of politics."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Tweet advocating harsh consequences for public figures accused of abusing young girls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter post by '[ACCOUNT]' presents a list of hypothetical scenarios involving public figures abusing young girls, each followed by '- Prison', and concludes with a political alignment challenge."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a political post arguing that abuse allegations against various public figures should uniformly result in prison, regardless of their political affiliation."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a blue fleece jacket and a sparkly tinsel"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing festive blue and silver pom-pom headbands is taking a selfie in a brightly lit indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person wearing a blue tinsel headband in a bright office or clinic-like room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a blue jacket and festive headpiece in an indoor health facility."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a blue and silver tinsel headband takes a selfie indoors near a 'HEALTH' sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a blue fleece jacket and a festive tinsel headband poses for a selfie in an indoor setting with institutional features."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet discussing [PERSON] and a controversial statement regarding [PERSON] death."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a political social-media graphic featuring a tweet-style post by [PERSON] and an embedded [PERSON] post about [PERSON], with a dark background and watermark."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet by [PERSON] criticizing [PERSON] comments."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet by [PERSON] criticizing [PERSON] past tweet about [PERSON] death."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post by [PERSON] criticizing [PERSON] reaction to [PERSON] death, featuring an embedded tweet from [ORGANIZATION] and a watermark for [LOCATION] Democratic Socialists."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man and a woman are sitting together in a [PERSON] wheel gondola,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple sits together in a ferris wheel gondola, enjoying the view."
+        },
+        "gpt-5.4": {
+          "summary": "Two people sit together in a [PERSON] wheel gondola at an outdoor fair, smiling with a cloudy sky and fairground visible behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are sitting together in a carnival ride booth under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people are seated together on a ride at an amusement park, smiling for the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman sit together in the cabin of a [PERSON] wheel, smiling at the camera with an outdoor fairground visible in the background."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a humorous commentary on the disconnect between high school students' perceptions of science education and adult misconceptions about scientific topics."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] post sharing an X.com science meme with a blue text panel criticizing anti-science beliefs such as vaccine myths, [ORGANIZATION] fears, climate change denial, and flat-earth claims."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme contrasting high school students' confusion over science classes versus adults’ misinformation beliefs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet by [PERSON] featuring a meme contrasting high school students' questions about science with adults' conspiracy theories."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] post by 'Physicians for a Healthy Democracy' sharing a meme that contrasts high school students' confusion about science with adults' embrace of scientific misinformation."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a post discussing the importance of proper sexuality education, highlighting a personal anecdote about parental attitudes towards sexuality."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] feed post sharing a text-image about sexuality education and homophobia."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Social media post discussing importance of proper sexuality education."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post by [PERSON] sharing a quote about sexuality education, with a reply from [LOCATION] discussing parental influence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a [ORGANIZATION] feed where user [PERSON] shares a post by [PERSON] discussing the dangers of parental homophobia and advocating for proper sexuality education."
+        }
+      }
     }
   }
 }

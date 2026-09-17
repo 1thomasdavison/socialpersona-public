@@ -1,67 +1,953 @@
 {
   "user_id": "participant_004",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "dining",
-        "fitness",
-        "music",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: dining; fitness; music; photography; reading."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the control panel of a treadmill in a gym setting."
+        },
+        "gpt-5.4": {
+          "summary": "View from a treadmill in a gym, showing the workout console with speed set to 3.0 and weight machines in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A treadmill in a gym showing workout metrics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of a treadmill console showing workout metrics like speed and time, with a gym environment visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person perspective of a treadmill console in a gym, displaying workout metrics like speed and time."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "dining",
-        "fitness",
-        "live performances"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; dining; fitness; live performances."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a bowl of cooked sausages mixed with chopped green onions and other ingredients."
+        },
+        "gpt-5.4": {
+          "summary": "A plastic container on a wooden table holds sliced browned sausage pieces mixed with chopped green onions, garlic, and sauce."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A clear plastic container filled with sausages topped with chopped green onions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A clear plastic container holds a dish of glazed meatballs mixed with chopped green onions and garlic on a wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a clear plastic bowl containing cooked cocktail sausages mixed with chopped green onions and garlic, resting on a wooden surface."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "dining",
-        "film and television",
-        "fitness",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: dining; film and television; fitness; outdoor activities; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a black and red plaid shirt, blue jeans, and a maroon backpack gives a thumbs-up gesture, seen from a high angle."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is giving a thumbs-up while seated outdoors, wearing a plaid shirt and a backpack."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up outdoor selfie shows a person in a plaid shirt and backpack giving a thumbs-up while seated."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a plaid shirt gives a thumbs-up outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a plaid shirt and backpack gives a thumbs-up gesture while seated outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing a plaid shirt and backpack, giving a thumbs-up gesture while seated outdoors."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "coffee and tea",
-        "dining",
-        "fitness"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; coffee and tea; dining; fitness."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person holding a ticket in front of a 'Wicked' musical poster depicting the Wicked Witch and [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie shows someone holding a cinema ticket in front of a large Wicked poster, with a flame \"[ORGANIZATION]\" sticker over part of the face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in front of a 'Wicked' movie poster holding an [ORGANIZATION] ticket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses in front of a movie poster for 'Wicked' while holding a ticket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a plaid shirt poses in front of a large movie poster for 'Wicked' while holding up a ticket stub."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "dining",
-        "film and television",
-        "fitness",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dining; film and television; fitness; photography."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a ticket for the musical 'Wicked' with details about the date, time, and seat."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a cinema ticket for \"WICKED: FOR GOOD\" at [ORGANIZATION] over a patterned theater floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a theater ticket for 'Wicked: For Good' showing in Theatre 4."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a movie ticket for 'Wicked: For Good' at [LOCATION], showing details for a [DATE] showtime."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a theater ticket for the musical 'Wicked: For Good' at [LOCATION], with white shoes and plaid pants visible against a patterned green carpet."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "dining",
-        "fitness",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; dining; fitness; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young man in"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person sits on the ground surrounded by gifts, including flowers and snacks, in a natural setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in formal attire sits on a wooden outdoor deck beside flowers, gift items, snacks, and a card, posing for a celebratory photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a suit sits outdoors surrounded by gifts including flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blazer sits on wooden decking beside a bouquet of flowers, snacks, and a gift bag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man in a navy blazer and glasses sits on a wooden deck surrounded by gifts including flowers, snacks, and a gift bag."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a blazer and glasses is playfully lying on a wooden-patterned floor surrounded by gifts including a bouquet of flowers, snacks,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying on the ground surrounded by gifts, flowers, and snacks in a casual outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a blazer lies playfully on a wooden deck beside a bouquet, gift bag, snacks, and takeaway items in an outdoor courtyard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a suit lies on wooden flooring next to flowers, snacks, and gifts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blazer lies on a wooden floor beside gifts including flowers, snacks, and a bag labeled 'GIFT FOR YOU MAN'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man in a navy blazer and glasses lies on a wooden floor next to a gift bag, bouquet of flowers, snacks, and food items."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person in a gym setting, focusing on their upper body and hair, with gym equipment visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person wearing glasses in a gym, with exercise machines visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up selfie of a person in an indoor gym environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person wearing glasses in a gym, with workout equipment visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing glasses and a blue shirt, captured in a gym setting with visible exercise equipment in the background."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile phone screen displays a 'Passcode Changed' notification within a chat application, prompting the user to enter a new passcode."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a mobile app screen indicating a passcode change notification."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone app screen shows a chat section prompting the user to enter a new passcode after it was changed on another device."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Notification indicating a passcode change was made."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app screen showing a passcode change prompt with four input circles and a 'Forgot Passcode' option."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface displays a 'Passcode Changed' notification with four filled circles indicating a new passcode entry screen."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting outdoors, wearing a plaid shirt and a backpack, with their face obscured."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up outdoor selfie of a person wearing large glasses, a plaid shirt, and a backpack on a paved walkway beside grass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses and a plaid shirt outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a plaid shirt takes a selfie outdoors with a backpack on."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a young man wearing silver-rimmed glasses and a plaid shirt, standing outdoors on a paved area with grass in the background."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A laptop screen displays a [ORGANIZATION] music video by [PERSON], set against a blurred background"
+        },
+        "gpt-4o-mini": {
+          "summary": "A laptop displaying a [ORGANIZATION] music video in a café setting."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop on a wooden table in a cafe-like indoor setting is open to [ORGANIZATION], showing a music video by [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displays a [ORGANIZATION] video of [PERSON] music video '[PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displays a [ORGANIZATION] music video of [PERSON] titled '[PERSON] in a warmly lit indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A laptop screen displays a [ORGANIZATION] music video by [PERSON] in a cafe setting with wooden furniture and warm lighting."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a chat interface with a message expressing a desire for a church date while [PRIVATE_TEXT], accompanied by various emojis."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a selected messaging-app chat with emoji reactions, a message reading \"[PERSON] date [PERSON]?! 😭,\" and a reply/forward/copy menu open."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a messaging app showing an emoji reaction panel above a message."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a messaging app showing a text message asking about church dating while [PRIVATE_TEXT], with an emoji reaction and a context menu open."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile messaging interface screenshot showing a message bubble with an emoji reaction menu and a context menu open for options like [ORGANIZATION], and [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in front of a barbershop sign."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up outdoor selfie shows a person wearing glasses and a light sweater near a roadside barbershop sign and a [ORGANIZATION] helmet."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses takes a selfie in front of an '[ORGANIZATION] sign."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses poses for a selfie outdoors near a barber shop sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a young man with styled dark hair and silver aviator glasses, standing outdoors on a paved sidewalk next to a [ORGANIZATION] helmet."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person taking a selfie with a barber shop sign in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up outdoor selfie with glasses beside a motorcycle helmet in front of a barbershop sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses takes a selfie in front of an outdoor barber shop sign."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses poses for a selfie outdoors near a barber shop sign, with a red helmet visible nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a young man wearing silver-rimmed glasses and a beige sweater, standing on a paved sidewalk next to a [ORGANIZATION] helmet."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated at a table with two laptops, one displaying a [ORGANIZATION] document."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits at a wooden table with two laptops, one showing a Google Docs document in an outdoor-looking setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting outdoors using a laptop displaying [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits at a wooden table with two laptops, one open to a Google Docs document titled '[ORGANIZATION] ([DATE]) Skripsi'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a beige t-shirt sits at a wooden table with two laptops, one displaying a Google Docs file titled '[ORGANIZATION] ([DATE]) Skripsi'."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a floor plan labeled 'My dream house' with a prominent 'BDSM ROOM' section."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous floor-plan meme labeled \"My dream house\" shows a small bedroom, bath, kitchen/dining, and lounge above a huge area marked \"BDSM ROOM.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous floor plan labeled 'My dream house' with a large label below reading 'BDSM ROOM'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand-drawn floor plan labeled 'My dream house' with a large handwritten addition 'BDSM ROOM' covering the lower half."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A humorous floor plan meme titled 'My dream house' that depicts a standard living area above a large, hand-labeled section designated as a BDSM room."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a user interface with a 'Disconnected' status and navigation options."
+        },
+        "gpt-5.4": {
+          "summary": "A messaging app screen shows a disconnected status above a search bar and inbox filter buttons for All, Unread, [ORGANIZATION], and Requests."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A messaging interface showing a disconnected status."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A disconnected social media interface showing a search bar and filter options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile application interface displaying a 'Disconnected' status with navigation tabs for All, Unread, [ORGANIZATION], and Requests."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a corridor viewed through a glass door, featuring a polished floor and wooden furniture."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet indoor hallway is seen through a glass sliding door, with polished tile floors, white walls, and wooden display cabinets along one side."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view through a glass door into an indoor hallway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view through a glass door into a long, empty hallway with terrazzo flooring and wooden display cases."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view through a glass door into a long, empty hallway with polished terrazzo flooring and white walls."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features stacked food boxes with playful text indicating that the food is ready."
+        },
+        "gpt-5.4": {
+          "summary": "A stack of pink-and-white [PERSON] takeout boxes is shown on a table, with the brand name and promotional slogans visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three pink boxes of [ORGANIZATION] snacks are stacked together."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three stacked pink and white food boxes branded 'ME [ORGANIZATION]' with the slogan 'Don't worry if you stay hungry cause gacoan is ready'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stack of three pink and white takeaway boxes for the brand 'ME [ORGANIZATION]' featuring a slogan about spicy food."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person holds a white food box from 'ME [ORGANIZATION]"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a food box labeled '[PERSON] while seated in a vehicle."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a boxed meal from [PERSON] inside a vehicle, next to a large drink cup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a box of [ORGANIZATION] spicy snacks in their car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a white food box labeled 'ME [ORGANIZATION]' inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a box of [PERSON] instant noodles while seated in a vehicle."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an error message from a chat application indicating an unexpected error occurred."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a chat page with an app error message and a large [ORGANIZATION] button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat interface displays an error message indicating a system issue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app error screen in a chat interface prompts the user to retry or restart."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot showing a chat interface with an error message stating 'Oops! An unexpected error occurred, please try again.' and a [ORGANIZATION] button."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting on a gym bench, taking a selfie in a gym setting with workout equipment in the background."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a gym showing a person seated on workout equipment, with other people and machines visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym while others work out."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie while sitting on gym equipment, with other individuals working out in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a black t-shirt takes a mirror selfie while seated on a gym bench, with other individuals working out in the background of a fitness center."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cluttered table with laptops, snacks, and various items scattered around."
+        },
+        "gpt-5.4": {
+          "summary": "A cluttered shared table with laptops, charging cables, snacks, tissues, and a container of small eggs or sweets suggests a casual study or work session."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cluttered table filled with snacks, a laptop charger setup, and some food items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cluttered wooden table with two laptops, snacks, wires, and personal items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cluttered wooden table features two laptops, various snack bags including [LOCATION] and [LOCATION], a power strip with cables, and a container of white round food items."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital order confirmation screen from a food delivery app, showing details of a single menu item and payment options."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a Shopee food/order confirmation checkout page in Indonesian showing vouchers, [ORGANIZATION] payment, delivery fees, and a final total of Rp13.000."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Order confirmation screen showing payment details in Indonesian."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Shopee order confirmation screen showing a discounted total of Rp13,000 after applying vouchers and reduced shipping fees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot showing a Shopee food order confirmation page with applied discounts and an insufficient balance notification."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital order summary screen displays details for a food delivery, including item name, prices, and a total amount."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a detailed order receipt for a food item with associated costs and discounts."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an Indonesian food delivery order summary shows a [ORGANIZATION] meal discounted to Rp0 with shipping and service fees totaling Rp13.000."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Order details showing a voucher deal applied."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A food order receipt showing a discounted meal with shipping and service fees totaling Rp13,000."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a food delivery order receipt in Indonesian showing a free meal voucher used, with shipping and service fees totaling Rp13.000."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation discussing an order and parking fees."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an Indonesian chat shows questions about whether an order and drop-off point match the app, followed by a request for an extra parking fee via [ORGANIZATION] or cash."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Chat message exchange in Indonesian discussing order details."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] chat where one user requests an additional delivery fee due to parking charges, and the other agrees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation in Indonesian where a delivery driver requests an additional payment for parking fees via [PERSON] or cash."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation with humorous exchanges about a document related to publishing."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a messaging app conversation in Indonesian and English, including a shared [ORGANIZATION] preview and joking chat replies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat message exchange discussing a publisher's document."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a chat conversation showing humorous reactions to a [ORGANIZATION] file named '2 - TransLanguaging.pdf'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation discussing an academic [ORGANIZATION] file and the publisher's identity."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a glass of iced coffee while seated in a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person in glasses and a striped shirt sipping an iced drink through a straw, with a flame sticker overlay."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses drinks from a glass of iced coffee in an indoor cafe."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses sips an iced beverage while a '[ORGANIZATION]' flame emoji is overlaid near their mouth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing wire-rimmed glasses and a striped shirt, drinking an iced beverage through a straw with a '[ORGANIZATION]' flame sticker on their cheek."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a gym setting holds a water bottle, with an overlay of Indonesian text offering motivational or humorous"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in workout attire holding a water bottle, with text overlay discussing confidence and compliments."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped gym mirror-style photo shows a person in black clothing holding a bottle beside exercise equipment, overlaid with large Indonesian meme text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person standing in front of a microphone holding an object."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a gym holding a water bottle, overlaid with Indonesian text about confidence and compliments."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in gym attire holding a water bottle is shown with overlaid text offering reassurance about social interactions and self-worth."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in a gym with dumbbells in the foreground and others working out in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a gym shows rows of dumbbells, weight machines, and a few people working out in a large indoor fitness space."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in front of dumbbells while others exercise around them."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits in front of a rack of dumbbells in a gym, taking a selfie while others work out in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a gym, sitting behind rows of dumbbells while others exercise in the background."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing glasses and a striped shirt looks at the camera with an open mouth expression, standing indoors near a shelf with books and a piece of art on the wall."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a striped shirt stands in a stylish interior with decorative items."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing glasses and a blue striped shirt poses indoors with a surprised expression, beside a shelf and wall art."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a striped shirt in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a striped shirt looks surprised indoors, with artwork and shelves visible behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and a striped shirt is captured in an indoor setting, displaying a surprised expression while standing near a shelf containing books and figurines."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are lying side by side in a bright red setting, with one wearing a snorkel mask and glasses."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose side by side on a bright red interactive display or photo booth screen, with one face partly covered by a snorkel-mask graphic filter."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are lying upside down in a playful pose against an orange background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people lie side-by-side on a red surface, one wearing snorkel gear and the other with clasped hands, viewed from above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men are lying on their backs against a vibrant red background, with one wearing a digital snorkel and mask filter."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A simple image displays the quote 'TREAT OTHERS THE WAY YOU'D WANT TO BE TREATED.' in a distressed black font on a plain white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a motivational quote about treating others with respect."
+        },
+        "gpt-5.4": {
+          "summary": "A minimalist quote graphic on a white background displays a message about treating others kindly."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A motivational quote emphasizing empathy in interpersonal relationships."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white background displays the phrase 'TREAT OTHERS THE WAY YOU'D WANT TO BE TREATED.' in a rough, handwritten-style black font."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A minimalist image displaying the Golden Rule quote in a rough, hand-drawn black font on a plain white background."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up selfie of a person holding a cup of pink dessert with a spoon."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person wearing glasses holding a plastic cup of pink dessert with a white spoon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses holds a cup of pink dessert soup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person wearing glasses holding a nearly empty cup of pink dessert."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing wire-rimmed glasses holding a plastic cup containing a pink dessert with a white spoon."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a grid of various social media posts on a tablet screen, featuring a mix of photos and text."
+        },
+        "gpt-5.4": {
+          "summary": "A tablet screen shows an [ORGANIZATION] profile grid with selfies, group photos, collage-style posts, and travel or street scenes in dark mode."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tablet displaying a grid of photos showing various scenes including people in different settings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tablet displays a photo gallery with multiple personal images including selfies, travel shots, and group photos."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tablet screen displays a social media profile grid featuring personal photos, travel scenes, and group portraits."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a tortoiseshell cat with green eyes, accompanied by a small white and black kitten."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a tortoiseshell-tabby cat looking at the camera while a black-and-white kitten stands in the foreground on a pebble-lined patio."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a curious cat sitting outdoors near rocks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tortoiseshell cat sits alertly on pebbles, looking directly at the camera with another cat partially visible below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a tortoiseshell cat with wide green eyes looking at the camera while a black and white kitten nurses from it on a patio."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation discussing a specialty related to oranges, with humorous exchanges."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a chat conversation in Indonesian with playful messages about oranges and a quoted reply."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat conversation discussing a joke involving oranges."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] chat showing humorous text exchanges about someone being a 'specialist in oranges'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation in Indonesian where users joke about being 'orange specialists' and discuss eating oranges."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person wearing glasses, with a blurred background suggesting an indoor public setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated at a table in a lively indoor setting, partially obscured by a blurred effect."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a person wearing large glasses, with bright food-court or restaurant lights and other people in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up selfie of a person wearing glasses in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person wearing glasses and a black shirt, taken indoors in a crowded setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a young man with dark curly hair and silver-rimmed glasses, wearing a black shirt in a busy indoor setting."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A candid shot of people waiting in an indoor departure area,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a crowded airport waiting area with people seated and shops in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A crowded indoor departure waiting area is filled with seated travelers, luggage, and small food and retail stalls under bright ceiling lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "People are seated in a busy waiting area of an airport terminal."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People waiting in an airport terminal with visible signage for departures and nearby shops."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crowded indoor waiting area, likely an airport or bus terminal departure lounge, with passengers seated and shops visible in the background."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing glasses and a green shirt stands casually outside a colorful storefront, looking to the side."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands outside a colorful shop with a sign that reads '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a green shirt stands outside a bright blue-and-red storefront with a \"TOKO MERU\" sign and handmade items visible inside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands outside a shop named '[ORGANIZATION], looking towards it."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person leans against a red perforated wall outside a blue-framed storefront with visible merchandise and signage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a green shirt stands outside a shop with blue framing and a red perforated metal door."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a plaid shirt and glasses stands next to"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands casually beside a table in a cozy, decorated café setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a checkered shirt poses beside a small table in a softly lit cafe-like interior with tiled walls, framed art, and hanging globe lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a room decorated with framed pictures of buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a plaid shirt leans against a table inside a retro-style room with tiled walls and framed artwork."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a plaid shirt stands in a room with tiled walls, patterned flooring, and framed artwork."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a box of [PERSON] perfume in a store setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a light blue [PERSON] perfume box in a store aisle with other colorful perfume boxes blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Hand holding a box of [ORGANIZATION] in front of shelves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a light blue box of 'Aquarius Zodiac Perfume' featuring a gold emblem with a water jug and moon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a light blue box of [ORGANIZATION] in a retail store aisle."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a chat conversation with two messages exchanged, one in Indonesian and one in English, along with timestamps."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a conversation in a messaging app with two text messages."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped screenshot of a messaging app shows an Indonesian chat message and a reply reading \"oh yes daddy\" with visible timestamps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation in Indonesian between two people."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text message exchange showing playful teasing between two people."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation showing a question in Indonesian followed by an English response."
+        }
+      }
     }
   }
 }

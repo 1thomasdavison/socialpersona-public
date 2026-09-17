@@ -1,67 +1,1921 @@
 {
   "user_id": "participant_059",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "dining",
-        "live performances",
-        "music",
-        "photography",
-        "travel"
-      ],
-      "summary": "Generalized visual topics: dining; live performances; music; photography; travel."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a computer setup displaying sheet music for a wind band composition alongside a gaming screen."
+        },
+        "gpt-5.4": {
+          "summary": "A desk setup shows a large monitor with orchestral sheet music open in notation software beside a laptop displaying [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A computer screen displays sheet music while a laptop shows [ORGANIZATION] gameplay."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer monitor displays sheet music software with orchestral parts, next to a laptop running a video game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A computer monitor displays a complex musical score in notation software next to a laptop running the video game [PERSON]."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "crafts and design",
-        "dining",
-        "live performances",
-        "music",
-        "travel"
-      ],
-      "summary": "Generalized visual topics: crafts and design; dining; live performances; music; travel."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays multiple screens showing successful redemption of codes for [ORGANIZATION] pro apps."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a digital whiteboard titled \"[ORGANIZATION] pro apps bundle\" shows multiple [ORGANIZATION] redeem-code confirmation windows for pro creative apps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digital collage showcasing multiple redeemed [ORGANIZATION] bundle notifications."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A digital board displays five [ORGANIZATION] app redemption confirmation windows showing successful downloads."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a digital board displaying five [ORGANIZATION] App Store redemption confirmations for professional creative applications."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "dining",
-        "live performances",
-        "music",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: dining; live performances; music; outdoor activities; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays an [ORGANIZATION]"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a screen confirming the successful redemption of a code for an app download."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows an [ORGANIZATION] redeem code confirmation page stating that a code was successfully redeemed and an app is downloading."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Confirmation of a code redemption in an app store interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A macOS App Store redemption confirmation dialog showing successful code redemption and app download initiation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a macOS application window showing a successful redemption confirmation for an 'All Access' subscription with the app currently downloading."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "live performances",
-        "music",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; live performances; music; outdoor activities."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A computer screen displays a successful code redemption message within an application store interface, indicating an app is now downloading."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a screen confirming the successful redemption of a code for an app download."
+        },
+        "gpt-5.4": {
+          "summary": "A computer screenshot shows [ORGANIZATION]'s App Store redeem page confirming a code was successfully redeemed and an app is downloading."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Confirmation of a code redemption in an app store interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A macOS App Store redemption confirmation dialog showing successful code redemption and app download initiation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a macOS App Store window displaying a success message that a code has been redeemed and an app is downloading."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "coffee and tea",
-        "dining",
-        "live performances",
-        "music",
-        "travel"
-      ],
-      "summary": "Generalized visual topics: coffee and tea; dining; live performances; music; travel."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A computer screen displays a pop-up window confirming a successfully redeemed code for an app download, featuring an icon resembling a film clapperboard."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a screen confirming the successful redemption of a code for an app download."
+        },
+        "gpt-5.4": {
+          "summary": "A macOS App Store-style redemption window confirms that a code was successfully redeemed and an app is downloading."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Confirmation of a code redemption in an app store interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A macOS Apple Store redemption confirmation dialog shows a successful code redemption with an app download in progress."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a macOS application window showing a successful code redemption confirmation for an app with a clapperboard icon."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "dining",
-        "live performances",
-        "music",
-        "photography",
-        "travel"
-      ],
-      "summary": "Generalized visual topics: dining; live performances; music; photography; travel."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of an [ORGANIZATION] application interface displaying a successful code redemption message and an app download notification."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a screen confirming the successful redemption of a code for an app download."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows [ORGANIZATION]'s App Store redeem page confirming a code was successfully redeemed and an app is downloading."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Confirmation of a code redemption successful in an app store interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A macOS App Store redemption confirmation dialog shows a successful code redemption with an app icon and download status."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a macOS App Store window displaying a success message that a code has been redeemed and an app is downloading."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A macOS App Store window displays a 'Redeem Code' dialog confirming successful code redemption and app download, featuring an app icon resembling a safe."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a screen confirming the successful redemption of a code for an app download."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of the Apple App Store redeem page shows a code successfully redeemed and an app beginning to download."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Confirmation of a code redemption in an app store interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A macOS App Store redemption confirmation dialog showing successful code redemption and app download initiation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a macOS App Store window displaying a success message that a code has been redeemed and an app is downloading."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, centrally located image shows a smiling person wearing academic regalia against a dark gray background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a small portrait of a person wearing a dark outfit with a red tie."
+        },
+        "gpt-5.4": {
+          "summary": "A low-information image shows a small centered portrait of a person in formal graduation-style attire against a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a graduation gown against a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small portrait of a person in academic regalia centered on a dark gray background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small, centered portrait of a smiling person in academic regalia with red and black details against a dark background."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A formal letter from [ORGANIZATION] congratulating a student on being named Class Valedictorian of Batch 2024."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a congratulatory letter from [ORGANIZATION], informing [PERSON] of his selection as Class Valedictorian."
+        },
+        "gpt-5.4": {
+          "summary": "A formal letter from [ORGANIZATION] congratulates [PERSON] and names him Class Valedictorian for Batch 2024."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A congratulatory letter from [ORGANIZATION] [ORGANIZATION] recognizing [PERSON] as Class Valedictorian."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A formal letter from [ORGANIZATION] announcing [PERSON] as [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A formal letter from [ORGANIZATION] congratulating [PERSON] on being named [ORGANIZATION] for Batch 2024."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark grey wicker chair with matching cushions and a black smartphone resting on the seat."
+        },
+        "gpt-4o-mini": {
+          "summary": "A smartphone rests on a gray cushioned chair."
+        },
+        "gpt-5.4": {
+          "summary": "A black smartphone rests on the gray cushion of a woven patio-style armchair with a matching back pillow."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a wicker chair cushioned in gray fabric."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark smartphone rests on a gray cushioned wicker chair."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark smartphone rests on the grey cushion of a woven wicker armchair with matching backrest and seat cushions."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait shot of a person's lower face and shoulder, featuring a white collared shirt and a colorful, patterned garment against a dark background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up portrait of a person wearing a traditional garment with intricate patterns."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up studio-style portrait shows part of a person's lower face wearing a collared shirt and a patterned brown-and-maroon garment against a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing an orange jacket over a maroon shirt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up portrait of a person wearing a textured orange and maroon garment with patterned trim against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a person wearing traditional attire with intricate embroidery against a dark background."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a post predicting over 1000 '[ORGANIZATION] for the year."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] post from [ORGANIZATION] [LOCATION] shows a text-only prediction message about 1000+ people graduating summa this year."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post predicting a high number of [ORGANIZATION] (graduates) at UP [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post from UP [LOCATION] predicting over 1000 '[ORGANIZATION] for the year."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] post from UP [LOCATION] dated [DATE], predicting over 1000 graduating students for the year."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a terminal window showing a command to keep the system awake for a specified duration."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed [ORGANIZATION] window is shown with the command `caffeinate -t 7200` entered."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A terminal window displaying a command prompt in macOS."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A macOS terminal window showing a user logged in and running the 'caffeinate' command to prevent sleep."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A macOS terminal window displays a command to prevent sleep mode using the 'caffeinate' utility."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile notification displays a '[ORGANIZATION], showing travel time and a map to [ORGANIZATION] in [LOCATION], [LOCATION]."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a map with directions to [ORGANIZATION] in [LOCATION], [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone notification shows a time-sensitive navigation alert to [ORGANIZATION] in [LOCATION] with a small map and a Directions button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A navigation alert indicating a time-sensitive route from current location to [ORGANIZATION] in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A navigation alert for a college event at [ORGANIZATION], showing a map with nearby landmarks and a 'Directions' button."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone notification displays a time-sensitive travel alert for '[ORGANIZATION] at [ORGANIZATION] in [LOCATION], [LOCATION], showing an estimated 41-minute drive via [LOCATION]."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large group of young adults, many holding string instruments like violins, cellos, and a trombone, pose for a group photo in an indoor rehearsal space."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large group of musicians is gathered in a rehearsal space, playing various instruments."
+        },
+        "gpt-5.4": {
+          "summary": "A large group of musicians poses in a rehearsal room with string and brass instruments, percussion, and music stands."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of musicians posing together in a rehearsal room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of musicians poses together indoors with string and brass instruments."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of young adults poses for a photo in a rehearsal room, holding various string instruments like violins and cellos."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large group of young musicians, holding various instruments like violins, cellos, and brass, pose happily for a group photo in an indoor rehearsal space."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large group of musicians poses together in a rehearsal space, showcasing various string and brass instruments."
+        },
+        "gpt-5.4": {
+          "summary": "A large group poses in a rehearsal room with orchestral instruments, music stands, and a casual ensemble atmosphere."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of musicians posing together in a rehearsal room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of musicians poses together in a rehearsal room, holding string and brass instruments."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of young adults poses for a group photo in a music rehearsal room, holding various string and brass instruments."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a white formal shirt and a patterned maroon and gold sash poses for a studio portrait against a dark background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a traditional outfit with a decorative sash, posed against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A formal studio portrait shows a person in a white traditional outfit with a patterned maroon-and-gold sash against a black background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a traditional outfit with intricate patterns."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a white collared shirt wears a decorative sash with embroidered patterns over his shoulder against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A formal studio portrait of a young man wearing a white [LOCATION] and a maroon sash with gold embroidery against a black background."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young man wearing a white formal shirt and a decorative maroon and gold sash poses for a professional studio portrait against a black background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a traditional outfit with a decorative sash."
+        },
+        "gpt-5.4": {
+          "summary": "A formal studio portrait shows a person in a white traditional outfit with a maroon patterned sash against a black background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a traditional outfit against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a white collared shirt wears a decorative sash over his shoulder against a black background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A formal studio portrait of a young man wearing a white [LOCATION] and a maroon sash with gold embroidery against a black background."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a [ORGANIZATION] confirmation page for an exit survey from [ORGANIZATION], with options to submit or clear the form."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a thank-you message for completing an exit survey from [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] completion page thanks the user for answering an exit survey from [ORGANIZATION], with [ORGANIZATION] form buttons visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A thank-you message from [ORGANIZATION] after completing an exit survey."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An exit survey thank-you message from [ORGANIZATION] with submission options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] exit survey completion page from [ORGANIZATION] thanking the user for their responses."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screen displays the current exchange rate of 1 United States Dollar equaling 57.99 Philippine pesos, along with a one-month historical graph of the currency pair."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the exchange rate of 1 United States Dollar to 57.99 Philippine Pesos along with a graph showing recent trends."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a screen shows a [ORGANIZATION] currency conversion page for 1 United States Dollar to 57.99 Philippine peso with a one-month exchange-rate chart."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A currency exchange rate chart showing USD/PHP conversion."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A financial exchange rate chart showing 1 USD equals 57.99 [ORGANIZATION] with a one-month trend graph."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a currency conversion tool displaying the exchange rate between [LOCATION] Dollar and the Philippine peso over a one-month period."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays the number \"72\" crafted from multiple layers of colorful paper strips on a vibrant orange background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the number '12' in colorful layered paper against an orange background."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful layered number 72 is displayed on a bright orange background in a bold graphic style."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful layered number '7' against an orange background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "The number '12' is rendered in layered, rainbow-colored strips against a solid orange background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized, multi-layered number '12' with rainbow-colored edges is displayed against a solid orange background."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A news article headline and image showcase four square-tipped knives from a British cutlery company, designed not to stab people."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a set of square-tipped knives from a British cutlery company designed to prevent stabbing."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a lifestyle news article shows square-tipped kitchen knives advertised as safer because they cannot stab people."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Article headline highlighting a British cutlery company's innovative square-tipped knives."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four square-tipped knives by Viners are displayed against a white background with accompanying article text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A lifestyle news article screenshot featuring a set of four black square-tipped knives from the brand [LOCATION], designed to prevent stabbing."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A text-based meme satirizes the modern art market, wealth, and tax loopholes through a humorous narrative."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a humorous dialogue about the perceived value of art and tax implications involving a millionaire and an artist."
+        },
+        "gpt-5.4": {
+          "summary": "A text-based meme criticizes high-value modern art as a tax write-off scheme involving a millionaire, an artist, and an appraiser."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous narrative about a millionaire's tax evasion scheme involving an artist."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text-based image showing a satirical narrative about a millionaire exploiting art for tax benefits, ending with a museum visitor's sarcastic reaction."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A text-based meme formatted as a dialogue script that satirizes the modern art market, tax loopholes, and perceived elitism in museum culture."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A humorous image features the '[PERSON]' meme character wearing a traditional Filipino Barong Tagalog and a graduation sash, with the text 'GRADWEYT' on a dark background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a traditional outfit with a sash, likely celebrating graduation."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style portrait shows a mannequin-like figure in a white formal shirt wearing a colorful ceremonial sash, with the text \"GRADWEYT\" beside it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digitally rendered figure in a formal outfit with an ornate sash."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bald mannequin-like figure in a white shirt and ornate sash, with the text 'GRADWEYT' overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mannequin head with a human-like face is dressed in formal attire and a ceremonial sash, set against a dark background. The text 'GRADWEYT' appears on the left side of the image."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A meme featuring two individuals, a man lighting a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals, a boy and a girl, with text referencing a music playlist."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style image shows two people standing outside by a building with overlaid text and music playlist screenshots contrasting “liked songs” and “My playlist #215.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme comparing a boy's playlist of liked songs (over 10k) versus an empty girl’s playlist."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people stand outdoors with overlaid text and [ORGANIZATION] playlist interface graphics, humorously contrasting 'he was a boy' with 'she was a girl'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring characters from the movie '[PERSON]' overlaid with [ORGANIZATION] interface elements to contrast a user's extensive music library with their habit of creating generic playlists."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media message from '[PERSON] discussing someone named [PERSON] being summa cum laude and the sender being 'just [PERSON]', ending with"
+        },
+        "gpt-4o-mini": {
+          "summary": "A user humorously comments about sharing a name with a high-achieving individual."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed chat screenshot shows a user message discussing names and joking in multiple lines."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post by [PERSON] sharing a joke."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post by '[PERSON] with humorous text about a name confusion."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post by user [PERSON] humorously clarifies that while someone named [PERSON] graduated summa cum laude, the poster is just '[PERSON]' and not the same person."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man wearing headphones is shown reacting to a color guessing game displayed on a screen, with [ORGANIZATION] branding visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing headphones is engaged in a guessing game displayed on a screen."
+        },
+        "gpt-5.4": {
+          "summary": "A man wearing headphones appears on a video frame above a color-guessing game interface showing a bright pink target square and a dark gray-blue guess square."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones appears in a [ORGANIZATION] video interface showing color guessing game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing headphones is engaged in a color-guessing game on a digital interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing headphones sits in a gaming chair reacting to a color-matching game interface displayed below him."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing headphones is shown on screen, with a color guessing game interface below displaying 'Target' and 'Your Guess' color blocks and an input field."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing headphones is engaged in a guessing game displayed on a screen."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing headphones is speaking to the camera above a color-guessing game interface showing a bright pink target square and a gray guess square."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones appears in a [ORGANIZATION] video interface showing color guessing game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing headphones is engaged in a color-guessing game on a screen, with a bright pink target color and an empty guess field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing headphones sits in a gaming chair reacting to a color-matching game interface displayed below him."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows the center spindle of a record player over a vibrant, abstract record label featuring cloud-like patterns, light rays, and clock faces in a stained-glass or graphic novel style."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a colorful vinyl record with intricate designs and patterns."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a spinning vinyl record or turntable [PERSON] featuring vivid abstract artwork in red, orange, and purple tones."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a colorful pinball machine artwork featuring vibrant reds and oranges."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a pinball machine's playfield featuring vibrant, stained-glass-style artwork with red and orange tones."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a spinning vinyl record featuring an intricate, colorful illustration with warm tones and stained-glass aesthetics."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant stained-glass artwork depicts multiple clocks embedded within a swirling, dramatic sky with a central glowing orb, creating a mystical and intricate scene."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a swirling vortex of colorful clouds with clocks and beams of light radiating outward."
+        },
+        "gpt-5.4": {
+          "summary": "A surreal stained-glass-style digital artwork shows swirling clouds, radiant light beams, and multiple Roman-numeral clocks spiraling toward a glowing center."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A surreal artwork featuring a swirling vortex of clocks against vibrant orange and red hues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized stained-glass artwork depicting swirling clouds and multiple clocks radiating outward from a central vortex."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A surreal digital artwork featuring a swirling vortex of fiery clouds and floating clocks with Roman numerals, rendered in a stained-glass style."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with a beard is dramatically lit from behind, creating a halo effect, against a blurred, colorful background with abstract light streaks and a faint clock-like object."
+        },
+        "gpt-4o-mini": {
+          "summary": "A silhouetted figure stands against a vibrant, abstract background with a sense of depth and light."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic portrait of a person centered against a glowing abstract background with warm, surreal lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit stands against an abstract background featuring clock imagery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a dark shirt stands in front of a colorful, abstract background with a clock motif and radiant light."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard and collared shirt stands in dramatic lighting against a colorful, abstract background featuring a clock."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime scene features multiple brightly illuminated billboards displaying various advertisements, with their reflections visible on a body of water in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features multiple billboards displaying advertisements, including a colorful design for an event and a promotional message for a mobile service."
+        },
+        "gpt-5.4": {
+          "summary": "[LOCATION] billboards by the water show multiple illuminated ads, including a colorful Zedd concert promo, telecom signage, lotto estimates, and a fashion poster."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime view of a cityscape featuring multiple large billboards advertising various products."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime cityscape featuring multiple illuminated billboards advertising telecom, lottery, and fitness products."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night shot of a cluster of illuminated billboards advertising local brands like [ORGANIZATION], PCSO Lotto, and [PERSON], with reflections visible on the water below."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a record player's spindle on a vinyl record with a vibrant, abstract, stained-glass-style label featuring cloud-like patterns and clock faces."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a colorful vinyl record with intricate designs resembling clouds and abstract patterns."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a spinning vinyl record with vivid red-orange illustrated artwork and beams of light on its surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a colorful pinball machine artwork featuring vibrant reds and oranges."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a pinball machine playfield with vibrant stained-glass-style artwork and a metallic button."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a spinning vinyl record featuring a colorful, stained-glass style illustration with warm red and orange tones."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of a musical score showing notes, lyrics, and performance instructions."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a sheet of music with various notes and lyrics."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a vocal sheet music score shows musical notation with dynamic markings and lyric syllables underneath the staff."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sheet music excerpt of a piece titled '[PERSON] featuring musical notation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of sheet music with musical notation and lyrics in a non-Latin script."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a musical score featuring the lyrics '[ORGANIZATION] and 'Tat-long pe-ra' with dynamic markings like '[PERSON]."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of a musical score displays notes, lyrics, and performance instructions on a white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a sheet of music with musical notations and lyrics."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped close-up of printed sheet music shows musical notation, dynamic markings, and lyric syllables beneath the staff."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A musical score snippet labeled '[PERSON] featuring lyrics in a foreign language."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of sheet music with musical notation and lyrics in a non-Latin script."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a printed musical score featuring vocal lines with lyrics and Italian performance directions."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a mobile email interface showing an email thread titled 'Re: University Clearance - [PERSON]', with a message from [ORGANIZATION] discussing a graduation recital program."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an email conversation regarding university clearance and graduation program details."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows an email thread about university clearance and graduation recital program printing feedback from [ORGANIZATION] office."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of an email thread discussing university clearance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Email thread about university clearance and graduation program formatting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile email screenshot showing a correspondence thread about university clearance and graduation recital program design feedback."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a document discussing academic concepts like \"zeitgeist\" and \"Critical Race Theory\" next to a social media comment from \"[PERSON]\" dated [DATE], which reads \"very [PERSON] lol hehe\"."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features text discussing the concept of 'zeitgeist' in relation to inclusion and diversity, alongside a comment from a user."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a document excerpt about inclusion, diversity, Critical Race Theory, and Covid-19 beside a social media comment card reading “very [PERSON] lol hehe.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A comment from [PERSON] expressing agreement."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post showing a text excerpt alongside a comment from '[PERSON] dated [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media comment by [PERSON] reacting to an academic text discussing inclusion, diversity, and Critical Race Theory."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two conceptual smartphone renders, labeled '[ORGANIZATION] and 'iPhone 16 Pro', are displayed side-by-side on a light gray background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays renders of the iPhone 16 and iPhone 16 Pro, showcasing their designs and screen graphics."
+        },
+        "gpt-5.4": {
+          "summary": "A clean comparison graphic shows rendered front and back views of the iPhone 16 and iPhone 16 Pro on a plain light background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Rendered images of two [ORGANIZATION] side-by-side showcasing their back designs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Side-by-side renders of [ORGANIZATION] and iPhone 16 Pro showing front and back views with distinct camera setups."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital render comparing the front and back designs of a blue iPhone 16 and a grey iPhone 16 Pro against a white background."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays two smartphone renders, an [ORGANIZATION] in green and an iPhone 16 Pro Max in gold, side-by-side on a white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays two [ORGANIZATION] models, [ORGANIZATION] in green and the iPhone 16 Pro Max in gold, showcasing their designs and screens."
+        },
+        "gpt-5.4": {
+          "summary": "A clean comparison graphic shows front-and-back renders of two smartphones labeled [ORGANIZATION] Plus and iPhone 16 Pro Max in green and gold finishes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Rendered images of an iPhone 16 Plus in green and a gold-colored iPhone 16 Pro Max."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Side-by-side renders of [ORGANIZATION] Plus and iPhone 16 Pro Max showcasing design and color variants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital render displays two smartphone models, a green [ORGANIZATION] and a gold iPhone 16 Pro Max, side-by-side against a white background."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a confirmation message for a submitted application, providing details about the submission, options for changes, a deadline, and a link to an [ORGANIZATION] page."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a confirmation message indicating that an application has been submitted."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an online confirmation page stating that an application has been submitted, with instructions about optional resubmission and an [ORGANIZATION] link."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Confirmation message indicating an application submission."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A confirmation message indicating an application has been submitted with a deadline and link to [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital confirmation screen displays a 'Thank You' message indicating that an application has been successfully submitted."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a red shirt and cap smiles while a green parrot perches on a stand next to them, set against a plain white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a red shirt interacts with a green parrot on a table."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a red shirt and cap poses beside a green parrot on a perch in a screenshot of a video post."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a red shirt interacts playfully with a green parrot."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a red shirt and cap smiles while holding a green parrot perched on their arm."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a red shirt and brown cap poses next to a green parrot perched on a stand against a plain background."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] drive properties window alongside a blurred face in a red box."
+        },
+        "gpt-5.4": {
+          "summary": "A computer screenshot shows USB drive properties highlighting the exFAT file system, with an overlaid close-up portrait of a bald man in a red shirt and a red arrow pointing toward the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a computer screen showing [ORGANIZATION] (I:) Properties."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer screen showing a [ORGANIZATION] drive properties window with a red arrow pointing to 'exFAT' file system, overlaid by a photo of a person in a red shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a computer file management interface showing [ORGANIZATION] drive properties with an exFAT file system, overlaid by a red-bordered photo of a person in a red shirt."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a black rectangular device, likely a trackpad, against a light-colored patterned fabric background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a sleek, black rectangular object against a patterned fabric background."
+        },
+        "gpt-5.4": {
+          "summary": "Two hands hold a slim black rectangular device over a patterned bedspread."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holding a sleek black rectangular device against patterned fabric."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a black rectangular device over a patterned fabric surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a closed, dark gray laptop over a patterned fabric background."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An illuminated outdoor urban plaza at night, bustling with people walking and socializing amidst trees, shops, and restaurants."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a bustling outdoor shopping area at night, with people walking among trees and illuminated storefronts."
+        },
+        "gpt-5.4": {
+          "summary": "A lively outdoor shopping and dining plaza at night is shown with trees, lit storefronts, and people walking through the area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A lively urban plaza at night illuminated by string lights under a canopy of trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Night scene in a bustling urban plaza with trees, lit pathways, and people walking near multi-level shopping areas."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night scene of a bustling outdoor shopping plaza with pedestrians walking among trees and illuminated storefronts."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a healthy meal bowl featuring sliced chicken or tofu, broccoli, avocado, grains, and various seeds."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful bowl of healthy food including chicken, broccoli, quinoa, and avocado."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a healthy grain bowl with broccoli, tofu, quinoa, avocado or green puree, and mixed seeds on top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful meal featuring broccoli, tofu, avocado slices topped with seeds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a colorful bowl containing roasted broccoli, avocado, quinoa, and seasoned tofu."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a healthy grain bowl featuring steamed broccoli, sliced tofu, avocado, and quinoa topped with seeds."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a laptop screen displays a Wi-Fi network selection menu overlaid on a web page, showing various network names and system information."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop screen displaying available Wi-Fi networks and a webpage about technology."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a laptop in a dim café-like setting with the macOS Wi‐Fi menu open, listing hotspots and a known network."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a Wi-Fi settings menu showing connected networks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop screen shows an open [LOCATION] menu with a highlighted network named '[PERSON] among personal hotspots."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a laptop screen displaying the Wi-Fi menu with a list of available networks, including personal hotspots and a '[ORGANIZATION] network."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media post by [PERSON] sharing an announcement from [ORGANIZATION] about selected composers for HIRAYA 2024, accompanied by a personal reflection on the news."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a congratulatory announcement for selected composers in the HIRAYA 2024 event by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] post shares a personal note and a congratulatory announcement from [ORGANIZATION] about composers selected for HIRAYA 2024."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post celebrating a composer's selection in HIRAYA 2024 by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post by [PERSON] celebrating his selection for HIRAYA 2024, with a congratulatory announcement from [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post by [PERSON] sharing a congratulatory announcement from [ORGANIZATION] regarding his selection for HIRAYA 2024."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a man talking directly into the camera, appearing to be live streaming on a social media platform, with various interface elements visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is live streaming while discussing topics with viewers."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie-style screenshot shows a person on a [ORGANIZATION] LIVE stream interface indoors in front of a whiteboard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person appears in a close-up shot during what seems like an online live stream."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person is live-streaming on a social media app, with interface elements showing 'LIVE now' and the username '[ACCOUNT]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up screenshot of a social media live stream featuring a man in a black shirt speaking directly to the camera."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An announcement poster displays headshots and names of nine Filipino composers selected for a new music program titled \"HIRAYA:\", with a large \"CONGRATULATIONS\" heading."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a congratulatory announcement for selected Filipino composers for a music project titled '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A congratulatory announcement poster features headshots of selected composers for HIRAYA: New Music by [LOCATION] alongside organization logos."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A congratulatory poster featuring selected Filipino composers for [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white announcement poster congratulating eight Filipino composers selected for 'HIRAYA: New Music by Filipino Composers'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A formal announcement poster congratulating ten Filipino composers selected for the 'HIRAYA: New Music by [ORGANIZATION] program."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black upright piano with its keys exposed is positioned in a room, with a modern kitchen visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a black piano positioned in a modern kitchen setting."
+        },
+        "gpt-5.4": {
+          "summary": "A glossy black upright piano stands in a modern indoor space next to a white kitchen area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black upright piano in a modern kitchen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black upright piano with gold accents is positioned in a modern kitchen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A glossy black upright piano is positioned in a modern home interior with a kitchen visible in the background."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person's face is visible in a circular frame in front of a multi-monitor computer setup displaying spreadsheets, communication applications, and text documents."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a workspace with two computer monitors displaying spreadsheets and chat applications, alongside a laptop and headphones."
+        },
+        "gpt-5.4": {
+          "summary": "A desk setup shows a large monitor and a laptop with a spreadsheet, chat app, and document open, plus headphones and a small selfie overlay."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones in front of a computer setup displaying various applications."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person's face is overlaid on a desk setup with multiple monitors displaying work-related applications."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a dual-screen workstation setup featuring a spreadsheet and chat application, with a circular selfie overlay in the foreground."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mirrored image shows a person looking down at a piano keyboard, with a kitchen setting visible in the background reflection."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two individuals leaning over a piano, with a kitchen setting visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people lean toward the camera over a piano keyboard in a home kitchen/living area, creating a symmetrical mirrored composition."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are leaning over a keyboard in what appears to be a kitchen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people lean over a keyboard from opposite sides in a kitchen setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle, mirrored close-up of two people leaning over a piano keyboard in a kitchen setting."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mirrored image shows a person looking down at a piano keyboard, with kitchen appliances reflected in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two individuals leaning over a piano, with a kitchen setting visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people lean toward the camera over a piano keyboard, with a kitchen visible in the background and a mirrored symmetry effect down the center."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are leaning over a keyboard in what appears to be a kitchen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people lean over a piano keyboard in a kitchen, viewed from a low angle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle, mirrored selfie of two people leaning over a piano keyboard in a kitchen setting."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile phone screen displays a notification from '[ORGANIZATION] detailing an artist's October performance with options to 'Archive' or 'Reply'."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification from [ORGANIZATION] regarding listener statistics for an artist named [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] notification about October listener activity, with [ORGANIZATION] options visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A notification from [ORGANIZATION] highlighting a listener's engagement."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurred smartphone screen shows a [ORGANIZATION] notification about October activity, with 'Archive' and 'Reply' options visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone screenshot displays a Gmail notification from [ORGANIZATION] regarding listener statistics for the artist [PERSON]."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] profile summary for [PERSON], highlighting listener statistics for October."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows a [ORGANIZATION] analytics page with October listener statistics for [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] artist dashboard showing engagement metrics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] dashboard showing a user named [PERSON] with minimal listener activity."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [ORGANIZATION] mobile app displaying a monthly summary for artist [PERSON], noting one listener in October."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "People in boats are exploring a dimly lit cave with impressive rock formations and reflections on the water."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a group of people in a boat navigating through a cave with impressive rock formations and dim lighting."
+        },
+        "gpt-5.4": {
+          "summary": "People ride small boats through a dimly lit cave with water and large rock formations overhead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "People are exploring a cave by boat under dramatic rock formations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People in boats navigate through a dark, rocky cave with illuminated formations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people in small boats navigate through a dimly lit cave with visible stalactites and water reflections."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A speaker presents at a conference with a large screen displaying a design concept for an integrated terminal exchange."
+        },
+        "gpt-5.4": {
+          "summary": "A formal conference or banquet is underway in a hotel ballroom, with a speaker at a podium beside a [ORGANIZATION] logo and a large presentation screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A formal presentation at a conference by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A speaker presents at a formal event hosted by [ORGANIZATION], with attendees seated at tables facing a large screen displaying an image of a transit terminal."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A speaker presents at a formal conference in a banquet hall, with [ORGANIZATION] logo displayed on stage and an audience seated at round tables."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a confirmation of a successful ticket purchase with important redemption instructions."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an online ticket purchase confirmation page showing a successful purchase message and redemption instructions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Confirmation of a successful ticket purchase."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A confirmation screen showing a successful ticket purchase with redemption instructions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital purchase confirmation screen displaying a success message for ticket acquisition and redemption instructions via [ORGANIZATION] outlets."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a purple, festive holiday stamp card with multiple stamped icons, set against a blurred background of a display case in what appears to be a cafe."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a holiday stamp card with various stamps and mechanics for redeeming items at a coffee shop."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a purple holiday loyalty stamp card filled with many red stamps inside a cafe near a refrigerated display case."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a purple holiday stamp card in front of what appears to be an ice cream shop display."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a purple holiday stamp card with red scribbles over stamped circles, inside a coffee shop with a display case in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a purple holiday stamp card from [ORGANIZATION], featuring two Christmas tree designs filled with red ink stamps and promotional text at the bottom."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a promotional card from [ORGANIZATION], advertising their 2024 Holiday Collection with items like bags, bottles, and a coffee drink."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a promotional card from [ORGANIZATION] featuring holiday-themed items and a stamp collection offer."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a [ORGANIZATION] holiday promo card inside a cafe or drink shop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a holiday-themed promotional card from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a purple and red promotional card for [ORGANIZATION] 2024 Holiday Collection inside a café."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a purple and red promotional card for [ORGANIZATION] 2024 holiday stamp collection inside a cafe."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A brown paper bag from '[ORGANIZATION] sits on a wooden counter inside a store at night, with shelves of merchandise visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A paper bag from [ORGANIZATION] is placed on a wooden table in a café setting."
+        },
+        "gpt-5.4": {
+          "summary": "A branded paper takeout bag with drinks inside sits on a café counter in front of shelves of coffee and tea merchandise."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A brown paper bag from [ORGANIZATION] sits atop a wooden counter in what appears to be an indoor café."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A brown paper bag from [ORGANIZATION] sits on a wooden counter inside a coffee shop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A brown paper takeout bag from [ORGANIZATION] sits on a wooden counter inside a cafe with shelves of merchandise in the background."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital interface element shows a '[ORGANIZATION] setting currently activated."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a toggle switch labeled '[ORGANIZATION] indicating it is turned on."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone-style notification card shows a purple atom-like icon with the text \"Reduce Interruptions On\" on a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A notification indicating '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone settings screen showing [ORGANIZATION] feature turned on."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone notification displays [ORGANIZATION] feature is currently active, indicated by a purple icon and white text on a dark background."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital screen displays a confirmation message for a submitted application, including a deadline for changes and a link to an [ORGANIZATION] page."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a confirmation message indicating that an application has been submitted."
+        },
+        "gpt-5.4": {
+          "summary": "A webpage confirmation message says an application has been submitted and notes a resubmission deadline with a link to the [ORGANIZATION] page."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Confirmation message indicating an application submission."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A confirmation message indicating an application has been submitted with a deadline and [ORGANIZATION] link."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital confirmation screen displays a 'Thank You' message indicating that an application has been successfully submitted."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An interior view of a public transport vehicle, likely a [ORGANIZATION], showing a fare sign, a speaker, and a small trash [PERSON] on a worn metal floor."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the interior of a public transport vehicle with a fare announcement and a trash [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "Interior of a public utility vehicle with passengers, a fare sign, small electric fans, a speaker, and a trash [PERSON] visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Interior of a public transportation vehicle showing fare information."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Interior of a vehicle showing a fare sign, a [ORGANIZATION] speaker, and a trash [PERSON] on a worn floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Interior view of a public transport vehicle showing a fare rate sign, a [ORGANIZATION] speaker, and a donation box on the floor."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of a black and white patterned table with a napkin holder and a sauce bottle, while people are dining in the background at a casual eatery."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a table setting in a restaurant with napkins and a bottle of sauce."
+        },
+        "gpt-5.4": {
+          "summary": "A patterned restaurant table with a napkin holder and sauce bottle is shown in the foreground, with diners and kitchen staff in a casual indoor eatery behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A table in a restaurant featuring patterned tiles, condiments, napkins, and diners seated at other tables."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a patterned table with a sauce bottle and napkins, surrounded by diners in a casual restaurant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a restaurant table featuring a patterned tile surface, a bottle of Sriracha sauce, and a napkin holder, with other diners visible in the background."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person with a beard and mustache, in an indoor setting with reindeer cutouts and framed pictures on the wall."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person's head and shoulders in a colorful restaurant setting with reindeer decorations on the wall."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie indoors against a teal-and-white brick wall decorated with handmade reindeer faces and arrows, with framed wall art in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up selfie in front of a wall decorated with reindeer cutouts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person in front of a decorated wall with reindeer cutouts and framed pictures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with short dark hair and light facial stubble wearing a mustard-colored shirt, set against a teal textured wall decorated with paper reindeer cutouts."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a colorful dish resembling a burrito bowl or deconstructed tacos, filled with ground meat, rice, shredded lettuce, tomatoes, cilantro, and sauce, served with fried tortilla pieces and plastic cutlery in a paper-lined basket."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a colorful plate of food featuring nachos, toppings, and sauces."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a loaded savory dish in a basket with fried chips, shredded carrots, diced tomatoes, herbs, creamy sauce, and meat, with black plastic spoons on a patterned table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a loaded plate of nachos topped with cheese, meat sauce, diced tomatoes, shredded lettuce, cilantro, and two black plastic utensils."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a loaded [LOCATION] dish with cheese, meat, tomatoes, cilantro, and shredded carrots in a paper-lined basket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a loaded [LOCATION] served in paper lining, featuring tortilla chips topped with ground meat, shredded cheese, diced tomatoes, cilantro, and creamy sauce."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grid of four images shows a young boy smiling in various indoor settings, with some images featuring a bowl of noodles."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features four close-up shots of a child at a dining table, engaging with food in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a post titled \"Draw me\" above a four-photo collage of a smiling person at a table with a bowl of noodles in a warm indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of four images featuring a young boy in various settings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A four-panel image collage showing a young boy smiling in various indoor settings, mostly eating noodles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A four-panel collage of photorealistic images depicting a young East Asian boy smiling in various domestic dining settings."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a staircase with a scenic view of a city in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands on outdoor stairs at a hillside restaurant viewpoint overlooking a large city and water at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands at a staircase overlooking an urban landscape from above."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands on stone stairs leading to a hilltop restaurant with a panoramic city view at sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands on outdoor stone stairs with arms crossed, overlooking a hillside restaurant and a sprawling cityscape at dusk."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a meal featuring meat with mushroom gravy, a mound of white rice, and mixed vegetables, garnished with small orange flower petals, served on a white plate."
+        },
+        "gpt-4o-mini": {
+          "summary": "A plate of rice with a savory sauce, vegetables, and garnished with edible flowers."
+        },
+        "gpt-5.4": {
+          "summary": "A plated restaurant meal shows white rice with brown mushroom gravy, mixed vegetables, and small edible flower garnish on a dining table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A beautifully plated dish featuring rice topped with a mushroom-based sauce garnished with edible flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plated meal featuring rice, meat in gravy, and mixed vegetables garnished with orange edible flowers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A plated meal featuring a mound of white rice, meat in brown gravy, and mixed vegetables garnished with edible orange flowers on a restaurant table."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man sits at a restaurant table with two plates of food in front of him, looking away while other patrons are visible in the dimly lit background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a dining scene with a plate of food in the foreground and people seated at a table in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits at a casual indoor restaurant table with plated food and dipping sauce in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person enjoys a meal at an outdoor restaurant."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits at a restaurant table with plates of fried food and sauce in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person sits at a restaurant table with plates of fried food and dipping sauce in the foreground, while other diners are visible in the background."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A beautifully illuminated multi-tiered hillside garden or cafe entrance, featuring a Christmas tree, string lights, and stone walls, at dusk or night."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a beautifully lit garden cafe with lush greenery and decorative lights, creating a cozy atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A terraced garden cafe entrance with stone walls, stairways, and warm string lights is shown at dusk, including a decorated Christmas tree and a glowing sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive scene at [LOCATION] adorned with lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A warmly lit outdoor cafe entrance with stone walls, festive lights, and a Christmas tree on a tiered garden slope."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A multi-tiered stone garden terrace at dusk, illuminated by festive string lights and featuring a prominent sign for '[ORGANIZATION] SECRET GARDEN CAFE'."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A purple, star-shaped 3D printed object with golden patterns is shown balancing on a surface, with another lighter, similarly styled object in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful model of a disconnected inverted pendulum, showcasing a successful physics experiment."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a [ORGANIZATION] post in r/BambuLab showing a colorful 3D-printed balancing model and text about proving a physics professor wrong using a [LOCATION] P1S printer."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A purple star-shaped object balancing a disconnected inverted pendulum."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A purple, glittery, star-shaped 3D-printed object with gold symbols balances on a stand against a gray background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a purple, glittery, four-pointed star-shaped object with gold symbols, displayed on a stand next to a yellow pyramid."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [ORGANIZATION] discussion thread from r/Physics features a question about balancing a top-heavy object with magnets, followed by detailed answers and further questions."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a discussion on balancing top-heavy objects using magnets, referencing [PERSON]'s theorem."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a [ORGANIZATION] r/Physics discussion about whether a top-heavy object can be balanced upside down using magnets, with comments mentioning [PERSON]'s theorem and spinning stabilization."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] post discussing whether it's possible to balance a top-heavy object using magnets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] thread discussing whether a top-heavy object can be balanced upside down using magnets, with replies referencing [PERSON]'s theorem and the [ORGANIZATION] toy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] discussion in r/Physics where users debate the feasibility of balancing a top-heavy object upside down using only magnets, citing [PERSON]'s theorem and the [ORGANIZATION] toy."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grid of nine stylized illustrations depicts various concepts like daylights, sunsets, coffee, and emotions, asking \"How do you measure a year?\" and concluding with \"Measure in love.\""
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful grid illustrating various ways to measure a year, culminating in the phrase 'MEASURE IN LOVE.'"
+        },
+        "gpt-5.4": {
+          "summary": "A quote-style illustrated poster asks how to measure a year, showing colorful panels for daylights, sunsets, midnights, cups of coffee, inches, miles, laughter, and strife, ending with “measure in love.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful infographic asking how you measure a year in various aspects like daylights, sunsets, midnights, cups of coffee, inches, miles, laughter, strife, and concluding 'Measure In Love.'"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graphic poster titled 'HOW DO YOU MEASURE A YEAR?' with six illustrated scenes and labels like 'DAYLIGHTS', 'SUNSETS', 'CUPS OF COFFEE', etc., concluding with 'MEASURE IN LOVE.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic poster featuring nine illustrated squares representing different ways to measure a year, such as daylights, sunsets, and miles, concluding with the phrase 'measure in love.'"
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of a computer screen displaying an email draft with a professional signature and email interface elements."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an email signature with a name, degree, and educational background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a computer screen shows an email compose window with a drafted message and a formal academic signature."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of an email from [PERSON] regarding a deleted account."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a computer screen displaying an email draft with sender details and formatting tools."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a computer screen displaying the signature block of an email from [PERSON], detailing his academic background in music composition."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with wide eyes and braces is smiling at the camera, with a red devil emoji covering part of their lower face, in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with their face obscured, sitting in a room with a visible kitchen background and a playful emoji."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a smiling person with braces and a wide-eyed expression, with a large red oni/devil emoji sticker over the lower right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing braces smiles in a kitchen setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with braces makes a playful face while holding a red devil emoji overlay in front of their chest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with wide eyes and braces, wearing a white shirt in a kitchen setting, with a red devil emoji sticker placed near their shoulder."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A light blue laptop is depicted partially open, showcasing its screen with an abstract blue pattern, against a soft blue background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a sleek, modern laptop displayed at an angle, showcasing its design and keyboard."
+        },
+        "gpt-5.4": {
+          "summary": "A sleek silver laptop is shown in a floating, partially exploded side view against a clean light background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sleek laptop showcasing its design from multiple angles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sleek silver laptop is shown open at an angle against a light background, displaying a blue abstract pattern on its screen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A silver laptop is depicted in an exploded view, showing the screen, chassis, and keyboard separated against a light blue background."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital map interface of [LOCATION] is displayed, featuring overlaid search tabs for vacation rentals, flights, and local amenities, along with shortcuts to other applications."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a map of [LOCATION] with various points of interest and a search interface for travel options."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized mobile map interface shows [LOCATION] neighborhoods and places with floating search/app tabs over a colorful gradient background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A map view of [LOCATION] highlighting various locations such as hotels and landmarks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A map of downtown [LOCATION] showing hotels and search categories like 'Airbnb | Vacation rentals' and 'Hawaiian Airlines - Flights to [LOCATION]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a macOS interface displaying an active map application centered on [LOCATION], overlaid with the colorful 'Mission Control' window overview showing open browser tabs."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital map interface of [LOCATION] is displayed with several open application tabs, including options for vacation rentals, airline flights, news, and music streaming."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a map of [LOCATION] with various points of interest and navigation options."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized browser/map interface shows [LOCATION]’s [ORGANIZATION] area with local search filters and travel-related tabs like [ORGANIZATION] and [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A map view of [LOCATION] highlighting various locations such as hotels and landmarks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A map of downtown [LOCATION] showing hotels and search categories like '[ORGANIZATION]' and '[ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a macOS interface displaying an active map application centered on [LOCATION], overlaid by the colorful 'Mission Control' window overview showing open browser tabs."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Four Minecraft-themed figurines are displayed on top of a computer monitor, which shows a calendar and a file browser."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features four colorful figurines displayed on top of a computer monitor against a blue wall."
+        },
+        "gpt-5.4": {
+          "summary": "A computer monitor setup is decorated with Minecraft-style character figures, including a creeper, skeleton, bee, and pig, against a blue wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A computer screen displaying a desktop background featuring [ORGANIZATION]-themed figurines."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four Minecraft-themed figurines sit atop a computer monitor displaying a macOS desktop with a calendar and Finder window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A computer monitor displaying a macOS desktop with four Minecraft-themed figurines lined up on the top bezel against a blue wall."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital interface displaying information about 'What's New in Final Cut Pro', specifically detailing 'Adjustment Clips' functionality."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a section titled 'What's New in Final Cut Pro' focusing on 'Adjustment Clips' for color corrections and effects."
+        },
+        "gpt-5.4": {
+          "summary": "A clean promotional graphic announces new [ORGANIZATION] features, highlighting adjustment clips with a short description."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a Final Cut Pro update highlighting new features."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A software update page for [ORGANIZATION] highlighting 'Adjustment Clips' feature."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displaying a software update announcement for [ORGANIZATION], specifically highlighting the 'Adjustment Clips' feature."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of a musical score displaying various notes, staves, and musical notations."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays sheet music with various musical notations and annotations."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows two pages of printed musical notation displayed side by side on a screen or digital document viewer."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of sheet music pages showing musical notation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of printed sheet music showing musical notation for multiple instruments."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of an open music score displaying complex musical notation for instruments including the celesta and glockenspiel."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark, silhouetted view of a train station platform with people waiting and tracks extending into the distance under an overcast sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a train station platform with visible tracks and a few people waiting in a dimly lit environment."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit train station platform with tracks, overhead power lines, signal lights, and a few silhouetted people waiting or walking."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dimly lit train station platform under a covered structure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit train station platform with silhouetted figures waiting, viewed under a high metal roof with overhead wires."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit train station platform with silhouetted passengers waiting under a large roof structure, featuring overhead wires and tracks leading into the distance."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a bright green credit card with the word \"brat\" printed prominently on it, along with \"[PERSON]\" and \"[PERSON]\"."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a green credit card displaying the word 'brat' and the name '[PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a bright green novelty-style credit card in a clear sleeve, with the word \"brat\" printed prominently on it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a packaged credit card labeled 'brat' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a bright green credit card with the word 'brat' prominently displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a bright green credit card from [PERSON] featuring the word 'brat' and the name [PERSON]."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a bright green card with black accents and text, including a contactless payment symbol."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a green card labeled '[PERSON] with a contactless symbol."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a bright green [PERSON] contactless card in a clear sleeve against an outdoor pavement background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a green [PERSON] card against an outdoor background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a bright green [PERSON] card with a magnetic stripe and contactless symbol."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a new, plastic-wrapped lime green card from [PERSON] featuring a magnetic stripe and contactless symbol."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An order summary is displayed for a 'Sibelius Ultimate Perpetual Bundle' digital download, detailing the price, taxes, and total, along with renewal information."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an order summary for a software purchase, including pricing details."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows an order summary for [ORGANIZATION] digital download with quantity, subtotal, taxes, and total pricing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A personalized order confirmation email showing a digital download of [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An order summary for [ORGANIZATION] with pricing and renewal details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital order summary for [ORGANIZATION] software purchase totaling $603.68."
+        }
+      }
     }
   }
 }

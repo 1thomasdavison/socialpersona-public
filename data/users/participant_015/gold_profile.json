@@ -1,79 +1,98 @@
 {
   "user_id": "participant_015",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
       "status": "active",
       "long_term_interests": [
         {
-          "label": "outdoor activities",
+          "label": "outdoor recreation",
           "evidence_post_indices": [
             0,
-            1,
-            2,
-            3
+            13,
+            75,
+            76,
+            86,
+            140,
+            160
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1",
-            "participant_015_phase_2",
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0001",
+            "participant_015_post_0014",
+            "participant_015_post_0076",
+            "participant_015_post_0077",
+            "participant_015_post_0087",
+            "participant_015_post_0141",
+            "participant_015_post_0161"
           ]
         },
         {
-          "label": "walking and hiking",
+          "label": "hiking",
           "evidence_post_indices": [
-            1,
-            2
+            76,
+            99,
+            100,
+            130
           ],
           "evidence_post_ids": [
-            "participant_015_phase_2",
-            "participant_015_phase_3"
+            "participant_015_post_0077",
+            "participant_015_post_0100",
+            "participant_015_post_0101",
+            "participant_015_post_0131"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "sports outdoor interests",
+          "label": "walking",
           "evidence_post_indices": [
-            3
+            20,
+            86
           ],
           "evidence_post_ids": [
-            "participant_015_phase_4"
+            "participant_015_post_0021",
+            "participant_015_post_0087"
           ]
         },
         {
-          "label": "walking and hiking",
+          "label": "park visit",
           "evidence_post_indices": [
-            2,
-            3
+            8,
+            13
           ],
           "evidence_post_ids": [
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0009",
+            "participant_015_post_0014"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "spectator sports",
+          "label": "winter olympic",
           "evidence_post_indices": [
-            2
+            84
           ],
           "evidence_post_ids": [
-            "participant_015_phase_3"
+            "participant_015_post_0085"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "american football",
           "evidence_post_indices": [
-            1,
-            2
+            81
           ],
           "evidence_post_ids": [
-            "participant_015_phase_2",
-            "participant_015_phase_3"
+            "participant_015_post_0082"
+          ]
+        },
+        {
+          "label": "ice skating",
+          "evidence_post_indices": [
+            112
+          ],
+          "evidence_post_ids": [
+            "participant_015_post_0113"
           ]
         }
       ]
@@ -83,79 +102,112 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "music listening",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            32,
+            53,
+            84,
+            147
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1",
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0033",
+            "participant_015_post_0054",
+            "participant_015_post_0085",
+            "participant_015_post_0148"
           ]
         },
         {
-          "label": "music",
+          "label": "book",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            20,
+            92,
+            143
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1",
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0021",
+            "participant_015_post_0093",
+            "participant_015_post_0144"
           ]
         },
         {
-          "label": "reading",
+          "label": "creative writing",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            19,
+            58,
+            178
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1",
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0020",
+            "participant_015_post_0059",
+            "participant_015_post_0179"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "poetry",
           "evidence_post_indices": [
-            2,
-            3
+            6,
+            58
           ],
           "evidence_post_ids": [
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0007",
+            "participant_015_post_0059"
           ]
         },
         {
           "label": "reading",
           "evidence_post_indices": [
-            3
+            6,
+            20
           ],
           "evidence_post_ids": [
-            "participant_015_phase_4"
+            "participant_015_post_0007",
+            "participant_015_post_0021"
+          ]
+        },
+        {
+          "label": "writing",
+          "evidence_post_indices": [
+            19,
+            46
+          ],
+          "evidence_post_ids": [
+            "participant_015_post_0020",
+            "participant_015_post_0047"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "Writing",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            157,
+            178
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1",
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0158",
+            "participant_015_post_0179"
+          ]
+        },
+        {
+          "label": "memoir",
+          "evidence_post_indices": [
+            20,
+            157
+          ],
+          "evidence_post_ids": [
+            "participant_015_post_0021",
+            "participant_015_post_0158"
+          ]
+        },
+        {
+          "label": "andrea bocelli",
+          "evidence_post_indices": [
+            84
+          ],
+          "evidence_post_ids": [
+            "participant_015_post_0085"
           ]
         }
       ]
@@ -172,86 +224,127 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "baking and desserts",
+          "label": "dining out",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            14,
+            55,
+            114,
+            119
           ],
           "evidence_post_ids": [
-            "participant_015_phase_2",
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0015",
+            "participant_015_post_0056",
+            "participant_015_post_0115",
+            "participant_015_post_0120"
           ]
         },
         {
-          "label": "coffee and tea",
+          "label": "birthday cake",
           "evidence_post_indices": [
-            0,
-            1
+            26,
+            111,
+            129
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1",
-            "participant_015_phase_2"
+            "participant_015_post_0027",
+            "participant_015_post_0112",
+            "participant_015_post_0130"
           ]
         },
         {
-          "label": "dining",
+          "label": "dessert",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            82,
+            111,
+            123
           ],
           "evidence_post_ids": [
-            "participant_015_phase_2",
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0083",
+            "participant_015_post_0112",
+            "participant_015_post_0124"
+          ]
+        },
+        {
+          "label": "coffee",
+          "evidence_post_indices": [
+            115,
+            168,
+            171
+          ],
+          "evidence_post_ids": [
+            "participant_015_post_0116",
+            "participant_015_post_0169",
+            "participant_015_post_0172"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "dining",
+          "label": "restaurant dining",
           "evidence_post_indices": [
-            1,
-            3
+            23,
+            129
           ],
           "evidence_post_ids": [
-            "participant_015_phase_2",
-            "participant_015_phase_4"
+            "participant_015_post_0024",
+            "participant_015_post_0130"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "casual dining",
           "evidence_post_indices": [
-            2
+            117,
+            135
           ],
           "evidence_post_ids": [
-            "participant_015_phase_3"
+            "participant_015_post_0118",
+            "participant_015_post_0136"
+          ]
+        },
+        {
+          "label": "confectionery",
+          "evidence_post_indices": [
+            73,
+            78
+          ],
+          "evidence_post_ids": [
+            "participant_015_post_0074",
+            "participant_015_post_0079"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "cooking",
+          "label": "home cooking",
           "evidence_post_indices": [
-            0
+            155,
+            185
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1"
+            "participant_015_post_0156",
+            "participant_015_post_0186"
           ]
         },
         {
-          "label": "dining",
+          "label": "food delivery",
           "evidence_post_indices": [
-            0,
-            1,
-            3
+            116,
+            151
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1",
-            "participant_015_phase_2",
-            "participant_015_phase_4"
+            "participant_015_post_0117",
+            "participant_015_post_0152"
+          ]
+        },
+        {
+          "label": "restaurant",
+          "evidence_post_indices": [
+            14,
+            168
+          ],
+          "evidence_post_ids": [
+            "participant_015_post_0015",
+            "participant_015_post_0169"
           ]
         }
       ]
@@ -261,90 +354,205 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "cultural visits",
+          "label": "sightsee",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            10,
+            14,
+            17,
+            23,
+            25,
+            29,
+            30,
+            36,
+            40,
+            42,
+            45,
+            47,
+            51,
+            55,
+            62,
+            70,
+            71,
+            75,
+            76,
+            77,
+            92,
+            99,
+            102,
+            107,
+            128,
+            129,
+            138,
+            140,
+            146,
+            152,
+            160,
+            162,
+            165,
+            170,
+            172,
+            187
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1",
-            "participant_015_phase_2",
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0011",
+            "participant_015_post_0015",
+            "participant_015_post_0018",
+            "participant_015_post_0024",
+            "participant_015_post_0026",
+            "participant_015_post_0030",
+            "participant_015_post_0031",
+            "participant_015_post_0037",
+            "participant_015_post_0041",
+            "participant_015_post_0043",
+            "participant_015_post_0046",
+            "participant_015_post_0048",
+            "participant_015_post_0052",
+            "participant_015_post_0056",
+            "participant_015_post_0063",
+            "participant_015_post_0071",
+            "participant_015_post_0072",
+            "participant_015_post_0076",
+            "participant_015_post_0077",
+            "participant_015_post_0078",
+            "participant_015_post_0093",
+            "participant_015_post_0100",
+            "participant_015_post_0103",
+            "participant_015_post_0108",
+            "participant_015_post_0129",
+            "participant_015_post_0130",
+            "participant_015_post_0139",
+            "participant_015_post_0141",
+            "participant_015_post_0147",
+            "participant_015_post_0153",
+            "participant_015_post_0161",
+            "participant_015_post_0163",
+            "participant_015_post_0166",
+            "participant_015_post_0171",
+            "participant_015_post_0173",
+            "participant_015_post_0188"
           ]
         },
         {
-          "label": "travel",
+          "label": "road trip",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            29,
+            30,
+            36,
+            45,
+            47,
+            138
           ],
           "evidence_post_ids": [
-            "participant_015_phase_2",
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0030",
+            "participant_015_post_0031",
+            "participant_015_post_0037",
+            "participant_015_post_0046",
+            "participant_015_post_0048",
+            "participant_015_post_0139"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "historic site",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            30,
+            77,
+            99,
+            102,
+            128,
+            170
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1",
-            "participant_015_phase_2",
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0031",
+            "participant_015_post_0078",
+            "participant_015_post_0100",
+            "participant_015_post_0103",
+            "participant_015_post_0129",
+            "participant_015_post_0171"
+          ]
+        },
+        {
+          "label": "landmark",
+          "evidence_post_indices": [
+            14,
+            17,
+            77,
+            92,
+            165,
+            172
+          ],
+          "evidence_post_ids": [
+            "participant_015_post_0015",
+            "participant_015_post_0018",
+            "participant_015_post_0078",
+            "participant_015_post_0093",
+            "participant_015_post_0166",
+            "participant_015_post_0173"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "nature visits",
+          "label": "virginia beach",
           "evidence_post_indices": [
-            3
+            29,
+            45
           ],
           "evidence_post_ids": [
-            "participant_015_phase_4"
+            "participant_015_post_0030",
+            "participant_015_post_0046"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "roadside attraction",
           "evidence_post_indices": [
-            2,
-            3
+            42,
+            47
           ],
           "evidence_post_ids": [
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0043",
+            "participant_015_post_0048"
+          ]
+        },
+        {
+          "label": "historical landmark",
+          "evidence_post_indices": [
+            36,
+            40
+          ],
+          "evidence_post_ids": [
+            "participant_015_post_0037",
+            "participant_015_post_0041"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "city exploration",
+          "label": "city walks",
           "evidence_post_indices": [
-            0,
-            1
+            134,
+            146
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1",
-            "participant_015_phase_2"
+            "participant_015_post_0135",
+            "participant_015_post_0147"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "kentucky",
           "evidence_post_indices": [
-            3
+            36
           ],
           "evidence_post_ids": [
-            "participant_015_phase_4"
+            "participant_015_post_0037"
+          ]
+        },
+        {
+          "label": "wisconsin dell",
+          "evidence_post_indices": [
+            45
+          ],
+          "evidence_post_ids": [
+            "participant_015_post_0046"
           ]
         }
       ]
@@ -354,60 +562,79 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "crafts and design",
+          "label": "craft",
           "evidence_post_indices": [
             0,
-            1,
-            2,
-            3
+            69,
+            134,
+            144,
+            179
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1",
-            "participant_015_phase_2",
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0001",
+            "participant_015_post_0070",
+            "participant_015_post_0135",
+            "participant_015_post_0145",
+            "participant_015_post_0180"
           ]
         },
         {
-          "label": "photography",
+          "label": "photo sharing",
           "evidence_post_indices": [
-            2,
-            3
+            13,
+            21,
+            77
           ],
           "evidence_post_ids": [
-            "participant_015_phase_3",
-            "participant_015_phase_4"
+            "participant_015_post_0014",
+            "participant_015_post_0022",
+            "participant_015_post_0078"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "photography",
+          "label": "vintage photography",
           "evidence_post_indices": [
-            3
+            21,
+            24
           ],
           "evidence_post_ids": [
-            "participant_015_phase_4"
+            "participant_015_post_0022",
+            "participant_015_post_0025"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "photography",
+          "label": "beading",
           "evidence_post_indices": [
-            2
+            144,
+            179
           ],
           "evidence_post_ids": [
-            "participant_015_phase_3"
+            "participant_015_post_0145",
+            "participant_015_post_0180"
           ]
         },
         {
-          "label": "photography creation interests",
+          "label": "handmade ornament",
           "evidence_post_indices": [
-            0
+            144,
+            179
           ],
           "evidence_post_ids": [
-            "participant_015_phase_1"
+            "participant_015_post_0145",
+            "participant_015_post_0180"
+          ]
+        },
+        {
+          "label": "photography",
+          "evidence_post_indices": [
+            62
+          ],
+          "evidence_post_ids": [
+            "participant_015_post_0063"
           ]
         }
       ]

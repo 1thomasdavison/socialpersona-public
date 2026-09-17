@@ -1,67 +1,1965 @@
 {
   "user_id": "participant_027",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "competitive gaming",
-        "crafts and design",
-        "live performances",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: cats; competitive gaming; crafts and design; live performances; video games."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming profile card featuring a player named 'MEZII' with game statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A game-style player card shows a portrait labeled \"MEZII\" with a weapon icon and the number 100 on a red background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile picture of a character named MEZII holding an AK-47 rifle in a video game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game player card showing a man named MEZII with a score of 100 and weapon icon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme image featuring a man's face photoshopped onto a red [ORGANIZATION] Ultimate Team card with the name 'MEZII' and a weapon icon."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "competitive gaming",
-        "dining",
-        "film and television",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: cats; competitive gaming; dining; film and television; video games."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scoreboard from a competitive game of [ORGANIZATION], showing player statistics for two teams, [ORGANIZATION] and Vitality."
+        },
+        "gpt-5.4": {
+          "summary": "A Counter-Strike match scoreboard overlay shows [ORGANIZATION] vs Vitality on [PERSON] with the score at 8:11 and 27 seconds left in the round."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot from a Counter-Strike game showing player statistics during an ongoing match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game scoreboard showing player stats from a competitive match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scoreboard from a professional [ORGANIZATION] match between [ORGANIZATION] and Vitality showing player stats, economy, and round timer."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "competitive gaming",
-        "dining",
-        "film and television",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: cats; competitive gaming; dining; film and television; video games."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [ORGANIZATION] graphic announces the '[ORGANIZATION]"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes the upcoming BLAST Bounty 2026 esports tournament with details on dates, prize pool, and number of teams."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional graphic announces the upcoming BLAST Bounty 2026 Season 1 event with dates, prize pool status, and team count."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Announcement of BLAST Bounty 2026 Season 1 event details."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An announcement graphic for the upcoming BLAST Bounty 2026 Season 1 esports tournament."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic for the upcoming BLAST Bounty 2026 Season 1 esports tournament featuring a red and blue gradient background."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "competitive gaming",
-        "dining",
-        "live performances",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: cats; competitive gaming; dining; live performances; video games."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming interface showing player statistics for a character named [PERSON] in a League of Legends match."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped [ORGANIZATION] game [ORGANIZATION] shows the player name [ORGANIZATION] on Viego with item icons and match stats."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A League of Legends game statistics showing a player's performance in Viego role."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A League of Legends game stats screen showing player [PERSON] with champion [PERSON], a [ORGANIZATION] of 0.7, and 7,906 gold."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A League of Legends in-game scoreboard displaying the player [ORGANIZATION] using the champion [PERSON] with a [ORGANIZATION] of 1/3/1."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "competitive gaming",
-        "film and television",
-        "spectator sports",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: cats; competitive gaming; film and television; spectator sports; video games."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a [PERSON] profile of a gamer named [ORGANIZATION], indicating a live stream with a focus on [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed profile/header screenshot shows the account name [ORGANIZATION] with a live indicator and a stream title about climbing to [ORGANIZATION], alongside [ORGANIZATION] category tags."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Twitter post featuring a player named [ORGANIZATION] promoting an upcoming [ORGANIZATION] session."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [PERSON] streamer's profile banner showing a gaming stream title with redacted text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media profile header for user '[ORGANIZATION]' displays a live stream banner announcing a [ORGANIZATION] session with 'Ohne', alongside tags for [ORGANIZATION] and esports leagues."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "competitive gaming",
-        "film and television",
-        "live performances",
-        "spectator sports",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: competitive gaming; film and television; live performances; spectator sports; video games."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming profile with a player named 'dycha' and various statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A gaming-style player card shows a portrait above the name \"dycha\" with [ORGANIZATION] stats including armor/health, money, and a rifle icon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile picture of a person wearing glasses in front of a gaming-themed background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gamer profile card showing a person named 'dycha' with stats including $550, 100 health, 9 kills, and 4 deaths."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game character profile displaying the username 'dycha' alongside stats for currency, kills, and deaths."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming profile with player statistics and a username."
+        },
+        "gpt-5.4": {
+          "summary": "A game-style player card shows a person in [LOCATION] with the name 'dycha' and on-screen stats/icons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile picture of a person wearing glasses in front of an esports-themed background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming profile card showing a player named 'dycha' with stats and an in-game weapon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game character card featuring a man with glasses and the name 'dycha' displayed prominently."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a gaming setup with two players engaged in a [ORGANIZATION] session, displaying an in-game environment with flowers and a pathway."
+        },
+        "gpt-5.4": {
+          "summary": "A livestream-style gaming screenshot shows [ORGANIZATION] gameplay in a dark stone area with flowers, chat overlay, and webcam views of two streamers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A split-screen view of two individuals streaming a [ORGANIZATION] game session."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] gameplay stream showing a player navigating a stone corridor with multiple webcam feeds of smiling streamers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen gaming stream featuring two players in the game [ORGANIZATION], with one player smiling and another eating while navigating a stone structure."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a gaming stream where a player is attempting to navigate a boat in a [ORGANIZATION] setting, with chat interactions visible."
+        },
+        "gpt-5.4": {
+          "summary": "A livestream-style [ORGANIZATION] screen shows a player in a sandy area with a boat carrying a wolf, alongside two webcam views of commentators or streamers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] gameplay scene showing a player in an underwater environment interacting near sand blocks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] gameplay stream showing a player attempting to build or navigate near water with a boat and sand blocks, while two streamers watch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen view of two streamers playing [PERSON], showing a first-person perspective of a character in a boat with a dolphin inside a sandy cave."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair is seated in a stylish outfit, holding a cigarette, in a cozy indoor setting with [ORGANIZATION] in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A seated portrait shows a person with pink hair and round glasses wearing a black satin shirt and wristwatch, posed in front of greenery and warm lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black patterned shirt sits in front of [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair and glasses sits indoors wearing a black patterned shirt, holding a vape pen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with pink and blonde hair, wearing glasses and a black patterned shirt, sits in a chair holding a vape while a Christmas tree is visible in the background."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three Hello Kitty-themed perfume boxes displayed on a desk."
+        },
+        "gpt-5.4": {
+          "summary": "Three Hello Kitty eau de parfum boxes with different themed designs are lined up on a desk in front of a keyboard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three Hello Kitty perfume boxes displayed in a row."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three Hello Kitty perfume boxes titled '[PERSON]', 'Little Rose', and 'Once upon a time' sit on a desk in front of a keyboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three [ORGANIZATION] branded [PERSON] boxes are lined up on a desk in front of a backlit mechanical keyboard."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a gaming setup with a player attempting to enter a portal in a video game, displaying their inventory and chat messages."
+        },
+        "gpt-5.4": {
+          "summary": "A Minecraft livestream screenshot shows first-person gameplay beside a purple nether portal, with chat and two webcam overlays on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] gameplay scene showing a player interacting near an Ender Chest."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] gameplay stream showing a player attempting to break a purple block, with two streamers visible in split-screen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen gaming stream featuring two players in [ORGANIZATION], with one building a [ORGANIZATION] while chat messages and game [ORGANIZATION] elements are visible."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification about the number of likes received on posts over the last seven days."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed analytics pop-up in Polish shows post likes from the last 7 days and a button to unlock analyses."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Notification showing a recent engagement metric in Polish."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed notification showing engagement statistics for a social media account."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-themed social media notification displays a Polish-language message indicating that the user's posts received 681.3K likes in the last 7 days, with an option to unlock further analysis."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A brightly lit and decorated Christmas tree stands indoors, adorned with ornaments, bows,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a beautifully decorated Christmas tree with lights and ornaments, set in a cozy indoor environment."
+        },
+        "gpt-5.4": {
+          "summary": "A warmly lit indoor Christmas tree is decorated with [ORGANIZATION], bows, baubles, and string lights, with a dark cat resting underneath."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A beautifully decorated Christmas tree adorned with lights, ornaments, bows, and a star atop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A warmly lit Christmas tree decorated with gold, silver, and white ornaments stands indoors near a window blind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fully decorated Christmas tree with gold and silver ornaments, white tinsel, and warm lights stands in a living room corner next to a window blind."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view from inside a tractor with a player interface displaying various status indicators."
+        },
+        "gpt-5.4": {
+          "summary": "A dark gameplay screenshot shows a first-person view from inside a vehicle in a snowy yard, with a streamer facecam overlay and game [ORGANIZATION] visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime scene from a video game viewed through an old vehicle's windshield."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view from inside a vehicle in a snowy game environment, with a live-streamer's face overlay and [ORGANIZATION] showing stats like hunger, stress, and cash."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person perspective of a video game showing the interior of a vehicle in a snowy environment with a streamer visible in a small overlay window."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an anime profile summary highlighting a user's genre bias in childcare for 2025."
+        },
+        "gpt-5.4": {
+          "summary": "A dark blue graphic titled \"YOUR ANIME PROFILE\" shows an anime-viewing comparison for 2025 with a highlighted genre bias category of [ORGANIZATION] ranked in the top 8%."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION]'s anime genre preference showing a bias towards '[ORGANIZATION]' in comparison."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark blue interface titled 'YOUR ANIME PROFILE' showing a 'Genre [PERSON]' for '[ORGANIZATION]' ranked #6, with 3% preference and in the top 8%."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-themed digital graphic displays a user's anime profile statistics, specifically highlighting a 'Genre [PERSON]' toward [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays event details for a concert featuring Bring Me The Horizon and Knocked Loose in [PERSON] on [DATE]."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a concert announcement for an event featuring Bring Me The Horizon and Knocked Loose in [PERSON] on [DATE]."
+        },
+        "gpt-5.4": {
+          "summary": "A minimalist event poster lists a [ORGANIZATION] concert in [PERSON] at [ORGANIZATION] as headliner and Knocked Loose as support."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Event details including date, location, start time of headliner performance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A concert event poster showing date, venue, start times, and headlining bands."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital event flyer for a Bring Me The Horizon concert at [ORGANIZATION] on [DATE]."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A majestic stone statue of a winged female figure stands amidst ancient ruins, illuminated by numerous glowing candles and ethereal, colorful light emanating from its wings, creating a mystical nighttime scene."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a large, intricately designed statue of a female figure with flowing garments, surrounded by glowing candles in a mystical setting."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy-style stone statue of a robed female figure stands among ruins at night, surrounded by candles and glowing translucent wing-like ribbons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A majestic figure in a flowing robe stands amidst ruins under moonlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A majestic, winged statue stands illuminated by candles in a dark, ruin-like setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fantasy statue of a robed figure with iridescent wings stands on a stone pedestal surrounded by glowing candles and ancient ruins."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is crawling on a surface in a dimly lit environment."
+        },
+        "gpt-5.4": {
+          "summary": "A very dark, cinematic shot shows a bearded man lying or crawling on the floor indoors with an intense expression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a striped prison uniform lying prone against dark surroundings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person crawls forward in a dark, gritty environment with an intense facial expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a striped shirt crawls forward with an intense expression in a dark, low-light setting."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a blurred face, wearing a light-colored garment against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a blond-haired, dirt-smudged character with a frightened expression against a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young child in a dimly lit environment appears surprised."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a young child with wide eyes and a fearful expression, illuminated by dramatic lighting against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a distressed young character with blonde hair and dirt smudges on their face, set against a dark background."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a countdown timer showing \"05:00\" for the HLTV Awards, presented by 1XBET, against a dark, textured background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a countdown timer indicating that a show will start in 5 minutes."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-gold promotional countdown graphic for the HLTV Awards shows the event starting in 05:00 with sponsor logos."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional countdown timer for [ORGANIZATION] presented by 1XBET."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A countdown graphic for the HLTV Awards show starting in five minutes, set against a black fabric background with sponsor logos."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic for the HLTV Awards featuring a large digital countdown timer set to five minutes against a black background."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three men in suits are engaged in conversation at what appears"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people in formal attire are engaged in conversation at a social event, with one person holding a drink."
+        },
+        "gpt-5.4": {
+          "summary": "Three people dressed in formal attire are talking at a busy indoor event or red-carpet venue, with one person holding a drink and livestream-style chat text overlaid in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals are engaged in conversation during a formal event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people in suits converse at a social event, one holding a beer glass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three individuals in formal attire converse at a crowded indoor event, with one person holding a glass of beer and wearing a lapel microphone."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is shown from the waist down, wearing a black blazer, white collared shirt, dark trousers with rolled cuffs, and chunky beige sneakers, standing on a dark grey carpet."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person standing, showcasing their outfit which includes a black jacket, white shirt, and distinctive sneakers."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped indoor shot shows a person standing on carpet wearing a black blazer, white shirt, dark pants, and chunky beige sneakers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a white shirt under black pants paired with beige sneakers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a black blazer, white shirt, dark pants, and beige chunky sneakers stands indoors on carpet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands on a blue carpet wearing a black blazer, white shirt, dark trousers, and chunky beige sneakers."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A car drives on a snow-covered road lined with trees under a grey, overcast sky, viewed from inside another vehicle."
+        },
+        "gpt-4o-mini": {
+          "summary": "A snowy road scene with a car driving through a winter landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A snowy forest road is seen from inside a car, with another vehicle driving ahead in wintry, overcast conditions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A snowy road through a forested area during heavy snowfall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snowy road viewed from inside a vehicle, flanked by snow-covered trees under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from inside a vehicle driving on a snow-covered road through a forest during heavy snowfall."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a faucet pouring a liquid into a bowl, with a caption referencing an energy drink."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a dark-mode chat shows a meme-like video thumbnail of a strange stream coming from a wall outlet into a metal bowl, with humorous Polish messages below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous post featuring a water faucet in an unusual setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video thumbnail shows a stream of liquid pouring from an electrical outlet into a bucket, with overlaid text reading 'W TF ??????' and 'Energy drink'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation featuring a video thumbnail of liquid pouring from a wall socket into a bowl, accompanied by Polish text comments about the intensity and surprise of the event."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a search interface showing popular search queries in Polish."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] search page in Polish showing a list of trending searches on a mobile device."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] search page showing popular searches in Polish."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] search suggestions screen showing trending Polish queries."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] search interface displaying trending search queries in Polish, including topics on psychology legislation, gaming, and economics."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a competitive gaming match overview with team statistics for the teams [ORGANIZATION] and [ORGANIZATION] across three maps: [ORGANIZATION], [ORGANIZATION], and [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an esports match interface showing [ORGANIZATION] vs [ORGANIZATION] across the maps [ORGANIZATION], [ORGANIZATION], and [PERSON] with picks, stats, and scores."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A video game match interface showing team scores against [ORGANIZATION] in a competitive environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A CS2 competitive match scoreboard showing teams 'Eyeballers' and '[ORGANIZATION]' with game maps and stats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Counter-Strike esports scoreboard showing match statistics for teams [ORGANIZATION] and [ORGANIZATION] across three maps: [ORGANIZATION], [ORGANIZATION], and [PERSON]."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a card that features the name '[PERSON] and branding related to 'Stake'."
+        },
+        "gpt-5.4": {
+          "summary": "Black-gloved hands hold a small branded card featuring Formula 1 and Stake [PERSON] [PERSON] text in a dim blue-lit indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a business card labeled '[ORGANIZATION]' in front of blue lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gloved hand holds up a Formula 1 driver card featuring [PERSON] and Stake [PERSON] branding."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing black gloves holds up a white card featuring the name [PERSON] and logos for Stake F1 Team, Kick, Sauber, and [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a competitive gaming scoreboard featuring match statistics for teams [PERSON] and [ORGANIZATION] across three maps: [ORGANIZATION], [ORGANIZATION], and Dust2."
+        },
+        "gpt-5.4": {
+          "summary": "A Counter-Strike match graphic shows map results between [PERSON] and Natus Vincere on [ORGANIZATION], [ORGANIZATION], and Dust2, with Monte leading the series maps shown."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot from a Counter-Strike: Global Offensive match showing team scores."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A competitive [ORGANIZATION] gameplay scoreboard showing two teams, 'Monte' and 'Natus Vincere', with player stats and map names like '[ORGANIZATION]' and 'Dust2'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of [ORGANIZATION] match scoreboard showing team scores and map statistics for [ORGANIZATION], [ORGANIZATION], and Dust2 between [PERSON] and [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a kitchen scene with chopped onions cooking in a pan, alongside diced red peppers and a beverage can."
+        },
+        "gpt-5.4": {
+          "summary": "A kitchen stovetop scene shows chopped onions sautéing in a pan beside a cutting board with chopped carrots and peppers, oil, and utensils."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Onions are being sautéed in a pan while ingredients like carrots and spices prepare nearby."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Chopped onions sautéing in a pan on an electric stove, with chopped carrots and kitchen tools nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A kitchen countertop scene shows chopped onions sautéing in a frying pan on an induction stove, with diced carrots and tomatoes ready on a cutting board nearby."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collection of new gaming peripherals, including two gaming mice, mouse skates, grip tape, and a mouse bungee,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays various gaming accessories including a mouse, grip tape, and skate pads on a desk."
+        },
+        "gpt-5.4": {
+          "summary": "A desk setup photo shows [PERSON] and accessories laid out for testing, including Razer and Endgame Gear mouse boxes, grip tape, skates, and a mouse bungee."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of gaming peripherals including a Razer DeathAdder mouse, grip tape packs, and other accessories."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A desk setup displays gaming peripherals including Razer and Endgame Gear mouse boxes, grip tape packages, and a caption indicating upcoming tests."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of new gaming peripherals, including two wireless mice and grip tape accessories, arranged on a desk mat with an overlay text in Polish."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming interface showing player stats and avatars."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped FPS game [ORGANIZATION] shows two players, [LOCATION] and [ORGANIZATION], with pistol icons, money values, and 100 health."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two player avatars are shown in a competitive game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game scoreboard showing two players, '[LOCATION]' and '[PERSON]', with their scores and emoticons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game scoreboard displaying two player names, '[LOCATION]' and '[PERSON]', along with their scores, money, and profile icons."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scoreboard from a competitive gaming match, showing player statistics for two teams."
+        },
+        "gpt-5.4": {
+          "summary": "A Counter-Strike match scoreboard overlay shows [ORGANIZATION] leading PARIVISION 20:22 on map [ORGANIZATION] with player stats and round history icons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a video game scoreboard showing player statistics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scoreboard from a competitive gaming match showing player stats and kills/deaths for two teams."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Counter-Strike 2 scoreboard displays the final match statistics between [ORGANIZATION] and [ORGANIZATION], showing player kills, assists, deaths, and average damage per round."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a wooden object with a decorative edge, accompanied by a message in Polish."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a video preview of a zigzag-cut wooden piece on a tabletop and a Polish message reply below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A message thread showing a reply from '[LOCATION]' expressing reluctance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a social media chat showing a reply to a video with dismissive text and an emoji."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media reply showing a video thumbnail with a wooden texture and a jagged white shape, accompanied by Polish text expressing skepticism or refusal to watch."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person wearing headphones in front of a computer screen displaying a game with a cartoonish smiling face graffiti."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-like composite shows a smiling person with a gaming headset above a first-person shooter game screen featuring a large orange grinning graffiti face and a knife during warmup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones smiles while playing a video game featuring an animated character."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing headphones laughs while playing a first-person shooter game featuring a large, cartoonish smiley face on the ground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling female gamer wearing a headset is shown in a webcam overlay above gameplay footage of Counter-Strike featuring a large orange smiley face spray and a red knife."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] music track titled 'I Miss the Misery' by [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark music-player style screenshot shows the track “I Miss the Misery” by [PERSON] with small album art and a green status/check icon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music video thumbnail featuring [PERSON]'s 'I Miss The Misery'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing the song 'I Miss the Misery' by Teledysk • Halestorm with a green checkmark."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-themed music player interface displays the song 'I Miss the Misery' by [PERSON] with a Polish label for the video."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scoreboard highlighting player statistics in a gaming context."
+        },
+        "gpt-5.4": {
+          "summary": "A dark promotional-style graphic says that [ORGANIZATION] has 17 [ORGANIZATION] kills in the grand final while M0NESY has 4, under a “TIME LORD” heading."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scoreboard displaying a gaming match score between two players."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming leaderboard graphic showing 'TIME LORD' with player stats: '[PERSON] HAS 17 AWP KILLS THIS GRAND FINAL, [ORGANIZATION] HAS 4'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] scoreboard graphic displays a statistical comparison of [ORGANIZATION] kills between two players, [PERSON] and MoneSy, during a grand final."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scoreboard from a gaming interface showing player statistics and weapon information."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped tactical shooter game scoreboard shows five player portraits, usernames, weapon icons, and stats such as health and money."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Leaderboard-style display of player rankings in a game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A leaderboard showing five players with names, scores, and weapon icons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game scoreboard displaying five players with their names, avatars, weapon icons, and scores."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital interface with user tags and icons."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed game or app menu shows three selectable entries labeled with a username and the titles \"[LOCATION],\" \"Lucky,\" and \"Ex3rcice.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a gaming streamer's chat messages showing 's1mple' interacting in various ways."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three text bars display usernames and icons against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game kill feed displaying three eliminations by the player 's1mple' using different weapons."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scoreboard from a competitive gaming match showing player names and round results."
+        },
+        "gpt-5.4": {
+          "summary": "A Counter-Strike-style game screenshot shows a round-end notification with multiple kill feed entries and a dark urban map background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A multiplayer gaming session showing player names and scores."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game scoreboard shows a [ORGANIZATION] team win with player names and a 'Round started' notification."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game scoreboard displays the end of a round with '[ORGANIZATION]' winning against 'Enemy eliminated', listing five players with their usernames and weapon icons."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a digital chat message from '[ACCOUNT]' asking 'is [PERSON] from [LOCATION]?' on a dark background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a comment asking if a user named '[PERSON]' is from [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a social media comment asking, \"is [PERSON] from [LOCATION]?\" next to the username \"[ACCOUNT]:\"."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": ":[PERSON] asks a question inquiring whether [PERSON] comes from [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet asking if '[PERSON]' is from [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media comment asking if the user '[PERSON]' is from [LOCATION]."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays connected accounts for [ORGANIZATION], and [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed interface shows a list of linked accounts with [ORGANIZATION], and [PERSON], with most account names obscured."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a settings menu showing connected accounts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed interface showing three connected accounts with app icons and arrows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-mode interface screenshot showing a list of connected accounts with [ORGANIZATION], and [PERSON] logos next to redacted text."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows a [ORGANIZATION] app icon on a dark background, with two horizontal navigation arrows visible above it."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the [ORGANIZATION] app icon on a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A dark app or browser header shows back/forward arrows and a [ORGANIZATION] logo button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a [ORGANIZATION] logo against dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Discord app icon displayed on a dark interface with navigation arrows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up screenshot of the [ORGANIZATION] application icon displayed on a dark user interface with navigation arrows."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with light brown hair and a beard, wearing headphones and a dark blue t-shirt, looks directly at the camera in an indoor setting with blurred plants in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing headphones is seated in front of a plant-filled background."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing over-ear headphones looks at the camera in a softly lit indoor setting with plants in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones sits in a dimly lit room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man wearing headphones smiles directly at the camera in a softly lit indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with short brown hair and a beard is shown in a close-up shot wearing large black over-ear headphones and a dark blue t-shirt."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a kitchen setting with chopped vegetables, a laptop displaying a gaming stream, and a television showing a sports event."
+        },
+        "gpt-5.4": {
+          "summary": "A home kitchen and living room scene shows vegetables being prepped on a cutting board beside a laptop, with a soccer match playing on the TV in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A kitchen scene featuring a cutting board with vegetables, a laptop displaying an online game, and snacks in the background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A kitchen counter with chopped vegetables and a laptop displaying a game, while a TV in the background shows a sports match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a kitchen counter with chopped vegetables and a laptop displaying a video game, while a soccer match plays on a TV in the background."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cozy living room with a laptop displaying a video game and a bowl of food in the foreground, while a TV shows a sports event in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A cozy living room setup shows a bowl of food in front of a laptop playing a first-person shooter, with a TV on in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy living room scene featuring a bowl of curry with chicken katsu in front of an open laptop displaying a video game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bowl of stewed chicken and vegetables sits in front of a laptop playing a first-person shooter game, with a TV displaying sports in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bowl of curry with breaded meat sits in front of a laptop playing a first-person shooter game, while a television displays sports footage in the background."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the final score of a competitive gaming match between The [LOCATION] and [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A match result graphic shows The MongolZ vs FURIA at IEM Kraków 2026 with a final score of 1–2 and the status 'Match over.'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A match result from [ORGANIZATION] Kraków 2026 between The MongolZ (scored) vs [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A match summary graphic showing 'The MongolZ' vs '[ORGANIZATION] with score 1-2 and 'Match over' declared."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital scoreboard displays the final result of an esports match between The [LOCATION] and [PERSON] at IEM Kraków 2026, showing a score of 1-2."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plush toy resembling a cat sitting on a desk near a computer screen displaying game statistics."
+        },
+        "gpt-5.4": {
+          "summary": "An orange pixel-style cat plush toy sits on top of a gaming monitor showing an esports match interface with [ORGANIZATION] logos and player stats."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush toy resembling a Minecraft character sits in front of a game show-style board."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plush toy resembling a blocky orange cat sits atop a gaming monitor displaying player stats and team logos."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blocky, orange plush toy resembling a Minecraft cat sits on the edge of a computer monitor displaying a betting interface with horse icons and odds."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming profile with player statistics and equipment."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped first-person shooter game [ORGANIZATION] shows a player banner with a male avatar, weapon icons, grenade icons, health/ammo-style numbers, and cash."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile card showing a player named ZONTIX with various in-game items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming profile overlay showing a player's stats and inventory."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game scoreboard displays a player named [PERSON] with stats including 1 kill, 15 deaths, and $3,250 earned alongside weapon and grenade icons."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming profile with a username, weapon, and statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A shooter game profile/banner shows a male avatar with the name [PERSON], several stat icons, currency marked 13,600, and a large 100 indicator."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A player's in-game character card showing stats like level (ZONTIX), experience points, money ($13.600) and equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game player profile card showing stats, weapons, and currency."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game user interface displaying a player profile with the username [PERSON], stats including 13 kills and 1 death, $13,600 in-game currency, and a weapon icon."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital scoreboard displays the final results of an esports match"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the results of a competitive match between [ORGANIZATION] and [LOCATION] at IEM Kraków 2026, with [ORGANIZATION] winning 2-0."
+        },
+        "gpt-5.4": {
+          "summary": "A match result graphic shows [ORGANIZATION] versus [PERSON] at [ORGANIZATION] Kraków 2026 with the match over and [ORGANIZATION] leading 2 to 0."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Scoreboard showing MOUZ vs [ORGANIZATION] match results from [ORGANIZATION]"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A match result graphic showing MOUZ defeated by [ORGANIZATION] with a score of 0-2."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital scoreboard displays the final result of a match between esports teams [ORGANIZATION] and [ORGANIZATION] at the IEM Kraków 2026 tournament."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two esports players are being interviewed on stage at an event, with a host in between them."
+        },
+        "gpt-5.4": {
+          "summary": "A livestreamed esports stage interview shows a host with two team players in jerseys in front of an ESL Intel Extreme Masters backdrop, with a match countdown on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a red shirt interviews two esports players before an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three men stand in front of a sponsor wall at an esports event; one holds a microphone while two others listen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen esports broadcast showing a streamer in the top-left corner and an on-stage interview between two professional players and a host at the Intel Extreme Masters [LOCATION] 2026 event."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scoreboard from a competitive gaming match between two teams, Falcons and [ORGANIZATION], with player statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A Counter-Strike match scoreboard on [ORGANIZATION] shows Falcons and [ORGANIZATION] player stats, kill icons, and an 11:13 round timer."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A video game scoreboard showing player statistics in a match between Falcons and [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scoreboard from a competitive esports match showing player stats and team names."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Counter-Strike: Global Offensive scoreboard displays the final match statistics between team Falcons and [ORGANIZATION] on the map [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming profile with a player name, statistics, and weapon icons."
+        },
+        "gpt-5.4": {
+          "summary": "A blue game-themed banner shows a person’s face beside weapon/item icons and a large “100” indicator."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "$1MPL's in-game stats display a score of '0' alongside various weapon icons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming profile card showing a player named 'SIMPLE' with stats and weapon icons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up screenshot of a video game scoreboard featuring the player name 'S1MPLE' with associated stats and icons."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scoreboard from a competitive gaming match between teams [ORGANIZATION] and [ORGANIZATION] on the map [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A Counter-Strike match scoreboard screenshot shows [ORGANIZATION] vs [ORGANIZATION] on [ORGANIZATION], with [ORGANIZATION] leading 13-5 and player stats displayed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Scoreboard from a Counter-Strike game showing [ORGANIZATION] vs [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scoreboard from [ORGANIZATION] match showing player stats for teams [ORGANIZATION] and [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scoreboard from [ORGANIZATION] Global Offensive match on the [ORGANIZATION] map shows [ORGANIZATION] trailing MOUZ with a score of 5 to 13."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital scoreboard"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the results of a competitive match between [ORGANIZATION] and [ORGANIZATION] in the [ORGANIZATION] Kraków 2026."
+        },
+        "gpt-5.4": {
+          "summary": "An esports match result graphic shows [ORGANIZATION] defeating [ORGANIZATION] at IEM Kraków 2026, with the match marked as over."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A match result from [ORGANIZATION] Kraków 2026 showing [ORGANIZATION] defeating [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A match result graphic showing [ORGANIZATION] defeated [ORGANIZATION] with a score of 2-0 at the IEM Kraków 2026 tournament."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital scoreboard displays the final result of a match between esports teams [ORGANIZATION] and [ORGANIZATION], with [ORGANIZATION] winning 2-0 at IEM Kraków 2026."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming profile with player statistics and equipment details."
+        },
+        "gpt-5.4": {
+          "summary": "A game-style overlay shows a person’s face with player stats, icons, and a large score of 100 on a blue background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A video game character's stats screen showing a player named [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming profile card showing a player named [ORGANIZATION] with stats, weapons, and items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up screenshot of a video game user interface showing a player's stats, including the name [ORGANIZATION], score, and currency, alongside icons for weapons and equipment."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person's hand"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a beverage container labeled '[ORGANIZATION] while sitting in a vehicle."
+        },
+        "gpt-5.4": {
+          "summary": "A person holds a [PERSON] energy drink pouch while riding in a vehicle, with the road visible through the window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a can of [PERSON] energy drink in their hand while sitting inside a car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a white and blue can of [PERSON] energy drink inside a moving car, with a blurred highway visible through the window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand holding a white and blue [PERSON] energy drink can inside a moving vehicle, with a highway visible through the window."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holds a patch for '[ORGANIZATION] in a busy esports event setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a '[ORGANIZATION] patch in the foreground while players sit at gaming PCs in a busy esports event space."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a [ORGANIZATION] patch in front of an esports event setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds up a 'BETCLIC APOGEE ESPORTS' patch at an esports event with players gaming in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand with red nail polish holds a circular embroidered patch in the foreground, while blurred figures play video games at computer stations in a busy indoor arena."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a white t-shirt with the text 'JEBAC FALCONS' and a green logo, along with a handwritten note."
+        },
+        "gpt-5.4": {
+          "summary": "A white T-shirt is laid flat on a dark leaf-patterned surface, featuring orange printed text, a green logo, and a handwritten signature-like mark."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A white t-shirt featuring '[ORGANIZATION] in pixelated orange letters above a [LOCATION] logo."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white T-shirt displays a team logo with 'JEBAC FALCONS' and a handwritten signature."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white t-shirt featuring a printed design with the text '[PERSON]' and 'FALCONS' in orange, separated by [ORGANIZATION] logo, along with a handwritten signature."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person points at a plate of donuts on a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is pointing at a plate of donuts on a desk with a computer in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person at a computer desk points toward a plate of pastries, with a monitor, keyboard, speakers, and a [ORGANIZATION] bottle nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person pointing towards a plate of donuts in front of them."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person points at a plate of doughnuts on a desk next to a computer and a [ORGANIZATION] bottle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person points at a plate of donuts on a desk next to a computer and a bottle of [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A smartphone displaying a gaming interface is placed on a table alongside a salad and another dish."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone on a dining table is streaming a competitive shooter esports match beside plates of salad in a dim restaurant setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A smartphone displays a video game while placed in front of plates containing salads."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone displaying a live esports match is placed on a dining table with salads and cutlery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone displays a live esports match on a dark dining table alongside plates of salad and silverware."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a bouquet of red roses in front of a gaming scoreboard displaying match statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds red LEGO-style roses in front of a computer monitor showing an esports scoreboard for a Counter-Strike match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds LEGO roses in front of a gaming scoreboard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a LEGO rose in front of a computer monitor displaying [ORGANIZATION] scoreboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a red LEGO rose in front of a computer monitor displaying an esports scoreboard for the PGL CS2 Copenhagen Major."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a countdown timer for a match between [PERSON] and Falcons at PGL Cluj-Napoca 2026."
+        },
+        "gpt-5.4": {
+          "summary": "A match graphic shows [PERSON] with team logos, a 18:00 start time, the date 16th of February 2026, and the event name [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Announcement of a match between [PERSON] and Falcons scheduled for [DATE] in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sports event graphic showing a match between [PERSON] and Falcons scheduled for 18:00 on [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital match banner for a PGL Cluj-Napoca 2026 esports event between the teams [PERSON] and Falcons scheduled for [DATE]."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital interface displays two entries, 'The MongolZ' with a golden warrior icon"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the names of two esports teams, The MongolZ and [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A scoreboard-style graphic shows two esports teams, The MongolZ and [ORGANIZATION], with their logos on a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Twitter handle 'The MongolZ' featuring a logo of an animal head."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed interface showing two team names with logos: 'The MongolZ' and '[PERSON]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a competitive gaming interface displaying two team logos and names, 'The MongolZ' and '[ORGANIZATION], against a dark background."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two individuals on stage at an event, one interviewing the other who is wearing a [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "An esports host interviews a player in a [LOCATION] on a lit stage during a gaming event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit speaks into a microphone while another person stands beside him during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men stand on a stage at an esports event, one holding a microphone and speaking to the other."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men stand on a brightly lit stage, with one in a suit holding a microphone interviewing another man wearing a red sports jersey and sneakers."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A crowd at an event is cheering, with one person celebrating and a tall stack of cans visible."
+        },
+        "gpt-5.4": {
+          "summary": "A crowd at a live esports-style arena event stands beside a very tall stacked column of drink cans under sponsor signage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A crowd of spectators in a dimly lit arena, cheering near an advertisement banner."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowd at a gaming event cheers as someone holds up a tall tower of red-and-white cans."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crowd of spectators at a dimly lit esports event cheers enthusiastically near a tall stack of wrapped cans, with visible sponsor banners in the background."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a performance statistics table for a gaming team called 'The MongolZ'."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed esports scoreboard table shows The MongolZ players with columns for K-D, Swing, [ORGANIZATION], [ORGANIZATION], and Rating 3.0."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A leaderboard displaying player statistics in a competitive game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A leaderboard displaying player stats in a game, including K-D, Swing, [ORGANIZATION], [ORGANIZATION], and Rating."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scoreboard screenshot from a professional esports match for the team 'The [ORGANIZATION]' displaying player names, K-D ratios, and performance metrics."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of usernames associated with the 'Techno' tag, featuring repeated entries for 'yuuriH', '[PERSON]', and '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A dark graphic lists multiple Counter-Strike-style player-versus-player matchups, with the name [PERSON] on the left and opponents like yuurih, [PERSON], and [PERSON] on the right beside weapon icons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A series of repeated phrases 'Techno', 'yuurih', '[PERSON]', and 'KSERATO' in a stylized font."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A list of techno music artists with names and gun icons displayed in red-bordered boxes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vertical list of gaming clan tags featuring names like 'Techno', 'yuurih', '[PERSON]', and '[PERSON]' paired with weapon icons on a dark background."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of usernames with associated weapon icons, likely from a gaming context."
+        },
+        "gpt-5.4": {
+          "summary": "A game-style scoreboard graphic shows kill notifications with player names highlighted in blue and yellow boxes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A list of usernames associated with in-game characters from a multiplayer online battle arena game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three gaming scoreboards display player names and scores with weapon icons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game kill feed showing player [ORGANIZATION] eliminating opponents yuurih, FalleN, and [PERSON]."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized text banner with icons representing themes of technology and weaponry."
+        },
+        "gpt-5.4": {
+          "summary": "A small banner graphic shows the word \"Techno\" on the left, a stylized rifle icon, several small white symbols, and the yellow text \"yuurih\" on a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A banner featuring '[ORGANIZATION]' in blue letters alongside various icons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black banner with icons and text, including '[ORGANIZATION]' and 'yuuриh'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital banner featuring the word '[ORGANIZATION]' in blue, a username 'yuurih' in yellow, and a sequence of four white icons including a rifle, a rock, a door, and a head with a bullet hole."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a video game kill feed or event log with player names, weapon icons, and kill types against a dark, blurred background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of usernames with associated weapon icons, likely from a gaming context."
+        },
+        "gpt-5.4": {
+          "summary": "A game-style kill feed overlay shows player names, weapon icons, and recent eliminations on a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A list of usernames associated with in-game characters from a multiplayer online battle arena game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A list of usernames with associated icons and numbers, likely from a gaming context."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game scoreboard displaying player names, ranks, and weapon icons against a dark background."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the final score of an esports match between Parivision and MOUZ, indicating [ORGANIZATION]'s victory."
+        },
+        "gpt-5.4": {
+          "summary": "A dark esports match graphic shows PARIVISION defeating [ORGANIZATION] at [ORGANIZATION], with the status marked as match over."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Scoreboard showing Parivision vs [PERSON] match result from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A match result graphic showing [ORGANIZATION] defeating [ORGANIZATION] with a score of 2-0."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital scoreboard displays the final result of a PGL Cluj-Napoca 2026 esports match between Parivision and [PERSON], ending 2-0 at 16:00 on [DATE]."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of esports players focused on their screens during a competitive gaming event."
+        },
+        "gpt-5.4": {
+          "summary": "Several esports players in [ORGANIZATION] and sit at computers on a competition stage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a headset sits in front of computer equipment during an esports event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a gaming jersey and headset is focused on a computer screen in a dimly lit arena with other players."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A row of esports players wearing headsets and team jerseys are intensely focused on their computer screens in a dimly lit arena."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a countdown timer for a gaming match between [ORGANIZATION] and The MongolZ scheduled for [DATE]."
+        },
+        "gpt-5.4": {
+          "summary": "A match schedule graphic shows MOUZ versus The MongolZ with a 13:00 start time, the date 22nd of February 2026, and [ORGANIZATION] branding."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Scheduled event details showing a match between [ORGANIZATION] and The [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A esports tournament scoreboard showing a match between [ORGANIZATION] and The MongolZ scheduled for 13:00 on [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital countdown banner for a PGL Cluj-Napoca 2026 esports match between teams MOUZ and The MongolZ scheduled for [DATE]."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a gamer streaming a League of Legends match, with a chat overlay displaying a donation message."
+        },
+        "gpt-5.4": {
+          "summary": "A League of Legends gameplay stream shows a player fighting the [ORGANIZATION] jungle monster, with two webcam overlays and a Polish donation alert on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A streamer plays a video game while another person appears in an inset frame."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A League of Legends gameplay stream with two players' webcam feeds and in-game chat text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen gaming stream featuring two players in the top-left and bottom-right corners, with gameplay from League of Legends showing a player attacking the Baron Nashor monster."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two colorful folded paper crafts, one shaped like the number '1' and the other like '0', are arranged to form '10' on a purple background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features colorful, zigzag-patterned paper strips arranged in a circular and [ORGANIZATION] form on a purple background."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful folded paper strip arranged in a loop and tail sits on a purple background, resembling an origami or paper craft design."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful origami bracelet in shades of orange, pink, purple, teal, and blue against a solid lavender background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful origami sculpture shaped like the letter 'Q' rests on a purple background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful, accordion-folded paper toy is displayed on a purple background in both an extended and coiled shape."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing headphones is seated in front of a computer, with a partially visible background featuring clothing and a bag."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up webcam-style shot shows a person wearing glasses and a gaming headset while seated indoors in front of a white wall and hanging bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a headset sits in front of a white wall adorned with some decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a headset sits in a gaming chair with a red bag visible on the wall behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a young man wearing glasses and a gaming headset, seated in a black chair with a red bag visible in the background."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming profile with a username, weapon icon, and in-game statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A game-style profile banner shows a character card with a small portrait, the name 'MAGIXX', stat icons, a green cash amount, and the number '99' on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A player's in-game character card showing stats like level (3), name ('MAGIXX'), money ($10.300) and various icons representing equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming profile card showing a player named MAGIXX with stats, avatar, and weapon icons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game user interface displaying a player profile for 'MAGIXX' with a photo, currency amount of $10,300, and weapon loadout icons."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cute, simple cartoon illustration of a white cat with grey stripes holding a bouquet of pink and red roses, set against a plain white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cute cartoon cat character is joyfully holding a bouquet of roses."
+        },
+        "gpt-5.4": {
+          "summary": "A cute cartoon white cat character is holding a pink-and-red flower bouquet against a plain white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Cartoon cat holding a bouquet of roses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon cat holds a bouquet of pink and red roses with a happy expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cute, white cartoon cat with a happy expression holds a bouquet of red and pink roses wrapped in paper with a bow."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a meal consisting of rice, spring rolls, and a noodle dish, with a gaming setup in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A takeout meal with rice, spring rolls, noodles, slaw, sauce, and an energy drink sits on a computer desk in front of a monitor showing an esports match stream."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal in a takeout container being enjoyed while playing video games."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meal of takeout food sits on a desk in front of a computer monitor displaying a multiplayer video game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a desk setup featuring two takeout containers with Asian cuisine, including rice and spring rolls, positioned in front of a monitor displaying a Counter-Strike match."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a high-tech gaming mouse, showcasing its design and features."
+        },
+        "gpt-5.4": {
+          "summary": "A product page shows a hand holding the exposed frame of a compact gaming mouse alongside thumbnails, price, and details for the \"Blade\" model."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A product page showcasing a gaming mouse called 'Blade' in various angles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a small black gaming mouse with visible internal components, displayed on a product page alongside text describing its features and pricing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A product page for a 'Blade' fingertip gaming mouse, showing its internal components and technical specifications."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays player statistics for two esports teams, [ORGANIZATION] and The MongolZ, including K-D ratios, swings, [ORGANIZATION], [ORGANIZATION], and ratings."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed esports match stats table compares [ORGANIZATION] and The MongolZ players across K-D, Swing, [ORGANIZATION], [ORGANIZATION], and Rating columns."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A leaderboard displaying player statistics in a competitive gaming context."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A leaderboard displaying player stats from two esports teams, [ORGANIZATION] and The MongolZ, with ratings and performance metrics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital scoreboard displaying detailed match statistics for two esports teams, [ORGANIZATION] and The MongolZ, including player names, K-D ratios, and performance ratings."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with their hands on their head against a gradient background."
+        },
+        "gpt-5.4": {
+          "summary": "A livestream-style interface shows a blue-to-purple gradient screen with a small cutout image of a person holding their head in the center."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding their head in frustration against a gradient blue-purple background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with hands on their head is centered against a blue-to-purple gradient background, overlaid with Polish social media interface elements."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] stream interface featuring a small, centered image of a person holding their head against a blue-to-purple gradient background."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scoreboard from [ORGANIZATION] Global Offensive match between teams [ORGANIZATION] and [ORGANIZATION], showing player statistics and round results."
+        },
+        "gpt-5.4": {
+          "summary": "A Counter-Strike match scoreboard overlay shows [ORGANIZATION] vs [ORGANIZATION] on [ORGANIZATION] with the round marked as over and the score at 1:9."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Scoreboard from a Counter-Strike game showing [ORGANIZATION] vs. [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A post-match scoreboard from [ORGANIZATION] game showing player stats and team scores."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scoreboard from [ORGANIZATION] Global Offensive match between [ORGANIZATION] and [ORGANIZATION] on the [ORGANIZATION] map, showing a final score of 10 to 9 with player statistics visible."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scoreboard from a competitive gaming match between two teams, Falcons and [ORGANIZATION], in a game of [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A Counter-Strike match scoreboard overlay shows Falcons leading TYLOO 14:16 on [PERSON] with player stats and round history icons visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Scoreboard from a Counter-Strike game showing player statistics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scoreboard from a Counter-Strike tournament showing player stats for teams Falcons and [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Counter-Strike: Global Offensive scoreboard displays the final match statistics between team Falcons and team [ORGANIZATION] on the [PERSON] map."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming profile with a player named [LOCATION], showcasing their stats and avatar."
+        },
+        "gpt-5.4": {
+          "summary": "A gaming-style player stats card shows a portrait with the name \"Mzinho,\" an overall number of 81, and several combat/stat icons with values."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile picture of a person wearing red clothing labeled '[ORGANIZATION]' along with game statistics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming player card showing a portrait, name '[ORGANIZATION], rating '81', and stats including kills, deaths, and score."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A gaming profile card displays a portrait of a young man named [LOCATION] with stats including level 81, 9 kills, 0 deaths, and 8900 points alongside a weapon icon."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A plate of strawberries next to a glass of milk on a desk with a computer in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A plate of strawberries and a glass mug of milk sit on a computer desk in front of a keyboard and monitor, with a rose and small items in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of strawberries next to a glass mug filled with milk in front of an illuminated keyboard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plate of strawberries and a glass of milk sit on a desk in front of a glowing keyboard and monitor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white plate with five strawberries and a glass mug of milk sit on a desk in front of a backlit mechanical keyboard and computer monitor."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two cans of a beverage labeled '[ORGANIZATION]' on a desk with a keyboard and a computer monitor in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two [ORGANIZATION] energy drink cans sit on a desk in front of a keyboard and a monitor showing a gaming or livestream interface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cans of [LOCATION] energy drink are displayed in front of a computer setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two cans of [ORGANIZATION] energy drink sit on a desk in front of a computer monitor displaying a live gaming stream."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two cans of [LOCATION] energy drink are placed on a desk in front of a computer monitor displaying a video game interface."
+        }
+      }
     }
   }
 }

@@ -1,46 +1,66 @@
 {
   "user_id": "participant_012",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
       "status": "active",
       "long_term_interests": [
         {
-          "label": "nature observation",
+          "label": "walk",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            4,
+            8,
+            12,
+            63,
+            65,
+            71,
+            91,
+            98,
+            114,
+            126
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0005",
+            "participant_012_post_0009",
+            "participant_012_post_0013",
+            "participant_012_post_0064",
+            "participant_012_post_0066",
+            "participant_012_post_0072",
+            "participant_012_post_0092",
+            "participant_012_post_0099",
+            "participant_012_post_0115",
+            "participant_012_post_0127"
           ]
         },
         {
-          "label": "walking and hiking",
+          "label": "snorkeling",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            53,
+            161,
+            172,
+            173,
+            175
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0054",
+            "participant_012_post_0162",
+            "participant_012_post_0173",
+            "participant_012_post_0174",
+            "participant_012_post_0176"
           ]
         },
         {
-          "label": "water sports",
+          "label": "birdwatching",
           "evidence_post_indices": [
-            0,
-            2
+            43,
+            90,
+            94
           ],
           "evidence_post_ids": [
-            "participant_012_phase_1",
-            "participant_012_phase_3"
+            "participant_012_post_0044",
+            "participant_012_post_0091",
+            "participant_012_post_0095"
           ]
         }
       ],
@@ -48,36 +68,52 @@
         {
           "label": "nature observation",
           "evidence_post_indices": [
-            1,
-            3
+            43,
+            94
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_4"
+            "participant_012_post_0044",
+            "participant_012_post_0095"
           ]
         },
         {
-          "label": "outdoor activities",
+          "label": "outdoor recreation",
           "evidence_post_indices": [
-            2,
-            3
+            8,
+            46
           ],
           "evidence_post_ids": [
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0009",
+            "participant_012_post_0047"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "sports outdoor interests",
+          "label": "camel riding",
           "evidence_post_indices": [
-            2,
-            3
+            46
           ],
           "evidence_post_ids": [
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0047"
+          ]
+        },
+        {
+          "label": "bird feeding",
+          "evidence_post_indices": [
+            29
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0030"
+          ]
+        },
+        {
+          "label": "mallard duck",
+          "evidence_post_indices": [
+            29
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0030"
           ]
         }
       ]
@@ -87,77 +123,103 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "classic rock",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            47,
+            78,
+            122,
+            125,
+            157
           ],
           "evidence_post_ids": [
-            "participant_012_phase_1",
-            "participant_012_phase_2",
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0048",
+            "participant_012_post_0079",
+            "participant_012_post_0123",
+            "participant_012_post_0126",
+            "participant_012_post_0158"
           ]
         },
         {
-          "label": "music",
+          "label": "the grinch",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            128,
+            160,
+            180
           ],
           "evidence_post_ids": [
-            "participant_012_phase_1",
-            "participant_012_phase_2",
-            "participant_012_phase_3"
+            "participant_012_post_0129",
+            "participant_012_post_0161",
+            "participant_012_post_0181"
+          ]
+        },
+        {
+          "label": "music listening",
+          "evidence_post_indices": [
+            58,
+            129,
+            165
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0059",
+            "participant_012_post_0130",
+            "participant_012_post_0166"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "live performances",
+          "label": "concert attendance",
           "evidence_post_indices": [
-            2,
-            3
+            24,
+            78
           ],
           "evidence_post_ids": [
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0025",
+            "participant_012_post_0079"
           ]
         },
         {
           "label": "music",
           "evidence_post_indices": [
-            1,
-            3
+            43,
+            111
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_4"
+            "participant_012_post_0044",
+            "participant_012_post_0112"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "pink floyd",
           "evidence_post_indices": [
-            1
+            122,
+            125
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2"
+            "participant_012_post_0123",
+            "participant_012_post_0126"
           ]
         },
         {
-          "label": "music",
+          "label": "music fandom",
           "evidence_post_indices": [
-            2,
-            3
+            24,
+            33
           ],
           "evidence_post_ids": [
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0025",
+            "participant_012_post_0034"
+          ]
+        },
+        {
+          "label": "live music",
+          "evidence_post_indices": [
+            78
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0079"
           ]
         }
       ]
@@ -174,73 +236,123 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "coffee and tea",
+          "label": "pub",
           "evidence_post_indices": [
-            1,
-            3
+            19,
+            27,
+            34,
+            35,
+            69,
+            74,
+            99,
+            130,
+            135
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_4"
+            "participant_012_post_0020",
+            "participant_012_post_0028",
+            "participant_012_post_0035",
+            "participant_012_post_0036",
+            "participant_012_post_0070",
+            "participant_012_post_0075",
+            "participant_012_post_0100",
+            "participant_012_post_0131",
+            "participant_012_post_0136"
           ]
         },
         {
-          "label": "dining",
+          "label": "pub visit",
           "evidence_post_indices": [
-            1,
-            3
+            6,
+            62,
+            77,
+            81,
+            100,
+            115
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_4"
+            "participant_012_post_0007",
+            "participant_012_post_0063",
+            "participant_012_post_0078",
+            "participant_012_post_0082",
+            "participant_012_post_0101",
+            "participant_012_post_0116"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "coffee",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            27,
+            34,
+            99,
+            131
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0028",
+            "participant_012_post_0035",
+            "participant_012_post_0100",
+            "participant_012_post_0132"
+          ]
+        },
+        {
+          "label": "breakfast",
+          "evidence_post_indices": [
+            5,
+            10,
+            124,
+            131
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0006",
+            "participant_012_post_0011",
+            "participant_012_post_0125",
+            "participant_012_post_0132"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "savory food",
+          "label": "banana bread",
           "evidence_post_indices": [
-            1
+            102,
+            110
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2"
+            "participant_012_post_0103",
+            "participant_012_post_0111"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "dining",
+          "label": "pub culture",
           "evidence_post_indices": [
-            1,
-            2
+            67,
+            132
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_3"
+            "participant_012_post_0068",
+            "participant_012_post_0133"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "dining out",
           "evidence_post_indices": [
-            1,
-            2
+            77,
+            132
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_3"
+            "participant_012_post_0078",
+            "participant_012_post_0133"
+          ]
+        },
+        {
+          "label": "fast food",
+          "evidence_post_indices": [
+            131
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0132"
           ]
         }
       ]
@@ -250,88 +362,323 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "city exploration",
+          "label": "sightsee",
           "evidence_post_indices": [
             0,
-            1,
-            2,
-            3
+            9,
+            11,
+            17,
+            24,
+            26,
+            32,
+            39,
+            44,
+            52,
+            54,
+            66,
+            68,
+            72,
+            82,
+            83,
+            86,
+            88,
+            89,
+            95,
+            97,
+            101,
+            103,
+            104,
+            105,
+            107,
+            108,
+            119,
+            121,
+            122,
+            123,
+            124,
+            126,
+            127,
+            137,
+            141,
+            145,
+            148,
+            150,
+            153,
+            154,
+            159,
+            160,
+            178,
+            179,
+            180,
+            181,
+            182
           ],
           "evidence_post_ids": [
-            "participant_012_phase_1",
-            "participant_012_phase_2",
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0001",
+            "participant_012_post_0010",
+            "participant_012_post_0012",
+            "participant_012_post_0018",
+            "participant_012_post_0025",
+            "participant_012_post_0027",
+            "participant_012_post_0033",
+            "participant_012_post_0040",
+            "participant_012_post_0045",
+            "participant_012_post_0053",
+            "participant_012_post_0055",
+            "participant_012_post_0067",
+            "participant_012_post_0069",
+            "participant_012_post_0073",
+            "participant_012_post_0083",
+            "participant_012_post_0084",
+            "participant_012_post_0087",
+            "participant_012_post_0089",
+            "participant_012_post_0090",
+            "participant_012_post_0096",
+            "participant_012_post_0098",
+            "participant_012_post_0102",
+            "participant_012_post_0104",
+            "participant_012_post_0105",
+            "participant_012_post_0106",
+            "participant_012_post_0108",
+            "participant_012_post_0109",
+            "participant_012_post_0120",
+            "participant_012_post_0122",
+            "participant_012_post_0123",
+            "participant_012_post_0124",
+            "participant_012_post_0125",
+            "participant_012_post_0127",
+            "participant_012_post_0128",
+            "participant_012_post_0138",
+            "participant_012_post_0142",
+            "participant_012_post_0146",
+            "participant_012_post_0149",
+            "participant_012_post_0151",
+            "participant_012_post_0154",
+            "participant_012_post_0155",
+            "participant_012_post_0160",
+            "participant_012_post_0161",
+            "participant_012_post_0179",
+            "participant_012_post_0180",
+            "participant_012_post_0181",
+            "participant_012_post_0182",
+            "participant_012_post_0183"
+          ]
+        },
+        {
+          "label": "city exploration",
+          "evidence_post_indices": [
+            9,
+            16,
+            22,
+            37,
+            51,
+            64,
+            72,
+            75,
+            82,
+            92,
+            103,
+            105,
+            106,
+            107,
+            108,
+            116,
+            119,
+            120,
+            122,
+            128,
+            129,
+            134,
+            137,
+            168,
+            181
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0010",
+            "participant_012_post_0017",
+            "participant_012_post_0023",
+            "participant_012_post_0038",
+            "participant_012_post_0052",
+            "participant_012_post_0065",
+            "participant_012_post_0073",
+            "participant_012_post_0076",
+            "participant_012_post_0083",
+            "participant_012_post_0093",
+            "participant_012_post_0104",
+            "participant_012_post_0106",
+            "participant_012_post_0107",
+            "participant_012_post_0108",
+            "participant_012_post_0109",
+            "participant_012_post_0117",
+            "participant_012_post_0120",
+            "participant_012_post_0121",
+            "participant_012_post_0123",
+            "participant_012_post_0129",
+            "participant_012_post_0130",
+            "participant_012_post_0135",
+            "participant_012_post_0138",
+            "participant_012_post_0169",
+            "participant_012_post_0182"
           ]
         },
         {
           "label": "cruise travel",
           "evidence_post_indices": [
-            0,
-            1
+            111,
+            138,
+            139,
+            140,
+            147,
+            154,
+            156,
+            157,
+            158,
+            163,
+            164,
+            165,
+            166,
+            170,
+            173,
+            174,
+            175,
+            176,
+            177,
+            182,
+            184
           ],
           "evidence_post_ids": [
-            "participant_012_phase_1",
-            "participant_012_phase_2"
+            "participant_012_post_0112",
+            "participant_012_post_0139",
+            "participant_012_post_0140",
+            "participant_012_post_0141",
+            "participant_012_post_0148",
+            "participant_012_post_0155",
+            "participant_012_post_0157",
+            "participant_012_post_0158",
+            "participant_012_post_0159",
+            "participant_012_post_0164",
+            "participant_012_post_0165",
+            "participant_012_post_0166",
+            "participant_012_post_0167",
+            "participant_012_post_0171",
+            "participant_012_post_0174",
+            "participant_012_post_0175",
+            "participant_012_post_0176",
+            "participant_012_post_0177",
+            "participant_012_post_0178",
+            "participant_012_post_0183",
+            "participant_012_post_0185"
           ]
         },
         {
-          "label": "travel",
+          "label": "city walks",
           "evidence_post_indices": [
             0,
-            1
-          ],
-          "evidence_post_ids": [
-            "participant_012_phase_1",
-            "participant_012_phase_2"
-          ]
-        },
-        {
-          "label": "travel city exploration interests",
-          "evidence_post_indices": [
-            0,
-            1,
             2,
-            3
+            11,
+            23,
+            31,
+            32,
+            68,
+            93,
+            121,
+            123,
+            125,
+            126,
+            155
           ],
           "evidence_post_ids": [
-            "participant_012_phase_1",
-            "participant_012_phase_2",
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0001",
+            "participant_012_post_0003",
+            "participant_012_post_0012",
+            "participant_012_post_0024",
+            "participant_012_post_0032",
+            "participant_012_post_0033",
+            "participant_012_post_0069",
+            "participant_012_post_0094",
+            "participant_012_post_0122",
+            "participant_012_post_0124",
+            "participant_012_post_0126",
+            "participant_012_post_0127",
+            "participant_012_post_0156"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "nature visits",
+          "label": "volendam",
           "evidence_post_indices": [
-            2
+            0,
+            92
           ],
           "evidence_post_ids": [
-            "participant_012_phase_3"
+            "participant_012_post_0001",
+            "participant_012_post_0093"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "netherland",
           "evidence_post_indices": [
-            2,
-            3
+            37,
+            83
           ],
           "evidence_post_ids": [
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0038",
+            "participant_012_post_0084"
+          ]
+        },
+        {
+          "label": "sinai desert",
+          "evidence_post_indices": [
+            45,
+            46
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0046",
+            "participant_012_post_0047"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "travel city exploration interests",
+          "label": "bonaire",
           "evidence_post_indices": [
-            0
+            172,
+            173,
+            174,
+            175
           ],
           "evidence_post_ids": [
-            "participant_012_phase_1"
+            "participant_012_post_0173",
+            "participant_012_post_0174",
+            "participant_012_post_0175",
+            "participant_012_post_0176"
+          ]
+        },
+        {
+          "label": "british virgin island",
+          "evidence_post_indices": [
+            146,
+            148,
+            149
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0147",
+            "participant_012_post_0149",
+            "participant_012_post_0150"
+          ]
+        },
+        {
+          "label": "tortola",
+          "evidence_post_indices": [
+            146,
+            148,
+            149
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0147",
+            "participant_012_post_0149",
+            "participant_012_post_0150"
           ]
         }
       ]
@@ -341,46 +688,473 @@
       "status": "active",
       "long_term_interests": [
         {
+          "label": "landscape photography",
+          "evidence_post_indices": [
+            1,
+            7,
+            8,
+            10,
+            12,
+            13,
+            14,
+            15,
+            21,
+            40,
+            41,
+            44,
+            45,
+            50,
+            52,
+            56,
+            59,
+            60,
+            63,
+            65,
+            66,
+            70,
+            71,
+            76,
+            83,
+            84,
+            85,
+            86,
+            87,
+            91,
+            93,
+            96,
+            104,
+            105,
+            108,
+            113,
+            114,
+            118,
+            123,
+            127,
+            133,
+            138,
+            140,
+            142,
+            143,
+            145,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            156,
+            157,
+            158,
+            164,
+            165,
+            166,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            182
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0002",
+            "participant_012_post_0008",
+            "participant_012_post_0009",
+            "participant_012_post_0011",
+            "participant_012_post_0013",
+            "participant_012_post_0014",
+            "participant_012_post_0015",
+            "participant_012_post_0016",
+            "participant_012_post_0022",
+            "participant_012_post_0041",
+            "participant_012_post_0042",
+            "participant_012_post_0045",
+            "participant_012_post_0046",
+            "participant_012_post_0051",
+            "participant_012_post_0053",
+            "participant_012_post_0057",
+            "participant_012_post_0060",
+            "participant_012_post_0061",
+            "participant_012_post_0064",
+            "participant_012_post_0066",
+            "participant_012_post_0067",
+            "participant_012_post_0071",
+            "participant_012_post_0072",
+            "participant_012_post_0077",
+            "participant_012_post_0084",
+            "participant_012_post_0085",
+            "participant_012_post_0086",
+            "participant_012_post_0087",
+            "participant_012_post_0088",
+            "participant_012_post_0092",
+            "participant_012_post_0094",
+            "participant_012_post_0097",
+            "participant_012_post_0105",
+            "participant_012_post_0106",
+            "participant_012_post_0109",
+            "participant_012_post_0114",
+            "participant_012_post_0115",
+            "participant_012_post_0119",
+            "participant_012_post_0124",
+            "participant_012_post_0128",
+            "participant_012_post_0134",
+            "participant_012_post_0139",
+            "participant_012_post_0141",
+            "participant_012_post_0143",
+            "participant_012_post_0144",
+            "participant_012_post_0146",
+            "participant_012_post_0148",
+            "participant_012_post_0149",
+            "participant_012_post_0150",
+            "participant_012_post_0151",
+            "participant_012_post_0152",
+            "participant_012_post_0153",
+            "participant_012_post_0154",
+            "participant_012_post_0155",
+            "participant_012_post_0157",
+            "participant_012_post_0158",
+            "participant_012_post_0159",
+            "participant_012_post_0165",
+            "participant_012_post_0166",
+            "participant_012_post_0167",
+            "participant_012_post_0170",
+            "participant_012_post_0171",
+            "participant_012_post_0172",
+            "participant_012_post_0173",
+            "participant_012_post_0174",
+            "participant_012_post_0175",
+            "participant_012_post_0176",
+            "participant_012_post_0177",
+            "participant_012_post_0178",
+            "participant_012_post_0183"
+          ]
+        },
+        {
           "label": "photography",
           "evidence_post_indices": [
             0,
-            1,
-            2,
-            3
+            6,
+            9,
+            19,
+            22,
+            24,
+            27,
+            32,
+            34,
+            37,
+            38,
+            46,
+            51,
+            54,
+            64,
+            73,
+            74,
+            75,
+            77,
+            80,
+            82,
+            83,
+            88,
+            89,
+            92,
+            95,
+            97,
+            99,
+            100,
+            102,
+            106,
+            110,
+            111,
+            116,
+            119,
+            124,
+            130,
+            132,
+            136,
+            137,
+            139,
+            141,
+            160,
+            179,
+            180,
+            183
           ],
           "evidence_post_ids": [
-            "participant_012_phase_1",
-            "participant_012_phase_2",
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0001",
+            "participant_012_post_0007",
+            "participant_012_post_0010",
+            "participant_012_post_0020",
+            "participant_012_post_0023",
+            "participant_012_post_0025",
+            "participant_012_post_0028",
+            "participant_012_post_0033",
+            "participant_012_post_0035",
+            "participant_012_post_0038",
+            "participant_012_post_0039",
+            "participant_012_post_0047",
+            "participant_012_post_0052",
+            "participant_012_post_0055",
+            "participant_012_post_0065",
+            "participant_012_post_0074",
+            "participant_012_post_0075",
+            "participant_012_post_0076",
+            "participant_012_post_0078",
+            "participant_012_post_0081",
+            "participant_012_post_0083",
+            "participant_012_post_0084",
+            "participant_012_post_0089",
+            "participant_012_post_0090",
+            "participant_012_post_0093",
+            "participant_012_post_0096",
+            "participant_012_post_0098",
+            "participant_012_post_0100",
+            "participant_012_post_0101",
+            "participant_012_post_0103",
+            "participant_012_post_0107",
+            "participant_012_post_0111",
+            "participant_012_post_0112",
+            "participant_012_post_0117",
+            "participant_012_post_0120",
+            "participant_012_post_0125",
+            "participant_012_post_0131",
+            "participant_012_post_0133",
+            "participant_012_post_0137",
+            "participant_012_post_0138",
+            "participant_012_post_0140",
+            "participant_012_post_0142",
+            "participant_012_post_0161",
+            "participant_012_post_0180",
+            "participant_012_post_0181",
+            "participant_012_post_0184"
+          ]
+        },
+        {
+          "label": "nature photography",
+          "evidence_post_indices": [
+            3,
+            8,
+            12,
+            13,
+            14,
+            20,
+            28,
+            29,
+            40,
+            42,
+            43,
+            44,
+            45,
+            48,
+            49,
+            50,
+            53,
+            55,
+            79,
+            81,
+            93,
+            94,
+            98,
+            101,
+            109,
+            140,
+            143,
+            145,
+            146,
+            147,
+            148,
+            150,
+            153,
+            156,
+            157,
+            159,
+            165,
+            174,
+            176,
+            182
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0004",
+            "participant_012_post_0009",
+            "participant_012_post_0013",
+            "participant_012_post_0014",
+            "participant_012_post_0015",
+            "participant_012_post_0021",
+            "participant_012_post_0029",
+            "participant_012_post_0030",
+            "participant_012_post_0041",
+            "participant_012_post_0043",
+            "participant_012_post_0044",
+            "participant_012_post_0045",
+            "participant_012_post_0046",
+            "participant_012_post_0049",
+            "participant_012_post_0050",
+            "participant_012_post_0051",
+            "participant_012_post_0054",
+            "participant_012_post_0056",
+            "participant_012_post_0080",
+            "participant_012_post_0082",
+            "participant_012_post_0094",
+            "participant_012_post_0095",
+            "participant_012_post_0099",
+            "participant_012_post_0102",
+            "participant_012_post_0110",
+            "participant_012_post_0141",
+            "participant_012_post_0144",
+            "participant_012_post_0146",
+            "participant_012_post_0147",
+            "participant_012_post_0148",
+            "participant_012_post_0149",
+            "participant_012_post_0151",
+            "participant_012_post_0154",
+            "participant_012_post_0157",
+            "participant_012_post_0158",
+            "participant_012_post_0160",
+            "participant_012_post_0166",
+            "participant_012_post_0175",
+            "participant_012_post_0177",
+            "participant_012_post_0183"
+          ]
+        },
+        {
+          "label": "night photography",
+          "evidence_post_indices": [
+            2,
+            11,
+            23,
+            30,
+            65,
+            70,
+            72,
+            76,
+            85,
+            87,
+            91,
+            96,
+            98,
+            103,
+            107,
+            113,
+            114,
+            117,
+            120,
+            121,
+            125,
+            126,
+            127,
+            133,
+            152,
+            158,
+            163,
+            166,
+            178,
+            184
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0003",
+            "participant_012_post_0012",
+            "participant_012_post_0024",
+            "participant_012_post_0031",
+            "participant_012_post_0066",
+            "participant_012_post_0071",
+            "participant_012_post_0073",
+            "participant_012_post_0077",
+            "participant_012_post_0086",
+            "participant_012_post_0088",
+            "participant_012_post_0092",
+            "participant_012_post_0097",
+            "participant_012_post_0099",
+            "participant_012_post_0104",
+            "participant_012_post_0108",
+            "participant_012_post_0114",
+            "participant_012_post_0115",
+            "participant_012_post_0118",
+            "participant_012_post_0121",
+            "participant_012_post_0122",
+            "participant_012_post_0126",
+            "participant_012_post_0127",
+            "participant_012_post_0128",
+            "participant_012_post_0134",
+            "participant_012_post_0153",
+            "participant_012_post_0159",
+            "participant_012_post_0164",
+            "participant_012_post_0167",
+            "participant_012_post_0179",
+            "participant_012_post_0185"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "photography",
+          "label": "bird photography",
           "evidence_post_indices": [
-            2,
-            3
+            20,
+            90
           ],
           "evidence_post_ids": [
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0021",
+            "participant_012_post_0091"
+          ]
+        },
+        {
+          "label": "black and white photography",
+          "evidence_post_indices": [
+            76,
+            78
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0077",
+            "participant_012_post_0079"
+          ]
+        },
+        {
+          "label": "outdoor photography",
+          "evidence_post_indices": [
+            26,
+            54
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0027",
+            "participant_012_post_0055"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "photography",
+          "label": "cityscape photography",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            103,
+            123
           ],
           "evidence_post_ids": [
-            "participant_012_phase_1",
-            "participant_012_phase_2",
-            "participant_012_phase_3"
+            "participant_012_post_0104",
+            "participant_012_post_0124"
+          ]
+        },
+        {
+          "label": "underwater photography",
+          "evidence_post_indices": [
+            53,
+            161
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0054",
+            "participant_012_post_0162"
+          ]
+        },
+        {
+          "label": "seascape photography",
+          "evidence_post_indices": [
+            164,
+            177
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0165",
+            "participant_012_post_0178"
           ]
         }
       ]
@@ -390,66 +1164,211 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "dogs",
+          "label": "dog walk",
           "evidence_post_indices": [
             1,
-            2,
-            3
+            4,
+            8,
+            12,
+            13,
+            21,
+            23,
+            27,
+            28,
+            35,
+            40,
+            63,
+            65,
+            69,
+            70,
+            71,
+            74,
+            76,
+            79,
+            81,
+            84,
+            85,
+            87,
+            91,
+            98,
+            112,
+            113,
+            114,
+            115,
+            131,
+            133
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0002",
+            "participant_012_post_0005",
+            "participant_012_post_0009",
+            "participant_012_post_0013",
+            "participant_012_post_0014",
+            "participant_012_post_0022",
+            "participant_012_post_0024",
+            "participant_012_post_0028",
+            "participant_012_post_0029",
+            "participant_012_post_0036",
+            "participant_012_post_0041",
+            "participant_012_post_0064",
+            "participant_012_post_0066",
+            "participant_012_post_0070",
+            "participant_012_post_0071",
+            "participant_012_post_0072",
+            "participant_012_post_0075",
+            "participant_012_post_0077",
+            "participant_012_post_0080",
+            "participant_012_post_0082",
+            "participant_012_post_0085",
+            "participant_012_post_0086",
+            "participant_012_post_0088",
+            "participant_012_post_0092",
+            "participant_012_post_0099",
+            "participant_012_post_0113",
+            "participant_012_post_0114",
+            "participant_012_post_0115",
+            "participant_012_post_0116",
+            "participant_012_post_0132",
+            "participant_012_post_0134"
           ]
         },
         {
-          "label": "pet care",
+          "label": "dog ownership",
           "evidence_post_indices": [
-            1,
             2,
-            3
+            4,
+            6,
+            19,
+            23,
+            25,
+            28,
+            34,
+            62,
+            69,
+            74,
+            77,
+            99,
+            100,
+            118,
+            130,
+            132,
+            135
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0003",
+            "participant_012_post_0005",
+            "participant_012_post_0007",
+            "participant_012_post_0020",
+            "participant_012_post_0024",
+            "participant_012_post_0026",
+            "participant_012_post_0029",
+            "participant_012_post_0035",
+            "participant_012_post_0063",
+            "participant_012_post_0070",
+            "participant_012_post_0075",
+            "participant_012_post_0078",
+            "participant_012_post_0100",
+            "participant_012_post_0101",
+            "participant_012_post_0119",
+            "participant_012_post_0131",
+            "participant_012_post_0133",
+            "participant_012_post_0136"
+          ]
+        },
+        {
+          "label": "dog care",
+          "evidence_post_indices": [
+            5,
+            8,
+            40,
+            62,
+            67,
+            70,
+            77,
+            85,
+            98,
+            113,
+            133,
+            135
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0006",
+            "participant_012_post_0009",
+            "participant_012_post_0041",
+            "participant_012_post_0063",
+            "participant_012_post_0068",
+            "participant_012_post_0071",
+            "participant_012_post_0078",
+            "participant_012_post_0086",
+            "participant_012_post_0099",
+            "participant_012_post_0114",
+            "participant_012_post_0134",
+            "participant_012_post_0136"
+          ]
+        },
+        {
+          "label": "pet ownership",
+          "evidence_post_indices": [
+            5,
+            27,
+            35,
+            63,
+            67,
+            81,
+            115
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0006",
+            "participant_012_post_0028",
+            "participant_012_post_0036",
+            "participant_012_post_0064",
+            "participant_012_post_0068",
+            "participant_012_post_0082",
+            "participant_012_post_0116"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "pet care",
+          "label": "pet friendly pub",
           "evidence_post_indices": [
-            1,
-            3
+            34,
+            99
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_4"
+            "participant_012_post_0035",
+            "participant_012_post_0100"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "dogs",
+          "label": "cavapoo",
           "evidence_post_indices": [
-            2
+            2,
+            118
           ],
           "evidence_post_ids": [
-            "participant_012_phase_3"
+            "participant_012_post_0003",
+            "participant_012_post_0119"
           ]
         },
         {
-          "label": "pets interests",
+          "label": "senior dog",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            67
           ],
           "evidence_post_ids": [
-            "participant_012_phase_2",
-            "participant_012_phase_3",
-            "participant_012_phase_4"
+            "participant_012_post_0068"
+          ]
+        },
+        {
+          "label": "golden retriever",
+          "evidence_post_indices": [
+            91
+          ],
+          "evidence_post_ids": [
+            "participant_012_post_0092"
           ]
         }
       ]

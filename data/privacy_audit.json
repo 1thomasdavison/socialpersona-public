@@ -1,28 +1,27 @@
 {
-  "release_variant": "privacy-derived-v1",
-  "source_audit": {
-    "exact_timestamps_removed": 17511,
-    "invalid_source_evidence_indices": 0,
-    "labels_generalized_to_domain": 1408,
-    "media_hashes_removed": 1785,
-    "posts_with_hashtags": 2098,
-    "posts_with_mentions": 821,
-    "released_interest_labels": 1841,
-    "source_captions": 85488,
-    "source_evidence_phase_disagreements": 729,
-    "source_images": 14248,
-    "source_interest_labels": 2836,
-    "source_posts": 17511,
-    "source_users": 100,
-    "unresolved_source_evidence_ids": 0
-  },
-  "public_counts": {
+  "release_variant": "targeted-deidentified-v2",
+  "counts": {
+    "repaired_evidence_indices": 893,
+    "changed_labels": 10,
+    "interest_entries": 2836,
+    "captions": 85488,
     "users": 100,
-    "timeline_summaries": 400,
-    "caption_model_summaries": 600
+    "posts": 17511,
+    "images": 14248,
+    "email": 1,
+    "url": 1,
+    "account": 1103,
+    "coordinates": 0,
+    "date": 635,
+    "phone": 0,
+    "identifier": 5,
+    "address": 6,
+    "private_path": 1,
+    "changed_strings": 3172,
+    "strings": 105835,
+    "reviewed_rewrite": 930,
+    "keyword": 7
   },
-  "minimum_source_users_per_topic": 5,
-  "allowed_topic_count": 34,
-  "not_an_anonymity_guarantee": true,
-  "paper_scores_reproducible_from_derivative": false
+  "privacy_review": "local_candidate",
+  "paper_scores_reproduced": false
 }

@@ -15,7 +15,7 @@ from ...image_text import (
 )
 from ...llm_client import OpenAICompatibleChatClient
 from ..evaluator import AnchorMatchConfig, AnchorMatchJudgeClient
-from ..evaluator.precheck import MAX_LONG_ANCHORS, MAX_SHORT_ANCHORS, MAX_SUMMARY_SUPPORT
+from ..evaluator.precheck import MAX_SUMMARY_SUPPORT
 from .inference import ProviderInferenceMixin
 from .io import _env_or_dotenv, _load_json, _read_dotenv, _resolve_model_specs
 from .metrics import MetricsMixin
@@ -37,6 +37,7 @@ from .specs import (
     EXTRACTIVE_PROFILE_METHOD,
     HIERARCHICAL_PROFILE_METHOD,
     ModelSpec,
+    PROFILE_EVAL_PROTOCOL_VERSION,
     PROFILE_INPUT_MODE_TEXT_IMAGE_CAPTIONS_TIMESTAMPS,
     USER_LEVEL_PROFILE_METHODS,
 )
@@ -89,7 +90,6 @@ class BenchmarkEvaluator(ProfilePredictionMixin, ProviderInferenceMixin, Metrics
         json_repair_api_key_env: str = "",
         json_repair_api_model: str = "",
         json_repair_base_url: str = "",
-        profile_eval_prompt_variant: str = "conservative",
     ):
         self.output_dir = output_dir
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -141,7 +141,6 @@ class BenchmarkEvaluator(ProfilePredictionMixin, ProviderInferenceMixin, Metrics
         self.json_repair_api_key_env = str(json_repair_api_key_env or "").strip()
         self.json_repair_api_model = str(json_repair_api_model or "").strip()
         self.json_repair_base_url = str(json_repair_base_url or "").strip()
-        self.profile_eval_prompt_variant = str(profile_eval_prompt_variant or "conservative").strip() or "conservative"
         self._anchor_match_client: AnchorMatchJudgeClient | None = None
         self._inline_image_part_cache: dict[str, dict[str, Any] | None] = {}
         self._openai_image_data_url_cache: dict[str, str | None] = {}
@@ -255,6 +254,7 @@ class BenchmarkEvaluator(ProfilePredictionMixin, ProviderInferenceMixin, Metrics
                         metrics["visual_mode"] = self.visual_mode
                         metrics["profile_input_mode"] = self.profile_input_mode
                         metrics["profile_method"] = self.profile_method
+                        metrics["profile_eval_protocol_version"] = PROFILE_EVAL_PROTOCOL_VERSION
                         metrics["profile_method_max_posts"] = self.profile_method_max_posts
                         metrics["hierarchical_chunk_size"] = self.hierarchical_chunk_size
                         metrics["extractive_k"] = self.extractive_k
@@ -292,6 +292,7 @@ class BenchmarkEvaluator(ProfilePredictionMixin, ProviderInferenceMixin, Metrics
             "visual_mode": self.visual_mode,
             "profile_input_mode": self.profile_input_mode,
             "profile_method": self.profile_method,
+            "profile_eval_protocol_version": PROFILE_EVAL_PROTOCOL_VERSION,
             "profile_method_max_posts": self.profile_method_max_posts,
             "hierarchical_chunk_size": self.hierarchical_chunk_size,
             "extractive_k": self.extractive_k,
@@ -332,6 +333,7 @@ class BenchmarkEvaluator(ProfilePredictionMixin, ProviderInferenceMixin, Metrics
             metrics["visual_mode"] = self.visual_mode
             metrics["profile_input_mode"] = self.profile_input_mode
             metrics["profile_method"] = self.profile_method
+            metrics["profile_eval_protocol_version"] = PROFILE_EVAL_PROTOCOL_VERSION
             metrics["profile_method_max_posts"] = self.profile_method_max_posts
             metrics["hierarchical_chunk_size"] = self.hierarchical_chunk_size
             metrics["extractive_k"] = self.extractive_k
@@ -440,6 +442,8 @@ class BenchmarkEvaluator(ProfilePredictionMixin, ProviderInferenceMixin, Metrics
                         raise ValueError("cache profile_input_mode mismatch")
                     if _prediction_profile_method(row) != self.profile_method:
                         raise ValueError("cache profile_method mismatch")
+                    if row.get("profile_eval_protocol_version") != PROFILE_EVAL_PROTOCOL_VERSION:
+                        raise ValueError("cache profile_eval_protocol_version mismatch")
                     if not _prediction_row_is_cacheable(row):
                         raise ValueError("cache row has provider error")
                     row["from_cache"] = True
@@ -477,6 +481,7 @@ class BenchmarkEvaluator(ProfilePredictionMixin, ProviderInferenceMixin, Metrics
                     row["visual_mode"] = self.visual_mode
                     row["profile_input_mode"] = self.profile_input_mode
                     row["profile_method"] = self.profile_method
+                    row["profile_eval_protocol_version"] = PROFILE_EVAL_PROTOCOL_VERSION
                     row["profile_method_max_posts"] = self.profile_method_max_posts
                     row["hierarchical_chunk_size"] = self.hierarchical_chunk_size
                     row["extractive_k"] = self.extractive_k
@@ -508,6 +513,7 @@ class BenchmarkEvaluator(ProfilePredictionMixin, ProviderInferenceMixin, Metrics
                     row["visual_mode"] = self.visual_mode
                     row["profile_input_mode"] = self.profile_input_mode
                     row["profile_method"] = self.profile_method
+                    row["profile_eval_protocol_version"] = PROFILE_EVAL_PROTOCOL_VERSION
                     predictions[task.task_id] = row
                     cache_path = model_cache_dir / f"{_slugify(task.task_id)}.json"
                     cache_path.write_text(json.dumps(row, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -535,6 +541,7 @@ class BenchmarkEvaluator(ProfilePredictionMixin, ProviderInferenceMixin, Metrics
                     row["visual_mode"] = self.visual_mode
                     row["profile_input_mode"] = self.profile_input_mode
                     row["profile_method"] = self.profile_method
+                    row["profile_eval_protocol_version"] = PROFILE_EVAL_PROTOCOL_VERSION
                     predictions[task.task_id] = row
                     cache_path = model_cache_dir / f"{_slugify(task.task_id)}.json"
                     cache_path.write_text(json.dumps(row, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -550,10 +557,10 @@ class BenchmarkEvaluator(ProfilePredictionMixin, ProviderInferenceMixin, Metrics
                         "domain": task.domain,
                         "status": task.gold_status,
                         "long_term_interest_anchors": [
-                            anchor.__dict__ for anchor in task.gold_long_term_anchors[:MAX_LONG_ANCHORS]
+                            anchor.__dict__ for anchor in task.gold_long_term_anchors
                         ],
                         "short_term_interest_anchors": [
-                            anchor.__dict__ for anchor in task.gold_short_term_anchors[:MAX_SHORT_ANCHORS]
+                            anchor.__dict__ for anchor in task.gold_short_term_anchors
                         ],
                         "summary_natural_pred": task.gold_summary_natural,
                         "summary_support_post_indices": task.gold_domain_representative_evidence_post_indices[

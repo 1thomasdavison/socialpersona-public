@@ -1,67 +1,1151 @@
 {
   "user_id": "participant_077",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "outdoor activities",
-        "photography",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; outdoor activities; photography; savory food."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with short dark hair poses against a concrete wall, wearing a dark, shiny vest and holding colorful sunglasses on their head."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses with sunglasses in a stylish, edgy outfit against a concrete background."
+        },
+        "gpt-5.4": {
+          "summary": "A moody fashion portrait shows a person in a glossy black outfit posing against a concrete wall while adjusting oversized sunglasses."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black outfit poses against a metallic wall while adjusting sunglasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short dark hair leans against a concrete wall, adjusting oversized sunglasses while wearing a black sleeveless outfit."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with short dark hair poses against a concrete wall wearing a black leather vest and holding yellow-tinted sunglasses on their head."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "outdoor activities",
-        "savory food",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; outdoor activities; savory food; walking and hiking."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two women are posing together in stylish outfits, with a focus on the term '[ORGANIZATION]' and its definition."
+        },
+        "gpt-5.4": {
+          "summary": "A fashion-style collage shows two people in black and white tailored suits posing indoors, with close-up and full-length shots beside large “[ORGANIZATION]” text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two women in formal attire posing together indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women in stylish suits pose together in a modern setting, with text defining '[ORGANIZATION]' and names in Japanese."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fashion collage featuring two women in black and white suits posing in a modern interior, accompanied by a dictionary-style definition of the term '[PERSON]'."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "outdoor activities",
-        "savory food",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; outdoor activities; savory food; spectator sports."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while wearing a casual outfit, including a cap and a long-sleeve shirt, in an urban setting."
+        },
+        "gpt-5.4": {
+          "summary": "An angled outdoor selfie shows a person in a dark baseball cap and oversized white [PERSON] top standing on a sidewalk near a street and traffic cone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black cap and white shirt takes an urban selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a black cap and white graphic tee poses on a city sidewalk at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair wearing a black cap and white graphic sweatshirt poses for a selfie on a city sidewalk."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "dining",
-        "photography",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; dining; photography; savory food."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses for a selfie wearing a black cap and a casual outfit, making a playful gesture."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black baseball cap and oversized white [PERSON] shirt takes an angled outdoor selfie while making a hand sign on a city sidewalk at night."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a cap and casual outfit making peace sign in an urban street scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a black cap and white shirt poses outdoors at night with a hand gesture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black cap and oversized white shirt poses on a city sidewalk while making a hand gesture."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "dining",
-        "photography",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; dining; photography; savory food."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a phone case while partially obscured in a dark setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white mirror selfie shows a person in oversized visor-style sunglasses holding a smartphone with a decorated clear case in dramatic low light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a phone case filled with various items in front of their face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie with a heavily accessorized phone in a high-contrast black-and-white style."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white mirror selfie of a person wearing dark sunglasses and holding a smartphone with an elaborate case decorated with safety pins, keys, and other metallic charms."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "outdoor activities",
-        "photography",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; outdoor activities; photography; savory food."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A single dark red rose with a '[ORGANIZATION]' label and a small vial attached to its stem is partially submerged in light-colored water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dried red rose with a label reading '[ORGANIZATION]' is displayed against a light background."
+        },
+        "gpt-5.4": {
+          "summary": "A single dark red rose with a small attached vial and a [ORGANIZATION] tag lies on a white bathtub-like surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red rose labeled '[ORGANIZATION]' displayed against a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A single dark red rose with a '[ORGANIZATION]' tag is submerged in water against a plain background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A single dark red rose with a white '[ORGANIZATION]' label is submerged in water inside a bathtub."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark red rose with water droplets and a small perfume sample vial are floating in water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a red rose with a small spray bottle beside it, set against a light background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a dark red rose with green leaves beside a small clear spray bottle on a white wet surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a dark red rose next to an essential oil dropper."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark red rose with water droplets and a small perfume vial attached to its stem, partially submerged in water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a dark red rose with water droplets resting next to a small glass vial with a white cap against a plain background."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair and a black leather jacket holds a bouquet with a red rose and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long dark hair is holding a bouquet of flowers, including a red rose, while looking down."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows a person in a black leather jacket and hood holding a bouquet with a red rose and white baby's breath in dramatic sunlight, with a skincare poster in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black leather jacket holding flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black leather jacket holds a red rose and baby's breath flowers, with a product advertisement visible behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair and a black leather jacket holds a bouquet of white baby's breath and a single red rose in front of a display featuring cosmetic products."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a black hoodie with '[ORGANIZATION]' on the back is walking through an airport terminal while pulling a suitcase."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white airport scene shows a person in an oversized hooded jacket pushing a wheeled suitcase through the terminal."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black hoodie with '[ORGANIZATION]' written in white walks through an airport terminal pulling luggage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black hoodie with a white Under Armour x Balenciaga logo walks through an airport terminal pulling a silver suitcase."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a black hooded jacket with a [ORGANIZATION] logo walks through an airport terminal pulling a silver suitcase."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person walks through a park in an urban setting, surrounded by trees and other people."
+        },
+        "gpt-5.4": {
+          "summary": "A person in dark outerwear and loose jeans walks through a tree-lined city park with benches and classic apartment buildings in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a park-like urban area surrounded by trees and buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black jacket and wide-leg jeans stands in an urban park with bare trees and European-style buildings in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black leather jacket and wide-leg jeans stands in a park with bare trees and classic European-style buildings in the background."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two women with dramatic makeup featuring fake blood on their faces and clothes look intently at each other."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals with distinctive hairstyles, one with dreadlocks adorned with colorful accessories and the other with a short bob, both showing signs of red markings on their clothing and skin."
+        },
+        "gpt-5.4": {
+          "summary": "Two women pose face-to-face indoors, with one styled with faux blood on her forehead and shirt and the other with braids and red marks on her shoulder, creating a dramatic costume-like look."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals dressed in costumes resembling zombies are posing together against a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women pose closely together with theatrical blood makeup and costumes against a plain white background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two women pose in a close-up shot with theatrical fake blood on their faces and clothing, suggesting a cosplay or horror-themed photoshoot."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with short hair and multiple ear piercings is shown in a close-up, wearing a light-colored, two-piece outfit with a wavy cutout and button details, against a dark background with blurred colorful lights"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is wearing a stylish, form-fitting dress with cutouts, posing in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized portrait shows a person in a satin cutout dress posing indoors under moody purple and pink lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a stylish purple dress stands against an urban night backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a light-colored, cut-out dress stands in a dimly lit urban setting with neon lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with short dark hair stands in profile wearing a shimmering lavender two-piece outfit with cutouts and buttons, set against a dimly lit background with purple neon lighting."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a white sleeveless dress and black slouchy boots poses on a city sidewalk next to a flowerbed, with taxis and buildings in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A model poses in a stylish outfit on a city street during Tokyo Fashion Week."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a fitted white dress and black ruched boots poses on a city sidewalk during [ORGANIZATION] Week Tokyo, with taxis and flowerbeds in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a stylish white dress stands confidently by a flower bed during [ORGANIZATION] Week [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white dress and black boots stands on a city sidewalk beside flower beds, with taxis and buildings in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a white cutout dress and black boots poses on a city sidewalk with taxis and flower beds in the background."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with short dark hair, wearing a sequined top, black tights, and high heels, poses on a white draped surface in a black and white studio photograph."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person seated on a white couch, wearing a sequined black dress and black stockings."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white fashion portrait shows a person in a sequined black dress, sheer tights, and pointed heels posed on a white draped seat against a minimal studio backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a black sequined dress sits elegantly on white fabric against a minimalist backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short dark hair sits confidently on a white bed, wearing a sequined top, black tights, and high heels in a black-and-white photo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white studio portrait of a woman with short dark hair sitting on a white draped surface, wearing a sequined halter top, sheer tights, and pointed heels."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair and braids, wearing a dark plaid off-the-shoulder dress with a wide black belt, poses in an indoor setting with light-colored walls and white garments displayed in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a stylish black dress poses in a modern, minimalistic setting with white garments displayed in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in an off-shoulder black dress poses in a soft-lit minimalist interior with hanging white garment-like displays."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black dress stands indoors near hanging white fabric."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black plaid dress with a belt stands indoors near hanging white garments."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with braided hair poses in a black plaid dress within a minimalist, pastel-toned interior featuring hanging white garments."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a photo in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit close-up portrait shows a person holding a small instant photo near their face in a dark indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a [ORGANIZATION] photo in dimly lit environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a [ORGANIZATION] photo close to their mouth in a dimly lit, blue-toned setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a person with dark hair and winged eyeliner holding a [ORGANIZATION] photo in a dimly lit environment with blue ambient lighting."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in a dark, monochromatic setting, wearing a large blazer and a fitted top."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white fashion portrait shows a person in oversized dark glasses and a loose blazer posing against a plain studio backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A monochrome portrait of a person in formal attire against a gradient background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black blazer and sunglasses poses confidently against a plain background in a black-and-white photo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white studio portrait of a person with long dark hair wearing oversized glasses, a light-colored top, and an oversized dark blazer."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait features a person with short dark hair, light makeup, and two small rhinestones below their eyes, posing with hands near their head under bright lighting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up portrait of a person with a serious expression, showcasing unique facial piercings and styled hair."
+        },
+        "gpt-5.4": {
+          "summary": "A tightly framed beauty portrait shows a person with short dark hair, natural makeup, and small rhinestone accents near the inner corners of the eyes in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing minimal makeup and piercings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up portrait of a person with dark hair and facial piercings, wearing a white top and posing with arms raised."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a person with short dark hair, wearing small facial gems near the eyes and a white top, posing with arms raised against a blurred background."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot displays a person's hands with almond-shaped nails featuring a nude base and black brush stroke tips."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of hands displaying stylishly manicured nails with a black and nude color scheme."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of two hands showing a nude manicure with black brushstroke nail art on a white surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of hands showcasing black-tipped nail art against a white background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of hands displaying manicured nails with black brushstroke designs on a nude base."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of two hands displaying almond-shaped nails with a nude base and black abstract brushstroke tips."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a gourmet dish featuring several large cooked shrimp garnished with fresh parsley, served over a creamy grain-based dish on a dark plate set on a wooden table."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a gourmet dish featuring large shrimp on a bed of creamy grains, garnished with fresh parsley."
+        },
+        "gpt-5.4": {
+          "summary": "A plated shrimp dish, likely shrimp risotto or creamy grains, is garnished with fresh parsley on a dark plate at a restaurant table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of creamy risotto topped with shrimp garnished by parsley."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plated dish of shrimp over creamy grain risotto, garnished with parsley."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a creamy risotto dish topped with large shrimp and fresh parsley, served on a dark plate at a wooden table."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a bowl of yellow noodles garnished with green onions and seaweed, with chopsticks resting on the side."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a bowl of glossy yellow noodles with scallions and seaweed on a restaurant table, with chopsticks and condiments in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bowl of noodles garnished with green onions in a restaurant setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of yellow noodles in a black bowl with chopsticks, garnished with green onions and seaweed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a bowl of yellow noodles, likely yakisoba or ramen, garnished with green onions and seaweed in a restaurant setting."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bowl of udon noodles with a raw egg and a round piece of grated yam, garnished with green onions."
+        },
+        "gpt-5.4": {
+          "summary": "A bowl of clear-broth udon topped with grated yam foam, green onions, and a raw egg yolk is served on a restaurant table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bowl of ramen featuring noodles, a soft-boiled egg yolk, green onions, and what appears to be chashu pork."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a bowl of udon noodles with a raw egg yolk, tempura flakes, and green onions in broth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a bowl of thick udon noodles in broth, topped with a raw egg yolk and a breaded cutlet. A paper napkin with Japanese text sits in the foreground."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a meal consisting of rice, a bowl of soup with green onions, and a plate of meat with vegetables."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a Korean-style meal with white rice, a milky scallion soup, beef with greens, and small side dishes on a table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal featuring rice, a soup garnished with green onions, and another dish topped with leafy greens."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a Korean meal featuring rice, soup with green onions, and a dish with leaf-wrapped meat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up overhead shot of a Korean meal featuring a bowl of green onion soup, white rice, and a dish of meat topped with cabbage rolls."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up portrait of a person with striking features and subtle makeup, wearing a black outfit."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows a person with smoky eye makeup, small rhinestone accents near the eyes, and a black halter-style top in warm sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing minimal makeup and piercings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up portrait of a person with dark hair, eye piercings, and a black top with a metallic clasp."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a person with dark hair, wearing black clothing and distinct facial piercings under dramatic lighting."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman in a dark, sheer dress and elaborate diamond jewelry poses elegantly on a light floor against a dark background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a dark, elegant dress adorned with jewelry, posed in a dramatic lighting setting."
+        },
+        "gpt-5.4": {
+          "summary": "A studio fashion portrait shows a person posing on the floor in a sheer dark dress with statement jewelry against a dark gradient background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Elegant woman in a dark dress posing gracefully against a neutral background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a brown dress and elaborate jewelry poses gracefully on the floor against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a dark brown gown poses on the floor while wearing diamond jewelry against a studio background."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person partially obscured by their hands, showcasing multiple silver bracelets against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A moody close-up fashion portrait shows a person partially covering their face with both hands while wearing multiple silver rings and stacked bracelets against a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing multiple rings covering their face against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person covers their face with hands, showcasing multiple silver rings and bracelets against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark lipstick and a tan zip-up top poses against a black background, covering their eyes with hands adorned with silver rings and bracelets."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a white bowl filled with a vibrant red-orange soup or stew"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bowl of vibrant red soup topped with dark seaweed, ground spices, and green onions."
+        },
+        "gpt-5.4": {
+          "summary": "A bowl of bright red noodle soup topped with mushrooms, seaweed, chopped greens, and crunchy crumbs sits on a wooden table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bowl of vibrant orange soup garnished with black seaweed and brown sesame seeds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a bowl of spicy-looking noodle soup topped with dark sauce, crushed nuts, and green onions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a bowl of spicy red soup, likely ramen or pho, topped with dark seaweed, crushed nuts, and green onions."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cozy café interior with a decorative light fixture and a shelf displaying various coffee cups and vintage coffee equipment."
+        },
+        "gpt-5.4": {
+          "summary": "A cafe or coffee shop interior with wooden shelves displaying teacups and vintage coffee grinders under an orange pendant lamp."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy café interior featuring shelves of vintage coffee grinders and ceramic cups under a textured ceiling."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A warmly lit interior showing shelves of vintage coffee cups and grinders under an orange pendant lamp."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An interior view of a coffee shop or cafe featuring wooden shelves lined with vintage coffee grinders and numerous teacups, illuminated by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a light blue plate filled with thinly sliced cooked meat, green onions, and garlic cloves, with other small dishes blurred in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of sliced beef served with green onions and garlic."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a plate of sliced cooked beef served over shredded green onions with garlic cloves, with dipping sauce bowls in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of sliced beef topped with green onions served alongside dipping sauces."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a plate with sliced beef, shredded vegetables, and garlic cloves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a light blue plate filled with thinly sliced cooked beef, shredded green onions, and whole garlic cloves."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot captures a spoonful of kimchi, meat, and greens being lifted from a bowl of soup, with other dishes like"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a bowl of food featuring meat, vegetables, and kimchi being held with chopsticks."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a Korean-style meal shows a spoon lifting meat and kimchi over a bowl of broth with greens, with chopsticks, sauce dishes, and a bowl of noodles in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a bowl filled with spicy stir-fried vegetables and meat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a spoonful of Korean-style stew with kimchi, held over a bowl with noodles and soup in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a spoonful of Korean stew containing meat and kimchi, with bowls of noodles and soup in the background."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with short black-to-grey ombre hair takes a selfie inside a car, wearing a seatbelt and pointing a finger"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in a car, wearing a light sweater and pointing at their head."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person with a short black-to-silver bob haircut sitting in the back seat of a car with a seatbelt on, while pointing toward one eyebrow."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting in a car adjusting their hair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a dark-to-light gradient bob haircut sits in a car, wearing a seatbelt and pointing at their eyebrow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with a black-to-grey ombre bob haircut sits in the passenger seat of a car, pointing to their eyebrow while wearing a white mesh top."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with dark hair and teal tips poses in front of a mirror while holding a Lamborghini-themed shirt."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a clothing/shoe store showing a person with a short black bob with teal ends holding a black T-shirt featuring an orange Lamborghini graphic."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of clothing racks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dark hair and teal highlights takes a mirror selfie while holding a black t-shirt featuring a [ORGANIZATION] graphic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair featuring teal tips takes a mirror selfie in a retail setting while holding up a black t-shirt with a [ORGANIZATION] graphic."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a black t-shirt featuring a red sports car design."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows someone holding up a black graphic T-shirt on a hanger, featuring a red sports car and stylized Lamborghini text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a black hoodie featuring red car graphics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds up a black T-shirt with a red car graphic and blue text, partially obscuring their face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair holds up a black t-shirt featuring a red Lamborghini graphic and blue script text while wearing a matching long-sleeve top."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person dressed in all black stands against a textured gray wall, holding a large black handbag."
+        },
+        "gpt-5.4": {
+          "summary": "A person in an all-black outfit poses against a textured concrete wall while holding a large black handbag in a minimalist fashion-style photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black outfit stands against an industrial-style wall holding a large bag."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in all-black minimalist attire stands against a textured concrete wall, holding a large black handbag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair featuring blue tips stands against a textured concrete wall wearing an all-black oversized outfit and holding a large black handbag."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a black jacket displaying the Automobili Lamborghini logo."
+        },
+        "gpt-5.4": {
+          "summary": "A black hoodie or jacket with a large [ORGANIZATION] bull logo is hanging indoors near a modern glass window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black jacket featuring a [ORGANIZATION] logo hangs indoors near large windows."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black jacket with an embroidered Automobili Lamborghini logo hangs on a rack near a window with teal-tinted glass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black hooded jacket featuring a large embroidered Automobili Lamborghini shield logo hangs on a metal rack in a dimly lit setting."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a display of black bags and a cup on a minimalist table in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white retail display shows Lamborghini-branded accessories, including a backpack, a small pouch, and a cup on stepped platforms in a dark showroom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white display of branded bags in a modern retail environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white product shot displays [ORGANIZATION]-branded accessories, including a backpack and pouch, arranged on tiered platforms."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white photo displays a collection of Lamborghini-branded merchandise, including a backpack and crossbody bag, arranged on display pedestals in a dimly lit setting."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a black handbag with a Lamborghini keychain and a decorative emblem."
+        },
+        "gpt-5.4": {
+          "summary": "Black-and-white close-up of a black leather bag or accessory with metal hardware and a Lamborghini shield charm attached."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a Lamborghini keychain attached to black leather goods."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white close-up of a luxury handbag featuring an Automobili Lamborghini emblem and metallic hardware."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white close-up of a luxury handbag featuring a prominent Lamborghini shield keychain and metallic hardware."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a glossy black handbag with a [ORGANIZATION] logo displayed on a sleek surface."
+        },
+        "gpt-5.4": {
+          "summary": "A glossy black handbag with an Automobili Lamborghini badge is displayed on a table in a boutique with other handbags on shelves behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A glossy black handbag featuring an Automobili Lamborghini logo displayed in a store."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A glossy black Lamborghini handbag displayed on a counter in a retail setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A glossy black handbag featuring a Lamborghini shield logo sits on a display table in a retail setting with other bags visible on shelves in the background."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a gray hoodie with blue hair is captured from a low angle, showing a modern indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person in a gray hoodie indoors beneath an exposed industrial ceiling with visible ductwork."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a hoodie in an industrial-style ceiling space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with blue-dyed hair wears a gray hoodie while looking at the camera against an exposed ceiling with ductwork."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark hair featuring blue tips, wearing a grey hooded sweatshirt under an exposed industrial ceiling."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a gym, taking a selfie in front of a mirror."
+        },
+        "gpt-5.4": {
+          "summary": "Black-and-white mirror selfie of a person seated in a gym surrounded by workout machines, wearing a cap, mask, and athletic clothing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a gym wearing athletic attire takes a selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in workout attire sits on a gym bench, taking a mirror selfie with a phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white mirror selfie of a person in athletic wear sitting on gym equipment while holding a smartphone."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a casual setting, wearing a white shirt tied at the waist."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in a white button-up shirt tied at the waist inside a rustic clothing shop with a garment rack and wall art in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in an indoor space adorned with clothing racks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a white button-up shirt in a rustic room with clothing racks and artwork."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with short dark hair takes a mirror selfie wearing a white button-down shirt tied at the waist, set against a backdrop featuring a thatched roof and clothing rack."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holding a round, gold-colored cosmetic container in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in dim indoor lighting holds up a round gold compact case while posing for a close-up selfie."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person applying makeup in front of a mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a gold-colored compact mirror against a plain brown background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair pulled back holds a gold compact mirror in a dimly lit setting while wearing a black top and earrings."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of skincare products from the brand d'Alba arranged on a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A dark, studio-style product shot shows several d'Alba skincare items and a handheld beauty device arranged against a black background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of d'Alba skincare products displayed against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of d'Alba skincare products and a handheld device arranged on a black background under focused lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of d'Alba skincare products and a handheld beauty device arranged on a black background with dramatic lighting."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a black hoodie with a car graphic poses for a mirror selfie in a clothing store."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a sleek clothing store shows a person wearing a dark graphic hoodie with a sports car print and narrow sunglasses while holding a decorated phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of an outfit display."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a clothing store, wearing a black hoodie with a car graphic and sunglasses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black zip-up hoodie with a [ORGANIZATION] graphic and sunglasses takes a mirror selfie inside a clothing store."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a beautifully arranged meal including a salad, sushi, and sliced avocado on a table."
+        },
+        "gpt-5.4": {
+          "summary": "A warmly lit restaurant table is set with sliced avocado, a leafy salad, and a platter of seared sushi or nigiri pieces."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A beautifully arranged meal featuring a salad bowl, sliced avocado garnished with lime wedges in front of it."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of gourmet dishes including sliced avocado, a spinach salad, and seared meat on a wooden table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a wooden table set with three dishes: sliced avocado, seared fish on rice, and a green salad."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a plate filled with bright red, cubed watermelon pieces, accompanied by two wooden skewers, suggesting a refreshing snack or dessert."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of neatly cut watermelon cubes with chopsticks resting on top."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of cubed watermelon on a white plate with chopsticks resting across the fruit."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of watermelon cubes served in a restaurant."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of cubed watermelon slices on a white plate with chopsticks resting on top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of cubed watermelon pieces on a white rectangular plate with chopsticks resting on top, served at a restaurant."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot captures a vibrant poke bowl filled with white rice, avocado, diced salmon, chickpeas, mango, various"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful bowl of food including rice, salmon, avocado, and various toppings."
+        },
+        "gpt-5.4": {
+          "summary": "A bowl-style meal with white rice, avocado, diced salmon, chickpeas, seeds, greens, and a small cup of sauce is shown on a restaurant table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful bowl of food featuring rice, chickpeas, avocado slices, salmon pieces, seeds, and a small sauce dish."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a colorful bowl containing rice, avocado, diced salmon, chickpeas, seeds, and a dipping sauce."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a colorful poke bowl featuring white rice, raw salmon, avocado, chickpeas, pumpkin seeds, and mango with a side of sauce."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two women pose closely"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing closely together in a dimly lit setting with red lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit red-toned selfie shows two people posing closely together in what appears to be a lounge or nightclub booth."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose closely in a dimly lit environment illuminated by red lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people posing closely together in a dimly lit, red-hued environment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two women pose closely together in a dimly lit environment illuminated by intense red lighting, wearing dark clothing and jewelry."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair and blue tips is seen crouching to adjust their black chunky sneakers, wearing a sheer black top and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with blue-tipped hair is adjusting their shoe while leaning against a decorative wall."
+        },
+        "gpt-5.4": {
+          "summary": "A person with short black-and-blue hair in an all-black streetwear outfit leans against a stone railing while tying a chunky sneaker outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person tying black chunky shoes against a white architectural backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with blue-tipped hair adjusts their black sneakers while leaning against a stone balustrade."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair featuring blue tips is crouching on a stone ledge to adjust a chunky black sneaker, wearing an all-black outfit including sheer sleeves and sweatpants."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with blue hair interacts with a group of fans, signing autographs in an outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in black clothing stands by a street barrier outdoors, interacting with a small crowd of people holding phones and items to sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a black outfit signs autographs while surrounded by fans holding phones."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with blue-tipped hair signs autographs for fans behind a barrier outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with blue-tipped hair and sunglasses signs autographs for a crowd of fans while standing outdoors near a black vehicle."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in sunglasses and a black outfit takes a selfie with a smartphone while interacting with a smiling crowd behind a barrier at an outdoor event."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while surrounded by a crowd of onlookers at an outdoor event."
+        },
+        "gpt-5.4": {
+          "summary": "A stylish person in black clothing and sunglasses takes a selfie with fans gathered behind barricades at an outdoor event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A celebrity poses for photos in front of a crowd lined along an outdoor event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in sunglasses takes a selfie while surrounded by fans outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with dark hair and sunglasses takes a selfie with an enthusiastic fan behind a barrier at an outdoor event."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair and blue streaks, wearing sunglasses and silver jewelry, is looking at a smartphone while seated indoors, with a drink visible in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting at a table, holding a phone and wearing jewelry, with a drink in front of them."
+        },
+        "gpt-5.4": {
+          "summary": "A stylish close-up photo shows a person in narrow sunglasses and silver jewelry using a smartphone while seated at a cafe table with a drink nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing sunglasses sits in a café using their phone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dark hair and sunglasses is seated indoors, looking at a smartphone while holding it with both hands."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair and blue tips wearing sunglasses and silver jewelry looks at a smartphone while seated at an outdoor cafe."
+        }
+      }
     }
   }
 }

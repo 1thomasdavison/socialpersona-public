@@ -1,67 +1,2713 @@
 {
   "user_id": "participant_074",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "dogs",
-        "nature visits",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; dogs; nature visits; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals stands outside a brick building, each holding documents, with a bicycle parked nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people stand on a sidewalk outside a red-brick club building, holding clipboards and posing for a photo on a residential street."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people stands in front of a brick building holding clipboards."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of men pose outdoors in front of a brick building with a sign for '[ORGANIZATION], holding clipboards."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of men stands on a brick sidewalk in front of a red brick building, holding clipboards and smiling for the camera."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "dining",
-        "nature observation",
-        "nature visits"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; dining; nature observation; nature visits."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of eight people, some holding clipboards, are posing for a selfie outdoors on a residential street next to a wooden"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals stands in front of a house with a sign reading '[PERSON] on a cloudy day."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people pose for an outdoor selfie on a residential street beside a wooden fence, holding clipboards and printed flyers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people posing in front of a sign reading '[PERSON] holding clipboards."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people poses for a selfie outdoors in front of a residential fence with a street sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of seven people pose for a selfie outdoors in front of a red wooden fence and residential building, with some holding clipboards."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "nature observation",
-        "nature visits",
-        "outdoor activities",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: city exploration; nature observation; nature visits; outdoor activities; reading."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a text excerpt discussing Labour MPs' contributions in [LOCATION], featuring a quote from [PERSON] about her role as an MP."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text excerpt discussing the contributions of backbench Labour MPs in [LOCATION], highlighting [PERSON] role and her focus on representing constituents."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of an article passage about [ORGANIZATION] MP [PERSON] low number of [LOCATION] contributions and her statement about prioritizing constituency work."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A political statement by [PERSON] discussing her role as an MP."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Text excerpt discussing [ORGANIZATION] MP [PERSON] low parliamentary contributions and her focus on constituent services."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A text excerpt discussing the parliamentary activity of [ORGANIZATION] MP [PERSON] and her defense of prioritizing constituent work over speaking in [ORGANIZATION]."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "dining",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; dining; nature visits; outdoor activities."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contains text discussing a political agreement regarding the sovereignty of [LOCATION] and its implications for [LOCATION] and [LOCATION] military interests."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a news-style text article discusses [PERSON] plan to proceed with a [LOCATION] sovereignty deal involving [ORGANIZATION] and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Text discussing Sir [PERSON]'s plan regarding sovereignty of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A news text block on a black background reports on [ORGANIZATION] gaining sovereignty over [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black background with white text detailing a political agreement between the [LOCATION] and [ORGANIZATION] regarding [LOCATION], mentioning Sir [PERSON] and [PERSON]."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "nature visits",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; nature visits; photography; reading."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a group of people gathered outdoors, some holding a flag, in a city setting with wet pavement and bare trees."
+        },
+        "gpt-5.4": {
+          "summary": "A small crowd gathers on the wet steps outside a stone building on a rainy city street, with a Palestinian flag visible among leafless trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people gathered in a public square holding flags under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people gather on wet pavement near bare trees and historic buildings, with one person holding a Palestinian flag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people gather on a wet, paved city street near stone steps and bare trees, with one individual holding a Palestinian flag."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "nature observation",
-        "nature visits",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; nature observation; nature visits; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows three people seated at a table in a café, with a large tiger painting on the wall behind them."
+        },
+        "gpt-5.4": {
+          "summary": "Three people smile at a cafe table with coffee mugs in a wood-paneled interior decorated with framed art and a large tiger picture."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three people are sitting together in a cozy café with wooden walls adorned by framed pictures of tigers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three smiling people sit at a wooden table in a cafe with eclectic wall decor, including a large tiger photo and framed pictures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three smiling individuals pose for a selfie at a wooden table in a cafe, with a large tiger portrait and framed artwork visible on the wood-paneled wall behind them."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three men are standing on a sidewalk in front of [ORGANIZATION] and a hedge, holding clipboards and leaflets, with"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of three individuals stands outside a building near a sign that reads '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A cheerful outdoor selfie shows three people on a sidewalk beside the \"[LOCATION]\" sign, with clipboards and a leaflet about local priorities in front of a large house."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals are standing in front of a house labeled '[LOCATION],' holding documents related to local priorities."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three men stand outdoors in front of a house, holding clipboards with forms titled 'TELL [LOCATION] YOUR LOCAL PRIORITIES', near a sign reading '[ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three men pose for a selfie on a sidewalk in front of a white building, holding clipboards and folders near a sign reading '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a suit and glasses speaks into a microphone at a formal event, addressing a group of people in an ornate room"
+        },
+        "gpt-4o-mini": {
+          "summary": "A speaker addresses a group of people in a formal setting, with a document on a podium."
+        },
+        "gpt-5.4": {
+          "summary": "A suited speaker holds a microphone at a lectern while addressing a small audience in an ornate indoor room during a formal political or public event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man speaking into a microphone in front of an audience."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit speaks into a microphone at a formal gathering, with attendees listening attentively in an ornately decorated room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit and glasses speaks into a microphone at a wooden podium while addressing a group of formally dressed attendees in a room with patterned wallpaper."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two men in formal attire hold a sign that reads '[PERSON] IS COMING' in front of a decorative backdrop featuring flags."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in suits pose in an ornate wood-paneled room in front of a [LOCATION] flag, with one holding a sign that says \"[ORGANIZATION] IS COMING.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men in suits stand together holding a sign promoting '[ORGANIZATION] IS COMING.'"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in suits pose indoors with flags behind them; one holds a sign reading '[PERSON] IS COMING.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men in suits pose indoors holding a sign reading '[PERSON] IS COMING' with flags of the [LOCATION] and [LOCATION] visible behind them."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people is gathered in a formal setting, engaging in a discussion near flags representing [LOCATION] and [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A crowded indoor political event shows a speaker with a microphone in front of [ORGANIZATION] signage and a blue flag with [LOCATION], Canadian, Australian, and [LOCATION] symbols."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A formal event featuring a speaker addressing an audience in front of flags representing [LOCATION], [LOCATION], [LOCATION] ([ORGANIZATION])."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man speaks into a microphone at a formal event, surrounded by attendees and flags of the [LOCATION], [LOCATION], and [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit speaks into a microphone at an indoor event attended by a crowd, with flags and a banner for [ORGANIZATION] visible in the background."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A crowded indoor event featuring speakers in front of a backdrop with flags."
+        },
+        "gpt-5.4": {
+          "summary": "A crowded formal indoor event shows a speaker addressing an audience in an ornate room with banners for [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A formal gathering in a grand room adorned with ornate wallpaper and chandeliers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowd of formally dressed people listens attentively to speakers at an indoor political event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crowded indoor gathering in a formal room with patterned wallpaper and red curtains, where attendees face a speaker near flags of the [LOCATION] and [LOCATION]."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three well-dressed men are smiling and posing for a photo in what appears to be a cozy restaurant or pub setting with a chalkboard menu and framed artwork."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three men in formal attire pose together in a restaurant setting."
+        },
+        "gpt-5.4": {
+          "summary": "Three people in suits pose together smiling in a warmly lit restaurant or pub interior with wooden chairs, framed wall art, and a chandelier."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three men in formal attire pose together indoors under a chandelier."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three men in suits pose together indoors in a warmly lit, decoratively framed room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three men in formal suits and ties pose for a photo inside a dimly lit, traditional pub or restaurant with framed pictures on the walls."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two smiling"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing for a photo in front of a street sign for [LOCATION], surrounded by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny outdoor selfie shows two smiling people standing beside trimmed hedges, a white house, and a street sign reading \"[LOCATION].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of a neatly trimmed hedge beside [LOCATION] sign."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men pose for a photo outdoors beside a '[LOCATION] street sign, with a white building and green hedges in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose for a selfie outdoors on a sunny day next to a street sign reading [LOCATION], with a white building and green hedges in the background."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cross-stitch project of a bee on a table inside a train, with a view of a sunny landscape through the window."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny train-table scene shows a cross-stitch project beside the window, with green fields visible outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A train window view showing a countryside landscape under raindrops."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cross-stitch bee sits on a train table beside power outlets, with raindrops on the window showing passing fields."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cross-stitch project featuring a yellow and black figure rests on a train table next to power outlets, with a green countryside visible through the window."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people enjoying drinks together at an outdoor table in a garden setting on a sunny day."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people sit around a table with drinks in a sunny garden patio under a wooden pergola with string lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people enjoying drinks outdoors under a wooden pergola."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people is seated at a patio table under a wooden pergola, enjoying drinks on a sunny day surrounded by garden foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of eight adults is seated around a wicker table in a sunny garden setting, enjoying drinks under a wooden pergola."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of seven smiling people are posing for a selfie on a sunny residential"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals holding flyers stands in front of a residential area, with a sign for '[PERSON] visible."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people pose for a selfie on a sunny residential street while holding blue campaign-style leaflets beside a [ORGANIZATION] street sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are standing in front of a street sign promoting [ORGANIZATION] [PERSON] initiative."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people posing outdoors in front of a street sign, holding political campaign leaflets."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of seven people pose for a selfie on a residential street, holding blue campaign leaflets and standing next to a street sign."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four individuals holding flyers and a clipboard, likely engaged in community outreach."
+        },
+        "gpt-5.4": {
+          "summary": "Four people pose for an outdoor selfie while holding clipboards and Conservative survey leaflets on a tree-lined street."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four individuals are holding clipboards with local priority questionnaires in a park-like area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four people outdoors holding clipboards with local survey forms and [ORGANIZATION] materials."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four smiling individuals pose outdoors on a sunny day, holding clipboards and flyers for a local political survey."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of religious icons, crosses, and books displayed on a shelf."
+        },
+        "gpt-5.4": {
+          "summary": "A shelf displays a Christian prayer altar with religious icons, wooden crosses, a candle, and stacked prayer books and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A religious shelf display featuring icons of saints, a candle holder, books including 'The Rule of Benedict' and 'Holy Bible', along with decorative crosses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shelf displaying religious icons, crosses, a candle, and holy books including [ORGANIZATION] and prayer texts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A home altar shelf displays a collection of Orthodox Christian icons, wooden crosses, a brass censer, and religious books including the Holy Bible."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a large, ornate church building with two green-tipped towers and a statue of a figure in white in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A large Gothic-style church with twin spires stands behind a tree on a street corner under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A grand Gothic-style church stands under a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Gothic-style church with two spires and a large stained-glass window, viewed from a street corner under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a large stone church with twin spires and Gothic-style windows, partially obscured by a tree in the foreground."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a pink shirt and glasses smiles at the camera while holding a clipboard with a '[ORGANIZATION] survey"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in front of a flowering tree, holding a clipboard with a survey about local priorities."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes an outdoor selfie in front of a white-blossoming tree while holding a clipboard with a local priorities survey form."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in front of a blossoming tree holding a clipboard titled '[LOCATION] YOUR LOCAL PRIORITIES'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a light pink shirt and glasses holds a clipboard with a local survey under a blossoming white tree."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with glasses and a pink shirt stands outdoors in front of a white flowering tree, holding a blue clipboard with a survey form."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A crowd gathers outside a large, illuminated church building at dusk."
+        },
+        "gpt-5.4": {
+          "summary": "A crowd stands outside a large Gothic-style church at dusk, with illuminated entrances and a sign reading [ORGANIZATION] of St. Benedict."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people gather outside [ORGANIZATION] in front of a well-lit church facade."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowd gathers at dusk outside the illuminated Gothic-style [ORGANIZATION] of St. Benedict."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people gathers on the steps and grounds of a large, illuminated Gothic-style church at dusk."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A congregation is gathered in a church for a religious service, with a focus on the altar and a crucifix."
+        },
+        "gpt-5.4": {
+          "summary": "A church service is taking place inside a large Gothic-style sanctuary with clergy and choir at the altar, a hanging crucifix, stained-glass windows, and a standing congregation."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A church service in progress inside a grand cathedral."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An indoor church service with congregants facing clergy at an altar beneath a large crucifix and stained glass window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A congregation attends a religious service inside a stone church, facing an altar with clergy and a large crucifix hanging beneath a stained-glass window."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A portrait shows Pope [PERSON] wearing white religious vestments and a pectoral cross, standing in front of a patterned wall with a dark statue partially visible behind him."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in religious attire stands in front of a decorative background."
+        },
+        "gpt-5.4": {
+          "summary": "A formal indoor portrait shows a Catholic cleric in white robes and skullcap wearing a large cross necklace, with a religious statue behind him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in papal attire stands against a patterned wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in white papal attire with a cross necklace stands before a patterned wall, with a statue partially visible behind him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A portrait of Pope [PERSON] wearing white papal vestments and a silver pectoral cross, standing in front of a patterned wall with a statue visible behind him."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four individuals wearing blue shirts hold signs promoting voting for [ORGANIZATION] in a public setting."
+        },
+        "gpt-5.4": {
+          "summary": "Four people in blue Liberal campaign shirts hold 'How to Vote Liberal' pamphlets on a city sidewalk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four individuals wearing blue [ORGANIZATION] shirts are holding 'How To Vote' booklets in an outdoor urban environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four people in blue '[ORGANIZATION]' shirts stand outdoors holding pamphlets titled 'HOW TO VOTE [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four smiling individuals wearing blue [ORGANIZATION] t-shirts stand on a city sidewalk holding stacks of 'How to Vote' booklets."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows several flags displayed outside a building, surrounded by trees and a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "An ornate stone building on a tree-lined city street displays several blue flags and other colorful flags hanging from poles outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Flags of various countries are displayed outside a classical building under cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Flags of Commonwealth nations hang from a lamppost beside a classical stone building under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A row of [ORGANIZATION] flags hangs from a classical stone building facade next to green trees on a city street."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a blue booklet titled 'How to Vote Liberal' for [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a blue [ORGANIZATION] booklet at what appears to be a polling place or indoor tiled area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a blue booklet titled 'How To Vote Liberal' by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a blue [ORGANIZATION] booklet titled 'HOW TO VOTE [ORGANIZATION]' against a tiled floor background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a blue political booklet titled 'How to Vote Liberal' for [ORGANIZATION] against a paved background."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image shows King [PERSON] walking outdoors with several men, including two religious figures in traditional robes, with a building under construction"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of men, including a central figure in a suit, walk together outdoors, discussing themes of faith and ecumenism."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional article image shows a suited man walking outdoors with clergy in black robes, overlaid with a headline about King [PERSON] and faith."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of men in formal attire walking outdoors near a church building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of formally dressed men, including clergy in black robes and a man in a grey suit, walk outdoors near a historic building with scaffolding."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "King [PERSON] walks outdoors alongside religious leaders in ceremonial robes, with a building under scaffolding in the background."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contains a prayer addressing God and asking for guidance and blessings for Pope [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a Christian prayer in black text on a white background asking for guidance and blessings for Pope [PERSON] and the [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Prayer asking God's guidance for Pope [PERSON] in his service of the [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A prayer text addressed to God, asking for guidance and blessings for Pope [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital image displaying a prayer addressed to God, specifically invoking guidance for a new leader identified as Pope [PERSON]."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holding a clipboard stands on a street with traffic lights and a pub in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a selfie at a road intersection while holding a clipboard with a \"Tell Us Your Local Priorities\" flyer, with traffic lights and a [PERSON] building in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands outdoors holding a clipboard titled 'Tell Us Your Local Priorities'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holding a clipboard with a form titled 'TELL [LOCATION] YOUR LOCAL PRIORITIES' stands outdoors at a street intersection."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing glasses and a blue vest stands on a street corner holding a clipboard with a survey form."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a historic church building surrounded by [ORGANIZATION] under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A large Gothic-style stone church with a tall tower is seen from a shaded garden courtyard beneath leafy trees, with a blue sky and jet trail above."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a historic stone church under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Gothic-style church viewed through tree branches and an archway on a sunny day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunlit view of a historic stone church with Gothic architectural details, framed by a large tree trunk and lush garden [ORGANIZATION] under a blue sky."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a stone corridor with arched ceilings and hanging lanterns, creating a historical ambiance."
+        },
+        "gpt-5.4": {
+          "summary": "A stone Gothic-style corridor with ribbed vaulted ceilings and hanging lanterns stretches toward a bright arched window at the end."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a stone corridor featuring arched ceilings and hanging lanterns."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A long stone corridor with pointed arches and hanging lanterns, leading toward a sunlit end."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A perspective view of a historic stone cloister featuring vaulted ceilings, arched columns, and hanging lanterns."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the exterior of the 'Prince of Wales' pub adorned with British flags and a banner for VE Day 2025."
+        },
+        "gpt-5.4": {
+          "summary": "A multi-story brick pub facade labeled \"Prince of Wales\" is decorated with Union [PERSON] bunting and a VE Day [ADDRESS]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The Prince of Wales pub celebrates VE Day's anniversary."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A historic brick building with arched windows and multiple Union [PERSON] flags, housing a pub named 'Prince of Wales' celebrating VE Day 80."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A traditional brick pub named 'Prince of Wales' is decorated with Union [PERSON] flags and a banner celebrating the 80th anniversary of VE Day in 2025."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot captures numerous people relaxing on a sunny day in a park, sitting on a grassy area next to a large body of water with"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a sunny park scene with people relaxing on the grass near a lake."
+        },
+        "gpt-5.4": {
+          "summary": "People are relaxing and walking on a grassy park lawn beside a lake under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "People relaxing by a lake under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People relax on grass near a lake under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide shot of people relaxing on a grassy lawn near a lake under a clear blue sky."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two individuals are seen from behind, watching a cricket match in a large stadium"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cricket match taking place at a stadium with spectators seated in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A cricket match is being played on a sunny day in a large stadium with blue seating and city buildings in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cricket match in progress under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two spectators watch a cricket match from the stands under a clear blue sky, with city buildings visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a cricket match in progress at a stadium with blue seating, featuring two spectators watching from the foreground."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of six individuals poses together in a cozy library setting, holding a tote bag with the text 'Breaking the Taboo'."
+        },
+        "gpt-5.4": {
+          "summary": "Seven people pose for a group photo in a book-lined room beside a \"Breaking the Taboo\" banner, with one person holding a matching podcast tote bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of seven people posing in front of a 'Breaking the Taboo' banner inside an elegantly decorated room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Seven people pose for a photo in a book-filled room, with a banner and tote bag promoting 'Breaking the Taboo Podcast'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of seven adults poses for a formal photograph in a library setting, holding a tote bag and standing before a banner."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four people posing together in a well-decorated indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Four people pose together indoors in a warmly lit, upscale room, dressed in semi-formal to formal attire."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four individuals pose together in a warmly lit room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four people pose together indoors in a warmly lit room with bookshelves and hanging lamps."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four adults in formal and smart-casual attire pose for a group photo inside a well-lit room with bookshelves and pendant lighting."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three men are engaged in conversation at a social gathering, with one holding a glass of wine."
+        },
+        "gpt-5.4": {
+          "summary": "Three men in business suits are talking at an indoor social or professional event, with one holding a glass of white wine in a book-lined room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three men in formal attire are engaged in conversation indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three men in suits converse in a room with bookshelves, one holding a wine glass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three men in formal business attire are engaged in a conversation inside a room with dark bookshelves, where the central figure holds a glass of white wine."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an email from [LOCATION] addressing a customer named [PERSON] about upcoming changes in service operations."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [LOCATION] account notice explains a company change on [DATE] while stating that customer experience will stay the same."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A notification from [LOCATION] informing [PERSON] of a change in service operator."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A personalized message from [LOCATION] informing a user named [PERSON] about an upcoming operational change on [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [LOCATION] email notification addressed to '[PERSON]' regarding the company's transition to public ownership in May 2025."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit bar setting with candles on tables and decorative lights."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit pub interior with candlelit tables, string lights, a long bar, and a TV screen in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Cozy bar interior decorated with string lights and candles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit pub interior with string lights, candles on tables, and a bar in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit pub interior featuring a long wooden bar, tables with candles, and festive string lights hanging from the ceiling."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A flock of sheep grazes on a vibrant green, hilly pasture under a partly cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a lush green hillside with a flock of sheep grazing under a partly cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A flock of sheep grazes on a rolling green hillside bordered by trees beneath a wide, cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene pastoral scene featuring sheep grazing in a lush green field under partly cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A flock of sheep grazes on a lush green hillside under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flock of sheep grazes on a lush green hillside under a cloudy sky, with rolling hills and trees in the background."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large, multi-trunked tree with lush green leaves grows out of a rocky cliff face, surrounded by dense foliage and ferns."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dense cluster of trees and foliage growing over rocky terrain."
+        },
+        "gpt-5.4": {
+          "summary": "Dense woodland vegetation surrounds a large tree with exposed roots growing over a rocky embankment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tree growing out of a rocky cliffside surrounded by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large tree with twisted roots grows out of a rocky cliffside, surrounded by lush green foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, mature tree with thick roots and vines grows directly out of a rugged rock face in a lush, green forest setting."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A narrow, lush green pathway flanked by rocky cliffs and trees, with a few people walking in the distance."
+        },
+        "gpt-5.4": {
+          "summary": "A narrow forest trail runs between tall rock walls covered in vines and trees, with a few small hikers visible in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene forest path flanked by lush greenery and rocky cliffs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A narrow forest trail winds between moss-covered rock walls under a canopy of green trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dirt hiking trail winds through a narrow, lush green ravine with steep rocky walls and overhanging trees."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant green hill with a cluster of trees on its summit stands under a bright blue sky with scattered white clouds, overlooking a field of tall golden-green grass."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a lush green hillside under a bright blue sky with scattered clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A grassy hill with a small cluster of trees on top sits beneath a wide blue sky filled with large white clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a grassy hill under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] topped with trees under a partly cloudy blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape featuring a [ORGANIZATION] topped with a cluster of trees under a blue sky with scattered clouds."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A clear, shallow stream flows through a lush green natural setting under a bright blue sky, with trees and wildflowers lining its banks."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene view of a clear stream surrounded by lush greenery and trees under a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A clear shallow [LOCATION] runs through dense green vegetation and trees under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene stream flows through a lush green landscape under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A clear, shallow stream flows through lush green vegetation under a bright blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A clear, shallow stream flows through a lush green landscape under a bright blue sky."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene view of a narrow stream winding through"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene view of a winding river surrounded by lush greenery and trees under a partly cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A narrow [LOCATION] flows through dense green trees and shrubs under bright sunlight and a blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a flowing stream surrounded by lush [ORGANIZATION] under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A narrow stream flows through lush green foliage under a partly cloudy sky, viewed from a rocky overlook."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a clear, flowing stream surrounded by lush green trees and vegetation under a partly cloudy sky."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A narrow, clear stream flows between a lush green, overgrown bank on the left and a retaining wall made of large, light-colored rocks on the right, under bright sunlight."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene, narrow stream bordered by lush greenery and stone edges."
+        },
+        "gpt-5.4": {
+          "summary": "A narrow clear stream runs between dense green vegetation and a rocky bank in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a narrow stream bordered by lush greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A narrow, clear stream flows between lush green vegetation and a rocky embankment under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A narrow, man-made stream flows through a lush green area with stone embankments on the right and dense vegetation on the left."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small dark dog wearing a yellow harness is being walked on a green leash along a grassy path in a sunny field towards a distant gate"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is walking a small dog along a grassy path leading to a gate."
+        },
+        "gpt-5.4": {
+          "summary": "A small dog in a yellow harness is being walked on a leash along a grassy path through an open field toward a gate."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog wearing a yellow harness walks in an open grassy field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small grey dog wearing a yellow harness walks on a grassy path while being held by a green leash."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a small, grey, fluffy dog wearing a yellow harness walking on a green rope leash through a grassy field towards a metal gate."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a historical scene featuring a man and a woman in period clothing, celebrating [ORGANIZATION] in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A vintage illustrated card shows a young girl in a blue dress pinning something onto a man in historical clothing beside a large tree in a garden-like outdoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vintage illustration of a man in historical attire holding an apple while interacting affectionately with another person outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vintage illustration depicts a man in colonial attire presenting an apple to a woman under trees, with the text '[ORGANIZATION] visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vintage illustration depicts a man in 17th-century attire and a woman in period dress standing outdoors near an oak tree, with the text '[ORGANIZATION] visible."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a winding path through a green and yellow wildflower field, leading towards a village nestled among trees and rolling hills under a partly cloudy blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a lush green field with a distant village and blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A grassy path runs through a wildflower meadow toward a few houses and tree-lined rolling hills under a bright, cloud-filled blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene rural landscape featuring a field of tall grasses under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic view of a grassy field with yellow wildflowers leading toward distant trees and houses under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic rural landscape featuring a grassy field with yellow wildflowers, rolling green hills, scattered trees, and a few houses under a partly cloudy blue sky."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a green rural landscape featuring fields, distant hills, trees,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a green field with rolling hills and a cloudy sky in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A wide rural landscape shows a grassy field in the foreground, tree-lined rolling hills in the distance, and a bright sky filled with layered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene rural landscape under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide landscape view of rolling green hills under a partly cloudy sky, with wildflowers in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide rural landscape featuring a grassy field in the foreground, bordered by dense trees and rolling hills under a cloudy sky."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image captures a vibrant field densely covered with small yellow flowers, likely buttercups, interspersed with green grass and a few purple and white wildflowers under natural light."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a vibrant field filled with yellow flowers and green grass."
+        },
+        "gpt-5.4": {
+          "summary": "A grassy meadow is densely covered with small yellow wildflowers under bright daylight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant field of yellow wildflowers under a clear sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide field filled with dense yellow wildflowers and green grass under natural light."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide field of green grass densely covered with small yellow wildflowers under natural daylight."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a letter addressing a complaint about delays on the [ORGANIZATION] bus route due to construction work."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a formal letter apologizing for delays on the [ORGANIZATION] bus route to Ealing [LOCATION] and explaining they are linked to traffic congestion from HS2 construction works."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A formal letter addressing a complaint regarding bus delays due to HS2 construction."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A formal letter dated [DATE], apologizing for bus route [ORGANIZATION] delays due to [PERSON] construction and explaining service curtailments."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital screenshot of a formal letter dated [DATE], addressed to Mr. [PERSON] regarding delays on the [ORGANIZATION] bus route caused by [PERSON] construction."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four individuals stands outside a building, holding clipboards and documents."
+        },
+        "gpt-5.4": {
+          "summary": "A group selfie shows four people outside an apartment building holding clipboards and printed local survey forms."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four individuals are standing outdoors holding clipboards in a residential area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four men stand together outdoors holding clipboards with forms, smiling at the camera in front of a residential building."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four men stand outdoors in front of a residential building, smiling while holding clipboards and documents for a local survey."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a news headline about [ORGANIZATION]'s statements regarding [LOCATION] military actions against [LOCATION]'s nuclear program."
+        },
+        "gpt-5.4": {
+          "summary": "A dark news graphic shows a live video headline about [LOCATION]-[LOCATION], stating that [ORGANIZATION] said [LOCATION] bombs “obliterated” a nuclear programme, with additional text about strikes on Fordow, Natanz, and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Headline from a news article discussing [ORGANIZATION]'s statement regarding [LOCATION] bombing of [LOCATION]’s nuclear facilities."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A news video headline states that [ORGANIZATION] claims [LOCATION] bombs obliterated [LOCATION]'s nuclear program, with a live update on strikes at [ORGANIZATION], and [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-themed news graphic displaying a headline about [LOCATION] strikes on Iranian nuclear facilities and a statement by President Trump."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a blurred portrait of a man alongside a skyline of [LOCATION], with text discussing a proposed Chinese mega-embassy."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a news article shows a portrait of [PERSON] beside the [LOCATION] skyline with a headline about approval of a new Chinese mega-embassy in [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Image omitted because the provider blocked visual analysis during safety inspection."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Image omitted because the provider blocked visual analysis during safety inspection."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Image omitted because the provider blocked visual analysis during safety inspection."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A speaker addresses an audience in an auditorium, with a large screen displaying \"NOW & ENGLAND\" and \"[DATE]\" as part of an event presented by [PERSON]."
+        },
+        "gpt-4o-mini": {
+          "summary": "A speaker presents at an event titled '[ORGANIZATION] with an audience in a formal setting."
+        },
+        "gpt-5.4": {
+          "summary": "A speaker addresses an audience in a lecture hall beside a projected event slide reading \"NOW & ENGLAND\" with the date [DATE]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A speaker addresses an audience in a lecture hall during '[ORGANIZATION] event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A speaker addresses an audience at a formal event titled '[ORGANIZATION] scheduled for [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit speaks at a podium during an event titled '[ORGANIZATION] presented by [PERSON], with a large projection screen displaying the title and date behind him."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A panel discussion titled '[ORGANIZATION] is taking place, featuring several speakers in front of an audience."
+        },
+        "gpt-5.4": {
+          "summary": "A panel of five speakers sits before an audience in an auditorium beneath a large event slide reading “NOW & ENGLAND” and dated [DATE]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A panel discussion titled '[ORGANIZATION] scheduled for [DATE]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five panelists sit at a table in front of an audience during a formal event titled '[ORGANIZATION] on [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A panel of five speakers sits at a long table in an auditorium facing an audience, with a large projection screen behind them displaying event details."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A speaker stands at a podium addressing an audience in an auditorium, with a large screen displaying \"NOW & ENGLAND\" and \""
+        },
+        "gpt-4o-mini": {
+          "summary": "A speaker presents at an event titled '[ORGANIZATION] with a date of '[DATE]' displayed on a screen."
+        },
+        "gpt-5.4": {
+          "summary": "A speaker stands at a podium in a large auditorium while a projected event slide reads “NOW & ENGLAND” above a panel table and seated audience."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A speaker presents in front of an audience during a conference titled '[ORGANIZATION] scheduled for [DATE]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A speaker addresses an audience at a formal event titled '[ORGANIZATION] scheduled for [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit speaks at a podium during an event titled '[ORGANIZATION] presented by [PERSON], with a large projection screen displaying the title and date behind him."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A panel of five individuals is seated on a stage in an auditorium, facing an audience, with a large screen behind them displaying a presentation slide for an event"
+        },
+        "gpt-4o-mini": {
+          "summary": "A panel discussion event titled '[ORGANIZATION] is taking place, featuring several speakers and an audience."
+        },
+        "gpt-5.4": {
+          "summary": "A panel discussion is taking place in a lecture hall beneath a large event screen reading “Now & England” with the date [DATE]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A panel discussion titled '[ORGANIZATION] scheduled for [DATE]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five speakers sit at a panel stage in front of an audience, with a large screen displaying '[ORGANIZATION] and the date '[DATE]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A panel of five speakers sits at a long table in an auditorium facing an audience, with a large projection screen behind them displaying event details."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A quiet residential street is depicted at dusk, with houses, trees"
+        },
+        "gpt-4o-mini": {
+          "summary": "A quiet street at dusk with houses and trees lining the road."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet residential street at dusk is lined with large trees and houses, with a streetlight glowing over the road."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quiet residential street during dusk."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A quiet residential street at dusk, illuminated by streetlights and a glowing window in a brick house."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A quiet residential street at dusk with illuminated houses, parked cars, and a glowing streetlamp against a twilight sky."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three individuals, two men in suits and a woman in a patterned dress, are standing and smiling for a"
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are posing together in a modern indoor setting, dressed in formal attire."
+        },
+        "gpt-5.4": {
+          "summary": "Three people in formal attire pose together in a modern glass-walled indoor office or event space."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals in formal attire pose together indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people pose together indoors in professional attire, smiling for the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three formally dressed individuals pose for a group photo inside a modern office with glass walls and wooden furniture."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a blue checkered shirt and yellow pants stands on a rooftop garden, smiling at the camera"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a rooftop garden with a city skyline in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a button-down shirt and yellow trousers stands on a rooftop garden terrace with a modern city skyline under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands confidently in a rooftop garden overlooking an urban skyline."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands on a rooftop garden with a city skyline and construction cranes visible behind them under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a blue checkered shirt and yellow trousers stands on a rooftop terrace with the [LOCATION] skyline visible in the background."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two smiling men are standing side-"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two men are standing together in front of a blue door with a brick wall background."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling people in smart clothes pose together at the entrance of a red-brick building with a blue door."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men pose in front of a red brick building near blue doors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in business attire pose smiling in front of a red brick building with a blue door."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men in business attire stand smiling side-by-side in front of a red brick building with a blue door."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A diverse group of people of various ages are smiling and posing for a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group photo featuring a diverse crowd of people posing together in a well-lit indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A large group of people pose closely together for a smiling indoor group photo in a bright room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people posing together in a well-lit room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A diverse group of people poses together indoors for a photo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of diverse adults poses for a formal group photograph in a bright indoor setting with white cabinetry."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a suit is actively speaking and gesturing to a small group of people in an indoor setting"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people is engaged in conversation, with one person gesturing while speaking in a domestic setting."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a suit speaks with hand gestures to a small group gathered in a home interior near a table with food and drinks."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit gestures while speaking to three other individuals indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit gestures while speaking to three listeners in an indoor setting with stacked crates and a vase of branches."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit gestures while speaking to three attentive listeners in a residential setting, with food and stacked crates visible nearby."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a sunny urban scene featuring two distinct buildings and people enjoying the outdoors."
+        },
+        "gpt-5.4": {
+          "summary": "People relax in a small leafy urban square between historic brick and stone buildings under a vivid blue sky with wispy clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sunny day in a city square featuring two historic buildings under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People relax outdoors near historic brick and stone buildings under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of two distinct buildings, a red brick structure and a beige stone building labeled 'HOSPITAL', set against a blue sky with people relaxing in the foreground."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two glasses of beverages on a wooden table in a pub setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two partially filled alcoholic drinks sit on a wooden pub table inside a casual bar or restaurant."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two glasses of drinks are placed side by side on a wooden table in what appears to be an indoor pub."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two glasses of cider sit on a wooden table in a pub, with a menu and other patrons visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two glasses of cider sit on a wooden table in a pub, with one glass clearly labeled 'Inch's Medium Apple Cider' and a menu stand visible nearby."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a historic castle situated by a lake, surrounded by lush green hills under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A stone castle sits beside calm water with forested hills and a dramatic overcast sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a castle surrounded by lush greenery near a body of water under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A historic castle stands on a grassy shore beside a calm lake, framed by forested hills under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A historic stone castle stands on the shore of a calm body of water, backed by large green hills under an overcast sky."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a lake surrounded by [ORGANIZATION] and hills under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A calm landscape view shows trees and garden greenery in the foreground with a lake or inlet and low hills under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a calm body of water surrounded by lush [ORGANIZATION] under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic view of a calm body of water framed by green trees and hills under a cloudy sky, seen from beside a textured stone wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape view of a calm body of water and rolling green hills framed by lush trees and a textured wall in the foreground."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a street scene in an urban area with colorful buildings and decorative bunting under a twilight sky."
+        },
+        "gpt-5.4": {
+          "summary": "A moody dusk view of a historic urban street with tall stone buildings, colorful row houses, and strings of triangular bunting overhead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant street scene in [LOCATION] featuring historic architecture adorned with colorful flags."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A narrow street lined with historic stone buildings and colorful row houses, decorated with festive bunting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street scene featuring historic stone buildings and colorful shop fronts adorned with festive bunting under a bright sky."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a park with people relaxing, framed by trees and featuring a historic castle in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit city park with people relaxing on the grass is framed by dense trees, with historic buildings and a hilltop castle-like skyline in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of [LOCATION] from a park-like area surrounded by lush greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic park view framed by tree branches, with people relaxing on the grass and historic buildings on a hill in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a historic city skyline on a hill, framed by lush green trees and a park where people are relaxing on the grass."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contains text discussing a treaty between the [LOCATION] and [LOCATION], focusing on [ORGANIZATION] Secretary [PERSON]'s upcoming media engagements and a message from Mediterranea Saving Humans."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a news/politics article discusses a [ORGANIZATION] treaty with [LOCATION], [PERSON] media interviews, and asylum/small-boat policy details."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A news article discussing [PERSON] morning schedule of interviews."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text-based news article detailing a [LOCATION]-[LOCATION] treaty, media interviews, and a message from Mediterranea Saving Humans."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a political news update detailing [ORGANIZATION] new treaty with [LOCATION], [ORGANIZATION] Secretary [PERSON]'s media schedule, and an appeal from [ORGANIZATION] organization."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A clear,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene view of a clear stream surrounded by lush greenery and trees under a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A clear shallow [LOCATION] runs through dense green vegetation and tall trees under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene stream flows through a lush green landscape under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A clear shallow stream flows through lush green vegetation under a bright blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shallow, clear stream flows through a lush green landscape under a bright blue sky."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a stone church surrounded by a graveyard and [ORGANIZATION] under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small stone church and surrounding gravestones are shown on a sunny day under a clear blue sky, with tree branches framing the top of the scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a stone church surrounded by gravestones under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stone church with a graveyard under a clear blue sky, framed by tree branches."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stone church with Gothic arched windows and a graveyard is pictured on a sunny day, framed by tree branches."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A narrow, sunny street is flanked by stone buildings and lush greenery, with a wooden footbridge connecting two structures overhead."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a narrow street lined with stone buildings and a wooden bridge overhead under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny narrow village street lined with stone houses and greenery features a wooden footbridge overhead and a couple of parked cars."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quaint street lined with stone houses under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A narrow street lined with stone buildings under a clear blue sky, featuring a pedestrian bridge overhead and parked cars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A narrow, sunlit street in a village lined with traditional stone cottages and lush greenery, featuring a wooden footbridge connecting two buildings overhead."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A narrow, paved lane winds through a sunny, green landscape with a white-walled building on the right and dense trees on the left, under a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A quiet rural road lined with trees and a white building on the right."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet narrow road passes a white house and dense trees under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quiet rural road lined by trees under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A quiet rural road curves past a white-walled building under a clear blue sky, flanked by dense green trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A quiet, narrow country road lined with lush green trees and a white-washed building on the right under a clear blue sky."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four people is standing on a residential street, with houses and parked cars in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A group selfie of four smiling people standing on a quiet residential street lined with parked cars and houses under an overcast sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four people are standing together in a suburban street under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four people smile for a selfie on a residential street with parked cars and houses in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four smiling individuals pose for a selfie on a residential street lined with parked cars and houses under an overcast sky."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a tall, ornate church building surrounded by bare trees and a decorative fence under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A Gothic-style stone church with a tall spire stands behind leafless trees and a black iron fence, with a memorial monument and red wreaths in the foreground under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a Gothic-style church under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Gothic-style church with a tall spire is framed by bare tree branches against a blue sky, next to a war memorial adorned with red poppies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a historic Gothic stone church with a tall spire, framed by bare trees and a black iron fence, with a war memorial statue in the foreground."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large, ornate stone church with two green-spired towers and intricate window details stands prominently beside a street, with a white statue near its entrance."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a large, ornate church building with two green-tipped towers and intricate architectural details."
+        },
+        "gpt-5.4": {
+          "summary": "A large Gothic-style church with twin green spires stands beside a street, with trees and a small statue near the entrance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A grand Gothic-style church stands prominently in an urban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large Gothic-style church with two green spires and ornate stonework stands on a street corner under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, tan stone church with [ORGANIZATION] architecture featuring twin spires and a prominent arched window is viewed from across a street."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a historic church building surrounded by [ORGANIZATION] under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit Gothic-style stone church with a tall tower is seen through leafy trees beside a small garden path."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a historic stone church under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Gothic-style church viewed through tree branches and an archway on a sunny day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunlit view of a historic stone church with Gothic architecture, framed by a large tree trunk and lush garden [ORGANIZATION] under a blue sky."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a stone church surrounded by a graveyard and [ORGANIZATION] under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small stone church and surrounding gravestones are shown on a sunny day beneath a clear blue sky and overhanging tree branches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a stone church surrounded by gravestones under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stone church with a graveyard under a clear blue sky, framed by tree branches."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stone church with Gothic arched windows and a graveyard is pictured on a sunny day, framed by tree branches."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people holding signs for [PERSON] in a public setting."
+        },
+        "gpt-5.4": {
+          "summary": "A small group stands in a town square holding multiple orange political campaign signs in front of brick storefronts and flower planters."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people holding signs supporting [PERSON] in a public area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people hold orange diamond-shaped signs supporting '[PERSON] in a town square with brick buildings and flower arrangements."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit stands with a group of supporters holding diamond-shaped campaign signs on a sunny town street."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A statue of a historical figure stands in a town square decorated with colorful bunting under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A bronze statue labeled \"[ORGANIZATION]\" stands in a town square beneath red, white, and blue bunting, with brick buildings and shopfronts in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A statue of [PERSON] stands in a town square adorned with bunting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bronze statue of [PERSON] stands in a town square decorated with red, white, and blue bunting under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bronze statue of a man stands on a granite plinth in a town square, surrounded by red, white, and blue bunting against a clear blue sky."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts the interior of a grand church featuring tall arches and colorful stained glass windows."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view of a stone cathedral interior shows the central aisle, carved choir stalls, altar, and tall stained-glass windows under high arches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a grand cathedral interior featuring high arches, stained glass windows, wooden pews, and an altar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand interior view of a Gothic cathedral with tall stone columns, stained glass windows, and wooden pews."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a grand stone cathedral interior featuring high vaulted ceilings, ornate wooden choir stalls, and colorful stained glass windows at the altar."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a historic building labeled '[ORGANIZATION] adorned with decorative flowers and bunting under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A white historic building marked \"CORN EXCHANGE 1864\" stands in a sunny cobbled town square with bunting, lampposts, and flower planters."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A historic [ORGANIZATION] building from 1864 stands under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white historic building labeled 'CORN EXCHANGE 1864' stands in a sunny town square decorated with colorful bunting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white, two-story historic building labeled '[ORGANIZATION] stands on a paved town square under a clear blue sky, decorated with red, white, and blue bunting."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene outdoor scene features a narrow river or stream flowing between lush green banks with various trees, shrubs, and some colorful flowers under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene river scene surrounded by lush greenery and colorful flowers under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A calm garden stream winds through lush trees and shrubs under a softly clouded sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene river flows through a lush green park under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calm river flows through a lush, green landscape with trees and flowering bushes on both banks under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tranquil river flows through a lush garden landscape featuring weeping willows, manicured hedges, and vibrant foliage under an overcast sky."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a British passport placed on an old map."
+        },
+        "gpt-5.4": {
+          "summary": "A British passport is placed on top of an antique-style world map."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A British passport resting atop an old-world map."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A British passport rests on an antique world map."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A British passport rests on an antique-style world map."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts vibrant participants in colorful costumes at [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a news article shows performers in bright feathered costumes at [LOCATION] above a headline about arrests on a peaceful Sunday."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant [PERSON] scene featuring colorful costumes and festive energy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling performer in a vibrant red feathered costume at [LOCATION], with news text overlay about arrests."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A news screenshot featuring a vibrant photo of carnival dancers overlaid with a headline about arrests at [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contains a message from a leadership team expressing solidarity against racism and promoting a safe, inclusive environment."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot of an [ORGANIZATION] article showing a statement from a senior leadership team condemning racism and expressing solidarity and support."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A statement from a senior leadership team addressing concerns related to racism and discrimination."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A formal statement from a senior leadership team addressing concerns about symbols causing discomfort and advocating for inclusivity."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a formal organizational statement addressing racism and discrimination, offering support to staff."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white flag with a red cross ([ORGANIZATION]) hangs from an open window of a stone building under a partly cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stone building with a flag of [LOCATION] hanging from a window."
+        },
+        "gpt-5.4": {
+          "summary": "A red-and-white cross flag hangs from the upper window of a stone house under a partly cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stone building facade featuring a red cross flag hanging from an open window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An English flag hangs from a stone building under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a stone building facade featuring a large [LOCATION] Cross flag hanging from a balcony under a blue sky."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a clipboard with a survey about local priorities while standing on a residential street."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a selfie on a residential street while holding a clipboard with a local community survey or campaign leaflet."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a clipboard with 'Tell us your local priorities' written on it in an outdoor residential area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a clipboard with a local survey form titled 'TELL [LOCATION] YOUR LOCAL PRIORITIES' on a residential street."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing glasses and a vest stands on a residential street holding a blue clipboard with a survey form titled 'TELL [LOCATION] YOUR LOCAL PRIORITIES'."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows discarded furniture, including a black sofa and a white couch, in a grassy area near residential buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A hazy outdoor photo shows discarded couches and a collapsed soccer goal on a grassy lawn in front of brick residential buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A discarded sofa in a suburban backyard next to an old soccer goal."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grassy yard contains discarded furniture and a broken soccer goal."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Discarded furniture, including two sofas and a soccer goal frame, sits on a grassy verge in a residential neighborhood."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts the interior of a subway train with various graffiti on the walls and doors."
+        },
+        "gpt-5.4": {
+          "summary": "A subway/train carriage interior is shown facing an end door and windows covered with graffiti tags, with red poles and transit signage visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A subway car interior featuring graffiti-covered doors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graffiti-covered emergency exit door inside a subway train car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The interior of an empty subway car featuring prominent black graffiti tags on the doors and panels, with red handrails and a route map visible above."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an empty subway train interior with graffiti on the walls and seats."
+        },
+        "gpt-5.4": {
+          "summary": "An empty subway/train carriage interior is shown with blue patterned seats, red poles, route maps overhead, and heavy graffiti covering the end walls and door."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A subway car interior featuring graffiti-covered walls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "The interior of a subway car covered in graffiti, with blue patterned seats and overhead route maps."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An empty subway car interior featuring blue patterned seats and walls covered in extensive black graffiti tags."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A car is decorated with a large cover featuring British flags and images of King [PERSON] and [PERSON], along with a poppy flower."
+        },
+        "gpt-5.4": {
+          "summary": "A black car parked on a leafy city street is covered with large Union [PERSON] decals honoring Queen Elizabeth II and King [PERSON], with a red poppy attached to the front."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A car decorated in Union [PERSON] flags commemorating King [PERSON] ascension."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black car parked on a leafy street is covered with Union [PERSON]-themed banners honoring King [PERSON] and [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black car parked on a leaf-strewn street is decorated with Union [PERSON]-themed covers featuring portraits of King [PERSON] and [PERSON], along with a red poppy on the grille."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts various memorial tables set up in a church, featuring flowers, candles, and guest books."
+        },
+        "gpt-5.4": {
+          "summary": "A four-photo collage shows remembrance tables inside a church, with guest books, candles, flowers, and framed photos including one of Queen Elizabeth II."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A memorial setup in a church featuring framed photos of Queen Elizabeth II."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four memorial setups inside a church, featuring framed photos of a woman, open books, candles, and floral arrangements."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A four-panel collage showing a memorial tribute to [PERSON] set up inside a church, featuring framed photos, flowers, candles, and an open book of condolence."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three men are standing together in formal attire in front of a door."
+        },
+        "gpt-5.4": {
+          "summary": "Three people stand indoors posing for a group photo, with two in formal jackets and ties and one in a casual quarter-zip sweater."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three men in formal attire pose together indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three men pose together indoors, dressed in business-casual attire with a whiteboard and door visible behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three men in business attire stand side-by-side smiling for a photo indoors."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man stands on a wooden deck surrounded by dense greenery, with a house visible in the"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a wooden platform in a lush, green garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands on a wooden deck in a lush garden area with trees, tall grass, and a house visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands outdoors in a lush green environment near water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands smiling on a wooden bridge surrounded by lush greenery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing glasses, a [ORGANIZATION] sweater, and light trousers stands smiling on a wooden deck beside a stream in a lush garden setting."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene, overgrown area by a stream with a stone archway in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A lush, overgrown garden stream runs beneath a stone arch bridge, with a small seated statue by the water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene scene featuring a small stream flowing under an arched stone bridge surrounded by lush greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small stream flows through lush greenery toward a dark stone archway tunnel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small stream flows through a lush, overgrown garden area towards a dark stone tunnel entrance."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene view of a narrow stream surrounded by lush greenery and trees under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A narrow stream runs through a lush, tree-filled garden beside a small porch or gazebo under an overcast sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene scene of a small stream surrounded by lush [ORGANIZATION] under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A narrow stream flows through lush [ORGANIZATION] beside a rustic wooden structure under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tranquil rural scene featuring a narrow stream flowing through lush greenery with a wooden structure and large tree on the right bank under an overcast sky."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dim, overcast view of a green field framed by dark foliage and a wooden fence, with distant hills"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene landscape view featuring a grassy field and distant hills under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A moody rural landscape shows a grassy field and distant trees under a heavily overcast blue-gray sky, framed by dark foreground foliage and a wooden fence."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a grassy field under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dim, overcast view of a rural field framed by trees and a fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A moody, low-light landscape view of a green field and distant hills framed by dark foliage and a wooden fence."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three men in formal suits pose for a photo in a grand hall featuring a checkered floor, a staircase, and the flags of [LOCATION] and [LOCATION]."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three men in formal attire pose in a well-decorated interior with a British flag."
+        },
+        "gpt-5.4": {
+          "summary": "Three men in suits pose indoors in a formal hall with a staircase, blue lighting, and [LOCATION] and [LOCATION] flags."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three men in formal attire pose together indoors near a staircase adorned with flags."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three men in suits pose formally in an ornate hallway with a checkered floor, flanked by Italian and British flags under blue lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three men in formal suits pose for a photo in an elegant hall with checkered flooring, flanked by the flags of [LOCATION] and [LOCATION] under blue ambient lighting."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A religious ceremony is depicted inside a church, showing a priest in green vestments"
+        },
+        "gpt-4o-mini": {
+          "summary": "A formal ceremony taking place in a church, featuring a person in a suit receiving a blessing from a priest in green vestments."
+        },
+        "gpt-5.4": {
+          "summary": "A church service is taking place at the altar, with clergy in green vestments facing a person in a dark suit inside a large sanctuary."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A religious ceremony taking place in a church interior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A clergy member in green vestments performs a ceremony with a man in a suit inside a church."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A priest in green vestments performs a religious ceremony inside a church while facing a man in a dark suit."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people dining together at a table in a restaurant, with various dishes and drinks visible."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people dressed in formal or smart attire pose around a restaurant dinner table with plated food and drinks in a warmly lit, cozy interior."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Group of people enjoying a meal together in an elegant restaurant."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people in business attire smiles for a photo while dining at a warmly lit restaurant table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of eight people dressed in formal business attire are seated around a dining table with white linens, enjoying a meal and posing for a photo in a warmly lit restaurant."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five men in formal attire holding glasses of red wine in a bar setting."
+        },
+        "gpt-5.4": {
+          "summary": "Five well-dressed people stand together in a pub or wine bar, smiling and holding glasses of red wine."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of men in formal attire are gathered around a table holding glasses filled with red wine."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five men in smart casual attire pose with wine glasses at a bar, smiling for the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Five men in smart casual attire stand behind a wooden bar counter holding glasses of red wine, posing for a photo in front of a chalkboard menu."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized city skyline with a caption advocating for greener housing policies."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] article page about greener housing policy, with social share buttons and a stylized city skyline image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post advocating greener policies for building more homes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A webpage header from 'centre write' displaying the slogan 'To build more homes, we need greener policies' above a stylized cityscape image."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] article titled 'To build more homes, we need greener policies' featuring an illustration of a city skyline above clouds."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man and a woman in formal attire are smiling while standing next to a blue banner for '[ORGANIZATION] ([ORGANIZATION]) indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals pose in front of a blue banner for [ORGANIZATION], featuring the text '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in formal attire pose indoors beside a blue [PERSON] event banner in a stone-walled venue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of a banner promoting '[ORGANIZATION]' ([ORGANIZATION])."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two formally dressed individuals pose beside a blue banner for '[ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit and a woman in a blue blazer pose for a photo standing on either side of a blue banner displaying the acronym [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Four men in formal attire pose together in a social setting, wearing blue caps."
+        },
+        "gpt-5.4": {
+          "summary": "Four people in suits pose together at an indoor social event, several wearing blue caps and one holding a wine glass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four men in formal attire pose together indoors during a celebratory event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four men in suits and blue caps pose for a photo indoors at a social gathering."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four men in business attire pose for a group photo inside a venue, with three of them wearing matching blue caps."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a crowded indoor setting with a decorated Christmas tree, suggesting a festive gathering."
+        },
+        "gpt-5.4": {
+          "summary": "A crowd gathers inside a large Gothic-style church hall around a brightly lit Christmas tree, with chairs set up for an event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "People gather in a church hall decorated for Christmas."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowd gathers inside a Gothic-style hall adorned with a large decorated Christmas tree."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crowd of people gathers inside a church hall for a holiday event, centered around a large, illuminated Christmas tree."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A crowded indoor setting with people mingling, likely at an event in a church or similar venue."
+        },
+        "gpt-5.4": {
+          "summary": "A large crowd stands inside a grand church or cathedral nave with high arched ceilings and hanging lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A crowded church interior during a service."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowded interior of a Gothic-style church with high vaulted ceilings and arched windows, where people are gathered."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large crowd of people gathers inside a grand cathedral with high vaulted ceilings and stone arches, facing an altar decorated with a festive wreath."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows several pieces of luggage stacked in a train compartment."
+        },
+        "gpt-5.4": {
+          "summary": "A train carriage aisle is crowded with stacked luggage, including multiple suitcases, bags, and a folded stroller near the door."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A train compartment filled with luggage in various colors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A train carriage aisle cluttered with various suitcases and bags."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A train carriage aisle is crowded with a large pile of luggage, including suitcases and bags, situated between passenger seats."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals pose in front of a decorated Christmas tree."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling people pose indoors beside a decorated, lit Christmas tree, with one in a dark suit and the other in a blue outfit."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of a decorated Christmas tree."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and woman smile for a photo in front of a decorated Christmas tree."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit and a woman in a blue corduroy outfit pose smiling together in front of a decorated Christmas tree."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large crowd gathers around a statue of [PERSON], holding flags and banners during a protest."
+        },
+        "gpt-5.4": {
+          "summary": "A large outdoor protest crowd holds blue-and-white flags and signs around the [ORGANIZATION] statue in front of a grand historic government-style building."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A protest gathering in front of a large building featuring statues under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowd protests around a [PERSON] statue, holding flags and signs under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large crowd gathers in a city square for a protest, holding flags and banners around the [PERSON] statue under a clear blue sky."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals is holding a flag featuring a Union [PERSON] and a palm tree design in front of a statue of [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people pose outdoors near the [ORGANIZATION] statue while holding a large British Indian Ocean Territory flag in a city square."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people pose in front of a [ORGANIZATION] statue holding an [LOCATION] flag."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People pose outdoors holding a flag with a Union [PERSON] and blue wavy stripes, near a statue labeled '[ORGANIZATION]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people pose outdoors in a city square holding a large flag featuring the Union [PERSON] and wavy blue lines with a palm tree, standing in front of a statue base inscribed '[ORGANIZATION]'."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two men in"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two men in formal attire stand beside a framed portrait in a well-lit indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in formal suits pose indoors beside a small table holding a framed portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men in formal attire pose beside a framed portrait."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in suits stand beside a framed portrait on a small table against a cabinet wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men in formal business suits stand smiling for a photo in an office setting, flanking a small table with a framed portrait of a woman."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A whimsical image features a squirrel's head on a body dressed in a formal black tuxedo with a polka-"
+        },
+        "gpt-4o-mini": {
+          "summary": "A squirrel dressed in a formal black suit and bow tie poses confidently against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized portrait shows a squirrel-headed figure dressed in a formal black suit with a bow tie against a dark paneled background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A squirrel dressed in a formal black suit holding a cane."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A squirrel in a formal black suit with a bow tie poses confidently against a dark wooden background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digitally manipulated image of a squirrel with human hands, dressed in a formal black suit and bow tie, posing against a dark background."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bird with a human-like body dressed in a blue dress, sitting and holding a small object."
+        },
+        "gpt-5.4": {
+          "summary": "A surreal portrait-style artwork shows a woodpecker-headed figure in a light blue historical dress, seated indoors and holding a basket or book."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woodpecker dressed in a Victorian-style gown holding an accordion."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woodpecker dressed in a blue historical gown holds a book, posed like a portrait subject."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A surreal portrait of a woodpecker dressed in a blue gown and bonnet, holding a book against a draped background."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A formal portrait painting depicts a hedgehog dressed in a dark jacket and white cravat, looking directly at the viewer against a dark, plain background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hedgehog dressed in a formal outfit, resembling a classic portrait style."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized oil-painting portrait shows a hedgehog dressed in a dark historical coat and white cravat against a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Hedgehog dressed in formal attire against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A painted portrait of a hedgehog dressed in formal attire with a scarf and jacket against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A classical oil painting portrait of a hedgehog dressed in formal human attire, including a dark coat and white cravat."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A surreal portrait features a lizard-like creature with a spiky crest, dressed in a formal suit with a shirt and tie, against a plain grey background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a lizard-like creature dressed in a formal suit and tie, exuding a unique and humorous style."
+        },
+        "gpt-5.4": {
+          "summary": "A surreal studio-style portrait shows a reptile or lizard with spiky [ORGANIZATION] posed in a formal suit and tie like a vintage headshot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A lizard in a suit with an orange neck pattern stands against a textured background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white portrait of a spiky lizard wearing a suit and tie."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white studio portrait of a reptile with a mohawk, dressed in a formal suit and tie."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A low-angle"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a grand architectural structure with tall columns and ornate details, set against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A low-angle view shows a grand neoclassical building with tall white columns, ornate stone stairs, and urns against a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Elegant architectural details of a classical building under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle shot of a grand classical building with ornate columns, balconies, and stone staircases under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a grand neoclassical building featuring tall fluted columns, ornate balustrades, and stone urns against a clear blue sky."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic view of a building surrounded by blooming yellow flowers and trees under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A white domed building sits in a park-like garden beyond a pond, with yellow daffodils and bare trees under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene park scene featuring a white building surrounded by blooming daffodils under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white classical-style building with a dome sits on a grassy hill behind a riverbank lined with blooming yellow daffodils under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a white neoclassical building with a dome, situated on a grassy lawn across a river lined with blooming yellow daffodils under a clear blue sky."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene landscape featuring a river surrounded by trees under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A calm park scene shows a narrow pond or stream lined with tall leafless trees under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene park scene featuring a calm river surrounded by leafless trees under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene park scene with a river flowing between bare trees under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a calm river flowing through a park lined with tall, leafless trees under a clear blue sky."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A classical-style domed building with columns and an obelisk stand beside a reflective pond in a sunny park"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a classical structure with a dome and a column beside a pond, surrounded by trees."
+        },
+        "gpt-5.4": {
+          "summary": "A small classical domed pavilion and obelisk stand beside a reflective pond in a sunlit garden with large trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene park scene featuring a classical pavilion surrounded by trees near a pond."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A classical white-domed temple and tall obelisk stand beside a pond in a sunlit park surrounded by trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white classical temple with a dome and an obelisk stand beside a pond in a sunlit park surrounded by trees."
+        }
+      }
     }
   }
 }

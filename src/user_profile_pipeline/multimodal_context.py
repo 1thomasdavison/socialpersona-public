@@ -6,6 +6,18 @@ from pathlib import Path
 from typing import Any
 
 
+def post_timestamp(post: dict[str, Any]) -> str:
+    """Render public relative time explicitly, without inventing calendar dates."""
+    timestamp = str(post.get("created_at") or "").strip()
+    if timestamp:
+        return timestamp
+    day = post.get("relative_day")
+    if type(day) is int and day >= 0:
+        # Fixed width preserves ordering in the existing chronological prompt path.
+        return f"relative day {day:07d}"
+    return ""
+
+
 @dataclass
 class PostsContextBundle:
     payload: dict[str, Any]
@@ -198,7 +210,7 @@ def build_posts_context_bundle(
             {
                 "post_index": line_idx,
                 "post_id": post_id,
-                "created_at": str(post.get("created_at") or "").strip(),
+                "created_at": post_timestamp(post),
                 "platform": str(post.get("platform") or "").strip(),
                 "post_type": str(post.get("post_type") or "").strip(),
                 "language": post.get("language"),

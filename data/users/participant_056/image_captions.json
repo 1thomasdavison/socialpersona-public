@@ -1,67 +1,3197 @@
 {
   "user_id": "participant_056",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "dogs",
-        "photography",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; dogs; photography; video games."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows several pieces"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate with toasted bread topped with a mixture of mozzarella, tomatoes, and herbs."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows toasted bread topped with diced tomatoes, mozzarella, herbs, and balsamic glaze on a decorative fruit-patterned plate."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of bruschetta topped with mozzarella balls, tomatoes, basil leaves, and a drizzle of balsamic glaze."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of two slices of toasted bread topped with diced tomatoes, mozzarella balls, and basil leaves on a decorative plate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a partially eaten caprese toast on a decorative fruit-patterned plate, featuring toasted bread topped with mozzarella balls, diced tomatoes, basil, and balsamic glaze."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "crafts and design",
-        "dining",
-        "dogs",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; crafts and design; dining; dogs; video games."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a platter of assorted dips and snacks, including hummus, tzatziki, olives, feta cheese, cucumbers, and pita bread."
+        },
+        "gpt-5.4": {
+          "summary": "A platter of [LOCATION]-style appetizers includes tzatziki, hummus, tabbouleh, olives, feta, pita bread, cucumber slices, and a bowl of fried pieces on a table indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A platter of [LOCATION]-style appetizers including hummus, tzatziki sauce, feta cheese cubes, sliced cucumbers, pita bread slices, olives, tabbouleh salad, and fried calamari."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white compartmentalized tray holds various [LOCATION] appetizers including hummus, tzatziki, olives, feta cheese, cucumbers, and pita bread."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white compartmentalized serving platter displays a variety of [LOCATION] appetizers including hummus, tabbouleh, tzatziki, olives, feta cheese, pita bread, and sliced cucumber."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "baking and desserts",
-        "dining",
-        "dogs",
-        "photography",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dining; dogs; photography; video games."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a gourmet sandwich topped with a poached egg, red peppers, and greens, served with a small cup of sauce."
+        },
+        "gpt-5.4": {
+          "summary": "A plated open-faced savory brunch dish topped with poached eggs, red peppers, greens, and meat is served with a small cup of creamy sauce."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A gourmet burger topped with [ORGANIZATION] peppers, arugula, a poached egg, and sauce served alongside ranch dressing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plated open-faced sandwich topped with steak, poached egg, red peppers, and arugula."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a gourmet open-faced sandwich on toasted bread, topped with arugula, meat, poached eggs, and red peppers, served with a side of sauce."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "dining",
-        "dogs",
-        "savory food",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dining; dogs; savory food; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a plate of Eggs Benedict topped with a creamy sauce and crumbled meat, served alongside hash browns and slices of avocado."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of eggs benedict topped with a creamy sauce and accompanied by hash browns."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a breakfast plate with two eggs [LOCATION]-style servings topped with orange sauce and crumbled meat, plus a side of hash browns."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a plate featuring Eggs Benedict topped with hollandaise sauce."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plate of Eggs Benedict with hollandaise sauce, avocado, and hash browns, held by a person in a maroon shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a breakfast plate featuring two servings of eggs benedict topped with hollandaise sauce and hash browns, set on a speckled countertop."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "dogs",
-        "photography",
-        "savory food",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dogs; photography; savory food; video games."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a sleeping dog resting against a person's arm."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a small scruffy dog lying on someone’s lap, appearing relaxed and sleepy."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a relaxed dog lying down."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy dog rests its head on a person's lap, wearing a gray collar."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-angle shot of a small, scruffy dog with light fur resting its head on a person's blue clothing while wearing a grey collar."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "coffee and tea",
-        "dining",
-        "dogs",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: coffee and tea; dining; dogs; photography; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sleeping dog is nestled in a colorful blanket on a couch."
+        },
+        "gpt-5.4": {
+          "summary": "A light-colored dog is resting with its head down on a purple patterned blanket beside a white plush surface indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog peacefully sleeping under a purple blanket adorned with black cat patterns."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A light-colored dog is sleeping peacefully on a purple Halloween-themed blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a white and tan dog sleeping peacefully on a purple blanket with Halloween-themed patterns."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image captures a night sky illuminated by multiple colorful light formations, resembling fireworks or a drone light show, with prominent red and blue patterns."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a colorful display of fireworks in the night sky."
+        },
+        "gpt-5.4": {
+          "summary": "Colored firework-like light bursts made of bright dots appear in the night sky above an outdoor event area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A night sky illuminated by colorful drone light patterns forming various shapes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime aerial display of drones forming colorful, starburst-like patterns in the sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night sky illuminated by multiple fireworks in red, blue, and white patterns including starbursts and rings."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is interacting with a cat while holding a phone, sitting in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A tabby cat sniffs a person’s fingertip while they hold a phone in a cozy indoor living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a cat while using their phone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a phone while a tabby cat curiously interacts with their finger."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of someone holding a smartphone while gently touching the nose of a tabby cat sitting on a bed."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with curly hair is lying on a wooden surface, wearing a red mesh top, with a colorful background featuring various objects."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a smiling person with purple curly hair and an orange mesh top in front of a chalkboard and craft-filled shelves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person lying down smiling in a cozy indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with purple hair smiles while wearing a red mesh top, lying on a wooden surface in front of a chalkboard and shelves with decorative items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling person with curly purple hair wearing an orange mesh top, set against a background featuring a chalkboard and shelves with small figurines."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a colorful weekly schedule with specific activities and times for each day."
+        },
+        "gpt-5.4": {
+          "summary": "A pink weekly schedule graphic lists streaming or event plans, with most days off and entries for Wednesday, Thursday, and Friday, decorated with cute pumpkins and flowers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A playful weekly schedule featuring activities like 'Just Dance' and a meeting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink-themed weekly schedule poster with cartoon pumpkins and flowers, listing events like 'Just Dance' and 'Cult of Lamb'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pink-themed weekly schedule graphic featuring cartoon pumpkins and flowers, listing specific streaming events like 'Just Dance' and 'Cult of the Lamb'."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful, anthropomorphic rabbit character with a floral crown, depicted on a gaming mat alongside a hand and some game components."
+        },
+        "gpt-5.4": {
+          "summary": "A tabletop scene shows colorful trading card game playmats, including a fantasy rabbit character illustration, a [ORGANIZATION]-themed mat, and a stack of pink card sleeves or notes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a [ORGANIZATION]-themed table mat featuring an anthropomorphic rabbit character."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a colorful [ORGANIZATION] card mat featuring an illustrated character, with a stack of pink cards placed on it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of [ORGANIZATION] playmat featuring the character [PERSON], with a stack of pink-backed cards resting on top."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a prerelease box for 'Magic: The Gathering - Bloomburrow' against a colorful playmat."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a Magic: The Gathering Bloomburrow prerelease box over a colorful playmat at a tabletop gaming setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a Magic: The Gathering Bloomburrow Prerelease box over a table covered in game mats."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a 'Magic: The Gathering' Bloomburrow prerelease box over a colorful gaming mat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand with red and black nail polish holds a Magic: The Gathering 'Bloomburrow' Prerelease box over a colorful playmat."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a streaming setup with a green screen, a decorated interface featuring a pumpkin graphic, and a microphone in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A desktop streaming setup shows Streamlabs open on one monitor with a pumpkin-themed overlay while a second monitor displays a green-screen pumpkin graphic, with a microphone, webcam, and keyboard in front."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION]'s setup showing a pumpkin-themed overlay during an online stream."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] stream setup showing a green screen with a pixel-art pumpkin, Streamlabs software interface, and a microphone in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a streaming setup featuring two monitors displaying Streamlabs Desktop software with a Halloween-themed overlay, alongside a gold microphone and mechanical keyboard."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a 'Magic: The Gathering' prerelease pack for '[PERSON]: [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a Magic: The Gathering Duskmourn: [ORGANIZATION] prerelease box over a colorful playmat, with trading cards and a phone visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a Magic: The Gathering Duskmourn House of Horror prerelease pack."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a Magic: The Gathering 'Duskmourn: [ORGANIZATION] prerelease box over a colorful gaming mat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a Magic: The Gathering Duskmourn House of [ORGANIZATION] box over a colorful playmat featuring lily pads and flowers."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A view of a baseball game in a stadium with a large crowd."
+        },
+        "gpt-5.4": {
+          "summary": "A baseball game is underway in a large stadium, viewed from high in the stands with a yellow foul pole blocking part of the field."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A baseball game in progress viewed from a stadium seat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A baseball game in progress at a stadium filled with spectators."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a professional baseball game in progress at a large stadium, featuring players on the field and spectators in the stands."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a small pumpkin tattoo on the ankle of a person wearing a sandal."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of an ankle with a small simple [PERSON] face tattoo above a sandal strap."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small jack-o'-lantern tattoo on a person's ankle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small line-art [PERSON] tattoo on a person's ankle, with a beige sandal visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a person's ankle featuring a small, minimalist line-art tattoo of a jack-o'-lantern face."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with purple hair, wearing a dark purple dress, is laughing joyfully while holding a bouquet of flowers in front of a white building with an arched window."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a purple dress holds a bouquet of flowers, standing in front of a window."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a purple formal dress holds a bouquet of flowers while standing in front of a white doorway or window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a purple dress holding flowers smiles joyfully."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with purple hair laughs joyfully while holding a floral bouquet in front of a white building with arched windows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with purple hair wearing a burgundy dress and holding a bouquet of flowers stands in front of a white building."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image of a digital screen displays a message with a 'See"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a humorous comment about an embarrassing situation involving a shower and a smell."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up screenshot shows a humorous online comment with a monkey-covering-eyes emoji partially obscuring the username."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "User shares a humorous anecdote involving farting in their shower while watching something."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text message showing a humorous, self-deprecating anecdote about farting in the shower while watching something."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a computer screen displaying a humorous text message about farting in the shower while watching something, with an emoji covering part of the sender's name."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a red wig with hair buns, a white shirt, black tie, and a maroon corset poses for a photo, celebrating a game launch, with text overlay."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person celebrating the launch of the Just Dance game with a playful pose and colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "A two-photo collage shows a person in a red wig and coordinated outfit posing indoors under pink lighting, with a celebratory Just Dance 2025 launch message overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT] launch day celebration in a playful costume."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a red-haired costume poses cheerfully against a pink-lit background, celebrating the launch of Just Dance Game 2025."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a red wig and costume poses in two photos to celebrate the launch of Just Dance 2025."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a vibrant, stylized costume with red devil horns poses against a surreal, colorful background featuring large red structures and multiple eyes, with text promoting 'Just Dance 2025 Edition' and 'Paint The Town Red'."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a playful costume against a vibrant, animated background, promoting a dance-themed game."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized promotional graphic shows a dancer in a red-and-white costume posed in a dark illustrated forest, with the song title and 'JUST DANCE 2025 EDITION' text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant promotional graphic for 'Paint The Town Red' from Just Dance 2025 Edition."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized dancer poses in a surreal, colorful background with text indicating a 'Just Dance 2025 Edition' theme."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a red wig and costume poses against a surreal, illustrated background featuring tentacles and eyes, with text indicating the song 'Paint The Town Red' for Just Dance 2025."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person posing in a shiny purple top and black shorts with fishnet stockings, surrounded by colorful lighting and decor."
+        },
+        "gpt-5.4": {
+          "summary": "A four-photo indoor collage shows a person posing in a shiny lavender top, black shorts, and fishnet tights against pink neon lighting and a sun tapestry backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four photos of a person in shiny clothing posing against colorful backdrops."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses in a shiny purple crop top and black shorts against a pink-lit background with neon decor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of four photos featuring a person with purple hair wearing a holographic top and fishnet stockings in a room with pink lighting and neon decor."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the event schedule for [ORGANIZATION], featuring various activities and their timings."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful promotional schedule graphic for [ORGANIZATION] lists [PERSON] event activities and times across [DATE]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Event schedule poster for [ORGANIZATION] featuring activities like opening ceremony, hoop class, just dance class, morning yoga."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful 2024 event schedule for [ORGANIZATION] featuring online classes and ceremonies on [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful graphic displaying the 2024 Pumpkin Con events schedule featuring activities like hoop class, yoga, and dance on [PERSON]."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with purple curly hair, wearing a black top, in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a smiling person with purple curly hair, glitter eye makeup, and bright purple lipstick."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person smiling brightly in festive makeup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with purple hair and glittery makeup smiles broadly at the camera indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling person with purple hair, glittery eye makeup, and bright pink lipstick wearing a black shirt."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scavenger hunt list for [ORGANIZATION], detailing various photo prompts to complete for a raffle."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional flyer for [ORGANIZATION] announces a scavenger hunt with a 10-item checklist and bonus tasks tied to 90s-themed photos and convention participation."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster for [ORGANIZATION] listing tasks participants must complete."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scavenger hunt checklist for [ORGANIZATION], listing 10 photo tasks to enter a raffle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital flyer for the Pumpkin Con 2024 Scavenger Hunt listing ten photo challenges and bonus items to enter a raffle."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful sticker promoting 'Pumpkin Con 2024' with a retro 90s theme."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful retro-style event flyer on a yellow fabric surface advertises [ORGANIZATION] and 80s-themed graphics."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful sticker promoting [LOCATION] in October featuring retro elements."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful sticker advertising '90s Pumpkin Con 2024' with retro-themed graphics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful sticker advertising '90s Pumpkin Con 2024' featuring retro graphics like a boombox and Game Boy on a yellow textured background."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a colorful event pass in front of a vibrant, themed background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person takes a selfie indoors while holding a colorful \"Pumpkin Con 2024\" card in front of Halloween-themed decor and pink lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a '[ORGANIZATION] ticket in front of Halloween-themed decor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with purple hair smiles while holding a colorful 'Pumpkin Con 2024' event card in front of a Halloween-themed mural."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with purple curly hair holds up a ticket for '90's Pumpkin Con 2024' in front of a colorful, Halloween-themed wall mural."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime outdoor scene features a fire burning brightly in a metal fire pit,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a fire pit with a small fire surrounded by two empty chairs in a backyard setting."
+        },
+        "gpt-5.4": {
+          "summary": "A small backyard fire pit with burning logs is surrounded by patio chairs beside a house at night."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A backyard scene featuring a lit fire pit surrounded by chairs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A backyard fire pit with glowing embers surrounded by chairs at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A metal fire pit with a mesh cover burns brightly in a backyard at night, surrounded by empty patio chairs and dry grass."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with purple-streaked curly hair smiles brightly at the camera while outdoors on a wooden deck, with a yoga mat visible nearby."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person with curly hair, partially visible, in a relaxed outdoor setting with yoga mats."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling outdoor selfie on a wooden deck shows curly hair with purple highlights, a white shirt, and a light-colored mat near a red fence and tree."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie outdoors in front of wooden planks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with curly purple-tinted hair smiles broadly while sitting outdoors on a wooden deck near a tree and fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with curly purple hair and a nose piercing poses for a selfie on an outdoor wooden deck next to a yoga mat."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a 30th birthday party for '[PERSON]' with colorful text and details about the event."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful promotional flyer advertises [ORGANIZATION]'s 30th birthday party on [PERSON] with candy-themed graphics and the phrase \"Thirty Flirty & Thriving.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Birthday party flyer celebrating [ORGANIZATION]'s 30th birthday."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful birthday party poster for 'Pumpkin's 30th Birthday Party' featuring playful text and candy-themed graphics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital flyer for a 'Thirty Flirty & Thriving' 30th birthday party hosted by [ORGANIZATION] on [PERSON], featuring candy-themed graphics and bold typography."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a Twitter profile of a verified content creator and [PERSON], highlighting their partnerships and interests."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an X/Twitter profile for [ACCOUNT] showing a profile photo, [PERSON], partner affiliations, and follower/location details."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile of [ORGANIZATION] showcasing their interests as a content creator, [PERSON], dog mom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter profile for '[ORGANIZATION]' showing a smiling user avatar, verified partner badges, location in [LOCATION], [ORGANIZATION], and follower statistics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter profile for '[ORGANIZATION]' featuring a circular avatar of a smiling woman with purple hair and a bio listing her roles as a content creator, [PERSON], and dog mom."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a 'Happy Birthday' crown with colorful decorations and a large '3' balloon in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person takes a festive selfie indoors with silver number balloons, a mirrored 'HAPPY BIRTHDAY' headband, and colorful party decor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person celebrates a birthday in front of large '30' balloons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while wearing a 'Happy Birthday' crown prop in front of silver '30' balloons and Halloween decorations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with purple curly hair and a sequined top poses in front of silver '30' balloons and a 'Happy Birthday' sign."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person dressed in a costume with a magnifying glass, set against a spooky Halloween-themed backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A person in an orange top and red skirt poses with a magnifying glass in front of a spooky Halloween backdrop with glowing pumpkins and green lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a Halloween-themed costume interacts with an illuminated display."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in an orange top and red skirt leans forward in a Halloween-themed room with glowing jack-o'-lanterns and green lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in an orange top and red skirt poses with a magnifying glass in front of a Halloween-themed mural featuring pumpkins and the word 'GHOST'."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in an orange long-sleeve shirt and red skirt holds a drink while using a magnifying glass in a café setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in an orange top and red skirt poses in a bubble tea shop, holding a magnifying glass toward a milk tea drink."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person examining a drink through magnifying glass in cafe."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in an orange shirt uses a magnifying glass to examine a drink at a beverage shop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in an orange top and red skirt stands inside a bubble tea shop, holding a drink and examining it with a magnifying glass."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person dressed in a yellow long-sleeve top and a red skirt, posing in front of a Halloween-themed backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a [ORGANIZATION]-style costume holds a magnifying glass and winks in front of a Halloween-themed backdrop with glowing jack-o'-lanterns."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a Halloween-themed costume holding a magnifying glass."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a Halloween-themed costume poses with a magnifying glass against a spooky backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person dressed in a Scooby-Doo costume with an orange turtleneck, red skirt, and large glasses holds a magnifying glass against a Halloween-themed backdrop."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman in an orange top interacts affectionately with a dog while a man in a green shirt sits on the stairs."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in colorful costumes sit on a decorated staircase indoors, petting a white dog in a playful Halloween-themed setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple interacts playfully near a staircase decorated in Halloween-themed garlands."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people and a dog are playfully interacting on carpeted stairs decorated with Halloween-themed garlands and ornaments."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two people and a white dog pose playfully on a carpeted staircase decorated with Halloween tinsel, a 'BOO' sign, and silver streamers."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with curly blonde hair, wearing a pink lace top, pink satin-like dress, and fishnet stockings, poses on their knees in a room"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person kneeling in a pink outfit with fishnet stockings, set against a pink-lit background."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized pink-lit indoor portrait shows a person kneeling on the floor in a satin dress and fishnet stockings, posing with hands near the chest."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a pink outfit posing against a vibrant neon background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person kneels on a wooden floor in a pink outfit under strong pink lighting, hands placed on their chest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with curly blonde hair kneels on a wooden floor wearing a pink lace and faux-leather dress paired with fishnet stockings, illuminated by vibrant pink lighting."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a shiny purple top and a pink headscarf, set against a colorful, illuminated background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling close-up selfie indoors shows a person in a shiny lavender top and pink headscarf, with colorful room decor including a sun tapestry and banana neon light in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a shiny purple outfit smiles in front of colorful decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while wearing a pink headband and shiny purple top, with colorful wall decor and neon lighting in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing a pink headband and iridescent purple top poses in a room decorated with a sun tapestry, neon banana light, and pop culture items."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with purple pigtails, black lipstick, and a sheer star-patterned top smiles broadly at the camera, with colorful decorations and"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with purple curly hair wearing a star-patterned sheer top, set against a colorful background with plush toys."
+        },
+        "gpt-5.4": {
+          "summary": "Smiling indoor selfie with purple curly pigtails, black lipstick, a star-pattern sheer top, and pastel character decor in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person smiling in a room decorated with colorful items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with purple curly hair and black lipstick laughs joyfully while wearing a star-patterned sheer top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with purple curly hair and black lipstick poses in a room decorated with colorful plush toys and pink lighting."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand holding a colorful drink adorned with a flower, with a plate of chips and a menu in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A pink iced cocktail garnished with a purple orchid is being held at a restaurant table, with chips and a menu in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a vibrant pink drink garnished with an orchid flower in front of a menu."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a vibrant red cocktail garnished with a purple orchid, set on a wooden table beside a menu and chips."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a red cocktail garnished with a purple orchid in a blue-rimmed glass at a restaurant table."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with purple-tinted hair, partially visible, in a casual setting with various objects in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a smiling person with curly purple hair, with storage items and a large black bag in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person smiling while wearing a black shirt with blue lettering."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with purple hair smiles broadly in a selfie, wearing a black shirt with blue text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling person with curly purple hair and a nose piercing, wearing a black shirt with blue text."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with purple hair holds a colorful boombox in a vibrant room with playful decor."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person indoors poses with a large boombox-themed box or poster under pink lighting, with colorful wall decor in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in front of a pink wall holding an oversized boombox prop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with purple hair smiles while holding a large boombox in a pink-lit room decorated with toys and tapestries."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with purple curly hair holds a large 'Just Dance 2024' game box in a room with pink walls and decorative items."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holds a colorful banner featuring characters from a dance-themed game in a vibrant room."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person indoors holds a colorful \"Just Dance 2025 Edition\" banner or poster under pink ambient lighting, with playful wall decor in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a colorful poster featuring animated characters in front of their face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with purple hair smiles while holding up a colorful Just Dance 2025 Edition scarf in a pink-lit room decorated with anime-style items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with curly purple hair holds up a colorful 'Just Dance 2025 Edition' banner in a room with pink walls and anime-style decor."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals in a forest setting, alongside a [ORGANIZATION] summary of their top artists and songs."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-style graphic shows two men standing in a forest above a list of top artists, top songs, and total minutes listened."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] post featuring top artists like The [PERSON] and songs such as '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] summary showing top artists and songs listened to, with a photo of two people in a forest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] graphic featuring a photo of two men in a forest surrounded by lists of top artists and songs, total minutes listened, and the [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with vibrant purple curly hair and bright"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with purple curly hair is posing in a brightly lit room, wearing a red top with cut-out shoulders."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor portrait shows a smiling person with curly purple hair wearing a coral cold-shoulder top, with soft pink lighting and wall decor in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person with curly purple hair smiles brightly in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with curly purple hair smiles brightly while wearing a red off-shoulder top against a pink-lit wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with curly purple hair and a nose ring poses indoors wearing a red mesh top, with a framed illustration of bubble tea visible in the background."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cozy living room setting with a plush couch, decorative pillows, and a colorful wall hanging."
+        },
+        "gpt-5.4": {
+          "summary": "A small white dog is lying on a plush cream couch in a cozy room with cute cat posters and blankets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog lounges comfortably on a plush couch in a cozy room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A light-colored dog rests on a fluffy white couch beside a blanket with the text 'a blessing comes from above.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white dog rests on a plush, cream-colored corduroy sofa amidst blankets and pillows in a cozy room decorated with cat art."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cute, cartoon-style shark with large black eyes and a small smile peeks over an orange surface against a light pink, bubbly background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cute cartoon shark with a smiling expression, peeking over a ledge against a soft pink background."
+        },
+        "gpt-5.4": {
+          "summary": "A cute cartoon shark with big sparkling eyes peeks over an orange ledge against a soft pink patterned background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cute cartoon seal resting its head on a person's arm."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cute cartoon shark with a gentle smile rests against a pink bubbly background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon illustration of a cute, grey shark with large eyes and small teeth resting its chin on an orange surface against a pink background."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases a festive gathering with decorations, food, and people engaging in activities like singing and posing with props."
+        },
+        "gpt-5.4": {
+          "summary": "A collage shows a Christmas house party with a decorated snack table, karaoke, festive photo-booth props, group selfies, and a sleeping dog."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Collage of a festive '[ORGANIZATION] event in December featuring food, decorations, costumes, and pets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of festive holiday photos showing people celebrating with decorations, food, and photo props."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of photos from a festive holiday party featuring people singing karaoke, posing with props, and enjoying food near a Christmas tree."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character from a video game interacting with an anthropomorphic animal, accompanied by a humorous text bubble."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel meme shows an [LOCATION] dialogue about \"night clowns\" above a reaction image with the words \"The WHAT.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme combining a video game character dialogue with an exaggerated reaction."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meme combining a scene from [LOCATION] where a character says 'She said she was already thinkin' about moving anyway 'cause of all the night clowns.' with the 'The WHAT?' reaction meme."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A two-panel meme featuring a screenshot from the video game Animal Crossing with dialogue about 'night clowns' followed by a reaction image of a woman looking confused."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is opening a box labeled '[PERSON] with a dog nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits on the floor with a sealed [PERSON] 3D printer box while a dog sniffs the package indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person opens a box labeled '[PERSON] while sitting indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits on a wooden floor next to a large cardboard box labeled '[PERSON] with a dog curiously sniffing the side."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a blue shirt is opening a large cardboard box labeled '[PERSON] on a wooden floor while a dog observes from the side."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a plate of loaded fries generously topped with shredded cheese"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a loaded plate of nachos topped with ground beef, cheese, bacon, green onions, and sour cream."
+        },
+        "gpt-5.4": {
+          "summary": "A plate of loaded fries topped with melted cheese, ground beef, bacon, onions, green onions, and sour cream sits on a table with a small '2025' decoration."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a loaded potato salad topped with sour cream."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of loaded fries topped with cheese, meat, bacon, onions, green onions, and sour cream, with a '2025' party pick inserted."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a loaded poutine dish topped with cheese curds, gravy, ground beef, bacon, sour cream, and onions, featuring a '2025' pick."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses in a sparkly pink top and sheer black skirt against a colorful, decorated wall."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person poses indoors in a pink glittery top and black skirt/mesh layer, surrounded by colorful pastel and neon room decor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a pink glittery top posing confidently against colorful wall decor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with purple hair smiles while posing in a pink glitter top against a colorful, decorated wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with curly purple hair poses in a pink glittery top and black skirt within a room decorated with pink lighting, shelves, and wall art."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with curly hair dyed purple, wearing a sparkly pink shirt, set against a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a smiling person with curly purple-tinted hair, glittery eye makeup, red lipstick, and a sparkly pink top against a pink-toned background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person smiling brightly in a glittery pink shirt against a colorful background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with purple curly hair and glitter makeup smiles while wearing a sparkly pink top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a smiling person with curly purple hair, wearing glittery makeup and a sparkly pink top."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a pair of glasses resting on a small figurine, with a colorful patterned surface underneath."
+        },
+        "gpt-5.4": {
+          "summary": "A pair of black eyeglasses sits on a white stand on a desk in front of a computer monitor and a colorful patterned desk mat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pair of glasses rests atop a small white figurine resembling an animal's head."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pair of eyeglasses rests on a white elephant figurine atop a desk with a colorful patterned mat and computer monitor in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pair of eyeglasses rests on a white, 3D-printed animal figurine atop a black monitor stand in front of a computer screen. The desk features a colorful patterned mat and a small coin with text."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a handmade, colorful figurine resembling a shark or fish, painted in vibrant pink, blue, and white, resting on a wooden surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful, hand-painted fish figurine with a pink and blue design."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful handmade shark-like figurine with pink glittery upper body and blue-and-white lower body is displayed on a wooden surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful shark figurine painted in pink and blue hues sits atop a wooden surface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand-painted, stylized shark figurine with pink and blue accents sits on a wooden surface against a white wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful, hand-painted figurine of a whale with pink scales and blue accents stands on a wooden surface."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a colorful weekly schedule for a streaming community, highlighting themed days and activities."
+        },
+        "gpt-5.4": {
+          "summary": "Colorful pastel graphic showing a streamer’s weekly schedule with themed days, workout and team-up activities, and stream start time details."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weekly schedule of streaming activities including Movement Monday, Team-Up Thursday, [ORGANIZATION] Friday."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful weekly schedule for [PERSON] streams featuring themed days with activities and rewards."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful, retro-styled graphic outlining a weekly streaming schedule featuring fitness challenges, collaborations, and surprise categories."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant digital graphic announces a 'Team"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a collaboration event titled 'Team Up Thursday' featuring a character design and the name '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A neon-styled gaming announcement graphic says 'TEAM UP THURSDAY' and 'I'M TEAMING UP WITH...' above a stylized bat logo and the name '[PERSON].'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional graphic announcing a team-up event featuring [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A neon-colored digital poster announces a 'Team Up Thursday' collaboration with the entity '[PERSON]', featuring a stylized bat-like logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic with a dark, neon-themed background featuring the text 'TEAM UP THURSDAY' and a stylized black character logo labeled '[ORGANIZATION]'."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of food including an enchilada, black beans, a salad, and a grain dish."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a plated meal with a cheese-covered entrée topped with sour cream, a bowl of black beans, Mexican-style rice, and a creamy salad on a patterned plate."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of food featuring enchiladas topped with sour cream, rice pilaf, black beans in a bowl, and what appears to be coleslaw."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plated meal featuring a cheesy omelet with sour cream, black beans, fried rice, and lettuce salad."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a plated meal featuring a cheese omelet topped with sour cream, seasoned rice, coleslaw, and black beans in a blue bowl."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink nail polish poses in front of a colorful, decorated background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling close-up selfie indoors shows pink-painted nails, a floral top, and a colorful room with plush toys, pastel lights, and cute wall art in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person smiles warmly in a room decorated with colorful items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink nails and a floral shirt smiles broadly in a colorful, decorated room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with a nose piercing and pink nail polish poses in a bedroom decorated with plush toys, bubble tea art, and purple lighting."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant digital graphic promotes 'Team Up Thursday' with a cheerful cartoon sushi roll and the name '[ORGANIZATION]' against a dark background with neon geometric patterns."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cute sushi character with a colorful background, promoting a collaboration for 'Team Up Thursday' with '[ORGANIZATION]'."
+        },
+        "gpt-5.4": {
+          "summary": "A neon-styled graphic shows a cute cartoon sushi roll with text about Thursday and teaming up with [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional graphic announcing a 'Team Up Thursday' event featuring Sakurasushi."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful graphic promotes 'Team Up Thursday' featuring a smiling cartoon sushi roll with the text 'I'm teaming up with... [ORGANIZATION]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant, retro-styled graphic featuring a cartoon sushi character with the text 'TEAM UP THURSDAY' and '[ORGANIZATION]'."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A colorful cross-stitch embroidery in a wooden hoop features the phrase \"BE YOU DO YOU FOR YOU\" and a butterfly design."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cross-stitch embroidery displaying the motivational phrase 'BE YOU DO YOU FOR YOU' along with a colorful butterfly design."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful cross-stitch piece in an embroidery hoop reads \"BE YOU DO YOU FOR YOU\" with a small decorative butterfly-like motif below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful cross-stitch embroidery hoop displaying 'BE YOU DO YOU FOR YOU' in vibrant letters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful cross-stitch piece in an embroidery hoop displays the phrase 'BE YOU DO YOU FOR YOU' above a butterfly design."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A completed cross-stitch artwork in a wooden embroidery hoop features the colorful text 'BE YOU DO YOU FOR YOU' above a small butterfly design."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media post"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a message from a streamer announcing a hiatus and expressing gratitude to their audience."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] announcement from [ACCOUNT] saying they are starting a streaming hiatus because of a new job and schedule changes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT] announces a temporary stream hiatus due to new job adjustments."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social-media post from a streamer announcing a temporary hiatus due to a new job and schedule, promising to return with consistent streaming."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] announcement from the user [ACCOUNT] declaring a temporary stream hiatus due to starting a new job while expressing gratitude to their community."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a room with colorful decor, including a sun-themed tapestry and neon lights."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in front of a colorful sun tapestry, with pink LED lights and a yellow banana-shaped neon wall light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a room decorated with neon lights and psychedelic wall art."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses indoors beside a colorful sun tapestry and a neon banana light."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person poses in a green tank top and black vinyl shorts inside a room decorated with a sun tapestry, neon banana light, and pink LED strip lighting."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person with two-toned hair and a nose piercing, wearing a green floral top"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with partially obscured facial features, wearing a floral-patterned top, in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person with two-tone hair, a nose stud, and a green floral ruffled top against a soft neutral background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a floral top smiles in front of white bedding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with highlighted hair and a nose piercing smiles while wearing a floral-patterned top against a plain background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with two-toned hair and a nose piercing, wearing a green floral top against a blurred indoor background."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a bowl of green-colored food, possibly a dessert or snack, with a spoon resting inside."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows scoops of white ice cream or soft dessert in a bowl, heavily drizzled and dusted with green matcha-like sauce and powder, with a spoon at the side."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Matcha-flavored ice cream in a bowl."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of white ice cream in a bowl, generously drizzled with green matcha sauce."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of scoops of white ice cream in a beige bowl, drizzled with green matcha sauce and dusted with powder."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of broccoli and a baked dish topped with shredded cheese, served with rice."
+        },
+        "gpt-5.4": {
+          "summary": "A patterned plate holds a cheese-covered main dish with broccoli and sauce on a dining table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of roasted broccoli topped with grated cheese served alongside a piece of chicken."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plated meal featuring chicken topped with cheese and herbs, alongside roasted broccoli, on a decorative fruit-patterned plate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a home-cooked meal featuring breaded chicken and broccoli topped with grated cheese on a fruit-patterned plate."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of food featuring salad, meat, sauce, and pastries."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a salad plate topped with sliced gyro-style meat, crumbled cheese, white tzatziki-like sauce, and several spanakopita triangles, with an extra cup of sauce on the side."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of food featuring a salad topped with black beans, crumbled cheese, and creamy dressing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a plated salad with meat, cheese, dressing, and fried pastries on a floral-patterned plate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up overhead shot of a plated meal featuring refried beans, cauliflower rice, mixed greens, feta cheese, phyllo pastry triangles, and a generous dollop of creamy white sauce on a floral-patterned plate."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a colorful salad in a black bowl"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a colorful salad with chicken, cucumbers, red onions, and cheese on a dark plate."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a mixed salad topped with grilled chicken, red onion, cucumber, chickpeas, and crumbled cheese on a dark plate at a restaurant table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful salad featuring chickpeas, red onions, feta cheese, cucumber slices, and chicken."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a colorful salad with chicken, chickpeas, feta cheese, red onions, and cucumber on a dark plate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a salad served in a dark bowl on a wooden table, featuring chicken, red onion, chickpeas, cucumber, and feta cheese."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with curly hair is smiling while cuddling with a light-colored dog,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying down with a sleeping dog resting on their arm."
+        },
+        "gpt-5.4": {
+          "summary": "A cozy close-up selfie shows a person smiling while cuddling with a large light-colored dog on a plush couch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a unicorn horn headband cuddles affectionately with their dog."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with curly hair smiles while lying down next to a sleeping white dog on a fluffy blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with curly blonde and black hair lies on a white textured surface, smiling while cuddling a sleeping white dog."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful background of various bubble tea drinks with the text 'Starting Soon' prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A streaming software screen shows a colorful bubble tea-themed \"Starting Soon...\" overlay above an audio mixer panel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful illustration of bubble tea drinks surrounded by tapioca pearls with a 'Starting Soon...' message below."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer monitor displays a colorful graphic of bubble tea drinks with popping tapioca pearls and the text 'Starting Soon...', overlaid on an audio mixing software interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A computer monitor displays a colorful 'Starting Soon' stream overlay featuring bubble tea graphics, positioned above an audio mixer interface."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital display shows that '[PERSON]' has raised $3,641.51 lifetime for [ORGANIZATION], with confetti-like elements in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a fundraising total of $3,641.51 raised for [ORGANIZATION] [ORGANIZATION] by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A celebratory fundraising graphic shows [PERSON] with $3,641.51 raised for [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "$3,641.51 raised by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fundraising graphic showing $3,641.51 raised by [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displays a fundraising total of $3,641.51 raised by the channel [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a fundraising event for [LOCATION], detailing milestone goals and rewards for participants."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful promotional poster advertises a St. Jude Play Live charity Twitch stream kickoff with milestone goals, rewards, and a Just Dance-themed illustration."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster for [ORGANIZATION] kickoff event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful promotional poster for [ORGANIZATION], detailing donation milestones and rewards for [PERSON] streaming events."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful promotional graphic for a St. Jude Play Live charity stream event featuring milestone goals and viewer rewards."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A colorful digital graphic promotes a St. Jude Play Live fundraising event"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image outlines fundraising milestone goals and rewards for a St. Jude Play Live event."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful promotional flyer for a St. Jude Play Live fundraising stream lists donation milestone goals, viewer rewards, and a kickoff date."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "St. Jude Play Live fundraising event details including milestone goals and rewards."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fundraising poster for [ORGANIZATION] 'Play Live My Milestones' campaign, listing donation goals and rewards with a beach-themed background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic for a St. Jude Play Live fundraising event detailing milestone goals and donor rewards."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holds a colorful sign indicating a fundraising goal for St. Jude Play Live."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person sits in a colorful decorated room holding a St. Jude Play Live sign with a $500 fundraising goal for 2025."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a poster promoting St. Jude Play Live goal of $500 by 2025."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while holding a colorful [LOCATION] goal card in a cozy, pink-lit room decorated with plush toys."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with curly hair holds a colorful fundraising poster for [ORGANIZATION] [ORGANIZATION] in a bedroom decorated with plush toys and pink lighting."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a fundraising event for [LOCATION], detailing milestone goals and rewards for participants."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful promotional poster advertises a St. Jude Play Live charity Twitch stream kickoff with donation milestones, rewards, and a Just Dance theme."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster for [ORGANIZATION] kickoff event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful promotional poster for [ORGANIZATION] 'Play Live Season' fundraiser featuring milestone goals, rewards, and a [PERSON] stream date."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful promotional graphic for a St. Jude Play Live charity stream event featuring milestone goals and viewer rewards."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a green oversized sweater and a black skirt, posing confidently with a playful doll beside them."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in a green sweater and black skirt, with an illustrated outfit overlay in the corner and colorful room decor in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in a vibrant outfit featuring green clothing against an indoor backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses indoors wearing a green sweatshirt and black skirt, with a cartoon overlay of a similar outfit displaying the text 'fitness, but i didn't sign up for cardio'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with curly hair and bold makeup poses in a green sweater next to an illustrated avatar wearing a similar outfit."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with colorful hair and makeup sits on the floor in a room decorated with string lights, shelves, and a sign that"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a green sweater and black shorts poses in a colorful room decorated for a live event supporting [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses on the floor in a green outfit in a decorated room with green LED lights and a handmade \"St. Jude PLAY LIVE\" wall sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a green sweater sits casually against colorful wall decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits in a colorful, decorated room with green lighting and a banner reading '[LOCATION]. [PERSON] PLAY LIVE'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with colorful hair and dark makeup sits on the floor in a room decorated with green lighting, plush toys, and a handmade banner."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with curly hair, green highlights, purple eyeshadow, and black lipstick poses with hands on hips, wearing a green sweatshirt and black skirt, against a white wall decorated with a My Melody figure, a plant, and string lights"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands confidently in a green sweater and black skirt, with colorful hair accents, in a decorated indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in a green sweater and black skirt with bold makeup, decorative string lights, and cute shelf decor in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in a room decorated with colorful lights and toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with neon-green hair streaks and bold makeup poses confidently in a green sweatshirt and black skirt against a decorated wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with curly hair featuring neon green streaks poses indoors wearing a green sweater and black skirt, set against a wall decorated with shelves and colorful LED lighting."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a colorful outfit is sitting at a wooden table holding a drink, with a bright outdoor scene visible through an open door."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a colorful festival-style outfit sits indoors holding a red drink near an open wooden doorway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a medieval-inspired outfit enjoys a drink indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling person in colorful attire holds a drink inside a rustic wooden structure."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman in a white off-the-shoulder top and colorful patterned skirt sits indoors holding a red drink, with rustic wooden beams and a view of [ORGANIZATION] outside."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a streaming setup with a 'Starting Soon' screen for a charity event and a gaming interface featuring a character from a video game."
+        },
+        "gpt-5.4": {
+          "summary": "A gaming and streaming setup shows [ORGANIZATION] with a St. Jude Play Live 'Starting Soon' charity stream screen above a monitor displaying [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A live stream setup showing a charity event countdown alongside game interface elements."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer monitor displays a live-streaming setup for a [ORGANIZATION] game, with a charity event countdown and chat interface visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dual-monitor streaming setup displaying a 'St. Jude Play Live' charity countdown on the top screen and the [ORGANIZATION] game menu featuring 'The Kraken: Bossfight' on the bottom screen."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of incentives for a 'Duo Day' event organized by [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional flyer for [ORGANIZATION]Duo Day' lists incentive amounts for duo dance, karaoke, themed costumes, and other paired activities."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "$3 Standard Duo Dance; $10 [PERSON]; $25 Cringe Couple's Choice"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional poster for 'Duo Day' incentives at [LOCATION], listing dance and activity options with prices."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic listing donation incentives for a 'Duo Day' event benefiting [LOCATION], featuring various dance challenges with associated price points."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A graphic displays a list of \"Duo Day Incentives\" with varying"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of incentives for a 'Duo Day' event organized by [LOCATION], featuring various activities with corresponding donation amounts."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional graphic for a St. Jude Duo Day event lists incentive amounts for duo dances, karaoke, themed costumes, and other pair activities."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "$3 Standard Duo Dance; $10 [PERSON]; $25 Cringe Couple's Choice"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional poster for [ORGANIZATION] 'Duo Day' listing dance and activity incentives with prices."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic listing donation incentives for a 'Duo Day' event benefiting [LOCATION], featuring various dance challenges with associated price points."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital interface displays a fundraising progress bar showing $141.69 raised towards a $500.00 goal, with options to share on Facebook and Twitter."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a fundraising progress bar showing $141.69 raised out of a $500 goal."
+        },
+        "gpt-5.4": {
+          "summary": "A fundraising progress graphic shows $141.69 raised toward a $500.00 goal, with [ORGANIZATION] and Twitter share buttons above a progress bar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "$141.69 raised towards a $500 goal."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fundraising progress bar showing $141.69 raised out of a $500.00 goal, with [ORGANIZATION] and Twitter share buttons above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fundraising progress interface showing $141.69 raised toward a $500 goal with social share buttons."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing headphones in front of a wall with a sign that reads '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person wearing glasses and over-ear headphones takes a selfie in a cozy room with playful lighting and a handmade sign reading \"St. Jude Play Live.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing headphones in a cozy room decorated with colorful lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing headphones and glasses smiles at the camera in a room decorated with neon lights and a handmade sign reading '[ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with glasses and headphones sits in a room decorated with neon lights, plants, and a handmade sign."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is dressed in a colorful, handmade costume resembling a cartoon character, complete with a flower headband and playful accessories."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in a colorful handmade cosplay outfit with blue wig, bold makeup, and cartoon-style dress pieces against a decorated wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a colorful costume featuring an animated character design stands indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a colorful costume with a paper cutout torso stands indoors under blue lighting, posing in front of a decorated wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a room with blue LED lighting wears a handmade cardboard costume resembling the character [ORGANIZATION] from [PERSON], featuring a red top and yellow skirt."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with blue hair and stylized makeup, including a white face, blue eyebrows, yellow eyeshadow, and red lips, is wearing a red and yellow comic-book-"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a colorful costume with a large red and yellow design, set against a decorated background."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in a colorful handmade costume with blue hair, dramatic makeup, and a large red cartoon-style bodice."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a costume holding an oversized red bow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with blue hair and theatrical makeup wears a red costume with a yellow bow, posing indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a homemade costume with blue hair, white face paint, and a red cardboard bodice featuring a yellow bow poses indoors."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a colorful, handmade costume with a floral skirt and a red top, posing in a decorated room."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in a handmade colorful costume with a red top and yellow floral skirt, surrounded by cute decor and string lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a handmade costume featuring an animated character's outfit."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a handmade costume resembling an animated character, standing indoors with colorful decorations and a chalkboard background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with blue hair and heavy makeup poses in a room decorated with string lights, wearing a DIY cardboard costume resembling the character [PERSON] from The Powerpuff Girls."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Here"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a fundraising total of $4,108.20 raised for [ORGANIZATION] [ORGANIZATION] by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A celebratory graphic shows [PERSON] has raised $4,108.20 lifetime for [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "$4,108.20 raised by [ACCOUNT] for [ORGANIZATION] [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fundraising graphic showing $4,108.20 raised by [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A celebratory graphic displaying a lifetime fundraising total of $4,108.20 for [ORGANIZATION] [ORGANIZATION] by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a beverage in a plastic cup with foam and cinnamon, placed"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cup of iced drink alongside colorful beaded bracelets on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "A plastic cup of iced creamy drink sits on a wooden table beside several colorful handmade beaded bracelets with smiley, flower, and butterfly charms in an indoor cafe-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful beaded necklace adorned with smiley faces sits next to a frothy drink in an indoor café."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plastic cup of iced coffee with cinnamon sits on a wooden table beside colorful beaded bracelets."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A plastic cup of iced coffee topped with cinnamon sits on a wooden table next to several colorful beaded bracelets featuring smiley faces and flowers."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white SUV is parked in front of a Buc-ee's store, viewed"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the exterior of a Buc-ee's convenience store with a clear blue sky in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A Buc-ee's storefront with the beaver logo is photographed from inside a car, with a white SUV parked outside under a blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a Buc-ee's convenience store from inside a vehicle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Buc-ee's store viewed from inside a car on a sunny day, with a white SUV parked in front."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from inside a vehicle shows the exterior of a Buc-ee's convenience store with a white SUV parked in front under a blue sky."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is depicted wearing a detailed mask and costume, resembling [PERSON]"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a detailed, colorful mask with spikes, set against a red background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows someone indoors under intense red lighting wearing a large spiked fantasy-style mask and costume accessories."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a [PERSON]'s Mask costume under red lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a detailed, spiky mask with large eye holes, illuminated by red light in an indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a detailed [PERSON]'s Mask cosplay costume is captured in a close-up selfie under intense red lighting."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds up a vibrantly colored, spiky"
+        },
+        "gpt-4o-mini": {
+          "summary": "A colorful, spiked mask is being held up, showcasing intricate designs and vibrant colors."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a brightly painted spiked fantasy mask resembling [PERSON]'s Mask against a blurred indoor background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a colorful [PERSON]'s Mask replica."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a colorful, spiky mask with large yellow and green eyes, resembling a video game character."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a colorful, handmade replica of the Majora's Mask from The Legend of Zelda video game series."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A smiling couple poses for a selfie in a public space with a restroom sign in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people smile for a selfie in an indoor hallway, with event lanyards and a women’s restroom sign visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie in an indoor public space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people wearing event lanyards pose for a selfie indoors near a restroom sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man and woman pose for a selfie in an indoor hallway, both wearing blue lanyards with 'Playground' branding."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a '[ORGANIZATION] event at [LOCATION] [LOCATION] featuring various sponsors."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an X post shows a neon-styled promotional flyer for a \"Preload Party\" event at [ORGANIZATION] on Friday, [DATE] at HIDE. [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional graphic for a 'PRELOAD party' event featuring logos of [ORGANIZATION], Gamer Supps, Ghost ETRNL Studio."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A neon-styled promotional poster for a 'PRELOAD party' event scheduled for Friday, [DATE], at HIDE, [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital flyer for a 'PRELOAD party' event at [ORGANIZATION] on [DATE], featuring logos from sponsors like [ORGANIZATION] and Meld."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "A cocktail is placed next to a promotional card for a '[ORGANIZATION] event."
+        },
+        "gpt-5.4": {
+          "summary": "A tropical-looking iced drink with a grapefruit garnish sits on a wooden table beside a colorful event card for a 'PRELOAD party' in a dim bar or café setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cocktail garnished with a flower sits next to an event flyer titled 'PRELOAD party'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tropical drink with a garnish sits next to a 'PRELOAD party' event card on a wooden table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a pink cocktail garnished with citrus and a flower sits on a wooden table next to a promotional card for the 'PRELOAD party'."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a colorful costume sits on an ornate couch with a neon '[ORGANIZATION]' sign in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a colorful fantasy-style cosplay sits on an ornate neon-lit throne seat in front of a [ORGANIZATION] event backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a [PERSON]'s Mask cosplay sitting confidently on an ornate chair labeled '[ORGANIZATION]'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a colorful costume with a mask sits on an ornate, neon-lit throne chair at a [ORGANIZATION] event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cosplayer wearing a [PERSON]'s Mask costume sits on an ornate, neon-lit throne featuring the [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An image displaying a weekly [PERSON] stream schedule with specific activities like gaming, a recap, and a rest day, along"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weekly streaming schedule with specific activities for each day."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel graphic shows this week's [PERSON] stream schedule for [ACCOUNT], including [ORGANIZATION] recap, a glow-in-the-dark stream, [ORGANIZATION], Just Dance, and a Sunday rest day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A schedule of weekly streams featuring various activities."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful weekly stream schedule poster for [PERSON] channel '[ACCOUNT]' listing gaming and event content by day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weekly streaming schedule graphic for '[ACCOUNT]' featuring a pink and purple color scheme with specific game titles and times listed for each day."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a stack of golden-brown pancakes topped with a swirl of light green cream, a pat of butter, and a drizzle of syrup, all served on a black plate"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of pancakes topped with whipped cream and syrup."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a stack of pancakes topped with a scoop of vanilla ice cream and syrup on a colorful plate."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stack of pancakes topped with whipped cream and butter."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of stacked pancakes topped with whipped cream, syrup, and butter on a colorful plate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stack of golden-brown pancakes topped with a large dollop of whipped cream, a pat of butter, and drizzled syrup on a Halloween-themed plate."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a partially eaten green waffle topped with cream and syrup on a decorative plate."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a cut green waffle or cake topped with melted cream or ice cream and chocolate sauce on a red cartoon-patterned plate."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a green cake slice topped with white frosting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a green-colored waffle topped with white icing and syrup, served on a red plate with cartoon faces."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a green waffle topped with melting butter and syrup, served on a red plate featuring white cat illustrations."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white box contains three pastries, including a green matcha-dusted croissant, a chocolate-covered"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a box containing three pastries: a green matcha croissant and two chocolate-covered items."
+        },
+        "gpt-5.4": {
+          "summary": "An open white pastry box contains assorted baked pastries, including chocolate-covered items and a green powder-dusted croissant-like pastry."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A box containing three pastries coated in chocolate."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white box contains three pastries: a matcha croissant, a chocolate croissant, and a chocolate-glazed donut."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white bakery box contains three pastries: a green matcha croissant, a chocolate-glazed donut with sprinkles, and a large chocolate-covered pastry."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a stack of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stack of green pancakes topped with whipped cream."
+        },
+        "gpt-5.4": {
+          "summary": "A plate of pancakes covered in pale green cream sauce and topped with a large mound of whipped cream sits on a restaurant table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stack of green pancakes topped with whipped cream."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stack of green pancakes topped with whipped cream on a white plate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stack of green matcha pancakes covered in thick cream sauce and topped with a large mound of whipped cream on a white plate."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a fundraising campaign for [ORGANIZATION], featuring a donation button and progress towards a financial goal."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows a [PERSON] fundraising page for [PERSON]’s “Pumpkin-patch-stab-cancer-2025” campaign supporting [ORGANIZATION], with donation progress and share buttons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Fundraising page promoting a campaign against cancer."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [PERSON] fundraising page for 'Pumpkin-patch-stab-cancer-2025' supporting [ORGANIZATION] [ORGANIZATION], showing $610.69 raised toward a $1,358.49 goal."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a [PERSON] fundraising page for the 'Pumpkin-patch-stab-cancer-2025' campaign benefiting [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a 'Just Dance 2025 Edition' [ORGANIZATION] game case over a purple '[LOCATION]"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a St. Jude Play Live box with a [ORGANIZATION] game, Just Dance 2025 Edition, placed in front of it."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a [ORGANIZATION] copy of Just Dance 2025 Edition over a large purple [LOCATION] branded box."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A box labeled '[ORGANIZATION] containing a [ORGANIZATION] game case."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION] game case for 'Just Dance 2025 Edition' over a purple 'St. Jude Play Live' donation box."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a [ORGANIZATION] game case for 'Just Dance 2025 Edition' in front of a large purple [LOCATION] donation box."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is drawing a sun with sunglasses and writing 'SHINE BRIGHT' on a large piece of brown paper."
+        },
+        "gpt-5.4": {
+          "summary": "A person is writing on a large paper wall poster featuring a smiling sunflower and the word \"SHINE\" in a pastel-decorated room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person writing 'SHINE' in pink marker next to a sun drawing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person writes on a brown paper poster with a colorful sun drawing and the word 'SHINE' in pink marker."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person is drawing a sunflower wearing sunglasses on a large brown paper poster with the text 'SHINE' and '[PERSON]."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a fundraising campaign for [ORGANIZATION] with a progress bar and donation details."
+        },
+        "gpt-5.4": {
+          "summary": "A fundraising campaign webpage for \"Pumpkin-patch-stab-cancer-2025\" shows [LOCATION] branding, donation/share buttons, and progress toward a donation goal."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fundraising page for [ORGANIZATION] [ORGANIZATION] featuring a goal of $1,358.49 raised so far."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fundraising campaign page for [ORGANIZATION] [ORGANIZATION] with a progress bar showing $701.69 raised out of a $1,358.49 goal."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a crowdfunding campaign page for [ORGANIZATION] [ORGANIZATION] titled 'Pumpkin-patch-stab-cancer-2025' showing a raised amount of $701.69 against a goal of $1,358.49."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A Discord message from '"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a message reminding a community about a break and upcoming events related to gaming and 3D printing."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Discord-style announcement says the group is on break until Wednesday and mentions community-night games and a 3D-printer text chat for new prints."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT] reminder of a break due to [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post announces a break until Wednesday to recover from a live event, with mentions of community chat channels."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Discord announcement from user [ACCOUNT] notifying the community of a break until Wednesday to recover from [ORGANIZATION], with updates expected in specific channels."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a lit lavender-scented candle in a metal tin, with a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "A lit candle in a metal tin sits on a wooden surface, with its lid showing a lavender-themed label in warm, cozy lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A lit lavender scented candle sits atop its lid."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A lit lavender-scented candle in a metal tin rests on a wooden surface, with its lid nearby displaying the brand label."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A lit, double-wick candle in a silver tin sits on a wooden surface next to its lid."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Colorful confetti pieces are scattered across a light brown wooden floor, suggesting the aftermath of a celebration."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a floor scattered with colorful paper confetti in various shapes."
+        },
+        "gpt-5.4": {
+          "summary": "Colorful paper confetti strips are scattered across a wooden floor indoors, creating a messy party or craft scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wooden floor scattered with colorful confetti pieces."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Colorful paper confetti scattered across a wooden floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Colorful rectangular paper confetti scattered across a light wood laminate floor."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful poster promoting a [LOCATION] event with drawings and stickers."
+        },
+        "gpt-5.4": {
+          "summary": "A handmade wall poster with drawings, stickers, and string lights reads “St. Jude Play Live” alongside “SHINE BRIGHT.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Creative poster featuring a drawing of [LOCATION], motivational phrases 'Play Live,' and decorative elements like lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A handmade brown paper poster for 'St. Jude Play Live' with childlike drawings and colorful stickers, hung on a wall under string lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A handmade poster on a wall featuring drawings of a sun and a figure, decorated with stickers and the text 'St. Jude Play Live' and 'SHINE BRIGHT'."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weekly schedule with activities and reminders for a Twitch channel."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel scrapbook-style weekly schedule graphic for [ACCOUNT] lists Wednesday to Friday [PERSON] activities, reminders, and a quote of the week."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful weekly schedule poster featuring activities like coworking, crafting, lunch times, game night reminders, a [ORGANIZATION] video update every Monday, and an [PERSON] quote."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful weekly schedule poster for a Twitch streamer, listing activities like coworking, gaming, and dancing, with reminders and a quote."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displaying a weekly schedule, reminders, and a quote for the [PERSON] channel '[ACCOUNT]'."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a large jar of green drink while wearing headphones in a cozy room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie shows a person wearing headphones and glasses, holding a large iced green drink in a mason jar in a cozy, decorated room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones holds a green smoothie in front of them."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing headphones and glasses smiles while holding a glass jar of green iced drink."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing headphones and glasses holds a mason jar filled with an iced green beverage in a room decorated with bubble tea art."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A colorful, abstract drawing of a circular, [ORGANIZATION]-like"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful, hand-drawn illustration of a circular object resembling a planet or space station, surrounded by a splatter of vibrant colors."
+        },
+        "gpt-5.4": {
+          "summary": "A spiral sketchbook page shows a colorful abstract circular drawing with paint splatter across the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful watercolor painting of a Death Star-like object against splattered background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful, hand-drawn [ORGANIZATION] on a splattered notebook page."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful hand-drawn illustration of a spherical object resembling [ORGANIZATION], featuring geometric patterns in purple and green, set against a background of multi-colored paint splatters on a spiral-bound sketchbook page."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a collection of colorful, artistic dice with various numbers visible."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a hand holding five colorful marbled polyhedral gaming dice with blue numbers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a set of colorful dice featuring abstract designs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds several colorful, custom-painted polyhedral dice with visible numbers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a set of five colorful, marbled polyhedral dice with blue numerals."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two pieces of toast topped with melted cheese are served on an orange plate,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two slices of toast topped with melted cheese on a colorful plate, accompanied by a can of [PERSON] and a cup with ice."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of two slices of toast covered with melted cheese on a plate, with a Dr Pepper can and a plastic cup drink blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two slices of toasted bread topped with melted cheese are served alongside a can labeled 'Pop Rocks'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two slices of toast topped with melted yellow cheese on an orange plate, with a can and drink in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of two slices of toast topped with melted yellow cheese served on a cartoon-themed plate, accompanied by a can of [PERSON] in the background."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a drink in a jar on a colorful desk mat with a blurred computer screen in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bottle-shaped glass of a pale iced drink with a straw sits on a colorful desk mat in front of a blurred computer setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a frothy drink in a glass jar placed on colorful stickers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A frothy drink in a glass jar sits on a colorful mousepad in front of a blurred computer setup."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A glass jar filled with a frothy, light-colored beverage and a straw sits on a colorful mousepad featuring cartoon characters, with a blurred computer monitor in the background."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with curly hair is smiling with closed eyes while a white and brown dog nuzzles their face, with a bookshelf visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying on a couch with a dog close to their face, creating an intimate moment."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person smiling while cuddling with a large light-colored dog on a couch, with bookshelves in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a pink headband smiles while lying next to their dog."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while lying down next to a dog, with bookshelves visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling person with curly hair and a pink headband lying next to a white dog in a room with bookshelves."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a colorful calendar for June 2025, detailing scheduled live streams and activities."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful June 2025 calendar graphic shows a [PERSON] streaming schedule with livestream times for crafting, [ORGANIZATION], Just Dance, a horror game, a makeup stream, and a vacation week."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Monthly calendar of live streams scheduled from June '25."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful June 2025 streaming schedule for [ACCOUNT] featuring daily live streams and themed events."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful June 2025 streaming schedule calendar for the [PERSON] channel [ACCOUNT] featuring regular live streams, gaming sessions like [ORGANIZATION] and Just Dance, craft activities, and a vacation period."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a cartoon-style outfit, featuring a red top and yellow skirt with floral designs, poses against a drawn park and city background with a blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a colorful outfit standing in a cartoonish urban landscape with a playful caption."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a colorful cartoon-style outfit poses in front of an illustrated park and city backdrop, with a sticker reading “we can’t be friends.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stylized cartoon character in a vibrant outfit stands against an urban park backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a colorful outfit stands in a cartoon-style city park with the text 'We can't be friends' displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with blue hair and heavy makeup stands in a cartoon-style park setting, wearing a red crop top and yellow floral skirt, next to a graphic that reads 'we can't be friends'."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital graphic displays a 'Coworking To-Do List' with five tasks, set against"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful to-do list for coworking tasks, accompanied by a cute cartoon dog."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel infographic titled \"Coworking To-Do List\" lists tasks like housework, stream tasks, social media, convention prep, and 3D printing, with a cartoon dog in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful 'Coworking To-Do List' featuring tasks like [LOCATION], [ORGANIZATION], [ORGANIZATION], Convention Prep, and [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pastel-colored to-do list titled 'Coworking To-Do List' with five tasks and a cartoon dog at the bottom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displays a 'Coworking To-Do List' with five tasks including housework, streaming, and convention prep against a purple gradient background with a cartoon dog."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling man and woman pose for a photo in front of [LOCATION] at Epcot, with colorful flower beds in the foreground, at dusk."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses in front of a large, iconic geodesic dome structure at dusk, surrounded by colorful flowers and a crowd."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose smiling in front of the illuminated Epcot geodesic sphere at night, with flower beds and other visitors around them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of [LOCATION] at Epcot during twilight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a photo in front of the [LOCATION] geosphere at dusk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses for a photo in front of the illuminated [LOCATION] geosphere at [ORGANIZATION] during twilight."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A smiling woman and a man with a beard pose for a selfie in a colorful, cozy room decorated with plants and a vibrant tapestry."
+        },
+        "gpt-5.4": {
+          "summary": "A cheerful indoor selfie shows two people in a colorful room with a psychedelic sun wall tapestry, pastel decor, and a Twitch shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are smiling in a room decorated with colorful wall art featuring celestial themes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile playfully in a colorful, cozy room decorated with a sun tapestry and bubble tea-themed items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman takes a selfie with a man in the background wearing a purple [PERSON] t-shirt, set against a wall decorated with a psychedelic sun tapestry and bubble tea-themed decor."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a blurred face, focusing on their beard and hair."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up portrait of a bearded person wearing colorful eye makeup and multicolored lipstick against a softly lit indoor background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing colorful makeup around their eyes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a beard smiles while wearing colorful makeup on their eyes and lips."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a bearded person wearing colorful makeup, including rainbow lipstick and glittery eyeshadow."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait shows a person smiling with their"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image appears to be a close-up of a person's face, but it is obscured and lacks clear details."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a smiling person with colorful pink-and-blue eye makeup, purple lipstick, and a nose stud in soft indoor lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person smiling brightly while wearing colorful makeup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a person with colorful makeup smiling and squinting their eyes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling person with curly blonde hair wearing vibrant pink and blue eyeshadow, purple lipstick, and gold glitter on their nose."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A selfie of two individuals in a colorful setting with decorative elements in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows two smiling people wearing colorful makeup in front of bright neon-style wall decor, with a purple Twitch shirt visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals posing together in a colorful indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people with colorful makeup pose for a selfie in front of a vibrant mural."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of two smiling individuals with colorful face paint and glitter, standing in front of a psychedelic poster."
+        }
+      }
+    },
+    "image_00124": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up selfie of two individuals with obscured faces, set against a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of two people in colorful makeup making playful kissy faces, with one wearing a purple Twitch shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals posing playfully in a colorful indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people with colorful makeup pose playfully for a selfie indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of two people with colorful makeup and rainbow lips posing playfully indoors."
+        }
+      }
+    },
+    "image_00125": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weekly schedule with various activities and reminders for a Twitch channel."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel scrapbook-style weekly schedule graphic for [ACCOUNT] lists Wednesday through Friday activities, reminders, and a quote of the week."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] schedule of activities including coworking sessions, crafting time, horror streams, and dance classes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful weekly schedule poster for a Twitch streamer, listing activities and reminders with a quote."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displaying a weekly schedule for Wednesday through Friday, including coworking, lunch, crafting, and streaming activities, alongside reminders and an inspirational quote."
+        }
+      }
+    },
+    "image_00126": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character in a space suit, set against a backdrop of a galactic battle scene."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful gaming promo graphic shows a cartoon fish-like space pilot in a Star Wars-style battle scene with [ORGANIZATION], explosions, and a circular portrait photo, advertising a watch stream."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A promotional graphic for a Star Wars-themed video titled 'Galactic Battle V Death Star Sabotage' featuring [ACCOUNT]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] character in a space battle scene with a Death Star and TIE fighters, promoting a video by [ACCOUNT]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic for a Star Wars-themed [ORGANIZATION] event featuring the character [PERSON] in a cockpit with [ORGANIZATION] and TIE fighters in the background, alongside a circular inset photo of a woman."
+        }
+      }
+    },
+    "image_00127": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a streaming setup with a 'Starting Soon' screen and a gaming interface on two monitors."
+        },
+        "gpt-5.4": {
+          "summary": "A dual-monitor gaming setup shows [ORGANIZATION] with a Twitch \"Starting Soon\" screen on the top monitor and a [PERSON]-themed horror game menu on the bottom monitor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A gaming setup showing a streamer's interface preparing for live streaming."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming setup with two monitors showing a [PERSON] stream going live and a game menu for '[PERSON] Pizza'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dual-monitor gaming setup displaying the game Five Nights at [ORGANIZATION]'s: Security Breach on the bottom screen and [ORGANIZATION] streaming software with a 'Starting Soon' graphic on the top screen."
+        }
+      }
+    },
+    "image_00128": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses in a colorful room wearing a patriotic shirt and denim shorts, with decorative lights and a tapestry in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in sunglasses and a black hat, wearing a [LOCATION] flag shirt and colorful arm warmers in front of a celestial tapestry and decorative lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in a colorful room wearing an American flag shirt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses in a room decorated with colorful lights and a psychedelic tapestry, wearing an American flag shirt, sunglasses, and a hat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing an American flag shirt, cowboy hat, and sunglasses poses in a room decorated with a psychedelic tapestry, LED lights, and cute figurines."
+        }
+      }
+    },
+    "image_00129": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful drink topped with a [ORGANIZATION] SquarePants figure."
+        },
+        "gpt-5.4": {
+          "summary": "A green iced drink in a plastic cup is topped with a small [ORGANIZATION]-themed stirrer or candy decoration, with yellow fruit at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A drink in a clear plastic cup topped with a [ORGANIZATION]-shaped lid."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A layered green and yellow drink in a clear plastic cup topped with a [ORGANIZATION] SquarePants jelly figure."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a layered green and yellow iced beverage in a plastic cup topped with a [ORGANIZATION] SquarePants jelly decoration."
+        }
+      }
+    },
+    "image_00130": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two matcha-flavored items, a drink and a soft-serve ice cream topped"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a matcha drink and a matcha soft serve dessert, both presented elegantly."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a green matcha iced drink and a matcha soft-serve dessert topped with edible gold leaf on a table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Matcha drinks from [PERSON] featuring a green smoothie in a cup topped with gold leaf."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two matcha desserts from [PERSON], one iced drink and one soft-serve topped with gold leaf, sit on a green surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a premium matcha iced drink and a soft-serve ice cream topped with gold leaf on a green table."
+        }
+      }
+    },
+    "image_00131": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dessert in a round glass dish is visually"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dessert divided into two distinct flavors, chocolate and matcha, with a decorative green strip in between."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a round creamy dessert topped half with cocoa powder and half with green matcha powder, separated by a green garnish."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a layered dessert featuring chocolate mousse and green tea powder."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dessert in a glass dish divided vertically into chocolate and matcha halves, separated by a green strip."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A round dessert in a glass dish is divided into two halves, one dusted with cocoa powder and the other with green matcha powder, separated by a bamboo leaf."
+        }
+      }
+    },
+    "image_00132": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dessert, possibly a donut or pancake, topped with green powder and a whole strawberry, is presented in a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dessert with matcha powder, a strawberry on top, and a side of green sauce."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy dessert pancake or soufflé in a takeout box is topped with cream, matcha powder, and a strawberry, with extra strawberry halves and a small cup of green sauce beside it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Matcha donut topped with a strawberry in an open box."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A matcha-flavored dessert topped with a strawberry, served with sliced strawberries and a dipping sauce in a box."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of fluffy matcha pancakes topped with a whole strawberry and green powder, served in a white box alongside sliced strawberries and a small container of syrup."
+        }
+      }
+    },
+    "image_00133": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black headband with mouse ears features a white text overlay that reads \"JUST HERE FOR THE DRINKS\" against a black and gold patterned fabric background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a headband with the text 'JUST HERE FOR THE DRINKS' displayed prominently."
+        },
+        "gpt-5.4": {
+          "summary": "A black headband with a sticker reading \"Just Here for the Drinks\" lies on dark patterned fabric with sun-like golden designs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a black fabric item featuring bold white lettering 'JUST HERE FOR THE DRINKS' against gold decorative patterns."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black circular object with a white sticker reading 'JUST HERE FOR THE DRINKS' rests on a black fabric with gold flame patterns."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black headband with a white sticker reading 'JUST FOR THE DRINKS HERE' rests on a black and gold patterned fabric."
+        }
+      }
+    },
+    "image_00134": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white dog with light brown spots and floppy ears is lying calmly on a textured, light-colored couch or bed."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is lying on a plush couch."
+        },
+        "gpt-5.4": {
+          "summary": "A white dog with light tan spots is lying on a plush cream-colored couch indoors, looking toward the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A white dog with brown spots lounges comfortably on a textured couch."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white dog with tan spots rests calmly on a fluffy, textured couch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white dog with light tan spots and floppy ears is lying comfortably on a plush, cream-colored sofa."
+        }
+      }
+    },
+    "image_00135": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a calendar for July 2025 featuring scheduled live streams and events."
+        },
+        "gpt-5.4": {
+          "summary": "A floral-themed July 2025 [PERSON] streaming calendar for [ACCOUNT] lists recurring live streams for Just Dance, coworking, [LOCATION], and [ORGANIZATION], with side notes about sponsored streams, game night, and new [ORGANIZATION] uploads."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A July calendar of live streams from [ACCOUNT] featuring various activities like Just Dance, [ORGANIZATION], [ORGANIZATION], Game Night every Saturday."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A July 2025 calendar for [PERSON] streamer '[ACCOUNT]' showing daily live-stream schedules and special events."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful calendar graphic displaying a live streaming schedule for July 2025 featuring games like Just [PERSON] and [ORGANIZATION] alongside craft and coworking sessions."
+        }
+      }
+    },
+    "image_00136": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of a digital chat message from a user with a colorful profile picture, sharing a personal update with friends."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a message from a user addressing friends and providing a personal update."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a social media or chat-style post with a profile icon and a message beginning, “Hey friends [PERSON],” followed by a personal update about being transparent about real life."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet from a user sharing an update in their real life."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post showing a user's message about wanting to be transparent about their real life."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post features a profile picture of a person with glasses and text announcing a personal life update."
+        }
+      }
+    },
+    "image_00137": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [ORGANIZATION] displays a weekly schedule including coworking, gaming, and chatting, along with reminders, a motivational quote, and a [PERSON] channel name, all adorned with playful doodles and washi tape elements."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weekly schedule for activities including gaming and coworking, along with a motivational quote."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel graphic shares a [ORGANIZATION] stream schedule with weekly events, a Saturday game night reminder, and a motivational quote."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful weekly schedule poster featuring activities like coworking, [ORGANIZATION] playtime, Just [PERSON] sessions, lunch breaks, game night reminders, a quote of the week by [PERSON], and [PERSON] channel information."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful weekly schedule poster for a Twitch streamer, listing activities like coworking, gaming, and chatting with times, plus reminders and a motivational quote."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displaying a weekly streaming schedule, reminders, and an inspirational quote on a scrapbook-style background."
+        }
+      }
+    },
+    "image_00138": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a colorful room filled with decorations and art."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person poses in a cozy, brightly decorated room with plush toys, kawaii wall art, a pumpkin drawing, and a colorful tapestry."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a colorful room decorated with various art pieces and plush toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles in a brightly decorated room filled with colorful wall art, plush toys, and personal items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with curly hair stands in a decorated bedroom featuring a tapestry, plush toys, and wall art."
+        }
+      }
+    },
+    "image_00139": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weekly schedule for streaming activities, including game nights and a motivational quote."
+        },
+        "gpt-5.4": {
+          "summary": "A scrapbook-style graphic shows a weekly [PERSON] streaming schedule with game sessions, a Saturday game-night reminder, and a motivational quote."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful weekly schedule poster featuring activities like 'Coworking' and a motivational quote."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful weekly schedule graphic for a Twitch streamer, listing activities and a motivational quote."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital weekly schedule graphic for a Twitch streamer featuring activities like gaming and dancing, along with reminders and an inspirational quote."
+        }
+      }
+    },
+    "image_00140": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays various K-pop merchandise items, including albums, photo cards, and a plush toy."
+        },
+        "gpt-5.4": {
+          "summary": "A collection of K-pop merchandise is laid out on a blanket, including [ORGANIZATION] and [ORGANIZATION] albums, photo cards, a keychain, and a large purple plush toy."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of K-pop merchandise including albums, a plush toy, keychains, and photo cards."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of K-pop merchandise, including albums, photos, and plush toys, arranged on a brown blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of K-pop merchandise, including albums by [ORGANIZATION] and [PERSON], photocards, a keychain, and a purple plush toy arranged on a beige blanket."
+        }
+      }
+    },
+    "image_00141": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing with a peace sign while wearing headphones, in a colorful room decorated with various items."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person wearing over-ear headphones poses with a peace sign in a cozy, pink-lit room decorated with cute wall art and small shelves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones smiles while making a peace sign in front of colorful decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing headphones smiles and makes a peace sign in a colorful, decorated room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with curly hair and headphones poses with a peace sign in a room decorated with pink lighting, plush toys, and wall art."
+        }
+      }
+    },
+    "image_00142": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a call for content creators to host panels or workshops, featuring a colorful background and a QR code for registration."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful promotional flyer seeks content creators to host panels or workshops, showing event dates and a QR code for registration."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Flyer promoting a workshop event called 'Content Creators Wanted' from [DATE]-[DATE]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful poster recruiting content creators to host panels or workshops during [DATE]–[DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful promotional graphic inviting artists, dancers, musicians, and cosplayers to host panels or workshops for an event taking place from [DATE] to [DATE]."
+        }
+      }
+    },
+    "image_00143": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a playful outfit with a denim vest and colorful accessories, posing in a vibrant room decorated with various items."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in a denim outfit with a silver checkered cowboy hat, round sunglasses, yellow gloves, and purple lipstick against a decorated bedroom wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a denim outfit posing indoors decorated with Halloween-themed items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses indoors wearing a checkered hat, yellow gloves, and denim outfit against a wall decorated with Halloween-themed items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a denim vest, cowboy hat, and yellow glove poses in a room decorated with neon lights and pop culture items."
+        }
+      }
+    },
+    "image_00144": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A promotional graphic features a black and white portrait of a person, identified as [PERSON], Community Manager, for [LOCATION] on [DATE], 20"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a professional badge for [PERSON], a [ORGANIZATION] Manager, associated with [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Promotional conference graphic featuring a grayscale portrait and text announcing [PERSON] as a [ORGANIZATION] Manager for [ORGANIZATION], [DATE]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional graphic featuring [PERSON] as a [ORGANIZATION] Manager attending [ORGANIZATION] in March."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional graphic featuring [PERSON], Community Manager, for [LOCATION] event on [DATE], under [PERSON] branding."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic for [ORGANIZATION] featuring a black-and-white portrait of [PERSON], identified as a [ORGANIZATION] Manager for [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00145": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in front of a large '[ORGANIZATION] sign at a convention center."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses in front of a large red PAX East display at a convention venue with event branding and expo signage visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in front of a large red 'PAX East' sign inside an event venue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses behind a large red 'X' cutout at the [LOCATION] convention, with event branding and dates visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with curly hair stands smiling in front of a large red [LOCATION] logo at an indoor convention center."
+        }
+      }
     }
   }
 }

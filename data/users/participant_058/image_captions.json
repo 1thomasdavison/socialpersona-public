@@ -1,67 +1,2251 @@
 {
   "user_id": "participant_058",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "city exploration",
-        "photography",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; city exploration; photography; savory food."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a blurred face wearing a black off-shoulder top, posing in a dimly lit room with decorative elements in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling indoor selfie shows a person wearing oversized glasses and a black off-shoulder top, with blue LED lights and a celestial tapestry in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses smiles in a room decorated with string lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a black top smiles while posing indoors with string lights and a patterned backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with glasses and a nose piercing poses indoors under blue LED lighting against a celestial-patterned backdrop."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "music",
-        "nature visits",
-        "outdoor activities",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; music; nature visits; outdoor activities; spectator sports."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses and dark hair is smiling at the camera, wearing a dark off-the-shoulder top, with string lights and a celestial-themed tapestry visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing with a relaxed expression in a dimly lit room decorated with a patterned tapestry."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person wearing large glasses takes an indoor selfie in a black off-shoulder top, with blue LED lights and a celestial tapestry in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses smiles in front of a decorative wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses and red hair smiles while wearing a black top, standing in front of a celestial-patterned tapestry under string lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with glasses and dark hair poses indoors in front of a celestial-patterned tapestry illuminated by LED strip lights."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "film and television",
-        "music",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; music; photography; spectator sports."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing large glasses, a nose ring, a black off-the-shoulder top, and red and black plaid pants takes a selfie with a puckered lip expression in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a black off-shoulder top and red plaid pants, posing in a hallway."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror-style indoor selfie shows a person in oversized glasses, a black cropped top, and red-and-black checkered pants posing with puckered lips."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses and a black crop top paired with red plaid pants making playful facial expressions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a black top poses playfully indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing large glasses, a black off-shoulder top, and red plaid pants poses for a selfie with puckered lips in an indoor hallway."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "dining",
-        "music",
-        "savory food",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; dining; music; savory food; spectator sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses and dark hair takes a high-angle selfie in a hallway, making a kissy face while holding keys."
+        },
+        "gpt-4o-mini": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-5.4": {
+          "summary": "A high-angle mirrorless-style selfie shows a person in a black outfit and oversized glasses posing in a hallway while holding keys and a small black bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie in an indoor hallway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie in a hallway, making a kissy face while holding keys and wearing glasses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle selfie of a person wearing glasses and a black strapless top, making a kissing face while holding keys in an indoor hallway."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "film and television",
-        "nature visits",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; nature visits; photography; spectator sports."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features plush slippers designed to resemble Appa from 'Avatar: The Last Airbender'."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile browser screenshot shows a [PERSON] product page advertising [PERSON]-themed slippers from Avatar: The Last Airbender for $90."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pair of plush Appa slippers from Avatar: The Last Airbender priced at $90.00 USD."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A product page showing plush slippers designed as the character [PERSON] from Avatar: The Last Airbender, priced at $90.00 USD."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the [PERSON] website displaying a pair of plush Appa slippers from Avatar: The Last Airbender priced at $90.00."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "music",
-        "nature visits",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; music; nature visits; photography; spectator sports."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with red hair and glasses takes a mirror selfie, making a kissy face while wearing a white strapless top and grey sweatpants."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie wearing a white top and gray sweatpants."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie of a person with red hair and round glasses wearing a white strapless top and gray sweatpants in an apartment interior."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair and glasses takes a mirror selfie holding a red phone while making a playful face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with red hair and glasses takes a mirror selfie wearing a white tube top, grey sweatpants, and holding a red phone."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a bathroom, wearing a sheer cover-up and a cap."
+        },
+        "gpt-5.4": {
+          "summary": "A bathroom mirror selfie shows a person in a sheer cover-up over blue swimwear, wearing oversized sunglasses and a dark cap, with toiletries spread across the counter."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bathroom wearing sunglasses and wrapped partially by fabric."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom, wearing sunglasses and a sheer top over swimwear."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a green cap, sunglasses, and a sheer patterned top takes a mirror selfie in a bathroom with granite countertops. The foreground displays various toiletries including Cetaphil lotion, [ORGANIZATION] wipes, and toothbrushes."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a pink bikini and a white shirt, with a casual living room setting in the background."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie indoors showing a person in a bright pink bikini, white open shirt, and sunglasses in a living room/kitchen area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a pink bikini takes a mirror selfie indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a pink bikini and white shirt takes a mirror selfie in a living room with wicker furniture and a visible refrigerator."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with red hair and sunglasses poses in a mirror selfie wearing a pink bikini and white shirt inside a living room."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with red hair and glasses takes a mirror selfie in a casual indoor setting, holding a pink tumbler and smiling, with a living area and kitchen visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is standing in a living space, holding a drink and taking a selfie in a mirror."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling mirror selfie in a casual home interior shows a person holding a pink tumbler and phone while wearing a loose light-colored cover-up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a mirror selfie in casual attire holding drinks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a casual home setting while holding a drink and phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and reddish hair takes a mirror selfie in a living room, wearing a sheer patterned top over swimwear while holding a red phone and a tumbler."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with red hair and glasses takes a mirror selfie, making a playful face while wearing a blue one-shoulder top, grey sweatpants, and sandals in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in front of a mirror, wearing a blue crop top and gray sweatpants, with a casual home setting in the background."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in an apartment showing a casual outfit with a blue asymmetrical top, gray sweatpants, sandals, and accessories."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in casual athletic wear, holding a red phone with a photo attached."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with red hair and glasses takes a mirror selfie in a living room, wearing a blue top, grey sweatpants, and sandals while holding a phone with a photo attached."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a small dog with black and white fur resting on a bed."
+        },
+        "gpt-5.4": {
+          "summary": "A small black-and-white dog is lying on a bed indoors, looking at the camera in a dimly lit room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small black-and-white dog lying down indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white dog with long fur lies on a textured blanket, looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small, fluffy black and white dog with a bone-shaped collar tag lies on a beige bedspread in a dimly lit room."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with red hair and sunglasses takes a mirror selfie, wearing a pink bikini under a white sheer cover-up and sandals, with bee tattoos visible on their"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a sheer outfit in a living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in an apartment showing a person wearing oversized sunglasses, a sheer white cover-up dress over a pink bikini, and sandals."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in an outfit featuring pink accents."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a sheer pink outfit and sunglasses, posing playfully indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with red hair and sunglasses takes a mirror selfie wearing a white textured dress over a pink top, revealing small tattoos on their knees."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with curly red hair poses in a dimly lit hallway, wearing a brown top and displaying a tattoo on their abdomen."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor selfie shows a person with curly red hair and oversized glasses wearing a brown halter top, with a floral torso tattoo visible in warm sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a selfie in an indoor parking garage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair and glasses makes a kissy face in a selfie taken indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with curly red hair and large glasses poses for a selfie in a hallway, wearing a brown halter top that reveals a floral tattoo on their abdomen."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling person with red curly hair and glasses is shown from the chest up, wearing a brown halter top and black pants, with a tattoo visible on their abdomen."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with curly red hair wearing a brown top, showcasing a tattoo on their abdomen."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling indoor selfie shows a person with curly red hair and large glasses wearing a dark halter-style top, with a floral underboob tattoo visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a brown top smiles while showing off their tattooed midriff."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair and glasses smiles while wearing a brown top, revealing a floral tattoo on their abdomen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with curly red hair and large glasses poses in a brown halter top, revealing a floral tattoo on their midriff."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person's feet wearing brown shoes, standing on a textured floor."
+        },
+        "gpt-5.4": {
+          "summary": "Top-down view of someone standing indoors on a gray textured floor wearing reddish-brown lace-up shoes and black pants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of feet wearing brown shoes against a textured carpet background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A top-down view of brown lace-up shoes and black pants on a gray textured carpet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a person wearing brown leather boots with black laces and dark trousers standing on a grey carpeted floor."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two colorful ice cream sundaes, one pink with gummy worms and cherries, and one mint"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two colorful ice cream sundaes with playful decorations, set on a table."
+        },
+        "gpt-5.4": {
+          "summary": "Two playful face-like ice cream sundaes with gummy candy, cherries, chocolate, and whipped cream sit on a dark tabletop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two colorful ice cream sundaes are displayed in metal bowls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two whimsical, candy-decorated ice cream sundaes in silver bowls on a dark table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two elaborately decorated ice cream sundaes sit on a dark table, one pink with gummy worms and the other mint green with cookies and whipped cream."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds an orange plush toy resembling Calcifer from Howl's Moving Castle inside a car, with a street scene visible through the windshield."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a plush toy resembling a small creature in a car setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a small orange plush toy with big eyes inside a car, with a parking lot and stop sign visible through the windshield."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds an orange plush toy in a car interior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds an orange plush toy inside a car on a sunny day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds an orange plush toy with large eyes and small horns inside a car, with a street scene visible through the windshield."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person taking a selfie in a mirror while wearing a tactical backpack."
+        },
+        "gpt-5.4": {
+          "summary": "A bathroom mirror selfie shows a person holding a red phone while wearing a camouflage tactical chest pack, with towels and [ORGANIZATION] toothpaste visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of bathroom decor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom while wearing a tactical vest and holding a red phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a camouflage tactical vest takes a mirror selfie in a bathroom while holding a red smartphone."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a car holds two colorful toy water guns, one resembling a duck and the other a larger blaster."
+        },
+        "gpt-5.4": {
+          "summary": "A person sitting in a car holds two yellow Nerf-style toy blasters, including a large [ORGANIZATION]-branded one, in a casual selfie."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a car holding two toy guns labeled 'Nerf' and '[ORGANIZATION]'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits in a car holding two Nerf blasters, one shaped like a [ORGANIZATION] weapon and another resembling Pikachu."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses sits in a car holding two yellow Nerf toy guns, one of which has [ORGANIZATION] labeled '[ORGANIZATION]'."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing glasses and a white t-shirt holds up an orange plush toy resembling Calcifer from Howl'"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a plush toy resembling a crab in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in glasses holds a bright orange plush toy toward the camera in a playful indoor selfie."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a plush crab toy in front of their face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds an orange plush crab toy while taking a selfie indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a white t-shirt holds up an orange plush crab toy while making a hand gesture near their head in a casual indoor setting."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four costumed characters with oversized heads poses with a child dressed in a white outfit holding a stuffed animal."
+        },
+        "gpt-5.4": {
+          "summary": "A child in a white costume holding a plush toy poses outdoors with four large-headed [ORGANIZATION] character costumes in a crowded palm-lined park."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people dressed as aliens pose playfully in a public outdoor area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young girl in a white robe smiles while posing with several people dressed as alien characters holding props."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young girl in a white robe holding a small animal stands smiling among four adults wearing alien masks and black outfits, some holding props resembling lightsabers."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing an oversized pink shirt and holding a phone."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in a loose pink off-shoulder top holding a red phone in a dim bedroom or dressing area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of black curtains."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie holding a red phone, wearing a pink off-the-shoulder top and glasses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a pink off-the-shoulder top takes a mirror selfie with a red phone in a dimly lit room."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with short reddish-brown hair and glasses smiles while taking a mirror selfie"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a black outfit."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person takes a mirror selfie in a bathroom, wearing a black outfit and glasses while holding a red phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a mirror selfie in front of a plain wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie holding a red smartphone, wearing glasses and all-black attire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with short reddish-brown hair and glasses takes a mirror selfie wearing a black outfit while holding a red smartphone."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a black shirt and holding a red phone."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person with short dark hair and glasses wearing a black shirt and holding a red phone in a plain indoor bathroom or hallway setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of plain walls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie holding a red smartphone with a [ORGANIZATION]-style photo attached to the back."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with short reddish-brown hair and glasses takes a mirror selfie wearing a black t-shirt and holding a red smartphone."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A decorative, layered papercraft number '6' in yellow, light blue, and white is centered on a vibrant blue background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized number '6' in yellow and blue against a blue background."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized decorative number 6 in yellow and pastel tones is centered on a bright blue background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stylized number six design against a blue background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized, layered paper-cut letter 'G' in yellow, light blue, and pink against a solid blue background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized, multi-layered paper-cut letter 'G' in yellow and white with decorative flourishes is centered against a solid blue background."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in a car, holding the steering wheel while wearing a brown dress."
+        },
+        "gpt-5.4": {
+          "summary": "A person with dark red hair smiles while seated behind the wheel of a car at night, photographed with flash in a parking area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a car wearing a brown dress."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dark hair and makeup sits in the driver's seat of a car at night, wearing a shiny brown dress."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with reddish-brown hair and a nose piercing sits in the driver's seat of a car at night, wearing a dark metallic dress."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a brown dress is seated in a car, with their arm resting on the steering wheel."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a shiny dress poses with puckered lips in the driver’s seat of a car at night."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a car making an expressive pose."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a shiny brown dress sits inside a car at night, making a playful face toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with reddish hair and winged eyeliner poses for a selfie in the driver's seat of a car at night, wearing a bronze satin dress."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with reddish-brown hair smiles while leaning against a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a brown dress is sitting in a car, with a focus on their arm and shoulder."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a shiny dark dress poses in the driver’s seat of a car at night with flash lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a car wearing a brown dress smiles while leaning against another individual."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a brown satin dress smiles while seated inside a car at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with reddish hair and a nose ring sits in the driver's seat of a car at night, wearing a shiny brown dress."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with red hair is sitting in a car, resting their head on their hand in a contemplative pose."
+        },
+        "gpt-5.4": {
+          "summary": "Flash-lit photo of a person with short red hair sitting in the driver’s seat of a car, leaning forward with a hand in their hair."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting in a car adjusting their hair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short red hair sits in a car at night, running their hand through their hair."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with short, reddish-brown hair sits in the driver's seat of a car at night, wearing a dark metallic dress and running a hand through their hair."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a gym with pink lighting and dumbbells in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a neon-lit gym with rows of dumbbells, workout stations, and a person in [LOCATION] holding a phone and water bottle."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in front of dumbbells inside a gym."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym filled with dumbbells under purple lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in athletic wear takes a mirror selfie inside a gym illuminated by purple lighting, surrounded by rows of dumbbells and exercise equipment."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a parking garage while holding multiple drink bottles."
+        },
+        "gpt-5.4": {
+          "summary": "A person in athletic wear takes a high-angle selfie in a parking garage while holding drink bottles, keys, and a phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] of a person in an indoor parking garage holding water bottles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie in an underground parking garage while holding bottles and keys."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in athletic wear takes a selfie in an indoor parking garage while holding a red shaker bottle and keys."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person holds a black plate featuring two soft tacos filled with yellow rice, ground meat, shredded cheese, and various sauces."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a plate with two tacos filled with rice, meat, and toppings."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a black plate with two soft tacos topped with yellow rice, ground meat, shredded cheese, and sauce in an indoor hallway or kitchen area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of two tacos topped with rice, meat, cheese sauce, sour cream, and salsa."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a black plate with two open-faced tacos filled with yellow rice, ground meat, cheese, and sauce."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a dark plate featuring two open-faced tacos filled with yellow rice, ground meat, shredded cheese, sour cream, and sauce."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person holds a dark plate containing two tortillas filled with yellow rice, ground meat, shredded cheese, sour cream, and hot sauce, against a background of light wood flooring."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a plate with two tacos filled with rice, meat, and toppings."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a black plate with two small soft tacos topped with yellow rice, ground beef, shredded cheese, sauce, and a bit of sour cream in an indoor kitchen-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two tacos topped with rice, meat, cheese, sour cream, salsa, and green onions are held over a wooden floor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a dark plate with two open-faced tacos filled with yellow rice, ground meat, cheese, and sauces."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a dark plate containing two open-faced tacos filled with yellow rice, ground meat, shredded cheese, sour cream, and sauce."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing on a boat with a calm ocean backdrop, making hand gestures."
+        },
+        "gpt-5.4": {
+          "summary": "Two people wearing sunglasses pose with hand signs on a small boat, with calm open water and a bright blue sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are enjoying a sunny day out on a boat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people posing playfully on a boat with ocean and sky in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose for a selfie on a boat in open water, both wearing sunglasses and pointing at the camera."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a white shirt stands on a boat, gazing out at a calm sea under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in oversized sunglasses and a sheer white cover-up poses on a boat over calm blue ocean under a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing sunglasses stands on a boat under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing sunglasses and a white shirt smiles while standing on a boat with ocean and sky in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing sunglasses and a white shirt stands on a boat with the open ocean in the background."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling person with sunglasses on their head poses on a boat with calm blue water and a clear sky in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses on a boat with a serene ocean backdrop under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a white cover-up stands on a boat over calm open water under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person enjoying a sunny day out on water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while standing on a boat, wearing a white shirt and sunglasses perched on their head against a backdrop of ocean and clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person stands on a boat deck wearing a white shirt and sunglasses, with the open sea and blue sky in the background."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing on a boat with a scenic ocean background, wearing a bikini and a white shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black bikini and open white cover-up smiles and waves while standing on a boat over calm blue water under a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person waving while standing outdoors by a body of water under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person waves cheerfully from a boat on a sunny day with ocean and sky in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing a white shirt over a black bikini stands on a boat, waving against a backdrop of blue water and sky."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie, making a kissy face, while wearing a white crop top and denim"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a white top and denim shorts in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in an apartment showing a casual outfit with a white crop top, blue cargo shorts, glasses, and sneakers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a white top and denim shorts, making a kiss face with a red phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses, a white halter top, and denim cargo shorts takes a mirror selfie with a red phone in a home setting."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a dimly lit room with blue lighting, wearing a white top and denim shorts."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit indoor selfie shows a person wearing glasses and a white crop top, with blue ambient lighting and a living-room or kitchen area in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a white tank top in an indoor room setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a white crop top poses indoors under blue lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a white tank top poses for a selfie in a dimly lit room with blue ambient lighting."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a gaming screen celebrating the defeat of a great enemy in the game [PERSON], with a notification for a new item acquired."
+        },
+        "gpt-5.4": {
+          "summary": "A Discord livestream screenshot shows someone playing [PERSON] and defeating a boss, with the “GREAT ENEMY FELLED” victory screen and a [ORGANIZATION] reward visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A live stream of '[ORGANIZATION] gameplay showing a victory screen after defeating an enemy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gameplay screenshot from [PERSON] showing a 'GREAT ENEMY FELLED' victory screen with a loot item, viewed during a live stream."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a live stream showing the 'GREAT ENEMY FELLED' victory screen and item reward in the video game [PERSON]."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two stylized virtual avatars, one with an afro and the other green-skinned, pose in a digital environment with user names and status labels visible above them."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two stylized characters posing in a virtual setting, one with a green face and the other with dark hair."
+        },
+        "gpt-5.4": {
+          "summary": "Two stylized 3D avatars pose side-by-side in fashion outfits against a dark studio-like backdrop, with a plant and curtains visible on the left."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two animated characters in a virtual environment posing near signs indicating 'VIP' status."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two stylized avatars stand in a room, one leaning against a wall near a potted plant, both displaying 'Rising Star' status."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two stylized female avatars pose in a virtual environment, with one having green skin and hair and the other wearing dark clothing."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A virtual character in a blue dress stands in a stylish indoor setting with palm trees and decorative elements."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized game avatar wearing a bright blue floor-length gown and tiara stands inside a pastel interior with a beach patio visible through the windows."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A virtual character in a blue gown stands indoors near an open door leading outside."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized avatar in a blue gown and tiara stands indoors near a doorway with a beach scene visible outside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female avatar in a blue gown and tiara stands inside a virtual boutique with other avatars visible in the background."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie in a casual indoor setting, showcasing their outfit."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in front of a mirror in a well-lit room with plants and furniture."
+        },
+        "gpt-5.4": {
+          "summary": "A person is taking a mirror selfie in a bright apartment corner with a floor mirror, houseplant, and casual outfit."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their living room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a room with a tall plant, wooden floors, and a window with curtains."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a full-body mirror selfie in a room featuring light wood flooring, a large potted plant, and a sliding glass door."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant, cartoonish image features a blue dolphin with sharp teeth and an open mouth, set against a hot pink background with rainbows, bubbles, and hearts,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant, cartoonish shark with a wide grin is set against a colorful, psychedelic background featuring rainbows and bubbles."
+        },
+        "gpt-5.4": {
+          "summary": "A bright, surreal digital illustration shows a blue dolphin with sharp teeth against a pink rainbow background, with the large word \"OVULATING\" across the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant illustration of a dolphin with an exaggerated open mouth against a colorful background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon dolphin with sharp teeth is shown against a vibrant background of rainbows and bubbles, with the word 'OVULATING' overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized, aggressive blue dolphin with sharp teeth is depicted against a vibrant pink background filled with rainbows and bubbles."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling person in a white graphic long-sleeve shirt, black pants, and cartoon slippers takes a mirror selfie in a casual indoor"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a long-sleeve shirt and black pants, with colorful slippers on their feet."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a smiling person indoors wearing a white graphic long-sleeve top, black pants, and plush Halloween-themed slippers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a home, wearing a patterned top and festive slippers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a white graphic top takes a mirror selfie in a living room, featuring Halloween-themed slippers and a door labeled 'fartstuff'."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a white outfit poses thoughtfully in a social setting with others in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in oversized glasses and a white outfit poses playfully with a finger on their chin in an indoor event hall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a white dress strikes an expressive pose indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white top and glasses poses playfully with their finger on their chin in a dimly lit indoor event space."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with dark hair and thick-rimmed glasses poses playfully in a white halter top inside a wood-paneled event hall."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a hippo's face with two hands holding guns pointed at it."
+        },
+        "gpt-5.4": {
+          "summary": "An edited close-up image shows a baby hippo facing the camera while holding two handguns, with a person’s hand under its chin against a plain background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digitally edited image of a hippopotamus holding two revolvers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a hippopotamus with two hands holding pistols pointed forward."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A surreal digital composite showing a hippopotamus's head superimposed over human hands holding two handguns pointed forward against a white background."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person takes a selfie in a parking garage, capturing their reflection in a round mirror."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows two people standing in a parking garage, with one holding a red phone and several parked cars in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals take a selfie in an empty parking garage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people take a fisheye mirror selfie in an underground parking garage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two people take a mirror selfie in a concrete parking garage, with the person in front wearing a black t-shirt and making a playful face."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a silhouetted figure joyfully breaking free from chains against a colorful sunset background."
+        },
+        "gpt-5.4": {
+          "summary": "A silhouetted person poses with raised arms against a colorful sunset sky, with a broken chain and sparkle effects edited into the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Silhouette of a person breaking chains against a sunset backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A silhouette of a person breaking free from chains against a sunset sky with stars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A silhouette of a person with raised arms breaking chains against a sunset sky."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a lively hockey game in a packed arena, showcasing players on the ice and enthusiastic fans in the stands."
+        },
+        "gpt-5.4": {
+          "summary": "A packed indoor arena shows fans watching an ice hockey game on the ice beneath a large glowing scoreboard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A lively hockey game in a packed arena."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Crowd watching an ice hockey game in a brightly lit arena with fans wearing team apparel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a crowded indoor ice hockey arena with players on the rink and spectators in red team jerseys watching from the stands."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a hockey game in progress, with players on the ice and spectators in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "View from behind the glass at an indoor ice hockey arena, with [ORGANIZATION] players warming up on the rink and [LOCATION] Panthers signage visible in the stands."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] game in progress viewed from a spectator's perspective."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from the stands at a hockey game, showing players on ice and spectators watching through protective glass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Spectators watch an ice hockey game from behind the glass at a large indoor arena."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A smiling young woman poses for a selfie with a man, both wearing orange clothing associated with a sports team."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie shows two people wearing orange [ORGANIZATION] tops outside a building in daylight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals wearing [ORGANIZATION] jerseys pose together in front of a building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people wearing [ORGANIZATION] sports apparel pose for a selfie outside a building."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman wearing matching orange [ORGANIZATION] apparel pose for a selfie outside a building."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a green off-the-shoulder top and wide-leg jeans takes a mirror selfie in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a green oversized shirt and wide-leg jeans in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in a green off-shoulder top, wide-leg jeans, and checkered slip-on shoes standing in a sunlit apartment living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing glasses, green top, jeans, and checkered shoes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a green off-the-shoulder shirt and wide-leg jeans in a living room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses, a green off-shoulder t-shirt, and wide-leg jeans takes a mirror selfie in a living room."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a green off-the-shoulder top and wide-leg jeans takes a mirror selfie indoors, holding a red-cased phone."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie wearing a green oversized shirt and blue jeans in a living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in glasses wearing a loose green off-shoulder top and blue jeans in a softly lit apartment room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a green off-the-shoulder shirt and blue jeans, holding a red phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a green t-shirt takes a mirror selfie in a living room while holding a red phone."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a colorful outfit at a social event, with blurred faces of others in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry close-up selfie shows a person in oversized glasses and a bright blue patterned top making an excited expression in a crowded indoor event space."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses makes a playful face in front of an audience."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses makes an excited, wide-eyed expression in a crowded indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, motion-blurred selfie of a person with dark hair and thick-rimmed glasses making an exaggerated excited expression while wearing a blue and yellow patterned top in a crowded indoor setting."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with bright red hair and glasses, wearing a black top and a red seatbelt, takes a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with red hair is seated in a vehicle, wearing a black top and a seatbelt."
+        },
+        "gpt-5.4": {
+          "summary": "A low-light close-up portrait shows a person with bright red bobbed hair and large black glasses wearing a black top with a red crossbody strap against a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person wearing glasses and red hair in front of dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair and glasses sits in a car wearing a seatbelt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a person with bright red hair and black-rimmed glasses wearing a black top and a red strap across their chest in a dimly lit setting."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] summary featuring top artists and songs along with total minutes listened."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-style graphic shows album art above lists of top artists, top songs, and a total of 40,980 minutes listened."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] post showcasing top artists like [ORGANIZATION] and songs such as 'Linger'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] summary showing top artists, top songs, and total listening time, framed by a black-and-white portrait against a vibrant red and pink background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] summary graphic featuring a black-and-white portrait of [LOCATION], The Creator against a vibrant red and pink background, listing top artists, songs, and total minutes listened."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie, wearing a cropped white tank top and denim shorts, holding a handbag."
+        },
+        "gpt-5.4": {
+          "summary": "Indoor mirror selfie showing a person with bright pink hair and glasses wearing a white cropped tank top, denim shorts, sneakers, and carrying a dark handbag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing denim shorts, sneakers, glasses, and carrying a brown bag."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair takes a mirror selfie while wearing a crop top, denim shorts, and carrying a designer handbag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with pink hair and glasses takes a mirror selfie wearing a white crop top, denim shorts, and holding a brown handbag."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair is taking a mirror selfie while wearing a gray hoodie and pajama pants with a Halloween theme."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person with bright pink hair and glasses wearing a gray hoodie and Halloween-themed pajama pants in a bedroom with a desk setup and wall-mounted TV."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bedroom wearing themed pajamas."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair takes a mirror selfie in a bedroom wearing themed pajamas and a hoodie."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with bright pink hair and glasses takes a mirror selfie in a bedroom, wearing a grey zip-up hoodie and black pajama pants featuring characters from The Nightmare Before Christmas."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A brown tabby cat with green eyes and white markings on its chest and nose stands on a blue and white patterned blanket inside what appears to be an enclosure."
+        },
+        "gpt-4o-mini": {
+          "summary": "A tabby cat is sitting on a patterned blanket inside a shelter enclosure."
+        },
+        "gpt-5.4": {
+          "summary": "A tabby cat is sitting on a patterned blanket inside a small enclosure, facing the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tabby cat sits calmly atop a patterned blanket in what appears to be an animal shelter."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby cat with white markings sits alertly on a patterned blanket inside a white enclosure."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tabby cat with a white chest sits on a patterned blanket inside a white enclosure."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with red hair, glasses, and a nose ring wears a gaming headset with glowing blue lights in a dark setting, looking slightly upwards."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a headset in a dark setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person in a dark setting wearing large glasses and a glowing over-ear gaming headset with a microphone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones in a dark environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glowing blue headphones and glasses looks upward in a dark setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and a nose ring wears a headset with glowing blue accents in a dark setting."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a green and white varsity jacket in a bathroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling mirror selfie in a bathroom shows a person wearing a green-and-white varsity jacket and glasses, holding a red phone amid cozy home decor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a mirror selfie in front of green bomber jacket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair and glasses takes a mirror selfie in a green and white varsity jacket, holding a red phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with red hair and glasses takes a mirror selfie wearing a green varsity jacket in a bathroom decorated for the holidays."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a green and white varsity jacket in a bathroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a bathroom shows a person with bright pink hair wearing a green-and-white varsity jacket and holding a red phone, with holiday decorations in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a mirror selfie in front of festive decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair and glasses takes a mirror selfie wearing a green and white varsity jacket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with magenta hair and glasses takes a mirror selfie wearing a green and white varsity jacket in a room decorated for winter."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a bathroom, wearing a green and white varsity jacket and gray pants."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a bathroom shows a person with bright pink hair wearing a green-and-white varsity jacket, with winter/holiday decor in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bathroom wearing glasses and casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair takes a mirror selfie in a bathroom wearing a green and white varsity jacket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with red hair and glasses takes a mirror selfie wearing a green and white varsity jacket in a bathroom decorated with winter-themed items."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a humorous mashup of [PERSON] from X-Men looking at a framed picture of a football player in an [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] meme shows [PERSON] lying in bed holding a framed photo of a [ORGANIZATION] football player, implying nostalgic longing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme juxtaposing [PERSON] from X-Men holding a football against an [ORGANIZATION] player in action."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meme showing [PERSON] reading a book in bed, with a framed photo of [ORGANIZATION] quarterback below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A two-panel meme featuring the animated character [PERSON] reading a framed photograph of [LOCATION] quarterback [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair is making a shushing gesture while wearing a dark t-shirt featuring animated characters."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit selfie shows a person with red hair and large glasses holding a lollipop, with red decorative lights in the dark background and an anime graphic shirt visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses and a red wig holding an object near their mouth in dim lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair and glasses makes a 'shushing' gesture while holding a small object near their mouth in a dimly lit setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with pink hair and glasses poses in a dimly lit setting while holding a small, wrapped item to their mouth."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with pink hair, wearing a red bikini top and black pants, stands on a wooden boardwalk overlooking a sunny beach with a pier and buildings in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair is standing on a wooden deck overlooking a beach and pier."
+        },
+        "gpt-5.4": {
+          "summary": "A person with bright pink hair stands on a wooden boardwalk facing a sunny beach with dunes, buildings, and a pier in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands on a wooden boardwalk overlooking a beach scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair stands on a wooden boardwalk overlooking a beach and coastal buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with bright pink hair stands on a wooden boardwalk facing away from the camera, looking out toward a sunny beach and pier."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair is taking a mirror selfie while wearing a gray hoodie and black shorts in a room with a computer setup in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A casual mirror selfie in a bedroom shows a person with bright pink hair and glasses wearing an oversized gray hoodie, with a desk setup and wall-mounted TV in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bedroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair takes a mirror selfie in a bedroom while wearing a gray hoodie and black shorts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with bright pink hair and glasses takes a mirror selfie in a bedroom, wearing a grey hoodie and black shorts."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with pink hair, wearing glasses and a pink bikini top, smiles up at the camera while standing on a wooden deck in bright sunlight."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair and glasses is smiling while wearing a pink swimsuit on a wooden deck."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up outdoor selfie of a person smiling up at the camera on a wooden deck, wearing large black glasses and a pink top with red trim."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a red-trimmed white top smiles while standing outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair and glasses smiles while wearing a colorful bikini top on a wooden deck."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle close-up of a person with pink hair and glasses wearing a pink and red bikini top on a wooden deck."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair is taking a mirror selfie while wearing a white top."
+        },
+        "gpt-5.4": {
+          "summary": "A bathroom mirror selfie shows a person with bright pink hair, black glasses, and a white tank top holding a red phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of pink hair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with bright pink hair and glasses takes a mirror selfie holding a red phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with bright pink hair and black-rimmed glasses takes a mirror selfie in a white tank top while holding a red smartphone."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair is taking a selfie in a hallway, holding a drink and standing near directional signs for room numbers."
+        },
+        "gpt-5.4": {
+          "summary": "An overhead selfie shows a person with bright pink hair smiling in a tiled indoor hallway while holding a drink, with a room-number direction sign on the wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a selfie in an indoor hallway holding a drink."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair takes a selfie in a hallway while holding a drink and wearing headphones."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle selfie of a smiling person with bright pink hair holding a drink in a hallway with marble flooring."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with bright red hair, wearing sunglasses on their head and a nose ring, takes a high-angle selfie in a hallway while holding a drink with a red straw"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair is taking a selfie while holding a drink and standing in a hallway with room numbers visible."
+        },
+        "gpt-5.4": {
+          "summary": "A person with bright red hair takes a high-angle selfie in a hallway while holding a cup with a straw and a drink accessory."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in an indoor hallway holding a drink."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair takes a selfie in a hallway while holding a drink."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle selfie of a person with vibrant red hair and winged eyeliner holding a drink in a tiled hallway."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair is taking a selfie in an elevator while holding bags."
+        },
+        "gpt-5.4": {
+          "summary": "A top-down mirror selfie in an elevator shows a person with bright pink hair and glasses holding a brown paper bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a selfie in an elevator holding trash."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair and glasses takes a selfie inside an elevator while holding a bag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with bright pink hair and glasses takes a tilted selfie inside an elevator while holding shopping bags."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with red hair wearing a camouflage outfit, set against a dimly lit background with decorative elements."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person with red hair, glasses, and white headphones in a dim room with LED strip lights and dark wall art."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a camouflage shirt indoors under LED lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair and glasses wearing a camouflage-patterned top, photographed indoors under string lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with red hair, glasses, and headphones in a dimly lit room with blue LED strip lighting."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair is taking a mirror selfie while wearing a black long-sleeve shirt and holding a handbag."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a smiling person with bright pink hair in a casual apartment, wearing a black [ORGANIZATION] shirt and holding a brown patterned handbag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in an apartment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair takes a mirror selfie in a living room, wearing a sports-themed shirt and carrying a patterned handbag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with bright pink hair and glasses takes a mirror selfie in an apartment, wearing a [ORGANIZATION] shirt and carrying a brown patterned handbag."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a green sports jersey with the name '[PERSON]' and number '87' while posing in front of a mirror."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person indoors wearing a green [LOCATION] jersey with \"[ORGANIZATION]\" and the number 62 on the back."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a green sports jersey indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair wears a green [LOCATION] jersey with 'KELCE 85' on the back, standing indoors near a TV."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with pink hair is taking a mirror selfie wearing a green [LOCATION] jersey with the name '[PERSON]' and number '87'."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with pink hair and glasses takes a mirror selfie, making a kissing face while wearing a green [ORGANIZATION] jersey with the number 53, standing in a room with an exercise bike and a TV."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a green sports jersey and shorts, posing in front of a mirror."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person with bright pink hair wearing a green number 52 football jersey in a bedroom, with a TV and exercise bike in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a green sports jersey indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair and glasses takes a mirror selfie wearing a green [ORGANIZATION] jersey with the number 53, posing in a room with an exercise bike."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with pink hair and glasses takes a mirror selfie wearing a green football jersey with the number 52, standing in a room with exercise equipment."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing together in matching [LOCATION], showing enthusiasm in a home setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose excitedly in a living room while wearing green football jerseys, with football-themed decorations visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in green sports jerseys pose playfully indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people in green football jerseys pose excitedly in a living room decorated for a game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image shows a man and woman wearing green [LOCATION] jerseys posing excitedly in a living room decorated with football-themed items."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with pink hair is taking a mirror selfie while wearing a green sports jersey and gray sweatpants."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person with bright pink hair wearing a green number 20 football jersey and gray sweatpants in a room with a TV and exercise bike."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a green sports jersey indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair takes a mirror selfie wearing a green [LOCATION] and gray sweatpants in a room with a TV and treadmill."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with bright pink hair and glasses takes a mirror selfie wearing a teal [LOCATION] jersey with the number 20."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person wearing an [LOCATION] and gray sweatpants, standing in a room with a television in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a room shows a person with bright pink hair wearing a green [LOCATION] jersey with a double-zero number, gray sweatpants, and slippers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [LOCATION] jersey sits in front of a TV."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with pink hair wears a [ORGANIZATION] football jersey while standing in a room with a TV and furniture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with bright pink hair is seen from behind in a mirror selfie, wearing a teal [LOCATION] jersey and [ORGANIZATION] inside a bedroom."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view from an airplane window shows a vast expanse of textured clouds stretching below a dark blue sky, with a hint of an airplane engine on the right."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view from an airplane window, capturing clouds and a twilight sky."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime or early-dawn airplane window view shows a vast cloud layer below under a deep blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene night sky view from an airplane window over textured clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from an airplane window showing a sea of clouds below under a dark blue sky with stars visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from an airplane window at night showing a vast, textured layer of clouds below and a dark blue sky above."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime view of an airport tarmac shows several airplanes in the distance, illuminated by bright lights through a hazy or foggy atmosphere."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a foggy airport scene with dim lighting and visible aircraft in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A dark, foggy nighttime airport scene shows runway lights and a few airplanes parked in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A foggy night view of an airport runway from inside a vehicle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A foggy night view from an airplane window showing runway lights and distant aircraft."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blurry, low-light view of an airport tarmac at night with distant aircraft and runway lights visible through fog or haze."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark, atmospheric image"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a view of the moon shining brightly against a dark sky, with clouds visible below."
+        },
+        "gpt-5.4": {
+          "summary": "A very dark low-information photo shows a bright light in the night sky with lens flare and a faint snowy or flat foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime view from an airplane window showing a bright light source above water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright light source shines through dark clouds over a body of water at night, creating lens flare."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark, low-light view from an airplane window at night showing bright landing lights and a wing against a cloudy sky."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene winter scene shows a snow-covered patio table and white railing on a deck, with bare trees and distant buildings visible under a grey sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A snowy outdoor scene featuring a table and railing on a deck, with trees in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A snow-covered backyard deck with a patio table, white railing, and bare trees in a quiet winter scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A snow-covered patio scene featuring a table and chairs surrounded by trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snow-covered outdoor patio table and railing with bare trees in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A snow-covered outdoor deck with a round table and white railing, surrounded by bare trees and distant buildings."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a shiny, reflective object, possibly a trophy or award, alongside a framed photo of two individuals."
+        },
+        "gpt-5.4": {
+          "summary": "A small brown mouse is climbing on a shiny iridescent bag beside several pieces of jewelry and photo pendants on a dark surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a black leather jacket adorned with metallic embellishments."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a shiny, reflective helmet with decorative elements and embedded photos."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot displays a collection of silver jewelry, including a large oval pendant and chains, resting on a black surface next to a reflective metallic object and a photo of two men."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of fans dressed in team colors is gathered outside a venue, showing excitement and camaraderie."
+        },
+        "gpt-5.4": {
+          "summary": "A bundled-up crowd of football fans in green team gear stands behind barricades outside a city restaurant, smiling and posing in a festive street scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "People in winter attire gather outside a restaurant named '[LOCATION] Grille', smiling and posing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowd of people in winter gear and sports apparel poses cheerfully outside a restaurant, with some wearing Eagles and Bills hats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of enthusiastic sports fans wearing [LOCATION] gear poses for a photo behind a metal barricade outside [LOCATION] Grille."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of fans dressed in green and black attire, celebrating in a crowded outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A bundled crowd of football fans in team gear gathers behind barricades outside [LOCATION] Grille, with several people smiling and posing for the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "People in winter attire gather outside a restaurant named '[LOCATION] Grille', smiling and posing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowd of people bundled up in winter gear and sports apparel poses cheerfully outside a restaurant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of enthusiastic sports fans wearing [LOCATION] gear and winter clothing pose behind a metal barricade outside [LOCATION] Grille."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tattoo of a bird holding a trophy on a person's forearm."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a forearm showing a fresh linework tattoo of a bird holding a basketball trophy, photographed indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a forearm tattoo featuring an eagle holding what appears to be a trophy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A freshly inked tattoo on an arm depicts a bird holding a football trophy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a fresh black outline tattoo on an inner forearm depicting a bird, resembling [LOCATION] mascot, holding a football trophy."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a person making a kissy face while wearing oversized pink sunglasses decorated with pearls and beads, with '[PERSON]' and 'Birthday' spelled out on them, against a vibrant blue and gold abstract background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with decorative hair accessories against a blue and gold abstract background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person puckering their lips while lying back beneath blue abstract artwork and wearing oversized pink beaded sunglasses that read “birthday bitch.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing pearl-adorned sunglasses blows a kiss in front of an abstract blue background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing oversized, pearl-decorated sunglasses with 'BIRTHDAY BITCH' text blows a kiss against a blue abstract background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with reddish hair lies down making a kissing face while wearing oversized pink sunglasses decorated with pearls and letter beads."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is wearing a black crop top with the text 'I ❤️ Vampires' while posing in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Indoor selfie of a person in oversized glasses wearing a black crop top with the text “I ♥ VAMPIRES,” with tattoos visible and warm backlighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a 'I ❤️ VAMPIRES' t-shirt takes a selfie in an indoor room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie wearing a black crop top with 'I ❤️ [ORGANIZATION]' printed on it, indoors with a tattoo visible on their arm."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair and glasses takes a selfie wearing a black crop top that reads 'I ❤️ VAMPIRES' in reverse."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital painting depicts a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a cat's face with a stylized, artistic rendering."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up, slightly painterly-looking photo shows an orange tabby cat indoors with dim lights reflected in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digital painting of a cat's face against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized painting of a cat's face with expressive eyes and abstract brushwork."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital painting of a ginger tabby cat with large dark eyes and a white muzzle, set against a moody blue and black background."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, slightly blurry photo shows an orange tabby cat looking directly at the camera in a dimly lit room with string lights visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of an orange tabby cat's face in low light."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up, low-light photo shows an orange tabby cat facing the camera indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a cat's face in dim lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurry close-up of an orange tabby cat looking directly at the camera in a dimly lit room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-light photo of an orange tabby cat looking directly at the camera with large pupils."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A headshot of a man with dreadlocks wearing a dark green football jersey with an [ORGANIZATION] logo and a team emblem on the shoulder, set against a plain white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a sports jersey with a blurred face."
+        },
+        "gpt-5.4": {
+          "summary": "A studio-style headshot shows a person facing the camera in a dark green football jersey with [ORGANIZATION] and eagle team logos against a plain white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [LOCATION] jersey against a plain white background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football player in a [LOCATION] with [ORGANIZATION] logo looks directly at the camera against a white background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A headshot of a male American football player with dreadlocks wearing a green [LOCATION] jersey against a white background."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tattoo of a bird holding a trophy on a person's forearm."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a forearm with a fresh linework tattoo of a bird in flight holding a football trophy, with slight redness around the ink."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tattoo of an eagle holding a trophy adorns someone's forearm."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A freshly inked tattoo on an arm depicts a bird in flight holding a football-shaped trophy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a fresh, black outline tattoo on an inner forearm depicting a bird in flight carrying a football trophy."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a mirror while wearing a green and white varsity jacket and a black top."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person takes a mirror selfie indoors while wearing large glasses, a green-and-white varsity jacket, and holding a phone with a pink floral case."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing glasses and a varsity jacket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a green and white varsity jacket with a bird pin, holding a pink phone case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with dark hair and glasses poses in a mirror selfie wearing a green and white varsity jacket over a black top."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a [ORGANIZATION] summary featuring a man with"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] summary featuring top artists, songs, and listening statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-style graphic shows a pink-lit portrait above music stats listing top artists, top songs, 48,501 minutes listened, and the top genre as [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] stats showcasing top artists like [PERSON], songs such as 'Die With A Smile', minutes listened (48,501), genre [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] summary showing top artists, songs, and genre for a user with 48,501 minutes listened."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] graphic displaying a user's top artists, songs, and listening statistics featuring a portrait of [PERSON]."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile screen"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] interface showcasing the user's top five music artists."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] story-style screenshot shows a ranked 'Your top artists' list featuring [PERSON], [PERSON], [ORGANIZATION], Kanye West, [LOCATION], and The Beatles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] top artists list featuring [PERSON] as number one."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] mobile screen showing a user's top five artists ranked from one to five."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] 'Your top artists' list showing [PERSON], [PERSON], [ORGANIZATION], Kanye West (represented by a mountain goat), [LOCATION], and The Beatles."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] graphic indicating a 'listening age' of 78, suggesting a connection to music from the early 60s."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-style story screen shows a 'listening age' result of 78 with a message about liking early 1960s music."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION]'s 'Your listening age' feature shows a result of 78 years old."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] app screen showing a listening age of 78, attributed to music preferences from the Early 60s."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] 'Your listening age' feature displaying the number 78 and text indicating the user has been into music since the Early 60s."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile phone screen"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] album cover for '[ORGANIZATION]' by [PERSON], The Creator, highlighting listening statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] share screen shows the top album as “[ORGANIZATION]” by [PERSON], The Creator with album art and a total of 1,069 listening minutes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] interface showing a top album by [ORGANIZATION], The Creator."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] screen showing '[ORGANIZATION]' by [PERSON], The Creator as the user's top album with 1,069 minutes listened."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] mobile screenshot displaying a 'Top Album' summary for [PERSON], The Creator's album [ORGANIZATION] with a listening duration of 1,069 minutes."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a wall with a colorful poster of cartoon characters and a decorative circular artwork."
+        },
+        "gpt-5.4": {
+          "summary": "A home wall displays a [PERSON] character print above a round gothic portrait plaque, with parts of a framed picture and an orange shelf visible at the sides."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wall display featuring a [PERSON] poster above an oval-framed artwork of [PERSON]'s monster."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wall displays a poster with multiple [PERSON] illustrations and a circular artwork of [PERSON]'s monster and bride."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wall display featuring a [PERSON] sticker sheet and a circular [PERSON]'s Bride artwork hanging below it."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair and glasses is smiling while wearing a grey [PERSON]-patterned hoodie indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is wearing a [PERSON]-themed oversized hoodie in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry indoor selfie shows a person in glasses wearing [PERSON]-print pajamas or a hoodie with a playful, cozy vibe."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [PERSON]-themed shirt takes a selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses smiles while wrapped in a gray blanket featuring [PERSON] cartoon characters."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and dark hair is wrapped in a grey blanket featuring a repeating pattern of the cartoon cat [PERSON]."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sleeping orange cat is nestled on a soft blanket in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "An orange cat is sleeping on a soft blanket in a sunlit bedroom, with a TV and window blinds in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ginger cat sleeps peacefully under a blanket in front of an entertainment setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An orange cat sleeps peacefully on a grey blanket in a sunlit room with a TV displaying colorful animation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An orange tabby cat sleeps on a grey blanket in a sunlit room with a TV displaying a purple city scene in the background."
+        }
+      }
     }
   }
 }

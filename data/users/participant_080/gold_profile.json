@@ -1,65 +1,687 @@
 {
   "user_id": "participant_080",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
       "status": "active",
       "long_term_interests": [
         {
-          "label": "spectator sports",
+          "label": "baseball",
           "evidence_post_indices": [
             0,
-            1,
             2,
-            3
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            16,
+            17,
+            18,
+            19,
+            22,
+            23,
+            25,
+            26,
+            27,
+            29,
+            30,
+            31,
+            32,
+            33,
+            35,
+            37,
+            38,
+            40,
+            41,
+            43,
+            45,
+            46,
+            50,
+            51,
+            52,
+            54,
+            57,
+            60,
+            66,
+            67,
+            68,
+            69,
+            70,
+            73,
+            76,
+            81,
+            82,
+            86,
+            90,
+            91,
+            92,
+            95,
+            96,
+            97,
+            99,
+            100,
+            101,
+            102,
+            106,
+            108,
+            110,
+            113,
+            115,
+            117,
+            119,
+            120,
+            121,
+            123,
+            125,
+            127,
+            128,
+            130,
+            133,
+            134,
+            136,
+            137,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            147,
+            148,
+            152,
+            153,
+            154,
+            156,
+            159,
+            160,
+            162,
+            164,
+            165,
+            166,
+            171,
+            174,
+            175,
+            176,
+            177,
+            178,
+            180,
+            183,
+            184,
+            185,
+            186,
+            191,
+            192,
+            193,
+            195
           ],
           "evidence_post_ids": [
-            "participant_080_phase_1",
-            "participant_080_phase_2",
-            "participant_080_phase_3",
-            "participant_080_phase_4"
+            "participant_080_post_0001",
+            "participant_080_post_0003",
+            "participant_080_post_0004",
+            "participant_080_post_0005",
+            "participant_080_post_0006",
+            "participant_080_post_0008",
+            "participant_080_post_0009",
+            "participant_080_post_0010",
+            "participant_080_post_0011",
+            "participant_080_post_0014",
+            "participant_080_post_0015",
+            "participant_080_post_0017",
+            "participant_080_post_0018",
+            "participant_080_post_0019",
+            "participant_080_post_0020",
+            "participant_080_post_0023",
+            "participant_080_post_0024",
+            "participant_080_post_0026",
+            "participant_080_post_0027",
+            "participant_080_post_0028",
+            "participant_080_post_0030",
+            "participant_080_post_0031",
+            "participant_080_post_0032",
+            "participant_080_post_0033",
+            "participant_080_post_0034",
+            "participant_080_post_0036",
+            "participant_080_post_0038",
+            "participant_080_post_0039",
+            "participant_080_post_0041",
+            "participant_080_post_0042",
+            "participant_080_post_0044",
+            "participant_080_post_0046",
+            "participant_080_post_0047",
+            "participant_080_post_0051",
+            "participant_080_post_0052",
+            "participant_080_post_0053",
+            "participant_080_post_0055",
+            "participant_080_post_0058",
+            "participant_080_post_0061",
+            "participant_080_post_0067",
+            "participant_080_post_0068",
+            "participant_080_post_0069",
+            "participant_080_post_0070",
+            "participant_080_post_0071",
+            "participant_080_post_0074",
+            "participant_080_post_0077",
+            "participant_080_post_0082",
+            "participant_080_post_0083",
+            "participant_080_post_0087",
+            "participant_080_post_0091",
+            "participant_080_post_0092",
+            "participant_080_post_0093",
+            "participant_080_post_0096",
+            "participant_080_post_0097",
+            "participant_080_post_0098",
+            "participant_080_post_0100",
+            "participant_080_post_0101",
+            "participant_080_post_0102",
+            "participant_080_post_0103",
+            "participant_080_post_0107",
+            "participant_080_post_0109",
+            "participant_080_post_0111",
+            "participant_080_post_0114",
+            "participant_080_post_0116",
+            "participant_080_post_0118",
+            "participant_080_post_0120",
+            "participant_080_post_0121",
+            "participant_080_post_0122",
+            "participant_080_post_0124",
+            "participant_080_post_0126",
+            "participant_080_post_0128",
+            "participant_080_post_0129",
+            "participant_080_post_0131",
+            "participant_080_post_0134",
+            "participant_080_post_0135",
+            "participant_080_post_0137",
+            "participant_080_post_0138",
+            "participant_080_post_0140",
+            "participant_080_post_0141",
+            "participant_080_post_0142",
+            "participant_080_post_0143",
+            "participant_080_post_0144",
+            "participant_080_post_0145",
+            "participant_080_post_0146",
+            "participant_080_post_0148",
+            "participant_080_post_0149",
+            "participant_080_post_0153",
+            "participant_080_post_0154",
+            "participant_080_post_0155",
+            "participant_080_post_0157",
+            "participant_080_post_0160",
+            "participant_080_post_0161",
+            "participant_080_post_0163",
+            "participant_080_post_0165",
+            "participant_080_post_0166",
+            "participant_080_post_0167",
+            "participant_080_post_0172",
+            "participant_080_post_0175",
+            "participant_080_post_0176",
+            "participant_080_post_0177",
+            "participant_080_post_0178",
+            "participant_080_post_0179",
+            "participant_080_post_0181",
+            "participant_080_post_0184",
+            "participant_080_post_0185",
+            "participant_080_post_0186",
+            "participant_080_post_0187",
+            "participant_080_post_0192",
+            "participant_080_post_0193",
+            "participant_080_post_0194",
+            "participant_080_post_0196"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "chicago cub",
           "evidence_post_indices": [
-            0,
-            1,
             2,
-            3
+            4,
+            7,
+            8,
+            9,
+            14,
+            18,
+            19,
+            22,
+            23,
+            25,
+            26,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            37,
+            38,
+            40,
+            43,
+            44,
+            45,
+            46,
+            47,
+            50,
+            51,
+            52,
+            57,
+            59,
+            60,
+            66,
+            67,
+            76,
+            80,
+            86,
+            90,
+            91,
+            97,
+            100,
+            101,
+            102,
+            113,
+            115,
+            117,
+            119,
+            120,
+            121,
+            136,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            147,
+            152,
+            153,
+            154,
+            156,
+            157,
+            158,
+            160,
+            164,
+            166,
+            175,
+            183,
+            184,
+            185,
+            186,
+            191
           ],
           "evidence_post_ids": [
-            "participant_080_phase_1",
-            "participant_080_phase_2",
-            "participant_080_phase_3",
-            "participant_080_phase_4"
+            "participant_080_post_0003",
+            "participant_080_post_0005",
+            "participant_080_post_0008",
+            "participant_080_post_0009",
+            "participant_080_post_0010",
+            "participant_080_post_0015",
+            "participant_080_post_0019",
+            "participant_080_post_0020",
+            "participant_080_post_0023",
+            "participant_080_post_0024",
+            "participant_080_post_0026",
+            "participant_080_post_0027",
+            "participant_080_post_0030",
+            "participant_080_post_0031",
+            "participant_080_post_0032",
+            "participant_080_post_0033",
+            "participant_080_post_0034",
+            "participant_080_post_0035",
+            "participant_080_post_0036",
+            "participant_080_post_0038",
+            "participant_080_post_0039",
+            "participant_080_post_0041",
+            "participant_080_post_0044",
+            "participant_080_post_0045",
+            "participant_080_post_0046",
+            "participant_080_post_0047",
+            "participant_080_post_0048",
+            "participant_080_post_0051",
+            "participant_080_post_0052",
+            "participant_080_post_0053",
+            "participant_080_post_0058",
+            "participant_080_post_0060",
+            "participant_080_post_0061",
+            "participant_080_post_0067",
+            "participant_080_post_0068",
+            "participant_080_post_0077",
+            "participant_080_post_0081",
+            "participant_080_post_0087",
+            "participant_080_post_0091",
+            "participant_080_post_0092",
+            "participant_080_post_0098",
+            "participant_080_post_0101",
+            "participant_080_post_0102",
+            "participant_080_post_0103",
+            "participant_080_post_0114",
+            "participant_080_post_0116",
+            "participant_080_post_0118",
+            "participant_080_post_0120",
+            "participant_080_post_0121",
+            "participant_080_post_0122",
+            "participant_080_post_0137",
+            "participant_080_post_0141",
+            "participant_080_post_0142",
+            "participant_080_post_0143",
+            "participant_080_post_0144",
+            "participant_080_post_0145",
+            "participant_080_post_0146",
+            "participant_080_post_0148",
+            "participant_080_post_0153",
+            "participant_080_post_0154",
+            "participant_080_post_0155",
+            "participant_080_post_0157",
+            "participant_080_post_0158",
+            "participant_080_post_0159",
+            "participant_080_post_0161",
+            "participant_080_post_0165",
+            "participant_080_post_0167",
+            "participant_080_post_0176",
+            "participant_080_post_0184",
+            "participant_080_post_0185",
+            "participant_080_post_0186",
+            "participant_080_post_0187",
+            "participant_080_post_0192"
+          ]
+        },
+        {
+          "label": "mlb",
+          "evidence_post_indices": [
+            0,
+            5,
+            10,
+            14,
+            16,
+            25,
+            27,
+            34,
+            41,
+            45,
+            51,
+            57,
+            60,
+            68,
+            73,
+            76,
+            80,
+            81,
+            82,
+            86,
+            92,
+            95,
+            97,
+            100,
+            101,
+            102,
+            110,
+            113,
+            117,
+            119,
+            120,
+            121,
+            127,
+            130,
+            133,
+            134,
+            136,
+            137,
+            141,
+            144,
+            145,
+            152,
+            153,
+            159,
+            162,
+            165,
+            166,
+            169,
+            174,
+            175,
+            176,
+            178,
+            186,
+            191,
+            193,
+            195
+          ],
+          "evidence_post_ids": [
+            "participant_080_post_0001",
+            "participant_080_post_0006",
+            "participant_080_post_0011",
+            "participant_080_post_0015",
+            "participant_080_post_0017",
+            "participant_080_post_0026",
+            "participant_080_post_0028",
+            "participant_080_post_0035",
+            "participant_080_post_0042",
+            "participant_080_post_0046",
+            "participant_080_post_0052",
+            "participant_080_post_0058",
+            "participant_080_post_0061",
+            "participant_080_post_0069",
+            "participant_080_post_0074",
+            "participant_080_post_0077",
+            "participant_080_post_0081",
+            "participant_080_post_0082",
+            "participant_080_post_0083",
+            "participant_080_post_0087",
+            "participant_080_post_0093",
+            "participant_080_post_0096",
+            "participant_080_post_0098",
+            "participant_080_post_0101",
+            "participant_080_post_0102",
+            "participant_080_post_0103",
+            "participant_080_post_0111",
+            "participant_080_post_0114",
+            "participant_080_post_0118",
+            "participant_080_post_0120",
+            "participant_080_post_0121",
+            "participant_080_post_0122",
+            "participant_080_post_0128",
+            "participant_080_post_0131",
+            "participant_080_post_0134",
+            "participant_080_post_0135",
+            "participant_080_post_0137",
+            "participant_080_post_0138",
+            "participant_080_post_0142",
+            "participant_080_post_0145",
+            "participant_080_post_0146",
+            "participant_080_post_0153",
+            "participant_080_post_0154",
+            "participant_080_post_0160",
+            "participant_080_post_0163",
+            "participant_080_post_0166",
+            "participant_080_post_0167",
+            "participant_080_post_0170",
+            "participant_080_post_0175",
+            "participant_080_post_0176",
+            "participant_080_post_0177",
+            "participant_080_post_0179",
+            "participant_080_post_0187",
+            "participant_080_post_0192",
+            "participant_080_post_0194",
+            "participant_080_post_0196"
+          ]
+        },
+        {
+          "label": "sport fandom",
+          "evidence_post_indices": [
+            2,
+            4,
+            7,
+            8,
+            14,
+            23,
+            27,
+            29,
+            30,
+            31,
+            32,
+            35,
+            37,
+            40,
+            46,
+            51,
+            66,
+            67,
+            69,
+            70,
+            76,
+            81,
+            90,
+            98,
+            101,
+            102,
+            108,
+            115,
+            121,
+            125,
+            128,
+            136,
+            140,
+            148,
+            153,
+            160,
+            164,
+            165,
+            176,
+            177,
+            178,
+            184,
+            192
+          ],
+          "evidence_post_ids": [
+            "participant_080_post_0003",
+            "participant_080_post_0005",
+            "participant_080_post_0008",
+            "participant_080_post_0009",
+            "participant_080_post_0015",
+            "participant_080_post_0024",
+            "participant_080_post_0028",
+            "participant_080_post_0030",
+            "participant_080_post_0031",
+            "participant_080_post_0032",
+            "participant_080_post_0033",
+            "participant_080_post_0036",
+            "participant_080_post_0038",
+            "participant_080_post_0041",
+            "participant_080_post_0047",
+            "participant_080_post_0052",
+            "participant_080_post_0067",
+            "participant_080_post_0068",
+            "participant_080_post_0070",
+            "participant_080_post_0071",
+            "participant_080_post_0077",
+            "participant_080_post_0082",
+            "participant_080_post_0091",
+            "participant_080_post_0099",
+            "participant_080_post_0102",
+            "participant_080_post_0103",
+            "participant_080_post_0109",
+            "participant_080_post_0116",
+            "participant_080_post_0122",
+            "participant_080_post_0126",
+            "participant_080_post_0129",
+            "participant_080_post_0137",
+            "participant_080_post_0141",
+            "participant_080_post_0149",
+            "participant_080_post_0154",
+            "participant_080_post_0161",
+            "participant_080_post_0165",
+            "participant_080_post_0166",
+            "participant_080_post_0177",
+            "participant_080_post_0178",
+            "participant_080_post_0179",
+            "participant_080_post_0185",
+            "participant_080_post_0193"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "sports outdoor interests",
+          "label": "ice hockey",
           "evidence_post_indices": [
-            2,
-            3
+            6,
+            15
           ],
           "evidence_post_ids": [
-            "participant_080_phase_3",
-            "participant_080_phase_4"
+            "participant_080_post_0007",
+            "participant_080_post_0016"
+          ]
+        },
+        {
+          "label": "fan convention",
+          "evidence_post_indices": [
+            29,
+            35,
+            38,
+            50
+          ],
+          "evidence_post_ids": [
+            "participant_080_post_0030",
+            "participant_080_post_0036",
+            "participant_080_post_0039",
+            "participant_080_post_0051"
+          ]
+        },
+        {
+          "label": "fan event",
+          "evidence_post_indices": [
+            40,
+            45
+          ],
+          "evidence_post_ids": [
+            "participant_080_post_0041",
+            "participant_080_post_0046"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "sports outdoor interests",
+          "label": "milwaukee brewer",
           "evidence_post_indices": [
-            1,
-            2
+            69,
+            70,
+            75,
+            98,
+            99
           ],
           "evidence_post_ids": [
-            "participant_080_phase_2",
-            "participant_080_phase_3"
+            "participant_080_post_0070",
+            "participant_080_post_0071",
+            "participant_080_post_0076",
+            "participant_080_post_0099",
+            "participant_080_post_0100"
+          ]
+        },
+        {
+          "label": "mlb postseason",
+          "evidence_post_indices": [
+            90,
+            96,
+            99
+          ],
+          "evidence_post_ids": [
+            "participant_080_post_0091",
+            "participant_080_post_0097",
+            "participant_080_post_0100"
+          ]
+        },
+        {
+          "label": "seiya suzuki",
+          "evidence_post_indices": [
+            73,
+            82,
+            95
+          ],
+          "evidence_post_ids": [
+            "participant_080_post_0074",
+            "participant_080_post_0083",
+            "participant_080_post_0096"
           ]
         }
       ]
@@ -69,68 +691,122 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "eddie vedder",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            52,
+            132,
+            156,
+            158
           ],
           "evidence_post_ids": [
-            "participant_080_phase_1",
-            "participant_080_phase_2",
-            "participant_080_phase_3",
-            "participant_080_phase_4"
+            "participant_080_post_0053",
+            "participant_080_post_0133",
+            "participant_080_post_0157",
+            "participant_080_post_0159"
           ]
         },
         {
-          "label": "music",
+          "label": "grateful dead",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            15,
+            48,
+            154,
+            166
           ],
           "evidence_post_ids": [
-            "participant_080_phase_1",
-            "participant_080_phase_2",
-            "participant_080_phase_3",
-            "participant_080_phase_4"
+            "participant_080_post_0016",
+            "participant_080_post_0049",
+            "participant_080_post_0155",
+            "participant_080_post_0167"
+          ]
+        },
+        {
+          "label": "music fandom",
+          "evidence_post_indices": [
+            48,
+            71,
+            148,
+            154
+          ],
+          "evidence_post_ids": [
+            "participant_080_post_0049",
+            "participant_080_post_0072",
+            "participant_080_post_0149",
+            "participant_080_post_0155"
+          ]
+        },
+        {
+          "label": "celebrity fandom",
+          "evidence_post_indices": [
+            4,
+            43,
+            51
+          ],
+          "evidence_post_ids": [
+            "participant_080_post_0005",
+            "participant_080_post_0044",
+            "participant_080_post_0052"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "puppy bowl",
           "evidence_post_indices": [
-            3
+            20,
+            21
           ],
           "evidence_post_ids": [
-            "participant_080_phase_4"
+            "participant_080_post_0021",
+            "participant_080_post_0022"
+          ]
+        },
+        {
+          "label": "live event",
+          "evidence_post_indices": [
+            42,
+            43,
+            44
+          ],
+          "evidence_post_ids": [
+            "participant_080_post_0043",
+            "participant_080_post_0044",
+            "participant_080_post_0045"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "bob weir",
           "evidence_post_indices": [
-            2,
-            3
+            48,
+            71
           ],
           "evidence_post_ids": [
-            "participant_080_phase_3",
-            "participant_080_phase_4"
+            "participant_080_post_0049",
+            "participant_080_post_0072"
           ]
         },
         {
-          "label": "music",
+          "label": "music listening",
           "evidence_post_indices": [
-            0,
-            3
+            1,
+            163
           ],
           "evidence_post_ids": [
-            "participant_080_phase_1",
-            "participant_080_phase_4"
+            "participant_080_post_0002",
+            "participant_080_post_0164"
+          ]
+        },
+        {
+          "label": "guitar pick",
+          "evidence_post_indices": [
+            156,
+            157
+          ],
+          "evidence_post_ids": [
+            "participant_080_post_0157",
+            "participant_080_post_0158"
           ]
         }
       ]
@@ -168,55 +844,69 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "dogs",
+          "label": "dog ownership",
           "evidence_post_indices": [
             2,
-            3
+            20,
+            22,
+            57,
+            65,
+            91
           ],
           "evidence_post_ids": [
-            "participant_080_phase_3",
-            "participant_080_phase_4"
+            "participant_080_post_0003",
+            "participant_080_post_0021",
+            "participant_080_post_0023",
+            "participant_080_post_0058",
+            "participant_080_post_0066",
+            "participant_080_post_0092"
           ]
         },
         {
-          "label": "pets interests",
+          "label": "golden retriever",
           "evidence_post_indices": [
             2,
-            3
+            20,
+            22,
+            65,
+            91
           ],
           "evidence_post_ids": [
-            "participant_080_phase_3",
-            "participant_080_phase_4"
+            "participant_080_post_0003",
+            "participant_080_post_0021",
+            "participant_080_post_0023",
+            "participant_080_post_0066",
+            "participant_080_post_0092"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "cats",
+          "label": "cat ownership",
           "evidence_post_indices": [
-            2
+            91
           ],
           "evidence_post_ids": [
-            "participant_080_phase_3"
+            "participant_080_post_0092"
           ]
         },
         {
-          "label": "dogs",
+          "label": "pet clothing",
           "evidence_post_indices": [
-            3
+            22
           ],
           "evidence_post_ids": [
-            "participant_080_phase_4"
+            "participant_080_post_0023"
           ]
         },
         {
-          "label": "pet care",
+          "label": "puppy",
           "evidence_post_indices": [
-            3
+            21
           ],
           "evidence_post_ids": [
-            "participant_080_phase_4"
+            "participant_080_post_0022"
           ]
         }
       ]

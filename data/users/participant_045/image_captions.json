@@ -1,67 +1,1657 @@
 {
   "user_id": "participant_045",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "crafts and design",
-        "dogs",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; crafts and design; dogs; spectator sports."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a white building with a red roof situated near a fence and a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small white building with a red-tiled roof sits beyond a decorative fence under a vast clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a small building under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white building with a red-tiled roof stands behind a decorative fence under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white building with a red tiled roof stands beside a highway under a clear blue sky, viewed from behind decorative metal railings."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "film and television",
-        "spectator sports",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; film and television; spectator sports; walking and hiking."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification about a lottery prize and its potential uses."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone notification banner from [LOCATION] shows a Turkish headline about what can be bought with an 800 million [ORGANIZATION] national lottery jackpot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A notification from 'Bundle' discussing a large prize of $80 million in [LOCATION]'s [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post from 'Bundle' asking what can be purchased with 800 million [ORGANIZATION] from [ORGANIZATION] big giveaway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post from the account 'Bundle' discussing what can be purchased with an 800 million [ORGANIZATION] lottery prize."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "photography",
-        "reading",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; photography; reading; spectator sports."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man wearing a black puffer jacket and jeans stands in a snowy, outdoor area with several unfinished high-rise buildings in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a snowy landscape wearing a black puffer jacket and jeans, with construction buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black puffer jacket and jeans stands on a snowy construction site with several unfinished high-rise buildings in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man stands outdoors in a snowy landscape wearing winter clothing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a black puffer jacket stands outdoors in snowy terrain with unfinished buildings in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a black puffer jacket and jeans stands on snowy ground with unfinished high-rise buildings in the background."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "outdoor activities",
-        "reading",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; outdoor activities; reading; spectator sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with visible arm tattoos is wrapped in clear plastic film around their head and upper body, standing against a plain light-colored"
+        },
+        "gpt-4o-mini": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a white sleeveless shirt is tightly wrapped in clear plastic wrap around the head and upper body against a plain indoor wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wrapped in plastic bag, wearing a white tank top."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a white tank top has their head and upper torso wrapped in clear plastic wrap."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with visible tattoos on both arms is shown from the chest up, wearing a white sleeveless shirt and having their head and upper torso wrapped in clear plastic wrap."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "film and television",
-        "photography",
-        "reading",
-        "spectator sports",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: film and television; photography; reading; spectator sports; walking and hiking."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts several figures appearing to float in a smoky urban environment, with a crowd below and traffic lights visible."
+        },
+        "gpt-5.4": {
+          "summary": "A chaotic, smoky nighttime street scene shows several human-like figures appearing suspended in the air, with overlaid social-media text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chaotic scene showing people falling amidst smoke in a city."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Silhouettes of people appear to be airborne amidst smoke and chaos in an urban setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A chaotic street scene filled with smoke and tear gas where silhouettes of people appear to be thrown into the air, overlaid with a 'STAY SAFE' location tag and Turkish text."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "photography",
-        "reading",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; photography; reading; spectator sports."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A light-colored dog is lying on a wet wooden floor underneath a woven patio chair and table."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is lying under a table on a wooden floor, appearing calm and relaxed."
+        },
+        "gpt-5.4": {
+          "summary": "A large light-colored dog is lying under wicker patio furniture on a wet wooden deck."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog rests under a wicker chair in an outdoor patio area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A light-colored dog rests under a wicker chair on a wet wooden floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy, light-colored dog rests on a wet wooden deck beneath a woven wicker chair."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text discussing daily life in [LOCATION] with family."
+        },
+        "gpt-5.4": {
+          "summary": "A white text graphic in Turkish shows a red question heading and a paragraph about being in [LOCATION] with a spouse and baby and spending time with a daughter at home."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person describes their daily life in [LOCATION] with family."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text post in Turkish asking about daily life, describing being in [LOCATION] with spouse and baby, spending time with the child, learning new things, and being both a father and husband."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A text-based graphic in Turkish featuring a red headline asking how days pass, followed by a paragraph describing the author's life as a father and husband living in [LOCATION] with his wife and baby."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a sports newspaper cover featuring a match preview between [LOCATION] and Fenerbahçe, with motivational text and a trophy illustration."
+        },
+        "gpt-5.4": {
+          "summary": "A Turkish Fotomaç sports newspaper front page promotes the [PERSON] vs Fenerbahçe Super Cup derby with large headlines, team logos, and player images."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Front page of a Turkish sports newspaper featuring [LOCATION] vs Fenerbahçe match coverage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Turkish sports newspaper cover featuring a dramatic poem titled 'EY OĞUL!' between two football clubs, [LOCATION] and Fenerbahçe, with player photos and broadcast details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The front page of the Turkish sports newspaper [ORGANIZATION] features a special edition for the Super Cup final between [PERSON] and Fenerbahçe, centered around a large excerpt from Sheikh [PERSON]'s advice to [PERSON]."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a product listing for spicy peppers with pricing and ratings."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped product listing screen shows \"Acı biber\" priced at 80 TL with a 94% like rating and 17 reviews on a white interface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "%94 of users liked a product priced at 80 [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A product listing for 'Acı biber' priced at 80 TL with a high approval rating."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital interface snippet displays a product listing for 'Acı biber' (hot pepper) priced at 80 TL with a 94% positive rating from 17 reviews."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals in a video call, with one wearing an orange shirt and the other in black, while a comment section is visible below."
+        },
+        "gpt-5.4": {
+          "summary": "A split-screen screenshot shows two men wearing headphones during an online video chat or stream, with a comments overlay at the bottom containing a Turkish comment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are engaged in a podcast recording session."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men wearing headphones are shown in a split-screen video call, with a comments section overlay displaying a Turkish-language comment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen video call between two men in a home office setting, overlaid with a [ORGANIZATION] comments interface showing a Turkish-language comment."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a blurred face, highlighted as a [ORGANIZATION] listener with notable monthly statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Turkish social media post shows a portrait labeled \"[PERSON]\" and a [ORGANIZATION]-style card stating 98.7K monthly listeners."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young girl poses with her hands under chin in a tweet celebrating [PERSON] [ORGANIZATION] listenership."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young girl in a white sweater smiles while resting her chin on her hands, with text overlay identifying her as [PERSON] and noting her [ORGANIZATION] listener count."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post featuring a portrait of a young girl with her name '[PERSON] and [ORGANIZATION] streaming statistics overlaid on the image."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person walks down a snow-covered street lined with buildings during a snowfall."
+        },
+        "gpt-5.4": {
+          "summary": "A lone person walks down a narrow village street during heavy snowfall, with snow-covered buildings and slushy tracks on the road."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person walking down a snow-covered alleyway in an urban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks away down a snow-covered alleyway between old buildings during a snowstorm."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person walks away down a snow-covered, narrow street lined with old buildings during heavy snowfall."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A female tennis player celebrates a point with a fist pump while holding a racket."
+        },
+        "gpt-5.4": {
+          "summary": "A tennis player in a pale pink outfit and neon visor celebrates with a fist pump and shout while holding a racket during a match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tennis player celebrates a victory in an outdoor match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A female tennis player celebrates passionately with a clenched fist while holding her racket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female tennis player in a pink patterned dress and neon green visor celebrates intensely with a clenched fist and open mouth on a court."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays the phrase \"Graphic Design is my passion\" in a colorful, stylized 3D text format against a white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful text design stating '[ORGANIZATION] is my passion'."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized typographic graphic displays the phrase “Graphic Design is my passion” in colorful mixed-font text on a white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful graphic design statement declaring '[ORGANIZATION] my passion'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful graphic design slogan stating '[ORGANIZATION] is my passion' with stylized, layered typography."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful, stylized text graphic displaying the phrase '[ORGANIZATION] is my passion' in varied fonts and colors against a white background."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A tennis player is seen celebrating or expressing emotion with a tennis racket in hand, while Turkish flags are visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A tennis player on court smiles emotionally while holding a racket, with red flags and spectators blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tennis player celebrates a victory in front of spectators holding Turkish flags."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A female tennis player celebrates emotionally on court, holding her racket with Turkish flags visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female tennis player in a pink athletic top holds her racket and looks upward with an emotional expression, set against a background of Turkish flags."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a sports app interface showing [ORGANIZATION]'s match results and upcoming fixtures for the 2025/2026 season."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile sports app screen shows [ORGANIZATION]’s 2025/2026 [ORGANIZATION] fixture list and results under [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of [ORGANIZATION]'s match schedule in [ORGANIZATION] from [PERSON] app."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app screen showing [ORGANIZATION] [ORGANIZATION] match results for the 2025/2026 season."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [PERSON] app displaying a fictional or future match schedule for Arsenal in the 2025/2026 [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The back of a truck is shown on an urban street, featuring two red signs with Turkish text,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the back of a truck with a prominent sign featuring a warning message."
+        },
+        "gpt-5.4": {
+          "summary": "The image shows the back of a truck on a city street with large Turkish sayings painted across its rear doors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A truck rear sign in Turkish promoting road safety."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "The back of a truck displays red banners with Turkish text promoting kindness toward animals."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The rear of a weathered truck displays two large red signs with Turkish proverbs about human behavior and patience."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A silhouetted figure raises broken chains against a sunset backdrop, symbolizing freedom or liberation."
+        },
+        "gpt-5.4": {
+          "summary": "A silhouetted person raises a broken chain overhead against a colorful sunset sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A silhouette of a person breaking chains against a sunset sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Silhouette of a person breaking free from chains against a sunset sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A silhouette of a person raising their arms to break chains against a sunset sky."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet expressing frustration about a situation related to a large event and a sports team."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Twitter post in Turkish criticizing excitement around LoL and mentioning a dragon versus buying a midfielder."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet discussing a public figure's actions in relation to filling a venue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter post by user [ACCOUNT] with a Turkish caption expressing frustration about a large crowd at a venue and criticizing a sports team."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Turkish tweet by user [ORGANIZATION] expressing frustration about the popularity of [ORGANIZATION] and mocking a claim that Fenerbahçe (Bjk) won an esports match."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a blurred face, showcasing their [ORGANIZATION] profile with notable monthly listeners."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Turkish social media post shows a portrait image labeled '[PERSON] with [ORGANIZATION] monthly listener count text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young girl wearing white gloves smiles in front of a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young girl with her hands under her chin smiles at the camera, overlaid with text announcing her as '[PERSON] with 98.7K monthly [ORGANIZATION] listeners."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post featuring a portrait of a young girl with her name '[PERSON] and [ORGANIZATION] streaming statistics overlaid on the image."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a woman with blonde hair wearing a pink sweater, alongside promotional details for the film '[LOCATION], [LOCATION]'."
+        },
+        "gpt-5.4": {
+          "summary": "A movie app page for the 1984 film '[LOCATION], [LOCATION]' shows a still of a blonde woman, the poster, synopsis text, and ratings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Movie poster of '[LOCATION], [LOCATION]' directed by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie poster for '[LOCATION], [LOCATION]' (1984) featuring a woman in a pink sweater and a collage-style cover art."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A streaming service interface displaying the movie details for '[LOCATION], [LOCATION]' (1984) directed by [PERSON], featuring a background image of a blonde woman and a synopsis."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a promotional display for the film '[ORGANIZATION], including its title, director, and a brief synopsis."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile app screen shows the film page for the black-and-white movie 'Roma' with cover art, runtime, rating, and a short synopsis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A promotional poster for the film 'Roma' directed by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white movie poster for 'Roma' (2018) showing a woman in a car window, with film details and a tagline."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A streaming service interface displaying the movie 'Roma' with a black-and-white still of a woman in a car, release details, and a plot synopsis."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a scene from the film '[PERSON]' showing a couple in a kitchen setting, with one partner leaning in for a kiss."
+        },
+        "gpt-5.4": {
+          "summary": "A movie app page for the film '[PERSON]' shows a still of a couple in a kitchen, the title, director [PERSON], runtime, tagline, and a ratings chart."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple in a cozy kitchen scene from '[PERSON]', directed by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie poster for '[PERSON]' (2016) shows a couple in a kitchen and sleeping scene, with director [PERSON] credits."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A streaming service interface displaying the movie '[PERSON]' with a scene of a couple in a kitchen and a synopsis about a poet bus driver."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a promotional display for the film '[ORGANIZATION] alongside a casual scene of two individuals lounging on a bed."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile app screen shows the film listing for '[ORGANIZATION] with artwork, details, and a ratings chart."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Movie poster of '[ORGANIZATION] showing a young girl in pajamas jumping joyfully."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie poster for '[ORGANIZATION] (2017) showing two young girls on a bed with overlaid text and ratings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A streaming service interface displaying the movie details for '[ORGANIZATION], featuring a scene with two young girls on a bed and a synopsis about childhood wonder."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a text message discussing someone's long hair and where they learned to style it."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a messaging app shows a Turkish chat message sent yesterday with the input bar visible at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Text message in Turkish discussing a long-term issue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text message in Turkish asking rhetorical questions about work, learning, and eating."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Turkish text message expressing frustration and confusion about someone's behavior or actions."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sign displayed on a vehicle's dashboard with a message about the concept of 'zero' and its implications."
+        },
+        "gpt-5.4": {
+          "summary": "Nighttime street view from inside a vehicle, with a yellow dashboard sign displaying a Turkish quote prominently in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A yellow sign attached inside a car window displays motivational Turkish text."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow sign with Turkish text is attached to a car's windshield at night, viewed from inside the vehicle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow bumper sticker with Turkish text is attached to a car's windshield at night, viewed from inside the vehicle."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote in Turkish about divine blessings and human behavior in response to harm."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media story shows a green decorative quote card with a Turkish religious message and a Quran verse reference."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quote in Turkish from [PERSON] (The Bees) emphasizing Allah's blessings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green Islamic quote card with ornate borders displays Turkish text from [PERSON], referencing divine blessings and harm."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An [PERSON] story from user sacha_boey displaying a religious quote in Turkish on a green background with ornate borders."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman in a robe vacuums a pink carpet in a modern room with a panoramic view of a city, while a large"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a long coat is vacuuming a modern room with a large window showcasing a city view and a poster in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person vacuums a large carpeted room with floor-to-ceiling windows overlooking a city, next to a TV and a large poster of a woman."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person vacuuming in a modern living room overlooking an urban landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person vacuums a pink carpet in a modern room with floor-to-ceiling windows overlooking a cityscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a beige trench coat vacuums a pink carpeted room with floor-to-ceiling windows overlooking a cityscape, while a large poster of a model hangs on the wall."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with voluminous, curly hair standing in front of a brick wall."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a smiling person with very large curly hair, glasses, and a black shirt in front of a brick wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a large afro wig smiles in front of a brick wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a large, curly brown wig and glasses smiles at the camera against a brick wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with voluminous curly brown hair, glasses, and facial hair standing in front of a brick wall."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scene depicting a conversation between two characters, one expressing distress about their life."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel TV-show meme shows one man on the ground shouting through a megaphone to another man standing on a rooftop, with subtitle text for a comedic exchange."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit speaks into a megaphone while another person looks down from above."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit uses a megaphone to ask another man on a ledge, '[PERSON], what's wrong?', who replies, '- My life!'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A two-panel meme featuring characters from the TV show [ORGANIZATION], where one man with a megaphone asks another standing on a ledge what is wrong, and the second man replies 'My life!'."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features text celebrating [PERSON]'s Day with a collaboration announcement."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped screenshot shows Turkish text on a white background with pink hand-drawn underline/highlight marks."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A promotional message celebrating [PERSON]'s Day featuring [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Text promoting GEBER AŞKIM products for Valentine's Day, with parts underlined in pink."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A text snippet in Turkish celebrating Valentine's Day with a product named 'GEBER AŞKIM' by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character engaged in a humorous dialogue about a recent event."
+        },
+        "gpt-5.4": {
+          "summary": "A simple cartoon shows a person walking and talking with two Turkish speech bubbles above them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Cartoon depicting a conversation between two characters discussing an upcoming event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon depicts a man in a green shirt speaking with speech bubbles containing Turkish text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon depicts a man in a green sweater running while speaking on the phone, with Turkish text bubbles indicating a conversation about being late."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote by [PERSON] discussing the necessity of participation to understand a game."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a printed Turkish quote attributed to [PERSON] on a paper page, with a blue scribble partially covering the lower left."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quote by [PERSON] in Turkish discussing understanding through participation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a printed quote in Turkish attributed to [PERSON], with a blue ink smudge at the bottom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a printed Turkish quote by [PERSON] on textured paper with a blue ink mark."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text excerpt discussing the attributes of charm and appearance, attributed to [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a printed Turkish book passage attributed to [PERSON], with blue pen scribbles and underlining on the page."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quote by [PERSON] discussing attractiveness standards in Turkish."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A printed quote in Turkish about attractiveness and enjoyment, with blue scribbles crossing out parts of the text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a printed Turkish text excerpt from the book 'Bir Şeyler Eksik' by [PERSON], featuring blue ink scribbles on the right side."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two children are sitting on a step, observing a white cat in an urban setting at night."
+        },
+        "gpt-5.4": {
+          "summary": "Two people crouch on a nighttime sidewalk, closely watching a white cat standing on a storefront step."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two children crouch outside a building door observing an orange cat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two children crouch on a sidewalk step, observing a white cat near a glass door at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two children in winter coats crouch on a city sidewalk at night, observing a white cat standing near a building entrance."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of fans in sports attire is gathered in a street, with one person lying on the ground, possibly celebrating or resting."
+        },
+        "gpt-5.4": {
+          "summary": "At night on a city street, several people in red-and-yellow sports clothing stand around while one person lies on the pavement next to a flag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people in a street scene; some are walking while others appear to be resting. A person lies on the ground wearing sports attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in sports attire lies on the ground at night as others walk past holding flags."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A nighttime street scene shows a man lying on the ground wearing a red and yellow sports jersey, surrounded by other people in similar team colors holding flags."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote by [PERSON] about aging and memories."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo of a printed Turkish quote on a page, with a date header visible at the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Turkish quote by [PERSON] discussing aging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of printed Turkish text featuring a quote attributed to [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a printed page featuring a Turkish literary quote by [PERSON] about aging and memories."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text excerpt discussing themes of identity and perception in performance, attributed to [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a printed Turkish book page with a literary passage attributed at the bottom to [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A page from a book discussing [PERSON]'s background in impoverished circumstances."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a book page with Turkish text describing a character named [PERSON] and attributed to [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a printed page in Turkish containing a literary excerpt attributed to [PERSON]."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with curly white hair, partially obscured, set against a blurred background."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white close-up portrait shows a person with light hair wearing aviator sunglasses and a dark jacket outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing sunglasses against a textured background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white portrait of a person with wild white hair wearing sunglasses, looking toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white close-up portrait of a person with voluminous white hair and dark aviator sunglasses, set against an urban background."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with sunglasses on his head sits outdoors on a plastic chair, intently writing in a notebook with a pen, with a jacket draped over his"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person sitting on a chair in a natural setting, engaged in writing or drawing."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits on a wooden chair outdoors in dry brush, focused on writing or sketching in a notebook."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man sits outdoors in a wooded area reading from an open book."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man sits outdoors on a wooden chair, reading a book while wearing sunglasses atop his head."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man sits on a wooden chair outdoors in a wooded area, reading a book with sunglasses perched on his head."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a blurred face, wearing a black jacket against a plain background."
+        },
+        "gpt-5.4": {
+          "summary": "Black-and-white close-up portrait of a man in a dark jacket looking off to the side against a plain background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white portrait of a man in deep thought."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white portrait of a man in profile, looking upward with a serious expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white studio portrait of a man with dark, tousled hair and a serious expression, wearing a dark jacket against a plain background."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting outdoors, holding a piece of paper and a pen, with headphones around their neck."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a person outdoors in a wooded area, sitting and reading or writing on papers with headphones around their neck."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sits outdoors reading a book while wearing headphones."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing headphones sits outdoors in a wooded area, focused on reading or writing in a notebook."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photo of a young person with headphones around their neck, sitting outdoors in a wooded area while reading from a script or papers."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two men are seated at a table in a casual dining setting, discussing projects."
+        },
+        "gpt-5.4": {
+          "summary": "A TV-style indoor scene shows two men seated at a café counter while one gestures, with large Turkish text overlaid across the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men are seated in a restaurant-like environment discussing [PERSON]'s new projects."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men are seated at a table in a restaurant, one gesturing animatedly while the other looks on."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men are seated at a table in an indoor setting, with one man gesturing while speaking and the other listening, overlaid with Turkish text about new projects."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bald man in a red and yellow sports jersey with 'cola turka' and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a red and yellow sports jersey is sitting on a bench, appearing contemplative."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a yellow-and-red [PERSON] uniform sits on a bench making a wide yawning or expressive face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a [LOCATION] sports jersey making an expressive gesture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bald soccer player in a yellow and red [LOCATION] is yelling with his finger to his temple."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald man in a yellow and red [LOCATION] football jersey sits on the sidelines with his mouth open, pointing a finger to his temple."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays [ORGANIZATION] knockout stage bracket for the 2026 season."
+        },
+        "gpt-5.4": {
+          "summary": "A blue soccer tournament bracket graphic shows multiple club logos around a central trophy with the heading \"Road to Budapest 26.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] quarter-final draw featuring teams like [LOCATION], [ORGANIZATION], [ORGANIZATION] among others."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] knockout bracket graphic titled 'Road to Budapest 26' showing team matchups leading to the final."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic tournament bracket titled [LOCATION] displays [ORGANIZATION] knockout stage matchups featuring prominent European football club logos around a central trophy."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a man speaking on a television program with text overlay in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A TV screenshot shows a mustached man in a suit against a blue studio background, with a Turkish meme-style caption overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit appears to be speaking during an interview."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit is speaking on a blue TV studio set with Turkish subtitles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a man in a suit with a confused expression, overlaid with Turkish text that translates to 'Dad, what are we watching? Someone explain it to me.'"
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a player expressing strong emotional support for their club with a clenched fist."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized soccer graphic shows a [LOCATION] player celebrating beside a large quote about loving his club and being ready to go through everything with them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football player in a [LOCATION] celebrates enthusiastically."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football player in a red and yellow jersey celebrates passionately while text declares love for the club."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a red and yellow jersey celebrates with an intense expression, overlaid with a quote expressing loyalty to his club."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a black t-shirt and black pants stands on a green field with his arms crossed, wearing comically oversized black shoes, looking intently to the side."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person standing on a sports field, humorously depicted with oversized shoes."
+        },
+        "gpt-5.4": {
+          "summary": "A man in black stands on a sports field with arms crossed, edited to appear wearing oversized black shoes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man in black attire standing confidently on a sports field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man stands on a sports field wearing oversized black loafers with arms crossed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a black t-shirt and pants stands on a green field with his arms crossed, wearing oversized black platform shoes."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote attributed to [PERSON] about the importance of humor in dealing with pain."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo of a printed Turkish quote on paper attributed to [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quote by [PERSON] in Turkish reads '[PERSON] gülmek için acınıza alıp onunla oynayabilmeniz gerekir!'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A quote in Turkish attributed to [PERSON], printed on textured paper."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a printed quote in Turkish attributed to [PERSON] on textured white paper."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote from [PERSON] '[PERSON] alongside a silhouette of a person riding an elephant."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a book page shows a Turkish quote attributed to [PERSON] [PERSON], alongside a small black silhouette of a rider on a bull."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quote by [PERSON] from [PERSON] featuring a silhouette of an elephant rider."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black silhouette of a rider on a bull accompanies a Turkish-language quote attributed to [PERSON] from [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A page from a book featuring a black silhouette of a person riding an ox and a quote in Turkish attributed to [PERSON] [PERSON]."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A humorous cartoon depicts a worried dog thinking \"WHAT IF THEY NEVER COME BACK?!\" while a relaxed cat casually thinks \"WHO?\" next to a door and window."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon dog anxiously wondering if its owners will return, while a relaxed cat responds indifferently."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous cartoon-style meme shows a worried dog by a glass door thinking “WHAT IF THEY NEVER COME BACK?!” while a lounging orange cat thinks “WHO?”."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog sits by a door thinking 'What if they never come back?!' while an orange cat responds with confusion in thought bubbles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog anxiously stares at a door wondering if someone will return, while a cat nearby looks confused and asks 'WHO?'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon illustration depicts a dog anxiously looking out a window while an orange cat sits nearby, with speech bubbles indicating the dog fears abandonment and the cat is confused."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A soccer player celebrates a goal in a packed stadium."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a red-and-yellow jersey runs with arms raised in celebration on the field during a crowded stadium match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player celebrates a goal in front of an enthusiastic crowd."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a red and yellow jersey celebrates with arms raised on a field before a large crowd."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A soccer player in a red and yellow jersey with the number 19 celebrates on a green field with arms raised, while a blurred crowd fills the stadium background."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with a beard is smiling while sitting on a blue swing in an"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is swinging on a playground swing in a park setting."
+        },
+        "gpt-5.4": {
+          "summary": "A man in athletic clothing is relaxing on a playground swing with one leg raised in a sunny outdoor park."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person swinging in a park-like environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in black athletic wear is lounging on a blue swing outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man in a black tracksuit and sneakers is swinging on a blue swing set in a grassy outdoor area with hedges in the background."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a wooden surface with a gray object and a visible label that reads 'İŞ BANKASI'."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Turkish chat shows a price discussion (“800”) and an attached photo of a wooden shelf or cabinet with books/documents, including one labeled “İŞ BANKASI.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a wooden surface displaying an 'İş Bankası' card holder."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chat screenshot shows a message asking about the price of an item, with a photo of a gray object on a wooden surface next to a bank label."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation showing a photo of a blue rectangular object on a wooden surface next to an İş Bankası paper bag, with Turkish text messages visible."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a promotional graphic for the film 'Offside' by [ORGANIZATION], highlighting its release date."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional graphic for the film \"Offside\" shows a still of several people on the left and release information on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster for [ORGANIZATION] film 'Offside', released in March 2006."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional poster for the film 'Offside' showing a person with painted face and others in background, with release date information."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional banner for the 2006 Iranian film 'Offside' by [ORGANIZATION], featuring a close-up of a young female fan with face paint and text announcing an upcoming release date."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in a red and yellow jersey celebrates while facing the crowd."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player wearing a red-and-yellow number [LOCATION] appears to kiss or hold up his shirt near the sideline during a match, with [ORGANIZATION] and [ORGANIZATION] boards visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] celebrates near an advertisement banner."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player wearing a red and yellow jersey with 'OKAN' and number '7' on the back celebrates near a [ORGANIZATION] advertisement."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player wearing a red and yellow jersey with the name 'OKAN' and number '7' on the back is captured mid-action on a field, with advertising boards visible in the foreground."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cartoon character is pondering about a sports newspaper."
+        },
+        "gpt-5.4": {
+          "summary": "A manga-style close-up shows a character thinking inside a speech bubble while lying down, with Italian text visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character in a speech bubble discussing sports."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon character thinks aloud about the cost of a sports newspaper."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon illustration of a man with a thought bubble containing Romanian text questioning a sports publication."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the rear of a truck with a pink container and a notable quote on its bumper."
+        },
+        "gpt-5.4": {
+          "summary": "Rear view of a magenta shipping-container truck on a road, with reflective hazard panels, speed stickers, and a Turkish slogan on the lower rear bar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A truck's rear bumper displays a message in Turkish."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of a pink truck's rear bumper with Turkish text and reflective safety markings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of the rear bumper and lower chassis of a large pink shipping container truck on a highway."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cartoon character is seen climbing out of a window, commenting on the view."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon shows a person awkwardly climbing through a window between apartment buildings with Turkish speech bubbles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a blue robe leans out of an open window, speaking into it."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon figure climbs out of a window while speaking Turkish dialogue."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon depicts a man leaning out of a window to admire a distant view while another figure inside the room tells him not to force it."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a floral background with a blurred face and text inviting users to click to enter."
+        },
+        "gpt-5.4": {
+          "summary": "A retro-style Turkish welcome graphic shows a framed portrait on a red floral background with a click-to-enter prompt and a small bird holding an olive branch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A floral background featuring red flowers overlaid with a portrait of an individual in glasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A portrait of a person with glasses is centered on a red poinsettia background, with Turkish text indicating a welcome message and entry prompt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vintage-style digital collage featuring a portrait of a woman with glasses against a red poinsettia background, overlaid with Turkish text and a peace dove logo."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a blurred face, likely in a casual setting, accompanied by a caption discussing a personal anecdote."
+        },
+        "gpt-5.4": {
+          "summary": "An [PERSON] story screenshot shows a close-up interview-style video frame of a man in a black jacket with Turkish overlay text about [LOCATION] and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a black jacket speaks during an interview."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a black jacket looks toward the side in an outdoor setting, with Turkish text overlay and a [ORGANIZATION] video interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] story featuring a man in a black jacket with Turkish text overlaid at the bottom."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a mural of a football player with the name '[PERSON]' and the number '56' on their jersey."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of football-related social posts, featuring a black-and-white mural of a player wearing number 56 and a partial TV image of [PERSON] in a match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white mural of a football player in action."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white mural of a football player wearing jersey number 56 with the name '[PERSON]' on the back, painted on a brick wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white mural of a football player wearing a jersey with the name 'DOWMAN' and number '56' is displayed on a brick wall."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people engaged in a discussion around a table, with various philosophical and scientific questions visible in speech bubbles."
+        },
+        "gpt-5.4": {
+          "summary": "A group of men sit and stand around a table in a casual indoor setting, overlaid with multiple Turkish text captions in a meme-style layout."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of men are engaged in a discussion around a table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four men seated at a table in a dimly lit room, with Turkish text overlays posing philosophical questions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five men are gathered around a table in an indoor setting, engaged in a serious discussion with Turkish text overlays posing philosophical questions about human nature and behavior."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is walking on a sports field wearing a red and yellow striped tracksuit."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a red-and-yellow tracksuit walks on an outdoor sports field in a vintage-looking photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a yellow and red striped sports jacket smiles outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man in a yellow and red striped tracksuit stands outdoors on what appears to be a sports field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a vintage red and yellow striped tracksuit stands on a sports field."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of men are gathered in what appears to be a hospital room, with one man resting on a bed while others play"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people is playing cards in a hospital setting, with one person lying on a bed covered by a blanket."
+        },
+        "gpt-5.4": {
+          "summary": "Several men sit around a table with playing cards in a room while one man lies on a hospital-style bed under a blanket, with the caption text '[PERSON].'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are visiting a patient in hospital while playing cards."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of men are playing cards around a table in what appears to be a hospital room, with one man lying in bed under a blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of men are playing cards in a hospital room while visiting a bearded man lying in a hospital bed."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote about the desire for AI to handle household chores, allowing more time for creative pursuits."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped magazine/article page shows a portrait beside a large quote about wanting AI to do laundry and dishes so the person can focus on art and writing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quote by [PERSON] emphasizing [ORGANIZATION]'s role in mundane tasks versus creative work."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A newspaper clipping features a quote from [PERSON] about wanting AI to handle chores so humans can focus on creativity."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white magazine clipping features a portrait of a woman with glasses alongside a quote about using AI for household chores to free up time for art and writing."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bald man in a black tracksuit, likely"
+        },
+        "gpt-4o-mini": {
+          "summary": "A coach gestures passionately during a football match, emphasizing a point to the players."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a Sporx social media post in Turkish featuring a football coach on the sideline pointing during a match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a black jacket gestures while speaking during what appears to be an outdoor sports event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bald man in a black jacket gestures emphatically on a sports field with orange stadium seats blurred in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald man in a black jacket points authoritatively on a football pitch with orange stadium seats blurred in the background."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a promotional offer for a restaurant meal with a special coupon."
+        },
+        "gpt-5.4": {
+          "summary": "A Turkish food delivery app screen shows a restaurant coupon offer with discount amount, rating, delivery time, distance, and a button to use the coupon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A restaurant coupon offer displayed in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A restaurant coupon interface showing a pilav (rice dish) deal with pricing and delivery details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface displaying a promotional coupon for a Turkish restaurant named Meşhur Unkapanı Pilavcısı, offering a discount on orders over 10,000 [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contains a text post addressing a misunderstanding about a previous comment regarding a person referred to as a 'dinosaur'."
+        },
+        "gpt-5.4": {
+          "summary": "An [PERSON] story screenshot shows a long Turkish text statement clarifying a misunderstood comment and mentioning modeling, [PERSON], and 'dinozor' as a metaphor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post by [ACCOUNT] explaining a misunderstanding regarding someone referred as 'dinosaur', clarifying it was meant metaphorically."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post by user [ACCOUNT] clarifying a misunderstanding about a person referred to as '[PERSON]', stating it's not a man but a woman from the modeling world."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Turkish-language Instagram story by user '[ACCOUNT]' containing a detailed text clarification regarding a misunderstanding about the term 'dinosaur' in relation to a female model from her past."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person dressed in all black athletic wear walks outdoors in a park-like setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in an all-black outfit, oversized furry hat, and sunglasses walks on a sunny paved path while holding a smartphone, with trees and grass in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black outfit walks outdoors wearing sunglasses and carrying an object."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks outdoors wearing a black outfit, a furry hat, and sunglasses while holding a phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black furry hat, sunglasses, and an all-black athletic outfit walks outdoors on a paved path while holding a smartphone."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large billboard on an urban street advertises [PERSON], featuring several male athletes in sportswear with the Turkish national football team emblem, alongside parked cars and buildings."
+        },
+        "gpt-4o-mini": {
+          "summary": "A promotional billboard featuring four individuals in sports attire with a Turkish flag, advertising an insurance company."
+        },
+        "gpt-5.4": {
+          "summary": "A large roadside billboard shows several soccer players in Turkish team-style tracksuits advertising [PERSON], with parked cars and modern buildings in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A billboard advertisement featuring a group of individuals in sports attire promoting [PERSON] as sponsor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large outdoor billboard advertises [PERSON], showing four male athletes in team gear against a city backdrop with cars passing by."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large outdoor billboard displays an advertisement for [PERSON] featuring five Turkish national football players and [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white image features a man in a tank top and white pants sitting barefoot on"
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in a white tank top and pants is sitting casually in a rocking chair."
+        },
+        "gpt-5.4": {
+          "summary": "Black-and-white portrait of a man in a white tank top and pants sitting barefoot in a wicker chair, with vertical artist/title text on the sides."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in white attire sits relaxedly against a lattice backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of a man sitting on a white chair, wearing white pants and a tank top, with his hand over his face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white album cover featuring a man in white clothing sitting on a wicker chair, with the artist name '[PERSON] SANDAL' and title 'GÖLGEDE AYNI' displayed."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image is an album cover featuring a woman"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up portrait of a woman with long hair, leaning against a surface, conveying a contemplative mood."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up album-cover style portrait of a woman with readable artist and title text overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover featuring a woman in white lace attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with blonde hair leans against a white surface, looking directly at the camera, with text identifying her as [PERSON] and a Turkish phrase below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a woman with blonde hair and bangs resting her hand against a white surface, featuring overlaid text identifying the artist and album title."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features four individuals dressed in stylish suits against a blue sky backdrop, suggesting a music or promotional theme."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized album-cover-like photo shows four band members posing outdoors near a barbed-wire fence under a blue sky, with the text 'mor ve ötesi | [ORGANIZATION] at the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four individuals stand against a clear blue sky in front of barbed wire fencing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four men in dark and light suits stand against a blue sky with barbed wire fence, under album text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four men in black and white suits pose outdoors against a blue sky with barbed wire, appearing as a band album cover."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized portrait of a man with green eyes and a wavy, artistic overlay, likely representing an album cover."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized album-cover-like close-up of a face with green eyes, dark hair, and abstract distorted textures across the cheeks, with the words \"KARMA\" and \"TARKAN\" on the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person's face with artistic swirls around it."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up portrait of a man with green eyes and abstract black-and-white patterns overlaying his face, set against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a man with green eyes and dark hair, featuring an artistic wavy distortion effect across his face."
+        }
+      }
     }
   }
 }

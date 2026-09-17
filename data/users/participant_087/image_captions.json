@@ -1,67 +1,1195 @@
 {
   "user_id": "participant_087",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "city exploration",
-        "dining",
-        "music"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; city exploration; dining; music."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone screen showing the Twitter interface for muting words and notifications."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows the X/Twitter-style dark-mode \"Add muted word\" settings screen with the phrase \"look between\" being entered and mute options enabled."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a Twitter mute word settings page."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile screen showing the 'Add muted word' settings where 'look between' is typed into the input field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the Twitter 'Add muted word' settings interface showing the phrase 'look between' being typed into the input field."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "music",
-        "spectator sports",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; music; spectator sports; video games."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a bathroom, wearing a white t-shirt with floral designs."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a bathroom showing a person in a white floral T-shirt, with green shower tiles and exposed ceiling wiring above the mirror."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bathroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom under renovation, with exposed wiring visible on the ceiling."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with a beard takes a mirror selfie in a bathroom featuring green subway tiles and an exposed electrical fixture on the ceiling."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "music",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; music; photography; spectator sports."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a white hoodie with a colorful design on the back, reflected in a bathroom mirror."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a bathroom showing a white hoodie with a large colorful whale-and-sunset graphic on the back."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a selfie in front of an open ceiling electrical box."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom wearing a white hoodie with a colorful whale and sunset graphic on the back."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a white hoodie with a large whale and wave graphic on the back takes a mirror selfie in a bathroom."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "music",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; music; photography; spectator sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an airplane wing with a [ORGANIZATION] aircraft and airport infrastructure in the background."
+        },
+        "gpt-5.4": {
+          "summary": "View from an airplane window showing a [ORGANIZATION] aircraft wing at the gate with ground service vehicles and a jet bridge on the airport tarmac."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] airplane parked at an airport gate under a clear sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from an airplane window showing a [ORGANIZATION] aircraft parked at an airport gate with ground equipment nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from an airplane window showing the wing in the foreground and a [ORGANIZATION] aircraft parked at a gate on the tarmac under a clear sky."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "music",
-        "nature visits",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; music; nature visits; spectator sports."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie in a modern bathroom, wearing"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a bathroom, wearing a black and beige jacket."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie in a narrow tiled restroom, wearing a black jacket with tan pockets beside a white sink."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in an indoor bathroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a modern bathroom with an orange ceiling and white tiled walls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a modern restroom, wearing a black jacket with tan pockets and grey sweatpants."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "music",
-        "savory food",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; music; savory food; spectator sports."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view of a sprawling city at dusk or dawn, featuring a mix of residential and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A panoramic view of a cityscape during sunset, showcasing buildings and roads from a high vantage point."
+        },
+        "gpt-5.4": {
+          "summary": "A high-rise window view overlooks a cityscape with roads, apartment buildings, and a canal under dramatic cloudy sunset skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A panoramic view of a cityscape during sunset from an elevated vantage point."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A high-rise window view of a cityscape at sunset with clouds and urban buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a dense urban cityscape at dusk, featuring modern architecture, a canal with boats, and a cloudy sky with sunset hues."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A high-angle panoramic view captures a city with a river, multiple bridges, and buildings under a cloudy sky with the sun breaking through."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a river and city skyline at sunset, with clouds in the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A high-angle cityscape shows a river, bridges, and buildings under a dramatic cloudy sunset sky, viewed through a window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic sunset over a cityscape featuring bridges, waterways, and urban architecture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cityscape viewed from a high window during sunset, featuring a river, bridges, and scattered clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a city skyline at sunset, featuring a river with boats, an elevated highway with traffic, and a dramatic cloudy sky."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a man speaking, with a quote from [PERSON] song 'Dreams and Nightmares' prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up meme image shows an emotional basketball player in a [LOCATION] beside a gold trophy, with caption text referencing a song lyric."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a [LOCATION] smiles while another person speaks beside him."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A basketball player emotionally holds a trophy while another man looks on, overlaid with lyrics from [PERSON] song."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up image of [PERSON] crying while holding a championship trophy, overlaid with a quote from [PERSON] song 'Dreams and Nightmares'."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an airplane wing with a view of lush green landscapes and water bodies below, under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "View from an airplane window showing the wing over a coastal wetland and ocean under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view from an airplane window showing a wing over lush green landscapes under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from an airplane window showing the wing over a lush green wetland and ocean under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from an airplane window showing the wing over a vast green wetland landscape with a runway and ocean in the distance under a clear blue sky."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A panoramic view of an urban skyline at sunset or sunrise, featuring various buildings, a water tower, and a prominent tall structure, all under a sky with"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a sunset view over a cityscape with various buildings and a water tower."
+        },
+        "gpt-5.4": {
+          "summary": "A city skyline at sunset is seen through a window, with rooftops, a water tower, and scattered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cityscape view during sunset from a high vantage point."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cityscape at sunset viewed through a window, with rooftops, buildings, and a water tower under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cityscape view at sunset seen through a window, featuring rooftops, a water tower, and a prominent skyscraper against an orange sky."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with a beard takes a mirror selfie in a modern bathroom, wearing a white t-shirt and dark pinstriped pants."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a bathroom wearing a white t-shirt and striped pants."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie in a modern bathroom, wearing a white T-shirt and standing in front of a glass shower."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of a bathroom shower."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a modern bathroom, holding a phone with one hand and wearing a white t-shirt with text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a modern bathroom, wearing a white t-shirt with the text 'offlo' and dark pinstripe pants."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bustling scene in [LOCATION] at night, featuring bright advertisements and a crowd of people."
+        },
+        "gpt-5.4": {
+          "summary": "A busy evening street scene in [LOCATION] with crowds, cars, and brightly lit billboards around the GAP and Old [ORGANIZATION] stores."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bustling cityscape in [LOCATION] during dusk."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bustling [LOCATION] at dusk, filled with crowds, bright billboards, and towering buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bustling evening view of [LOCATION] in [LOCATION], featuring crowds of pedestrians and towering skyscrapers illuminated by large digital billboards for brands like [ORGANIZATION] and Gap."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts the interior of a grand train station featuring a large clock and an information desk displaying train arrival times."
+        },
+        "gpt-5.4": {
+          "summary": "An ornate train station interior features a large four-faced clock above an information booth with arrivals and [LOCATION]-North timetable signs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A grand interior of a train station featuring ornate architecture, large windows, an information desk labeled '[ORGANIZATION],' and digital displays showing arrivals."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand train station information booth with a large clock, arched windows, and digital arrival boards."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view of the iconic four-faced clock and information booth inside [ORGANIZATION], featuring [ORGANIZATION]-North arrival schedules against a backdrop of arched windows."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a city skyline reflected in a body of water under a partly cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view shows a city skyline beyond a large lake, with trees along the shore and dramatic sun rays breaking through scattered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a city skyline across a calm body of water under partly cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide view of a lake with a city skyline in the background under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a city skyline across a large body of water under a partly cloudy blue sky."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vibrant scene at [LOCATION] featuring a golden fountain sculpture and rainbow flags, suggesting a festive atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A golden fountain statue stands in a busy city plaza lined with rainbow Pride flags in front of a tall stone building."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant scene featuring a golden statue in front of [LOCATION] adorned by rainbow flags."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People relax around a golden fountain in front of a tall building adorned with rainbow flags."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view of the golden [PERSON] statue at [LOCATION], featuring a fountain and numerous rainbow flags displayed on the building facade."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a match prediction interface showing scores and predictions for a football match between [LOCATION] and [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a EURO 2024 match predictor app with [LOCATION] beating [LOCATION] 2–0 and +40 points awarded for correct predictions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a sports prediction app showing [LOCATION] vs [LOCATION] matchday results."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sports prediction app shows a live match score of [LOCATION] 2-0 [LOCATION], with user predictions and scores."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot showing a [ORGANIZATION] interface for the UEFA Euro 2024 tournament, displaying a live score of [LOCATION] 2-0 [LOCATION] and user prediction results."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A meme image features the character Shadow the Hedgehog standing next to a domestic cat, with a fiery explosion in the background and text overlay."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character resembling a hedgehog alongside a cat, set against a fiery background."
+        },
+        "gpt-5.4": {
+          "summary": "A meme image shows Shadow the Hedgehog walking beside a cat with flames in the background and the caption \"typa shit i'm on.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring Shadow from Sonic the Hedgehog standing next to a cat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An animated character stands beside a real cat against a fiery background, with overlaid text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring the video game character Shadow the Hedgehog walking alongside a cat against a fiery background with overlaid text."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a mobile app interface for a prediction league, featuring options to create or join leagues and showing rankings for public leagues."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile app screenshot shows a sports prediction game's Leagues page with options to create or join private leagues and rankings in public leagues."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] showing options to create or join leagues in a sports prediction app."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app screen showing private and public prediction leagues with options to create or join."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displaying a sports prediction interface with options to create or join private leagues and view rankings for public leagues."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a leaderboard for a gaming league in the [LOCATION], showing user rankings and points."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile app screenshot shows the [LOCATION] league leaderboard with ranked users and points in an overall standings view."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A leaderboard from a Dutch-themed online community showing top members ranked by points."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A leaderboard showing top users in a [LOCATION]-themed Euro 2024 betting league."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displays a ranked leaderboard for [ORGANIZATION], featuring user profiles with emoji avatars and point totals alongside Euro 2024 advertisements."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a leaderboard for a gaming league in the [LOCATION], showing user rankings and scores."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [LOCATION] league leaderboard in a sports app, with overall rankings and the user listed as \"[PERSON] (You)\" at position 95 with 152 points."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A leaderboard from a [LOCATION] sports community showing member rankings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app leaderboard for the Netherlands Euro 2024 fan group, showing user rankings with [ORGANIZATION] and scores."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displays a ranked leaderboard for [ORGANIZATION], showing user names like [PERSON] and [PERSON] (You) alongside scores and emoji avatars."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot captures a large crowd gathered in an indoor arena, illuminated by vibrant blue stage lights and a high, intricate ceiling structure"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a large crowd at a concert or event, with dramatic lighting and a stage in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A large indoor concert venue is filled with a crowd facing a blue-lit stage under a high industrial ceiling."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A concert scene in a large venue illuminated by blue stage lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowded indoor concert venue with a stage bathed in blue light under an exposed steel truss ceiling."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view from an elevated position captures a large indoor concert venue filled with a dense crowd, illuminated by blue stage lighting and haze."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a sports prediction interface for a match between [LOCATION] and [LOCATION], showing a score of 8-0 and user predictions."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile sports prediction app screen shows a [LOCATION] vs England Euro 2024 match prediction with an 8–0 score, popular score picks, and user predictions for [LOCATION] and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sports prediction app showing a match between [LOCATION] (0) vs [LOCATION] (8), popular predictions are listed below."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sports prediction interface showing a match between [LOCATION] and [LOCATION] with user predictions and popular score forecasts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface displays the final score of a football match between [LOCATION] and [LOCATION] on [DATE], showing an 8-0 victory for [LOCATION] alongside user prediction results."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "A player in a [LOCATION] is celebrating or motivating during a football match."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a [LOCATION] soccer player in a red national-team jersey during a live match broadcast, with the scoreboard showing [LOCATION] vs [LOCATION] at 0–0."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] celebrates during an international match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A male soccer player in a red [LOCATION] clenches his fist and touches his face during a match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a red [LOCATION] jersey celebrates with both fists raised during a match against [LOCATION]."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a record player on a wooden stand with a black turntable and a decorative cover."
+        },
+        "gpt-5.4": {
+          "summary": "A wooden turntable setup with a clear dust cover sits on a small shelf unit, with speakers below and vinyl records stored beside it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vinyl record player setup in a cozy corner of an indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden turntable with a clear dust cover and 'ANGELS HORN' branding is placed on a stand with speakers underneath, next to a Pikachu-themed fabric item."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wooden Angels Horn turntable with a clear dust cover sits on a stand, accompanied by vinyl records and a Pikachu tote bag."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person holding a vinyl record with a striking cover featuring a figure in a blue and white headscarf."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a large black boxed item or vinyl package featuring stylized blue-and-white portrait artwork, photographed over a wooden floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a vinyl record album cover featuring an abstract floral design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a sealed vinyl record album cover featuring an illustrated figure in a blue and [ORGANIZATION], with visible text indicating it's a limited edition release by Gunna."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a sealed, limited edition blue vinyl record album by Gunna titled 'One of Wun' against a wooden floor background."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a city street scene featuring the [PERSON] and [ORGANIZATION] hotels, with traffic lights and bicycles in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A rainy urban street scene shows red traffic lights, bicycles, a bus, and modern buildings including visible [LOCATION] and [ORGANIZATION] hotels."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A rainy urban scene featuring a [LOCATION] hotel building under construction."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet urban street corner with a [LOCATION] hotel and a clock tower under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street-level view of a wet urban plaza featuring a modern building with a '[PERSON]' sign and a distant '[ORGANIZATION]' hotel under an overcast sky."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a busy scene outside [ORGANIZATION] train station with people walking and a large yellow figure in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A rainy street view shows the facade of [ORGANIZATION] with a clock tower, pedestrians outside, and station signage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bustling scene outside [ORGANIZATION] station in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People walk in front of the ornate [ORGANIZATION] train station on an overcast day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street-level view of [ORGANIZATION] train station on a cloudy day, featuring pedestrians and a large yellow inflatable figure near the entrance."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot of a bustling European city street on an overcast day"
+        },
+        "gpt-4o-mini": {
+          "summary": "A busy urban street scene on a rainy day, featuring pedestrians and bicycles."
+        },
+        "gpt-5.4": {
+          "summary": "A rainy city street scene with pedestrians, bicycles, and ornate multi-story buildings in a European-looking downtown area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bustling urban street scene in a European city under overcast skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet urban street scene with pedestrians, bicycles, and historic buildings under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street-level view of a busy, wet city avenue in [LOCATION] featuring classic European architecture, pedestrians, and bicycle racks under an overcast sky."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a hotel room, wearing a black jacket and sweatpants."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a full-body mirror selfie in a small modern room, wearing a dark jacket and pants with white sneakers beside a bed and desk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their hotel room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a hotel room, wearing a black jacket with beige accents and white sneakers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a full-body mirror selfie in a hotel room, wearing a black jacket with tan accents and white sneakers."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image features a bald man with a beard against a green brick wall, overlaid with large white and red text."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person standing against a green tiled wall with bold text overlaying the bottom."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait of a bald man standing against a green tiled wall with large overlaid text reading \"UTTER WOKE NONSENSE.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man stands against a teal brick wall with bold text reading 'UTTER WOKE NONSENSE'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a serious expression stands against a green tiled wall, overlaid with bold text reading 'UTTER WOKE NONSENSE'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald man with a beard stands against a green tiled wall with the text 'UTTER WOKE NONSENSE' overlaid in bold white and red letters."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a gray hoodie poses in a bathroom mirror, capturing a casual moment."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a bathroom showing a person in a gray hoodie and light sweatpants, with a tiled shower and slanted ceiling in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bathroom wearing a [PERSON] hoodie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom wearing a grey hoodie with visible branding."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a grey [PERSON] hoodie and light-colored pants takes a mirror selfie in a bathroom with green subway tiles and a skylight."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a graphic with a logo and text indicating a top gaming creator."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media story-style recap shows a circular red logo and the text saying [PERSON] was the top gaming creator."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A notification indicating shadypenguinn was a top gaming creator."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile screen shows a gaming platform notification declaring 'shadypenguinn was your top gaming creator' alongside a stylized red logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot displays a social media achievement card featuring a red logo and text identifying 'shadypenguinn' as a top gaming creator."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [ORGANIZATION] screen displays 'My Top Song' as 'one of wun' by Gunna, with 217 total streams, placing the listener in the top 0.001% worldwide, against a vibrant yellow and"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases a [ORGANIZATION] summary highlighting the user's top song 'one of wun' by Gunna, with a colorful abstract background."
+        },
+        "gpt-5.4": {
+          "summary": "A bright [ORGANIZATION]-style graphic shows the top song as \"one of wun\" by Gunna with 217 total streams and a top 0.001% listener ranking worldwide."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] post showcasing 'one of wun' by Gunna as top song."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] graphic showing 'one of wun' by Gunna as the top song, with 217 streams and a global ranking."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] graphic displays a user's top song, 'one of wun' by Gunna, with 217 total streams on a bright yellow background."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] summary featuring top artists and songs along with a visual background."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-style graphic shows a music listening recap with a central artist photo, top artists and songs lists, and total minutes listened."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] post showcasing top artists and songs from a listener's year."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] graphic showing top artists, songs, and listening time against a red and green geometric background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] graphic featuring a portrait of rapper Gunna against a red and green background, listing his top artists, songs, and total minutes listened."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a gray hoodie stands in a bathroom, taking a mirror selfie."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a bathroom shows a person in a gray hoodie and backpack, with a music sticker overlay on the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bathroom wearing a hoodie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom wearing a grey hoodie with a visible logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a grey [PERSON] hoodie and carrying a brown backpack takes a mirror selfie in a bathroom with dark green tiles. A music overlay indicates the song 'Style Rare' by Offset and Gunna."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A decorated Christmas tree with lights and wrapped gifts underneath."
+        },
+        "gpt-5.4": {
+          "summary": "A warmly lit Christmas tree decorated with ornaments, tinsel, and wrapped presents stands indoors in a cozy home setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A decorated Christmas tree adorned with lights and ornaments in a cozy indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A warmly lit indoor Christmas tree decorated with ornaments and surrounded by wrapped presents."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A decorated Christmas tree with warm lights, ornaments, and wrapped gifts sits on a wooden floor in a home setting."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a beautifully set dining table with plates, glasses, and food items, creating an inviting atmosphere for a meal."
+        },
+        "gpt-5.4": {
+          "summary": "A warmly lit indoor dining table is set for a raclette-style meal with bread, glasses, candles, and neatly arranged place settings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A warmly lit dining table set for a meal featuring bread, wine glasses, candles, and decorative napkins."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A warmly lit dining table set for a raclette meal with decorative wing-themed napkins and black candles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wooden dining table is set for a raclette dinner with a central grill, bread, cheese, and vegetables."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a shrimp cocktail in a stemmed glass with a lemon wedge, garnished with herbs and served on a plate with a decorative napkin, alongside a basket of sliced bread and other dining elements on"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a gourmet dish served in a glass, accompanied by a basket of sliced bread and a glass of wine."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit restaurant table shows a seafood cocktail in a glass with lemon and herbs, alongside a basket of sliced bread and drinks."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A seafood dish garnished with lemon wedge served in a glass bowl."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cocktail glass filled with a creamy seafood dish, garnished with parsley and a lemon wedge, sits on a decorative napkin beside a basket of bread."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a seafood cocktail served in a stemmed glass with angel wings on the base, accompanied by a basket of sliced bread and wine glasses on a wooden table."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a gray hoodie is taking a selfie in a bathroom mirror."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a gray hoodie takes a mirror selfie in a bathroom with dark green shower tiles and a skylight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bathroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom with green tiled walls and sloped ceilings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with a beard wearing a grey hoodie takes a mirror selfie in a bathroom featuring dark green tiles and a skylight."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification about the removal of a photo from a user's profile."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an Instagram-style notice saying a photo was removed, showing the affected post preview and a blue 'See why' button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Notification indicating a photo was removed from an account."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A notification showing a photo was removed from a social media profile, with details about the post and a 'See why' button."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a social media platform notification stating that a photo titled '[ORGANIZATION] from user [ACCOUNT] was removed on [DATE]."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification about the removal of a photo due to community standards violations."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode mobile screenshot shows a social media app details page saying a shared photo was removed on 2 Mar 2025 for violating spam-related community standards."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A notification explaining why a photo was removed due to spamming."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a social media platform's notification explaining that a user's photo was removed for violating community standards on spam."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a social media notification stating that a photo titled '[ORGANIZATION] was removed for violating spam policies."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a bathroom mirror while wearing a blue hoodie and gray sweatpants."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a bathroom shows a person wearing a blue hoodie and gray sweatpants, with a shower, skylight, and toilet in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bathroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom wearing a blue hoodie with visible text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a blue hoodie takes a mirror selfie in a bathroom with dark green tiles and a skylight."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a headset while seated, with a blurred face and a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a gray-haired man in sportswear reclining with eyes closed while holding a headset above his head, looking tense or uncomfortable."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a headset appears focused during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with gray hair is removing a headset while looking upward with a strained expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a man with gray hair grimacing in frustration while removing a headset."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person holds a plastic container of fruit and chocolate dessert in the foreground, with a blurred view of"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a container of food in a park setting with a statue in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a plastic fruit bowl in a sunny park with a large grassy lawn and a blurred statue in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a plastic container of food in front of an open park area featuring green grass and trees under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a fruit cup in front of a large green lawn with a distant statue under a sunny blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a container of fruit salad in the foreground with a large equestrian statue and green park lawn visible in the background under a blue sky."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of food featuring a piece of fish, rice, and a slice of bread, accompanied by various condiments in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A restaurant meal plate with blackened fish, rice, brown gravy or stew, and sliced bread sits on a dark table beside condiments."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of gumbo featuring rice, bread slices, a piece of grilled chicken, and various condiments."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plate of chicken and gravy with rice and bread on a restaurant table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A plate of gumbo with a piece of fried fish, rice, and bread sits on a table next to a condiment caddy."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A city skyline at sunset viewed through a rain-speckled window."
+        },
+        "gpt-5.4": {
+          "summary": "A rain-speckled window overlooks a downtown skyline of high-rise buildings against a glowing sunset or stormy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cityscape view through a rain-speckled window during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A city skyline at sunset viewed through a rain-speckled window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A city skyline at sunset viewed through a rain-streaked window, featuring tall skyscrapers and street traffic below."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a bathroom, wearing a floral-patterned shirt and a lanyard."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a bathroom shows a person wearing a black floral shirt and an event lanyard, with bright ceiling lights reflecting in the mirror."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in a modern bathroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a modern bathroom while wearing a convention lanyard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a bathroom, wearing a black shirt with white floral patterns and an event lanyard."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A street view of a city"
+        },
+        "gpt-4o-mini": {
+          "summary": "A city street scene at dusk featuring tall buildings and a quiet road."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet downtown street at dusk is framed by mid-rise buildings and glass office towers, including ones labeled [ORGANIZATION] and [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cityscape view of a street lined by modern buildings during dusk."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A city street at dawn with tall skyscrapers, including [ORGANIZATION] and [ORGANIZATION], lining the road."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A city street scene at dusk featuring [ORGANIZATION] skyscraper and surrounding urban architecture."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two breakfast sandwiches in branded paper bags and a yellow drink in a plastic cup are placed on a metal table."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two sandwiches in brown paper packaging alongside a cup of orange drink on a metal table."
+        },
+        "gpt-5.4": {
+          "summary": "Two packaged breakfast sandwiches in an Eggslt/eggslut box sit on a metal outdoor table next to a cold yellow-orange drink with a straw."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two burgers in branded packaging are served alongside a drink."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two egg sandwiches and a drink from 'eggslut' are served on a metal table outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two breakfast sandwiches and a cup of orange juice from the brand 'eggslut' are displayed on a metal table."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a screenshot of football match results from [DATE], showing scores for [ORGANIZATION] vs. [LOCATION] and [LOCATION] vs. [ORGANIZATION]."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the final scores of two football matches played on [DATE], with [ORGANIZATION] defeating [ORGANIZATION] defeating [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed sports scoreboard shows two full-time football results for [DATE]: [ORGANIZATION] Fluminense and [LOCATION] 3–4 [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Scores from a football match between [ORGANIZATION] (0) vs [ORGANIZATION] (2), [LOCATION] (3) vs [ORGANIZATION] (4)."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed sports scoreboard showing two completed matches with final scores."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-mode sports scoreboard displays full-time results for two football matches played on [DATE], showing [ORGANIZATION] defeating [ORGANIZATION] defeating [LOCATION]."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] summary featuring top artists, songs, and listening statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-style graphic shows a black-and-white portrait with music stats listing top artists, top songs, 41,860 minutes listened, and [PERSON] as the top genre."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] stats featuring Gunna as top artist."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] summary showing top artists, songs, and genre for a user who listened for 41,860 minutes, featuring a black-and-white portrait of a man in sunglasses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] graphic featuring a black-and-white portrait of rapper Gunna alongside his top artists, songs, and listening statistics."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A blurry, low-resolution image shows a cartoon turtle or tortoise with wide, surprised eyes and an open mouth, set against a green, out-of-focus background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon turtle with a surprised expression."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a CGI cartoon turtle with wide eyes and an open mouth, standing against a grassy background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a cartoon turtle character looking surprised."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of an animated turtle character with wide eyes and an open mouth, set against a blurred green background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a green turtle character with wide eyes and an open mouth, appearing surprised or shocked against a grassy background."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a man, visibly emotional, holding a trophy while another person stands beside him."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up sports celebration image shows an emotional basketball player holding a trophy with a meme caption overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring [PERSON] in a [ORGANIZATION] jersey with an overlaid quote from [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A basketball player in a [LOCATION] holds a trophy while crying, with another man beside him, overlaid with a quote from [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring [PERSON] crying while holding a trophy, overlaid with a quote from [PERSON] song 'Dreams and Nightmares'."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a social media profile with a birthday greeting and personal details."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped dark-mode social media profile screenshot shows the handle [ACCOUNT] with [PERSON] text including “27 y/o,” “Aquarium,” and “Happy birthday!”."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION]'s [PERSON] showing age (27), location hints ('Aquarium' & 'The'), birthday greeting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed social media post celebrating a 27-year-old named [PERSON] with birthday wishes and interests in aquariums and 'poggers'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cropped social media profile header displaying a reversed username, age, and celebratory text against a dark background."
+        }
+      }
     }
   }
 }

@@ -1,64 +1,799 @@
 {
   "user_id": "participant_085",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "music"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; music."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person's hand holds a white Red Bull \"The Spring Edition Cherry Sakura\" energy drink"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a can of [ORGANIZATION] Sakura energy drink against a wet pavement background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a can of Red Bull Spring Edition Cherry Sakura energy drink on a wet sidewalk outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a can of Red Bull Spring Edition Cherry Sakura energy drink."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a silver [ORGANIZATION]Spring Edition' Cherry Sakura energy drink can outdoors on a wet sidewalk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a silver [ORGANIZATION] can labeled 'The Spring Edition' with [PERSON] flavor against a wet, paved outdoor background."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "comedy",
-        "music",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; comedy; music; video games; visual art."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital notification box displays '517.6K impressions on your posts in the last 7 days' with an option to '[ORGANIZATION]."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification about post impressions on social media."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a Twitter-style analytics prompt stating recent post impressions with an option to unlock analytics."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A notification showing high engagement metrics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A notification showing 517.6K impressions on posts in the last 7 days, with an option to unlock analytics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media analytics notification displays a private metric of 517.6K impressions over the last 7 days with an option to unlock further data."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "film and television",
-        "music",
-        "reading",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; music; reading; video games; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet expressing an opinion about social media blocking behavior."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a tweet in dark mode shows a profile named [ACCOUNT] posting a short text about being blocked on social media, with engagement counts visible below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] comments humorously on posting blocked images."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter post by user '[ACCOUNT]' stating that if someone posts images of being blocked, they immediately know who was right."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a tweet by user [ACCOUNT] ([ORGANIZATION]) stating that seeing images of oneself being blocked indicates the blocker was right."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "music",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; music; reading."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts two children reacting to a blonde girl, expressing surprise and admiration."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white manga panel shows a surprised long-haired girl reacting to two small boys, with dialogue mentioning twins and a blond child."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A manga panel showing a surprised girl being identified as [ORGANIZATION] little brothers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two boys react with surprise and admiration to a blonde girl, while she looks embarrassed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white manga panel depicts a surprised blonde girl reacting to two identical boys, with speech bubbles indicating she is shocked they are twins and [ORGANIZATION] little brothers."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "music",
-        "photography",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; music; photography; video games; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a suit pointing forward, with text suggesting a sense of urgency or distress."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white meme-style image shows [PERSON] seated and pointing at the viewer with large caption text above and partially obscured text below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Satirical meme featuring a figure in formal attire pointing downward."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white meme image of [ORGANIZATION] pointing forward, with partially obscured text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white meme featuring a man in a suit pointing forward, with overlaid text that reads 'IN REALITY THEY'RE [redacted] AFTER ME' and 'I'M [redacted] help'."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "film and television",
-        "music",
-        "reading",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; music; reading; video games; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a [ORGANIZATION] search bar with the query \""
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a search interface displaying the phrase '[LOCATION] stands with [LOCATION] license plate'."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a [ORGANIZATION] search bar and search field with the query \"[LOCATION] stands with [LOCATION] license plate\" on a dark interface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] search bar displaying a query related to [LOCATION]'s stance regarding [LOCATION] license plates."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen shows a [ORGANIZATION] search bar with the query '[LOCATION] stands with [LOCATION] license plate' being typed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] search bar displaying the query '[LOCATION] stands with [LOCATION] license plate' in dark mode."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a text post"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post expressing a playful question about appearance and comparison."
+        },
+        "gpt-5.4": {
+          "summary": "A simple white-background text post jokes about looking like 2hollis or Nettspend."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme-style post comparing someone's appearance humorously to two different individuals."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text-based tweet questioning whether the poster looks like '2hollis' or if it's just 'nettspend'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme image featuring white text on a black background that humorously questions whether the speaker resembles rapper 2Hollis or [ORGANIZATION] due to their appearance."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a quiz interface with a question and answer options related to a video editing or music production context."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of [ORGANIZATION] video editor shows the [ORGANIZATION] panel open while editing a video, with quiz answers on the left and a stylized video preview on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] quiz creation interface showing an incomplete question."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A quiz editor interface showing a question titled 'what the hell bruh' with placeholder answer options, alongside a video preview window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [ORGANIZATION] interface showing a user creating an interactive quiz overlay for a video, with visible text editing and timeline controls."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a grid of four obscured faces against a brick background, accompanied by a music track titled '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a music post/player shows the track “(Yes, he did help overthrow...)” by [ORGANIZATION] alongside album art of four people wearing sunglasses and shaving-cream beards against a brick wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous meme featuring four individuals covered in shaving cream against a brick wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music track player shows a song with a waveform and four photos of people with whipped cream on their faces."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post featuring an audio player with a waveform and a four-panel photo of men wearing sunglasses and shaving cream beards."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays the logo for [LOCATION], featuring a stylized 'PR' monogram in blue, light blue, and green, alongside the department's full name"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the logo of [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped graphic shows a stylized logo beside the text \"[ORGANIZATION]\" on a white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Logo of [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Logo of [LOCATION] featuring a stylized 'R' with blue and green accents."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The official logo and name of [LOCATION] are displayed against a white background."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a pixelated character, resembling Frisk from [ORGANIZATION], within a rounded square app icon, with the text \"Undertale Lite\" below it on a plain grey background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a pixel art character from the game '[PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a pixel-art app icon with a cartoon character above the label \"Undertale Lite.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pixelated character icon from '[PERSON] game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pixel-art icon for '[PERSON] featuring a character with brown hair and striped clothing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pixel-art icon of a character with brown hair and a striped shirt is displayed inside a rounded square, with the text '[PERSON] below it."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two animated characters in a close embrace, suggesting a warm or affectionate interaction."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped interface screenshot shows an anime-style avatar next to the truncated text “1 · disqualified as a hum...” and a play icon with “1,000” on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post indicating a character was disqualified as human."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet showing a cartoon avatar next to text that reads 'disqualified as a hum...' with a view count of 1,000."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post header showing an anime-style profile picture, the number '1', and a partially visible caption in cursive text reading 'disqualified as a hum...'."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital interface element displays a cloud icon with an upward arrow next to the text \"401 minutes uploaded,\" indicating a duration of data transfer."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a cloud upload icon with a text indicating the duration of 401 minutes uploaded."
+        },
+        "gpt-5.4": {
+          "summary": "A simple screenshot shows a cloud-upload icon next to the text indicating a file was uploaded 401 minutes ago."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A timestamp indicating a file was uploaded."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A notification showing an upload status with a cloud icon and text indicating '401 minutes uploaded'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a user interface element displaying an upload icon next to the text '401 minutes uploaded'."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a music profile page for \"Steezie Wonder\" by \"[PERSON],\" featuring an"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized profile of a character named [PERSON], with a focus on music and a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] profile page for 'Steezie Wonder' showing an anime-style avatar, a [ORGANIZATION] button, and no tracks or followers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile page of [ORGANIZATION] featuring an anime-style avatar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] profile for 'Steezie Wonder' showing a cartoon avatar of a person making a peace sign, with zero followers and tracks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] profile page for a user named [PERSON] featuring an anime-style avatar and a banner with Japanese text."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a comments section from a music platform featuring various user interactions about a track."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows the [ORGANIZATION] comments page for a track, with “31,774 comments” and multiple recent user comments including “the intro is fire.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] post showing a comment section from '[PERSON] featuring various users reacting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] comment section showing user reactions to a track."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [ORGANIZATION] comments section for [PERSON] song 'SICKO MODE', showing user reactions and timestamps."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a music track post with a colorful album cover related to [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a social-media audio post for a Super Mario 64 remix track, with colorful cover art and a waveform player."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post featuring a Super Mario character in front of 'Super Mario 64' branding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music track titled '[ORGANIZATION] (Don't [ORGANIZATION])' by mika*mioda, featuring an album cover with a character in red overalls and a cap holding a 'SUPER MARIO 64' logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post by user [ACCOUNT] sharing a track titled '[ORGANIZATION] (Don't [ORGANIZATION])' from [ORGANIZATION] with an album art image featuring the game's logo and a character."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a social media notification showing that a user with an anime-style profile picture has started following the recipient, along with a 'Following' button."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a notification of a user starting to follow another user on a social media platform."
+        },
+        "gpt-5.4": {
+          "summary": "A social media header shows a user profile snippet with an avatar, the username '[ACCOUNT]', follow status, and a timestamp."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Twitter follow notification from a user named [PERSON] [ACCOUNT]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social-media notification showing a user named '[ACCOUNT]' started following the viewer 13 minutes ago."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media interface screenshot showing a user named '[ACCOUNT]' started following the account, with an anime-style avatar and a 'Following' button."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a collage of various album covers and music-related graphics."
+        },
+        "gpt-5.4": {
+          "summary": "A collage of several album-cover artworks on a black background with a playlist-style list of song and artist names on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of album covers featuring various artists like [PERSON], [PERSON], and others."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of nine album art thumbnails and a text block listing music tracks and credits."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital collage displaying a curated list of music album covers and titles against a black background."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the loading screen of the game 'Factorio' with a progress bar indicating prototype building."
+        },
+        "gpt-5.4": {
+          "summary": "A dark Factorio game loading screen shows the orange logo and a progress bar at 29% with the message \"Building prototypes...\"."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Loading screen of a game titled '[PERSON]' showing progress bar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "The Factorio game loading screen displays the title in metallic orange text with a progress bar at 29%."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The loading screen for the video game [PERSON], featuring its logo and a progress bar."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character with pink hair expressing discomfort about being labeled as 'allo-sexual'."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style pink-haired magical girl character is shown speaking in a manga panel with comedic dialogue about being called “allo-sexual.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pink-haired anime character in a dress expresses frustration over being labeled as 'allo-sexual'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink-haired anime girl in a maid outfit complains about being called 'allo-sexual', with text bubbles expressing disgust."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style illustration of a pink-haired girl in a maid outfit expressing annoyance at being called 'allo-sexual'."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a 'Who to follow' section featuring two verified accounts, [PERSON] and [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode social media 'Who to follow' screen shows suggested accounts for [ORGANIZATION] and [PERSON] with follow buttons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Suggestions of music artists [PERSON] ([ACCOUNT]) and [PERSON] ([ORGANIZATION])."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter 'Who to follow' interface showing two verified DJ profiles, [ORGANIZATION] and [PERSON], each with a 'Follow' button."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media interface displaying a 'Who to follow' section featuring profile cards for verified DJs [ORGANIZATION] and [PERSON] with 'Follow' buttons."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text excerpt discussing a conversation involving [PERSON] and [PERSON], highlighting emotional tension."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo of a printed book page shows text discussing [PERSON], [PERSON], and [LOCATION], with a citation number highlighted in blue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Text excerpt discussing [PERSON]'s conversational style."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text excerpt describing a tense interaction between [PERSON] and [PERSON], with visible page number 793."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a printed book page featuring text about [PERSON], [PERSON], and a character named [PERSON]."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a search interface showcasing popular game titles with their prices and discounts."
+        },
+        "gpt-5.4": {
+          "summary": "A digital game store screen shows a search bar and a list of popular searches with discounted game titles and prices."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Steam store page displaying popular game sales."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game store search page showing discounted titles like '[ORGANIZATION] and 'Fun! Raccoon Game'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a digital game store interface displaying a list of popular video game search results with discounted prices."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a series of comments discussing music and pop culture references."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media comments section showing multiple user replies with timestamps, like counts, and heart icons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Twitter thread discussing music preferences."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a social media thread showing user comments and replies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media comment section featuring user avatars, timestamps, and text comments."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of various album covers and artwork, showcasing a mix of music and artistic styles."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a music-library interface showing multiple album-cover thumbnails and a list of track or release titles on a black background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of various album covers and a person in casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A horizontal collage of album covers and text snippets, including a central photo of a person wearing a beanie."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music playlist or library interface displaying album art thumbnails and track titles against a black background."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A quiet residential street"
+        },
+        "gpt-4o-mini": {
+          "summary": "A quiet street lined with parked cars and residential buildings under a cloudy evening sky."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet residential city street at dusk shows row houses, parked cars, overhead string lights, and a wet roadway with a small puddle."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quiet residential street lined with parked cars under a string of lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A quiet residential street at dusk with parked cars, brick row houses, and string lights overhead."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A quiet residential street lined with parked cars and row houses at dusk, illuminated by overhead string lights and porch lamps."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital music playlist with track titles and their corresponding album information."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a music or media library list shows album and track columns with several song titles and [LOCATION] entries."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a music library showing track details."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer screen showing a music playlist with partially obscured track titles and artist names."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a digital music playlist showing track titles and filenames, with a cursor hovering over one entry."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dark, snowy scene featuring a silhouetted figure near a fire, with a tank and a character peeking out from behind it."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style winter scene shows a silhouetted person sitting by a fire beside industrial vehicles, while another character peeks out from behind equipment in a snowy alley."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character sits by a campfire in front of an old trailer during snowy weather."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A silhouette sits near a fire at night, facing another character peeking from behind a wooden barrier in a snowy, brick-walled setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime scene depicting two characters in a snowy, nighttime setting next to military-style vehicles and a fire."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes support for an artist named [PERSON] $plash."
+        },
+        "gpt-5.4": {
+          "summary": "A social media support card invites users to tip an artist named [PERSON] $plash, with a large Support button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A call-to-action encouraging support of an artist named [PERSON] $plash."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A digital tip interface encouraging support for artist [PERSON] $plash, with a 'Support' button and note that money goes directly to the artist."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital interface prompting users to financially support the artist [PERSON] $plash via a leaderboard system."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An anime-style character with dark pigtails and an eyepatch is shown in a close-up, with a smaller, similar character in the background,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character with blue hair in a grassy setting, accompanied by another character in the background."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style game dialogue scene shows a close-up of a dark-haired character with an eyepatch in a grassy outdoor setting, with subtitle text indicating music."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a fantasy-style game scene stands amidst tall grass under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character with dark hair and an eyepatch stands in grassy terrain, with a music icon and text overlay indicating audio is playing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from a Japanese role-playing game featuring a female character with dark hair and an eyepatch in a grassy field, displaying a dialogue box labeled '[music]'."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character with a colorful hairstyle, likely expressing humor or irony related to a song and the events of 9/11."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media comment thread showing multiple comments and replies discussing a song and repeatedly mentioning 9/11."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT] posts a series of tweets referencing 9/11 in an inappropriate manner."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of Twitter comments discussing a song and referencing '9/11' with provocative language."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter thread where user '[ACCOUNT]' and others discuss the song '9/11' by [PERSON], with comments referencing the date and URL details."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a promotional listing for the video game '[ORGANIZATION] with a significant discount."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a search result listing for the video game [ORGANIZATION] with a 70% discount and a listed price of $17.99."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sonic Frontiers game sale advertisement showing a discount of -70%."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game storefront listing for 'Sonic Frontiers' showing a 70% discount from $59.99 to $17.99."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital storefront search result displaying the video game [ORGANIZATION] with a 70% discount price tag."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a playful user profile with a cartoonish illustration and gaming-related elements."
+        },
+        "gpt-5.4": {
+          "summary": "A gaming profile header screenshot shows the username \"[ACCOUNT],\" a level 11 badge, a 10 Years of Service award, and a tooltip listing alternate played-as names."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile page showing a player's level, years of service, and previous usernames."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming profile page showing a cartoon avatar, username, level, and service years."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media profile header for the user '[ACCOUNT]' featuring a Mario-themed banner, a bio stating 'I like games and stuff', and account statistics including [LOCATION] and 10 Years of Service."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of various artworks and graphics, including music album covers and game-related visuals."
+        },
+        "gpt-5.4": {
+          "summary": "A horizontal collage shows several music-related thumbnails, including album-style artwork, abstract graphics, a portrait illustration, and a text panel listing song titles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of various album covers featuring different artists."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A horizontal collage of five distinct artistic images, including album covers and stylized portraits."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A horizontal collage of five distinct images featuring album covers, pixel art, and abstract graphics."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a can of [ORGANIZATION] energy drink inside a car."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a blue Rockstar Zero Carb energy drink can inside a car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a can of [ORGANIZATION] energy drink inside a car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a blue Rockstar Zero Carb energy drink can inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a blue and silver Rockstar Zero Carb energy drink can inside a car."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a classical painting featuring several figures engaged in discussion, likely representing philosophers in a grand architectural setting."
+        },
+        "gpt-5.4": {
+          "summary": "A classical-style fresco scene shows robed philosophers and surrounding figures in discussion inside a grand architectural hall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A classical fresco depicting a group of philosophers in conversation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A classical painting depicts a central bearded figure in red robes gesturing while surrounded by a crowd of people in ancient attire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A classical fresco depicting a group of robed philosophers and scholars engaged in discussion within an architectural hall."
+        }
+      }
     }
   }
 }

@@ -1,67 +1,2163 @@
 {
   "user_id": "participant_002",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "dogs",
-        "nature observation",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; dogs; nature observation; outdoor activities; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white tuxedo cat with bright yellow eyes and long white whiskers looks up at the camera from a wooden floor."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a black and white cat looking up at the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white tuxedo cat stands on a wooden floor and looks up at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat with white markings lies on a wooden floor looking upwards."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat with bright eyes looks up from a wooden floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat with yellow eyes stands on a wooden floor looking up at the camera."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "dogs",
-        "nature observation",
-        "pet care",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; dogs; nature observation; pet care; photography."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a Twitter post with comments about a pet, likely a cat, expressing affection and admiration."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode social media post screen shows hidden 'probable spam' replies, including comments about a cat or fluffy pet."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a Twitter feed showing two posts flagged as probable spam."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social-media post marked as 'Probable spam' shows two comments, one with a cat profile picture and another with a person's profile picture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a social media thread where users discuss a pet named [PERSON], with the platform flagging the posts as probable spam."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "nature observation",
-        "outdoor activities",
-        "pet care",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; nature observation; outdoor activities; pet care; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white tuxedo cat with prominent white whiskers and yellow eyes is lying on a beige fluffy cat perch by a window, looking directly at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is lounging on a shelf by a window."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white tuxedo cat lounges on a soft perch by a window with one front leg hanging down."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy black cat lounging comfortably indoors near a window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat lounges on a windowsill perch with a relaxed, slightly grumpy expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat with yellow eyes lounges on a beige cushion near a window, extending one paw forward."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "dogs",
-        "nature observation",
-        "outdoor activities",
-        "pet care"
-      ],
-      "summary": "Generalized visual topics: cats; dogs; nature observation; outdoor activities; pet care."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a black and white cat with prominent whiskers and bright yellow eyes."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up portrait of a black-and-white cat with long whiskers sitting outdoors in front of a low brick wall and [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a black-and-white cat outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a black-and-white cat with yellow eyes looking toward the camera outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a black and white cat with yellow eyes and long whiskers, set against an outdoor background featuring a brick wall and [ORGANIZATION]."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "dogs",
-        "nature observation",
-        "pet care",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; dogs; nature observation; pet care; photography."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is sitting on a gray plastic stool next to a water barrel and a wooden fence."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat sits on a gray plastic box beside a rain barrel in an outdoor area against a wooden fence."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat sits atop a stack of gray containers in front of wooden fencing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sits atop a grey plastic container outdoors against a wooden fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat with long whiskers sits atop a grey plastic container in an outdoor garden setting next to a wooden fence and water butt."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "nature observation",
-        "outdoor activities",
-        "pet care",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; nature observation; outdoor activities; pet care; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat sits on a paved patio area in a sunny backyard with green grass and a wooden fence."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is sitting on a stone patio in a grassy backyard."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat sits in a sunny backyard near a paved patio, with a red wooden fence and grass in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat sits in a grassy yard near paved stones."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sits alertly on a stone path in a grassy backyard near a wooden fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat sits on a paved patio in a grassy backyard near a wooden fence."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white tuxedo cat with green eyes and long white whiskers is lying calmly on a fluffy white blanket indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is resting on a soft blanket in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat is resting on a soft blanket indoors, facing the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat lounging comfortably on a fluffy blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat with green eyes lies calmly on a fluffy white blanket indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat with green eyes sits attentively on a textured white blanket in an indoor setting."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two cats, one black and white and one calico wearing a blue knitted sweater, sit closely together on a wooden kitchen counter looking towards the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two cats, one wearing a blue sweater, are sitting closely together on a kitchen counter."
+        },
+        "gpt-5.4": {
+          "summary": "Two cats stand close together on a wooden kitchen counter, with one appearing to wear a teal sweater in a cozy indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cats wearing sweaters sit together in a kitchen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two cats, one wearing a blue sweater, sit together on a wooden kitchen counter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two cats, one black and white and one calico wearing a blue sweater, are sitting together on a wooden kitchen counter."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy black and white cat with long white whiskers sits outdoors on a brick wall next to a terracotta pot with a small plant, looking downwards."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat sits beside a potted plant in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat sits beside a terracotta plant pot in a backyard garden."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy black cat sits near a potted plant in an outdoor garden."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy black-and-white cat sits beside a terracotta planter in a garden setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat with long whiskers sits on a stone ledge next to a terracotta planter in an outdoor garden setting."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Several fluffy Collie dogs are walking on a green carpet indoors, accompanied by people carrying bags, with a 'CHECK IN DESK' sign visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people walking with several collie dogs at an event."
+        },
+        "gpt-5.4": {
+          "summary": "Several long-haired collie-type dogs on leashes stand with handlers at an indoor dog event or show."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog show scene featuring a fluffy [LOCATION] interacting curiously near shopping bags."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several fluffy dogs, likely [ORGANIZATION], are walking on a green carpet with people at what appears to be an indoor dog event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Several long-haired collie-type dogs are being walked on leashes across a green carpeted floor at an indoor event, with handlers carrying bags and a sign visible in the background."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat is depicted wearing a red baseball cap with text and a red bow tie against a plain white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat wearing a red cap and a red bow tie, with humorous text on the cap."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat on a plain white background is edited with a red bow tie and a red cap reading a humorous phrase."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat wearing a red cap labeled 'sossidge sammidges are da bestest' and a bow tie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat wears a red cap with blue text and a red bow tie against a white background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat wearing a red baseball cap with blue text and a matching red bow tie against a plain white background."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat with yellow eyes is sitting in a garden with dry grass and a wooden fence in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is sitting in a garden area near a wooden fence."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat is crouching in a garden bed beside dry grass and a wooden fence outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat sits in a garden patch surrounded by grass and mulch."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sits alertly in a patch of grass and mulch near a wooden fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat with yellow eyes sits alertly in a garden bed near a wooden fence."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy black and white cat is seen relaxing on a person's lap outdoors on a sunny day, with paved ground and a brick wall in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up view of a person's lap with a fluffy cat resting on it, showcasing the cat's fur and the person's legs."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy black-and-white cat is lying across someone's lap outdoors on a sunny paved patio."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person holding their cat outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy brown-and-white cat is being held outdoors on a paved surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a fluffy black and white cat lying on its back across a person's lap outdoors."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features four dressed-up cats sitting on a pink couch in a colorful, decorated room celebrating Mother's Day."
+        },
+        "gpt-5.4": {
+          "summary": "A whimsical decorated living room scene shows four dressed-up cats in hats and accessories posing on a pink sofa beneath a colorful \"Happy Caturday\" banner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive Mother's Day scene featuring four dressed-up cats sitting on a couch in an elaborately decorated living room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four anthropomorphic cats in formal attire sit on a pink couch in a festive, decorated room celebrating Mother's Day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digitally composed image features four cats dressed in formal attire and accessories sitting on a pink sofa within a decorated living room setting. The scene is themed for Mother's Day, indicated by banners and text elements."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is resting on a soft surface with a serious expression."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a black-and-white cat resting indoors on a soft gray surface, with bookshelves blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat lounging comfortably indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat with a stern expression sits on a textured surface indoors, with bookshelves in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a fluffy black and white cat with yellow eyes sitting on a textured beige surface."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An orange cat is seen relaxing and stretching out on a person's lap outdoors on a sunny day, with a paved ground visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "An orange cat is comfortably resting on a person's lap in a sunny outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A ginger cat is lounging across a person's lap outdoors on a sunny paved patio."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ginger cat lounging comfortably outdoors in a relaxed pose."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An orange cat is sleeping peacefully on someone's lap outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An orange tabby cat rests comfortably on a person's lap outdoors, with its eyes closed and one paw extended."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat with prominent white whiskers and yellow eyes sits outdoors in the sunlight"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a black cat with distinctive white whiskers resting on a person's lap outdoors."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a black-and-white cat resting on a person's lap outdoors in bright sunlight near a patio and house window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a black cat resting its head against someone's shoulder."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat with white markings rests on someone's lap outdoors, looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a fluffy black cat with amber eyes and white whiskers resting on a person's lap outdoors."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A calico cat wearing a blue knitted sweater is lying on wood mulch in a sunny outdoor setting next to a fence."
+        },
+        "gpt-4o-mini": {
+          "summary": "A calico cat wearing a blue sweater is lounging on mulch in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A calico cat wearing a blue sweater is lying on mulch in a sunny outdoor garden area near a wooden fence and wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A calico cat wearing a blue sweater lounges outdoors in mulch."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calico cat wearing a blue knitted sweater lies on mulch outdoors near grass and a wooden fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A calico cat wearing a blue knitted sweater lies on wood mulch in an outdoor garden setting."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a call to action for finding a missing pet named [PERSON], with a backdrop of a seaside pier and several animals wearing hats."
+        },
+        "gpt-5.4": {
+          "summary": "A seaside collage shows a missing-cat appeal for [ORGANIZATION] with photos, hashtags, and three illustrated cats on the beach wearing red [ORGANIZATION] hats."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] poster featuring a cat and teddy bears near [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A missing cat named [PERSON] is being searched for near a seaside pier, with social media posts and cartoon cats promoting awareness."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A composite image featuring a missing cat named [PERSON], overlaid on a beach scene with a pier in the background."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a missing pet notice for a cat named [PERSON], including details about its disappearance and a call for help from the community."
+        },
+        "gpt-5.4": {
+          "summary": "A poster-style image shows a gray-and-white cat named [PERSON] alongside a public alert asking people in [LOCATION] to look out for the missing pet."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A missing cat named [PERSON] has been posted since [DATE]. The post asks people in [LOCATION] area of [LOCATION] to check sheds, garages, houses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A missing cat named [PERSON] is being sought in the [LOCATION] area, with a plea for locals to check sheds, garages, and houses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A missing pet flyer featuring a photo of a grey and white cat named [PERSON] alongside text requesting help to find him in the [LOCATION] area."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grey and white cat with green eyes looks up, with the hashtag \"[ORGANIZATION]\" overlaid on the image."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cat with a blurred face, prominently displaying the hashtag [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a gray-and-white cat standing indoors with the overlaid hashtag “[ORGANIZATION].”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] cat looking directly into camera"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a gray-and-white cat looking directly at the camera with a hashtag overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a grey and white cat with green eyes looking directly at the camera, overlaid with the text '[ORGANIZATION]'."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three lit candles in glass holders are displayed on a sparkling surface against a blurred background of golden lights, with the hashtag \"#CandleForAlfie\" overlaid."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three lit candles with a warm, glowing background of soft lights."
+        },
+        "gpt-5.4": {
+          "summary": "Three lit candles in glass holders are shown against a warm bokeh background with a memorial-style hashtag overlay."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "#CandleForAlfie message overlaid over three lit candles against a bokeh background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three lit candles in glass holders against a blurred background of warm fairy lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three lit candles in glass holders are displayed against a background of warm, out-of-focus lights with the text '#CandleForAlfie' overlaid."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a Twitter interface showing trending topics and suggestions for users to follow."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode mobile screenshot of the X app’s Explore/Trending page showing topics like [ORGANIZATION], #CandleForAlfie, #blanketyblank, #TheHitList, and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Trending topics displayed in a mobile app interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social-media app interface showing trending topics and a 'Who to follow' section."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the X (Twitter) 'For You' feed displaying trending topics and a suggested user profile."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays trending hashtags related to social media topics."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode X trending screen shows hashtags including #CandleForAlfie and #MiamiGP, with #MiamiGP trending in the [LOCATION] alongside Formula 1-related terms."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "#CandleForAlfie trending globally while #MiamiGP trends in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of Twitter trending topics showing '#CandleForAlfie' and '#MiamiGP' with associated metrics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media trending topics list featuring #CandleForAlfie and #MiamiGP, with the latter associated with Formula 1 content."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a Boogie Bingo event to raise funds for [ORGANIZATION] at [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful event flyer advertises a charity “Boogie Pringo Bingo” night at [ORGANIZATION] in support of [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Event poster advertising a '[PERSON] event raising money for Little Paws Cat Haven."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful poster advertising a '[PERSON] event on Friday, [DATE], at [ORGANIZATION] to raise money for Little Paws Cat Haven."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful event flyer advertising a '[PERSON] night at [ORGANIZATION] on [DATE], to raise funds for [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A pigeon is perched on the edge of a building with [ORGANIZATION] in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A pigeon is perched on the edge of a house or conservatory roof with leafy trees and a flowering shrub in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pigeon perches near a window frame against lush greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pigeon perches on the roofline of a house with white trim, set against green trees and flowering bushes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pigeon perches on the white gutter of a house with large windows, set against a backdrop of green trees and pink flowering bushes."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A whimsical scene featuring animals in a colorful hot air balloon with festive decorations."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful, stylized scene shows several pets in rainbow hats and accessories gathered in a decorated hot-air-balloon basket on a grassy park lawn, with more balloons in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Cats in a hot air balloon decorated with rainbow colors against an outdoor park backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Cartoon cats in rainbow hats ride a hot air balloon basket over a grassy field with other balloons and rainbow-themed items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digitally manipulated image features four cats in a hot air balloon basket wearing rainbow hats and bow ties, set against a park background with other rainbow-themed items."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media post displays a headline about a 'Drunken sailor fined and suspended,' followed by a humorous comment referencing"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet discussing a news article about a drunken sailor being fined and suspended."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media meme pairs the line “Finally, an answer.” with a headline reading “Drunken sailor fined and suspended” and a lyric-style joke caption below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT] shares a news headline about a sailor being fined and suspended."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter post by '[PERSON]' reacting to a news alert about a drunk sailor being fined and suspended."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post by user [PERSON] featuring a news headline about a 'Drunken sailor' alongside a caption referencing the song lyric 'hit em with a fine and then suspend em'."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy black and white cat with white paws and chest is curled up, sleeping peacefully on a colorful, patterned quilt."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is sleeping on a colorful patchwork blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy black-and-white cat is lying stretched out on a patterned bedspread indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat lounges comfortably in a floral-patterned bedspread."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat is curled up sleeping on a patchwork quilt with floral and striped patterns."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat is sleeping on its side atop a colorful patchwork quilt with floral and striped patterns."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat is dressed in a tan hat"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat wearing a decorative hat and a blue floral scarf."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat sits against a plain white background wearing a beige hat and a blue floral scarf."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black cat wearing a safari hat adorned with floral patterns."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat wearing a tan hat with an emblem and a floral-patterned blue bandana."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat is dressed in a beige safari hat with an emblem, a blue floral scarf, and a small belt buckle against a plain white background."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat with green eyes and long white whiskers is lying on a patterned rug, looking directly at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is lying on a patterned rug with a slightly annoyed expression."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat is lying on a patterned rug indoors, looking toward the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat lounging comfortably indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy black cat with white paws lies on a patterned rug indoors, looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black cat with white paws and a white muzzle rests on a patterned rug in a home setting."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy black and white cat with prominent white whiskers is lying on its back on a concrete patio, basking in the sunlight."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is lying on a stone surface, appearing relaxed."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy black-and-white cat is lying stretched out on sunlit stone pavement outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat lounges comfortably on a paved surface in bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy black-and-white cat lounges sprawled on a paved sidewalk under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat is lying on its back in a relaxed pose on a concrete sidewalk."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white tuxedo cat with bright yellow eyes sits on a person's lap outdoors in"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a black cat with distinctive white whiskers resting on a person's lap outdoors."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a black-and-white cat resting on someone's lap outdoors in bright sunlight near a house patio."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a black cat being held outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat with white markings rests on someone's lap outdoors, looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a fluffy black cat with amber eyes and white whiskers resting on a person's lap outdoors."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two cats are lounging in a garden under a tree."
+        },
+        "gpt-5.4": {
+          "summary": "Two cats rest in the shade in a sunny backyard with grass, dense trees, and a wooden fence."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cats lounging in a shaded garden area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two cats rest peacefully in a sunlit garden surrounded by [ORGANIZATION] and a wooden fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two cats, one black and white and one solid black, are resting in a sunny backyard garden near a wooden fence and green foliage."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black kitten is resting on a person's lap, looking directly at the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a small black kitten resting on someone’s denim-clad lap indoors in warm light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black kitten rests comfortably on someone's lap in a cozy indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black kitten with striking eyes rests on someone's lap in a warmly lit indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a fluffy black kitten with yellow eyes resting on a person's denim-clad leg in a cluttered indoor setting."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A sleek black cat with amber eyes stands on a light blue wooden surface in a sunny garden, looking intently to the left."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat stands on a green table in a garden setting, looking off to the side."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat stands alert on a translucent outdoor roof in a sunny backyard with a shed, grass, and trees behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat stands alertly outdoors atop a picnic table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat stands alert on a weathered outdoor table in a garden setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat with yellow eyes stands alert on a green wooden surface in a backyard setting."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two cats, one black and one black-and-white, cuddling together on a bed."
+        },
+        "gpt-5.4": {
+          "summary": "Two black-and-white cats are cuddled together indoors in front of a [ORGANIZATION] laptop, with bookshelves in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two black cats are lounging together in a cozy indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two black cats with white markings are resting together on a couch in a cozy indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two black cats, one with white paws and chest markings, are cuddling together on a dark surface in front of a laptop."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy black and white tuxedo cat with green eyes is lying on its back on green grass with some fallen leaves, looking up at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is lying on the grass, looking up at the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy black-and-white cat is sitting on patchy grass outdoors and looking up at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy black-and-white cat lounges in a grassy area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sits alertly on grass, looking up with a slightly grumpy expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat with yellow eyes sits on a grassy lawn covered in moss and fallen leaves, looking up at the camera while a human hand rests nearby."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two cats are lying on a patterned rug in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two cats are stretched out and resting on a patterned rug in a cozy living room near a fireplace and a curved cat toy track."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cats are lounging side by side on a patterned rug in what appears to be an indoor home environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two cats are sleeping side-by-side on a patterned rug in a cozy living room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two cats, one black and white and one tortoiseshell, are sleeping side-by-side on a patterned rug in a living room."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat with yellow eyes and long white whiskers is lying on a paved surface, looking upwards."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is lying on a stone surface."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white tuxedo cat is lying on a stone patio and looking up at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat lounges playfully outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat lies relaxed on a paved sidewalk, looking upward."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat with yellow eyes lies on a paved outdoor surface, looking up at the camera."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An infographic promotes pet microchipping, illustrating its benefits and statistics regarding lost pets and registration rates with line art illustrations of dogs, cats, and a microchip scanner."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes the importance of microchipping pets, highlighting statistics and benefits."
+        },
+        "gpt-5.4": {
+          "summary": "An informational infographic promotes microchipping pets, showing dogs and cats with statistics about lost pets and return rates."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Infographic promoting pet microchipping."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An infographic promoting pet microchipping with statistics and illustrations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An infographic promoting pet microchipping with statistics on lost pets and return rates, featuring line drawings of dogs and cats."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image provides information about pet microchips, including their function and importance for pet recovery."
+        },
+        "gpt-5.4": {
+          "summary": "An illustrated [ORGANIZATION] infographic explains how pet microchips work, their benefits, and reminders that they are not GPS trackers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Infographic explaining microchips in pets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An infographic explaining pet microchip FAQs, including how they work, benefits, and common misconceptions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An educational infographic from [ORGANIZATION] explaining what pet microchips are, how they function to reunite lost pets with owners, and clarifying that they do not track location."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A sleek black cat with bright yellow eyes is seen lying on a beige fluffy surface, basking in sunlight by a window."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat with striking yellow eyes is resting on a soft surface near a window."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat with yellow eyes lounges on a beige perch by a sunny window in a close-up indoor photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat lounges comfortably by a window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat with yellow eyes rests on a beige cushion near a window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat with yellow eyes rests on a beige cushion near a window."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A sleek black cat with bright yellow eyes sits calmly on a green outdoor table in a sunny garden, with a wooden shed"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat sits on a green surface in a garden setting with a wooden shed in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat sits on a turquoise outdoor table in bright sunlight, with a wooden shed and garden fence in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat sits atop a green structure in an outdoor garden area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat with yellow eyes sits upright on a teal outdoor table in a sunny backyard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat with yellow eyes sits attentively on a green plastic surface in a sunny backyard."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two cats, one black and white and one all black, are interacting on a patterned rug next to a cat track toy."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two cats are interacting on a carpeted floor, with one lying on its back and the other standing nearby."
+        },
+        "gpt-5.4": {
+          "summary": "Two black-and-white cats are playing on a patterned rug beside a curved cat track toy with a ball inside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cats interact playfully in a cozy indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat lies on its back on a patterned rug while a dark cat watches nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white kitten lies playfully on its back facing a solid black cat near a blue ball track toy on a patterned rug."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black cat with white whiskers sits on a dark grey surface, looking down with claws slightly extended, in a domestic setting with another black cat visible in the background"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat sits on a couch, looking contemplative in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat sits on a dark surface indoors, with another black cat visible in the background near a doorway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat sits calmly in a cozy indoor environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat with white whiskers sits alertly on a dark surface indoors, near a blue case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat with a white patch on its chest sits on a dark surface in a living room, looking down with a grumpy expression."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile application interface in dark mode displays error messages indicating that posts are not loading and something went wrong, with options to try again or acknowledge the error."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an error message indicating that posts are not loading on a social media platform."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode X (Twitter) app screen shows a feed loading error with a pop-up saying something went wrong and to try again later."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Twitter error message indicating posts aren't loading."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app error screen showing a loading failure and a retry prompt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the X mobile app interface displaying a loading error message and a pop-up notification indicating a technical failure."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a Twitter profile interface with a username and follower statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode social media profile screen shows the handle [PERSON] with zero following and zero followers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON]'s Twitter profile shows no following nor followers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media profile screen showing zero followers and zero following for the handle [ACCOUNT]"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile social media profile page for the user [PERSON] showing zero followers and following."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat is dressed in a straw hat adorned with flowers, a yellow"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is dressed in a stylish hat and bow tie, exuding a playful and fashionable vibe."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white tuxedo cat is posed against a plain white background wearing a straw hat, a bow tie, and a small wristwatch-like accessory."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat wearing a yellow hat adorned with flowers, a matching bow tie, and white gloves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat wears a patterned hat with flowers, a matching bow tie, and a wristwatch against a white background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat is dressed in a yellow straw hat with flowers, a matching bow tie, and a wristwatch against a plain background."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, eye-level shot features an orange cat standing on a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of an orange cat walking on a wooden surface in a sunny outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up, low-angle photo shows an orange tabby cat walking on a translucent roof or table outdoors in a sunny backyard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ginger cat stands confidently atop a wooden surface in an outdoor garden setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An orange tabby cat stands alert on a light-blue wooden table outdoors under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An orange tabby cat stands on a light blue plastic surface outdoors with trees and a fence in the background."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat sits on a wooden floor next to a colorful play tunnel in a domestic setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is lounging next to a colorful play tunnel in a kitchen setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat is sitting on a kitchen floor partly inside a colorful play tunnel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat sits beside a colorful play tunnel in front of white cabinets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sits on a wooden floor beside a colorful rainbow-patterned pet tunnel in a kitchen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat sits on a wooden floor next to a colorful play tunnel in a kitchen."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is playfully reaching for a colorful toy in a cozy living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat plays with a dangling rainbow ribbon toy on a rug in a living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat plays with a toy in an indoor home environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sits on a patterned rug indoors, looking up at a colorful toy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat stands on a red patterned rug, playfully batting at a colorful ribbon toy while another purple fuzzy toy lies nearby."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a black and white cat resting on a person's lap."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy black-and-white tuxedo cat is lounging indoors in a cozy living room setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy black cat lounging comfortably indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy dark cat with white whiskers and a white chest patch rests indoors with half-closed eyes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a fluffy black cat with white whiskers and a white patch on its chin, resting indoors with a sleepy expression."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "An orange cat is lounging in a storage [PERSON] surrounded by various items and pet beds."
+        },
+        "gpt-5.4": {
+          "summary": "An orange tabby cat is lounging in a black fabric storage [PERSON] amid stacked boxes and household storage containers indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ginger cat lounges atop a black storage [PERSON] in an organized room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An orange tabby cat rests its head over the edge of a black storage [PERSON] in a cluttered room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An orange tabby cat rests inside a black fabric storage [PERSON] within a cluttered room filled with boxes and plastic containers."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A calico cat is lying on its back on a paved surface, seemingly relaxing in the sunlight."
+        },
+        "gpt-4o-mini": {
+          "summary": "A calico cat is lying on its back on a paved surface, basking in the sun."
+        },
+        "gpt-5.4": {
+          "summary": "A calico cat is lying and curling on a sunlit stone pavement outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A calico cat lounging on a paved surface in an outdoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calico cat lies on its back on a paved surface, scratching itself with one paw."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A calico cat with black, orange, and white fur is lying on its back on a paved surface in bright sunlight."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two cats, one black and white and one calico wearing a blue sweater, are sitting closely together on a wooden kitchen counter."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two cats, one wearing a blue sweater, are sitting closely together on a kitchen counter."
+        },
+        "gpt-5.4": {
+          "summary": "Two cats stand together on a kitchen countertop, with one black-and-white cat in front and a calico cat wearing a teal sweater behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cats wearing sweaters sit together in a kitchen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two cats, one wearing a blue sweater, sit together on a kitchen counter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two cats, one black and white and one calico wearing a blue sweater, stand together on a wooden kitchen counter."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A calico cat is lounging on a green storage box in a garden setting, with another cat visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A calico cat lounges on top of a plastic outdoor storage box in a backyard garden, with part of an orange cat visible beside it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A calico cat lounges atop a green plastic storage container in an outdoor garden."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calico cat lounges on top of a green storage shed lid in a backyard, with another orange cat visible nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A calico cat rests on a green plastic garden storage box in a backyard, with an orange tabby sitting nearby."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two cats, one black and white and one tortoiseshell, sit on a paved patio in front of a brick wall and some outdoor furniture."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two cats are sitting on a patio, one black and white and the other tortoiseshell."
+        },
+        "gpt-5.4": {
+          "summary": "Two cats sit on a wet paved patio in front of a brick wall, with one black-and-white cat in the foreground and a tortoiseshell cat behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cats are sitting outdoors in a garden area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two cats sit on a paved patio in front of a brick wall, one black and white in the foreground and another tortoiseshell behind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two cats, a black and white one in the foreground and a tortoiseshell in the background, sit on an outdoor patio near a brick wall."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is lounging on a person's lap, with its paws visible and relaxed."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy black-and-white cat is lying belly-up across someone’s lap indoors, giving a relaxed and playful vibe."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat lounges upside down on someone's lap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat is lying on its back on a person's lap, exposing its belly and paws."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat lies on its back across a person's lap, displaying relaxed paws against blue jeans. The setting appears to be indoors with a patterned rug visible in the background."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a dark cloak holding a lantern, creating a mysterious atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A social media post shows a hooded person in glasses holding a glowing lantern in a dark, dramatic scene, with text praising a shot from [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a hooded robe holding an illuminated lantern."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a dark hooded cloak holds an illuminated lantern in a dimly lit setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a dark hooded cloak and glasses holds a lit lantern in a dimly lit setting. The image is accompanied by text praising the shot from '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three individuals, with two in formal attire and one displaying a disapproving expression in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Three people in black formal clothing stand outdoors, with a woman in a black net veil and the group showing somber expressions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals in formal attire stand outdoors under a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people stand together outdoors, with one man looking sideways and a woman with polka-dot makeup appearing surprised."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three individuals in dark clothing stand outdoors, with the person on the right wearing a dotted face mask and [PERSON]."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holding a clear umbrella while dressed in a black coat and gloves, standing in a rainy outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a dark coat, gloves, and sunglasses stands outdoors under a clear umbrella on a rainy day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing sunglasses holds a transparent umbrella in an outdoor rainy scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a dark coat and sunglasses holds a transparent umbrella outdoors in rainy weather."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with long hair wearing sunglasses, a black coat with a fur collar, and gloves stands under a clear umbrella in an outdoor setting."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat with prominent white whiskers and paws stands on a paved outdoor surface,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is walking on a paved surface near a wooden structure."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white tuxedo cat stands on a paved outdoor walkway beside a building."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat stands outside near a garage door."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat stands on a paved walkway near a building exterior, looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat with yellow eyes stands on a paved walkway near a building exterior."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat with bat wings, fangs, and a red heart necklace is depicted in a grand, gothic-style mansion with a large staircase and chandeliers."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a gothic interior with a cat wearing bat wings and a necklace, set against an ornate staircase and candlelit ambiance."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat edited with large bat wings and a red heart necklace appears in a grand gothic mansion interior with sweeping staircases and candlelight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digitally altered cat with bat wings in a grand, gothic-style mansion."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cat with bat wings and a red necklace stands in a grand, candlelit gothic mansion interior."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat with bat wings and a red-beaded collar is superimposed over a dark, ornate interior featuring a grand spiral staircase."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white tuxedo cat with bright yellow eyes and prominent white whiskers looks directly at the camera with its tongue slightly out, in an indoor setting"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a black and white cat with striking yellow eyes, sitting indoors with a television in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a black-and-white cat with bright yellow eyes sits indoors in a living room, with a TV and fireplace blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a fluffy black-and-white cat in an indoor home environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a black-and-white cat with yellow eyes looking directly at the camera in a living room setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a black and white cat with yellow eyes looking directly at the camera in a living room setting."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white tuxedo cat with prominent white whiskers is resting on a person's lap outdoors, looking intently to the side in warm sunlight."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a black and white cat resting on a person's lap outdoors."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a black-and-white cat sitting on someone’s lap in a sunny backyard patio beside a brick house and open glass door."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a black-and-white cat perched on someone's shoulder in front of a brick house."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat with yellow eyes sits calmly on someone's lap outdoors near a brick house."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a fluffy black and white cat with yellow eyes resting on someone's denim-clad knee in an outdoor patio setting."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black cat with golden eyes and prominent white whiskers is nestled among green pine needles,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is peeking out from inside a Christmas tree, surrounded by green branches and a pine cone."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat is peeking through dense evergreen branches beside a pinecone, resembling a Christmas tree scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat peeks out from behind a pine cone in front of green foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat with white whiskers and chest peeks out from behind green pine needles, near a pinecone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat with a white patch on its chin peers through the branches of a Christmas tree near a pinecone."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat is seen from behind, looking out into a garden with potted plants and a grassy area."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy black cat in the foreground looks out over a backyard patio and lawn toward an orange cat sitting near the fence and potted plants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat sits in a garden looking towards another area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy black cat walks away on a paved patio toward a brick wall with potted plants and another cat in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black cat sits on a paved patio in a backyard, looking towards an orange cat perched on a brick wall."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a sausage sandwich with sauce and crispy toppings being held by a gloved hand."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a large grilled sausage sandwich on a white bun topped with reddish sauce and crispy fried onions, with a gloved hand lifting the top bun."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a burger being held by someone wearing gloves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand in a black glove holds a sausage sandwich topped with sauce and fried onions, served on a metal surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A gloved hand holds open a sausage sandwich topped with sauce and fried onions in a paper tray against a metallic background."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large decorated Christmas tree stands in front of a grand building on a cloudy day."
+        },
+        "gpt-5.4": {
+          "summary": "A very large decorated Christmas tree stands on a lawn in front of a stately brick manor house on an overcast day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large Christmas tree decorated with lights stands in front of a grand brick building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large decorated Christmas tree stands on a lawn in front of a grand brick mansion under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, illuminated Christmas tree stands on a green lawn in front of a grand brick manor house under an overcast sky."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy black cat is curled up on a brown couch next to a Christmas card featuring a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is curled up next to a Christmas card featuring a dog in a red scarf."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy black-and-white cat is lounging on a couch between blue pillows beside a Christmas card featuring a dog in a red scarf."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy black cat lounges beside a Christmas card featuring an illustrated dog."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy black cat rests on a couch next to a Christmas card featuring a dog."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black cat with white markings rests on a brown couch next to a Christmas card featuring a dog in a red scarf."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Christmas card with a dog wearing a red scarf, decorated with snowflakes."
+        },
+        "gpt-5.4": {
+          "summary": "A Christmas card featuring a dog in a red scarf hangs on a bookshelf beneath blue tinsel garland."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive Christmas card featuring a dog wearing a red scarf hanging from blue tinsel."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Christmas card featuring a fluffy dog wearing a red scarf, displayed on a bookshelf with blue tinsel above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Christmas card featuring a fluffy dog in a red scarf is displayed on a bookshelf decorated with blue tinsel."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat is standing on a stone path in a garden with grass and a planter nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat stands on a backyard patio beside a large planter, facing the grassy lawn in warm sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat stands alertly by a brick wall in an outdoor garden."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat stands on a concrete step in a grassy backyard near a planter and fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat stands on a concrete slab in a grassy backyard, looking towards the left near a planter box."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy black and white cat with yellow eyes sits calmly in a snowy garden in front of a wooden shed."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is sitting on snow-covered ground near a wooden shed."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white longhaired cat sits on patchy snow in a yard in front of a wooden shed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black cat sitting in a snowy yard near wooden sheds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sits alertly in shallow snow beside a wooden shed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat with yellow eyes sits in a snowy backyard in front of a wooden shed."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy black and white cat with white paws and chest sits attentively on a paved patio in a garden setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat sits on a stone patio in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat sits on a wet stone patio in a backyard garden with a low brick wall and several plant pots."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat sits attentively in a garden paved area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sits attentively on a stone patio in a backyard with potted plants and a brick wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat sits attentively on a paved patio in a garden, facing the camera."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black cat is lying on a wooden surface outdoors, looking relaxed, captured in a black and white photograph."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat is lying on a wooden surface, appearing relaxed and slightly sleepy."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat is lying stretched out and relaxing on an outdoor table in a backyard, shown in a black-and-white close-up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black cat lounging peacefully outdoors in a garden."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat lounges lazily on a wooden surface in a backyard setting, captured in black and white."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white close-up of a dark-furred cat lying on a wooden surface in an outdoor setting with a fence and foliage in the background."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black domestic shorthair cat sits on a kitchen counter, looking at the camera amidst a cluttered background."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat stands on a kitchen counter looking directly at the camera, with stacks of mail and holiday-themed containers nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat sits on a cluttered countertop in front of holiday decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat sits upright on a cluttered kitchen counter, looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat with visible shaved patches on its chest and leg sits attentively on a wooden kitchen counter surrounded by mail and holiday decorations."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post about a Burns Night celebration hosted by [ORGANIZATION] for cat enthusiasts."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows an article titled about a Hedgewatch Cafe Burns Night pet celebration, with body text describing a cat-themed community event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post detailing a Burns Night celebration hosted by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A news article headline and text describing a pet-friendly Burns Night celebration hosted by the [ORGANIZATION] community."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a news article announcing an early Burns Night pet celebration hosted by the [ORGANIZATION] community."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the book 'Space: The Human Story' by [PERSON], showcasing an astronaut in space."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows the cover of the book \"Space: The Human Story\" by [PERSON], featuring an astronaut floating above [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A book cover titled '[ORGANIZATION] by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of the book cover for 'Space: The Human Story' by [PERSON], featuring an astronaut floating above [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of the paperback book 'Space: The Human Story' by [PERSON], resting on a person's denim-clad lap."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two cats, one black and one black and white,"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two cats resting on a red blanket in a kitchen setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two cats, one black and one black-and-white, are loafing on a red blanket on a kitchen counter with plants and appliances in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two black cats rest side by side atop a red cushion in what appears to be a kitchen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two black cats lounging on a red towel atop a kitchen counter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two black cats, one with white markings, are resting side-by-side on a red blanket in a kitchen setting."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two cats, one all black and one black and white, are sitting side-by-side on a red fluffy mat"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two cats resting on a red blanket in a kitchen setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two black cats, one with a white chest, are loafing side by side on a red blanket in a kitchen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two black cats lounging together on a red cushion in what appears to be a kitchen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two black cats rest on a red towel atop a kitchen counter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two black cats, one with a white chest, are resting side-by-side on a red towel atop a kitchen counter."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black cat with a shaved patch of fur on its side is lying on a patterned rug next to a person's leg and white sneaker."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat is curled up next to a person's foot on a carpeted floor."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat with a shaved patch on its side is lying on the floor beside a person's leg and white sneakers near a patterned rug."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat lounges near a person's legs in blue socks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat with a white patch rests on a carpet beside a person's foot wearing a white sneaker."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat with a white patch on its side rests on a carpet next to a person's leg wearing jeans and white sneakers."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contains a detailed update about a pet named [PERSON], discussing recent medical procedures and health concerns."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a text post describing [PERSON]’s veterinary procedures and test results, including bloodwork, abdominal and heart scans, and urinalysis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A detailed update of a pet's health status after procedures including blood tests, ultrasound scans, urinalysis, and lymph node aspiration."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text post detailing medical procedures and test results for an animal named [PERSON], including tooth extraction, blood work, ultrasound, and cardiac concerns."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A text-based post detailing a pet named [PERSON]'s medical procedures and test results, including blood work, ultrasounds, and urinalysis findings."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an article about the [PERSON] brothers securing a £200,000 investment for their AI-powered cat flap, [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a news article about two brothers securing a £200,000 Dragons' [PERSON] deal for an AI-powered smart cat flap called [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A news article headline detailing a £200,000 Dragons' [PERSON] deal involving an AI-powered cat flap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A news article headline about two brothers securing a £200,000 investment for an AI-powered smart cat flap."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot displays a news article headline and text about the [PERSON] brothers securing a £200,000 investment deal on [PERSON]' Den for their AI-powered '[ORGANIZATION]' smart cat flap."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait of a black and white tuxedo cat with striking yellow eyes and long white whiskers, set outdoors with a blurry green and brown background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a black and white cat with striking yellow eyes and prominent whiskers."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows a black-and-white tuxedo cat with long white whiskers sitting outdoors in a backyard garden."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a black-and-white cat in an outdoor garden."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a black-and-white cat with intense yellow eyes looking directly at the camera outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a black and white cat with prominent whiskers and yellow eyes, set against an outdoor background."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grey fabric storage cube with a white star pattern is presented against a plain white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a gray storage [PERSON] with a star pattern."
+        },
+        "gpt-5.4": {
+          "summary": "A gray fabric storage cube with a white star pattern is shown against a plain white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A gray storage [PERSON] adorned with white stars."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gray fabric storage [PERSON] with white star patterns and a visible interior lining."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A gray fabric storage cube with a white star pattern and a small handle on the front."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat is resting in a cardboard box filled with colorful blankets and clothing."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat wearing a green sweater is curled up in a cardboard box with a bright pink blanket beside a bookshelf."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black cat wearing a green sweater rests in a cardboard box lined with pink blankets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat wearing a green sweater rests in a cardboard box lined with pink blankets, surrounded by books and household items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat wearing a green sweater rests inside a cardboard box lined with pink and dark blankets, situated near a bookshelf."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black cat is seen resting with its head covered by a white cloth, nestled among colorful blankets or"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat is resting on a person's lap, covered with a white cloth and surrounded by colorful clothing."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat is curled up and resting on a person's lap indoors beside a green knit item and a white cloth or sock."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat wearing a green sweater and white socks sits in someone's lap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat is sleeping on a person's lap, partially covered by a white sock and colorful knitted fabric."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat rests on a person's lap, wearing a green knitted hat with a white sock pulled over its head."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three cats are gathered on"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three cats, two black and one orange, sitting on a blanket in a kitchen setting."
+        },
+        "gpt-5.4": {
+          "summary": "Three cats are gathered on a blanket-covered kitchen counter, with two black cats in the foreground and an orange cat peeking from the back."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cats lounging together in a cozy indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two black cats sit on a cat-patterned blanket on a kitchen counter, with an orange cat peeking from behind a pillow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three cats, two black and one ginger, are gathered on a kitchen counter covered with a cat-patterned blanket."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black cat wearing a bright green knitted sweater is lying on dark blankets, looking downwards with yellow-green eyes."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat wearing a green sweater is resting on a bed covered with blankets."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat wearing a bright green knitted sweater is resting on a bed among dark blankets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat wearing a green sweater lounges comfortably."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat wearing a green knitted sweater rests on blankets near a wooden headboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat wearing a green knitted sweater rests on dark bedding with a wooden headboard in the background."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two cats resting on a blanket, with one black cat sleeping and another black cat lying nearby, while an orange cat is curled up in a bed."
+        },
+        "gpt-5.4": {
+          "summary": "Three cats are resting indoors on a bed, including a black cat in the foreground wearing a neck bandage and with a shaved side, another black-and-white cat nearby, and an orange cat curled up in a pet bed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two black cats are resting together in a cozy indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three cats rest indoors: one black cat sleeps on a blanket with a white sock, another black cat lies nearby, and an orange cat sleeps in a pet bed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three cats are resting in a room, with one black cat wearing a white protective cone lying on a blanket while an orange cat sleeps in a bed and another black cat watches nearby."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black cat is partially visible behind"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a garden area with steps, potted plants, and a grassy background."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet backyard garden with a patio, brick planter wall, potted plants, a black cat near the steps, and a bird on the lawn."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat sits near a brick wall in an outdoor garden area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat sits on stone steps beside a brick wall in a residential garden with potted plants and [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat sits on stone steps in a residential backyard, partially hidden behind a low brick wall adorned with potted plants."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black cat with an orange and black striped bandage around its neck rests on a grey blanket patterned with white cats."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat wearing an orange patterned collar is seen on a patterned blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat indoors is shown in close-up wearing a large orange bandage or wrap around its neck area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat wearing an orange patterned cone sits on a gray blanket in what appears to be a home interior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat wearing an orange tiger-print bandana sits on a patterned blanket indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat sits on a patterned blanket wearing an orange medical bandage around its neck."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black cat wearing a purple collar is resting on a beige window perch, looking out the window at a residential street with houses and trees."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat is resting on a soft perch by a window, looking outside."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat wearing a purple collar is curled up on a window perch beside a bright window, looking out at houses and trees outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat lounges comfortably in a window seat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat with a purple collar rests on a fluffy cushion placed on a windowsill, looking out at a residential view."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat wearing a purple collar rests on a beige cushioned perch attached to a window frame."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy black and white cat with yellow eyes is sitting on a sisal-wrapped scratching post next to a white radiator and a clothes drying rack."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is perched on a scratching post."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat is perched on top of a sisal scratching post indoors, looking toward the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black cat sitting atop a scratching post in an indoor environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy black-and-white cat with yellow eyes sits atop a sisal-wrapped scratching post."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat with yellow eyes sits perched atop a sisal-wrapped scratching post indoors."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat sits on a green surface in a garden setting with a wooden shed in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat sits on a turquoise outdoor table in a sunny backyard with a wooden shed, fence, and garden plants behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat sits atop a green structure in front of wooden fencing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat with yellow eyes sits attentively on a teal outdoor table in a sunny backyard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat with yellow eyes sits attentively on a green plastic surface in a sunny backyard, with a wooden shed and garden foliage visible in the background."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a social media feed showing 'Today's News' headlines, featuring topics like a '"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a social media interface featuring news related to cat-themed events and communities."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot of a social media news/discovery page shows cat-themed entertainment headlines and trending tabs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] celebrates seven years of feline book chats."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile news feed showing cat-themed entertainment posts under 'For You' tab."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a social media feed displaying news headlines focused on cat-related topics and community events."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat sits"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat sits on a stone patio, looking towards a branch with budding leaves."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat sits on a garden path in a backyard, looking up toward a branch with soft spring buds in front of a wooden fence."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat sits attentively in a garden near some grass."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sits attentively on a grassy patch near a paved area, with a budding branch overhead and a wooden fence in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat sits on a paved patio in a garden, looking up at a hanging branch with catkins against a red wooden wall."
+        }
+      }
     }
   }
 }

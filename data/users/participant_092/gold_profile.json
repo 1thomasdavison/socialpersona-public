@@ -1,81 +1,153 @@
 {
   "user_id": "participant_092",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
       "status": "active",
       "long_term_interests": [
         {
-          "label": "spectator sports",
+          "label": "baseball",
           "evidence_post_indices": [
             0,
-            1,
-            2,
-            3
+            16,
+            17,
+            28,
+            29,
+            41,
+            43,
+            44,
+            59,
+            120,
+            149
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1",
-            "participant_092_phase_2",
-            "participant_092_phase_3",
-            "participant_092_phase_4"
+            "participant_092_post_0001",
+            "participant_092_post_0017",
+            "participant_092_post_0018",
+            "participant_092_post_0029",
+            "participant_092_post_0030",
+            "participant_092_post_0042",
+            "participant_092_post_0044",
+            "participant_092_post_0045",
+            "participant_092_post_0060",
+            "participant_092_post_0121",
+            "participant_092_post_0150"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "los angele dodger",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            0,
+            16,
+            29,
+            41,
+            59,
+            120
           ],
           "evidence_post_ids": [
-            "participant_092_phase_2",
-            "participant_092_phase_3",
-            "participant_092_phase_4"
+            "participant_092_post_0001",
+            "participant_092_post_0017",
+            "participant_092_post_0030",
+            "participant_092_post_0042",
+            "participant_092_post_0060",
+            "participant_092_post_0121"
+          ]
+        },
+        {
+          "label": "mlb",
+          "evidence_post_indices": [
+            0,
+            16,
+            17,
+            29,
+            120
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0001",
+            "participant_092_post_0017",
+            "participant_092_post_0018",
+            "participant_092_post_0030",
+            "participant_092_post_0121"
+          ]
+        },
+        {
+          "label": "la dodger",
+          "evidence_post_indices": [
+            17,
+            43,
+            97
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0018",
+            "participant_092_post_0044",
+            "participant_092_post_0098"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "spectator sports",
+          "label": "shohei ohtani",
           "evidence_post_indices": [
-            0,
-            3
+            28,
+            43,
+            44
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1",
-            "participant_092_phase_4"
+            "participant_092_post_0029",
+            "participant_092_post_0044",
+            "participant_092_post_0045"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "sport fandom",
           "evidence_post_indices": [
-            3
+            0,
+            29
           ],
           "evidence_post_ids": [
-            "participant_092_phase_4"
+            "participant_092_post_0001",
+            "participant_092_post_0030"
+          ]
+        },
+        {
+          "label": "baseball season",
+          "evidence_post_indices": [
+            27,
+            149
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0028",
+            "participant_092_post_0150"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "fitness",
+          "label": "beach outing",
           "evidence_post_indices": [
-            0
+            37
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1"
+            "participant_092_post_0038"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "super bowl",
           "evidence_post_indices": [
-            0,
-            3
+            169
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1",
-            "participant_092_phase_4"
+            "participant_092_post_0170"
+          ]
+        },
+        {
+          "label": "gym culture",
+          "evidence_post_indices": [
+            180
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0181"
           ]
         }
       ]
@@ -85,72 +157,221 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "music listen",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            39,
+            40,
+            50,
+            58,
+            69,
+            73,
+            84,
+            86,
+            88,
+            90,
+            91,
+            95,
+            99,
+            121,
+            130,
+            132,
+            137
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1",
-            "participant_092_phase_2",
-            "participant_092_phase_3",
-            "participant_092_phase_4"
+            "participant_092_post_0040",
+            "participant_092_post_0041",
+            "participant_092_post_0051",
+            "participant_092_post_0059",
+            "participant_092_post_0070",
+            "participant_092_post_0074",
+            "participant_092_post_0085",
+            "participant_092_post_0087",
+            "participant_092_post_0089",
+            "participant_092_post_0091",
+            "participant_092_post_0092",
+            "participant_092_post_0096",
+            "participant_092_post_0100",
+            "participant_092_post_0122",
+            "participant_092_post_0131",
+            "participant_092_post_0133",
+            "participant_092_post_0138"
           ]
         },
         {
-          "label": "music",
+          "label": "harry style",
           "evidence_post_indices": [
-            0,
-            1,
             2,
-            3
+            33,
+            45,
+            47,
+            54,
+            55,
+            58,
+            63,
+            72,
+            76,
+            77,
+            92,
+            94,
+            131,
+            135,
+            139
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1",
-            "participant_092_phase_2",
-            "participant_092_phase_3",
-            "participant_092_phase_4"
+            "participant_092_post_0003",
+            "participant_092_post_0034",
+            "participant_092_post_0046",
+            "participant_092_post_0048",
+            "participant_092_post_0055",
+            "participant_092_post_0056",
+            "participant_092_post_0059",
+            "participant_092_post_0064",
+            "participant_092_post_0073",
+            "participant_092_post_0077",
+            "participant_092_post_0078",
+            "participant_092_post_0093",
+            "participant_092_post_0095",
+            "participant_092_post_0132",
+            "participant_092_post_0136",
+            "participant_092_post_0140"
+          ]
+        },
+        {
+          "label": "music fandom",
+          "evidence_post_indices": [
+            15,
+            31,
+            41,
+            42,
+            63,
+            67,
+            72,
+            83,
+            84,
+            123,
+            129,
+            136,
+            165,
+            175,
+            176,
+            179
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0016",
+            "participant_092_post_0032",
+            "participant_092_post_0042",
+            "participant_092_post_0043",
+            "participant_092_post_0064",
+            "participant_092_post_0068",
+            "participant_092_post_0073",
+            "participant_092_post_0084",
+            "participant_092_post_0085",
+            "participant_092_post_0124",
+            "participant_092_post_0130",
+            "participant_092_post_0137",
+            "participant_092_post_0166",
+            "participant_092_post_0176",
+            "participant_092_post_0177",
+            "participant_092_post_0180"
+          ]
+        },
+        {
+          "label": "zayn malik",
+          "evidence_post_indices": [
+            1,
+            13,
+            22,
+            124,
+            129,
+            136,
+            148,
+            150,
+            153,
+            160,
+            166,
+            167,
+            168,
+            175
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0002",
+            "participant_092_post_0014",
+            "participant_092_post_0023",
+            "participant_092_post_0125",
+            "participant_092_post_0130",
+            "participant_092_post_0137",
+            "participant_092_post_0149",
+            "participant_092_post_0151",
+            "participant_092_post_0154",
+            "participant_092_post_0161",
+            "participant_092_post_0167",
+            "participant_092_post_0168",
+            "participant_092_post_0169",
+            "participant_092_post_0176"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "vinyl record",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            42,
+            148
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1",
-            "participant_092_phase_3",
-            "participant_092_phase_4"
+            "participant_092_post_0043",
+            "participant_092_post_0149"
           ]
         },
         {
-          "label": "music",
+          "label": "music album",
           "evidence_post_indices": [
-            1,
-            2
+            47,
+            135
           ],
           "evidence_post_ids": [
-            "participant_092_phase_2",
-            "participant_092_phase_3"
+            "participant_092_post_0048",
+            "participant_092_post_0136"
+          ]
+        },
+        {
+          "label": "zayn",
+          "evidence_post_indices": [
+            94,
+            151
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0095",
+            "participant_092_post_0152"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "bad bunny",
           "evidence_post_indices": [
-            0,
-            1
+            169
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1",
-            "participant_092_phase_2"
+            "participant_092_post_0170"
+          ]
+        },
+        {
+          "label": "central cee",
+          "evidence_post_indices": [
+            110
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0111"
+          ]
+        },
+        {
+          "label": "doodlebob",
+          "evidence_post_indices": [
+            112
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0113"
           ]
         }
       ]
@@ -168,51 +389,65 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "dining",
+          "label": "sweet treat",
           "evidence_post_indices": [
-            1,
-            2
+            141,
+            142
           ],
           "evidence_post_ids": [
-            "participant_092_phase_2",
-            "participant_092_phase_3"
+            "participant_092_post_0142",
+            "participant_092_post_0143"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "food delivery",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            98,
+            108
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1",
-            "participant_092_phase_2",
-            "participant_092_phase_3",
-            "participant_092_phase_4"
+            "participant_092_post_0099",
+            "participant_092_post_0109"
+          ]
+        },
+        {
+          "label": "snacking",
+          "evidence_post_indices": [
+            46,
+            98
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0047",
+            "participant_092_post_0099"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "coffee and tea",
+          "label": "mangonada",
           "evidence_post_indices": [
-            0
+            108
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1"
+            "participant_092_post_0109"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "vietnamese coffee",
           "evidence_post_indices": [
-            1,
-            3
+            185
           ],
           "evidence_post_ids": [
-            "participant_092_phase_2",
-            "participant_092_phase_4"
+            "participant_092_post_0186"
+          ]
+        },
+        {
+          "label": "baby carrot",
+          "evidence_post_indices": [
+            46
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0047"
           ]
         }
       ]
@@ -222,56 +457,77 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "travel city exploration interests",
+          "label": "los angele",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            44,
+            55,
+            61,
+            68,
+            72,
+            93,
+            133
           ],
           "evidence_post_ids": [
-            "participant_092_phase_2",
-            "participant_092_phase_3",
-            "participant_092_phase_4"
+            "participant_092_post_0045",
+            "participant_092_post_0056",
+            "participant_092_post_0062",
+            "participant_092_post_0069",
+            "participant_092_post_0073",
+            "participant_092_post_0094",
+            "participant_092_post_0134"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "city exploration",
+          "label": "japan travel",
           "evidence_post_indices": [
-            2
+            28,
+            43
           ],
           "evidence_post_ids": [
-            "participant_092_phase_3"
+            "participant_092_post_0029",
+            "participant_092_post_0044"
           ]
         },
         {
-          "label": "travel",
+          "label": "city exploration",
           "evidence_post_indices": [
-            3
+            60,
+            68
           ],
           "evidence_post_ids": [
-            "participant_092_phase_4"
+            "participant_092_post_0061",
+            "participant_092_post_0069"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "travel",
+          "label": "las vega",
           "evidence_post_indices": [
-            3
+            166
           ],
           "evidence_post_ids": [
-            "participant_092_phase_4"
+            "participant_092_post_0167"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "anaheim",
           "evidence_post_indices": [
-            0
+            151
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1"
+            "participant_092_post_0152"
+          ]
+        },
+        {
+          "label": "business travel",
+          "evidence_post_indices": [
+            35
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0036"
           ]
         }
       ]
@@ -282,49 +538,67 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "photography creation interests",
+          "label": "paint by number",
           "evidence_post_indices": [
-            2,
-            3
+            34,
+            51
           ],
           "evidence_post_ids": [
-            "participant_092_phase_3",
-            "participant_092_phase_4"
+            "participant_092_post_0035",
+            "participant_092_post_0052"
           ]
         },
         {
-          "label": "video creation",
+          "label": "video editing",
           "evidence_post_indices": [
-            0,
-            1
+            100,
+            147
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1",
-            "participant_092_phase_2"
+            "participant_092_post_0101",
+            "participant_092_post_0148"
           ]
         },
         {
-          "label": "visual art",
+          "label": "painting",
           "evidence_post_indices": [
-            2,
-            3
+            34,
+            51
           ],
           "evidence_post_ids": [
-            "participant_092_phase_3",
-            "participant_092_phase_4"
+            "participant_092_post_0035",
+            "participant_092_post_0052"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "photography creation interests",
+          "label": "digital creation",
           "evidence_post_indices": [
-            0,
-            3
+            36,
+            188
           ],
           "evidence_post_ids": [
-            "participant_092_phase_1",
-            "participant_092_phase_4"
+            "participant_092_post_0037",
+            "participant_092_post_0189"
+          ]
+        },
+        {
+          "label": "capcut",
+          "evidence_post_indices": [
+            147
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0148"
+          ]
+        },
+        {
+          "label": "vlogging",
+          "evidence_post_indices": [
+            147
+          ],
+          "evidence_post_ids": [
+            "participant_092_post_0148"
           ]
         }
       ]

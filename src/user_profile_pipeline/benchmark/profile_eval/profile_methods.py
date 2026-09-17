@@ -31,42 +31,11 @@ Instructions:
 - Use long_term_interest_tags for recurring or stable interests.
 - Use short_term_interest_tags for newer or more time-local interests.
 - Return only clearly supported tags. Do not try to fill a quota.
-- Most active domains should have only 1-2 reliable tags in total.
-- Return more than 2 tags only when the evidence is unusually strong and the tags are clearly distinct.
 - It is valid to return zero long_term_interest_tags.
 - It is valid to return zero short_term_interest_tags.
-- Use short natural-language labels that describe user interest themes rather than raw hashtags, named entities, or one-off events.
-- Prefer fewer, broader tags that summarize the user's main tendencies in this domain.
+- Use short natural-language labels that describe supported user interest themes.
 - Do not produce near-duplicate tags across long-term and short-term buckets.
-- If two candidate tags largely overlap, keep only the broader or better-supported one.
-- Do not split one core interest into both long-term and short-term tags unless the short-term tag adds a clearly distinct recent focus.
-- If the evidence is weak, sparse, one-off, or not clearly attributable to user preference, prefer inactive.
-- If inactive, return empty tag lists.
-- Return JSON only.
-"""
-
-
-def _build_domain_prompt_neutral(task: DomainEvalTask, posts_context: str) -> str:
-    return f"""Evaluate user profile signal for one domain.
-
-DOMAIN: {task.domain}
-DOMAIN_DEFINITION: {task.domain_definition}
-OUTPUT_STATUS_OPTIONS: active or inactive
-
-POSTS_CONTEXT:
-{posts_context}
-
-Instructions:
-- Read the posts and decide whether this domain contains a reliable user-interest signal.
-- If active, extract all clearly supported interest tags for this domain.
-- Use long_term_interest_tags for recurring or stable interests.
-- Use short_term_interest_tags for newer or more time-local interests.
-- Return all clearly supported tags. Do not artificially limit the count.
-- It is valid to return zero long_term_interest_tags.
-- It is valid to return zero short_term_interest_tags.
-- Use short natural-language labels that describe user interest themes rather than raw hashtags, named entities, or one-off events.
-- Prefer precise, specific tags that accurately reflect the user's demonstrated interests.
-- Do not produce near-duplicate tags across long-term and short-term buckets.
+- If two candidate tags largely overlap, keep the better-supported one.
 - Do not split one core interest into both long-term and short-term tags unless the short-term tag adds a clearly distinct recent focus.
 - If the evidence is weak, sparse, one-off, or not clearly attributable to user preference, prefer inactive.
 - If inactive, return empty tag lists.
@@ -306,7 +275,6 @@ def _interest_items_to_anchors(
     items: Any,
     *,
     post_id_to_index: dict[str, int],
-    limit_items: int,
 ) -> list[dict[str, Any]]:
     if not isinstance(items, list):
         return []
@@ -337,8 +305,6 @@ def _interest_items_to_anchors(
             }
         )
         seen_labels.add(label_key)
-        if len(out) >= limit_items:
-            break
     return out
 
 

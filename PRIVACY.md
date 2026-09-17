@@ -1,80 +1,70 @@
-# Public-release privacy treatment
+# Public data privacy treatment
 
-Version: `privacy-derived-v1`. Prepared on 2026-09-07.
+Version: `targeted-deidentified-v2`.
 
-## Scope and threat model
+## Content-preserving treatment
 
-The source export contains 100 users, 17,511 posts, 2,836 interest annotations,
-14,248 image entries and 85,488 model captions. A surface replacement of account
-IDs was insufficient: 821 posts retained mentions, 2,098 retained hashtags, all
-17,511 retained dates, and 1,785 media entries retained nonempty content hashes.
-Searchable wording, image descriptions, exact record counts and evidence graphs
-also allow linkage even after named entities are masked.
+This version starts from the earlier entity-masked, record-level export. It
+preserves individual posts, image descriptions and specific interest labels.
+It replaces remaining identifying spans and uses reviewed local rewrites.
+Public artists, athletes, fictional characters, works, games, brands and teams
+can remain as interest objects. Existing masked names are not guessed or restored.
 
-This public derivative applies data minimization locally. Source text and
-captions are never sent to an external language model for this transformation.
-All exported prose is reconstructed from literal templates and a reviewed,
-non-sensitive topic vocabulary. No unknown source phrase has a pass-through
-fallback.
+The previous `privacy-derived-v1` package reduced each participant to four
+timeline summaries and six visual topic summaries. Version 2 restores the
+record-level representation from the earlier local export.
 
-## Treatment by field
-
-| Source information | Public treatment |
+| Field | Treatment |
 | --- | --- |
-| Account names, handles and former anonymous IDs | Randomly reassign 100 participant IDs; retain the assignment privately outside this repository. |
-| Original post IDs, reply/quote links and deterministic ID hashes | Remove; create local phase IDs with no source-derived hash. |
-| Verbatim post bodies, spelling, quotes and unusual phrases | Extract only approved generic topics; emit fixed-template summaries. All remaining text is omitted. |
-| Mentions, hashtags, URLs and email addresses | Remove before lexical extraction. No contact strings are exported from participant data. |
-| Names, affiliations, named places, venues, titles, brands and OCR | Never copy any extracted source span. These are outside the output vocabulary. |
-| Health, politics, religion, demographics and other sensitive attributes | No output categories for these attributes; no new sensitive inference. |
-| Dates, time zones, observation spans and collection metadata | Omit. Sort locally and group by four chronological-rank phases without dates or durations. |
-| Each user's original number of posts and image counts | Omit; emit exactly four text summaries and six model summaries per user. |
-| Raw images, thumbnails, EXIF, visual fingerprints and media hashes | Omit all files and identifiers. |
-| Image-level model captions | Aggregate each model's captions to a user-level generic topic summary; omit individual descriptions and image-level ordering. |
-| Precise and rare interest labels | Map within the original domain to generic vocabulary, or its broad domain fallback. Retain a topic only if detected for at least five source users. |
-| Long-term, short-term and negative buckets | Keep source bucket membership but generalize and merge labels within each bucket. Buckets are not recomputed from the public phases. |
-| Evidence IDs and indices | Rebuild to public phase records; deduplicate links. Original IDs are authoritative if old indices disagree. Never invent a caption-to-post association. |
-| Metadata, raw predictions, dialogue outputs and caches | Exclude entirely. |
-| Git history and binary manuscript illustrations | Start with a clean history and exclude old snapshots and source-derived illustration files. |
+| Participant IDs | Keep the existing randomly assigned public IDs. Identity mappings remain private. |
+| Post IDs | Use participant-local sequential IDs; discard source IDs and deterministic hashes. |
+| Text and image descriptions | Keep wording and detail around identifying spans. Normalize Unicode and remove account/contact patterns. |
+| Private names and identifiers | Mask residual ordinary names, personal account names, identifying OCR, contacts and confirmed identifying spans. |
+| Public interest objects | Preserve named works, performers, games, brands, teams and public destinations when they describe interests. |
+| Personal affiliations and precise locations | Replace identifying school/workplace links, home/routine locations and identifying local labels. Broad travel destinations can remain. |
+| Sensitive personal disclosures | Apply contextual edits to explicit private disclosures and clinical results. Generic activities, feelings and interests are retained. |
+| Interest annotations | Apply the same privacy rules to labels. Keep domain status, stable/recent/negative membership and one entry per source annotation. No fixed vocabulary, frequency threshold or bucket-level merging is used. |
+| Evidence | Resolve source post IDs and rebuild indices into the released rows. Reject unresolved references. |
+| Time | Replace structured dates with days since the participant's first observed post. Preserve intervals and row order. Mask identified calendar dates in prose. |
+| Post type and language | Retain the source's non-identifying type and language code. |
+| Images and captions | Exclude original images, URLs, media hashes and file paths. Keep individual descriptions from six caption models. |
+| Caption-to-post association | The earlier export did not retain a reliable association. This version marks it unavailable; no association is invented. |
+| Other metadata and generated outputs | Exclude collection metadata, private mappings, raw model responses, review logs and evaluation caches. |
 
-Topical extraction selects up to five frequent eligible topics per summary and
-prints them alphabetically, without their frequencies. It does not establish
-that the user likes each topic: a mention, negation, or visual object can trigger
-the same lexical feature. Names containing ordinary topic words can yield a
-generic topic but cannot be copied into the released text.
+## Review and validation
 
-The source had 729 interest entries whose ID-based and index-based evidence
-pointed to different sets of phases. All referenced source IDs resolved. The
-derivative uses the explicit IDs, rebuilds indices and checks their equality.
-It does not change the controlled benchmark's original annotation files.
+Local pattern checks run before semantic review. With the dataset owner's
+authorization, previously scrubbed prose was reviewed through ChatAnywhere.
+Models proposed exact-span edits; a second review screened for excessive
+redaction, followed by editorial checks of accepted changes and ambiguous names.
+Nonliteral edits and edits to existing placeholders were quarantined. Requests,
+responses, source fingerprints, edit decisions and mappings remain private.
 
-## Validation
+The builder is `user_profile_pipeline.targeted_privacy`. It takes explicit
+private rule and mapping files and refuses to overwrite an existing destination.
+The optional review scripts require `tiktoken`, private working directories and
+a `CHATANYWHERE_API_KEY`. Ordinary dataset loading and offline evaluation do not
+call them. Cost caps and request hashes bound calls and prevent silently reusing
+unrelated reviews.
 
-`scripts/verify_release.py` validates all user files, strict field allowlists,
-fixed templates, vocabulary membership, four-phase shape, six-model shape,
-cross-file IDs, evidence references and public-file checksums. It also rejects
-private mappings, generated artifacts, media files, credential patterns and
-internal filesystem paths in the package and available Git history.
+`scripts/verify_release.py` checks versioned schemas, record counts, participant
+IDs, evidence references, direct identifier patterns and data checksums. It also
+scans the package and available Git history for credentials, private paths and
+excluded artifacts. Offline tests cover preserving public interests and negation,
+keyword replacement, unchanged source files, Unicode JSONL, evidence repair,
+relative-time handling and protection of already-masked text.
 
-Regression tests inject names, addresses, links, hashes and arbitrary fields;
-confirm suppression of a topic seen for fewer than five users; exercise
-multilingual/no-match handling and Unicode JSONL; and check mismatched evidence.
-The audit contains aggregate counts only, never source snippets or mappings.
+## Interpretation
 
-## Privacy and scientific limitations
+De-identification reduces direct identity disclosure; it does not guarantee
+anonymity. Retained wording, interests, record counts and relative timing may
+still support linkage. This version preserves more research detail than version
+1 while providing a different privacy–utility tradeoff.
 
-The five-user vocabulary threshold is **not** k-anonymity of participant records.
-No differential-privacy, complete anonymity, or immunity to membership/linkage
-attacks is claimed. Joint combinations of interests and retained coarse patterns
-may still be distinctive, especially to someone who already has source data.
-Earlier downloads or third-party copies cannot be recalled by this release.
+The earlier entity masking removed some useful names and occasionally
+misclassified ordinary words. Those losses are not repaired by guessing. Changed
+labels have not been re-annotated as a new human-validated gold standard, and no
+claim is made that this version reproduces the paper's numerical results.
 
-The derivative contains 400 text-phase summaries, 600 caption-model summaries,
-and 1,841 generalized interest entries. Original per-user domain statuses are
-retained. Full text, visual detail, time gaps, fine labels and evidence frequency
-are deliberately lost. Generalized labels are not newly validated gold, and
-the paper's scores must not be attributed to this derivative. The existing
-controlled inputs and reported results have not been changed by this release.
-
-For a privacy concern or removal request, contact **qkzhang@ir.hit.edu.cn** with
-the public participant ID. Do not publish inferred identities or raw content.
+Report concerns or removal requests to **qkzhang@ir.hit.edu.cn**, using a public
+participant ID and file path. Do not publish inferred identities or source text.

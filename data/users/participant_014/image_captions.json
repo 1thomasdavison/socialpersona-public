@@ -1,67 +1,3285 @@
 {
   "user_id": "participant_014",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "city exploration",
-        "nature observation",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; nature observation; nature visits; outdoor activities; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of white and light purple flowers with green leaves growing in a dark pot, set against a blurred green background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a variety of colorful flowers in a planter, showcasing white, purple, and pink blooms."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit planter holds several blooming flowers, including white, pale pink, and bright purple blossoms, with green leaves and soil visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a potted plant featuring white flowers with purple centers in bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of white and purple phlox flowers blooming in a blue planter outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of white and purple phlox flowers growing in a blue planter outdoors."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "nature observation",
-        "nature visits",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; nature observation; nature visits; walking and hiking."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of several pink and white flowers with serrated petals blooming in a brown planter box."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cluster of pink and white flowers growing in a pot."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of pale pink and white flowers blooming in a sunlit rectangular planter with green foliage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of pink flowers in a garden bed surrounded by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cluster of pink and white fringed flowers blooms in a terracotta planter with green foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cluster of pink and white Dianthus flowers with serrated petals grows in a rectangular planter box outdoors."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "nature observation",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; nature observation; outdoor activities; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of white and purple flowers blooming in a planter outdoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of white and purple flowers in a planter."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit outdoor planter holds blooming white and purple flowers in a garden setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a potted plant featuring white flowers in focus against blurred purple blooms."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of white and purple flowering plants in a light blue rectangular pot outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, high-angle shot of white and purple flowers blooming in a rectangular planter outdoors."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "nature observation",
-        "nature visits",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; nature observation; nature visits; photography."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of vibrant purple and white flowers blooming in a pot outdoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features vibrant purple and white flowers in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of purple and white flowers blooming in outdoor planters under bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of vibrant purple flowers in a garden pot under bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of vibrant purple and white flowers growing in a light blue planter under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of vibrant purple and white phlox flowers growing in a light blue rectangular planter box under bright sunlight."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "nature observation",
-        "photography",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; nature observation; photography; walking and hiking."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features vibrant pink and white flowers blooming in a yellow planter under bright sunlight, with a blurred outdoor background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features vibrant pink flowers in a yellow planter, set against a blurred background."
+        },
+        "gpt-5.4": {
+          "summary": "Bright pink flowers with white-edged petals are blooming in a yellow outdoor planter in sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Bright pink flowers in a yellow planter box under sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Bright pink flowers bloom in a yellow planter on a sunny day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of vibrant pink Dianthus flowers with white-edged petals growing in a yellow planter box on an outdoor balcony."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "nature observation",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; nature observation; outdoor activities; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An illustrative graphic wishing 'Happy Eid Al-Fitr' with a silhouette of [LOCATION] and mountains under a sky adorned with moons and stars."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a serene landscape with silhouettes of [LOCATION] and mountains, celebrating [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized [PERSON] greeting card shows a mosque silhouette against layered mountains with crescent moons, stars, and birds in the sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive [LOCATION] greeting card featuring a mosque silhouette against mountains under crescent moons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized illustration of a mosque silhouette against mountains with hanging crescent moons and stars, celebrating [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital greeting card featuring a silhouette of a mosque against mountains and a night sky filled with crescent moons and stars, displaying a message for Eid Al-Fitr."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant bouquet of yellow, orange, and pink roses is displayed in a clear glass mug etched with a sailing ship design and the word"
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant arrangement of roses in a glass vase, featuring yellow, pink, and orange blooms."
+        },
+        "gpt-5.4": {
+          "summary": "A small bouquet of yellow, orange, and pink roses sits in a clear glass pitcher with an etched sailing ship design against a bright soft-focus background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful bouquet of roses in a decorative glass vase featuring an etched ship design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A clear glass mug with a ship etching holds yellow, orange, and pink roses against a blurred white background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A glass beer mug etched with a sailing ship and the word '[PERSON]' serves as a vase for a bouquet of yellow, orange, and pink roses."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two individuals holding umbrellas stand on a wet, paved path with railings, surrounded by dense foliage, in a black and white image."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts two individuals holding umbrellas on a wet, paved pathway surrounded by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a rain-slick park walkway or small bridge with two people holding umbrellas near the far end."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals walk along a wet pathway under umbrellas in an overcast environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two figures holding umbrellas stand on a wet stone pathway under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photo shows a wet, paved walkway with metal railings leading up to two people holding umbrellas in the distance."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white image captures ancient stone ruins, including a large mound and stone steps, with a sign identifying the location as [ORGANIZATION]."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts the ruins of a historical site with a sign indicating [LOCATION] and meditation cells."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows stone ruins and steps beside a sign for the [ORGANIZATION] meditation cells."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Ancient ruins leading towards [ORGANIZATION] in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of ancient stone ruins with a sign identifying the site as [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of ancient stone ruins featuring a sign for [ORGANIZATION] in [LOCATION]."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person walks with an umbrella in a rural, cloudy setting with stone structures and [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white outdoor scene shows a person walking with an umbrella along a dirt path beside stone ruins and trees in rainy, misty surroundings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white photo of a person walking under an umbrella near ancient ruins in a rural area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks under an umbrella through a rainy, monochrome landscape featuring stone ruins and trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of a person holding an umbrella walking past ancient stone ruins in a rural landscape."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white image captures extensive stone ruins with various wall structures and scattered rocks, set amidst trees and a distant building under an overcast sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts ancient stone ruins surrounded by trees in a monochrome setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white landscape photo shows old stone ruins and low walls in a tree-filled archaeological site."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black-and-white photograph of ancient stone ruins surrounded by trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of ancient stone ruins surrounded by trees, with two people visible in the distance."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of ancient stone ruins with low walls and foundations, surrounded by trees in an outdoor setting."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a partially collapsed stone structure surrounded by [ORGANIZATION] and fallen leaves."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows old stone ruins and a rocky path under trees in an overgrown outdoor heritage site."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black-and-white photograph of ancient stone ruins surrounded by trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of ancient stone ruins overgrown with vegetation under tree branches."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of ancient stone ruins with crumbling walls, surrounded by trees and overgrown vegetation."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white image showing a view of a lake with mountains in the background, framed by metal arches."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a calm body of water and [PERSON], framed by curved metal bars in the foreground with a few distant boats or parasails."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black-and-white view through a curved structure over water towards distant hills."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white view from under a curved metal structure overlooking a misty lake with distant hills and small boats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photo taken from a boat, showing a view of a lake with mountains in the background under an overcast sky."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A motorboat with several passengers is cruising on a lake surrounded by hills and buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A covered motorboat carrying several passengers moves across a lake, with docked watercraft and hills in the background in a black-and-white scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white photo of a boat cruising across calm waters near hills."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of a boat with passengers speeding across a lake, with mountains and other watercraft in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photo of a motorboat with passengers moving across a lake, with mountains in the background and other watercraft docked nearby."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white image shows a person bending over inside a '"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seen working on a jet motorboat at a [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Black-and-white photo of a docked speedboat labeled \"JetMotorBoat,\" with a person leaning into the cockpit and other boats in the [LOCATION] behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white photo of a jet motorboat docked in water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a life vest leans into the cockpit of a jet motor boat docked at a [LOCATION], with other boats visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photo of a person in a life vest preparing to board a speedboat labeled '[ORGANIZATION] at a busy dock."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white image shows several boats and jet skis docked at a waterfront with hills in the background, viewed from a boat named \"Jet Motor Boat\"."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several boats docked at a waterfront, with a focus on a jet motorboat in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white lakeside scene shows several motorboats and jet skis docked near a hilly shoreline."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white photo of a jet motorboat docked near other boats in calm waters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of several motorboats docked at a lakeside pier, with hills in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photo showing several motorboats and jet skis docked at a pier on a lake with hills in the background."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic waterfront with colorful boats docked along a calm body of water, surrounded by [ORGANIZATION] and a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "Colorful boats and jet skis are docked along a calm lakeshore under an overcast sky, with hills and a [LOCATION] flag in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a lake surrounded by boats and [ORGANIZATION] under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Colorful boats docked at a lakeside pier under an overcast sky, with a Pakistani flag flying nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a lake with colorful recreational boats docked at a pier and a Pakistani flag flying on the shore."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bouquet of white roses in a decorative red, white, and black speckled vase sits on a marble surface against a light wall."
+        },
+        "gpt-4o-mini": {
+          "summary": "A decorative vase with white flowers is displayed on a surface."
+        },
+        "gpt-5.4": {
+          "summary": "A bouquet of white flowers sits in a tall marbled glass vase on a tabletop against a plain wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vase filled with white roses placed against a plain wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tall vase with red and white marbled glass holds a bouquet of white roses against a plain wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bouquet of white roses is arranged in a tall, patterned vase with red, black, and white designs, resting on a marble surface against a plain wall."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white still life photograph features a patterned vase holding roses, casting a dramatic shadow on the wall behind it."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white image of a decorative vase with flowers casting a shadow on a surface."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white still life shows a bouquet of flowers in a reflective vase lit by strong sunlight, casting a dramatic shadow on the wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black-and-white still life of a vase filled with white roses under dramatic lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white still life photograph of white roses in a textured vase, casting a strong shadow against a bright background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of a patterned vase holding white roses, illuminated by strong directional light that casts a distinct shadow on the wall."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a cluster of vibrant pink and white fringed flowers with green foliage, set against a blurred natural background"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cluster of pink and white flowers in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of pale pink and white dianthus-like flowers blooming in a sunlit garden planter with a blurred green background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of pink flowers in a garden setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cluster of pink and white flowers with fringed petals and magenta centers blooms in a garden bed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of blooming pink and white Dianthus flowers with serrated petals growing in a garden bed."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant outdoor scene features several potted plants with white, purple, and pink flowers next to"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant display of various flowering plants in pots, showcasing a mix of colors and types."
+        },
+        "gpt-5.4": {
+          "summary": "Several pots of blooming white, purple, and pink flowers are arranged outdoors in bright sunlight beside a tree and lawn."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant garden scene featuring colorful flowers in pots under bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Colorful potted flowers including white, purple, and pink blooms sit on a tiled patio beside a tree trunk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of potted flowers in shades of white, purple, and pink arranged on a tiled patio near a tree trunk."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of vibrant magenta petunias and green foliage in pots on a tiled outdoor patio, with decorative white planters in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features vibrant pink flowers in pots alongside decorative planters in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "Sunlit garden planters with decorative white urns and bright pink flowers line a tiled outdoor patio."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A garden scene featuring vibrant purple flowers in a pot next to decorative tulip-shaped planters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A garden scene featuring vibrant purple petunias in front of a large white sculpted planter, with other potted plants and [ORGANIZATION] under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunlit outdoor patio features vibrant magenta petunias and green foliage arranged around a large, white, flower-shaped planter on a tiled floor."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of vibrant white and fuchsia-colored dianthus flowers blooming in a terracotta pot, with green foliage and blurred natural background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant display of pink and white flowers in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of pink-and-white flowers blooming in a sunlit garden bed or planter with green foliage and a blurred background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of vibrant pink-and-white flowers in a terracotta pot surrounded by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of vibrant pink and white flowers with deep magenta centers growing in a terracotta planter amidst green foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of blooming Dianthus flowers with white petals and deep pink centers growing in a terracotta planter."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bouquet of white roses in a clear glass pitcher sits on a marble-patterned surface against a light-colored wall."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bouquet of white flowers is arranged in a clear glass vase on a marble surface."
+        },
+        "gpt-5.4": {
+          "summary": "A softly lit bouquet of white flowers sits in a clear glass pitcher on a marble tabletop against a plain wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "White roses in a glass pitcher vase placed on marble surface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "White roses are arranged in a clear glass mug vase on a marble surface against a textured wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bouquet of white roses is arranged in a clear glass pitcher with a handle, resting on a marble surface against a textured beige wall."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant pink rose with green leaves stands out against a desaturated, shadowy background of a wall, captured in a selective color style."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant pink rose stands out against a monochrome background with shadows."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a vivid pink rose with green leaves highlighted against a blurred black-and-white garden wall and shadowed background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant red rose stands out against a monochrome background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant pink rose with green leaves stands out against a black-and-white background of dappled shadows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant pink rose with green leaves stands out against a high-contrast black and white background of dappled shadows."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant orange lily flower with red accents is prominently displayed against a desaturated, blurred background of foliage, highlighting its color."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant orange flower stands out against a monochrome background of foliage."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a vivid orange lily-like flower in bloom against a mostly desaturated garden background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant orange flower stands out against a monochrome background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant orange lily is highlighted in color against a desaturated, black-and-white background of foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a vibrant orange daylily with red accents is highlighted against a desaturated, black-and-white garden background."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of vibrant green grape leaves and clusters of unripe green grapes hanging from a vine, with a bright blue sky and blurred green foliage in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of green grape clusters hanging from a vine, surrounded by lush green leaves."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of unripe green grapes hanging from a sunlit vine, with leafy vineyard rows blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of green grapes hanging from a vine against a backdrop of sunlight filtering through leaves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of green grape clusters hanging from a vine with broad leaves, set against a sunny outdoor background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of green grape clusters and leaves on a vine, illuminated by bright sunlight in an outdoor setting."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot of a rural landscape featuring green fields, scattered trees, and a clear blue sky with some clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene landscape featuring green fields, trees, and a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A peaceful rural landscape shows green fields behind a simple fence, framed by tall trees under a blue sky with scattered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene rural landscape under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide rural landscape with green fields, scattered trees, and a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide rural landscape featuring green fields, scattered trees, and a bright blue sky with sparse clouds."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a rocky hillside with sparse vegetation under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A roadside scene shows a rocky cut hillside with sparse green shrubs under a bright blue sky with scattered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a road bordered by rocky cliffs under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A roadside view of a reddish-brown rocky cliff face under a blue sky with scattered clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A roadside view of a reddish-brown rock cut with green vegetation on top, set against a blue sky with scattered clouds."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a white building with arched windows and a dome, surrounded by trees and [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a white domed building with arched entrances, framed by tall trees and a quiet courtyard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black-and-white photograph of a serene building surrounded by trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of a white-domed building framed by trees in a park-like setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of a white building with Islamic architectural features, including a dome and arched windows, framed by large trees in the foreground."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital greeting card for Eid Al-Adha features Islamic calligraphy, text, mosque silhouettes, lanterns, and a goat silhouette on a light background with golden accents."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a festive greeting for Eid Al-Adha, featuring decorative elements and a message of celebration."
+        },
+        "gpt-5.4": {
+          "summary": "A festive Eid al-Adha greeting poster shows Arabic calligraphy, hanging lanterns, mosque silhouettes, and a goat in a gold-and-cream design."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive poster celebrating [PERSON] in [LOCATION] year 1445."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden-themed greeting card celebrating [LOCATION] with Arabic calligraphy, mosque silhouettes, and a goat silhouette."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital greeting card celebrating [LOCATION], featuring golden Islamic motifs like hanging lanterns and mosque silhouettes alongside a goat silhouette."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of people are on a stage during the opening ceremony of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts the opening ceremony of the 5th World Congress of Paediatric Ophthalmology and [ORGANIZATION], featuring several attendees on stage."
+        },
+        "gpt-5.4": {
+          "summary": "People stand onstage at a conference opening ceremony in a convention hall, with a large screen showing the 5th World Congress of Paediatric Ophthalmology & Strabismus in [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Participants are being recognized during an opening ceremony of WCPoS V in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Attendees applaud during the opening ceremony of the 5th World Congress of Paediatric Ophthalmology & Strabismus at a conference stage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people are on a stage receiving an award or gift during the opening ceremony of the 5th World Congress of Paediatric Ophthalmology & Strabismus in [LOCATION]."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot captures the iconic [ORGANIZATION] Towers towering over a lush green park with walking paths and scattered"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the iconic [ORGANIZATION] surrounded by [ORGANIZATION] and urban architecture."
+        },
+        "gpt-5.4": {
+          "summary": "The image shows [ORGANIZATION] rising above a green park with surrounding city buildings under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of [ORGANIZATION] in [LOCATION] under a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view of [ORGANIZATION] rising above a lush green park under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vertical view of [ORGANIZATION] rising above a lush green park under an overcast sky."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tall, modern building against a backdrop of dark, cloudy skies."
+        },
+        "gpt-5.4": {
+          "summary": "A tall, sharply pointed modern skyscraper rises against dark storm clouds, with tree silhouettes in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A modern skyscraper stands tall against a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tall, blue glass skyscraper with a pointed spire rises against a dramatic, cloudy sky, framed by trees in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle shot of a tall, modern skyscraper with a twisted glass facade set against a dramatic cloudy sky."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant image shows a rock-lined pond with various fish swimming, red anthur"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a tranquil pond with various fish swimming among rocks and plants."
+        },
+        "gpt-5.4": {
+          "summary": "A landscaped pond with many fish swimming among rippling water, surrounded by rocks, tropical plants, red flowers, and partial pink flamingo decorations."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Fish swim in a pond surrounded by rocks and vibrant red flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Fish swim in a pond under rain, surrounded by rocks and red flowers with pink flamingo sculptures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of [ORGANIZATION] in a dark pond with rain ripples, framed by red anthurium flowers and artificial rock formations."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a gas station with a landscaped area in front, captured in black and white."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white wide shot shows a roadside gas station with fuel pumps, a convenience area, and landscaped trees beside an empty road."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black-and-white photo of a roadside gas station under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of a gas station with an attached convenience store, surrounded by trees and pavement under a bright sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of a gas station with an attached convenience store, viewed from across a paved road on a clear day."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A clear glass vase holding a bouquet of vibrant orange roses is placed on a dark, intricately carved wooden table with a glass top."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vase of orange roses is placed on an intricately designed wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "A bouquet of orange roses in a clear glass vase sits on an ornate glass-topped table indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vase of orange roses sits atop an ornate metal table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crystal vase filled with orange roses sits on an ornate, carved wooden table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bouquet of orange roses in a clear glass vase sits on an ornate, dark wooden table with intricate carvings."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white architectural photograph captures the intricate stone"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a historic stone building with intricate architectural details, set against a clear sky."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white street view shows a large historic stone church or cathedral with arched windows, a steep tower, and iron fencing along a cobblestone road."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white photograph of a historic stone building featuring arched windows and intricate architectural details."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of a historic stone church with arched windows and a cobblestone street in front."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of a historic stone church with Romanesque architecture, featuring arched windows and a tower, viewed from a cobblestone street."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant stage performance is underway in a dark arena, featuring a large backdrop, performers, and bright lighting with some smoke effects."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vibrant circus performance stage with performers and colorful lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A brightly lit circus stage show is being performed indoors, with acrobatic props, performers, and [ORGANIZATION] signage visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant circus performance under a dramatic red-lit stage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A circus stage at night with performers, red curtains, and '[ORGANIZATION] and [ORGANIZATION] signage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide shot of a [LOCATION] and [ORGANIZATION] circus performance on a large stage with red curtains, elaborate set pieces, and performers under bright lights."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white photograph of a street with arches, featuring long shadows and a quote overlay."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a columned arcade along a city street with dramatic sunlight and long shadows, overlaid with a reflective quote."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black-and-white photo of an arched street passage in a historic city."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of a sunlit, arched colonnade with strong shadows and a text overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-contrast black and white photograph of a long, arched portico with dramatic shadows cast across the stone pavement."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A ruined stone structure with an arched entrance is nestled into a rocky, green hillside."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a partially ruined structure surrounded by lush greenery and rocky terrain."
+        },
+        "gpt-5.4": {
+          "summary": "A small ruined stone-and-brick structure with an arched doorway sits among rocky terrain at the base of a green hillside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Ancient ruins nestled among rocky terrain under a lush green hillside."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weathered brick archway stands amidst rocky terrain and green vegetation on a hillside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weathered brick structure with an arched doorway stands amidst a rocky, green hillside landscape."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a lush green mountainous landscape featuring ancient stone ruins and a few modern buildings nestled among the rocky terrain."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a lush green landscape featuring ancient ruins and modern structures on a hillside."
+        },
+        "gpt-5.4": {
+          "summary": "A rocky green hillside contains old stone ruins and a few modern buildings in a rural landscape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] ruins nestled among lush greenery in a mountainous landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A landscape view of ancient stone ruins and modern buildings nestled among green, [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of ancient stone ruins and a modern building situated on a lush, rocky hillside covered in green vegetation."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white landscape photograph captures a winding river flowing through a valley surrounded by rocky, tree-covered hills under a bright sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white landscape featuring a river surrounded by rocky terrain and vegetation."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white landscape photo shows a shallow river winding through rocky terrain with dense shrubs and a large overhanging boulder on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Black-and-white landscape featuring a river winding through rocky terrain under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white landscape photograph showing a river winding through a rocky, vegetated valley."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white landscape photograph of a river flowing through a rocky, hilly terrain with dense vegetation."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white landscape photograph features a large rock in the foreground overlooking a winding river and distant hills covered in vegetation."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white landscape featuring a large rock formation beside a river and surrounding hills."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white landscape photo shows a large rock formation beside a winding river in a hilly, shrub-covered area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white landscape featuring a river winding through rocky terrain under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white landscape photograph featuring a large boulder beside a river flowing through a hilly, vegetated terrain."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white landscape photograph featuring a large, overhanging rock formation in the foreground with a river flowing through a valley in the background."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A low-angle shot captures a palm tree with red"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a palm tree with a clear blue sky and scattered clouds in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A tall palm-like plant rises above garden foliage under a blue sky filled with textured white clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A palm tree against a backdrop of blue sky and scattered clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A palm tree with orange fruit clusters reaches toward a partly cloudy blue sky, framed by green foliage and a pine tree."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle shot of a slender palm tree with reddish fruit clusters against a blue sky with scattered clouds, surrounded by dense green foliage."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white image shows a cityscape with buildings lining a river, featuring reflections on the water and an overlaid quote by [PERSON]."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white image of historic buildings along a river with a quote by [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "Black-and-white riverside cityscape with historic buildings and a bridge, overlaid with a [PERSON] quote."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cityscape featuring a riverfront view of historic buildings under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of a riverfront cityscape with classical buildings, overlaid with a quote from [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of a European riverside cityscape featuring historic buildings and a bridge, overlaid with an inspirational quote."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person walks through a cobblestone street in a city, with a red car parked nearby and a quote about rain and rainbows displayed above."
+        },
+        "gpt-5.4": {
+          "summary": "A grayscale European-style street square with church-like buildings, a person walking, and a bright red car is overlaid with an inspirational quote in a red text box."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white street scene featuring a red car parked in front of an old building. A person walks away from the camera towards another structure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks across a European-style plaza with historic buildings, while a bright red car contrasts the black-and-white scene under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white street scene of a European town square featuring a single red car and a pedestrian, overlaid with an inspirational quote about finding hope in difficult times."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grand, historic brick building with numerous arches, columns, and red domes is shown under an overcast"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a historic building with distinctive architectural elements, including arches and a clock tower in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A large historic brick building with repeated arched colonnades and domed towers is photographed from street level under an overcast sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A historic building featuring arched windows and a clock tower in the background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand brick building with white arches and a clock tower under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a grand, historic building featuring red brickwork and white Moorish-style arches under an overcast sky."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a scenic view of a cityscape with rooftops and a prominent church tower, accompanied by a quote about time and life."
+        },
+        "gpt-5.4": {
+          "summary": "A cityscape with terracotta rooftops and a church is overlaid with a reflective quote attributed to [PERSON] from [ORGANIZATION] Love."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene cityscape featuring a church steeple under clear skies accompanied by an inspirational quote."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic view of a European city with terracotta rooftops and historic architecture, overlaid with a quote about divine timing from 'The Forty Rules of Love.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a European city with terracotta rooftops and historic architecture, overlaid with a quote about divine timing from [PERSON]."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An architectural shot of a courtyard with arches and a grassy area, featuring a quote about light and seeing."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene courtyard with arches, [ORGANIZATION], and a quote attributed to [PERSON] (RA) about light."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit courtyard framed by arched stone colonnades is overlaid with a quote attributed to [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene courtyard scene framed by arches under a clear sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A courtyard view framed by stone arches and columns, with a quote overlaid on the image."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a stone colonnade looking out onto a sunlit courtyard with manicured hedges and a brick building, overlaid with an inspirational quote."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a cobblestone walkway along a river, featuring a lamppost and people walking in a black and white setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a cobblestone riverside walkway with a lamppost, railing, bridge, stone tower-like structure, and a few people walking in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white photo of a cobblestone walkway leading towards an old stone structure by water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of a cobblestone riverside path with strong shadows from a lamppost, people walking, and a castle-like structure in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph captures a sunlit cobblestone riverside promenade featuring children playing, a vintage lamppost, and historic stone fortifications in the background."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view of a street through a decorative stone opening, accompanied by a quote from [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A city street and historic buildings are seen through a narrow opening in a rough stone wall, with a [PERSON] quote overlaid in the lower right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view through a stone wall opening onto an urban street scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view through a rough stone opening frames a European street scene with an overlaid quote from [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view of a European-style city street framed through an irregular opening in a textured, reddish-brown stone wall."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A minimalist image featuring a quote by [PERSON] on a reddish-brown rectangle and a small heart-shaped object on a white textured background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a heart-shaped object on a white surface, accompanied by a quote from [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A minimalist inspirational quote graphic on a white fabric background shows a heart-shaped metal object and a [PERSON] quote in a muted pink text box."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A minimalist photo featuring a metallic heart-shaped object against a white textured background accompanied by [PERSON]'s quote."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A heart-shaped cookie cutter rests below a quote by [PERSON] on a white textured background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A minimalist image featuring a quote by [PERSON] in a dusty rose text box above a small, silver heart-shaped cookie cutter on a white textured surface."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A detailed macro shot captures a human eye with a striking green and brown iris, reflecting light."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a human eye with a striking green and brown iris."
+        },
+        "gpt-5.4": {
+          "summary": "Extreme close-up of a human eye showing a green-blue iris, dark pupil, and surrounding eyelashes and skin."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a human eye highlighting its intricate details."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up photograph of a human eye with greenish-brown irises and visible eyelashes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-resolution close-up of a human eye featuring a green and hazel iris with visible eyelashes and skin texture."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A blue and white boat navigates a body of water with a city"
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a waterfront with buildings and a boat on the water under a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small ferry travels across a harbor in front of a waterfront city skyline under a bright blue sky with scattered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a waterfront cityscape under partly cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue and white tour boat sails on water with a city skyline under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a city waterfront featuring a blue and white tour boat moving across the water with brick buildings along the shore under a partly cloudy sky."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a flower shop display featuring various bouquets and floral arrangements."
+        },
+        "gpt-5.4": {
+          "summary": "A flower shop storefront is filled with colorful wrapped bouquets, roses, sunflowers, and decorative transparent balloon arrangements displayed outside and behind the glass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A flower shop display featuring various bouquets of flowers in front."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A flower shop displays colorful bouquets and balloon arrangements outside its glass storefront."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flower shop storefront displays numerous colorful bouquets of roses, sunflowers, and chrysanthemums alongside balloon arrangements on the sidewalk."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grand, ornate historical building, likely [ORGANIZATION], is framed"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view of a historic building framed by an archway, with a cloudy sky above."
+        },
+        "gpt-5.4": {
+          "summary": "A grand historic stone building is framed by a large dark archway opening onto a quiet courtyard under a partly cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "View of a grand historical building framed by an archway under partly cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand historic building viewed through a stone archway under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view of a grand classical building with a dome and French flag, framed by a large stone archway."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bright cityscape features historical buildings lining a moat with a small fountain, under a clear sky"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic view of a canal in [LOCATION], [LOCATION], with historic buildings lining the banks."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit view of a historic canal-side square in [LOCATION] with arched buildings, a small fountain in the water, and a title overlay."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of [PERSON]'s historic architecture by a canal."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic view of [PERSON] featuring historic buildings, a canal with a fountain, and an overlay text reading 'My One Day in Ferrara'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunny cityscape of [LOCATION], [LOCATION], featuring historic buildings with arched walkways along a canal with a fountain."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white photograph captures two empty park benches amidst trees and foliage in an outdoor setting, with a person visible in the distant background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts two benches in a park setting, surrounded by trees and a misty atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows two empty benches beneath tall trees in a quiet park with a few distant people and pathways in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene park scene featuring two benches under tall trees in black-and-white."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of two empty park benches framed by trees with distant figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of two empty park benches surrounded by trees in a misty outdoor setting."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant close-up shot of a colorful flower bed featuring various chrysanthemums in yellow, white, purple, and red hues, alongside ornamental cabbage plants in green, white, and purple."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant display of various flowers and ornamental cabbages in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful garden bed displays dense clusters of chrysanthemums and ornamental cabbages in an outdoor park-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant garden display featuring a variety of colorful flowers in full bloom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant garden display featuring rows of colorful chrysanthemums and ornamental cabbages."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant garden display featuring rows of colorful chrysanthemums and ornamental cabbages in shades of yellow, purple, red, and white."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant, close-up view of a large bed of colorful flowers, primarily orange, yellow, and white, in an outdoor garden setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant display of various flowers in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dense display of colorful flowering plants, especially orange, white, and yellow blooms, fills an outdoor garden or flower market area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant garden filled with colorful marigolds in various shades of yellow and orange."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant garden filled with rows of colorful marigolds in shades of orange, yellow, and white."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant, colorful field of blooming marigolds and chrysanthemums in shades of orange, yellow, white, and red."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot captures a vibrant array of pink, white, and yellow chrysanthemums in full bloom, with a blurred background of more colorful flowers."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant display of various colorful flowers, primarily pink, white, and yellow, arranged in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up view of densely packed chrysanthemums in white, pink, orange, and purple arranged in an outdoor flower display."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant garden filled with colorful chrysanthemums in shades of pink, white, purple, yellow, and orange."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant field of colorful chrysanthemums arranged in rows, featuring shades of pink, white, and orange."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant outdoor display of colorful chrysanthemums arranged in dense rows featuring white, pink, magenta, and yellow blooms."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot captures a vibrant cluster of white, pink, and yellow daisy-like flowers blooming in a garden."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant display of various flowers, primarily daisies in shades of pink and white, with some yellow blooms."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a dense cluster of pink, white, and yellow daisy-like flowers in a garden setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Colorful daisies in a garden display vibrant hues of pink, white, yellow, and purple."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of vibrant pink, white, and yellow daisies with green foliage in a garden."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a dense cluster of blooming chrysanthemums in shades of pink, white, and yellow with green foliage."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A gondola with passengers and a gondolier navigates a canal in [LOCATION], surrounded by historic buildings under a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a canal in [LOCATION] with gondolas and historic buildings under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A gondola with passengers glides along a broad city canal lined with historic buildings under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A gondola glides through a canal in [LOCATION] under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gondola with passengers glides through a Venetian canal under a clear blue sky, framed by historic buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A gondola carrying passengers and a gondolier navigates a canal in [LOCATION], framed by historic buildings under a clear blue sky."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot of a green field with a small white building at the base of a tree-covered hill under a clear blue sky with scattered clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vast green field with a distant building and colorful hills under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wide outdoor landscape shows a grassy field, low green hills with exposed rocky slopes, a small building, and a bright blue sky with scattered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a grassy field under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] sits in a green field under a blue sky, with colorful hills in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide landscape view featuring a green meadow in the foreground, a solitary white building, and a hillside with exposed reddish-brown earth under a bright blue sky."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of vibrant pink and white chrysanthemums blooming in a garden setting, supported by bamboo stakes."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant display of various flowers, including pink and white chrysanthemums, arranged in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of potted chrysanthemum flowers with white, pink, and red blooms arranged closely together in a garden or plant market setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant garden scene featuring a variety of colorful flowers in full bloom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of vibrant chrysanthemums in shades of pink, white, and yellow, supported by bamboo stakes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dense garden display of blooming chrysanthemums in white, yellow, pink, and red varieties supported by bamboo stakes."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant display of numerous intricately designed, illuminated lamps and decorative lighting fixtures in a shop or market setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases a vibrant display of intricately designed lamps and vases in a shop."
+        },
+        "gpt-5.4": {
+          "summary": "A shop display is filled with brightly lit, hand-painted decorative lamps and tall vases featuring intricate floral and geometric patterns."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A display of intricately decorated lamps in a shop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A brightly lit shop window displays ornate, hand-painted lamps and decorative vases with intricate floral and geometric patterns."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shop display features a variety of illuminated, colorful mosaic lamps and lanterns with intricate floral and geometric patterns arranged on metal shelves."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A glass jar filled with warm white string lights shaped like flowers,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a jar with decorative lights shaped like flowers, illuminated in a dark setting."
+        },
+        "gpt-5.4": {
+          "summary": "A glass jar filled with glowing flower-shaped string lights sits in a dark indoor setting, creating a warm, cozy mood."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A glass jar adorned with glowing fairy lights against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A glowing string of white floral LED lights is arranged inside a glass jar against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A glass jar filled with glowing white rose-shaped string lights, decorated with a ribbon and set against a dark background."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white image features two vintage-style lanterns hanging from a decorative"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two hanging lanterns on a stand in a minimalist outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows two hanging lanterns on a central pole overlooking a curved stepped courtyard with trees in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white photo of a staircase leading down from an outdoor area adorned by two hanging lanterns."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo shows two vintage lanterns hanging from a curved pole on a tiered stone rooftop with trees in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of two vintage lanterns hanging from a curved metal stand in front of an empty, tiered outdoor amphitheater."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant field of pink and white tulips with green leaves is shown blooming in a garden bed covered with mulch."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant field of pink tulips in full bloom."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit outdoor flower bed is filled with blooming pink tulips and green leaves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant garden filled with pink tulips in full bloom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of numerous pink tulips growing in neat rows in a garden bed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a garden bed filled with blooming pink and white tulips under natural sunlight."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of vibrant yellow flowers in a pot attached to a bicycle."
+        },
+        "gpt-5.4": {
+          "summary": "Bright yellow flowers in a black pot sit on a decorative bicycle-shaped metal plant stand in direct sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant yellow flower arrangement in a black pot placed outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A potted plant with bright yellow flowers sits on a gold-colored stand outdoors under sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of bright yellow ranunculus flowers in a black pot, placed inside a decorative gold bicycle-shaped stand on a speckled floor."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts an outdoor café setting with red cushions on chairs and a quote overlay."
+        },
+        "gpt-5.4": {
+          "summary": "An outdoor café with red umbrellas and cushioned chairs sits beside a historic arched building in a sunlit plaza, with an overlaid quote on the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quaint outdoor café setup under red umbrellas in a historic square."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Outdoor café tables with red cushions and umbrellas under bright sunlight, set against a historic stone building with arched architecture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An outdoor cafe terrace with red umbrellas and chairs overlooks a historic European plaza featuring stone benches and brick architecture."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of colorful"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features colorful flower pots arranged on a balcony railing under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A row of colorful flower pots is attached to a sunny rooftop or balcony railing with houses and trees in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant flower basket hanging from a railing against a sunny backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A row of colorful flowers in hanging planters on a sunny balcony overlooking residential buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A row of colorful flowers in hanging planters lines a sunny balcony railing with residential buildings visible in the background."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a grand architectural structure with arches and a tower, set in a public plaza filled with people."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view from a covered arched walkway looking onto an ornate historic plaza with a tall tower, columns, and scattered visitors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a historic plaza framed by arches under an ornate ceiling."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view down a covered colonnade toward an ornate historic building with a prominent tower."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a covered brick arcade with arches and columns, looking out onto [LOCATION] in [LOCATION] with its ornate towers and crowds of tourists."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view of a river with a bridge structure in the foreground and buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "View from beneath a metal bridge over a river, with trees, buildings, and a small docked boat on the opposite bank under cloudy skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a river under an arched bridge structure in an urban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from under a metal bridge overlooking a river with boats and buildings in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from beneath a stone and metal bridge looking out over a green river towards a tree-lined bank with buildings in the background."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a research poster on strabismus surgery, detailing its methods, results, and conclusions."
+        },
+        "gpt-5.4": {
+          "summary": "A framed academic conference poster presents research on adjustable strabismus surgery, with sections like abstract, methods, results, discussion, and eye images."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Poster presentation titled 'Strabismus Surgery: To Adjust or Not to Adjust?' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A framed academic poster detailing a medical study on strabismus surgery titled 'Strabismus Surgery: To Adjust or Not to Adjust?' with sections on abstract, methods, results, and conclusions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A framed academic poster titled 'Strabismus Surgery: To Adjust or Not to Adjust?' by [PERSON], featuring medical text, data tables, and clinical eye photographs."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a research poster titled '[ORGANIZATION] in [ORGANIZATION] featuring sections on abstract, introduction, case studies, and discussion."
+        },
+        "gpt-5.4": {
+          "summary": "A large digital display shows a medical research poster about optociliary shunt vessels in multiple sclerosis, with ophthalmology images and case sections."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Medical research poster titled '[ORGANIZATION] in [ORGANIZATION] displayed during a conference."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A presentation slide titled '[ORGANIZATION] in [ORGANIZATION] displayed on a monitor, featuring medical text, case studies, and eye scan images."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital display screen shows a medical research poster titled '[ORGANIZATION] in [ORGANIZATION] featuring text, case studies, and medical imaging scans."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a research poster on '[ORGANIZATION] in Juvenile Open Angle Glaucoma' by [PERSON], detailing study results and methodologies."
+        },
+        "gpt-5.4": {
+          "summary": "A photographed medical conference poster presents ophthalmology research on choroidal thickness in juvenile open angle glaucoma, with sections for introduction, methods, results, discussion, and conclusions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Scientific poster presenting research findings on choroidal thickness in juvenile open angle glaucoma."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scientific poster detailing a medical study on choroidal thickness in juvenile open-angle glaucoma."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A photograph of a medical research poster titled '[ORGANIZATION] in Juvenile Open Angle Glaucoma' presented by [PERSON] at the COPHy conference."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scientific poster titled \"[ORGANIZATION]-T versus [PERSON] for [ORGANIZATION] after Phacoemulsification: A South Asian perspective\" is displayed, detailing research findings in ophthalmology."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a research poster comparing the [ORGANIZATION]-T and [PERSON] formulas for refractive prediction after phacoemulsification, authored by [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A large digital display shows a medical research poster about [ORGANIZATION]-T versus [PERSON] formula refractive prediction after phacoemulsification, presented at an ophthalmology conference."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scientific poster discussing a comparison between [ORGANIZATION]-T versus [PERSON] in refractive prediction after phacoemulsification."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A presentation slide on a monitor compares [ORGANIZATION]-T and [PERSON] formulas for refractive prediction after cataract surgery, authored by [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital display screen shows a medical research poster comparing the [ORGANIZATION]-T and [PERSON] formulas for refractive prediction after cataract surgery."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a white oval plate filled with tuna and potato salad, garnished with fresh parsley and cherry tomatoes, placed on a table with a fork and napkin"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of tuna salad with diced apples, herbs, and cherry tomatoes."
+        },
+        "gpt-5.4": {
+          "summary": "A plated tuna and potato salad with herbs, red onion, and cherry tomatoes is served on a restaurant table with a fork and napkin."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of tuna salad garnished with herbs served in a casual dining setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white plate holds a tuna salad with potatoes, parsley, and cherry tomatoes, accompanied by a fork and knife on a textured tablecloth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, overhead shot of a tuna and potato salad served on an oval white plate with fresh herbs and cherry tomatoes."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a cozy interior of a restaurant or café with wooden wine racks and plants."
+        },
+        "gpt-5.4": {
+          "summary": "A cozy restaurant or wine bar interior with wooden wine-box shelving, potted palm plants, hanging lights, and tables leading toward the entrance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Interior of a cozy café featuring wooden wine crates, plants, and warm lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A warmly lit interior of a restaurant or bar with wine crates as decor, potted plants, and hanging pendant lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view into a restaurant or bar interior featuring wooden wine crates used as shelving, tall potted plants, and warm pendant lighting."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a decorated wooden wall with potted plants and flowers in a restaurant setting."
+        },
+        "gpt-5.4": {
+          "summary": "A cozy restaurant patio or dining area with set tables in front of a wooden slat wall decorated with hanging potted plants and colorful floral accents."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy dining area featuring a wooden slat wall adorned with hanging plants in pots."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An outdoor dining area with tables set against a wooden wall decorated with hanging plants and colorful tiles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An outdoor dining area features tables set with dark linens against a rustic wooden pallet wall decorated with hanging plants and colorful plates."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a shadowy corridor with arches, leading to a bustling plaza filled with people."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a curved colonnaded walkway opening onto a large historic plaza with ornate arches, towers, and scattered visitors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white view of a grand architectural courtyard bathed in sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo captures a sunlit colonnade with strong shadows leading to a bustling plaza and historic architecture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-contrast black and white photograph captures the dramatic shadows cast by columns along a curved arcade, overlooking a sunlit plaza filled with people."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a view of a historic building through an archway, with people gathered in the plaza below."
+        },
+        "gpt-5.4": {
+          "summary": "Black-and-white photo of an ornate arched colonnade overlooking a grand plaza building with groups of people in the courtyard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white view of a historic plaza framed by arches."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo taken from under ornate arches, looking out onto a grand plaza filled with people and historic buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph taken from a shaded colonnade, looking out onto a sunlit plaza filled with people and framed by grand, ornate architecture."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a historic architectural structure with columns and a courtyard, captured in black and white."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a long colonnaded walkway beside an ornate historic building, with strong shadows and a few distant people in an open plaza."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white photo of an ornate architectural structure in a courtyard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo showing a grand architectural structure with columns and arches, viewed from a shaded walkway with strong sunlight casting long shadows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-contrast black and white photograph captures the architectural details of a grand colonnade with ornate columns, balustrades, and strong shadows cast across a tiled walkway."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a detailed architectural structure with ornate designs, set in a public space where people are walking."
+        },
+        "gpt-5.4": {
+          "summary": "Black-and-white photo of an ornate historic building facade with towers, arches, balconies, and a few people walking at the base."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white photograph of an ornate architectural structure featuring intricate details."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of an ornate, historic building with arched entrances and intricate brickwork, with people walking nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white photograph capturing the ornate brick facade and arched entryway of a historic building with people walking in the foreground."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic view of a historic plaza with ornate architecture, a bridge, and people enjoying the area."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view of an ornate historic plaza with a tiled bridge, canal, fountain, lampposts, and scattered visitors under cloudy skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of [LOCATION] in [LOCATION] under a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide shot of [LOCATION] in [LOCATION], featuring ornate architecture, a bridge over water, and people walking under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a grand, ornate plaza featuring a large brick building with arches, a decorative bridge over a canal, and people walking around under an overcast sky."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is rowing a small boat on a greenish canal in front of a grand architectural structure with arches and decorative tiles."
+        },
+        "gpt-5.4": {
+          "summary": "A large ornate brick plaza building with arched colonnades stands beside a canal where two people are rowing a small boat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene scene of a boat floating in front of an ornate building under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A boat with two people glides across a canal in front of an ornate, historic building under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a grand, ornate building with arched colonnades and a tiled roof situated along a canal where two people are rowing a small boat."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a large, ornate plaza with a historic building and people walking around under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view of a grand historic plaza with arched colonnades, a canal bridge, and visitors walking under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A panoramic view of a historic plaza featuring ornate architecture under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People stroll through a grand, ornate plaza with arched colonnades and historic architecture under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a grand, semi-circular [ORGANIZATION] with terracotta-colored architecture, arched colonnades, and numerous tourists walking on the paved ground under an overcast sky."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot of a grand, ornate building with arches, a canal with a boat, a fountain, and people walking and cycling in a large plaza under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic view of a historic plaza with a fountain, surrounded by ornate architecture and people enjoying the space."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view of an ornate historic plaza with a fountain, canal, bridge, and scattered visitors under cloudy skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of [LOCATION] in [LOCATION] featuring a fountain, water canal, and historic architecture under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide view of [LOCATION] in [LOCATION], showing its grand architecture, a central fountain, and people walking along paved paths beside a canal with boats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a grand, semi-circular plaza featuring ornate architecture, a central fountain, and a canal with rowboats under an overcast sky."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A panoramic view of a city with a wide river, historic buildings, and a modern skyscraper, seen from a high vantage point with stone battlements in the foreground"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a scenic view of a river with buildings and a tower in the background, framed by a stone wall."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny panoramic cityscape shows a wide river, boats, a bridge, and a riverside skyline viewed from a historic terrace with crenellated walls under large clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a cityscape by water under partly cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic overlook from a castle-like structure shows a river winding through a city with boats and a modern tower in the distance under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a city and river from a historic stone wall with conical turrets, featuring boats on the water and a modern skyscraper in the distance."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a city skyline featuring historical"
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a river with buildings and trees along the bank under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny riverside cityscape is viewed from a bridge, with calm water, palm-lined banks, and distant historic buildings and towers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a river in an urban area under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic view of a river with historic buildings and palm trees seen from an ornate bridge railing under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a city skyline across a wide river, framed by an ornate black metal railing in the foreground."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a historic building with a decorative dome and [ORGANIZATION], set against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small ornate brick chapel with a blue tiled dome and [ORGANIZATION] stands by a riverside street under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A picturesque view of a Spanish-style church under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People walk past a historic brick church with a tiled dome and [ORGANIZATION] under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a brick church with an ornate blue-tiled dome and [ORGANIZATION], situated next to a river under a bright blue sky."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A view through an ornate black iron gate into a sunlit architectural courtyard featuring white walls, arched entrances, a colorful tiled fountain or bench, and lush green plants."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a decorative courtyard view through a black wrought iron gate, featuring tiled artwork and [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A wrought-iron gate frames a sunlit courtyard with arched architecture, patterned floor tiles, plants, and a decorative ceramic wall fountain."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "View through an ornate metal gate into a courtyard adorned with colorful tiles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view through a black wrought-iron gate into a sunlit courtyard with tiled walls and decorative plants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view through a black iron gate into a sunlit courtyard featuring white walls, ornate windows, and a colorful tiled fountain."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a research poster discussing pain scores in adjustable strabismus surgery, authored by [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A medical conference poster presents research on pain scores in adjustable strabismus surgery, with sections for background, methods, results, discussion, and conclusion."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A poster titled 'Pain Score in Adjustable Strabismus Surgery' by [PERSON] discusses pain assessment during adjustable strabismus surgery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A medical poster detailing pain assessment in adjustable strabismus surgery, featuring sections on background, methods, results, discussion, and conclusion."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A medical research poster titled 'Pain Score in Adjustable Strabismus Surgery' by [PERSON] from [ORGANIZATION], presented at the [ORGANIZATION]-TOA-AAPOS 2025 conference."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scientific poster presents detailed research on isolated pareses"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a research poster on isolated pareses of extraocular muscles, detailing various types of muscle palsies and their management."
+        },
+        "gpt-5.4": {
+          "summary": "A medical conference poster about isolated extraocular muscle pareses in ophthalmology, featuring eye-movement photo grids, anatomical diagrams, and MRI images."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A medical research poster titled 'Isolated pareses of Extraocular muscles' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A medical research poster detailing isolated pareses of extraocular muscles, featuring anatomical diagrams, patient case studies with eye photos, and MRI scans."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A medical research poster titled 'Isolated pareses of Extraocular muscles' by [PERSON] from [ORGANIZATION], featuring clinical case studies and diagrams."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a research poster on the long-term outcomes of adjustable strabismus surgery at a Pakistani university hospital."
+        },
+        "gpt-5.4": {
+          "summary": "A medical conference poster presents research on long-term outcomes of adjustable strabismus surgery at a Pakistani university hospital."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A medical poster presenting research findings on adjustable strabismus surgery outcomes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A medical research poster detailing long-term outcomes of adjustable strabismus surgery at a Pakistani university hospital."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A medical research poster titled 'Long-term outcomes of adjustable strabismus surgery at a Pakistani university hospital' by [PERSON], featuring clinical data tables, patient eye photographs, and surgical diagrams."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a research poster titled 'Patterns in [ORGANIZATION]' detailing a study on strabismus patterns and surgical outcomes."
+        },
+        "gpt-5.4": {
+          "summary": "A medical conference poster titled \"Patterns in [ORGANIZATION]\" presents ophthalmology research with eye photos, charts, methods, discussion, and conclusions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scientific poster titled 'Patterns in [ORGANIZATION]' presented by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A medical research poster titled 'Patterns in [ORGANIZATION]' detailing surgical treatments for eye misalignment, featuring diagrams, patient data, and author information."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A medical research poster titled 'Patterns in [ORGANIZATION]' presented by [PERSON] from [ORGANIZATION] for the [ORGANIZATION]-TOA-AAPOS 2025 conference."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene waterfront scene with boats docked and a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny waterfront scene shows small docked boats and a ferry on the water, framed by leafy trees and a decorative black iron fence."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a harbor with boats docked under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic waterfront view framed by an ornate metal fence, showing boats docked near a city skyline under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a harbor with several boats docked and moving on the water, framed by a decorative metal fence in the foreground and green trees."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a research poster detailing a study on pain scores in adjustable strabismus surgery."
+        },
+        "gpt-5.4": {
+          "summary": "A medical conference poster titled \"Pain Score in Adjustable Strabismus Surgery\" presents background, methods, results, discussion, and conclusion sections with pain-scale graphics and a QR code."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A medical poster discussing pain scores in adjustable strabismus surgery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An academic infographic detailing pain assessment in adjustable strabismus surgery using [PERSON] FACES and numeric scales."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A medical research poster titled 'Pain Score in Adjustable Strabismus Surgery' by [PERSON], presenting background, methods, results, and conclusions regarding pain assessment in eye surgery."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a research poster detailing the long-term outcomes of adjustable strabismus surgery conducted at a Pakistani university hospital."
+        },
+        "gpt-5.4": {
+          "summary": "A medical conference poster presents research on long-term outcomes of adjustable strabismus surgery at a Pakistani university hospital, with sections of text, charts, eye photos, and a surgical image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Scientific poster presenting research findings from a Pakistani university hospital regarding long-term outcomes of adjustable strabismus surgery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A medical research poster detailing long-term outcomes of adjustable strabismus surgery at a Pakistani university hospital."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A medical conference poster presenting a study on the long-term outcomes of adjustable strabismus surgery at a Pakistani university hospital."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a detailed academic poster discussing isolated pareses of extraocular muscles, including clinical characteristics and management strategies."
+        },
+        "gpt-5.4": {
+          "summary": "A medical conference poster about isolated pareses of extraocular eye muscles, with sections on superior rectus, inferior oblique, superior oblique, and lateral rectus palsies plus clinical images and references."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Medical poster discussing isolated pareses of extraocular muscles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A medical academic poster detailing various types of isolated extraocular muscle palsy, with diagrams, patient photos, and MRI scans."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A medical academic poster by [PERSON] from [ORGANIZATION] detailing the etiology, clinical characteristics, and management of isolated pareses of extraocular muscles."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a research poster discussing patterns in strabismus, detailing various types of eye deviations and surgical methods."
+        },
+        "gpt-5.4": {
+          "summary": "A blue scientific conference poster titled \"Patterns in [ORGANIZATION]\" presents ophthalmology research with eye photos, charts, methods, results, and surgical discussion."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A medical poster titled 'Patterns in [ORGANIZATION]' discussing various types of strabismic deviations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A medical presentation slide detailing patterns in strabismus, including definitions, results, surgical methods, and diagrams of eye conditions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A medical research poster titled 'Patterns in [ORGANIZATION]' by [PERSON] from [ORGANIZATION], detailing a study on strabismus patterns and surgical outcomes."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding an open travel book featuring images and text about [LOCATION] and [LOCATION], with a marina in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds an open travel guide about [LOCATION] and [LOCATION] in front of a sunny waterfront with boats and a large bridge."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a book open showing images of [LOCATION] and [LOCATION] against an urban waterfront backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds an open travel guidebook about [LOCATION] and [LOCATION], with a waterfront scene and bridge visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds an open travel guidebook featuring [LOCATION] and [LOCATION], positioned in front of a real-life view of the actual bridge and [LOCATION] on a sunny day."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a waterfront view featuring an ornate building with a dome and a nearby docked boat."
+        },
+        "gpt-5.4": {
+          "summary": "A large domed historic waterfront building with a minaret stands beside a promenade and small boats, with blue water and a bridge visible in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a waterfront area featuring historical architecture under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand domed mosque stands beside a waterfront with boats and a distant bridge under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of [ORGANIZATION] on a sunny day, featuring its prominent dome and minaret alongside [LOCATION] with boats and a distant bridge."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a grand white palace or mosque with"
+        },
+        "gpt-4o-mini": {
+          "summary": "A waterfront scene featuring a historic building, a flag, and people walking along the promenade."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny waterfront scene shows an ornate domed building with a red flag, a few pedestrians, blue water, and a distant bridge."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a waterfront promenade featuring historical architecture under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunny waterfront scene with a historic domed building, pedestrians, and a distant bridge over water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunny waterfront scene featuring a large domed building and people on a pier, with a bridge visible in the distance."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a waterfront view featuring a historic building with a dome and a nearby marina with boats."
+        },
+        "gpt-5.4": {
+          "summary": "A large waterfront mosque-like historic building with a dome and minaret stands beside boats on a sunny shoreline, with a bridge visible in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a waterfront area featuring historical architecture under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand domed mosque stands beside a waterfront with boats and a distant bridge under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of [ORGANIZATION] on a sunny day, featuring its prominent dome and minaret alongside [LOCATION] with boats and a distant bridge."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grand mosque with a large dome"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a large mosque with multiple minarets and a dome, surrounded by trees and clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A large mosque with a central dome and tall minarets rises above trees under a clear blue sky in an urban street scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A mosque with two minarets under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand mosque with a large dome and tall minarets stands against a clear blue sky, partially framed by green trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a historic stone mosque with a large central dome and tall minarets set against a clear blue sky, partially framed by green trees."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grand mosque with a large dome and minaret is partially visible behind lush green trees and a decorative fence, under a clear"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a large, ornate building with a dome and minarets, surrounded by [ORGANIZATION] and a fence."
+        },
+        "gpt-5.4": {
+          "summary": "A domed historic mosque with minarets rises behind trees beside a waterside fence and a small boat under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a historic mosque surrounded by [ORGANIZATION] under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand mosque with a dome and minarets viewed through trees under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a white mosque with a large central dome and minarets, framed by green trees against a clear blue sky."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a historic stone tower surrounded by [ORGANIZATION] under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A low-angle view of a historic round stone tower with a conical roof, framed by trees and a metal fence under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[LOCATION] in [LOCATION] stands tall amidst lush [ORGANIZATION] under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tall stone tower with a conical roof and arched windows stands behind green trees under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a historic stone tower with a conical roof, surrounded by green trees and a metal fence under a clear blue sky."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white lighthouse with a red band stands on a rocky breakwater in the water under a blue sky with"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a lighthouse on a rocky pier under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A white lighthouse with a red stripe stands on a rocky breakwater by calm water under a bright blue sky with large clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a lighthouse surrounded by calm waters under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white lighthouse with a red band stands on a rocky pier under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white lighthouse with a red horizontal band stands on a rocky breakwater under a blue sky with scattered clouds."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Here"
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a harbor with boats, overlooking a city skyline and a bridge in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Small boats are docked at a waterfront marina with a wide blue waterway, a distant city skyline and bridge, and a tree framing the scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene harbor scene featuring boats docked along a waterfront under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A harbor scene with boats docked in the foreground and a distant cityscape featuring a bridge and tower under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a harbor with several docked boats, looking across the water towards a distant city skyline featuring a prominent tower and bridge."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An outdoor market stall or shop entrance is filled with colorful textiles, traditional crafts, and large"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a closed artisan shop with various decorative items and artwork displayed outside."
+        },
+        "gpt-5.4": {
+          "summary": "A street-side art and handicrafts shop displays framed paintings, colorful textiles, carved decor, and small tables with souvenirs outside the entrance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shop displaying traditional crafts and paintings in a vibrant outdoor market."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A storefront displays colorful crafts, paintings, and furniture on a paved sidewalk with a 'CLOSED' sign visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street-side shop displays colorful traditional textiles, brassware, and large paintings of architectural scenes alongside a closed storefront."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wooden sign labeled '[ORGANIZATION] is surrounded by colorful flowers and greenery in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A wooden \"BONSAI CORNER\" sign stands in a landscaped garden area with potted bonsai trees, colorful flowers, and a stone walkway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wooden sign reading '[ORGANIZATION] amidst a garden of colorful flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden sign reading '[ORGANIZATION] marks an outdoor garden area with potted bonsai trees and colorful flowering plants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wooden sign reading '[ORGANIZATION] stands in a garden surrounded by potted bonsai trees and vibrant red, pink, and yellow chrysanthemums."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant outdoor scene featuring numerous potted chrysanthemums in various colors, arranged in a garden setting with a decorative lotus-shaped sign and people walking in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant flower display with a decorative [ORGANIZATION] structure in a park setting."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny outdoor flower garden display features many colorful potted blooms, decorative bicycle planters, and a large lotus-shaped installation."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant flower display in a park featuring potted chrysanthemums under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant garden display featuring rows of colorful potted flowers, a large [ORGANIZATION] sculpture, and visitors walking on a path."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant outdoor flower exhibition features rows of colorful potted chrysanthemums, a decorative white bicycle planter, and a large [ORGANIZATION] sculpture against a clear sky."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant garden area with a wooden sign labeled '[ORGANIZATION] surrounded by various colorful flowers in pots."
+        },
+        "gpt-5.4": {
+          "summary": "A landscaped outdoor garden display shows colorful potted flowers and a wooden cart beside a sign reading \"BONSAI CORNER.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant display of potted flowers in a landscaped area labeled '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A garden area labeled '[ORGANIZATION] features colorful potted flowers arranged around a wooden cart and trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An outdoor garden display features a wooden cart filled with colorful potted chrysanthemums near a sign reading '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant close-up"
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant display of various colorful chrysanthemums in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows colorful chrysanthemum-like flowers in a garden or nursery setting with soft background blur."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant garden filled with colorful chrysanthemums in various shades of pink, yellow, orange, purple, and red."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of vibrant, multi-colored chrysanthemums in bloom with lush green leaves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a vibrant garden filled with colorful pom-pom chrysanthemums in shades of yellow, pink, orange, and purple."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot captures a vibrant gazania flower with yellow and purple striped petals, growing in a garden setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a colorful flower with purple and yellow petals surrounded by green foliage."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a striped purple-and-cream daisy-like flower with a yellow center growing in a garden planter, with another yellow bloom blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant flower in a garden bed surrounded by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a colorful striped flower with yellow and purple petals, growing in soil among green leaves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a striped purple and yellow [LOCATION] flower blooming in a garden planter."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a vibrant assortment of colorful powders and nuts arranged in bowls on a red table."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful market-style food display shows bowls of bright sweets, spices, nuts, and condiments arranged on a red table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant display of colorful powders in bowls arranged neatly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful display of traditional sweets and snacks in metal bowls on a red tablecloth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant display of colorful powders, nuts, and sweets arranged in metal bowls on a red tablecloth."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a bustling outdoor food market with various stalls and a stage in the background."
+        },
+        "gpt-5.4": {
+          "summary": "An outdoor fair scene shows food stalls with snacks, people walking between tents, string lights overhead, and a stage setup in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A lively outdoor event featuring food stalls under tents near a stage setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An outdoor food market with vendors and attendees near a stage under string lights and autumn trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An outdoor food market scene with vendors at white tents, customers browsing, and a large concert stage setup in the background under string lights."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows numerous seasoned chicken pieces,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a large platter of grilled chicken pieces garnished with herbs and lemon slices."
+        },
+        "gpt-5.4": {
+          "summary": "A large round griddle is covered with spiced roasted chicken pieces garnished with herbs and lemon slices while someone cooks with metal spatulas."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large platter of seasoned grilled chicken wings garnished with lemon slices."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Spiced chicken wings are being cooked and garnished with herbs and lemon slices on a large flat griddle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of seasoned chicken pieces being cooked on a large, flat outdoor griddle and garnished with lemon slices and herbs."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a food stall with a traditional cooking setup, featuring a large pot and flat cooking surface with food items being prepared."
+        },
+        "gpt-5.4": {
+          "summary": "A street food stall at an outdoor market shows small yellow flatbreads cooking on a griddle beside large decorated clay pots."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A traditional cooking setup featuring a large clay pot over an open flame in what appears to be a market environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A food stall at an outdoor festival features golden flatbreads cooking on a griddle beside a decorated clay pot and sequined tablecloth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a food stall at an outdoor market featuring yellow flatbreads cooking on a griddle next to a large, decorated clay pot resting on a sequined cloth."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a brown planter box filled with green plants and small purple flowers, some with visible water droplets, set against a blurred"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up view of a flower pot with various blooming flowers, primarily in shades of purple and green foliage."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a rectangular planter with small purple and light-blue flowers and green leaves, with water droplets visible on the plants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a terracotta pot filled with vibrant purple flowers in dew-covered leaves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A terracotta planter with purple flowers and green leaves, hanging on a railing with water droplets visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a brown planter box containing small purple flowers and green foliage with visible water droplets, resting on a black railing."
+        }
+      }
+    },
+    "image_00124": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features white daisies with yellow centers and some yellow flowers growing in a planter, with a blurred wooden railing in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of blooming flowers in a planter, including white daisies and yellow blooms."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of white daisy-like flowers and a yellow bloom growing in a planter box outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a flower bed featuring white daisies in bloom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of white daisies and yellow flowers growing in a garden planter with visible soil and green leaves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of white daisies and yellow flowers growing in a planter box with green foliage."
+        }
+      }
+    },
+    "image_00125": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features vibrant yellow flowers with water droplets in a planter on a balcony, set against a blurred urban background under a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of vibrant yellow flowers in pots on a balcony with a blurred urban background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of bright yellow flowers growing in balcony planters, with blurred residential buildings in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of vibrant yellow flowers in a balcony garden."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of vibrant yellow flowers in a planter on a balcony with buildings in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of vibrant yellow flowers in a planter on an outdoor balcony with blurred buildings in the background."
+        }
+      }
+    },
+    "image_00126": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An orange hanging planter pot is prominently featured amidst a canopy of colorful autumn leaves, with a sunlit garden visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hanging flower pot surrounded by colorful autumn leaves in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A cracked hanging planter is suspended beneath sunlit grapevine leaves in a backyard garden with autumn colors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hanging terracotta pot surrounded by autumn leaves in a garden."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cracked orange hanging basket suspended among autumn-colored grapevine leaves in a sunny garden."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cracked orange hanging planter suspended from a vine-covered trellis with autumn-colored leaves in a sunny garden setting."
+        }
+      }
+    },
+    "image_00127": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of red and yellow autumn leaves on vines, with green trees and a clear blue"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features colorful autumn leaves hanging from vines against a clear blue sky, with a garden in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Sunlit yellow and red vine leaves hang overhead in a garden courtyard with green fruit trees under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A garden scene featuring autumn leaves against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Autumn leaves in yellow and red hues hang from vines against a clear blue sky, framing an orange tree below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of grapevines with yellow and red autumn leaves hanging against a blue sky, with an orange tree visible in the background."
+        }
+      }
+    },
+    "image_00128": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of vibrant red and yellow autumn leaves from a vine, set against a clear blue sky with some green foliage"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features colorful autumn leaves against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Autumn-colored vine leaves climb around wooden supports under a clear blue sky in an outdoor garden setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant autumn scene featuring colorful leaves against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Autumn leaves in vibrant reds and yellows cling to grapevine branches against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of grapevines with autumn foliage in shades of red, orange, and yellow against a clear blue sky."
+        }
+      }
+    },
+    "image_00129": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A low-angle shot captures vibrant autumn leaves, primarily yellow and orange, clinging to a rustic trellis structure against a clear, bright blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a wooden structure entwined with vibrant autumn leaves against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "An upward view shows an abstract metal-and-wood garden structure entwined with golden autumn vine leaves against a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wooden structure adorned with autumn leaves against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden cross adorned with autumn vines and leaves stands against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle shot of a wooden cross-shaped trellis with yellowing grapevine leaves against a clear blue sky."
+        }
+      }
+    },
+    "image_00130": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A decorative wooden cart filled with vibrant purple, yellow, and white flowers is positioned"
+        },
+        "gpt-4o-mini": {
+          "summary": "A wooden cart filled with colorful flowers is displayed in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit garden patio features a rustic wooden cart and bench decorated with potted chrysanthemums in purple, white, and yellow among landscaped flower beds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wooden cart filled with colorful flowers in a garden setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden cart filled with colorful chrysanthemums sits on a patio in a landscaped garden."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wooden cart filled with colorful chrysanthemums sits in a landscaped garden featuring manicured trees and flower beds."
+        }
+      }
+    },
+    "image_00131": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white view of a river with a stone bridge and buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white waterfront cityscape shows a stone arch bridge over a river, a wooden railing in the foreground, and historic buildings with a church spire in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white photo of a bridge spanning over water in an urban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo shows a stone arch bridge over water, with historic buildings and a church spire in the background, framed by a weathered wooden railing in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph captures a scenic view of a historic stone bridge spanning a river, with traditional buildings and a church spire visible in the background."
+        }
+      }
+    },
+    "image_00132": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a tree branch adorned with delicate white blossoms and fresh green leaves, set against a softly blurred background of a building, green lawn, and other trees."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up view of flowering branches with a blurred background of [ORGANIZATION] and a building."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up view of dark tree branches with white blossoms and green leaves in a sunny yard, with a blurred building in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of blooming white flowers against a backdrop of green grass under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of white blossoms on tree branches with a blurred background of [ORGANIZATION] and buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of white blossoms on dark tree branches with a blurred background of green grass and a white building."
+        }
+      }
+    },
+    "image_00133": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features delicate white blossoms and green buds on a tree branch, set against a softly blurred natural background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a flowering branch with [ORGANIZATION] against a blurred background of [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a tree branch with small white blossoms and green buds in a sunlit garden, with the background softly blurred."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a tree branch adorned with delicate white blossoms in an outdoor garden."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of white blossoms on a gnarled tree branch in a sunlit garden."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a tree branch featuring delicate white blossoms and emerging green leaves against a blurred garden background."
+        }
+      }
+    },
+    "image_00134": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of tree branches with white blossoms and new green leaves against a clear blue sky, suggesting springtime."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a branch with white flowers against a blurred background of [ORGANIZATION] and blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of white blossoms on thin tree branches outdoors against a blue sky with a soft blurred background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of white blossoms against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of white blossoms on tree branches against a blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of white blossoms and fresh green leaves on tree branches set against a clear blue sky."
+        }
+      }
+    },
+    "image_00135": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of pink geraniums and other potted flowers on a balcony railing,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features blooming pink flowers in pots against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of pink and purple potted flowers on a sunny balcony or patio with a clear blue sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Pink flowers in a pot against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A potted plant with pink flowers and green leaves sits on a railing under a clear blue sky, accompanied by smaller purple flowers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of potted pink geraniums and purple flowers on a balcony railing under a clear blue sky."
+        }
+      }
+    },
+    "image_00136": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a balcony planter box overflowing with vibrant purple, pink, and blue flowers, set against a blurred urban background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant flower box filled with various colorful flowers is displayed on a balcony."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit balcony planter holds blooming purple, pink, blue, and white flowers with an urban background softly blurred behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant flower box filled with colorful blooms hanging from a balcony railing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A terracotta hanging planter filled with colorful purple, blue, and white flowers sits on a balcony railing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rectangular terracotta planter filled with a mix of purple, blue, and white flowers hangs from a metal rack on an outdoor balcony railing."
+        }
+      }
+    },
+    "image_00137": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features several white and yellow daisy-like flowers blooming amidst green foliage, with a blurred background suggesting an outdoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of white daisies with yellow centers growing in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of white daisy-like flowers with yellow centers growing in a sunny garden or planter."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of daisies in a garden bed under bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of white daisies with yellow centers growing in a garden bed, framed by green foliage and a wooden railing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of white daisies with yellow centers growing in a garden bed, featuring green foliage and a blurred wooden fence in the background."
+        }
+      }
+    },
+    "image_00138": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of three bright yellow dandelions growing among green grass and brown soil."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cluster of bright yellow dandelion flowers growing amidst green grass."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows several bright yellow dandelion flowers growing among grass and bare soil."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of dandelions growing in a grassy area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three bright yellow dandelion flowers bloom among green grass and soil."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, high-angle shot of three bright yellow dandelion flowers blooming amidst jagged green leaves and grass on a patch of soil."
+        }
+      }
+    },
+    "image_00139": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a patch of green clover-like plants with scattered yellow flowers."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of clover-like green ground cover with several small yellow wildflowers growing in dry grass and soil."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of clover plants growing in a natural environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of green clover plants with yellow flowers growing in soil and grass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a patch of ground covered in green clover-like plants and small yellow flowers."
+        }
+      }
+    },
+    "image_00140": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows small yellow flowers and green plants growing in dry, light brown soil."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cluster of yellow flowers growing in a sandy, uneven terrain."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows small yellow wildflowers with green leaves growing in sandy soil."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plant with yellow flowers growing in a dry soil environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow-flowered plant with green leaves grows in dry, cracked soil."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a flowering plant with bright yellow blossoms and green leaves growing in dry, cracked soil."
+        }
+      }
+    },
+    "image_00141": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a plant with vibrant purple leaves and a delicate pink flower with yellow stamens, set against a blurred background of green foliage and brown"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a purple plant with a small pink flower amidst green foliage."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a small pink flower blooming among purple and green leafy plants in an outdoor garden setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a purple flower surrounded by green foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a plant with purple leaves and a small pink flower amidst green foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a purple heart plant featuring vibrant purple leaves and a small pink flower with yellow stamens amidst green foliage."
+        }
+      }
+    },
+    "image_00142": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features vibrant green clover-like plants with small yellow flowers growing along"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of green clover-like leaves with small yellow flowers against a textured background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a small ground plant with clover-like green leaves and tiny yellow flowers growing beside a rough wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a plant growing along a stone wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plant with clover-like leaves and small yellow flowers grows along a textured stone surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a creeping plant with heart-shaped green leaves and small yellow flowers growing along the base of a textured concrete wall."
+        }
+      }
+    },
+    "image_00143": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up overhead view shows small yellow flowers and green clover-like plants growing in muddy brown soil."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a patch of green clover-like plants with small yellow flowers growing in soil."
+        },
+        "gpt-5.4": {
+          "summary": "A top-down view shows small yellow wildflowers among clover-like green leaves scattered across muddy ground with a bit of grass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A patch of clover plants growing in a muddy area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of small yellow flowers and green clover-like leaves growing in muddy soil."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of small yellow flowers and clover-like green leaves growing in wet, brown mud."
+        }
+      }
+    },
+    "image_00144": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a garden bed features vibrant pink flowers, two white irises, various green foliage, and decorative rocks."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a garden scene with colorful flowers and various stones."
+        },
+        "gpt-5.4": {
+          "summary": "A small garden bed with white iris flowers, pink blossoms, green foliage, and smooth border stones is shown beside a wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Garden scene featuring white flowers in bloom surrounded by rocks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A garden bed with white irises, pink flowers, green foliage, and rounded stones."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A garden bed features blooming white irises and pink flowers bordered by smooth stones against a concrete wall."
+        }
+      }
+    },
+    "image_00145": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant close-up shot features a cluster of small, colorful flowers in shades of purple, pink, white, and blue, set against a softly blurred background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant arrangement of various blooming flowers in shades of purple, white, and green."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a sunlit planter filled with purple, white, blue, and yellow flowers with a soft blurred background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant garden scene featuring a variety of colorful flowers in bloom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of vibrant purple, white, and yellow flowers with green foliage in a planter under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, sunlit photograph of a flower bed featuring vibrant purple and white lobelia blooms amidst green foliage."
+        }
+      }
+    },
+    "image_00146": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant display of daisies and other flowers in a planter along a railing."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit planter of white daisy-like flowers sits along a railing, with more colorful flowers and a walkway blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant flower arrangement of daisies in a pot placed outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of white daisies with yellow centers in a planter on a balcony railing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a planter box filled with blooming white daisies and seed pods, situated on an outdoor balcony railing."
+        }
+      }
+    },
+    "image_00147": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a vibrant white, yellow, and purple flower with a bright yellow center, surrounded by green leaves and smaller purple flowers, set against a blurred outdoor background with a wooden railing."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a vibrant flower with yellow and purple petals, surrounded by green leaves and other flowers on a balcony."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of blooming potted flowers on a sunlit balcony or patio, with a wooden railing and blurred [ORGANIZATION] in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a vibrant flower in front of wooden railings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a white and purple-striped daisy-like flower in a planter, with green foliage and purple flowers nearby, set against a blurred wooden railing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a white and purple [LOCATION] flower in a planter, with green foliage and purple flowers nearby against a blurred outdoor background."
+        }
+      }
+    },
+    "image_00148": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features several white and yellow daisy-like flowers blooming in a pot under a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cluster of white daisies with yellow centers against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up photo of white daisy-like flowers in a planter under a clear blue sky with a soft blurred background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of daisies in a pot under clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of white-petaled daisies with yellow centers growing in a planter under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of white daisies with yellow centers growing in a planter against a clear blue sky."
+        }
+      }
+    },
+    "image_00149": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two decorative vases, one with vibrant red roses and the other with dried or artificial golden and cream flowers, are displayed on a surface against a light background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a decorative arrangement of red roses in a patterned vase alongside a white textured vase with dried flowers."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up still life shows red roses and green leaves in a marbled vase beside dried flowers in a white textured vase on an indoor surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A decorative vase holding red roses sits next to a smaller white textured vase filled with dried flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tall, patterned vase holds vibrant red roses beside a smaller white vase with dried flowers on a marble surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A still-life arrangement featuring a tall, marbled vase with red roses and a smaller white textured vase with dried flowers on a marble surface."
+        }
+      }
     }
   }
 }

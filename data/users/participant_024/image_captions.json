@@ -1,65 +1,1899 @@
 {
   "user_id": "participant_024",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "dogs",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; dogs; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two individuals embracing on stage during a performance."
+        },
+        "gpt-5.4": {
+          "summary": "Two performers share a warm hug on a concert stage, with one holding a microphone under pink-purple lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals share a warm embrace during what appears to be an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women embrace warmly on a stage under pink lighting, one holding a microphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two performers share an emotional hug on a concert stage, with one holding a microphone and wearing a sparkly skirt."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "dogs",
-        "film and television",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; dogs; film and television; photography; spectator sports."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three glasses of a dark red beverage on a wooden table in a bar setting."
+        },
+        "gpt-5.4": {
+          "summary": "Three servings of a dark red iced drink sit on a wooden table with a beer bottle and empty glass in a dim bar or restaurant interior."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three glasses of sangria are placed in front of a bar setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three glasses of red sangria with fruit and ice sit on a wooden table in a dimly lit bar."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two glasses of red sangria and a pitcher sit on a wooden table in a dimly lit bar with concrete walls."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "film and television",
-        "photography",
-        "spectator sports",
-        "travel"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; photography; spectator sports; travel."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a dimly lit bar setting with a person seated at a wooden table, surrounded by drinks and snacks."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits at a wooden table in a dim, modern bar or cafe with a beer bottle, a beer glass, and a large iced drink in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sits in a dimly lit bar, looking down while holding an object."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits at a wooden bar counter in a dimly lit cafe, with drinks and snacks visible in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black cap sits at a wooden bar counter with drinks, including a wine glass filled with fruit pieces and a beer bottle, in an industrial-style establishment."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "dogs",
-        "film and television",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; dogs; film and television; outdoor activities; photography."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a festive birthday celebration with a decorated cake, balloons, and a '[PERSON] banner."
+        },
+        "gpt-5.4": {
+          "summary": "A red, white, and blue birthday setup features many balloons, a lit cake, and Junior soccer-themed decorations with a large \"FELIZ CUMPLEAÑOS\" banner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive birthday setup featuring a cake decorated in red, white, and blue stars under balloons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A birthday celebration decorated with red, white, and blue balloons and themed around the Junior football club, featuring a cake and \"[PERSON]\" banner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A birthday celebration setup featuring a cake and decorations themed around the Junior FC soccer team, with red, white, and blue balloons and streamers."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "dogs",
-        "film and television",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; dogs; film and television; photography; spectator sports."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a couple embracing in a festive birthday setting decorated with balloons and a celebratory banner."
+        },
+        "gpt-5.4": {
+          "summary": "Two people are hugging in a red-lit room filled with red, white, and blue balloons, a soccer-themed birthday backdrop, and a TV displaying a birthday greeting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple embraces in a room decorated with balloons and banners celebrating '[PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people embrace in a room decorated with red, white, and blue balloons and Junior soccer-themed birthday decorations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two people embrace in a room decorated with red, white, and blue balloons and [ORGANIZATION] soccer team merchandise for a surprise birthday celebration."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "dogs",
-        "film and television",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; dogs; film and television; photography; spectator sports."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a hand holding a bouquet of pink and teal paper flowers, with a cardboard box visible in the background"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a bouquet of paper roses in pink and turquoise wrapping."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a small bouquet of four pink paper roses wrapped in turquoise paper indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a paper bouquet of pink flowers in turquoise packaging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a crafted bouquet of pink paper roses wrapped in teal paper, set against a cardboard box with partial text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a small bouquet of four pink paper roses wrapped in teal and white paper, resting above a cardboard box with partial text."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A tabby and white cat with a pink collar is playfully biting and holding onto a human hand against a bright red background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat playfully interacts with a person's hand on a red blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A tabby-and-white cat wearing a pink collar lies on a bright red blanket while grabbing and play-biting a person's hand and arm."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat wearing a collar rests peacefully while being held by two hands."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby cat with a pink collar is nuzzling and pawing at a person's hands on a red blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tabby and white cat wearing a pink collar playfully bites and holds a person's hands while lying on a red bedspread."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long dark hair, wearing a light-colored shirt and a seatbelt, takes a selfie inside a car, making a playful facial expression with"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a car, partially obscuring their face with one hand while showing off their long, light blue nails."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up car selfie shows a person smiling with one eye squinted, wearing a seatbelt and showing light blue manicured nails."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting in a car wearing light blue nail polish."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long dark hair smiles playfully while sitting in a car, hand resting on forehead."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair and light blue nails poses playfully inside a car, making a scrunched face while wearing a white shirt."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person with dark hair, prominent blush on their cheeks and nose, and glossy red lips puckered in a kissy face."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person with long dark hair, partially obscured face."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person in a car interior puckering glossy lips toward the camera with rosy makeup and long dark hair."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up selfie of a person making an expressive face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person with glossy red lips and rosy cheeks making a kissy face inside a vehicle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long dark hair making a kissing face while seated in a car."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long dark hair takes a selfie in a dim setting, illuminated by a strong red light, making a pouty face."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person with obscured facial features, sitting in a vehicle with red lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up low-angle selfie in a car interior, with the face illuminated by strong red light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie in red lighting inside what appears to be an airplane cabin."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person makes a playful face inside a car under red lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long dark hair and makeup, illuminated by strong red lighting inside a vehicle."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person with long hair sitting in a vehicle, illuminated by red light."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up low-angle selfie shows a person in a car illuminated by strong red lighting, making a playful face with their tongue slightly out."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie in red lighting inside what appears to be an airplane."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person makes a playful face inside a car under red lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long dark hair making a playful face inside a car illuminated by red ambient light."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman with long dark hair poses for a selfie inside a car"
+        },
+        "gpt-4o-mini": {
+          "summary": "A young woman is making a playful expression with red lighting in a car interior."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie of a person sitting in a car, lit by strong red light and looking off to the side."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie in car interior under red lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person makes a playful face inside a car under red lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long dark hair sitting inside a car, illuminated by strong red ambient lighting while making a playful pouty expression."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A couple wearing red shirts is kissing in the stands of a large, dimly lit stadium or arena, with a stage and crowd visible in the background under red lighting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple in red shirts is embracing and sharing a moment at a concert in a stadium setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in red shirts kiss in the stands of a large indoor concert venue with a red-lit stage in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple in red shirts shares a kiss during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple kisses while seated at a concert under red stage lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A couple in matching red shirts shares a kiss while seated in the stands of a large, crowded stadium at night during a concert."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is relaxing on a couch or bed with a tabby cat sleeping on their chest and two small white dogs nearby, one of which is being petted."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is relaxing on a couch with a cat sleeping on their chest and a dog nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A relaxed indoor scene shows a tabby cat stretched across a person’s lap while a small white dog sits in the foreground on a couch or bed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person relaxing on a couch surrounded by two pets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person rests on a couch with a sleeping tabby cat on their chest and a white dog looking toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a white hoodie lies on a beige couch with a tabby cat resting on their chest and a small white dog lying beside them."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of an orange tabby cat with wide, dark eyes, lying on a colorful, patterned surface in dim lighting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of an orange tabby cat with large eyes, resting on a colorful blanket in low light."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of an orange tabby cat with a collar resting on a bed or blanket in dim indoor lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of an orange tabby cat sitting indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of an orange tabby cat wearing a collar, looking directly at the camera in a dimly lit room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of an orange tabby cat with dilated pupils lying on a colorful blanket in dim lighting."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long dark hair and makeup is seen from the chest up, wearing a seatbelt inside a car, looking towards the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A young woman is smiling while seated in a car, with her hair down and wearing a natural makeup look."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person with long dark hair and pink-red lipstick sitting in a car with a seatbelt on."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting in a car wearing seatbelts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long dark hair smiles while seated in a car, wearing a seatbelt and a purple top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long dark hair and pink lipstick sitting in the passenger seat of a car."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long dark hair and makeup is smiling while taking a selfie inside a car, wearing a seatbelt."
+        },
+        "gpt-4o-mini": {
+          "summary": "A young woman is smiling while seated in a car, with her hair down and wearing a necklace."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie of a smiling woman inside a car, wearing a seatbelt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting in a car wearing seatbelts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long dark hair smiles while seated in a car, wearing a seatbelt and a purple top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling woman with long dark hair and pink lipstick, seated in the passenger seat of a car wearing a seatbelt."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, tilted shot shows a smiling person with long dark hair and makeup, appearing to be in a car."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a person's shoulder and hair while seated in a car."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a smiling person with long dark hair and red lipstick sitting in a car wearing a seatbelt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting in a car wearing makeup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long dark hair smiles while seated inside a car, wearing makeup and a seatbelt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling person with long dark hair and makeup, seated inside a car wearing a seatbelt."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A decorative glass dome containing pink artificial flowers and illuminated by small fairy lights sits on a dark wooden surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a decorative glass dome containing artificial pink flowers illuminated by small lights."
+        },
+        "gpt-5.4": {
+          "summary": "A decorative arrangement of pink flowers lit by small fairy lights sits under a glass dome on a dark tabletop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A decorative glass dome containing pink flowers illuminated by string lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A glowing pink floral arrangement under a glass dome on a dark wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A decorative artificial pink flower arrangement illuminated by small LED lights inside a glass dome on a dark wooden surface."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a video production setup with two individuals on screen and a control panel in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A video production control room shows a live multi-camera monitor feed of two seated people in a studio with purple-blue lighting, including a close-up of a performer in dramatic makeup and a green wig."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A live streaming setup showing multiple camera feeds of participants in a virtual event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video production control room with a monitor displaying multiple camera feeds of performers and a mixing console in front."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video production control room setup featuring a large monitor displaying a multi-camera feed of a drag performance and a [ORGANIZATION] switcher on the desk."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat with a colorful collar lies on a light-colored"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat with a colorful collar is lying on a tiled floor, looking directly at the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat wearing a colorful collar lies on a tiled floor indoors, looking at the camera with a chair and exercise equipment blurred behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat lounging indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat with a colorful collar lies on a tiled floor, looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a black and white cat with wide eyes lying on a tiled floor indoors."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An orange tabby cat lies on a tiled floor next to the base of a decorated Christmas tree, looking towards the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "An orange cat is lounging under a decorated Christmas tree."
+        },
+        "gpt-5.4": {
+          "summary": "An orange cat lies on a tiled floor beneath a decorated Christmas tree filled with red, silver, and festive ornaments."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ginger cat lounges under a decorated Christmas tree in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An orange cat lounges on a tiled floor beneath a decorated Christmas tree."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An orange tabby cat lies on a tiled floor next to the base of a decorated Christmas tree."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a mirror, wearing a pink and white strapless top, with a decorative phone strap and a chandelier in the background."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a bright room showing a person in a pink patterned strapless top holding a lavender iPhone with a pink beaded phone charm."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a mirror selfie in their home."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie holding a phone with a purple case and a beaded wrist strap, wearing a pink-and-white top in a brightly lit room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a bedroom, wearing a pink and white strapless top and holding a purple smartphone with a beaded charm."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a dimly lit living room with a television displaying a character from a movie, surrounded by decorative plants and snacks."
+        },
+        "gpt-5.4": {
+          "summary": "A dim blue-lit living room is centered on a TV showing an animated skeleton character, with plants, flowers, and a coffee table in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy living room setup featuring a TV displaying an animated character in costume under blue lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit room bathed in blue light from a TV displaying [PERSON], with plants and a drink on a table in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit living room features a television displaying the character [PERSON] from The Nightmare Before Christmas, surrounded by houseplants and snacks."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman in a colorful top walks through a food court while holding a child's hand."
+        },
+        "gpt-5.4": {
+          "summary": "A woman and child walk through a casual food-court seating area while other people sit at tables in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman holds a child in an indoor seating area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman carries a young girl through a casual dining area with tables and other patrons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a white outfit carries a young girl in a pink top while walking through a food court with tiled floors and tables."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in leopard print pajamas takes a selfie in a room with colorful LED lights, while a dog and another person are visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a bedroom shows a person in leopard-print pajamas holding a lavender phone, with red LED strip lights around the room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a mirror selfie in leopard print pajamas."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bedroom with red LED lighting, wearing leopard-print pajamas and holding a phone with a beaded strap."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in leopard-print pajamas takes a mirror selfie with red LED lighting, while another person and a dog are visible in the background."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a black headband and shirt smiles at the camera while taking a selfie outdoors at night, with trees and a road"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person taking a selfie at night with palm trees and a road in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up nighttime selfie shows a person wearing a black headband and top on a sidewalk beside [ORGANIZATION], a palm tree, and a road."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black headband takes a selfie outdoors during nighttime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles at the camera outdoors at night near a road with palm trees and moving car lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling woman wearing athletic attire and a headband, taken outdoors at night near a road with passing traffic."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat is playfully interacting with a decorated Christmas tree in a dimly lit room."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry pet stands beside a lit Christmas tree decorated with ornaments in a dim indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dimly lit Christmas tree decorated with lights and ornaments."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurry image of a dog moving near a lit Christmas tree with red ornaments and lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blurry, low-light photo of a decorated Christmas tree with lights and ornaments in a dimly lit room."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting outdoors, holding a small dog while wearing a striped shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a red-and-white striped soccer jersey sits outdoors holding a small dog under a blue shade canopy."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a red-striped jersey holds a small dog outdoors under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a red-and-white striped [LOCATION] holds a small fluffy dog outdoors under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a red and white striped [LOCATION] and a black cap sits outdoors holding a small, light-colored dog in a harness."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features art supplies and unpainted ceramic holiday figurines on a textured surface."
+        },
+        "gpt-5.4": {
+          "summary": "A holiday craft setup shows paintbrushes, small paint pots, and unpainted ceramic Christmas figurines beside a box on a fluffy gray surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A crafting setup featuring ceramic figurines of [LOCATION], a snowman, reindeer, Christmas tree, paint brushes, and colorful paints."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A flat-lay of Christmas-themed ceramic craft supplies, including unpainted figurines, paintbrushes, and colored paints on a fluffy rug."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat lay of unpainted ceramic Christmas figurines, including [LOCATION] and a snowman, arranged on a grey rug alongside paintbrushes and a set of acrylic paints."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a TV screen displaying the [ORGANIZATION] series 'Stranger Things' in a dimly lit room with red lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A red-lit room with a TV displaying [ORGANIZATION]'s Stranger Things, alongside shelves holding beauty products and a Pandora gift bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dimly lit room illuminated by red light shows a TV playing 'Stranger Things' in an indoor setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit room bathed in red light, showing a TV screen playing 'Stranger Things' with subtitles and rating options visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit room bathed in red ambient light features a television screen displaying the [ORGANIZATION] interface for 'Stranger Things' alongside a shelving unit holding various bottles and a Pandora shopping bag."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a colorful dress in a well-lit room."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in a flowing earth-toned dress posing in a softly lit bedroom with curtains, a bed, and a colorful blanket."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a mirror selfie in an indoor room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bedroom wearing a tie-dye dress and holding a pink phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair takes a mirror selfie in a bedroom, wearing a tie-dye dress and holding a pink smartphone."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a park at night, with playground equipment and people visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime selfie in a well-lit park shows a person in athletic-style clothing standing by a paved walking path with trees and playground equipment in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in an outdoor park area under streetlights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie at night in a park with bright streetlights and [ORGANIZATION] in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing athletic attire and a headband, standing on a paved path in a park at night."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting on a bed in a room, taking a selfie while wearing a black top and a leopard print skirt."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie of a person sitting on a bed in a bedroom, wearing a black top, leopard-print skirt, and white sneakers, with vanity products and wall decor visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bedroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie while sitting on a bed in a bedroom decorated with artwork and personal items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a bedroom, wearing a black top and leopard-print skirt while seated on a bed."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a box of hot chocolate bombs with marshmallows, set against a car interior backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a box of hot chocolate bombs with marshmallows in a car, alongside a plush purple blanket and a packaged purchase."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a package of [ORGANIZATION] in front of car controls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a box of '[ORGANIZATION] with marshmallows' inside a car, resting on a purple fluffy blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person holds a box of [ORGANIZATION] and a package of purple polyester fabric while sitting inside a car."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person lying down with plush toys, wearing a sports jersey."
+        },
+        "gpt-5.4": {
+          "summary": "A cozy indoor bed scene shows a partially visible person in a white sports-style shirt with several plush toys, including blue and pink Stitch characters, propped against curtains."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a '[LOCATION]' jersey lies down next to plush toys in front of curtains."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a white sports jersey lies down next to two plush toys against a curtain backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a white and [LOCATION] lies on a bed next to two plush toys, one of which is Stitch."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a mirror while wearing a tie-dye dress in a softly lit room."
+        },
+        "gpt-5.4": {
+          "summary": "Black-and-white mirror selfie in a bedroom, showing a person in a sleeveless dress holding a smartphone with an [ORGANIZATION] story editing interface visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in black-and-white attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white mirror selfie of a person in a dress holding a phone, taken indoors near a window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white mirror selfie of a person in a halter dress holding a smartphone, captured within a social media story interface."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person lying on a bed wearing a sports jersey and giving a thumbs-up gesture."
+        },
+        "gpt-5.4": {
+          "summary": "A person is lying on a bed in a softly lit bedroom, wearing a white and [ORGANIZATION] beside several plush toys."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a '[ORGANIZATION] jersey lies in bed surrounded by plush toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a white sports jersey lies on a bed surrounded by stuffed animals and points toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person lies on a bed wearing a white soccer jersey with '[ORGANIZATION]' and 'JUNIOR' branding, surrounded by plush toys."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses for a selfie in festive attire in front of a mirror, with a cozy living room setting in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows two people indoors wearing matching holiday pajamas with reindeer prints in a bright living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie through an ornate window in their home."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple in matching holiday-themed pajamas takes a selfie reflected in a multi-panel mirror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A couple wearing matching reindeer-themed pajamas takes a mirror selfie in a living room with a small white dog nearby."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, eye-level shot shows a tabby and white"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a cat wearing a green scarf with a festive design, looking directly at the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a curious tabby-and-white cat on a glass table wearing a green holiday bandana with a [LOCATION] graphic."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a cat wearing a festive green bandana."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby-and-white cat wearing a green [LOCATION]-themed bandana looks directly at the camera from behind a glass surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a tabby and white cat wearing a green Christmas-themed bandana, looking directly at the camera through a glass surface."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people is gathered outdoors at night, engaged in decorating small lanterns with candles."
+        },
+        "gpt-5.4": {
+          "summary": "A small group sits on the ground in a residential outdoor corridor at night, arranging and lighting small lantern-like houses and candles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals are lighting candles in small lanterns outdoors during nighttime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people are sitting on the ground at night arranging lit candles inside small house-shaped lanterns."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people sit on a paved outdoor walkway at night, arranging and lighting small wooden candle lanterns."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are sitting on the ground surrounded by colorful lanterns and candles during the night."
+        },
+        "gpt-5.4": {
+          "summary": "Three people sit on a patio at night lighting candles and small colorful lanterns, with a church-like building and flowering tree in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals sit outdoors by a gate in front of lit lanterns during nighttime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people sit on the ground at night arranging lit candles and lanterns in a circle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three people sit on a patio at night arranging colorful paper lanterns and lighting candles in front of a white building."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a camera displaying a photo of two individuals posing together at a vibrant event with purple lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a digital camera showing a selfie of two people at a dimly lit event with purple stage lights in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a camera displaying two individuals taking a selfie in front of colorful stage lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a camera displaying a selfie of two smiling women at a purple-lit event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a digital camera displaying a selfie of two smiling women against a backdrop of blurred purple stage lights."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are holding printed photos of themselves at a festive outdoor event with colorful decorations and stalls."
+        },
+        "gpt-5.4": {
+          "summary": "Two hands hold printed souvenir photos in front of an outdoor market aisle with vendor booths, people, string lights, and colorful pennant flags at dusk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive event scene featuring photo booth prints being held in front of a decorated venue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two hands hold up festive photo prints at an outdoor market with vendor stalls and colorful banners."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of hands holding two printed photo strips featuring two women in sashes at an outdoor market or fair with vendor booths and festive flags."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a cozy indoor setting where two people are engaged in painting, with a focus on a hand holding a painted canvas of flowers."
+        },
+        "gpt-5.4": {
+          "summary": "People are painting small canvases at a patio table with snacks and a board game, in a cozy outdoor area decorated with flowers and a lit white Christmas tree."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are engaged in an art session outdoors under string lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds up a painted canvas of daisies under a blue sky while others paint at a glass table decorated with snacks and flowers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a painting of daisies while two people paint at a glass table on a patio decorated with flowers and a Christmas tree."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person wearing a black sports jersey with blue and green accents, showing their lips and part of their neck."
+        },
+        "gpt-5.4": {
+          "summary": "A tilted indoor close-up selfie shows part of a person wearing a black sports jersey with light blue stripes, a shield crest, and a thin necklace."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black hoodie with blue graphics and stripes, lying down indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a black sports jacket with blue and teal graphics lies on their side, showing off the outfit and lips."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing a black and teal Junior [LOCATION] soccer [PERSON] with an [PERSON] logo, lying on a patterned surface."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A golden retriever dog lies on a colorful game mat with emoji-like faces, looking up at the camera, in an indoor setting with a decorated Christmas tree and a person's bare feet visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A golden retriever is lying on a colorful Twister mat in a cozy indoor setting decorated for the holidays."
+        },
+        "gpt-5.4": {
+          "summary": "A golden retriever lies on a colorful Twister-style mat indoors beside a lit Christmas tree and holiday decorations."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A golden retriever rests its paw on a colorful emoji-themed mat in front of a decorated Christmas tree."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever lies on a colorful emoji-patterned mat indoors, with a decorated Christmas tree visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever lies on a colorful emoji-themed floor mat in a tiled room with a Christmas tree in the background."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of beauty products displayed on a soft surface, alongside a decorative gift box."
+        },
+        "gpt-5.4": {
+          "summary": "Several belah Beauty makeup products are arranged on a soft pink blanket beside a festive holiday-themed gift box."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive display of [ORGANIZATION] products in a holiday-themed box."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four Belah Beauty cosmetic products and a Christmas-themed gift box are arranged on a fluffy pink surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of Belah Beauty makeup products and a festive gift box are arranged on a fluffy pink surface."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young girl smiles while posing in"
+        },
+        "gpt-4o-mini": {
+          "summary": "A young girl poses in front of a brightly lit Christmas tree adorned with red flowers at night."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses at night in a plaza in front of a giant illuminated holiday tree decorated with large red flower-shaped ornaments, with other visitors nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A child stands in front of a large illuminated Christmas tree decorated with red flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A child poses smiling in front of a large, illuminated Christmas tree decorated with red flowers at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young girl in a purple graphic sweatshirt poses smiling in front of a large, illuminated Christmas tree decorated with red flowers at night."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scene from a movie featuring two animated characters in a fantastical setting with a moonlit background."
+        },
+        "gpt-5.4": {
+          "summary": "A TV screen displays a nighttime [ORGANIZATION]fantasy scene with two blue humanoid alien characters by the water under a large moon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cinematic scene from 'Avatar' projected in a dark theater."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two Na'vi characters are shown in a cinematic scene under a large moon, with one holding a drum-like object."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A photo taken in a dark theater shows a scene from the movie Avatar featuring two blue-skinned Na'vi characters on screen."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a black outfit in a dimly lit room with red lighting."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a dimly lit bedroom, showing a person in a dark outfit holding a pink phone with warm red ambient lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bedroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a dimly lit room with red ambient lighting, wearing a black outfit."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a black outfit takes a mirror selfie in a dimly lit room with red ambient lighting."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is taking a selfie together in a dimly lit setting, with a stone wall in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up flash selfie shows two people sitting closely with eyes closed beside a stone-pattern wall, with a leopard-print blanket in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie together in an outdoor nighttime setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people are resting with closed eyes on a bench against a stone wall at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman are sitting closely together on a bench at night, both with their eyes closed in a relaxed pose against a stone-tiled wall."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black cat with wide"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat with wide eyes is illuminated by colorful light, sitting near a microphone."
+        },
+        "gpt-5.4": {
+          "summary": "A wide-eyed cat wearing a collar sits indoors under dramatic red light, creating a moody close-up scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat wearing a red light-up collar sits in front of a microphone under colored lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat with wide eyes sits illuminated by red light in front of a microphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat with wide eyes sits behind a microphone in a dimly lit room illuminated by red ambient light."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person relaxing on a couch while watching a movie on a television."
+        },
+        "gpt-5.4": {
+          "summary": "A relaxed indoor living-room scene shows someone reclining in red-and-black patterned leggings while a TV plays on the wall beneath an air conditioner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing red plaid pajama pants sits in a living room watching TV."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view of someone wearing red-and-black checkered pants while watching TV in a living room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of someone relaxing on a sofa in red and black checkered pants while watching an animated show on a wall-mounted TV."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of two people sitting at a table in a restaurant, with a focus on their hands and part of their faces."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie of two people seated at a restaurant table under decorative stone arches and warm indoor lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are seated together in a cozy café-like environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile at the camera while seated at a wooden table in a warmly lit restaurant with stone arches."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man and woman pose for a selfie at a wooden table inside a restaurant with white stone arches. The woman holds a menu while the man rests his chin on his hands."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A selfie taken inside a car shows a man smiling and a woman making a kissy face, both looking towards the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A selfie of two individuals in a car, with one wearing a blue checkered top and the other in a black shirt with '[ORGANIZATION] printed on it."
+        },
+        "gpt-5.4": {
+          "summary": "A casual selfie of two people sitting in the back seat of a car, with one making a playful pout and the other smiling at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie in the backseat of a car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people taking a selfie inside a car, with one making a playful face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A selfie of a man and woman sitting in the front seats of a car, with the man wearing a black t-shirt featuring white text."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young man with a mullet haircut sits in a room decorated with balloons and streamers, holding a [PERSON] action figure."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting on a red couch in a decorated room with balloons, holding a small figure."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits indoors in a room decorated with red, white, and blue balloons, holding a small black figurine or toy near a shelf."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person sitting indoors surrounded by balloons in a celebratory room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits indoors at a decorated party, holding an object while looking down."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man sits in a room decorated with blue and white balloons, holding a small black figurine while looking down."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are taking a selfie while wearing sports jerseys in a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows two smiling people wearing red-and-white Junior football jerseys at a table near a window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals wearing sports jerseys pose together in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people in soccer jerseys smile closely together for a selfie indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose closely together in a selfie, both wearing red and white Junior [LOCATION] soccer jerseys inside what appears to be a restaurant."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman with long dark hair and a bright smile poses next to a decorated Christmas tree indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long hair poses in front of a decorated Christmas tree in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a white outfit poses beside a decorated Christmas tree in a cozy home interior."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person posing in front of a decorated Christmas tree."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while posing beside a decorated Christmas tree in a warmly lit indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman with long dark hair poses in a white top next to a decorated Christmas tree inside a home."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long dark hair and a white top smiles brightly while posing next to a decorated Christmas tree indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses beside a decorated Christmas tree in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a white dress poses indoors beside a decorated Christmas tree with lights and ornaments."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in front of a decorated Christmas tree indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long dark hair smiles over their shoulder beside a decorated Christmas tree indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman with long dark hair poses in a white dress next to a decorated Christmas tree inside a home."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long hair poses beside a decorated Christmas tree in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses with puckered lips beside a decorated, lit Christmas tree inside a home."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in front of a decorated Christmas tree indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses playfully beside a decorated Christmas tree indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair poses in profile making a kissing face next to a decorated Christmas tree inside a home."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person with long hair wearing a floral top, taken from a slightly tilted angle."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a social media preview showing a close-up smiling selfie of a person reclining on a black chair over a stone-tile surface, with Spanish app controls overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A selfie of a person wearing a floral top in an outdoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A selfie of a person smiling while lying on a chair, viewed through a social media post preview interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media story preview showing a smiling woman with dark hair in a floral top, taken from an overhead angle on a tiled floor."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses in front of a pink wall decorated with heart patterns."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person poses in front of a pink wall covered with hand-drawn heart shapes, wearing a black top and white pants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in front of a pink wall adorned with hearts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person laughs joyfully in front of a pink wall decorated with heart patterns."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman with long dark hair poses playfully in front of a pink wall decorated with painted hearts."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long dark hair takes a mirror selfie in a pink-themed salon, showing off their new layered haircut and a pink phone case."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a stylish salon with pink decor and various salon equipment in the background."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a pink hair salon, showing freshly styled long dark hair with salon chairs and beauty equipment in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in what appears to be a hair salon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a pink-themed salon with styling chairs and a unicorn statue visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair takes a mirror selfie in a pink-themed salon, holding a pink phone case."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie while getting a haircut in a pink-themed salon, with a stylist working on their hair and another person visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is getting their hair styled in a salon with a pink interior."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie of a person getting a haircut in a pink-themed salon while a hairstylist trims their wet hair."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a mirror selfie while getting their hair cut in a salon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie while getting their hair cut in a pink-themed salon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a pink-themed salon while a stylist cuts their wet hair."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat is resting on a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is sleeping on a colorful blanket, with a white cat resting in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two cats relax on a bed indoors, with a black-and-white cat in the foreground on a fluffy purple blanket and a white cat behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cats are resting together under a fluffy blanket in an indoor home environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sleeps peacefully on a fluffy purple blanket, with another white cat resting nearby on a colorful rug."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat sleeps on a fluffy purple blanket with another white cat resting behind it in a bedroom setting."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a TV displaying content related to the movie '[ORGANIZATION] a la Moda' in a cozy room setting with colorful lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit bedroom or workspace with red ambient lighting shows a TV playing the series \"El Diablo Viste a la Moda,\" beside a shelf of beauty products and a desk setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dimly lit room featuring a TV displaying '[ORGANIZATION] A La Moda' movie poster."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit room with a rainbow light projection, featuring a TV displaying the movie '[ORGANIZATION] a la Moda' and a desk with personal items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit room with red ambient lighting features a TV displaying the movie '[ORGANIZATION] a la Moda' (The Devil Wears Prada) on a streaming interface, alongside a desk and shelving unit holding beauty products and decor."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A tabby and white cat is sleeping peacefully on a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat is resting on a colorful blanket in a cozy indoor setting with a TV showing a scene from a movie in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A tabby-and-white cat rests on a pink patterned bedspread in a cozy bedroom with a TV on and an air conditioner above it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat sleeps peacefully under a blanket in front of an air conditioner."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby cat sleeps peacefully on a patterned blanket in front of a TV displaying a scene."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tabby and white cat rests with closed eyes on a pink floral blanket in a bedroom, while a television plays in the background."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a car, with their face obscured."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie is shown inside a car with a social media story-editing interface overlaid on the screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie in the backseat of a car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long dark hair smiles while sitting in a car, captured via a social media editing interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman with long dark hair and makeup sits in the driver's seat of a car, captured within a social media story interface."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two plush toys are being held in a car, with a blurred background showing a building."
+        },
+        "gpt-5.4": {
+          "summary": "Two small kawaii plush keychains are being held inside a car, with a storefront sign visible through the window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two plush toys resembling bear faces are held in a car seat against an outdoor backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two hands hold cute plush keychains inside a car, with a building named '[ORGANIZATION] visible through the window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person inside a car holds two small, round plush keychains resembling desserts while a building with the sign '[ORGANIZATION] is visible through the window."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A ginger cat is lying on its back on a white sheet, illuminated by a strong red light, appearing very relaxed or asleep."
+        },
+        "gpt-4o-mini": {
+          "summary": "A relaxed orange cat is lying on its back on a bed, illuminated by red light."
+        },
+        "gpt-5.4": {
+          "summary": "A cat wearing a collar lies on its back on a bed in a warmly lit bedroom with strong red/orange lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a pink furry costume lounging on a bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cat lies on its back on a bed under warm red lighting, appearing relaxed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An orange tabby cat wearing a collar lies on its back in a relaxed pose on a bed under warm, reddish lighting."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a small dog with a curious expression, wearing a harness and bandana."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a small bearded dog wearing a red collar and blue harness while resting indoors on a bed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small dog wearing a harness looks directly into the camera."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a small, fluffy dog wearing a red collar and blue harness, looking directly at the camera indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a small, tan terrier-mix dog wearing a red collar and blue harness, looking directly at the camera from a bed."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat and a light-colored dog with a blue harness are sitting on a wooden bench, both with their tongues slightly out, looking at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat and a dog are playfully posing together, both licking their lips."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat and a small light-colored dog sit together on a wooden bench, both caught licking their noses."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two pets, a cat and dog, are sitting together indoors in front of cushions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat and a fluffy dog both stick out their tongues while sitting side-by-side on a wooden bench."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat and a small fluffy dog sit side-by-side on a wooden bench, both licking their noses in a playful pose."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two"
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant party scene featuring people in colorful shirts, posing and enjoying the atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose in matching colorful shirts at a neon-lit indoor party with streamers, a crowd, and stage lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in a vibrant party scene adorned with colorful decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women in brightly colored, patterned outfits pose cheerfully at a neon-lit party with hanging decorations and crowd behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young people wearing matching colorful tie-dye shirts pose and dance in a neon-lit indoor party venue decorated with streamers."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A smiling young man poses for a selfie with a person partially obscured, both wearing colorful patterned shirts in a festive setting."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of two smiling people in colorful matching shirts and caps at a festive indoor party setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie in front of colorful decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie at a colorful, festively decorated venue."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of two smiling people wearing colorful, patterned shirts and hats under festive lighting."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing for a selfie at night, wearing matching bright pink shirts."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime outdoor selfie shows two friends in bright pink shirts posing together near parked cars and palm leaves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a nighttime outdoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women pose playfully for a nighttime selfie outdoors near palm fronds and parked cars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two young women wearing matching pink graphic t-shirts pose for a selfie at night, with one smiling and the other making a kissy face while wearing yellow-tinted sunglasses."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are posing together outdoors at night, all wearing matching bright pink shirts."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime outdoor selfie shows three people smiling in matching neon pink graphic T-shirts, with trees and parked cars in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals pose together in a nighttime outdoor setting wearing matching pink shirts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people in matching pink shirts smile for a nighttime selfie outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three smiling young adults pose for a selfie at night, all wearing matching bright pink graphic t-shirts."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together at a lively outdoor event, both wearing bright pink shirts and enjoying drinks."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in matching bright pink graphic shirts pose outside an [ORGANIZATION] storefront at night in a crowded party-like street scene, with one raising a peace sign and the other holding a drink."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose outside a venue named '[ORGANIZATION] in an evening setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose cheerfully outside a venue named '[ORGANIZATION] at night, wearing matching colorful shirts and holding drinks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple wearing matching pink graphic t-shirts poses for a photo at night outside a venue with a '[ORGANIZATION] sign."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals pose in vibrant matching outfits at a festive location decorated with colorful elements."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose with drinks in matching neon pink shirts at a colorful carnival-themed indoor event backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of a [ORGANIZATION]-themed backdrop wearing matching shirts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women in matching pink 'Junior' branded shirts pose cheerfully at a colorful [ORGANIZATION]-themed venue."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two smiling women wearing matching pink graphic t-shirts pose for a photo at a festive venue decorated with colorful flags and a '[PERSON]' mural."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person wearing black-framed glasses and red lipstick, smiling slightly, with a window and curtain visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a partially obscured face with glasses, set against a window with natural light."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up low-angle selfie of a person wearing black-framed glasses indoors near a bright window, with a slight smile."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up selfie of a person wearing glasses against natural light from outside."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person wearing black-framed glasses and smiling, taken indoors near a window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling person with dark hair and large black-rimmed glasses, taken indoors near a window."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white tuxedo cat with yellow eyes lies relaxed on a floral patterned bedspread, looking directly at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is lounging on a colorful bedspread in a cozy room."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat is lounging on a patterned bed in a cozy bedroom with framed wall art and pink curtains."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat lounges comfortably in a cozy bedroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat lies relaxed on a floral bedspread in a cozy room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white tuxedo cat with prominent white paws lies on a floral quilt in a bedroom setting."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "An orange cat is resting on a pair of white sneakers in a sunlit room."
+        },
+        "gpt-5.4": {
+          "summary": "An orange cat sits in warm sunlight on a tiled floor beside a pair of white [ORGANIZATION] sneakers under a dark wooden bench."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ginger cat rests between two white sneakers under a wooden chair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An orange cat sleeps peacefully beside a pair of white [ORGANIZATION] sneakers on a tiled floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An orange tabby cat rests its head on a pair of white [ORGANIZATION] sneakers on a tiled floor near a wooden stand."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two young women are smiling and laughing while interacting in front of a vibrant pink background."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are engaged in conversation against a vibrant pink background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people dressed up are laughing together in front of a bright pink-lit backdrop at an indoor event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two women are laughing together in front of a vibrant pink background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women laugh together against a vibrant pink background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two women are laughing and interacting in front of a vibrant pink background, with one wearing a red and white top and the other in a floral dress and glasses."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two beautifully arranged flower bouquets with red roses and sunflowers, set against a patterned background."
+        },
+        "gpt-5.4": {
+          "summary": "Two decorative flower bouquets with sunflowers, red roses, and [ORGANIZATION] are arranged on a bed, with a gift box in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bouquet of sunflowers and red roses wrapped in gold paper sits atop a tablecloth."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two floral bouquets featuring sunflowers, red roses, and [ORGANIZATION] wrapped in gold paper rest on a patterned surface next to a chocolate box."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of two floral bouquets featuring sunflowers and red roses wrapped in gold paper, resting on a patterned surface next to a [PERSON] chocolate box."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat sits inside a blue inflatable pool, with a smiling person visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat sits on a blue inflatable surface in a backyard setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat sits inside a blue inflatable pool or tub in front of a tiled wall and window, with a person blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat sits in a blue inflatable pool while someone watches from behind."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sits calmly inside a blue inflatable pool with a person smiling in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat sits inside a blue inflatable pool on a patio while a woman watches from the background."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person with long dark hair, natural makeup, and multiple ear"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up selfie of a young woman with long hair, wearing earrings and a subtle makeup look."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a smiling person with styled makeup, dark hair, and multiple earrings while reclining on a dark seat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up selfie of a person wearing gold hoop earrings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up selfie of a person with dark hair and gold hoop earrings, smiling while seated on a dark couch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark hair and gold jewelry resting on a black leather surface."
+        }
+      }
     }
   }
 }

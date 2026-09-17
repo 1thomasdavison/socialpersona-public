@@ -1,6 +1,6 @@
 {
   "user_id": "participant_030",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
@@ -8,23 +8,34 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "spectator sports",
+          "label": "football",
           "evidence_post_indices": [
-            2
+            52,
+            84
           ],
           "evidence_post_ids": [
-            "participant_030_phase_3"
+            "participant_030_post_0053",
+            "participant_030_post_0085"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "sports outdoor interests",
+          "label": "manchester city fc",
           "evidence_post_indices": [
-            2
+            52
           ],
           "evidence_post_ids": [
-            "participant_030_phase_3"
+            "participant_030_post_0053"
+          ]
+        },
+        {
+          "label": "michael carrick",
+          "evidence_post_indices": [
+            84
+          ],
+          "evidence_post_ids": [
+            "participant_030_post_0085"
           ]
         }
       ]
@@ -34,42 +45,63 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "jujutsu kaisen",
           "evidence_post_indices": [
-            2
+            54,
+            55,
+            75,
+            83
           ],
           "evidence_post_ids": [
-            "participant_030_phase_3"
+            "participant_030_post_0055",
+            "participant_030_post_0056",
+            "participant_030_post_0076",
+            "participant_030_post_0084"
           ]
         },
         {
-          "label": "film and television",
+          "label": "anime",
           "evidence_post_indices": [
-            2
+            54,
+            55,
+            75,
+            83
           ],
           "evidence_post_ids": [
-            "participant_030_phase_3"
+            "participant_030_post_0055",
+            "participant_030_post_0056",
+            "participant_030_post_0076",
+            "participant_030_post_0084"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "aoi todo",
           "evidence_post_indices": [
-            2
+            83
           ],
           "evidence_post_ids": [
-            "participant_030_phase_3"
+            "participant_030_post_0084"
           ]
         },
         {
-          "label": "music",
+          "label": "one punch man",
           "evidence_post_indices": [
-            1
+            75
           ],
           "evidence_post_ids": [
-            "participant_030_phase_2"
+            "participant_030_post_0076"
+          ]
+        },
+        {
+          "label": "music appreciation",
+          "evidence_post_indices": [
+            98
+          ],
+          "evidence_post_ids": [
+            "participant_030_post_0099"
           ]
         }
       ]
@@ -87,45 +119,67 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "cooking",
+          "label": "fasting",
           "evidence_post_indices": [
-            0
+            130,
+            151
           ],
           "evidence_post_ids": [
-            "participant_030_phase_1"
+            "participant_030_post_0131",
+            "participant_030_post_0152"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "home cooking",
           "evidence_post_indices": [
-            0,
-            1,
-            3
+            145,
+            146,
+            152
           ],
           "evidence_post_ids": [
-            "participant_030_phase_1",
-            "participant_030_phase_2",
-            "participant_030_phase_4"
+            "participant_030_post_0146",
+            "participant_030_post_0147",
+            "participant_030_post_0153"
+          ]
+        },
+        {
+          "label": "dietary habit",
+          "evidence_post_indices": [
+            26,
+            130
+          ],
+          "evidence_post_ids": [
+            "participant_030_post_0027",
+            "participant_030_post_0131"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "dining",
+          "label": "iftar",
           "evidence_post_indices": [
-            0
+            145
           ],
           "evidence_post_ids": [
-            "participant_030_phase_1"
+            "participant_030_post_0146"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "sahur",
           "evidence_post_indices": [
-            0
+            152
           ],
           "evidence_post_ids": [
-            "participant_030_phase_1"
+            "participant_030_post_0153"
+          ]
+        },
+        {
+          "label": "ramadan meal",
+          "evidence_post_indices": [
+            145
+          ],
+          "evidence_post_ids": [
+            "participant_030_post_0146"
           ]
         }
       ]
@@ -143,25 +197,25 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "photography creation interests",
+          "label": "visual creation",
           "evidence_post_indices": [
-            1,
-            3
+            43,
+            139
           ],
           "evidence_post_ids": [
-            "participant_030_phase_2",
-            "participant_030_phase_4"
+            "participant_030_post_0044",
+            "participant_030_post_0140"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "photography",
+          "label": "photo editing",
           "evidence_post_indices": [
-            3
+            43
           ],
           "evidence_post_ids": [
-            "participant_030_phase_4"
+            "participant_030_post_0044"
           ]
         }
       ]

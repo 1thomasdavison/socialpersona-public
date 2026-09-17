@@ -1,63 +1,1151 @@
 {
   "user_id": "participant_073",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: outdoor activities."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A blue and black race car with the number 17 and 'Fastenal' branding is parked on a racetrack under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A blue-and-black #17 FASTENAL stock car sits on the track in front of grandstands at a speedway under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A blue race car numbered '7' prominently displayed in a stadium setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue and black [PERSON] race car with the number 17 parked on a track beside grandstands under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blue and black #17 Fastenal [ORGANIZATION] [LOCATION] race car is parked on a racetrack pit lane with empty grandstands in the background."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "crafts and design",
-        "music",
-        "outdoor activities",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: crafts and design; music; outdoor activities; photography; spectator sports."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white and teal [PERSON] race car, number 17, speeds along a race track with a blurred background of spectators and trees."
+        },
+        "gpt-4o-mini": {
+          "summary": "A racing car with the number 17 and the branding 'BUILDSUBMARINES.COM' is captured in motion on a racetrack."
+        },
+        "gpt-5.4": {
+          "summary": "A white and teal #17 [ORGANIZATION] stock car speeds along a racetrack with motion blur in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A race car speeds along a track under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white and teal [PERSON] race car with the number 17 speeds along a track, creating motion blur in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white and teal #17 [ORGANIZATION] race car speeds along a track with motion-blurred background scenery."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "outdoor activities",
-        "photography",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; outdoor activities; photography; spectator sports; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A blue [PERSON] car is racing ahead of a yellow car on a curved track."
+        },
+        "gpt-5.4": {
+          "summary": "Two stock cars race through a banked turn on a paved oval track, with a blue Fastenal car leading a yellow car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two race cars compete closely during a turn in an [PERSON] event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two [PERSON] race cars navigate a turn on an asphalt track, with a blue [PERSON] in the foreground and a yellow car behind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two [ORGANIZATION] stock cars, a blue #17 and a yellow #34, race closely together on a paved oval track."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "music",
-        "outdoor activities",
-        "photography",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: music; outdoor activities; photography; spectator sports; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [PERSON] race scene featuring multiple cars on a curved track, with a focus on a blue and white car numbered 17."
+        },
+        "gpt-5.4": {
+          "summary": "Several stock cars race through a steep banked turn, led by a blue-and-white [PERSON] with [ORGANIZATION] and [ORGANIZATION] branding visible on the track."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A blue [PERSON] race car leads a pack of [ORGANIZATION] competitors around a track."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue and white [PERSON] race car with number 17 leads a pack of [PERSON] vehicles around a curved track."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle action shot of a blue and white #17 [ORGANIZATION] [LOCATION] race car leading a pack of vehicles around a curved racetrack."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "music",
-        "nature visits",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; music; nature visits; photography; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A blue racing car with the number 17 and 'Fastenal' branding is speeding around a racetrack."
+        },
+        "gpt-5.4": {
+          "summary": "A blue-and-white number 17 FASTENAL stock car speeds along a racetrack with motion-blurred stands in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A race car speeds along a track under bright daylight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue and white [PERSON] race car with number 17 speeds along a track, blurred background indicating motion."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blue and white #17 Fastenal Ford race car speeds along a track with motion-blurred grandstands in the background."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "music",
-        "photography",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; music; photography; spectator sports; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A blue and black [PERSON] race car with the number 17 and Fastenal branding is seen on a racetrack."
+        },
+        "gpt-5.4": {
+          "summary": "A blue-and-black No. 17 Fastenal Ford [PERSON] race car is driving on a paved racetrack or pit lane."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A blue race car numbered '17' with [ORGANIZATION] branding speeds along a racetrack."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue and black [PERSON] race car with the number 17 speeds on a track."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blue and black No. 17 [ORGANIZATION] [LOCATION] race car sponsored by [ORGANIZATION] is driving on a racetrack."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A blue and black [PERSON] race car is speeding on a track, with another car visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two blue [ORGANIZATION] Mustang stock cars race on a paved track, with a Fastenal-branded car in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A blue race car labeled 'Fastenal' speeds along a racetrack."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue and black [PERSON] [PERSON] race car with 'FASTENAL' branding leads another car on a track under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle shot captures a blue and black [ORGANIZATION] [LOCATION] race car, number 17, driving on an asphalt track with another vehicle visible in the background."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white, pink, and black race car with the number 17 is shown on a race track."
+        },
+        "gpt-4o-mini": {
+          "summary": "A race car with a pink and white design featuring the number 17 and branding for [ORGANIZATION] is seen on a racetrack."
+        },
+        "gpt-5.4": {
+          "summary": "A white-and-pink stock race car with the number 17 and [ORGANIZATION] branding is driving on a racetrack."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [PERSON] race car in a pink livery speeds along an outdoor track."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink and white [PERSON] race car with the number 17 speeds along a track."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pink and white No. 17 [ORGANIZATION] race car sponsored by [ORGANIZATION] is captured in motion on a racetrack."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a Twitter profile for a fan hub dedicated to [PERSON], featuring a racing theme."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows the X profile page for 'Chris Buescher Fan Hub' with a racing-themed banner featuring the number 17 and a stock car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile page of Chris Buescher Fan Hub showing a racing car graphic in the background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A newly created Twitter profile for a [PERSON] fan hub, showing setup prompts and follower counts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the [PERSON] profile for 'Chris Buescher Fan Hub', featuring a racing car banner and setup prompts."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized graphic of a person crouching with spray paint cans, associated with the band [PERSON] album '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "Album-style artwork showing a person crouching and painting in a sparse indoor space, with prominent [LOCATION][PERSON]' branding."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover art of [LOCATION] '[PERSON]' featuring a person jumping off what appears to be an aircraft."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sepia-toned album cover of [LOCATION] '[PERSON]' showing a person crouching on a rooftop with industrial structures in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sepia-toned image of a [LOCATION] band member crouching on a rooftop with the '[PERSON]' album title and tracklist visible."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A racing car with the number 17 and branding for [PERSON] is speeding on a racetrack."
+        },
+        "gpt-5.4": {
+          "summary": "An overhead action shot shows a white, pink, and blue No. 17 [ORGANIZATION] stock car with [ORGANIZATION] branding racing on a paved track."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A race car numbered '17' speeds along a track."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white [PERSON] race car with number 17 and pink accents speeds along a track."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white and pink #17 [ORGANIZATION] [LOCATION] race car sponsored by [ORGANIZATION] speeds along a racetrack."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A yellow and black [ORGANIZATION] locomotive with its headlights on is seen from the front, moving on a gravel track under a clear blue sky with trees and railway infrastructure in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [ORGANIZATION] freight train is approaching a curve on the tracks with signal lights visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Front view of a [ORGANIZATION] freight locomotive numbered 730 on railroad tracks with headlights on near signal equipment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] locomotive numbered 730 is traveling along a railway track."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] freight train locomotive numbered 730 approaches on a track under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow [ORGANIZATION] locomotive, number 730, travels along a curved railway track with its headlights illuminated against a clear blue sky."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A blue and yellow [ORGANIZATION] train locomotive, numbered 3020, is seen moving on a gravel track with its headlights on, against a backdrop of trees and a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [ORGANIZATION] freight train is seen approaching on a curved track."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] freight locomotive numbered 3020 is photographed head-on while moving along curved railroad tracks outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] locomotive numbered 3020 pulling a freight train along tracks in an outdoor rural area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] freight train, locomotive number 3020, travels on tracks surrounded by trees and grass under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow and blue [ORGANIZATION] locomotive, numbered 3020, travels along a gravel track pulling freight cars under an overcast sky."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a bottle of [ORGANIZATION] motor oil on a store shelf."
+        },
+        "gpt-5.4": {
+          "summary": "A store shelf displays [ORGANIZATION] motor oil containers, centered on a black [ORGANIZATION] advanced full synthetic motor oil jug with a visible price tag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shelf displaying [ORGANIZATION] motor oil in a store."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black Castrol EDGE motor oil bottle sits on a store shelf with visible pricing and product details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a black [ORGANIZATION] motor oil bottle on a retail shelf, with price tags and other automotive products visible."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vacant parking lot with a graffiti-covered wall and a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "An empty cracked parking lot sits beside a graffiti-covered concrete wall, with a dumpster, trees, and a bright blue sky overhead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wide shot of an empty parking lot under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An empty cracked asphalt lot under a clear blue sky, bordered by a graffiti-covered wall and trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An empty, cracked asphalt parking lot under a clear blue sky, bordered by a long concrete wall covered in colorful graffiti and trees."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION] train engine, specifically CSXT1851, parked in [LOCATION], [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] listing for locomotive CSXT1851 in NC&StL heritage paint, with spotting details from [LOCATION], [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A train labeled CSXT1851 from NC&StL spotted in [LOCATION], OH."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a train spotting app showing a maroon and yellow locomotive CSXT1851 on tracks in [LOCATION], OH."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [ORGANIZATION] app displaying a train spotting report for CSXT1851, featuring a maroon and yellow locomotive spotted in [LOCATION], OH."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person spray painting on a floor, with a focus on the album '[PERSON]' by [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Stylized sepia album-cover artwork shows a person in a respirator crouching and spray-painting indoors, with large [LOCATION] and [PERSON] text plus a visible track list."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover of [LOCATION] '[PERSON]' featuring a person crouching in an industrial environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sepia-toned album cover for [LOCATION] '[PERSON]' showing a person in a gas mask spray-painting on a rooftop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Sepia-toned album cover featuring a person in a respirator mask crouching while spray-painting, with the band name and tracklist displayed prominently."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone screen showing the song 'My December' by [LOCATION] along with the date and time."
+        },
+        "gpt-5.4": {
+          "summary": "An [ORGANIZATION] lock screen screenshot shows [PERSON] “My December” playing with the Hybrid Theory album art displayed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [LOCATION] album cover displayed as a lock screen wallpaper."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone lock screen showing a music player interface with [PERSON] 'My December' playing, overlaid on the album art for 'Hybrid Theory'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone lock screen displays the [LOCATION] album 'Hybrid Theory' with the song 'My December' currently playing."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A race car with the number 17 is drifting on a track, creating smoke as it turns."
+        },
+        "gpt-5.4": {
+          "summary": "A white-and-green #17 stock car slides on a racetrack, throwing off a large cloud of tire smoke with grandstands in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A race car numbered '17' drifts around a turn during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white and green [PERSON] race car with number 17 performs a burnout on a track, kicking up smoke near spectator stands."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white and green #17 [ORGANIZATION] race car performs a burnout on a track, generating significant tire smoke in front of spectators."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A victorious race car driver celebrates on top of a car covered in confetti, surrounded by cheering team members."
+        },
+        "gpt-5.4": {
+          "summary": "A race driver stands beside a red stock car in a confetti-filled victory celebration while crew members cheer around the car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A racecar driver celebrates atop a car amidst confetti in front of cheering fans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A race car driver celebrates victory atop his confetti-covered race car, surrounded by cheering team members."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A race car driver stands triumphantly on the hood of a red No. 7 [ORGANIZATION]-sponsored race car, arms raised amidst falling confetti during a victory celebration surrounded by a cheering team."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up view of a camera displaying a train, with visible settings and a snowy background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand-held [ORGANIZATION] camera is shown outdoors, displaying a photo of a [ORGANIZATION] locomotive on its rear screen in a parking lot with patches of snow."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] [ORGANIZATION] camera displays a photo of an orange train in front of snow patches."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a [ORGANIZATION] camera displaying a photo of an approaching [ORGANIZATION] train on its screen, with snow patches visible on the pavement outside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a black [ORGANIZATION] [ORGANIZATION] digital camera displaying a photo of an orange [ORGANIZATION] train on its [ORGANIZATION] screen, set against a background of wet asphalt with patches of snow."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [ORGANIZATION] freight train is passing through a railroad crossing near residential buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] freight locomotive numbered [ADDRESS]-level railroad crossing in a residential urban area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] train passes through a residential area near railroad tracks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] locomotive numbered [ADDRESS]-level railroad crossing near residential houses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] freight train, led by locomotive number 6551, travels through a residential area at a railroad crossing with active warning signals."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [ORGANIZATION] freight train is seen approaching on the tracks."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] freight locomotive numbered 4710 is approaching on railroad tracks in a dark outdoor setting with trees in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] train engine numbered 4710 travels along a railway track in an overcast environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] freight train with locomotive number 4710 approaches on a track at dusk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] freight locomotive, number 4710, travels along a track with its headlights illuminated during low-light conditions."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A freight train is passing by a residential area on a cloudy day."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] freight locomotive with headlights on travels through a small town rail crossing on a dark, overcast day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A freight train passes through a suburban area under overcast skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A freight train with headlights on passes through a suburban area during dusk or dawn."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] freight train with illuminated headlights travels along tracks through a town during overcast weather, with bare trees and buildings in the background."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A train is passing through a railroad crossing with warning signals activated."
+        },
+        "gpt-5.4": {
+          "summary": "A freight train is passing quickly through a railroad crossing with flashing red signals and lowered gates in a town street setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A train passes a railroad crossing as traffic lights flash red."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] train passes through a railroad crossing with flashing red lights and lowered barriers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and yellow [ORGANIZATION] freight train is captured in motion crossing a street at a railroad crossing with active warning lights and gates."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two race trucks are shown closely competing at the finish line."
+        },
+        "gpt-5.4": {
+          "summary": "An overhead action shot shows two racing trucks side by side crossing a finish line on a racetrack."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two race cars compete closely during a high-speed [PERSON] event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two race trucks speeding side-by-side on a racetrack, captured with motion blur."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle, motion-blurred shot captures two [PERSON] trucks racing side-by-side on a track. The top truck is black and yellow with the number 7, while the bottom truck is blue and red with the number 92."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image captures the moon partially obscured by shadow against a dark night sky, revealing its textured surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a partially illuminated moon against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows the moon partially shadowed against a dark night sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a moon against a dark sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A partially eclipsed moon is visible against a dark sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a crescent moon set against a pitch-black night sky."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A victorious race car driver celebrates in a confetti-filled victory lane with a crowd of supporters."
+        },
+        "gpt-5.4": {
+          "summary": "A race car sits in [ORGANIZATION] while a driver on the podium celebrates with raised arms under a huge burst of confetti."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A racecar driver celebrates victory in [ORGANIZATION] under confetti."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A race car driver celebrates victory at [ORGANIZATION] with confetti falling around him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A race car driver celebrates a victory in Victory Lane with confetti falling around the number 21 [ORGANIZATION] [LOCATION]."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A race car with the number 21 crosses the finish line, celebrated by a cheering crowd in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A red, white, and blue No. 21 stock car moves along a racetrack wall with a checkered flag on top while spectators watch from the grandstands."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A race car numbered #21 celebrates victory in front of cheering spectators."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red, white, and blue race car with number 21 drives past spectators at a racetrack."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red and white [PERSON] race car, number 21, drives on a track with spectators watching from the stands behind a safety fence."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather map indicating wind probabilities across [LOCATION] for a specific date."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] weather forecast map shows severe wind probability areas, with the highest risk spanning parts of the lower [LOCATION], [LOCATION], and [LOCATION] regions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather map showing wind probabilities across parts of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing wind probability zones across the [LOCATION] with color-coded severity levels."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays wind probability zones across the central and [LOCATION] for [DATE]."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A racing car with a colorful design is speeding on a racetrack."
+        },
+        "gpt-5.4": {
+          "summary": "A white, purple, and orange No. 88 [ORGANIZATION] [ORGANIZATION] stock car is racing through a turn on a paved track."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] race car speeds along a racetrack."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white, orange, and blue [PERSON] race car with number 88 speeds along a track near red-and-white striped barriers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white, orange, and blue #88 [ORGANIZATION] race car sponsored by [PERSON] is driving on a paved track with red and white curbing."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant mural depicting fantasy elements, including a character and the text 'THE SECRET ILLIONES'."
+        },
+        "gpt-5.4": {
+          "summary": "A large outdoor graffiti mural with fantasy-style artwork and the title \"THE SECRET OF THE ILL ONES\" is painted on a concrete wall behind tall weeds under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Graffiti artwork featuring 'The Secret of Illones' against a cloudy sky backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graffiti-covered concrete wall with vibrant artwork, partially obscured by overgrown weeds under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A concrete retaining wall covered in colorful graffiti art, including stylized lettering and character illustrations, stands behind overgrown weeds next to a paved area."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [ORGANIZATION] freight train is seen passing by a graffiti-covered wall with [ORGANIZATION] in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] freight locomotive numbered 1827 passes on an elevated track above a graffiti-covered concrete wall under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] train passes by a graffiti-covered wall under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] freight train passes over an elevated track beside a graffiti-covered concrete wall under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blue and yellow [ORGANIZATION] freight train travels along an elevated track above a concrete wall covered in colorful graffiti under an overcast sky."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A train passes by a colorful graffiti-covered wall in an urban setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dark [ORGANIZATION] locomotive numbered 1827 sits on an elevated rail line above a long wall covered in colorful graffiti and cartoon-style street art."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] train passes over a graffiti-covered wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue [ORGANIZATION] train engine rests on an elevated track above a graffiti-covered concrete wall under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blue and yellow [ORGANIZATION] locomotive number 1827 sits on an elevated track above a concrete retaining wall covered in colorful graffiti featuring cartoon characters."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a camera displaying a photo of graffiti on a wall."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows the back of a [ORGANIZATION] DSC-H300 camera displaying a playback image of a train above a graffiti-covered wall outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a [ORGANIZATION] DSC-H300 camera displaying an image of graffiti art."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a [ORGANIZATION] camera's [ORGANIZATION] screen showing a photo taken at dawn with graffiti on a wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a [ORGANIZATION] [ORGANIZATION] digital camera displaying a photo of urban graffiti on the [ORGANIZATION] screen."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION] train engine NS4004 in a green outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] train-spotting entry for [ORGANIZATION] locomotive NS4004, with a photo of [LOCATION] to [ORGANIZATION] unit and details about its sighting in [LOCATION], [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A train spotted in [LOCATION], OH near [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A train spotting report showing NS4004 locomotive leading train NS 171 westbound through [LOCATION], OH."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displaying a train spotting report for [ORGANIZATION] locomotive NS4004, featuring a photo of the engine and detailed metadata including location, time, and route information."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a call for photo submissions of locomotives for YouTube thumbnails by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] Railfan social media post asking for locomotive photo submissions, with a thumbnail showing a [ORGANIZATION] train in [LOCATION] and a \"Watch Trains Live\" graphic."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A train in [LOCATION] being promoted by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A train locomotive is pictured at sunset with a call for photo submissions for a railfan channel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post from [ORGANIZATION] requesting real photos of locomotives for YouTube thumbnails and an annual calendar, featuring a blue [ORGANIZATION] train at sunset."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white locomotive with its headlights on is moving on a set of train tracks, with green trees and utility poles visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up view of a black and white freight train locomotive on a railway track."
+        },
+        "gpt-5.4": {
+          "summary": "A black freight locomotive numbered 8177 pulls railcars along a track beside trees in a daylight outdoor scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A freight train labeled '8177' travels along a railway track surrounded by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black and white locomotive numbered 8177 with a horse logo is on railway tracks surrounded by trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white [ORGANIZATION] freight locomotive, number 8177, travels along a track with its headlights on, pulling cargo cars through a green, tree-lined area."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white, blue, and green number 17 [PERSON] race car, sponsored by [ORGANIZATION], speeds around a track with motion blur, alongside another car."
+        },
+        "gpt-4o-mini": {
+          "summary": "A racing car with the number 17 and '[ORGANIZATION] branding is shown in motion on a racetrack."
+        },
+        "gpt-5.4": {
+          "summary": "A blue, green, and white number 17 stock car with [ORGANIZATION] branding races on a track, with part of another car visible beside it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A race car numbered #17 speeds along a racetrack under artificial lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue, green, and white [PERSON] race car with number 17 speeds along a track at night, closely followed by another car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-speed action shot of a white, blue, and green #17 [ORGANIZATION] [LOCATION] race car sponsored by [ORGANIZATION] racing on a track at night."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [PERSON] race car featuring a vibrant green and red design with '[PERSON] branding is captured in motion on the track."
+        },
+        "gpt-5.4": {
+          "summary": "A green, red, and white No. 17 Tree Top [ORGANIZATION] stock car drives on a racetrack beside a wall marked [LOCATION] OUT."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] race car numbered #17 sponsored by [PERSON] drives along a racetrack."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green [PERSON] race car with number 17 and 'Tree Top' branding speeds on a track at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A green and white #17 [ORGANIZATION] [LOCATION] race car sponsored by [PERSON] is driving on a racetrack at night with a [LOCATION] Out sign visible in the background."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [ORGANIZATION] car races on a track with a large American flag in the background during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A stock car drives along a racetrack wall beneath a large American flag at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A race car speeds past an American flag waving in a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A race car with sponsor decals drives on a track beneath a waving American flag at sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [PERSON] race car, number 19, drives on a track beneath a large American flag at sunset."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A freight train, featuring a yellow and blue locomotive, is seen passing through a green landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] freight train locomotive numbered 242 is rounding a track through dense green trees with container cars behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] locomotive numbered '242' travels through a lush green forested area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow [ORGANIZATION] locomotive numbered 242 pulls a freight train through a lush green forest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow and blue [ORGANIZATION] freight locomotive, numbered 242, travels along a track surrounded by dense green foliage while pulling shipping containers."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up side view of an orange and black [ORGANIZATION] freight train locomotive, numbered 6768, parked on a gravel track bed."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION] freight train locomotive in an outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close side view of an orange and black [ORGANIZATION] freight locomotive numbered 6768 on railroad tracks outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a [ORGANIZATION] locomotive numbered 6768."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up side view of an orange and black [ORGANIZATION] locomotive on railway tracks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A side view of an orange and black [ORGANIZATION] diesel locomotive, number 6768, resting on a gravel railway track."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view of a railway track alongside a grassy area and a building with a red exterior."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny outdoor view shows railroad tracks beside a red building with a wooden walkway, grass, and trees under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a train track from near a red building under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from a red building's porch overlooking train tracks under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a wooden train station platform looking out over tracks and green trees under a clear blue sky."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A race car crosses the finish line at a motorsport event, with a flagger signaling the end of the race."
+        },
+        "gpt-5.4": {
+          "summary": "A white No. 17 race truck crosses the finish line at a crowded speedway while a track official waves a checkered flag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A race car driver celebrates victory as a checkered flag waves in front of them."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A race car crosses the finish line at [LOCATION] as a person waves a checkered flag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A race car with the number 17 crosses the finish line at [LOCATION] during a playoff event, while a flagman waves a checkered flag from the trackside."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A victorious race car driver celebrates in Victory Lane at [LOCATION], holding a checkered flag with a cheering team and crowd."
+        },
+        "gpt-5.4": {
+          "summary": "A race car driver stands on the No. [ADDRESS] waving a checkered flag while the team celebrates at [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A race car driver celebrates victory in Victory Lane after a NASCAR Cup Series event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A race car driver celebrates victory in the checkered flag lane with his team, surrounded by spectators and branded banners."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A race car driver stands atop his number 17 [ORGANIZATION] Mustang in Victory Lane, waving a checkered flag while celebrating with his team."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A race car with the number 17 is drifting on a track, creating smoke as it turns."
+        },
+        "gpt-5.4": {
+          "summary": "A white and green number 17 stock car speeds around a racetrack while producing a large cloud of tire smoke, with grandstands in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A race car numbered '17' drifts around a track while emitting smoke."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white and teal race car with the number 17 performs a burnout on a track, kicking up smoke near bleachers with spectators."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white and green [ORGANIZATION] race car, number 17, performs a burnout on a racetrack with smoke billowing from the rear tires."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A racing car with the number 17, sponsored by 'Build Submarines', is seen drifting on a racetrack, creating smoke."
+        },
+        "gpt-5.4": {
+          "summary": "A black, white, and teal stock car with number 17 drifts on a racetrack, kicking up heavy tire smoke."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A race car drifts around a track during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A race car with number 17 drifts around a track, kicking up smoke."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white and teal #17 [ORGANIZATION] [LOCATION] race car sponsored by BuildSubmarines.com performs a burnout on a racetrack, generating significant tire smoke."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A sunny outdoor scene features a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a wooden deck beside a railway track with a clear blue sky and greenery in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A red building with a wooden platform sits beside a railroad track under a clear blue sky and trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view from a wooden platform overlooking train tracks under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden platform beside a red building overlooks a quiet railway track winding through trees under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a wooden platform of a red train station looking out onto empty tracks and green trees under a clear blue sky."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A racing car with a colorful design is speeding on a racetrack."
+        },
+        "gpt-5.4": {
+          "summary": "A white, blue, and green number 17 stock car with [ORGANIZATION] branding speeds along a racetrack."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] [LOCATION] race car speeds along a racetrack."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue, green, and white [PERSON] race car with number 17 speeds along a track."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white, blue, and green #17 [ORGANIZATION] [LOCATION] race car speeds along a racetrack with motion-blurred background."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [PERSON] race car with prominent branding is captured in motion on a racetrack."
+        },
+        "gpt-5.4": {
+          "summary": "A brightly sponsored No. 19 stock car races around an oval track in a dynamic panning shot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] race car speeds along a track under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A race car with number 19 speeds along a track, featuring sponsor logos like [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A number 19 [PERSON] race car sponsored by [ORGANIZATION] and Tracker Boats speeds along a racetrack with motion blur."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [ORGANIZATION] freight train locomotive is seen approaching on a railway track surrounded by trees."
+        },
+        "gpt-5.4": {
+          "summary": "A yellow-and-blue [ORGANIZATION] freight locomotive numbered 101 is traveling on a railroad track beside autumn trees, with shipping containers visible behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] locomotive number 101 traveling along a railway track surrounded by autumn foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] freight train with locomotive number 101 travels on tracks through a wooded area in autumn."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blue and yellow [ORGANIZATION] locomotive, number 101, travels along a railway track through a wooded area with autumn foliage."
+        }
+      }
     }
   }
 }

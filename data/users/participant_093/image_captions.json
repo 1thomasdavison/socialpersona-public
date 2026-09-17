@@ -1,65 +1,1481 @@
 {
   "user_id": "participant_093",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "dining",
-        "photography",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: dining; photography; walking and hiking."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a stylish outfit interacts with another individual, possibly during an event or performance."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in a shiny dark leather jacket stands on stage with a smiling fan, both looking at and holding a small item together."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a shiny jacket interacts closely with another individual holding an object."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a shiny jacket assists another person with sunglasses at what appears to be a public event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a shiny metallic jacket and pleated skirt stands on stage interacting with a fan who is holding up sunglasses."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "dining",
-        "photography",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; dining; photography; walking and hiking."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young man with dark hair, wearing a light-colored quarter-zip sweater over a blue"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated at a table with several small photos laid out in front of them, appearing to engage in an activity involving the photos."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person sits at a red-covered table, arranging small photo cards and playing cards with a marker nearby in an indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person smiles while playing a card game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while arranging small photo cards on a red table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with dark hair sits at a red table, sorting through small photo cards while holding a marker."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "baking and desserts",
-        "dining",
-        "photography",
-        "reading",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dining; photography; reading; walking and hiking."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a light-colored hoodie is engaged in conversation with another individual at a table covered with a red cloth."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person sits at a red-covered table facing another person, with a marker nearby in an indoor event setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a light gray sweater smiles while interacting across a table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling person in a light jacket sits at a red table, engaged in conversation with another person whose back is to the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man with dark hair wearing a grey zip-up sweater sits at a red table interacting with another person, with a marker pen visible on the surface."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "board and card games",
-        "dining",
-        "photography",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; board and card games; dining; photography; walking and hiking."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four individuals is posing on stage in front of a large screen displaying a person's image, likely during an event."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor stage event shows three people posing in front of a large blue-lit portrait backdrop while an audience watches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are performing in front of a large screen displaying an individual's face during what appears to be a fan meeting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person waves to fans at a stage event, with a large screen behind showing their portrait and Chinese text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man stands on a stage waving to an audience during an event, with a large screen behind him displaying his portrait and Chinese text."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "dining",
-        "photography",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; dining; photography; walking and hiking."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person giving a thumbs-up gesture while wearing a light sweater, with a signature visible at the bottom."
+        },
+        "gpt-5.4": {
+          "summary": "A sleeved instant-photo style portrait card shows a person in a light top giving two thumbs up, with an autograph-like scribble at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] photo of a person giving thumbs-up gestures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION]-style photo of a person giving two thumbs up, sealed in plastic with a signature below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A signed [ORGANIZATION] photograph of a man in a light sweater giving two thumbs up, encased in protective plastic."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "photography",
-        "visual art",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; photography; visual art; walking and hiking."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a moving walkway in an airport, facing away from the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A traveler with a backpack stands on a moving walkway inside a modern airport terminal with gate signs and seating areas ahead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a puffer jacket walks along an airport escalator."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a puffer jacket and backpack stands on a moving walkway inside a modern airport terminal."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a beige puffer jacket and blue backpack stands on a moving walkway inside a modern, spacious airport terminal with high ceilings and rows of shops."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two individuals wearing sunglasses and stylish dark clothing pose back-to-back with"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals posing back-to-back, with one wearing a shiny black jacket and the other in a denim jacket."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in sunglasses pose back-to-back in stylish dark outfits against a large abstract projected backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals wearing sunglasses stand back-to-back in a stylized pose against an abstract background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two individuals in sunglasses stand back-to-back on a stage with colorful abstract lighting behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two individuals wearing sunglasses and stylish jackets pose back-to-back on a stage with a colorful backdrop."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a photo of another individual who is holding their hand up in a gesture, possibly in a social or event setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a pinstripe blazer and glasses greets someone with a hand touch while being filmed on a phone indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are interacting in a public space; one appears to be taking photos while smiling."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a pinstripe suit smiles while clapping hands with another person holding up a phone to take a photo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a pinstripe suit and glasses is interacting with a fan who is taking a photo, while they perform a traditional Thai greeting gesture."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a phone screen showing the time and a promotional message about traveling to [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone lock screen shows the date and time with an [ORGANIZATION] notification promoting flights to [LOCATION] from RM89."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Advertisement promoting [ORGANIZATION] flight deals from [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone lock screen showing a notification from [ORGANIZATION] promoting flights to [LOCATION] with festive imagery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone lock screen displays a large digital clock and an [ORGANIZATION] travel advertisement notification for flights to [LOCATION]."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing together in stylish outfits at an event, with a warm, dimly lit background."
+        },
+        "gpt-5.4": {
+          "summary": "A social media post shows two stylishly dressed people posing indoors at a fashion event with dark, warm lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are posing together in a fashion event backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in stylish outfits pose together at an AMIRI fashion show event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men in high-fashion attire pose together at the AMIRI runway show during Paris Fashion Week."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Malaysian passport, a boarding pass, and a blue letter 'B' keychain on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A Malaysian passport and a flight boarding pass to [LOCATION] are placed on a blue bag with a large blue letter charm."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [LOCATION] passport resting atop a boarding pass from [LOCATION] to [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Malaysian passport with a blue 'B' charm rests on a boarding pass for a flight from [LOCATION] to [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red Malaysian passport and a boarding pass for a flight from [LOCATION] to [LOCATION] are displayed on a blue bag with a decorative keychain."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a bottle of pH Plus water on a table in a hotel lobby with a reception area in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bottled drink sits on a table in a hotel-style lobby, with a reception desk and queue barriers in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bottle of pH Plus water sits in a modern hotel lobby."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue-capped bottled water labeled 'pH PLUS' sits on a counter in a modern hotel lobby with a reception desk and guest in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bottle of pH Plus water sits on a table in the foreground with a blurred hotel lobby reception area visible in the background."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a group of people at an event, with one person holding a circular object while others applaud."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a brown jacket stands at an indoor gathering while people record with smartphones and another person claps nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a brown jacket interacts playfully near colorful decorations while others watch."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a brown jacket gestures while being filmed by multiple phones, with another person clapping nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a brown jacket stands on a stage holding a large prop while another man claps nearby, with audience members filming the event on smartphones."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a drink while wearing a red bandana in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a smiling person in a dark outfit with a red bandana in a dimly lit nightlife or party setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a red scarf in dimly lit surroundings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a dark setting wearing a red bandana and holding a drink, with a watermark '[ACCOUNT]' visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a dark, low-light setting wears a red bandana and a dark jacket while smiling slightly."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a [LOCATION] in a blue cup with a red spoon, sitting on a counter in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cup of ice cream from [LOCATION] with a red spoon on a table."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] ice cream dessert in a blue DQ cup with a red spoon sits on a counter inside a bright fast-food shop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Dairy Queen soft serve dessert in a branded cup sits atop a table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A DQ ice cream cup with cookie crumbles and a red straw sits on a counter inside a store."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a [LOCATION] soft-serve treat in a blue cup with a red straw, resting on a counter inside the store."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holds two colorful bags featuring cartoon designs at an event."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a brown leather jacket poses with colorful illustrated tote bags at a bright indoor event booth."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding colorful bags in a lively event atmosphere."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a brown leather jacket smiles while holding up a colorful tote bag with cartoon characters and '[PERSON]' branding."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a brown leather jacket holds up colorful tote bags featuring cartoon characters and the brand name '[PERSON]' at an indoor event."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of six photos showcasing individuals in various settings and outfits, with a decorative background and text overlay."
+        },
+        "gpt-5.4": {
+          "summary": "A scrapbook-style collage features several portrait and event photos of a smiling person on a blue background, centered around a handwritten note reading \"My 2025 Recap with [PERSON].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of photos featuring a person in various settings, including outdoor scenes and casual outfits."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of five photos showing a person in various outfits and settings, with a central title reading 'My with 2025 [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital collage featuring five photos of a smiling young man in various outfits and settings, arranged on a light blue background with decorative hearts and flowers."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of moments with a central figure, showcasing various interactions and events from 2025."
+        },
+        "gpt-5.4": {
+          "summary": "A collage of fan-event and casual photos shows a smiling man speaking, signing, posing with a fan, and interacting at indoor gatherings, with recap-style text overlays."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of various individuals in different settings, including a person signing autographs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of photos showing a person in various settings, smiling and interacting, with text overlays indicating a 2025 recap."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of photos featuring a young man in various settings, including events and casual moments, with text overlays indicating a '2025 recap'."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands casually on a staircase, wearing a shirt and tie with an oversized jacket."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses on an indoor staircase wearing a loose jacket, white shirt, striped tie, and dark trousers in a polished portrait-style photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a formal outfit stands confidently indoors near glass railings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a smart-casual outfit stands on a staircase with glass railings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a white shirt, striped tie, and olive jacket poses on an indoor staircase with a glass railing."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a child holding a toy on the left and a person gesturing with a toy on the right."
+        },
+        "gpt-5.4": {
+          "summary": "A side-by-side collage shows a young child posing with one arm over their head and a smiling man holding a microphone and a small plush toy on stage, with a heart doodle between them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young child playfully interacts while an adult holds a plush toy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A split image shows a young child posing playfully beside an adult man holding a microphone and a plush toy, with a heart graphic between them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image showing a young child in a blue shirt on the left and an adult man in a suit holding a microphone and plush toy on the right."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals taking mirror selfies, showcasing their outfits and accessories in a monochrome style."
+        },
+        "gpt-5.4": {
+          "summary": "Black-and-white mirror selfie of two people holding phones indoors, with gym equipment visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking mirror selfies in a public transport vehicle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white mirror selfie showing two individuals on public transport, one wearing a cap and the other with styled hair and jewelry."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white split mirror selfie showing two individuals taking photos with smartphones, one wearing a cap and the other displaying styled hair and jewelry."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A shirtless individual poses with arms crossed by the beach, showcasing a relaxed atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A side-by-side beach photo shows a shirtless person posing with arms crossed by the ocean in warm sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two shirtless individuals pose together in a beach setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person stands on a beach with arms crossed, eyes closed, and head tilted back, enjoying the sun near the ocean."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man stands on a beach with the ocean in the background, posing with his arms crossed and eyes closed in a split-screen format."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair poses in a grey high-neck sweater against a plain grey background, looking directly at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is partially obscured, wearing a gray hoodie and pulling the collar up towards their face against a neutral background."
+        },
+        "gpt-5.4": {
+          "summary": "A studio-style portrait shows a person in a dark gray hoodie holding the collar up against a plain gray background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a gray hoodie adjusts their hood against a neutral background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a gray hoodie adjusts the collar against a plain gray background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A studio portrait of a young man with dark hair wearing a thick grey hooded coat, posing against a plain background."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young man with dark hair poses in a grey hoodie and matching sweatpants, holding a black shoulder bag, against a plain grey background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a gray oversized hoodie and matching pants against a neutral background."
+        },
+        "gpt-5.4": {
+          "summary": "A studio fashion portrait shows a person in a loose gray hoodie-and-pants set with white sneakers and a black shoulder bag against a plain backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a casual outfit holding a bag against a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands against a plain background wearing a gray hooded sweatshirt and matching pants, with white sneakers and a black crossbody bag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man poses in a studio setting wearing a matching grey hooded sweatshirt and pants set with white sneakers and a black shoulder bag."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is wearing a patterned jacket and standing against a neutral background."
+        },
+        "gpt-5.4": {
+          "summary": "A posed portrait shows a person in a dark geometric-patterned suit jacket standing against a light stone wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a patterned blazer stands against an off-white wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands against a textured wall wearing a patterned blazer with an open collar."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with dark, slicked-back hair poses in a patterned blazer against a light stone wall."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person dressed in stylish black clothing walks along a city street with a modern architectural backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A person in an all-black layered outfit walks along a city street with apartment balconies in the background, giving the image a moody fashion-editorial feel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black suit walks down an urban street."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks down a city street in a black coat and patterned shirt, captured in black and white."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white street photograph of a man in dark, layered fashion walking down an urban sidewalk."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair and a patterned dark shirt is shown from the side, sitting indoors with pursed lips and clasped hands."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated, wearing a patterned shirt, with a blurred face, in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a dark patterned outfit is seated indoors in side profile with hands clasped, surrounded by upholstered chairs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a patterned shirt sits thoughtfully against pink cushions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a patterned shirt sits thoughtfully on a couch, looking away from the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with dark hair sits in profile wearing a patterned shirt and a wristwatch, appearing contemplative in an indoor setting."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young man is getting his hair styled by two unseen individuals, captured in a close-up, candid shot with studio lighting and a logo visible in the top right."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is getting their hair styled in a salon setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie-style shot shows a person in a salon cape while multiple hands brush and style their hair indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person getting their hair styled in a salon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person getting their hair styled in a professional salon setting, viewed from a low angle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a young man wearing a salon cape while two hands style his hair with round brushes in a studio setting."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is getting their hair styled in a salon, with hands and tools visible around them."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie shows someone in a studio or backstage setting while stylists use a hairdryer and brush on their hair, with the person holding up a peace sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person getting their hair styled in a salon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses for the camera while getting their hair styled with a blow dryer and brush in a studio setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle selfie of a young man in a salon cape making a peace sign while receiving hair styling from multiple hands using a red hairdryer and brushes."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A model walks down a runway in a stylish outfit, with a library backdrop and an audience in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A runway model walks through a library-style fashion show venue wearing a black tailored jacket and vest as seated guests watch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a stylish black suit stands confidently against an elegant library backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a black jacket with white embroidery walks down a runway in a library-like setting with audience members seated."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male model walks a runway in a black suit with white piping and embroidery, set against a library backdrop with seated spectators."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a grid of headshots of various individuals, each wearing distinctive eyewear and accessories."
+        },
+        "gpt-5.4": {
+          "summary": "A collage of fashion model headshots shows several people wearing eyeglasses or oversized sunglasses, resembling a casting board or lookbook page."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A grid of diverse individuals wearing stylish glasses against a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grid of nine portrait photos showing diverse individuals wearing different styles of glasses against a white background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grid of nine studio portraits featuring diverse models wearing various styles of eyewear against a white background."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a grid of fashion models showcasing various outfits with names labeled beneath each model."
+        },
+        "gpt-5.4": {
+          "summary": "A fashion lineup board shows multiple full-body model look photos with names and a large 'MEN'S FOLIO' title on a white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fashion advertisement featuring models in various outfits."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grid of fashion models posing in various outfits, each labeled with a name against a white background, under the 'FOLIO' brand logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grid of fashion models wearing distinct outfits is displayed on a white background with the text 'MEN'S FOLIO' and individual names."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male model in a black suit with white stitching and a decorative brooch walks on a runway with a blurred background of bookshelves."
+        },
+        "gpt-4o-mini": {
+          "summary": "A model walks down a runway wearing a stylish black outfit with a unique design."
+        },
+        "gpt-5.4": {
+          "summary": "A runway model walks forward in a black tailored suit with white piping and a brooch against a library-style backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black suit walks confidently against a backdrop of bookshelves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks confidently in a black suit with white trim against a backdrop of bookshelves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male model walks a runway in a tailored black suit with white contrast stitching and embroidery, set against a library backdrop."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a fashion lookbook page featuring a model in a black outfit with detailed close-ups of the clothing."
+        },
+        "gpt-5.4": {
+          "summary": "An AMIRI fashion look sheet in a plastic sleeve shows a model wearing an all-black outfit with full-body, back-view, portrait, and clothing detail photos."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Fashion advertisement showcasing a black suit by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fashion catalog page for [ORGANIZATION] showing a male model in a black leather outfit with multiple close-up views and French descriptions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fashion lookbook page for the brand AMIRI, displaying a male model in a black western-style suit with detailed close-ups of the fabric and hardware."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing in front of a bar with various bottles visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry photo shows two people posing or dancing in front of shelves filled with bottles and glassware in a warm indoor bar-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are standing in front of a bookshelf filled with books."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two blurred figures stand side by side in front of a bar with shelves of bottles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two individuals are captured in a motion-blurred photo standing in front of a well-stocked bar shelf, suggesting a social or nightlife setting."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A monk sits in front of a large golden [LOCATION] statue in a temple setting."
+        },
+        "gpt-5.4": {
+          "summary": "A Buddhist monk in brown robes sits indoors in front of a large ornate golden [ORGANIZATION] statue and temple altar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A monk in traditional attire sits before a golden [LOCATION] statue adorned with intricate details."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A monk in orange robes sits before a large golden [LOCATION] statue inside a temple."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Buddhist monk in brown robes sits cross-legged on the floor before a large golden [LOCATION] statue and ornate altar."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media post in Thai announces an individual's ordination into monkhood, expresses gratitude, and requests privacy during their religious"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post discussing a spiritual or religious event and inviting participation."
+        },
+        "gpt-5.4": {
+          "summary": "A Thai text post announces an ordination ceremony for “บิว จักรพันธ์ พุทธา” and asks attendees not to take photos or videos during the ritual."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post discussing Buddhist teachings by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Thai-language social media post with text discussing a religious or spiritual topic, featuring emojis and hashtags."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital announcement in Thai text on a dark background detailing a religious retreat and requesting privacy for the participants."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a bouquet of white lotus flowers with their hands in a prayer position."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a person smelling a small bouquet of white flower buds tied with a yellow ribbon against a plain background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a bouquet of white lotus flowers wrapped in gold ribbon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a white lotus flower arrangement with incense sticks, bowing their head in reverence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person holds a traditional Thai floral offering known as a 'Phuang Malai' featuring white lotus buds and incense sticks, wrapped in yellow fabric with an orange ribbon."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals stands together on stage, with one person in focus wearing a dark suit."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a dark suit stands on a purple-lit event stage with other partially visible attendees beside them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit smiles confidently during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man in a dark pinstripe suit stands center stage at a promotional event with Thai text on a purple backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a dark pinstripe suit stands on a stage with a purple LED backdrop, flanked by two other individuals."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman in a formal dress and a man in a suit are engaged in conversation on stage at an event."
+        },
+        "gpt-5.4": {
+          "summary": "Two presenters in formal attire face each other on a stage while holding [ORGANIZATION] NOW microphones, with a large event backdrop behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a pink dress interviews an individual holding microphones against a backdrop featuring 'IF YOU CAN'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a pink gown and a man in a dark suit hold microphones while facing each other on a stage with a large screen behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a pink gown and a man in a dark suit stand on stage holding microphones, facing each other during an event."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing with a bouquet of red roses while making a hand gesture."
+        },
+        "gpt-5.4": {
+          "summary": "An overhead indoor photo shows a person in a black sleeveless top with a shoulder bag, looking up and gesturing with one hand beside a bouquet of red flowers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual in a black tank top gives thumbs-up while surrounded by flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular person in a black tank top looks down at a bouquet of red roses while making hand gestures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A muscular man in a black tank top poses playfully with finger hearts while holding a large bouquet of red roses."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cute, animated girl sitting cross-legged with a serene expression."
+        },
+        "gpt-5.4": {
+          "summary": "A cute chibi-style cartoon of a girl with hair in a bun sits cross-legged with eyes closed in a calm, meditative pose, with Chinese text above her."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cute cartoon girl sitting cross-legged in a meditative pose."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon girl sits cross-legged with closed eyes, surrounded by soft lighting and a heart icon, under Chinese text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A chibi-style illustration of a girl with closed eyes and a serene expression sitting cross-legged, accompanied by Chinese text above her."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot displays numerous strawberry daifuku (mochi) with bright red strawberries peeking out of white mochi, arranged on a tray and covered with clear plastic"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of mochi desserts topped with strawberries, arranged neatly on a tray."
+        },
+        "gpt-5.4": {
+          "summary": "A tray of strawberry mochi/daifuku sweets is displayed behind glass in a shop case."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON] mochi balls displayed in a bamboo tray."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tray of white mochi desserts topped with fresh strawberries, displayed under plastic wrap in a bamboo basket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A display of [LOCATION], featuring whole red strawberries encased in white mochi dough, arranged on a bamboo tray inside a glass case."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a stylish outfit is interacting with someone off-camera in a corridor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a dark pinstripe blazer and glasses reaches out to shake hands in an indoor industrial-style hallway or stairwell."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a pinstripe suit interacts warmly while holding hands."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a pinstripe suit smiles while shaking hands with someone holding a blue object indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with glasses and a black pinstripe suit shakes hands with a fan holding a blue light stick in an indoor venue."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful illustration celebrating the Year of the Horse with festive text and a cartoon horse."
+        },
+        "gpt-5.4": {
+          "summary": "A festive red illustration shows a cartoon horse, gold ingots, and celebratory Chinese New Year-style text wishing good luck in the Year of the Horse."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive Chinese New Year greeting card featuring a cartoon horse, gold ingots, and colorful text."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A festive red graphic featuring a cartoon horse, golden coins, and Chinese characters conveying luck and prosperity for the Year of the Horse."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A festive red illustration featuring a cartoon horse, gold ingots, and Chinese calligraphy conveying New Year wishes for wealth and happiness."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals: one seated and speaking into a microphone, and the other taking a selfie while seated."
+        },
+        "gpt-5.4": {
+          "summary": "A split-image collage shows one person speaking into a microphone onstage in a pink outfit and another seated indoors taking a mirror-style phone photo in smart casual clothes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are seated in a formal interview setup; one speaks into a microphone while another takes notes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two individuals are seated side by side: one in a pink outfit holding a microphone, the other taking a mirror selfie with a phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image showing a person in a pink outfit holding a microphone on the left and another person in a brown jacket taking a mirror selfie on the right."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing with a peace sign while wearing sunglasses and a fuzzy hat, dressed in a denim jacket."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person in a fuzzy light-blue beanie with sunglasses on top, a denim jacket, and multiple rings while making a hand sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a denim jacket and sunglasses poses indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a light blue fuzzy hat and sunglasses on their head poses with a hand gesture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a fuzzy light blue beanie, silver sunglasses, and a denim jacket with a shearling collar poses for a selfie while making a hand gesture."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing sunglasses and a light blue beanie, making a peace sign with their hand while dressed in a denim jacket with a brown collar."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a person in a fuzzy light-blue hat with sunglasses on top, a denim jacket, and multiple silver rings posing with a hand sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a blue fluffy hat, sunglasses perched atop it, denim jacket over brown fur-lined shirt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses playfully with sunglasses on a light blue beanie, wearing a denim jacket with a brown shearling collar and multiple rings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing a fuzzy light blue beanie with sunglasses perched on top, layered under a denim jacket with a brown shearling collar."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in a relaxed pose, wearing a bear-themed hat and stylish clothing, surrounded by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A stylish indoor portrait shows a person in a fuzzy beanie with sunglasses, a denim jacket, and shiny black pants seated beside leafy plants in soft sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a denim jacket over leather pants poses in front of tropical plants."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits casually wearing a grey fuzzy hat with goggles, a denim jacket, and black leather pants against a backdrop of dark wood and green foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a grey beanie with sunglasses perched on top, layered in denim and leather clothing, poses while seated against a dark wood-paneled wall."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in a stylish outfit, surrounded by [ORGANIZATION] and reflective surfaces."
+        },
+        "gpt-5.4": {
+          "summary": "A social media screenshot shows a stylized indoor fashion portrait of a person in a beanie, denim jacket, and leather pants sitting beside a sunlit leafy window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a denim jacket over leather pants poses in front of tropical foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a gray beanie with goggles, a denim jacket, and leather pants sits against a dark wooden wall with green foliage in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a grey beanie, sunglasses, and denim jacket poses casually against a reflective wall with tropical plants."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses with a hand gesture in a dimly lit setting with purple lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a dark jacket and cap with goggles poses indoors under purple lighting, making a hand sign toward the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black jacket over white shirt making peace sign."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a cap and sunglasses on top poses with a hand gesture under purple lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black cap with sunglasses, white t-shirt, and black jacket poses with a hand gesture under purple lighting."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a skull-patterned bandana, sunglasses on their forehead, and a black jacket over a white shirt, poses with a 'rock on' hand gesture and a puckered face under purple lighting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses with a peace sign in a dimly lit setting with purple lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors under purple lighting, wearing a cap with goggles, a dark jacket over a white shirt, and making a hand sign toward the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black jacket over white shirt making peace sign in front of purple-lit wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a cap and sunglasses makes a hand gesture under purple lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black cap with goggles, white t-shirt, and black jacket poses indoors under purple lighting while making a hand gesture."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person pointing at a menu from [PERSON], showcasing a playful and inviting mood."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie of a person pointing at their cheek is shown beside a signed card featuring the [PERSON] logo and Chinese text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses playfully in front of a [PERSON] advertisement."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person points to their cheek beside a promotional graphic for '[PERSON] with handwritten Chinese text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split image featuring a close-up selfie of a young man with dark hair pointing to his cheek, paired with a promotional graphic for '[PERSON] displaying the handwritten Chinese phrase 'Love you all'."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a user profile with a blurred photo and a celebratory message."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media post showing the username [PERSON] and a Chinese message wishing a happy Lantern Festival."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet wishing Happy Lantern Festival in Chinese."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post from a user in [LOCATION] wishing 'Happy Lantern Festival' with a profile picture of a person holding blue balloons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post screenshot from user [PERSON] displaying a greeting for the Lantern Festival in Chinese characters."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A diptych image features a man with dark hair wearing a black leather jacket and a patterned black shirt, posing outdoors amidst green foliage and small pink"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in front of a flower bed, wearing a black leather jacket and a patterned shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A two-photo collage shows a person in a black leather jacket posing outdoors in front of green plants and pink flowers in a flash-lit fashion portrait style."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black leather jacket poses against vibrant flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black leather jacket poses against a backdrop of greenery and pink flowers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen portrait of a man in a black leather jacket posing against a backdrop of green foliage and pink flowers."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals in contrasting styles, one relaxed and casual, the other more formal."
+        },
+        "gpt-5.4": {
+          "summary": "A side-by-side portrait collage shows one person in casual winter streetwear with a fuzzy hat and sunglasses, and another in a dark suit under soft lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are shown in a split-screen format; one wearing sunglasses under their hat indoors near plants."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Split image showing two people: one in a denim jacket with goggles on a hat, the other in a suit looking serious."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image featuring two men, one wearing a grey beanie and denim jacket on the left, and another in a suit on the right."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals posing together, with text indicating their names and a title in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized promotional poster shows two men posing in dark formal outfits against a brown backdrop with prominent Thai title text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A promotional poster featuring two individuals in formal attire against a textured background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in stylish dark outfits pose against a textured red background with Thai text identifying them as actors in a production."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men in black formal attire pose against a textured reddish-brown background with Thai text overlays identifying them and the title '[LOCATION]'."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals dressed in elaborate costumes, resembling characters from a fantasy or historical theme."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic poster shows two people in ornate fantasy or myth-inspired royal costumes with crowns, dark makeup, and Thai text on a brown background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A promotional poster featuring two characters in elaborate costumes against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two figures in elaborate fantasy costumes stand against a dark, fiery backdrop with Thai text identifying them as characters from a production."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional poster for the Thai production '[LOCATION]' featuring two actors in elaborate fantasy costumes and heavy makeup against a dark, atmospheric background."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in silhouette looks out an airport window at an airplane on the tarmac."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in dark clothing stands by a large window at an airport, looking out at the runway."
+        },
+        "gpt-5.4": {
+          "summary": "A silhouetted person in a cap stands by an airport terminal window overlooking a parked airplane and ground service equipment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black outfit stands by an airport window observing ground operations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in silhouette stands by an airport terminal window, looking out at a parked airplane and ground crew."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in dark clothing and a cap stands silhouetted against a large airport window, looking out at an airplane on the tarmac."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A four-panel image features a person with black hair wearing a denim jacket and plaid shirt, posing playfully against a white paneled wall."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person posing in a denim jacket with a playful expression against a light-colored wall."
+        },
+        "gpt-5.4": {
+          "summary": "A four-panel collage shows a person with black hair posing playfully indoors against a white paneled wall while wearing a denim jacket over a plaid shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a denim jacket posing against a white panel background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses in four different playful shots wearing a denim jacket over a plaid shirt against a white paneled wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A four-panel collage shows a young man with dark hair wearing a denim jacket over a plaid shirt, posing playfully against a white paneled wall."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Four individuals in elaborate, [LOCATION], and fantasy-inspired costumes pose for a photo in front of a textured, earthy-toned backdrop."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four individuals dressed in elaborate costumes, posing against a textured backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "Four people in ornate fantasy-style costumes and crowns pose seriously in a studio against a mottled brown backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four individuals dressed in elaborate costumes stand against a textured backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four individuals in ornate, fantasy-themed costumes pose formally against a textured backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four individuals in elaborate, fantasy-inspired costumes and headpieces pose for a studio photograph against a textured backdrop."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing with expressive hand gestures against a neutral background."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a computer monitor shows [PERSON] editing a stylized studio portrait of two people posing with dramatic hand gestures in costume-like outfits."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals posing playfully in front of a computer screen displaying editing software."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people posing playfully with patterned face coverings on a computer screen displaying [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A photo of two people in stylized costumes posing on a computer screen, with the woman wearing a face veil and the man having dots painted on his face."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a white t-shirt holds a wine glass labeled '[ORGANIZATION]' and points towards it while looking at the camera in a warmly lit restaurant setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a white shirt is holding a glass of wine and pointing while seated at a restaurant."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a white T-shirt sits in a warmly lit restaurant, holding and pointing at a wine glass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a restaurant holding wine glass labeled '[ORGANIZATION]' points towards it."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white shirt points at a wine glass labeled '[ORGANIZATION]' while seated in an ornate restaurant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a white t-shirt sits at a restaurant table holding a wine glass and pointing at the brand name printed on it."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a seafood platter with various shellfish, set in a restaurant with diners in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose at a restaurant table with a large seafood platter featuring lobster, shrimp, oysters, sauces, and wine glasses."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals enjoy a seafood platter in an elegant restaurant."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people at a restaurant table with a large seafood platter, one holding an oyster near their eye."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose at a restaurant table featuring a large seafood platter with lobster and shrimp, where one man playfully holds an oyster to his eye."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dense area of trees and underbrush with a temperature reading of 36°C."
+        },
+        "gpt-5.4": {
+          "summary": "A sparse wooded area with many thin trees and dry ground is shown in daylight, with a temperature overlay reading 36°C."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dense thicket of thin trees in a forested area under bright daylight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dense thicket of slender trees with sparse green leaves under bright sunlight, overlaid with the text '36°C'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dense thicket of thin tree trunks and branches with sparse green foliage under a bright sky, featuring a temperature overlay."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast for [LOCATION], indicating a current temperature of 35°C and cloudy conditions."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows the weather forecast for [LOCATION] with cloudy conditions and a current temperature of 35°C."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing high temperatures in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather app screen showing [LOCATION] current temperature and forecast."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile weather application screenshot displaying current and forecasted conditions for [LOCATION], showing a temperature of 35 degrees Celsius with cloudy skies."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person seated in front of [ORGANIZATION], promoting an event related to 'Bible' in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A poster-style image shows a person in a black outfit sitting outdoors by flowers in front of a building, with Chinese text about a [LOCATION] fan meeting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster announcing a [ORGANIZATION] fan meeting in [LOCATION] scheduled for June."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black leather outfit sits outdoors with text announcing an upcoming fan meeting in [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional image featuring a man in black leather attire with overlaid text announcing an upcoming fan meeting in [LOCATION]."
+        }
+      }
     }
   }
 }

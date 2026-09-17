@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -16,6 +17,19 @@ SPEC.loader.exec_module(RUNNER)
 
 
 class ProfileRunnerTests(unittest.TestCase):
+    def test_old_protocol_metrics_do_not_skip_new_extraction(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            path = Path(tmp_dir) / "metrics.json"
+            metrics = {"model": "test", "profile_method": "direct", "n_tasks": 7, "n_tasks_skipped": 0}
+            for version, expected in ((None, False), ("old_prompt", False), (RUNNER.PROFILE_EVAL_PROTOCOL_VERSION, True)):
+                with self.subTest(version=version):
+                    if version is not None:
+                        metrics["profile_eval_protocol_version"] = version
+                    path.write_text(json.dumps(metrics), encoding="utf-8")
+                    self.assertEqual(
+                        RUNNER.metric_is_valid(path, model="test", method="direct", expected_n_tasks=7), expected,
+                    )
+
     def test_batch_endpoints_include_partial_final_batch(self) -> None:
         self.assertEqual(RUNNER.batch_endpoints(25, 10), [10, 20, 25])
         self.assertEqual(RUNNER.batch_endpoints(5, 10), [5])

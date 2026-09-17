@@ -1,67 +1,2405 @@
 {
   "user_id": "participant_091",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "dogs",
-        "film and television",
-        "fitness",
-        "photography",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: dogs; film and television; fitness; photography; video games."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie, shirtless and wearing light-colored shorts, while pointing at their stomach."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie, showing their upper body while wearing shorts."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless mirror selfie shows a person in white shorts posing indoors while holding a phone in front of their face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man takes a mirror selfie in his living room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person takes a mirror selfie indoors while pointing at their stomach."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with glasses and a beard takes a mirror selfie in a bedroom, wearing light-colored shorts and a gold cross necklace."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "dogs",
-        "film and television",
-        "fitness",
-        "savory food",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: dogs; film and television; fitness; savory food; visual art."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a workout summary with personal records for various exercises."
+        },
+        "gpt-5.4": {
+          "summary": "A workout-tracking app screenshot shows personal records from a 'Week 1 - Full Body' gym session with stats and exercises like squats, incline bench press, pull-ups, and calf raises."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fitness workout log showing exercises like [PERSON], Incline Bench Press, Lateral Raise etc. along with weights lifted."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fitness app screenshot showing personal records for a full-body workout session with exercise names, weights, sets, and reps."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital workout log screenshot displaying a 'Min-Max 4x' full-body training session with specific exercise details, weights, and personal record indicators."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "dogs",
-        "film and television",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; dogs; film and television; photography; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collection of anime and manga style character face sketches, drawn with black and red lines on several light blue sticky notes arranged"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features various sketches of character faces on blue sticky notes."
+        },
+        "gpt-5.4": {
+          "summary": "Several blue sticky notes are spread on a tabletop, each covered with hand-drawn anime-style character face sketches and expression studies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of hand-drawn character sketches displayed in a fanfolded arrangement."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Multiple sheets of paper display rough anime-style character sketches and facial expressions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Several sheets of light blue paper displaying various anime-style character sketches and facial expression studies in ink."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "dogs",
-        "film and television",
-        "fitness",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; dogs; film and television; fitness; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bowl of food with shrimp, rice, and sauce, accompanied by a cup of soup and a can of [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A takeout meal with a rice bowl topped with shrimp, vegetables, and sauce is shown alongside a soup and a can of [ORGANIZATION] on a table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal featuring a bowl of rice topped with noodles, vegetables, and sauce alongside a can of [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meal featuring a rice bowl with noodles and sauce, accompanied by a cup of soup and a [ORGANIZATION] can."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A takeout meal featuring a poke bowl with rice, noodles, and sauce alongside a cup of miso soup and a can of [ORGANIZATION]."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "dogs",
-        "film and television",
-        "fitness",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; dogs; film and television; fitness; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person's back in a bathroom setting, with a tiled wall and a shower curtain visible."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless back-view photo of a person standing in a bathroom with white tile walls and a striped shower curtain."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a tiled bathroom from behind."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Back view of a person standing shirtless in a tiled bathroom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rear view of a person with short dark hair and a gold chain standing in a bathroom with white tiled walls."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "dogs",
-        "film and television",
-        "fitness",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: dogs; film and television; fitness; photography; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with messy hair, glasses, and a beard poses shirtless, flexing their arms while wearing a gold chain and grey sweatpants, in an indoor setting with a patterned curtain visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in a room with a casual appearance, showcasing their physique."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing glasses and a chain necklace poses indoors in a bedroom-like room, flexing with hands clasped near the waist."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man wearing glasses stands in a room with floral curtains."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless man with glasses and a beard stands indoors, looking upward with tousled hair."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with glasses and a beard stands indoors, flexing his arms while wearing grey sweatpants and a gold chain."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless person with glasses and a gold chain necklace poses in front of a tiled wall."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person with a bare upper body, standing in a bathroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing glasses and layered necklaces poses in front of a tiled bathroom wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man wearing glasses stands in a tiled bathroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with glasses and a beard stands in front of a tiled wall, wearing a gold chain with a cross pendant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with glasses and a beard stands in a tiled bathroom wearing gold necklaces."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person's back, partially visible in a bathroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person is shown from behind in a tiled bathroom, with hands on hips and a chain necklace visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person standing in a tiled bathroom from behind."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person viewed from behind, standing in a tiled bathroom with hands on hips."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rear view of a shirtless person with dark hair and a gold chain standing in a tiled bathroom."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a workout log for an upper body training session, detailing exercises, weights, sets, and reps."
+        },
+        "gpt-5.4": {
+          "summary": "A workout tracking screenshot shows a Week 1 upper-body gym session with stats for time, volume, sets, reps, and listed exercises with weights and reps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A workout plan showing exercises like [PERSON], T Bar Row, Shrugs etc., along with weights used."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A workout log for Week 1 Upper body training showing exercises, weights, sets, and reps."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a digital workout log displaying an 'Upper' body training session with specific exercises, sets, reps, and weights."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful sketch of various characters, including a girl with blue hair, a dragon, and a robotic device."
+        },
+        "gpt-5.4": {
+          "summary": "A sketch-filled page shows several rough pen drawings, including anime-style faces, a robot-like figure, and monster or animal heads on green paper."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sketch of a character holding an object resembling a camera."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sketch sheet with multiple anime-style character head studies drawn in black ink on green paper."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand-drawn sketch on green paper featuring multiple anime-style character portraits and a robot head rendered in black ink with blue pencil shading."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a sketch of a character with long hair and a playful expression on a blue background."
+        },
+        "gpt-5.4": {
+          "summary": "A rough pen sketch on blue paper shows multiple anime-style faces with long hair and expressive eyes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sketch of two figures in a close embrace against teal paper."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sketch of three anime-style character faces on teal paper, rendered with loose ink lines and copper-colored accents."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sketch on teal paper featuring multiple anime-style character faces drawn with black and copper ink."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a green jacket, white shirt, and light-colored pants."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie in a simple room, wearing a green jacket, light pants, and black-and-white sneakers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a green jacket over white pants."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a green jacket with a [ORGANIZATION] logo, cream pants, and black-and-white sneakers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a full-body mirror selfie in a fitting room, wearing a green [ORGANIZATION] windbreaker, cream pants, and black-and-white sneakers."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while wearing a green jacket with a humorous text on the back."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie showing the back of a dark green jacket with a large humorous slogan printed on it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a jacket with humorous text takes a mirror selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a green jacket with text on the back takes a selfie in a mirror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a green jacket with the text 'NOBODY APPRECIATES GOOD HUMOR ANY MORE' on the back is taking a mirror selfie."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A brown dog is resting comfortably on a striped bed in a dimly lit bedroom, with a television and dresser visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is resting on a bed with a comforter in a cozy bedroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dog is lying on a bed in a cozy bedroom, facing a TV and dresser across the room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog lounging in a bed under striped bedding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog rests peacefully on a bed with striped bedding in a softly lit bedroom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A medium-sized dog with brown and black fur is lying on a bed covered in striped bedding, facing away from the camera towards a dresser with a television."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dog is lying on a striped bed in a dimly lit bedroom, with a television and dresser visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is lying on a bed with a comforter, in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dog is lying on a rumpled bed in a cozy bedroom with a TV on a dresser and an open doorway in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog lying in bed under a blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog is lying on its back on a bed with pink striped bedding, surrounded by bedroom furniture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small brown and black dog is sleeping on its back in a messy bed with pink striped bedding, facing a large television set."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a person's legs and lower torso, wearing red underwear and white socks, standing on a wooden floor indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person's legs, showcasing one leg in a red garment and the other in a white sock."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor photo shows a person in shorts and white socks posing with one leg extended, emphasizing their legs on a wooden floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person's legs wearing white socks in an indoor environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of a person's muscular legs wearing white socks and red underwear, standing indoors on wooden flooring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-angle shot of a person's muscular legs wearing white socks and red shorts standing on a wooden floor."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in front of a mirror, wearing a black shirt and shorts, while holding a phone."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person indoors wearing an oversized black T-shirt and white socks, posing in a dimly lit room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a mirror selfie in black t-shirt and socks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a room, wearing a black t-shirt with a gold emblem and white socks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black t-shirt with a gold eye symbol and white socks takes a mirror selfie in a room with wooden floors."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses, a beard, and a gold chain poses shirtless in grey sweatpants, flexing their right bicep indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person flexes their arm muscles while posing in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing glasses and gray sweatpants poses indoors while flexing one arm in a low-angle selfie."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person flexing their muscles in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person flexes their bicep indoors while wearing glasses and sweatpants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with glasses and a beard poses indoors, flexing his biceps while wearing grey sweatpants."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses and a beard poses shirtless, pinching their stomach while wearing grey sweatpants indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing with their shirt off, showcasing their physique in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing glasses and gray sweatpants poses from a low angle indoors, pulling at the waistband in a casual room setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man flexing his muscles in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with glasses and a beard stands indoors, pulling at their waistband to reveal their midsection."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with glasses and a beard stands indoors, flexing his arms while pulling at the waistband of his sweatpants to expose his stomach."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather report for [LOCATION] showing a temperature of 10° with mostly sunny conditions."
+        },
+        "gpt-5.4": {
+          "summary": "A weather screen shows [LOCATION] at 10° with mostly sunny conditions on a blue sky background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing [LOCATION] temperature as mostly sunny."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather graphic for [LOCATION] showing a current temperature of 10 degrees and mostly sunny conditions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather graphic displaying [LOCATION] forecast with a current temperature of 10 degrees, mostly sunny conditions, and high/low temperatures."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a yellow sticky note featuring a sketch of a person with long hair and a somber expression."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a yellow sticky note with a pen sketch of an anime-style face, with more doodled sticky notes and a laptop keyboard in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Hand holding a yellow sticky note featuring an ink sketch of a person's head."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a yellow sticky note with a quick, sketchy drawing of an anime-style crying face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a yellow sticky note featuring a quick, sketchy ink drawing of an anime-style character with messy hair and tears."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a neon yellow sticky note featuring multiple anime-style character sketches and hearts, set against a blurred background of concrete ground and a pole."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a yellow sticky note with sketches of cartoon characters and hearts."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a bright sticky note covered with sketchy anime-style character doodles and heart shapes in an outdoor concrete setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a yellow sticky note featuring two stick-figure-like figures surrounded by hearts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a bright yellow sticky note with sketchy anime-style drawings of characters and hearts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a lime-green sticky note featuring rough, black ink sketches of three anime-style characters and several hearts against an outdoor concrete background."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie in a bathroom, flexing their bicep while holding a smartphone."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is flexing their arm in a bathroom mirror selfie."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless mirror selfie in a tiled bathroom shows a person holding a phone and flexing one arm."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless person flexing their arm in a bathroom mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person flexes their bicep in a mirror selfie taken inside a tiled bathroom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless individual wearing glasses and a gold chain takes a mirror selfie in a tiled bathroom while flexing their bicep."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding several yellow sticky notes with sketches of characters, including some with animal ears."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds yellow sticky notes covered with pen sketches of anime-style characters, with a pen and keyboard visible on a desk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds yellow sticky notes featuring sketches of anime-style characters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds three yellow sticky notes with quick pencil sketches of anime-style characters, set against a keyboard and desk background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds three yellow sticky notes featuring quick ink sketches of anime-style characters with animal ears, set against a desk background with a keyboard and pen."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless person with a gold chain and cross pendant flexes their arms and pinches their stomach skin against a tiled wall."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is flexing their muscles in a bathroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person is flexing their arms in a bathroom, with tiled walls and necklaces visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual flexing their chest in a tiled bathroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person flexes their arms and torso in front of a tiled wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless individual with a muscular build stands in a tiled room, flexing their arms and wearing gold necklaces."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is shown from the back, displaying their upper torso and arms, with one hand"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person from behind, standing in a bathroom with their hands on their hips."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a person’s bare back and arms in a tiled bathroom, wearing a necklace and partially visible gray bottoms."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a tiled bathroom showing their back."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands shirtless with hands on hips in a tiled bathroom, wearing gray bottoms and a gold chain."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands with their back to the camera in a tiled bathroom, wearing a gold chain and grey bottoms while displaying a tattoo on their left arm."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand making a peace sign is shown in front of a gaming monitor displaying a colorful game scene."
+        },
+        "gpt-5.4": {
+          "summary": "A hand making a peace sign is held in front of a dual-monitor gaming setup with a fantasy-style game on the main screen, chat on the side monitor, and a compact keyboard on an anime desk mat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person gestures towards a computer screen displaying an animated game scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person's hand makes a peace sign in front of a gaming monitor displaying an in-game scene, with a keyboard and chat window visible on the desk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand making a peace sign in front of a computer monitor displaying the video game [PERSON], with a mechanical keyboard and anime-themed mousepad on the desk."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand holding a yellow sticky note with sketches of three characters, likely from an anime."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a bright yellow sticky note covered with black-ink anime-style character sketches featuring three expressive faces and spiky hair."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand-drawn sketch of three anime-style characters holding a sword."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a sketch on yellow paper showing three anime-style characters with distinct expressions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand-drawn sketch on a yellow sticky note depicts three anime-style characters with spiky hair, rendered in black ink."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON] in a vibrant, animated style, surrounded by cherry blossom petals."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful anime-style game card screen shows a smiling character in a pink outfit amid cherry blossom petals, labeled as a new pull."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant anime character in a pink outfit stands against a cherry blossom backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An anime-style character with cat ears and a pink outfit poses dynamically against a sparkling cherry blossom background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style character with brown hair and horse ears is shown in a dynamic pose against a sparkling pink and blue background, accompanied by game interface text."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is seen from the back, shirtless and wearing grey sweatpants, taking a mirror selfie with a smartphone in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a mirror, showing their back and wearing gray shorts."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person takes a mirror selfie from behind indoors, wearing gray sweatpants in a dimly lit room with a white door."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a mirror selfie in underwear."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person takes a mirror selfie in a dimly lit room, holding a phone in one hand and resting the other on their hip."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless person stands with their back to the camera, taking a mirror selfie in a dimly lit room while wearing grey sweatpants."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie, showing their upper body while wearing gray sweatpants."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person poses for a bathroom mirror selfie while holding a phone, wearing gray [PERSON] and a cross necklace."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man takes a mirror selfie in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person takes a mirror selfie in a dimly lit room, wearing grey sweatpants and holding a smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man wearing glasses and grey [ORGANIZATION] takes a mirror selfie in a dimly lit room, flexing his arm while holding a smartphone."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie, flexing their bicep while wearing grey sweatpants with an [PERSON] logo."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person flexes their arm in a mirror selfie while wearing gray sweatpants and no shirt."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie of a shirtless person in sweatpants flexing one arm in a bathroom or bedroom doorway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man flexing his arm in a mirror selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person flexes their bicep while taking a mirror selfie indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless individual takes a mirror selfie in a dimly lit room, flexing their left arm while wearing grey [PERSON]. Visible stretch marks are present on the abdomen."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A brown, black, and white dog with pointed ears sits on a person's lap on a green couch, looking towards the camera in a brightly lit indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog sits on a person's lap while they relax on a green couch in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A brown-and-white dog sits on a person's lap on a green couch in a softly lit living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person petting a dog sitting in their lap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a tattooed arm pets a tri-color dog sitting on their lap on a green couch, with floral curtains and a birdcage visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tricolor dog with perked ears sits attentively on a green couch while being petted by a person with a tattooed arm."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with a beard and messy hair is seen nose-to-nose with a brown, black, and white dog, sharing an affectionate moment indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person and a dog are close together, with the person partially visible and wearing jewelry."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a person and a brown-and-white dog sitting indoors face-to-face in a playful, affectionate moment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man and a dog share an affectionate moment indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person and a dog with their noses touching indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with messy hair and gold necklaces shares an intimate nose-to-nose moment with a tricolor dog indoors."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a gym, showcasing their leg while wearing workout attire."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a gym shows a person in black workout clothes and headphones posing beside weight machines and barbells while lifting one shorts leg to show their thigh."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym wearing workout attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym, showcasing their physique while wearing workout attire and headphones."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black t-shirt, shorts, and headphones takes a mirror selfie in a gym while lifting their leg to display their thigh muscles."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of a [ORGANIZATION] treadmill console displaying workout metrics, with a water bottle in the cup holder and"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a [ORGANIZATION] exercise machine displaying workout metrics."
+        },
+        "gpt-5.4": {
+          "summary": "A gym cardio machine console is shown in the foreground with people exercising on machines in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a [ORGANIZATION] treadmill display showing workout metrics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of a [ORGANIZATION] treadmill console showing workout metrics like distance, calories burned, and time elapsed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a [ORGANIZATION] treadmill console displaying workout metrics with a water bottle in the holder and other gym-goers visible in the background."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image shows a person's bare back, facing away from the camera, against a background of white tiled walls."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person from behind, highlighting their muscular back in a bathroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up rear view of a shirtless person in a tiled bathroom or shower, with wet skin and a gold chain visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a shower stall viewed from behind."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person viewed from behind, showing their muscular back and shoulders against a white tiled wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless person is viewed from behind in a tiled room, likely a bathroom."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a completed workout summary on an exercise machine, displaying various fitness metrics."
+        },
+        "gpt-5.4": {
+          "summary": "A gym cardio machine screen shows a completed workout summary while other people exercise on machines in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] exercise bike displays a workout completion screen showing statistics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] exercise bike displays '[ORGANIZATION]!' with today's totals, while two people use treadmills in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a [ORGANIZATION] exercise bike console displaying a 'Workout Complete!' summary screen with metrics like distance and calories, set against a gym background with other users."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is being walked along a snowy sidewalk with a view of parked cars and bare trees."
+        },
+        "gpt-5.4": {
+          "summary": "A dog on a pink leash is being walked along a snowy city sidewalk beside parked cars and bare winter trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog stands on a snowy sidewalk next to parked cars."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog on a patterned leash walks away on a snowy sidewalk beside parked cars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A medium-sized dog on a pink patterned leash walks along a brick sidewalk next to a snowbank and street with parked cars."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A medium-sized dog with a brown and black coat, wearing a pink collar and leash, stands on a concrete sidewalk next to a pile of snow."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is walking on a snowy sidewalk, with a focus on its profile and leash."
+        },
+        "gpt-5.4": {
+          "summary": "A dog on a pink leash is being walked along a wet sidewalk beside piled snow."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog wearing a pink leash walks along an icy sidewalk."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog on a pink leash walks on a sidewalk beside a snowbank."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A medium-sized dog with pointed ears and a brown-and-black coat walks on a patterned leash along a paved sidewalk next to a pile of snow."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person's hand holds a '[ORGANIZATION] LABS' premium vape cartridge package over a paved ground"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a box of MAD LABS premium vape cartridge on a pavement."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a red-and-pink MAD LABS vape cartridge package over a concrete sidewalk, with a sneaker visible at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION] premium vape cartridge against an outdoor pavement background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a colorful package of a MAD LABS premium vape cartridge on a paved surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a red and orange box of [ORGANIZATION] premium vape cartridge against a concrete background."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand is holding a box labeled 'MAD LABS' with a design featuring a landmark."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a blue [ORGANIZATION] vape cartridge package with a [LOCATION] skyline design while standing on a sidewalk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION] LABS vape cartridge box featuring an image of Big Ben."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a purple box of MAD LABS vape cartridges featuring an image of Big Ben."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a purple Mad Labs vape cartridge box featuring the [LOCATION] skyline and [PERSON] against a paved background."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with glasses and a goatee takes a shirtless mirror selfie, holding a smartphone with an [ORGANIZATION] logo, against a purple and blue lit background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while shirtless, showcasing their upper body and accessories."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless mirror selfie shows a person wearing glasses and gold chains, holding a smartphone in a dim room with purple-blue lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man takes a mirror selfie holding an [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with glasses and a beard takes a mirror selfie holding a smartphone with a visible [ORGANIZATION] logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with glasses and a beard takes a mirror selfie holding an [LOCATION], illuminated by purple ambient lighting."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie, showing their upper body and flexing their arm, with an animated character visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless mirror selfie in a dimly lit bedroom shows a person posing with a smartphone, with a TV displaying an anime-style image in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man takes a mirror selfie in his bedroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person takes a mirror selfie in a room with blue lighting, holding a smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a beard and glasses takes a mirror selfie in a room illuminated by blue ambient light, with an anime character displayed on a monitor in the background."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses and a goatee poses shirtless in dim lighting, wearing dark underwear, with a dresser visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A shirtless individual poses in a dimly lit room, wearing black underwear."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing glasses and dark underwear poses shirtless in a dimly lit room, with a doorway and cabinet visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man wearing glasses stands in a dimly lit room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with glasses and a beard stands indoors in dim lighting, hand on hip."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless individual with glasses and a beard stands in a dimly lit room wearing dark underwear, with a white cabinet visible in the background."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person from the back, standing in a dimly lit room with their hands on their hips."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit indoor photo shows a shirtless person from behind standing against a plain wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands shirtless in a dimly lit room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person viewed from behind, shirtless and standing in a dimly lit room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit, low-resolution image showing the back of a shirtless person with short dark hair and a tattoo on their left arm."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a man's chest and torso, partially covered by an unbuttoned light blue shirt, showcasing a gold necklace."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a person opening a light blue button-up shirt to show a gold chain with a small crucifix pendant on their chest."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing an open shirt revealing chest hair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing an open light-blue shirt reveals their chest and a gold crucifix necklace."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person's torso wearing an unbuttoned light blue shirt and a gold crucifix necklace."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with blue skin, wearing an unbuttoned light blue shirt and a gold cross necklace."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a blue-painted bare torso partially covered by an open light-blue shirt, with a gold chain and cross pendant."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person wearing blue scrubs holding their shirt open."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a blue-tinted body and shirt, wearing a gold chain with a crucifix pendant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a person with blue skin wearing an unbuttoned light blue shirt and a gold crucifix necklace."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless person with a beard and mustache, wearing two gold chains with a cross pendant, poses with arms crossed against a dark background, looking upwards."
+        },
+        "gpt-4o-mini": {
+          "summary": "A shirtless man poses with his arms crossed, showcasing jewelry and a confident expression."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor portrait of a shirtless person with folded arms, facial hair, and gold necklaces including a cross pendant against a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man poses confidently in a dimly lit room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with a beard and gold necklaces stands with arms crossed against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a beard stands with arms crossed, wearing two gold chains including one with a cross pendant."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with a bare torso is flexing their arm, showcasing their physique and stretch marks."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing necklaces poses with bent arms indoors, with a closet visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man flexing his arm in a room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person flexes their arm indoors, showing toned muscles and wearing a gold chain."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a beard and glasses poses indoors, flexing his arm to display muscle definition while wearing gold chains and dark pants."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An animated character with horns,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character holding a gun, dressed in a blue coat with a futuristic background."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized illustration shows a horned, blue-skinned character in a trench coat aiming a large gun in a dramatic [ORGANIZATION] scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a futuristic cockpit holding a large weapon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized blue-skinned character with glasses and horns holds a large firearm against a dramatic, colorful background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized animated character with blue skin, horns, and glasses stands in a futuristic setting holding a large weapon."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A snow-covered street with parked cars and a tree, indicating a heavy snowfall."
+        },
+        "gpt-5.4": {
+          "summary": "A residential street at night is heavily covered in snow, with parked cars, houses, bare trees, and footprints visible along the roadway and sidewalk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A snowy urban street scene covered in snow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snowy urban street viewed from above, with cars and sidewalks blanketed in snow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a residential street at night where numerous parked cars and sidewalks are heavily covered in fresh snow."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene"
+        },
+        "gpt-4o-mini": {
+          "summary": "A snowy pathway lined with trees and a fence, creating a serene winter scene."
+        },
+        "gpt-5.4": {
+          "summary": "A residential front yard and walkway are buried in deep snow at night, with snow-covered trees, a fence, and a softly lit porch in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A snow-covered pathway lined by trees under bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snow-covered residential street with bare trees, fences, and parked cars buried under deep snow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A residential street and sidewalk are heavily blanketed in deep snow, with a large tree on the left casting long shadows across the pristine white surface."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a scene from an animated show featuring a character asking for help to limber up."
+        },
+        "gpt-5.4": {
+          "summary": "A TV in a dark room with blue ambient lighting displays an anime scene of a character stretching, with subtitles on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Anime character performing a stretch in front of an audience."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A TV displays an anime scene of a character stretching on a rocky cliff with subtitles reading 'So I want you to help me limber up.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television screen displays an anime scene featuring a white-haired character stretching on a rocky surface, set against a blue ambient-lit background."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character from an animated show speaking a line of dialogue on a television screen."
+        },
+        "gpt-5.4": {
+          "summary": "A TV in a dark room with blue backlighting displays an anime scene featuring a shirtless white-haired character and English subtitles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of an anime character lying down in a dimly lit room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A TV screen displays an anime character with white hair and subtitles reading 'So I want you to help me limber up.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television screen displays an anime scene featuring a shirtless character with white hair and yellow eyes, set against a blue ambient-lit background."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a modern glass building reflecting the sky and surrounding structures, with visible icicles and a coffee shop sign."
+        },
+        "gpt-5.4": {
+          "summary": "Upward view of a modern glass office building in a city, with snowy ledges, icicles, reflections of nearby towers, and a streetlamp against a partly cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A modern glass building under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle shot of a modern glass skyscraper with snow and icicles along its windows, under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a modern glass skyscraper with snow and icicles on its ledges, reflecting the blue sky and nearby buildings."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in a gym, wearing a black hoodie, green shorts, and athletic shoes, while showing off their leg."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a gym mirror selfie lifts one leg of their shorts to show their thigh muscles while standing near workout equipment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in gym attire standing near exercise equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in workout attire stands in a gym, showcasing their leg muscles while holding their shorts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a gym setting wearing a black hoodie and shorts pulls up their legging to display a muscular calf."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bowl of beef with rice, noodles, and vegetables, accompanied by a can of [ORGANIZATION] orange soda and a small bowl of soup."
+        },
+        "gpt-5.4": {
+          "summary": "A rice bowl topped with sliced beef, glass noodles, cabbage slaw, and sesame seeds sits on a wooden table beside a small soup and a can of [ORGANIZATION] by a window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bowl of beef stir-fry topped with sesame seeds sits next to a can of [ORGANIZATION] soda."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a beef bowl with rice, noodles, and coleslaw on a wooden table next to a [ORGANIZATION] soda can."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a Korean-style beef bowl with rice, glass noodles, and cabbage served in a paper container alongside a can of [ORGANIZATION] orange soda."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless person with a distinctive mustache and goatee, wearing glasses and gold chains, poses with crossed arms against a dark background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with crossed arms is posing shirtless, showcasing their muscular build and wearing multiple gold necklaces."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person with crossed arms is photographed indoors against a dark background, wearing glasses, a beard, and layered necklaces."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man wearing a gold necklace stands against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless man with a beard and gold necklaces stands with arms crossed against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a beard and glasses stands with arms crossed, wearing two gold chains including one with a cross pendant."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is seen from the back, shirtless and wearing grey sweatpants, taking a mirror selfie with a smartphone in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a mirror, showing their back while wearing gray shorts."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a shirtless person from behind in a bathroom, holding a phone and posing in front of a door."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in underwear."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person takes a mirror selfie in a dimly lit room, showing their back."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless person with dark hair is taking a mirror selfie of their back while wearing grey sweatpants in a dimly lit room."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with a beard and glasses, wearing only sweatpants and a necklace, poses indoors while pinching their stomach."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing with their shirt off, showcasing their physique in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing glasses and gray sweatpants poses from a low angle in a dim indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man flexing his muscles in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with glasses and a beard stands indoors, pointing at their midsection."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with glasses and a beard stands indoors wearing grey sweatpants, pinching the skin on his abdomen while looking at the camera."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in front of a mirror, wearing a black t-shirt and green shorts, with a focus on their leg."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor mirror selfie shows a person in a black shirt and shorts lifting one leg of the shorts to display their thigh, wearing white socks and a necklace."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black shirt and green shorts standing indoors near furniture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands indoors lifting their shorts to show their leg, with a TV displaying '7:30PM News' in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a black t-shirt and shorts stands indoors, lifting their pant leg to display a muscular thigh while wearing white socks."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A low-angle shot captures a person's torso wearing blue shorts and a cross necklace, illuminated by blue and purple ambient light."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a person's torso, with a focus on their bare stomach and casual clothing."
+        },
+        "gpt-5.4": {
+          "summary": "A low-light close-up selfie shows a shirtless torso wearing a necklace and blue drawstring shorts against a bluish background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person's torso wearing jeans against an evening sky backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person wearing blue shorts and a cross necklace, photographed outdoors during twilight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-light photo of a shirtless person's torso wearing blue sweatpants and a cross necklace against a twilight sky."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless person with a beard takes a mirror selfie"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a foggy bathroom mirror, showing their upper body."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry mirror selfie shows a shirtless person holding a phone in a steamy bathroom, with a small star decoration visible on the wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man taking a selfie in shower."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person takes a mirror selfie in a steamy shower, holding a smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless individual with a beard and gold chain takes a mirror selfie through a steamy, water-covered glass surface in a bathroom setting."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dynamic anime-style illustration of characters in superhero costumes, with a vibrant background of lanterns."
+        },
+        "gpt-5.4": {
+          "summary": "Anime-style poster art showing masked heroes striking action poses inside a tunnel-like vehicle with a red-lit street scene behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Anime characters in a dynamic action scene against an urban backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dynamic anime poster featuring four masked heroes in action poses against a red-lit urban backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional poster for the anime 'Kamen Rider' featuring four masked characters in dynamic poses with a red-lit background."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in neon yellow swim trunks stands on a sandy beach with arms outstretched, facing the bright sun over the ocean, with a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in bright yellow shorts stands on a beach, facing the sun with arms outstretched."
+        },
+        "gpt-5.4": {
+          "summary": "A person in bright neon swim trunks stands on a [LOCATION] facing the ocean with arms open, backlit by the low sun near a pier."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands shirtless in neon yellow shorts facing a bright sun over an ocean beach."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands barefoot on a beach with arms outstretched, facing the sun near a pier."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless person in bright yellow swim trunks stands on a [LOCATION] facing the sun with arms outstretched, overlooking the ocean and a pier."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless person with a beard and a cross necklace is flexing their biceps while wearing light blue boxer briefs with a visible brand name on the waistband."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is flexing their arms while wearing blue underwear and a necklace."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person poses with crossed, flexed arms in blue underwear indoors while wearing a chain with a cross pendant."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual wearing turquoise underwear stands indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person poses indoors, flexing their arms while wearing turquoise underwear with visible branding."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a beard and gold cross necklace poses indoors wearing blue [PERSON] underwear."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person's upper body is shown from the side, flexing their bicep while wearing blue underwear with a visible brand name on the waistband."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person flexing their arm while wearing blue underwear, showcasing their torso."
+        },
+        "gpt-5.4": {
+          "summary": "A low-angle indoor selfie shows a shirtless person flexing one arm, with blue underwear and a chain necklace visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual flexing their arm in a gym-like environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person flexes their bicep indoors while wearing blue underwear with a visible brand waistband."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless individual with a beard is flexing their arm in an indoor setting, wearing blue shorts and a gold chain. The image appears to be a personal photo focused on physique."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A skunk is seen foraging near a crate filled with various items and dried plants."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white skunk is walking out from beside a plastic crate filled with dried plants and broken orange pots against an exterior wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A skunk stands near a crate of dishes in an outdoor garden area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A skunk stands on grass near a grey plastic crate filled with pottery and dried plants against a textured wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two skunks are foraging in a grassy yard next to a grey crate filled with pottery and a planter against a stucco wall."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a black t-shirt, olive green shorts, and white socks stands on a wooden floor, partially reflected in a mirror,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is standing in front of a mirror, showing their leg while wearing shorts and socks."
+        },
+        "gpt-5.4": {
+          "summary": "A person indoors lifts one side of their shorts to show a muscular upper leg while standing on a wooden floor in socks."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person standing in a room wearing shorts and socks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a mirror selfie adjusts their shorts while standing indoors on wooden flooring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands indoors on a wooden floor, lifting their shorts to display a muscular thigh while wearing white socks and a black shirt."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lifting the hem of their shorts to reveal their leg while standing indoors."
+        },
+        "gpt-5.4": {
+          "summary": "A person indoors lifts the leg of their shorts to show a muscular upper leg while standing barefoot on a wooden floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in olive green shorts standing barefoot indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in olive shorts stands barefoot indoors, lifting one leg while holding the fabric."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands indoors on a wooden floor, lifting the hem of their green shorts to display their thigh and calf muscles."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a blue, brain-shaped stress ball, with a blurred keyboard visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a blue brain-shaped stress ball in their hand."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a small blue brain-shaped object in a close-up shot, with a keyboard blurred in the background on a desk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a blue object resembling an egg against a keyboard background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a blue brain-shaped stress toy in front of a keyboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a blue, brain-shaped stress ball on a desk with a keyboard in the background."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds an orange sticky note featuring a sketch of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand-drawn sketch of a character on a bright orange sticky note."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds an orange sticky note with a rough anime-style character sketch featuring twin tails and cat-like ears, with a small doodle in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a drawing of an anime-style character."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds an orange sticky note with a sketch of an anime-style character with cat ears and a small cartoon face in the corner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds an orange sticky note featuring a quick, rough sketch of an anime-style character with cat ears and pigtails drawn in black ink."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless person with a beard and mustache, wearing a gold chain, poses with crossed arms in what appears to be a bathroom with white tiled walls and a shower curtain."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with a muscular build poses shirtless in a bathroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person with folded arms poses for a low-angle bathroom selfie, showing a beard, [ORGANIZATION], and tiled wall in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular man stands shirtless in a bathroom mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with a beard and muscular build stands in a bathroom with arms crossed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a beard and gold chain stands in a bathroom with white tiled walls, arms crossed."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses and a goatee is shown shirtless, flexing their bicep in a tiled room."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person flexes their arm muscle in a bathroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing glasses takes a low-angle mirror-style selfie while flexing an arm in a tiled bathroom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man flexes his arm in a bathroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person flexes their bicep in a tiled bathroom while wearing glasses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with glasses and a beard flexes his bicep in a bathroom with white tiled walls."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A brown and white dog with large ears is lying"
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is resting on a black mat in a bathroom setting, surrounded by various items on shelves."
+        },
+        "gpt-5.4": {
+          "summary": "A brown-and-white dog is lying on a black bath mat in a small bathroom beside a storage cart filled with toiletries and towels."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog lounging in a bathroom corner next to shelves filled with various items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A brown and black dog rests on a black rug in a tiled bathroom corner near stacked storage bins."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A brown and black dog with large ears lies on a black mat in a bathroom corner next to a white storage cart."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person from behind, standing with their hands on their hips in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person is photographed from behind indoors with hands on hips, showing their back and a forearm tattoo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands from behind in a room wearing dark pants."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person viewed from behind, hands on hips, showing their back and lower torso."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person is shown from behind, shirtless with hands on hips, wearing dark pants and a gold chain, revealing a back tattoo."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is flexing their arm while posing in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing glasses and necklaces poses indoors in a side-flex stance against a plain room background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man flexing his muscles in a room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless man with glasses and a beard poses indoors, flexing his arms and looking upward."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with glasses and a goatee poses indoors, flexing his arm muscles while wearing gold necklaces."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A calm, foggy sea with a smooth surface and minimal visibility."
+        },
+        "gpt-5.4": {
+          "summary": "A minimalist view of calm open water meeting a hazy pale sky at the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a calm sea under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calm ocean under a hazy, overcast sky with no visible land or people."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A calm body of water meets a dense, gray fog at the horizon line under an overcast sky."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large cargo ship is partially obscured by fog on a calm body of water."
+        },
+        "gpt-5.4": {
+          "summary": "A large cargo ship sits on calm water in a hazy, minimalist seascape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Foggy seascape featuring a large cargo ship."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large cargo ship with cranes is partially obscured by fog on a calm body of water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large cargo ship with four cranes is visible on calm water, partially obscured by heavy fog or mist."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an animated character with long black hair and a traditional outfit, standing in front of ornate doors."
+        },
+        "gpt-5.4": {
+          "summary": "A TV screen displays an anime character in traditional-style clothing standing indoors, with small desk items and figurines visible below the TV."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of an animated character in traditional attire displayed on a TV screen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A TV displays an anime character in traditional attire against a wooden door backdrop, with collectibles on the stand below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television screen displays an anime character with dark hair and blue eyes wearing traditional yellow clothing, set against a wooden interior background."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts an animated scene featuring a character in traditional attire standing in front of a door, with two other characters observing."
+        },
+        "gpt-5.4": {
+          "summary": "A large TV displays an anime scene with three characters in a richly decorated interior, set up in a living room with small toys and decor on the console."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A TV screen displays an animated scene featuring three characters in a traditional Asian interior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An anime scene showing three characters in a traditional room, viewed on a TV with decorative items on the stand below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television screen displays an animated scene featuring three characters in traditional attire within a warmly lit, ornate room."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit sidewalk at night with parked cars and [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A slightly blurry nighttime view down a city sidewalk with parked cars, brick apartment buildings, streetlights, and red traffic lights ahead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime street scene featuring parked cars along a sidewalk lined by brick buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime street view showing parked cars, a sidewalk, and brick buildings illuminated by [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A motion-blurred night view of a residential sidewalk lined with parked cars and brick buildings under streetlights."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless man with a beard and a gold chain with a cross pendant looks upwards, captured from a low angle in what appears to be an indoor setting with tiled walls."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person standing in a bathroom, partially shirtless, showcasing their upper body and jewelry."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person poses from a low angle in a tiled bathroom, wearing gold necklaces including a cross pendant."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular man wearing a gold necklace in an indoor bathroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless man with a beard and gold cross necklace looks upward in a bathroom with white tiled walls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a beard and [ORGANIZATION] stands in a bathroom, looking upward."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large cargo ship is silhouetted against a vibrant twilight sky with a gradient of blue, purple, and orange, floating on dark water with a distant city skyline."
+        },
+        "gpt-4o-mini": {
+          "summary": "A silhouette of a cargo ship against a colorful sunset sky."
+        },
+        "gpt-5.4": {
+          "summary": "A silhouetted cargo ship sits on calm water in a harbor at dusk beneath a blue-to-orange sunset sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A silhouette of a cargo ship against an evening sky transitioning from blue to orange."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cargo ship silhouetted against a twilight sky with cranes and city lights along the waterfront."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large cargo ship with cranes is silhouetted against a vibrant twilight sky while floating on calm water."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with a mustache and goatee, wearing a gold chain with a cross pendant, flexes their bicep while taking a mirror selfie in what appears to be a tiled room."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person flexes their arm in a bathroom setting, showcasing their physique."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person with facial hair flexes one arm in a tiled bathroom while wearing a gold cross necklace."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man flexing his arm in a bathroom mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person flexes their bicep in a tiled bathroom while looking at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a beard and gold cross [ORGANIZATION] flexes his bicep in a bathroom with white tiled walls."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with glasses and a goatee poses shirtless, flexing their arms and stomach, in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing with their shirt lifted, showing their torso and flexing their arms."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing glasses and dark sweatpants poses indoors from a low-angle camera view, gripping their waist in a casual room shot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person flexing their muscles in a room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with glasses and a beard stands indoors, flexing their arms while holding their midsection."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with glasses and a beard stands indoors flexing his upper body muscles while wearing dark sweatpants."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is shown from the back, shirtless, with hands on their hips, wearing dark pants, in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person from behind, standing with hands on their hips in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person is photographed from behind indoors with hands on their hips, wearing dark pants and showing a forearm tattoo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person standing from behind in a room wearing dark pants."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person stands with their back to the camera, hands on hips, revealing a tattooed arm and dark pants in an indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless person stands with their back to the camera, hands on hips, wearing dark pants and a gold chain in an indoor setting."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A shirtless man poses in a bathroom, holding his waist with a towel wrapped around him."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing a towel poses in a bathroom, photographed from a low angle against white tiled walls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man stands in a bathroom mirror flexing his muscles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless man with a towel around his waist stands in a tiled bathroom, looking upward."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a beard and [ORGANIZATION] stands in a tiled bathroom wearing a towel, looking upward while holding his stomach."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man stands in a bathroom, partially covered with a towel, looking down."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person stands in side profile in a tiled bathroom with a towel wrapped around their waist."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man in a bathroom wearing towel after showering."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with wet hair stands in a bathroom wrapped in a towel, looking down."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a beard and messy hair stands in a bathroom wrapped in a towel, looking downward against a backdrop of white subway tiles."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing headphones and a dog are lying together on a couch, both appearing relaxed and content."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is relaxing on a couch with a dog cuddled up beside them."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing glasses and headphones smiles for a close indoor selfie while cuddling with a dog on a couch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones lounges next to a dog in a cozy indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing headphones and glasses smiles while lying on a couch next to a dog."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing headphones and glasses lies on a couch next to a relaxed dog."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing headphones and glasses is"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing headphones is lying down with a dog close to their face."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person wearing glasses and headphones lying next to a dog, with a birdcage visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones interacts affectionately with a dog."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing headphones and glasses smiles while lying down with a dog resting its head on their chest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing glasses and headphones lying down while affectionately interacting with a dog."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing headphones is taking a selfie while standing with their back to the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black tank top and headphones takes a back-view mirror selfie indoors against a plain wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones takes a mirror selfie in black attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing headphones and a black tank top takes a mirror selfie while facing away from the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark curly hair, wearing a black tank top and headphones, is taking a mirror selfie from behind."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person seen from behind, wearing headphones and a black tank top, flexes their bicep while taking a mirror selfie with a smartphone in what appears to be a gym."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person flexes their arm muscles while taking a selfie in a gym setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black tank top and headphones flexes both arms while taking a mirror selfie in a plain indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person flexing their arm while taking a mirror selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a gym flexes their arm while taking a mirror selfie with a smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a black tank top and headphones is taking a mirror selfie while flexing their back muscles."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person lying in bed with a dog snuggled beside them, both looking towards the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a person resting with a dog, both appearing relaxed."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person lying in bed cuddling with a brown, black, and white dog."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person cuddles a dog in bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a close-up selfie in bed with their dog resting its head between their arms."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person lying in bed cuddling with a tricolor dog."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person and a dog are lying close together on a bed, with the dog's head resting on the person's arm and a floral pillow."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying in bed with a dog, both appearing relaxed and close together."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor photo shows a dog cuddling on a bed with a person resting against pillows."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person cuddles a dog in bed under floral bedding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person and a dog are resting together on a bed with floral-patterned bedding."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person lying in bed cuddling with a tricolor dog. The dog is resting its head on the person's arm while the person looks at the camera from behind the dog's ear."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fantasy video game screenshot shows an armored elf-like character holding a glowing staff, standing in a lush outdoor environment with a ghostly figure and a floating horned skull nearby."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a fantasy character standing in a vibrant, lush environment alongside a spectral minion."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy MMORPG screenshot shows an armored character with glowing green effects standing in a forested area beside a named minion."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "<Vilaith>, a character named '[PERSON]'s Minion', stands in an enchanted forest environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fantasy game character stands in a glowing forest beside a skull with purple energy, with text identifying them as 'Vilaith <[ACCOUNT]'s Minion>'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from a fantasy MMORPG featuring an armored character with glowing green accents standing in a forest environment near a large stone structure and floating skull."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand holding a blue sticky note with sketches of cartoonish creatures, including a dragon and a frog-like character."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds blue sticky notes with pen sketches of cartoon reptile-like creatures in front of a computer keyboard and desk workspace."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a drawing of two anime-style characters in front of computer equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a sketch of stylized dragon-like creatures on a green sticky note, with a computer keyboard and plush toy in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a green sticky note featuring a quick ink sketch of two anthropomorphic dragon characters, set against a desk background with a keyboard and computer monitor."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a blue sticky note featuring a simple sketch of a dinosaur-like character."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a blue sticky note with a quick sketch of a cartoon dinosaur or reptile character, with a keyboard and desk items in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a drawing of an anthropomorphic character sketched in pen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds up a green sticky note with a simple sketch of a cartoonish dinosaur."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a green sticky note featuring a rough black ink sketch of a cartoon dinosaur head against a desk background with a keyboard."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An image shows a person from the back, shirtless and wearing dark pants, with hands on their hips, revealing a tattoo on the left arm and a gold chain around the neck."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person from the back, standing with their hands on their hips, wearing dark pants."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person is shown from behind indoors with hands on hips, wearing dark pants and a necklace."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands from behind in a room wearing dark pants."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person viewed from behind, shirtless and wearing dark pants, standing with hands on hips in an indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless person stands with their back to the camera, hands on hips, wearing dark pants and a necklace in an indoor setting."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person lying down with a dog resting its head on them, creating a cozy and affectionate"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a dog resting against a person's arm."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person lying in bed and cuddling a large dog against a pillow."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person cuddles a dog in bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person resting in bed with a dog lying on their chest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person lying in bed cuddling with a tricolor dog."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a [LOCATION]"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] code associated with a [LOCATION] account, featuring a cartoon avatar and user information."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile app screen shows a [ORGANIZATION] profile QR code for [PERSON] ([ACCOUNT]) with options to share or copy the link."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] code featuring a cartoon character."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] profile QR code for user [PERSON] ([ACCOUNT]) with share and copy link options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [LOCATION] profile sharing screen displaying a QR code with a cartoon avatar and the username [PERSON]."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person from the back, standing in a bathroom with a towel around their waist."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person is shown from behind in a tiled bathroom, standing with hands on hips and a towel wrapped around the waist."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a bathroom mirror wearing gray shorts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person viewed from behind in a bathroom, hands on hips, wearing a towel and gold chain."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands with their back to the camera in a bathroom, wearing a gold chain and a grey towel around their waist."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing headphones takes a selfie while flexing their arm in a gym setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing headphones and a black sleeveless top poses from the back while taking a mirror selfie against a plain indoor wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones takes a mirror selfie in front of a plain wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with muscular back wearing headphones and a black tank top takes a selfie in front of a plain wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with short dark hair and headphones is seen from behind, wearing a black tank top and taking a mirror selfie with a smartphone."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is flexing their leg muscles while wearing shorts and socks in a living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person indoors lifts black shorts to show their thighs and legs while standing beside a green couch in a home setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person adjusting their shorts while seated in a living room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in athletic shorts and white socks stands indoors, lifting their shirt to show their legs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands indoors wearing a white graphic t-shirt and black shorts, lifting the hem to display their thigh muscles while standing on a colorful striped rug."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with glasses and a goatee poses shirtless, flexing his arms and stomach, in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing with their arms flexed and hands on their waist, showcasing their physique."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing glasses and a necklace poses indoors from a low-angle view with hands near the waistband."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person flexing their muscles in a room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person with glasses and a beard stands indoors, pulling their stomach skin taut with both hands."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with glasses and a beard stands indoors, flexing his arms while wearing dark sweatpants and a gold cross necklace."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is shown from the back, standing in what appears to be a bathroom with white tiled walls, wearing a gold chain."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person from behind in a bathroom setting, with a focus on their back and shoulders."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person is shown from behind posing in a bathroom with white tiled walls and a shower curtain visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a bathroom mirror showing their back."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless person viewed from behind in a tiled bathroom, hands on hips."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless person with dark hair and a gold chain stands in a bathroom, showing their back to the camera. The setting features white subway tiles and a shower curtain."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dog with brown and tan fur is seen resting comfortably on a floral pillow in a dimly lit bedroom, partially covered by a striped blanket."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is resting comfortably between pillows in a cozy bed setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dog is tucked into bed beside a person in a dimly lit bedroom, creating a cozy nighttime scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog resting in bed under a floral blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog rests its head between two pillows in a dimly lit bedroom, with a hand gently touching its back."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A brown and black dog rests its head on a floral pillow in bed, nestled between striped bedding with a human hand visible nearby."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an animated character in boxing gloves running towards a fiery background on a television screen."
+        },
+        "gpt-5.4": {
+          "summary": "A living room setup centers on a large TV showing an anime boxing scene with fiery orange visuals and Japanese credits."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A TV screen displays an animated character in a dynamic pose against fiery background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A TV displays an anime boxing scene with a fiery sunset backdrop, set in a living room with a wooden media console holding toys and electronics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television screen displays an anime scene of a boxer in a fighting stance against a fiery background, situated above a wooden media console holding various figurines and toys."
+        }
+      }
     }
   }
 }

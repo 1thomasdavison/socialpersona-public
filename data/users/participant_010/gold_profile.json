@@ -1,58 +1,73 @@
 {
   "user_id": "participant_010",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
       "status": "active",
       "long_term_interests": [
         {
-          "label": "outdoor activities",
+          "label": "outdoor recreation",
           "evidence_post_indices": [
+            0,
             1,
-            2,
-            3
+            14,
+            18,
+            22,
+            29
           ],
           "evidence_post_ids": [
-            "participant_010_phase_2",
-            "participant_010_phase_3",
-            "participant_010_phase_4"
+            "participant_010_post_0001",
+            "participant_010_post_0002",
+            "participant_010_post_0015",
+            "participant_010_post_0019",
+            "participant_010_post_0023",
+            "participant_010_post_0030"
           ]
         },
         {
-          "label": "walking and hiking",
+          "label": "hiking",
           "evidence_post_indices": [
+            0,
             1,
-            2,
-            3
+            18,
+            23
           ],
           "evidence_post_ids": [
-            "participant_010_phase_2",
-            "participant_010_phase_3",
-            "participant_010_phase_4"
+            "participant_010_post_0001",
+            "participant_010_post_0002",
+            "participant_010_post_0019",
+            "participant_010_post_0024"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "sports outdoor interests",
+          "label": "river beach",
           "evidence_post_indices": [
-            1,
-            2
+            29
           ],
           "evidence_post_ids": [
-            "participant_010_phase_2",
-            "participant_010_phase_3"
+            "participant_010_post_0030"
           ]
         },
         {
-          "label": "walking and hiking",
+          "label": "snowboarding",
           "evidence_post_indices": [
-            3
+            12
           ],
           "evidence_post_ids": [
-            "participant_010_phase_4"
+            "participant_010_post_0013"
+          ]
+        },
+        {
+          "label": "mountain hiking",
+          "evidence_post_indices": [
+            0
+          ],
+          "evidence_post_ids": [
+            "participant_010_post_0001"
           ]
         }
       ]
@@ -83,56 +98,107 @@
       "status": "active",
       "long_term_interests": [
         {
+          "label": "sightsee",
+          "evidence_post_indices": [
+            2,
+            13,
+            18,
+            19,
+            21,
+            25,
+            29,
+            30,
+            31,
+            32,
+            37
+          ],
+          "evidence_post_ids": [
+            "participant_010_post_0003",
+            "participant_010_post_0014",
+            "participant_010_post_0019",
+            "participant_010_post_0020",
+            "participant_010_post_0022",
+            "participant_010_post_0026",
+            "participant_010_post_0030",
+            "participant_010_post_0031",
+            "participant_010_post_0032",
+            "participant_010_post_0033",
+            "participant_010_post_0038"
+          ]
+        },
+        {
+          "label": "city skyline",
+          "evidence_post_indices": [
+            24,
+            26,
+            39
+          ],
+          "evidence_post_ids": [
+            "participant_010_post_0025",
+            "participant_010_post_0027",
+            "participant_010_post_0040"
+          ]
+        },
+        {
+          "label": "nature travel",
+          "evidence_post_indices": [
+            0,
+            22,
+            23
+          ],
+          "evidence_post_ids": [
+            "participant_010_post_0001",
+            "participant_010_post_0023",
+            "participant_010_post_0024"
+          ]
+        },
+        {
           "label": "city exploration",
           "evidence_post_indices": [
-            0,
-            1
+            28,
+            37,
+            39
           ],
           "evidence_post_ids": [
-            "participant_010_phase_1",
-            "participant_010_phase_2"
-          ]
-        },
-        {
-          "label": "travel",
-          "evidence_post_indices": [
-            1,
-            3
-          ],
-          "evidence_post_ids": [
-            "participant_010_phase_2",
-            "participant_010_phase_4"
-          ]
-        },
-        {
-          "label": "travel city exploration interests",
-          "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
-          ],
-          "evidence_post_ids": [
-            "participant_010_phase_1",
-            "participant_010_phase_2",
-            "participant_010_phase_3",
-            "participant_010_phase_4"
+            "participant_010_post_0029",
+            "participant_010_post_0038",
+            "participant_010_post_0040"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "travel city exploration interests",
+          "label": "banff",
           "evidence_post_indices": [
-            1,
             2,
-            3
+            21
           ],
           "evidence_post_ids": [
-            "participant_010_phase_2",
-            "participant_010_phase_3",
-            "participant_010_phase_4"
+            "participant_010_post_0003",
+            "participant_010_post_0022"
+          ]
+        },
+        {
+          "label": "aurora boreali",
+          "evidence_post_indices": [
+            19,
+            25
+          ],
+          "evidence_post_ids": [
+            "participant_010_post_0020",
+            "participant_010_post_0026"
+          ]
+        },
+        {
+          "label": "national park",
+          "evidence_post_indices": [
+            18,
+            22
+          ],
+          "evidence_post_ids": [
+            "participant_010_post_0019",
+            "participant_010_post_0023"
           ]
         }
       ]
@@ -142,35 +208,61 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "photography",
+          "label": "landscape photography",
           "evidence_post_indices": [
-            1,
-            2
+            13,
+            16,
+            21,
+            22
           ],
           "evidence_post_ids": [
-            "participant_010_phase_2",
-            "participant_010_phase_3"
+            "participant_010_post_0014",
+            "participant_010_post_0017",
+            "participant_010_post_0022",
+            "participant_010_post_0023"
+          ]
+        },
+        {
+          "label": "nature photography",
+          "evidence_post_indices": [
+            13,
+            21,
+            22
+          ],
+          "evidence_post_ids": [
+            "participant_010_post_0014",
+            "participant_010_post_0022",
+            "participant_010_post_0023"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "crafts and design",
+          "label": "crafting",
+          "evidence_post_indices": [
+            31
+          ],
+          "evidence_post_ids": [
+            "participant_010_post_0032"
+          ]
+        },
+        {
+          "label": "design history",
           "evidence_post_indices": [
             3
           ],
           "evidence_post_ids": [
-            "participant_010_phase_4"
+            "participant_010_post_0004"
           ]
         },
         {
-          "label": "photography creation interests",
+          "label": "graphic design",
           "evidence_post_indices": [
-            0
+            7
           ],
           "evidence_post_ids": [
-            "participant_010_phase_1"
+            "participant_010_post_0008"
           ]
         }
       ]

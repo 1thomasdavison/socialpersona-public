@@ -1,57 +1,249 @@
 {
   "user_id": "participant_026",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "live performances",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: live performances; outdoor activities."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person walks in a stylish outfit featuring a black coat and a red bag in an outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A street-style fashion photo shows a person in a black oversized coat and sunglasses walking outdoors with a bright red bag and light blue shoes near a stone building."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stylish woman in a black coat walks confidently down an urban street."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman walks outdoors wearing a black cape-style coat, sunglasses, and carries a bright red bag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a black cape-style coat and sunglasses walks outdoors while carrying a bright red bag and wearing light blue shoes."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "live performances",
-        "outdoor activities",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: live performances; outdoor activities; walking and hiking."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A humorous image depicting a person holding a fork while interacting with a large, inflated object."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous indoor scene shows a person in a pink shirt using an oversized fork to poke a large rounded padded object squeezing through a doorway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a pink shirt holds a fork against an inflated object resembling a large bubble."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a pink shirt uses a large fork to poke a giant white pillow while peeking from behind a wooden door."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a pink shirt holds a large fork against an inflated white costume while standing next to a red wall with the text '[ORGANIZATION]'."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "outdoor activities",
-        "photography",
-        "reading",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: city exploration; outdoor activities; photography; reading; walking and hiking."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman wearing a grey pinstripe suit and sunglasses stands outdoors in front of a building, possibly a hotel, with other people in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a stylish gray oversized suit stands outside a luxury hotel, while others are engaged in conversation nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A person in an oversized gray pinstripe suit and sunglasses stands outside the entrance of [ORGANIZATION] hotel, with staff and pedestrians nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a stylish gray suit stands outside [ORGANIZATION] hotel entrance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a gray pinstripe suit stands outside a hotel entrance, with staff and another person nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a grey pinstripe suit and sunglasses stands outside the entrance of [ORGANIZATION] hotel, flanked by staff and other pedestrians."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "live performances",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; live performances; walking and hiking."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman wearing a red oversized top, white pleated skirt, and sunglasses poses against a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in a red oversized top and a white skirt, holding a green handbag against a dark background with a logo."
+        },
+        "gpt-5.4": {
+          "summary": "A person in sunglasses poses in front of a dark event-style backdrop wearing an oversized red top, a white pleated skirt, and holding a green handbag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a red oversized sweater over white shorts stands in front of an 'Inception' movie poster."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a red oversized top and white skirt poses against a branded wall with a crocodile logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman wearing a red oversized pullover, white pleated skirt, and sunglasses poses in front of a dark backdrop featuring red text and graphics."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "live performances",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: live performances; walking and hiking."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a black t-shirt with the text 'MOTHER Gothel' poses with a playful expression."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up outdoor selfie of a person in oversized tinted sunglasses pulling forward a black graphic T-shirt that reads “Mother Gothel.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a 'Mother Gothel' t-shirt adjusts it while outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing sunglasses and a black T-shirt with 'MOTHER Gothel' text and cartoon illustrations, pulling the shirt up to display it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing large sunglasses and a black t-shirt featuring the [ORGANIZATION] character [PERSON] from Tangled stands outdoors with an elephant trunk visible in the background."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "live performances",
-        "visual art",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: city exploration; live performances; visual art; walking and hiking."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a black t-shirt with 'MOTHER Gothel' printed on it poses with a playful expression."
+        },
+        "gpt-5.4": {
+          "summary": "A woman outdoors takes a selfie while holding up a black T-shirt featuring the text \"MOTHER Gothel\" and character artwork, with a palm tree in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a 'Mother Gothel' t-shirt adjusts it while outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing sunglasses adjusts a black t-shirt featuring cartoon characters and the text 'MOTHER Gothel'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing yellow-tinted sunglasses and a black t-shirt featuring the [ORGANIZATION] character [PERSON] from Tangled."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long hair and glasses poses confidently in a stylish outfit on stage."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media comment section shows a stage photo of a performer holding a microphone and a visible comment reading \"[PRIVATE_TEXT].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting in a red chair wearing glasses and casual clothing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with blonde hair and glasses sits on a red couch holding a microphone, wearing a dark jacket and shiny silver pants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post featuring a blonde woman in glasses and casual clothing holding a microphone, with a visible comment from user [PERSON] stating '[PRIVATE_TEXT]'."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a figure with animal-like features, sitting with its head in its hands, conveying a sense of despair."
+        },
+        "gpt-5.4": {
+          "summary": "A dark, blue-toned illustration shows a humanoid wolf-like figure sitting with its face buried in its hands in a forest setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dark, ethereal creature resembling a wolf or similar animal in an icy environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark, stylized creature with pointed ears covers its face with both hands in a dimly lit, blue-toned environment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark, stylized illustration of a wolf-like creature covering its face with its hands in a gesture of despair or shame."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a woman with curly hair, displaying text about her age and birth date."
+        },
+        "gpt-5.4": {
+          "summary": "A social media graphic shows a woman speaking at a microphone with Portuguese text reading '28 anos' and the date '[PRIVATE_TEXT].'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman speaking into a microphone in front of an [ORGANIZATION] logo."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with curly hair stands at a podium, with text overlay indicating '28 anos' and the date '[PRIVATE_TEXT]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with curly red hair and a pearl headband stands at a podium, overlaid with text indicating she is 28 years old and born on [DATE]."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime image shows a large crowd at an outdoor concert or show, with stage lights illuminating the scene and several attendees holding up phones to record."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a crowd at a concert with people holding up their phones to record the performance."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime outdoor concert scene shows a crowd watching bright stage or aerial lights, with one person holding up a phone to record."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are attending a concert under bright stage lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowd at a nighttime concert, viewed from behind a person recording with their phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night-time concert scene showing a crowd from behind, with one person holding up a smartphone to record the stage lights."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is walking outdoors at night, wearing a black leather jacket and carrying a large black bag."
+        },
+        "gpt-5.4": {
+          "summary": "A person smiles while walking on a city sidewalk at night, wearing a black leather jacket, wide-leg jeans, and heeled ankle boots with two black bags."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black leather jacket carrying bags walks outside near brick walls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman walks outdoors at night wearing a black leather coat, light blue jeans, and black boots while carrying multiple bags."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a black leather jacket and wide-leg jeans walks through an urban alleyway at night while carrying multiple bags."
+        }
+      }
     }
   }
 }

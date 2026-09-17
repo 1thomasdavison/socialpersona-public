@@ -1,63 +1,535 @@
 {
   "user_id": "participant_095",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "music",
-        "nature visits",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: music; nature visits; photography; visual art."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two women pose playfully by a pool, enjoying a sunny day."
+        },
+        "gpt-5.4": {
+          "summary": "Poolside selfie of two women in swimsuits sitting at the edge of a small outdoor pool, with one holding up a can and a sea turtle mural in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two women are relaxing by a poolside; one holds a drink can."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women in swimsuits pose for a selfie by a poolside with lounge chairs and a turtle mural in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two women in swimwear pose for a selfie at the edge of an outdoor swimming pool, with one holding a beverage can and a mural visible on the wall behind them."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "music",
-        "nature visits"
-      ],
-      "summary": "Generalized visual topics: music; nature visits."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two children are playing on the steps of a lighthouse on a sunny day."
+        },
+        "gpt-5.4": {
+          "summary": "A tall white lighthouse is photographed from the bottom of a staircase under a clear blue sky, with two people posing on the side rail near the steps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two children pose near a lighthouse under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two children pose on stairs leading up to a tall white lighthouse under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two children pose on concrete stairs leading up to a tall white lighthouse against a clear blue sky."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "music",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; music; nature visits; outdoor activities; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three children are playing in the shallow ocean water under a wooden pier, with waves splashing around them."
+        },
+        "gpt-4o-mini": {
+          "summary": "Children are playing in shallow water under a pier."
+        },
+        "gpt-5.4": {
+          "summary": "Three people are splashing and wading in shallow ocean water beneath a wooden beach pier, creating a playful summer scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Children play in shallow water under a pier."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three children play in shallow water under a wooden pier on a beach."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three children play in the shallow water beneath a large wooden pier on a beach."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "music",
-        "nature visits",
-        "outdoor activities",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; music; nature visits; outdoor activities; spectator sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with long, light-colored hair wearing a black outfit, partially obscured by shadows."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit close-up selfie shows a person with long light-colored hair, bold makeup, and a black lace top, posing indoors on a bed or couch with a red-and-white blanket."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up selfie of a person in cosplay attire holding an object."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long blonde hair and dark makeup takes a selfie in a dimly lit room, wearing a black top with lace details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-light selfie of a person with long platinum blonde hair, heavy dark eye makeup, and red lipstick, wearing a black lace top and layered necklaces."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "music",
-        "nature visits",
-        "spectator sports",
-        "travel",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: music; nature visits; spectator sports; travel; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are posing together in festive attire, with two wearing red tops and patterned [PERSON], while one wears a [LOCATION] hat."
+        },
+        "gpt-5.4": {
+          "summary": "Three people pose indoors in matching red tops and festive holiday pajama pants, with one person wearing a [LOCATION] hat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three people in festive Christmas pajamas pose together indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people in festive Christmas pajamas pose together indoors, with one person wearing a [LOCATION] hat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three people pose indoors wearing matching red tops and dark pajama pants featuring Disney Christmas characters, with the central man wearing a [LOCATION] hat."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "music",
-        "nature visits",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; music; nature visits; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together in festive pajamas, smiling and taking a selfie in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows two people in a bedroom wearing coordinated red tops and matching Christmas-themed pajama pants, with one person also wearing a [LOCATION] hat and making a peace sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie in matching holiday-themed pajamas."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple in matching holiday-themed pajamas takes a selfie in front of a mirror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and woman pose in matching red tops and [PERSON] Christmas pajama pants while taking a mirror selfie."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a chair, wearing a graphic black top and denim shorts, with a casual pose and a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "A seated selfie shows a person in a black graphic long-sleeve top and denim shorts with bold makeup and jewelry against a stone wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie in front of brick wall wearing graphic t-shirt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long reddish hair poses for a selfie wearing a black graphic top and blue shorts, seated on a red chair against a brick wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with reddish-brown hair and heavy makeup poses for a selfie while wearing a black graphic top and denim shorts."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with red hair and expressive makeup, wearing a black and red '[PERSON] top, poses for a photo outdoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses for a selfie outdoors, wearing a black tank top with red accents."
+        },
+        "gpt-5.4": {
+          "summary": "An angled outdoor selfie shows a person with dramatic eye makeup and red lipstick wearing a black tank top with red trim while standing on a sidewalk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie outdoors wearing a sports bra."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie outdoors wearing a black tank top with white text and red trim."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle selfie of a person with reddish-brown hair wearing a black tank top with red trim and heavy eye makeup."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while sitting on a red surface, wearing a tank top and shorts."
+        },
+        "gpt-5.4": {
+          "summary": "An angled selfie shows a person seated on a red chair wearing a black crop top, denim shorts, jewelry, and bold pink makeup in front of a stone wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person posing in a casual outfit against an outdoor brick wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long hair and makeup takes a selfie while wearing a branded crop top and denim shorts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long reddish-brown hair and heavy makeup, wearing a dark blue crop top with white text and denim shorts."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with red hair and dramatic makeup"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person taking a selfie while wearing a casual outfit consisting of a tank top and shorts."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up outdoor selfie shows a person in a black tank top with red trim and denim shorts, wearing bold eye makeup and jewelry against a concrete background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person posing in a casual outfit against an urban backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with reddish hair takes a selfie lying on concrete, wearing a branded crop top and denim shorts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle selfie of a person with reddish-brown hair and heavy makeup, wearing a dark blue tank top with red trim and denim shorts on a concrete surface."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A young woman poses for a selfie, wearing a black tank top and denim shorts."
+        },
+        "gpt-5.4": {
+          "summary": "A high-angle outdoor selfie shows a person posing on a concrete walkway in a black tank top with red trim and denim shorts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie outdoors wearing denim shorts and a black tank top."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie outdoors wearing a branded crop top and denim shorts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle selfie of a person with reddish-brown hair wearing a black tank top and denim shorts on a concrete surface."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a pink chair, wearing a gray crop top and denim shorts."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person seated outdoors in a pink chair, wearing a light tank top and denim shorts with styled makeup and long hair."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a casual outfit taking a selfie outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair and bright makeup takes a selfie while sitting on a pink chair outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle selfie of a person with long red hair and heavy makeup, wearing a grey tank top and denim shorts while seated on a pink chair outdoors."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up selfie of a person with long, red-tinted hair, wearing a light top and shorts, taken outdoors with sunlight creating a lens flare effect."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up outdoor selfie of a person with long red hair in a light-colored top, lit by warm sunlight with strong lens flare against a blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie outdoors under bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long reddish hair takes a selfie outdoors under bright sunlight, wearing a sports bra and shorts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long reddish-purple hair and heavy makeup, wearing athletic wear against a bright blue sky with strong lens flare."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up view of a person sitting in a chair, wearing a black bikini with a visible belly button piercing that has the word 'Love' on it."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up top-down photo shows a person in a black bikini sitting on a patterned beach chair or towel in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing swimwear sitting outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up selfie of a person wearing a dark bikini top with a belly button piercing that reads 'LOVE'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, high-angle shot of a person wearing a black bikini top and navel jewelry while seated on a [LOCATION] chair with a popsicle pattern."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a cap, black t-shirt over a white long-sleeve, and cargo pants is standing"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is adjusting their pants while standing next to a vintage car."
+        },
+        "gpt-5.4": {
+          "summary": "A person in layered streetwear adjusts a wide pant leg beside a beige vintage car on a city street."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a casual outfit adjusting their pants while standing near an old car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in streetwear poses beside a vintage car, lifting their pant leg to show sneakers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a layered outfit with a cap and sneakers poses next to a vintage beige car on a city street."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is standing in a room wearing a graphic t-shirt and baggy jeans, holding a phone."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a casual streetwear outfit with a black graphic T-shirt layered over a gray long-sleeve top, baggy light-wash jeans, and white sneakers in a bright room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing layered clothing in an indoor room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a graphic tee, layered long-sleeve shirt, [ORGANIZATION], and white sneakers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie wearing an oversized black graphic t-shirt layered over a long-sleeved shirt, paired with wide-leg blue jeans and white sneakers."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person's midsection, showcasing a belly button piercing and decorative clothing."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor mirror-style shot of a midriff with a navel piercing, long decorated nails, a white crop top, and butterfly-patterned shorts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person's midriff showing their belly button piercing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a person's midsection showing a belly button piercing and decorative nails, with a white top pulled up and butterfly-patterned bottoms against a yellow wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a person's midsection featuring a navel piercing, long manicured nails with rhinestones, and clothing with butterfly patterns."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital music player interface is displayed, showing the album art for 'let you' by iann dior, with playback controls and a 'Headphones' option."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song 'let you' by iann dior with an artistic background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen is shown playing the song \"let you\" by iann dior, with purple-toned album art and playback controls visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Music player interface showing a song by iann dior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen displays a music player interface for the song 'let you' by iann dior."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player interface displaying the song 'let you' by iann dior with purple album art."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smartphone screen displays a music player interface with"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a music player interface displaying the song 'my worst enemy' by [PERSON], with a stylized visual of a woman holding a miniature figure."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player overlay shows the song \"my worst enemy\" by [PERSON] with dark stylized album art and playback controls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Music player interface showing 'my worst enemy' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface shows a song titled 'my worst enemy' by [PERSON], with an album art featuring a woman holding a small figure."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player interface displaying the song 'my worst enemy' by [PERSON] with its album art."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person holds a bottle of [ORGANIZATION] in a car,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a bottle of [ORGANIZATION] in a car, with a foot in a flip-flop visible in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a bottle of Twisted Tea Original hard iced tea inside a car, with bright sunlight and a sandal-clad foot visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a bottle of [ORGANIZATION] in their car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a bottle of Twisted [ORGANIZATION] inside a car, with feet in sandals visible nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person holds a bottle of Twisted Tea Original hard iced tea while relaxing in a car with their feet up."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A yellow car with 'TWISTED T' and"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a yellow car with 'TWISTED T' written on its rear, captured in traffic under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A yellow customized sports car with black accents is seen from behind in daytime traffic at an urban intersection."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A yellow car labeled 'TWISTED T' in traffic under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow car with 'TWISTED T' written on its rear window is stopped in traffic under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow sports car with a black spoiler and custom lettering is stopped in traffic on a sunny day."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a car, showcasing their outfit and makeup."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit selfie shows a person seated in a car, wearing a floral top and denim shorts with bold eye makeup and long reddish hair."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie in their car wearing floral top."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long hair and bright makeup takes a selfie while lounging in the passenger seat of a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long reddish-brown hair and heavy makeup poses for a selfie in the passenger seat of a car, wearing a floral top and denim shorts."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person's midsection wearing a floral top and denim shorts, with a visible belly button piercing."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a midriff outfit in a car seat, featuring denim shorts, a floral top, bracelets, and a decorative belly-button piercing in warm sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing denim shorts adjusts a floral top."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a person's midsection wearing denim shorts and a floral top, showing a belly button piercing and bracelets."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a person's midsection wearing denim shorts and a floral crop top, featuring a belly button piercing and beaded bracelets."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of hands holding colorful drinks with a beach background."
+        },
+        "gpt-5.4": {
+          "summary": "Four hands toast with iced drinks in branded foam cups on a sunny beach with the ocean in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two hands holding [ORGANIZATION]'s drinks by a beach."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Hands holding drinks from [ORGANIZATION]'s at a beachside location with the ocean in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Several hands hold up white foam cups with drinks and straws in a toast against a [LOCATION] backdrop featuring the ocean and sand."
+        }
+      }
     }
   }
 }

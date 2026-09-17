@@ -1,67 +1,2559 @@
 {
   "user_id": "participant_040",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "coffee and tea",
-        "crafts and design",
-        "film and television",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: cats; coffee and tea; crafts and design; film and television; video games."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an album cover for '[PERSON]' featuring a surreal landscape with a waterfall and people interacting in a natural setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music-player screen shows the song “[ORGANIZATION]” from the album “[ORGANIZATION]” with fantasy-style album art featuring a tree beneath a waterfall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover art of '[PERSON]' by [ORGANIZATION] featuring a tree in rain."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] music player screen showing the song '[ORGANIZATION]' from the album '[PERSON]', with an illustrated album cover depicting a surreal waterfall and tree scene."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] player showing the song '[ORGANIZATION]' by [PERSON] and [PERSON] on the [ORGANIZATION] from the album '[PERSON]'."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "crafts and design",
-        "film and television",
-        "fitness",
-        "live performances",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: crafts and design; film and television; fitness; live performances; visual art."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contains handwritten notes explaining the concept of utility in economics, including total utility and an example related to food consumption."
+        },
+        "gpt-5.4": {
+          "summary": "A handwritten study note explains the economics concepts of utility and total utility, with an example involving 3 plates of panipuri."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Handwritten notes explaining utility in economics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Handwritten notes define 'Utility' and 'Total Utility' with an example about eating panipuri."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Handwritten notes on a whiteboard defining economic concepts like utility and total satisfaction, with an example involving [LOCATION]."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "film and television",
-        "photography",
-        "reading",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; photography; reading; spectator sports; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a public transport setting, using a smartphone while wearing a white shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A seated passenger on public transit is holding and using a smartphone while other riders' shoes and legs are visible nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person sitting in a public transport using their phone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits on public transport, holding a smartphone displaying a messaging app."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a white thobe sits on public transit, holding a smartphone with a messaging app open while other passengers' feet are visible in the background."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "crafts and design",
-        "film and television",
-        "fitness",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; crafts and design; film and television; fitness; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] playlist titled '[ORGANIZATION] featuring various lecture videos on the subject."
+        },
+        "gpt-5.4": {
+          "summary": "A YouTube dark-mode screen shows search results for a compiler design playlist, featuring the Gate Smashers \"Compiler Design (Complete Playlist)\" course and lecture videos such as lexical analysis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] playlist page featuring a '[ORGANIZATION] course by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] playlist page for '[ORGANIZATION] educational videos, showing thumbnails and titles of lectures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] playlist page for '[ORGANIZATION] by the channel [ORGANIZATION], featuring a list of educational video lectures."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "film and television",
-        "reading",
-        "spectator sports",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; reading; spectator sports; video games; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a notebook page filled with handwritten notes and a flowchart diagram outlining '[ORGANIZATION] steps, resting on a patterned fabric surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows handwritten notes on compiler design, detailing various analysis stages and code generation processes."
+        },
+        "gpt-5.4": {
+          "summary": "A notebook page shows handwritten compiler design notes with a flowchart of stages from high-level language through lexical, syntax, semantic analysis, optimization, and target code generation."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Handwritten flowchart of a compiler design process."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A handwritten diagram in a notebook outlines the stages of compiler design, from high-level to low-level processing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A handwritten flowchart on lined paper outlines the stages of compiler design, from lexical analysis to target code generation."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "film and television",
-        "fitness",
-        "photography",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; fitness; photography; spectator sports; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification about a permanent ban from accessing a service called [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark screenshot-style graphic shows the [PERSON] logo and a message saying the user has been permanently banned and reported to local authorities."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A notification from [PERSON] stating a permanent ban due to account flagging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A notification stating permanent ban from accessing [PERSON], with mention of reporting to local authorities."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-themed digital notification screen displaying a permanent ban message from the AI service [PERSON], including a warning about reporting to authorities."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a digital message from '[PERSON]' stating that the user has been permanently banned and their account details have been shared with local authorities."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification about a permanent ban from accessing a service called [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark screenshot-style graphic shows a [ORGANIZATION]-branded ban notice stating the user has been permanently banned from accessing [PERSON] and reported to local authorities."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Notification of permanent ban from accessing [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A notification screen stating a user has been permanently banned from accessing [PERSON] and their details have been reported to local authorities."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a dark-themed error message from the AI service [PERSON] stating that the user has been permanently banned and their details have been sent to local authorities."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a series of code snippets related to linked list operations, including cycle detection and node manipulation."
+        },
+        "gpt-5.4": {
+          "summary": "A collage of coding-screen screenshots and one hand-drawn diagram focused on linked-list algorithm problems and code submissions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of coding exercises involving linked lists in a programming environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of screenshots showing code editor interfaces with programming problems related to linked lists, including syntax highlighting and handwritten diagrams."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of screenshots showing a coding problem solution for reversing a linked list, featuring C++ code snippets and a hand-drawn diagram explaining the pointer manipulation logic."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person presenting a lesson on 'First and Follow' in compiler design, with a whiteboard filled with related notes and examples."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] lecture screenshot shows a teacher explaining compiler design concepts with FIRST and FOLLOW sets written on a whiteboard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person explaining compiler design concepts in front of a whiteboard filled with notes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person explains compiler design concepts with handwritten syntax analysis tables on a whiteboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] video featuring an instructor teaching [ORGANIZATION] concepts, specifically 'First' and 'Follow' sets, written on a whiteboard."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shopping cart is overflowing with numerous brown and cardboard packages, all branded with [ORGANIZATION] logo and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A cart filled with various packages from [ORGANIZATION], indicating a busy delivery environment."
+        },
+        "gpt-5.4": {
+          "summary": "A cart is filled with multiple [ORGANIZATION] shipping boxes and padded mailer packages in a warehouse-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cart filled with [ORGANIZATION] packages in a warehouse."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shopping cart overflowing with [ORGANIZATION] delivery packages."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shopping cart is filled with numerous cardboard boxes and padded mailers branded with the [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vibrant religious setting with multiple deities adorned with flowers and decorations, surrounded by a crowd."
+        },
+        "gpt-5.4": {
+          "summary": "An ornate indoor [ORGANIZATION] shrine displays [ORGANIZATION] and other Hindu deities with silver decorations, garlands, and a crowd watching in front."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A beautifully decorated temple scene featuring statues of Hindu deities adorned in traditional attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand, ornate religious idol display viewed by silhouetted worshippers, with one person photographing it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A brightly lit, ornate Hindu temple altar featuring a central multi-armed deity flanked by other figures and worshippers in the foreground."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a terminal interface showing the output of a tool called 'foundryup' related to Ethereum application development."
+        },
+        "gpt-5.4": {
+          "summary": "A dark terminal screenshot shows the [ORGANIZATION] development toolkit being installed and checked via the `foundryup` command."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Terminal output showing installation of [ORGANIZATION] tool."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A terminal screen showing the installation process of '[ORGANIZATION]', a toolkit for Ethereum development."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A terminal window displays the installation process of [ORGANIZATION], a Rust-based toolkit for Ethereum application development."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of available Ethereum accounts with their respective balances."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed terminal screenshot lists available cryptocurrency accounts with numbered Ethereum addresses and balances of 10,000 [ORGANIZATION] each."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A list of Ethereum addresses along with their associated [ORGANIZATION] balances."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A list of Ethereum wallet addresses with balances displayed in a terminal-style interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a terminal window displaying a list of Ethereum wallet addresses and their corresponding balances, all showing exactly 10,000 [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a terminal window showing the output of integration tests for a token transaction system."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed terminal screenshot shows a Python integration test for a fee token completing successfully with blockchain balances, chain IDs, and buy/sell token actions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A terminal output showing successful integration tests results."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A terminal displaying successful [PERSON] token integration test results."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A terminal window displays the output of a [ORGANIZATION] script running integration tests for a blockchain token, showing successful transactions and balance updates."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows a laptop screen displaying a man's face from a video or movie, with parts of the laptop"
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in a maroon shirt is engaged in conversation, appearing thoughtful in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo of an [ORGANIZATION] laptop screen shows a warmly lit indoor scene with one person leaning toward another."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person watching something intently displayed on an [ORGANIZATION] laptop screen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a man's face on a laptop screen, viewed from an angled perspective."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a laptop screen displaying a scene from a movie or show featuring a man in a brown shirt looking intently at another person."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] interface showing a failed deployment and ongoing checks for a project."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed [ORGANIZATION] pull request/checks screen shows a failed [ORGANIZATION] test and a notice that some checks are still in progress."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] workflow status showing a failure in deploying tests."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] pull request interface showing deployment failures and ongoing checks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION]/CD pipeline interface showing commit history and build statuses, including a failure notification for user [ACCOUNT]."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] interface showing commit history and deployment status for a project."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode [ORGANIZATION] pull request timeline shows multiple lint-related commits, a failed [ORGANIZATION] deployment, and checks still in progress."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] commit history showing recent changes in a project."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] pull request interface showing deployment failure and recent commits."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] workflow timeline showing a failed deployment and several code commits related to [ORGANIZATION] linting and environment configuration."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] interface showing a user's commit history and build status for a project."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] pull request timeline shows several lint/style commits and a final green status indicating all checks passed with no merge conflicts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] workflow showing successful checks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] pull request interface showing a deployment failure and subsequent successful checks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] pull request interface showing a commit history with linting fixes and a successful [PERSON]/CD check status."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a sesame seed bun and a cup of mango drink."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a cardboard tray with a sesame bun burger and a bright orange cold drink in a plastic cup with a straw indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a sesame seed bun burger alongside an orange drink in branded packaging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a sesame seed bun burger and a yellow drink in a branded cup with a straw."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a sesame seed bun burger and an orange-colored drink in a plastic cup with a straw, both placed in cardboard trays."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital note on operating systems, featuring handwritten content and a user interface from a note-taking application."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] page for an educational revision video on operating systems from [LOCATION], with study notes in the thumbnail and engineering [PERSON] below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] video thumbnail titled '[ORGANIZATION] (SEM 5)' by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post showing a revision video on operating systems with handwritten notes, alongside [PERSON] about logic gates and hyperboloidal gears."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a [ORGANIZATION] video page featuring an educational lecture on [ORGANIZATION] by the channel BrightPath, with visible handwritten notes and related Shorts thumbnails."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features animated characters playfully interacting, with one character riding on another's back while pointing excitedly."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone lock screen displays a black background with chibi-style anime characters from One Piece, the time 1:37, and lock-screen [ORGANIZATION] text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character carrying two others in a playful manner."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone lock screen showing anime characters stacked on each other against a black background with time and date displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone lock screen displaying a stack of three young anime characters against a black background with system status icons and time."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a can of [ORGANIZATION] drink in a public setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a cold can of Monster Energy Ultra zero-sugar drink over a floor marked with directional arrows."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a can of Monster Energy Ultra Zero Sugar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a chilled can of Monster Energy Ultra Zero Sugar on a paved surface with directional arrows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a hand holding a silver can of [ORGANIZATION] against an outdoor background with painted floor arrows."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a lively street scene at night, adorned with decorative lights and bustling with people and vehicles."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime street scene shows parked cars, pedestrians, and shopfronts beneath dense strings of festive lights and hanging lanterns."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A lively nighttime street scene adorned with string lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime street scene decorated with strings of lights and lanterns, featuring pedestrians and parked cars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bustling city street at night is illuminated by extensive strings of festive lights and paper lanterns hanging overhead, with pedestrians and vehicles moving below."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays the Neo4j Browser interface, showing options for getting started, trying live data, and learning [ORGANIZATION] basics, along with a successful connection to a local Neo4"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the Neo4j Browser interface with various options for getting started and querying graphs."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of the Neo4j Browser interface shows getting-started panels and a successful local connection to a Neo4j database."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of [ORGANIZATION] interface showing options like 'Getting started', 'Try live data' and server connection details."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of the Neo4j Browser interface showing a connected session with options for getting started, live data examples, and [ORGANIZATION] basics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the Neo4j Browser interface displaying a welcome dashboard with guides for [ORGANIZATION] basics and graph databases, alongside a terminal showing a successful server connection."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text graphic questioning the relevance of graph databases."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] video page is open for a Neo4j tutorial, showing a slide with the large text “Graph Databases?” and a search for “neo4j database.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Slide from a [ORGANIZATION] tutorial discussing graph databases."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] video screenshot showing a presentation slide with the text 'Why yo so ldu e' circled above 'Graph Databases?'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] video player displaying an educational tutorial on graph databases by the channel CodeWithHarry."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the interior of an auto-rickshaw with a view of the road ahead."
+        },
+        "gpt-5.4": {
+          "summary": "View from inside an auto rickshaw showing passengers, a driver, and a city road lined with trees and barriers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view from inside a rickshaw showing part of its interior and an empty road ahead."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from inside a weathered auto-rickshaw showing a passenger's arm and watch, with a driver ahead on a road lined with trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view from inside a moving auto-rickshaw showing the driver's back and a passenger's wristwatch against a wet road backdrop."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are posing playfully in a store while wearing winter hats."
+        },
+        "gpt-5.4": {
+          "summary": "Three people pose playfully in a retail store while wearing furry trapper hats, with winter clothing displays in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals wearing winter hats pose playfully in a store aisle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three young men wearing fur-lined hats pose playfully in a retail store aisle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three young men pose playfully in a retail store wearing matching black fur trapper hats, with the central figure giving a thumbs-up and others making hand gestures."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a plate of food featuring creamy, garnished snacks with two types of sauces."
+        },
+        "gpt-5.4": {
+          "summary": "A takeout tray holds skewered grilled bites covered in creamy sauce and herbs, with red and green dipping sauces on the side."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tray of food featuring skewered meat in a creamy sauce garnished with herbs alongside two sauces."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white takeout container holds creamy-coated food items with two dipping sauces — red and green — alongside wooden sticks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a white compartmentalized takeout container holding skewers of food covered in creamy sauce and garnished with herbs, served alongside red chili sauce and green chutney."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up overhead shot shows a white tray of momos (dumplings) covered in a creamy pink sauce and garnished with green herbs, served with red and green dipping sauces and wooden skewers."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of [ORGANIZATION] with sauces and garnished with herbs."
+        },
+        "gpt-5.4": {
+          "summary": "A takeaway tray of momos or dumplings covered in creamy sauce is served with red and green chutneys, photographed outdoors from above."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a food tray containing skewered items in sauce topped with herbs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white tray holds food items including round dumplings in sauce, accompanied by red and green chutneys."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a white compartmentalized plate holding skewers of food covered in creamy sauce and garnished with herbs, accompanied by red and green chutneys."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four individuals poses playfully in a store, showcasing a fun atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A group of friends pose for a mirror selfie in a clothing store, wearing winter hats, gloves, and face coverings among racks of apparel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four young men pose playfully in a store aisle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five young men pose playfully in a retail store aisle, wearing hats and gloves, with one holding a phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five young men pose playfully for a mirror selfie inside a retail store, trying on winter accessories like hats and gloves."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a code review interface showing accepted and not accepted pull requests with their titles and statuses."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a dark-themed project dashboard showing [ORGANIZATION] issue and PR statuses, with one accepted item, two rejected items, and coding windows on a Windows taskbar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] pull requests related to PyDeepFlow project status."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] pull request review dashboard showing accepted and rejected code changes with a taskbar overlay displaying active development windows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] pull request review dashboard showing accepted and rejected code changes for the PyDeepFlow project."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "An animated character is slumped over a desk in a dimly lit room, working on a computer."
+        },
+        "gpt-5.4": {
+          "summary": "A dark anime-style scene shows a person asleep at a desk in front of a computer with music-production software open."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person working late into night in a dimly lit room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person rests their head on a desk in front of a computer monitor displaying editing software."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style illustration depicts a person asleep at a desk in a dark room, with their head resting on a computer keyboard next to an active monitor."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a terminal output showing the results of a series of test cases, with some passing and one warning related to deprecated usage."
+        },
+        "gpt-5.4": {
+          "summary": "A terminal screenshot shows pytest results where multiple verbose API tests passed, along with a deprecation warning and a final summary of 9 passed tests."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Test results showing successful test cases in a [ORGANIZATION] testing framework."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A terminal displaying successful [ORGANIZATION] test results with a deprecation warning."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A terminal screenshot displaying a successful [ORGANIZATION] test suite run with nine passed tests and one deprecation warning."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a code snippet in a programming context, showcasing filter criteria for file selection."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed screenshot shows a Python code snippet configuring file-selection criteria with glob patterns, size limits, file extensions, and target paths."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Python script snippet defining filter criteria."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A code snippet in [ORGANIZATION] defining file filtering criteria with patterns, size limits, and excluded extensions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of Python code defining a [ORGANIZATION] object with parameters for file filtering, including patterns, size limits, and extensions."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black video game controller with blue lights is held over a laptop screen displaying the title screen for 'God of War Ragnarök' with various"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a gaming controller in front of a screen displaying the menu for 'God of War: [PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A game controller is held in front of a monitor showing the main menu of God of War Ragnarök."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The game menu of 'God of War Ragnarök' displayed on a laptop screen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming controller rests on a keyboard in front of a laptop screen displaying the 'God of War Ragnarök' main menu."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a black gaming controller with blue LED lighting resting on a laptop keyboard, with the main menu for the video game 'God of War Ragnarök' displayed on the screen in the background."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a white cup filled with foamy coffee on a wooden coaster, with a blurred laptop screen and keyboard visible in the background,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a coffee cup next to a laptop on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a cup of dark coffee on a wooden table with a blurred laptop and small glass in the background, creating a cozy work setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a steaming cup of coffee next to an open laptop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a white mug filled with coffee, placed beside an open laptop on a wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a white cup filled with dark, frothy coffee sitting on a wooden coaster in front of an open laptop."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A desk setup features a laptop and an external monitor, both displaying anime characters as wallpapers in a dimly lit room."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two computer screens displaying anime characters, one with a character in a green striped outfit and the other with a character in a dark, stylized design."
+        },
+        "gpt-5.4": {
+          "summary": "A desk setup shows a laptop and external monitor displaying anime-style character wallpapers in a dim indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dual-monitor setup displaying anime characters in a gaming room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two computer monitors display anime characters in a dimly lit gaming setup."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dual-screen gaming setup featuring anime wallpapers of characters from [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital user profile interface"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a digital profile interface with an illustrated character holding swords under a tree."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed profile dashboard shows an anime swordsman avatar, the greeting \"Hello, [PERSON],\" edit/logout buttons, and a progress counter at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digital interface showing a character in traditional attire holding swords under cherry blossoms."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A profile screen displays a cartoon character holding swords under cherry blossoms, with user options and progress tracking."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A user profile interface displaying a greeting for '[PERSON]' alongside an anime-style illustration of a green-haired swordsman under cherry blossoms."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] metrics dashboard showcasing contributions, coding habits, and recent activity."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed [ORGANIZATION] dashboard screenshot shows coding statistics, language usage, commit habits, issue/PR status, starred repositories, and recent activity."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] metrics dashboard showing contributions calendar, languages used (Python), recent coding habits, commit activities per hour of day/week, issues/pull requests status, starred repositories, and recent activity."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] dashboard displaying coding statistics, language usage, activity trends, and recent repository interactions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-themed dashboard displaying [ORGANIZATION] user metrics, including a contributions calendar, language statistics, coding habits, and recent activity logs."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] profile of a user named '[PERSON]', highlighting their role as an engineer and data scientist in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] profile page for '[PERSON]' showing a [LOCATION] intro, engineer label, ranking badges, and a contribution heatmap in dark mode."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] profile showcasing contributions in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[ORGANIZATION] profile page for user '[PERSON]', showing a colorful avatar, role as Engineer, and ranking information."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [ORGANIZATION] profile for user '[PERSON]', displaying a colorful avatar, an engineer title, and a contribution graph."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a contribution activity overview from a coding platform, highlighting contributions over the past year."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] profile activity screenshot shows a 2025 contribution heatmap with 14,495 contributions in the last year and an overview focused on commits."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] contribution dashboard showing a high number of contributions over the last year."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] contribution dashboard showing 14,495 contributions over the last year with activity charts and repository details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] user profile displaying a high-volume contribution heatmap, activity overview listing specific repositories, and a radar chart indicating 100% commit activity."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song 'Tear It Down' by WE$TPHAL and 6ix."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a [ORGANIZATION] now-playing screen for the track \"Tear It Down\" by WE$TPHAL and 6ix with dark monochrome cover art in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player interface showing 'Tear It Down' by WE$TPHAL & 6ix playing from playlist [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] music player screen showing the song 'Tear It Down' by WE$TPHAL and 6ix playing from a playlist."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the [ORGANIZATION] music player displaying the song 'Tear It Down' by WE$TPHAL and 6ix."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a dimly lit workspace with two monitors displaying coding tasks and a character background."
+        },
+        "gpt-5.4": {
+          "summary": "A dark desk setup shows two monitors and a backlit keyboard, with one screen displaying a coding assistant/chat and the other showing code in [LOCATION] Code."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dimly lit workspace showing a laptop screen displaying code editing software alongside another monitor featuring an anime character wallpaper."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two computer monitors display coding environments, one with a code editor and the other with a terminal and anime character wallpaper, viewed in a dark room with a backlit keyboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark room setup featuring a backlit keyboard and two monitors displaying code in an [ORGANIZATION] and a web interface with a [ORGANIZATION] code."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a coding environment with error messages related to database validation tests, alongside a character illustration in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A Visual Studio Code window shows Python database validation tests failing in the terminal, with a dark anime character wallpaper in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Python code editor displaying test failures in a database validation script."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer screen shows Python test failures in a code editor, overlaid with an anime character."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Python code editor displaying multiple test failures related to a '[ORGANIZATION]' class and [PERSON] authentication, overlaid with a semi-transparent image of the anime character [PERSON]."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a text explanation and a comparison table detailing what incremental indexing is and how it differs from full indexing, highlighting its efficiency."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image explains the concept of incremental indexing in a system, highlighting its efficiency compared to full indexing."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed educational slide explains incremental indexing with a short definition and a comparison table versus full indexing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A comparison of full indexing versus incremental indexing in system operations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed educational graphic explaining incremental indexing versus full indexing with a comparison table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An educational graphic explaining the concept of incremental indexing versus full indexing with a comparison table."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a wheelchair with a computer interface is seated on a stage."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a motorized wheelchair is seated on a stage-like set, speaking through a mounted communication device against a purple and red backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON] in a wheelchair during an interview."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a wheelchair with glasses and a communication device is seated on a stage against a colorful backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a black suit sits in a motorized wheelchair equipped with assistive technology, positioned on a stage with purple and red lighting."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a can of [ORGANIZATION] drink in a public setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a chilled white Monster Energy Ultra can with condensation, photographed over a floor with directional arrows."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a can of Monster Energy Ultra Zero Sugar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a chilled can of Monster Energy Ultra Zero Sugar against a pavement with directional arrows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a hand holding a silver can of [ORGANIZATION] against an outdoor background with painted floor arrows."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a dark-themed programming console showing output related to image feature"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a computer screen with code and progress messages related to image feature extraction."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed [ORGANIZATION] notebook screenshot shows console logs for image feature extraction and processing training images."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Python script in progress showing steps of processing images."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A terminal window displays [ORGANIZATION] code output for processing and extracting image features from a training dataset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Python code execution log showing the progress of an image feature extraction process involving 25,000 training images."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a screenshot of a computer's Task Manager performance tab, showing [ORGANIZATION], memory, disk, [LOCATION], and [ORGANIZATION] usage statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] Manager Performance tab screenshot shows [ORGANIZATION], memory, disk, [PERSON], and [ORGANIZATION] usage, with the [ORGANIZATION] [ORGANIZATION] panel selected."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] Manager showing system performance metrics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Task Manager Performance tab showing [ORGANIZATION], memory, and [ORGANIZATION] usage graphs on a Windows system."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [ORGANIZATION] Manager Performance tab displaying system resource usage, specifically highlighting [ORGANIZATION] metrics for an [ORGANIZATION] and an [ORGANIZATION] GeForce RTX card."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a [ORGANIZATION] search results page for 'national failure day,' showing an AI overview about [LOCATION]'s National Day for Failure on [DATE] and another observance on [DATE]."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] search result about [LOCATION]'s National Day for Failure, highlighting its date and focus."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows a [ORGANIZATION] search for \"national failure day\" with an AI Overview explaining observances including [LOCATION]'s National Day for Failure on [DATE]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Search results explaining [LOCATION]'s National Day of Failure observed annually."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] search results page showing information about '[ORGANIZATION],' highlighting [LOCATION]'s observance on [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a [ORGANIZATION] search for 'national failure day' displaying an AI Overview that explains the observance in [LOCATION]."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a terminal window showing the process of building a [PERSON] container with various commands and outputs related to dependencies and configurations."
+        },
+        "gpt-5.4": {
+          "summary": "A dark photo of a code editor terminal shows [PERSON] building and starting a [ORGANIZATION]-based [ORGANIZATION] service container."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A terminal screen displaying [PERSON] build logs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer terminal displays the successful build and run of a [PERSON] container for a service named '[PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a computer terminal displaying the successful build and execution logs for a [PERSON] container named '[PERSON] using [ORGANIZATION] and [LOCATION]."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image celebrates [ORGANIZATION] with a badge for planting a tree, surrounded by colorful balloons."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile browser screenshot shows a celebratory [PERSON]/Hacktoberfest badge page for '[ORGANIZATION] and 'Plant a tree' with colorful balloons over the screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digital badge celebrating Hacktoberfest 2025 tree planting initiative."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A celebratory digital badge for [ORGANIZATION], featuring a pixelated tree and balloons, indicating a tree was planted for contributors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot displays a digital badge from [ORGANIZATION] for planting a tree, featuring pixel art and festive balloons."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a mobile app screen"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital interface showing a tree gift notification related to [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile app activity screen shows Hacktoberfest gifting one tree, with a photo and details for a Phyllanthus emblica tree in [LOCATION] plus a comment prompt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post by [ORGANIZATION] showing a tree gifted in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social-media post showing a tree gift from 'Hacktoberfest', including its species, CO2 offset, location, and certificate number."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot showing a digital tree planting certificate for a Phyllanthus emblica gifted during [ORGANIZATION] in [LOCATION]."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a digital tree certificate showing details like a unique number, quantity, CO2 offset, tree birthday, and location in [LOCATION], along with a satellite map and text about the region's biodiversity and the Irula people."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a tree certificate indicating a tree gifted as part of [ORGANIZATION], including details about its CO2 offset and location in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows an Open Tree Certificate page for a Hacktoberfest-gifted tree in [LOCATION], including CO2 offset details and a satellite map of the tree’s location."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A certificate detailing a tree planting initiative in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tree certification page showing a gift of one tree planted in [LOCATION], with details including CO2 offset and location on a satellite map."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a digital tree planting certificate showing details like the recipient '[PERSON]', location '[LOCATION]', and a satellite map view."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant, abstract design made from"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features colorful powder art on a marble floor, depicting an eye and geometric shapes."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful rangoli-style floor artwork made with powdered pigments is shown on a marble surface, surrounded by squeeze bottles and drawing tools."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Colorful rangoli art created using powders on a tiled floor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful, abstract sand art design created on a marble floor with scattered art supplies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful sand art design featuring a geometric figure with an eye motif is displayed on a marble floor, surrounded by squeeze bottles of colored sand and crafting tools."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a mirror while wearing an [LOCATION] national football team jersey."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie indoors while wearing an [LOCATION] soccer [LOCATION], with lotion bottles in the foreground and clothes hanging on the door behind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing an [LOCATION] takes a mirror selfie in front of clothes hanging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing an [LOCATION] soccer [PERSON] takes a mirror selfie in a room with toiletries and hanging clothes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing an [LOCATION] soccer [PERSON] takes a mirror selfie in a room with clothes hanging on the door and lotion bottles in the foreground."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a screenshot from the mobile game [PERSON], showcasing a player's profile with 10,000 trophies."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] post celebrates reaching 10,000 trophies in Clash [PERSON] and includes a screenshot of the game's home screen with the trophy count visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON] celebrates reaching 10,000 trophies in Clash [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of the Clash [PERSON] game interface showing a trophy milestone of 10,000 and a 'Pass [PERSON]' achievement."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the Clash Royale mobile game interface showing a player has reached 10,000 trophies."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a variety of Prime hydration drink bottles in a store fridge, showcasing different flavors and a discount sign."
+        },
+        "gpt-5.4": {
+          "summary": "A refrigerated store shelf displays multiple colorful PRIME Hydration bottles in various flavors and themed designs, with a sign advertising 20% off PRIME drinks."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Assorted Prime hydration drinks displayed in a refrigerator shelf."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A refrigerated shelf displays colorful bottles of Prime hydration drinks with a '20% OFF' discount sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A refrigerated store shelf displays a variety of colorful Prime Hydration bottles alongside other beverages, with a prominent discount sign."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contains a text instruction regarding the mention of a company in professional contexts."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a bullet-point sentence about an instructor only being allowed to refer to work at a company as being at a \"Stealth Startup.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A statement regarding an instructor's ability to mention working in a Stealth Startup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text-based policy stating an instructor's limited mention of working at 'Stealth Startup'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A text excerpt on a light background stating that an instructor is restricted to mentioning work at a Stealth Startup only when required."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a distinctive hairstyle, partially obscured face, and wearing a dark coat."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up portrait of a smiling person with a bowl-style haircut and a small dark mustache, presented like an edited meme image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person wearing formal attire against an outdoor background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a smiling man with a distinctive mustache and styled hair, wearing a dark jacket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a man with a distinctive bowl haircut, thick mustache, and dark coat smiling at the camera."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation discussing a hackathon event and a blockchain project, featuring a Spider-Man background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a dark-themed chat conversation over a Spider-Man city wallpaper, with messages discussing a hackathon, [PERSON], and a web3 event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation in a messaging app discussing an upcoming hackathon involving Web3 technology."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] chat with two users discussing events near [LOCATION], overlaid on an image of [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation between '[ACCOUNT]' and '[LOCATION]' discussing a hackathon event in [LOCATION], with a Spider-Man background image."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media post by '[PERSON]' on a dark background, advocating for the strategic use of 'unfair"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post discussing the importance of leveraging advantages in life and not romanticizing struggle."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a LinkedIn-style post sharing a motivational message about using available advantages, connections, and resources strategically."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A motivational post by [PERSON] emphasizing strategic use of advantages in life."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post by [ORGANIZATION] offering strategic advice on leveraging unfair advantages for success."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post by [PERSON] featuring white text on a dark background that advises readers to leverage their unfair advantages, such as money and connections, rather than romanticizing struggle."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a Raspberry Pi 4 Model B next to its packaging, with a colorful keyboard and mouse in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a [LOCATION] board on a desk beside its box, in front of a colorful mechanical keyboard and a gaming mouse."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a Raspberry Pi next to its box beside an ergonomic keyboard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a Raspberry Pi 4 Model B circuit board next to its red retail box on a desk with a keyboard and mouse."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a Raspberry Pi 4 Model B circuit board next to its red packaging on a desk with a mechanical keyboard and mouse."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy, light brown and white cat with a flat face is snugly wrapped in a light blue blanket with a pink trim, sitting on a brown carpet."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat wrapped in a blue blanket with a grumpy expression."
+        },
+        "gpt-5.4": {
+          "summary": "A grumpy-looking cat is sitting indoors on a carpet, wrapped snugly in a light blue blanket like a hood."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat wrapped in a blanket appears grumpy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy cat with a flat face is wrapped snugly in a light blue and white blanket on a carpeted floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat-faced cat with a grumpy expression is wrapped snugly in a blue and white patterned blanket on a carpeted floor."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are seated at a table in a dimly lit room, engaged in conversation with a screen displaying an [ORGANIZATION] TV logo."
+        },
+        "gpt-5.4": {
+          "summary": "Two men sit across a small table in a dark locker-room style set during a filmed interview, with subtitles visible on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are seated in a modern interview setup discussing their game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men sit across from each other at a black table in a dimly lit locker room setting, engaged in conversation with an [ORGANIZATION] TV device between them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men are seated on high stools facing each other across a small table in a dark, modern studio setting with lockers in the background."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows handwritten notes related to a library management system, including user interactions and functionalities."
+        },
+        "gpt-5.4": {
+          "summary": "A notebook page on a desk shows handwritten study notes and diagrams about the library management system and issue/return books workflow."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Handwritten notes discussing a library management system design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A handwritten diagram on lined paper outlines a library management system with user roles, actions, and notes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a lined notebook page containing handwritten notes and a [ORGANIZATION] use case diagram for a 'Librarian Management System'."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a daily activity summary from a fitness tracker, showing steps, active time, and calories burned."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone fitness app screenshot shows daily activity stats with goals exceeded, including 13,227 steps, 136 active minutes, and 404 activity calories."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fitness app displaying daily activity metrics including steps taken."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fitness app screen showing daily activity stats for [DATE], including steps, active time, and calories burned."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a fitness app's daily activity dashboard showing high step count and distance metrics for [DATE]."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A conversation about completing undergraduate studies and discussing future plans, including placements."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] chat in dark mode discussing [ORGANIZATION] completion, future plans, placements, and not wanting to do a master's."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] conversation discussing academic progress and future plans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] chat discussing the completion of undergraduate studies and future plans."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation discussing the completion of an undergraduate degree and future career plans."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A first-person perspective shows a person's legs and feet in [ORGANIZATION] on an artificial turf sports"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a pair of feet wearing sneakers next to a blue and red backpack on a grassy field."
+        },
+        "gpt-5.4": {
+          "summary": "A top-down view shows sneakers and shorts standing on a turf field beside a blue-and-red bag near a white sideline."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing sneakers stands next to a blue backpack on artificial turf."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view of feet in sneakers standing on artificial turf next to a blue and red backpack."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a person's legs and sneakers standing on artificial turf next to a blue and red backpack near a white field line."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a computer terminal displaying code related to model evaluation and performance metrics."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop screen shows VS Code with Python code and terminal logs for training and evaluating a sentence-transformers model."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A terminal screen displaying Python code related to machine learning using [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop screen displays [ORGANIZATION] code and terminal output for evaluating a sentence transformer model."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a laptop screen displaying Python code and terminal logs for training and evaluating a machine learning model using the sentence-transformers library."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] squad layout featuring various player cards arranged in a 4-3-3 formation."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a football video game squad screen shows an Ultimate Team-style lineup with high-rated player cards arranged in a 4-3-3 (2) formation."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A virtual football team lineup displayed in a stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football squad formation displayed on a digital pitch with player cards showing ratings and positions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] squad screen displaying a 4-3-3 (2) formation with high-rated player cards on a virtual pitch."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in a suit stands in an art gallery, observing a large job application form displayed on the wall."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a suit stands in an art gallery looking at a large framed artwork styled as a job application form on a dark red wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit stands facing an oversized job application form displayed as art."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a suit views a large framed job application form displayed as art in a gallery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a dark suit stands facing a large framed 'JOB APPLICATION FORM' displayed as an art installation on a red wall within a gallery."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a stage set for the opening ceremony of hackCBS 8.0, a student-run hackathon at [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "An auditorium stage displays a projected slide for the hackCBS 8.0 opening ceremony, a student-run hackathon event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A presentation slide promoting hackCBS 8.0 event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large screen displays the opening ceremony for hackCBS 8.0, a student-run hackathon at [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide shot of an auditorium stage displaying a presentation slide for [ORGANIZATION] hackathon opening ceremony."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a terminal window showing the installation process of a software package on a Linux operating system."
+        },
+        "gpt-5.4": {
+          "summary": "A desktop monitor shows a Pop!_OS/Linux terminal using [ORGANIZATION] to install [ORGANIZATION], with a space-themed wallpaper in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Screenshot of a terminal window showing installation progress in Pop!_OS."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A terminal window shows the installation of [ORGANIZATION] on Pop!_OS via [ORGANIZATION], with permission details and download progress visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A computer monitor displays a terminal window on the Pop!_OS Linux desktop, showing the installation process of the [ORGANIZATION] browser via [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vibrant, retro-themed digital workspace with a person using a computer surrounded by colorful decor."
+        },
+        "gpt-5.4": {
+          "summary": "A monitor displays a neon cyberpunk pixel-art workspace with a person at a computer desk in a pink-purple room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant pixel art scene featuring a person working in front of retro-style equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pixel-art style illustration on a computer screen depicts a person in a retro-futuristic room with neon lights and gaming equipment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pixel-art illustration displayed on a computer screen depicts a bearded man in a neon-lit, retro-futuristic room filled with gaming and music equipment."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a coding environment with a focus on a sales agent script for processing RFPs, alongside a character illustration."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed VS Code/Jupyter workspace shows a [ORGANIZATION] notebook titled “AGENT 01: SALES AGENT” describing an RFP-processing agent, with project files visible in the sidebar and an anime wallpaper in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [PERSON] document detailing a sales agent process in [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [PERSON] notebook titled 'AGENT 01: SALES AGENT' is open in a VS Code workspace, detailing an automated RFP processing system with Python code and a Dragon Ball character wallpaper."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Visual Studio Code environment displaying Python code for an AI sales agent project named '[ORGANIZATION] with a Dragon Ball Z character as the desktop background."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a page from a document discussing machine learning engineering and certifications."
+        },
+        "gpt-5.4": {
+          "summary": "A desktop screenshot shows a [ORGANIZATION] reader open to the book \"Practical MLOps,\" with a highlighted passage about machine learning engineer certifications and an [ORGANIZATION] table of contents in the sidebar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The document discusses machine learning engineering roles such as ML engineer certification from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] document titled '[ORGANIZATION] is open, displaying text about machine learning certifications and job trends with a highlighted section on [ORGANIZATION], [LOCATION], and AWS certifications."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] document titled '[ORGANIZATION] displaying text about machine learning engineering certifications from [ORGANIZATION], [LOCATION], and AWS."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the cover of the book 'Practical MLOps' featuring a stylized dog illustration."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] viewer is open to the cover of the O’Reilly book \"Practical MLOps: [ORGANIZATION],\" with a table of contents visible on the left."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Cover page of a book titled '[ORGANIZATION] by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] viewer displays the cover of the [ORGANIZATION] book 'Practical MLOps' featuring a spotted dog illustration."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] viewer displaying the cover and table of contents for the [ORGANIZATION] book 'Practical MLOps' by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized illustration of a Dalmatian dog alongside the title of a book on [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A book cover for \"Practical MLOps\" shows a leaping spotted dog alongside the subtitle about operationalizing machine learning models."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Book cover titled '[ORGANIZATION] featuring a leaping [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Book cover for 'Practical MLOps' featuring a leaping spotted dog illustration."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The cover of the book 'Practical MLOps' features a leaping [PERSON] illustration and lists authors [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a page from a document, likely a chapter introduction, titled \"Introduction to [ORGANIZATION],\" featuring text about machine learning"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a page from a document titled 'Introduction to MLOps' discussing the influence of science fiction on technology."
+        },
+        "gpt-5.4": {
+          "summary": "A book or document page shows Chapter 1 titled \"Introduction to [ORGANIZATION]\" by [PERSON], with introductory text and a quote."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A page from a book titled 'Introduction to MLOps' by [PERSON] discussing science fiction's influence."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A page from a book titled 'Introduction to MLOps' by [PERSON], showing Chapter [ADDRESS]. [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital document page displaying the introduction to Chapter 1 of a technical book titled 'Introduction to MLOps' by [PERSON], featuring text that discusses science fiction influences on technology."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a code editor with [ORGANIZATION] scripts related to sales and technical agents, featuring various functions and logging configurations."
+        },
+        "gpt-5.4": {
+          "summary": "A desktop screenshot shows Visual Studio Code with three side-by-side [ORGANIZATION] files for pricing, sales, and technical agent functions, along with a terminal panel and a system notification."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Code snippets of pricing agent functions in a development environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer screen shows multiple Python code files for pricing, sales, and technical agents, overlaid on an anime character background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a macOS desktop displaying the Visual Studio Code editor with three [ORGANIZATION] files open side-by-side, showing code for 'Pricing Agent', '[ORGANIZATION], and 'Technical Agent' functions."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a pixelated character styled as a hacker, promoting an event called ACE Hack 5.0."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-themed promotional poster for [PERSON] shows a blocky game character with event dates, a participant name, a slogan, and a website."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster for [PERSON] featuring a Minecraft-style character."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pixel-art character holding a sword in a promotional poster for 'ACE HACK 5.0'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional poster for 'ACE HACK 5.0' featuring a Minecraft-style character holding a sword, with event dates and a website URL."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a [ORGANIZATION] laptop displaying a screen with a focus tool download progress."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] laptop sits on a desk with its charger plugged in while a Windows setup or update screen is downloading in a workspace."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] laptop displaying a focus tool download screen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] laptop on a desk displays a 'Tools for focus' setup screen with a download progress bar."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grey [ORGANIZATION] laptop is open on a desk, displaying a software setup screen for 'Tools for focus' with a download progress bar."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a coding environment with Python code related to a job application system and database initialization."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed desktop screenshot shows VS Code with Python/FastAPI code on the left and a Claude Code panel open on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] FastAPI application setup in [ORGANIZATION] showing code related to database initialization."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A developer's IDE showing Python code for initializing a FastAPI application alongside a Claude Code assistant interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a developer's code editor showing Python code for an application named '[ORGANIZATION]' alongside the Claude Code AI interface."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a group of individuals working at a table with laptops and snacks in a classroom-like setting."
+        },
+        "gpt-5.4": {
+          "summary": "Overhead view of a classroom-style workspace with multiple laptops and cables, centered on a seated person holding their head beside a sticker-covered laptop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sits at a desk surrounded by laptops and snacks in an indoor environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits at a cluttered desk with multiple laptops, holding their head in apparent frustration or exhaustion."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a cluttered workspace with multiple laptops and people, where one individual sits at the back holding their head in apparent stress."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a video call interface with multiple participants' names and initials visible."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a laptop screen shows a dark-themed online meeting interface with several participant tiles labeled by name initials."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a laptop screen displaying various app icons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tablet screen displays a video call interface with five participants, each represented by a colored tile with their name or role."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a laptop screen displaying a video conference grid with five participants using avatar icons."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a racing game interface with a player in first place on a colorful track."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop on a bed is displaying a colorful kart racing video game with a small car on a bright arena track and an on-screen leaderboard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displaying a colorful racing game in progress."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displays a colorful multiplayer kart racing game in progress."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A laptop screen displays a colorful, cartoon-style racing game featuring a blue vehicle on a track with visible [ORGANIZATION] elements like player names and performance stats."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes [LOCATION] festival event in [LOCATION] [ORGANIZATION], featuring participants covered in tomatoes."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile app event listing promotes '[ORGANIZATION] 2026 - Delhi NCR' with a bright red festival banner, event details, pricing, and a booking button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Event page promoting [PERSON] festival in [LOCATION] [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional image for a [PERSON] festival event in [LOCATION] [ORGANIZATION], showing people covered in tomato pulp and laughing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile event listing for 'La Tomatina 2026' in [LOCATION] [ORGANIZATION], featuring a collage of people covered in tomato pulp and detailed event logistics."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a detailed figurine of a character with flowing hair and a weapon, posed on a cloud-like base."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized anime action figure with white hair, cloud-like effects, and blue lightning is posed on a tiled floor indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A detailed action figure of a character in dynamic pose holding weapons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chibi-style anime figurine with wild hair and a sword stands on a cloud-like base indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A chibi-style action figure of a character with white hair and red eyes, posed dynamically on a cloud-like base with translucent blue energy effects."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a partial view of a formal document titled '[ORGANIZATION], addressed to '[PERSON]' for an"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an employment offer letter addressed to an individual for the position of [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped employment offer and confidentiality agreement document shows an offer for an AI/ML Engineer position with some personal details redacted."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A formal offer of employment letter from an AI/ML Engineer position."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An employment offer letter addressed to [PERSON] for an AI/ML Engineer position, effective [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an employment offer letter for the position of [ORGANIZATION] addressed to [PERSON] with a start date of [DATE]."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes [LOCATION] festival event in [LOCATION] [ORGANIZATION], featuring participants covered in tomatoes."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile event listing shows a [PERSON] festival page with a red promo collage of people covered in tomatoes, plus date, time, location, and booking details."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Event page promoting [PERSON] festival in [LOCATION] [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional image for a tomato-throwing festival, showing joyful people covered in red pulp."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a social media event page advertising '[ORGANIZATION] in [LOCATION] [ORGANIZATION], featuring photos of people covered in tomato pulp and detailed event logistics."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person's forehead with a tic-tac-toe grid drawn on it."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode social media thread screenshot shows people playing tic-tac-toe by adding [PERSON] and Os onto a photo of a person’s forehead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A series of comments discussing a game involving drawing X's in tic-tac-toe patterns across someone’s forehead."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a person's forehead with a tic-tac-toe grid drawn on it, showing Xs and Os."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media thread where users are sharing photos of themselves playing tic-tac-toe on their foreheads."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a lineup of characters from the anime '[PERSON]'s Basketball' standing together in a sports setting."
+        },
+        "gpt-5.4": {
+          "summary": "A desktop screenshot shows the [ORGANIZATION] streaming site playing an episode of \"Kuroko's Basketball,\" with the video player, anime details, and episode list visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of an anime streaming platform showing '[PERSON]'s Basketball' episode selection."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of an anime streaming site showing the episode list and player interface for '[PERSON]'s Basketball'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [PERSON] website showing a video player for episode 21 of the anime '[PERSON]'s Basketball' with the main cast displayed on screen."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays text from a podcast discussing individual niches."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] video titled \"On Artificial Intelligence\" by [PERSON] is playing, showing a black slide with large white text and a search for \"naval podcast.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Text slide from a [ORGANIZATION] video discussing individual niches."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] video player showing a paused video titled 'On Artificial Intelligence' by Naval, with on-screen text reading 'And even individual niches—such'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] video player displaying white text on a black background, featuring the Naval channel and a search query for 'naval podcast'."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tattoo on a person's forearm, depicting symbols associated with spirituality and the word 'Karma'."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a forearm showing a black-ink tattoo with an Om symbol above a circular knot design and a scroll reading “KARMA.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A forearm tattoo featuring an om symbol above a wheel design labeled 'KARMA'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a forearm tattoo featuring an Om symbol, a Dharmachakra wheel, and the word 'KARMA' on a scroll."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a forearm displaying a black ink tattoo featuring the [PERSON] symbol, a [ORGANIZATION] wheel with an endless knot, and a scroll inscribed with 'KARMA'."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a workspace with a laptop displaying code, a webcam, and a monitor playing an anime scene."
+        },
+        "gpt-5.4": {
+          "summary": "A desk workspace with a laptop showing Python/FastAPI code, an external monitor playing an anime basketball scene with subtitles, and a webcam mounted above the laptop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A workspace setup featuring a laptop displaying code, an anime screen showing two characters in conversation, and various office supplies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displaying Python code sits beside a monitor playing an anime with subtitles, surrounded by streaming equipment and office supplies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dual-screen workstation setup featuring a laptop running Python code and an external monitor displaying the anime '[PERSON]'s Basketball' with subtitles."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person flexing their arms in a gym setting, reflected in a mirror."
+        },
+        "gpt-5.4": {
+          "summary": "A gym mirror shot shows a person’s muscular arm and upper body in a black sleeveless shirt and gray pants beside exercise equipment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual in a gym environment flexing their arm muscles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a gym mirror showing off their muscular arms."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a gym setting poses to display muscular arm definition while looking into a mirror."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is flexing their arms in a gym setting, showcasing muscular definition."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror view in a gym shows a person in a black sleeveless top and gray sweatpants highlighting muscular arms beside weight equipment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual in a gym environment flexing their arms."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two muscular individuals stand side-by-side in a gym, showcasing their arms with hands in pockets."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A muscular individual in a gym setting poses with hands in pockets, showcasing defined arm veins and muscle definition while wearing a black tank top and grey sweatpants."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a terminal window showing the output of a [PERSON] build process, including package installation commands and progress logs."
+        },
+        "gpt-5.4": {
+          "summary": "A dark terminal screenshot shows a [PERSON] image build in progress, including Python base image setup and apt package installation steps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A terminal screenshot showing a [PERSON] build process."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A terminal displaying [PERSON] build logs for a Python container."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a terminal window displaying the build logs for a [PERSON] container using a Python base image."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a terminal window showing the output of a [PERSON] build process."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed VS Code terminal shows [PERSON] building a [ORGANIZATION] image and running pip install from requirements.txt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A terminal screenshot showing [PERSON] build commands."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A terminal window displays the output of a [PERSON] build process, showing steps like copying files and installing Python packages."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a terminal window displaying the successful build logs for a [PERSON] container using [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a certification from [PERSON], confirming the successful completion of an AI interview."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows a [PERSON] certification certificate popup stating that [PERSON] is certified as an AI Engineer, with a download button below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A certificate confirming [PERSON] certification as an AI Engineer by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A digital certificate displayed on a mobile browser confirming AI Engineer certification by [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot displays a digital certification from [PERSON] for [PERSON] as an AI Engineer, dated [DATE]."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person holding a Boost milkshake product in a casual outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a cinema screen shows a Boost drink advertisement with a man holding a packet beside the slogan about a milkshake."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A promotional advertisement featuring a person holding Boost energy drink in front of an urban backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man holds a Boost energy drink packet in front of a screen displaying the text 'BOOST NOW IN A MILKSHAKE'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a dark t-shirt holds up a Boost drink packet during an advertisement displayed on a large screen."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone notification screen showing multiple Gmail messages."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone notification screen shows the Gmail app with three email notifications visible on the [ORGANIZATION] notification shade."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Gmail notifications displayed in a smartphone interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen showing Gmail notifications with three unread messages."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone lock screen displays Gmail notifications from [ORGANIZATION], an [ORGANIZATION] team, and a portfolio interview session."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A webpage displays details for the '[ORGANIZATION] hosted by [ORGANIZATION], Hugging Face, and [ORGANIZATION], featuring a classical"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes the OpenEnv AI Hackathon, highlighting collaboration between [ORGANIZATION], [ORGANIZATION], and [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot of a [ORGANIZATION] event page promoting the OpenEnv AI Hackathon with [ORGANIZATION] and [ORGANIZATION], including dates, registration info, and an AI hackathon poster."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster for [LOCATION]'s Biggest AI Hackathon by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional graphic for the OpenEnv AI Hackathon, featuring a statue using a laptop against a starry background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the [ORGANIZATION] website announcing the OpenEnv AI Hackathon, a collaboration between [ORGANIZATION] and [ORGANIZATION] featuring a $30,000 prize pool."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a server deployment interface showing various operating systems and settings for a server configuration."
+        },
+        "gpt-5.4": {
+          "summary": "A cloud hosting dashboard shows a server deployment page with Ubuntu 22.04 selected and a deployment summary panel on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a server deployment interface showing various operating systems options."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A server deployment dashboard showing Ubuntu 22.04 x64 selected with configuration options and a 'Deploy' button."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a cloud hosting dashboard showing the server deployment interface with Ubuntu selected and a success notification indicating the server was created."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is explaining an event-driven services diagram on a whiteboard."
+        },
+        "gpt-5.4": {
+          "summary": "A paused [PERSON] tutorial shows a person explaining event-driven services on a whiteboard with a diagram of service boxes and request/response flows."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person explaining a diagram of an event-driven services model."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person explains a diagram titled 'EVENT DRIVEN SERVICES' on a whiteboard, illustrating service interactions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] video featuring a presenter explaining an 'Event Driven Services' architecture diagram on a whiteboard."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a smartwatch displaying a coding interface with a welcome message and tips for using the Claude Code application."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a smartwatch displaying the Claude Code interface on its screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A smartwatch displaying a terminal interface of Claude Code v2.0.42."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartwatch displays a terminal interface for 'Claude Code' with a welcome message and command options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a smartwatch displaying the Claude Code v2.0.42 terminal interface with a welcome message for '[PERSON]' and command options."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a detailed resume or curriculum vitae outlining a person's education"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a detailed resume highlighting education, skills, experience, projects, and achievements in the field of AI and machine learning."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a multi-page resume highlighting education, technical skills, [ORGANIZATION] experience, and software projects such as a mock interview platform and traffic optimization system."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A resume highlighting technical skills in [ORGANIZATION], programming languages like [ORGANIZATION], projects involving computer vision algorithms using OpenCV."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A professional resume highlighting AI/ML skills, projects, and experience in computer vision and automation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a technical resume highlighting education in [ORGANIZATION], extensive skills in [ORGANIZATION] and [ORGANIZATION], and professional experience as an intern at companies like [ORGANIZATION] and Stealth Startup."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a computer setup with multiple screens displaying coding and technical content."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media profile page featuring a coding-themed banner with computer monitors and text advertising AI agent building services."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A computer screen displaying a coding environment alongside an AI agent interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter profile page for '[ACCOUNT]' showing a coding workspace with multiple monitors and a professional bio offering AI agent development services."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter profile for '[ACCOUNT]' displaying a header image of a dual-monitor coding setup and a bio offering AI agent development services."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a computer screen displaying network requests in a developer console."
+        },
+        "gpt-5.4": {
+          "summary": "A dark photo shows a laptop screen with browser developer tools open on the Network tab, listing [ORGANIZATION] requests including an analyze-resume endpoint."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displaying a network tab in Chrome DevTools showing multiple [ORGANIZATION] requests."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop screen displays a browser's developer tools network tab showing HTTP POST requests to API endpoints."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a laptop screen displaying the Network tab of browser developer tools, showing HTTP POST requests to domains including 'clerk.accounts.dev' and '[ORGANIZATION]'."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a pair of blue and white athletic shoes placed on a tiled floor."
+        },
+        "gpt-5.4": {
+          "summary": "A pair of blue-and-white athletic sneakers sits on a sunlit tiled floor indoors, with chair legs partly visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pair of blue and white sneakers placed indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pair of light blue and white high-top sneakers with a number '4' logo on the tongue, resting on a tiled floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pair of light blue and white high-top sneakers with a number '4' logo on the tongue, resting on a tiled floor."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A long shot of an empty, modern subway or train station platform with bright fluorescent lighting and a sign displaying \"11\"."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dimly lit subway station platform with a visible sign indicating platform number 11."
+        },
+        "gpt-5.4": {
+          "summary": "A low-angle view of an empty subway or train platform with bright ceiling lights, metal railings, and a hanging sign marked 1."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dimly lit subway platform marked by a sign indicating track number '1'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An empty subway platform with a numbered sign, metal barriers, and tiled flooring under fluorescent lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An empty, dimly lit subway platform with polished floors reflecting overhead lights and metal barriers lining the edge."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a terminal output showing the disk usage for [PERSON] system components, including images, containers, local volumes, and build cache."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a terminal window showing the output of the command '[ORGANIZATION], detailing storage usage statistics for [PERSON] images, containers, local volumes, and build cache."
+        },
+        "gpt-5.4": {
+          "summary": "A terminal window shows the output of the `sudo docker system df` command, listing [PERSON] images, containers, local volumes, and build cache usage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Terminal output showing [PERSON] system statistics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A terminal displaying the output of '[PERSON]' showing [PERSON] storage usage statistics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A terminal screenshot displays the output of a [PERSON] system disk usage command, showing storage statistics for images, containers, volumes, and build cache."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a colorful gaming or streaming setup featuring a laptop, microphone, and a vibrant animated background on the monitor."
+        },
+        "gpt-5.4": {
+          "summary": "A home desk/streaming setup with a laptop, dual monitors, webcam, and microphone, showing a colorful pixel-art wallpaper and a recording interface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A home studio setup featuring a laptop streaming software, dual monitors displaying vibrant digital art, and recording equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming/streaming setup with a laptop, large monitor displaying retro-futuristic artwork, and streaming software interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A home streaming setup featuring a laptop with [ORGANIZATION] software, an external monitor displaying a cyberpunk wallpaper, and a microphone on a stand."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a computer screen displaying a spreadsheet with video file names and a draft label."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo of a computer screen shows a file list with video drafts and screen-recording files organized in two columns."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a computer screen displaying video files in folders."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A spreadsheet showing video file names for modules and raw screen recordings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a computer screen displaying a spreadsheet with video file names organized into columns labeled '1st draft of the video' and '[ORGANIZATION] [ORGANIZATION]'."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large crowd of people is seen walking through a busy indoor public concourse, likely a [LOCATION] station, with various shops and directional signs visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "A crowded indoor space with many people walking, likely in a transit area."
+        },
+        "gpt-5.4": {
+          "summary": "A crowded indoor transit corridor shows many commuters walking past shops and a sign pointing to public toilets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Crowded indoor corridor filled with people walking in a busy urban environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowded underground transit station corridor with people walking, some carrying backpacks, and storefronts visible on the left."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crowded indoor transit corridor with commuters walking past a 'BISTRO 57' eatery and under directional signage."
+        }
+      }
     }
   }
 }

@@ -81,12 +81,6 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--hierarchical-chunk-size", type=int, default=20)
     parser.add_argument("--extractive-k", type=int, default=12)
     parser.add_argument(
-        "--profile-eval-prompt-variant",
-        default="conservative",
-        choices=["conservative", "neutral"],
-        help="Prompt variant for profile evaluation: conservative (default, prefer fewer/broader tags) or neutral (return all supported tags).",
-    )
-    parser.add_argument(
         "--image-text-model",
         default="",
         help="Optional shared caption model for text_image mode. Defaults to the current eval model.",
@@ -175,7 +169,6 @@ def run_from_args(args: argparse.Namespace) -> dict[str, Any]:
         profile_method_max_posts=int(args.profile_method_max_posts),
         hierarchical_chunk_size=int(args.hierarchical_chunk_size),
         extractive_k=int(args.extractive_k),
-        profile_eval_prompt_variant=str(args.profile_eval_prompt_variant or "conservative").strip() or "conservative",
         image_text_model=str(args.image_text_model or "").strip(),
         image_text_max_tokens=int(args.image_text_max_tokens),
         image_text_timeout_seconds=int(args.image_text_timeout_seconds),

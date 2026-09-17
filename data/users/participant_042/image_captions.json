@@ -1,67 +1,1371 @@
 {
   "user_id": "participant_042",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "coffee and tea",
-        "film and television",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; coffee and tea; film and television; video games; visual art."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bingo card themed around [ORGANIZATION] from the game [PERSON], with various character icons arranged in a grid format."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized [PERSON] Zone Zero bingo graphic labeled for S-rank agents, showing a grid of anime character icons, flame-heart markers, and free space tiles on a purple film-themed background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bingo card featuring S-Rank agents from [LOCATION] Zone Zero."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bingo card layout featuring S-rank agents from the game [PERSON], with character icons and 'FREE SPACE' slots."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A purple bingo card featuring a grid of anime-style character portraits and flaming heart icons from the game [PERSON] Zero."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "live performances",
-        "music",
-        "outdoor activities",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: cats; live performances; music; outdoor activities; video games."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features various collectible cards and a sticker, showcasing character illustrations."
+        },
+        "gpt-5.4": {
+          "summary": "A small collection of anime-style character merchandise and art cards is arranged on a carpet, including a holographic card, a chibi sticker, and two monochrome character sketches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of anime-themed items including a card in packaging, an acrylic charm, two sketches, and holographic stickers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of anime-style merchandise including cards, a sticker, and a packaged item, laid out on a textured brown surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of anime-style merchandise, including holographic cards, a chibi sticker, and ink-wash prints, arranged on a textured brown surface."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "film and television",
-        "photography",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; film and television; photography; video games."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of anime-themed merchandise including a character card, a keychain, and two stickers."
+        },
+        "gpt-5.4": {
+          "summary": "A flat-lay photo shows anime-style merchandise on a white surface, including an art print, a small sticker, and a packaged acrylic keychain."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of anime-themed merchandise including a card featuring an animated character in red attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of anime-style merchandise including a card, keychain, and sticker featuring a character with white hair and red eyes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of anime-style merchandise featuring a character with white and black hair, including a printed card, a packaged acrylic keychain, and loose stickers."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "film and television",
-        "live performances",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; live performances; nature visits; outdoor activities."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group chat discussing the game 'Hay Day' with playful banter and emojis."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode mobile group chat screenshot shows an Indonesian conversation about playing Hay Day and asking about game predownload size."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat conversation discussing a game called Hay Day."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chat conversation about playing the game Hay Day, with users expressing enthusiasm and past frustrations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a group chat conversation in Indonesian where users discuss the mobile game Hay Day, with one user expressing disinterest due to data usage concerns."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "film and television",
-        "live performances",
-        "nature visits"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; film and television; live performances; nature visits."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group chat discussing gaming with playful banter and references to specific games."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode group chat screenshot in Indonesian shows a conversation about a game being easy and inviting someone to play, with a comparison to [LOCATION] games."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat conversation discussing a game comparison in Indonesian."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a group chat discussing game difficulty and comparing it to [ORGANIZATION] games."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a group chat conversation in Indonesian where users discuss the performance and fun factor of a game compared to [ORGANIZATION]."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "film and television",
-        "live performances",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; film and television; live performances; video games."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a mobile notification for the game 'Zenless Zone Zero' showing download progress."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone lock screen shows a Zenless Zone Zero download notification in progress with the time and date at the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A notification showing a download progress of 'Zenless Zone Zero' from [DATE]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone notification showing the game 'Zenless Zone Zero' with storage usage details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone lock screen displays a download progress notification for the game 'Zenless Zone Zero' at [DATE]."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character from behind, wearing a detailed outfit, with a cozy interior setting and a dialogue bubble expressing a playful sentiment."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot from a romantic mobile game shows the back of a male character in a detailed black outfit inside a cozy room, with dialogue and interaction icons overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a detailed outfit stands indoors near large windows."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character viewed from behind in a detailed outfit, with an interactive [ORGANIZATION] overlay and dialogue text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from a mobile game showing the back of a male character in a dark, detailed uniform standing in a sunlit room with [ORGANIZATION] interaction prompts."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character in a stylish outfit, standing in a well-decorated indoor setting, with a quote about comfort and connection displayed prominently."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile game screen shows an anime-style character in a black decorated uniform standing in a cozy room, with romantic dialogue text and interactive menu icons overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a formal military-style outfit stands indoors against an elegant background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character in a detailed black uniform stands indoors, with an overlay of interactive [ORGANIZATION] elements and a romantic dialogue text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a male anime-style character in a formal black uniform standing indoors with overlaid game interface icons and dialogue text."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized character in a dynamic pose with bold text reading 'WIPE OUT' in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized anime-game screenshot shows a white-haired character in a dark suit posing with a weapon or case in front of large glowing yellow victory text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stylized anime character stands confidently in a futuristic cityscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An anime-style character with white hair stands confidently in front of glowing orange text reading '[ORGANIZATION] against a stylized urban backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style character with long white hair and a dark suit stands in front of large, glowing orange text that reads '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an event overview for a game featuring a mountainous landscape with exploration rewards and objectives."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy video game event overview screen displays a volcanic mountain exploration event with a 48% progress bar and reward buttons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A game interface showing an exploration event in a volcanic landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game interface showing an event titled 'The Sacred Mountain and Sanctified Land' with a volcanic mountain background and exploration progress."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of [ORGANIZATION] menu from a fantasy video game, highlighting the active event 'The Sacred Mountain and Sanctified Land' with a countdown timer."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a game interface for a 'Stellar Reunion' event, showcasing a character and a daily reward system."
+        },
+        "gpt-5.4": {
+          "summary": "A Genshin Impact event/login rewards screen shows [PERSON] in the center with a circular seven-day reward track and star-shaped currency icons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a celestial-themed game interface showcasing rewards over seven days."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game interface showing a character holding a star, surrounded by daily reward icons in a celestial-themed event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of [ORGANIZATION] daily login event interface from a video game, featuring an anime-style character and reward icons."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grey cat with amber eyes is lying on a laptop adorned with various cartoon stickers."
+        },
+        "gpt-4o-mini": {
+          "summary": "A gray cat is resting on a laptop covered with various stickers."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a gray cat lounging on top of a sticker-covered laptop or tablet on a bed or cushioned surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a gray cat lying down in front of colorful stickers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gray cat with orange eyes rests on a laptop decorated with cartoon cat stickers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a grey cat with amber eyes resting its paws on a laptop covered in cartoon animal stickers."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy grey cat is lying on a laptop covered in various stickers, looking calmly to the side."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a gray cat resting its paws on a laptop covered in colorful stickers."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a gray cat lounging indoors on top of a sticker-covered laptop or tablet, with a calm and cozy feel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a gray cat sitting indoors near colorful stickers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a grey cat sitting atop a laptop decorated with colorful animal stickers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a fluffy grey cat resting its paws on a laptop covered in colorful animal stickers."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two character cards labeled '[PERSON]: Iceborn Warmth' and 'Sylus: Alternative Darkborne', both marked as new additions."
+        },
+        "gpt-5.4": {
+          "summary": "A game screenshot shows two newly obtained anime-style character cards, “Zayne: Iceborn Warmth” and “Sylus: Alternative Darkborne,” displayed as level 1 five-star portraits."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two character portraits labeled '[PERSON]' (Iceborn Warmth) and '[ORGANIZATION]' (Alternative Darkborne), both marked as [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two new character profiles from a game, showing [PERSON]: Iceborn Warmth and [ORGANIZATION]: [PERSON], both at [LOCATION] with five stars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the mobile game 'Love and [PERSON]' displays two five-star character cards for [PERSON] and [LOCATION], both marked as new."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character in formal attire holding a hand, set against a romantic background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a stylized silver-haired, red-eyed fantasy character in formalwear holding someone's hand in a romantic game-style scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a formal outfit holding hands with another person."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character with silver hair and red eyes in formal attire holds another person's hand, marked as a new, five-star 'Sylus: Alternative Darkborne' character."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up screenshot of a male anime-style character with silver hair and red eyes, wearing formal attire while holding a hand in a white lace glove."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized music studio setup with various audio equipment and a central display."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized game-like scene shows a retro radio studio setup with stacked speakers, old TVs, microphones, and glowing screens around a central pedestal."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A futuristic DJ setup in a dimly lit room filled with electronic equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized, retro-futuristic studio filled with vintage audio equipment and glowing screens."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital screenshot of a stylized, futuristic DJ booth or stage setup featuring stacked speakers, [ORGANIZATION] monitors, and a central floating shrine-like object under dramatic lighting."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A video game screenshot displays a notification for \"Interlude Chapter: Act IV Paralogism Started\" over a vibrant fantasy townscape"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a picturesque village setting with a windmill and houses, featuring a game interface indicating the start of 'Interlude Chapter: [PERSON].'"
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy game screenshot shows a bright medieval-style town with windmills and an on-screen quest title card reading \"Interlude Chapter: Act IV — Paralogism\" marked as started."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A medieval-style town scene featuring windmills under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game interface announces the start of 'Interlude Chapter: Act IV Paralogism' over a picturesque village scene with windmills and half-timbered houses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the video game [PERSON] showing a quest notification for 'Interlude Chapter: Act IV Paralogism' over a scenic view of a European-style village with windmills."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a battle records review from a gaming interface, showcasing various statistics and characters involved in battles."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] screen shows an Incursion Repeller best record of 69s with three battlefields, team lineups, and damage statistics."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a game's battle records review showing achievements in different battles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game interface showing battle records review for three normal difficulty incursion battles, with character portraits, level indicators, and performance stats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the '[ORGANIZATION] screen from the game [ORGANIZATION], displaying a completed '[ORGANIZATION] challenge with a total time of 69 seconds."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a detailed map from a video game, highlighting various locations and exploration progress."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Genshin Impact in-game world map showing [LOCATION] area with multiple teleport/map markers and 39% exploration progress."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A detailed map of an ancient sacred mountain in a fantasy game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game map interface showing the 'Ancient Sacred Mountain' region with exploration progress at 39% and various location markers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the in-game map interface for [ORGANIZATION], displaying exploration progress and various location markers."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An anime-style male character with black hair and a dark suit adjusts his tie on a wooden pier overlooking a vibrant"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character from the game [ORGANIZATION] standing on a wooden platform with a scenic background of mountains and water."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style game character in dark red and gray clothing stands on a wooden platform overlooking a bright harbor with ships, cliffs, and the Genshin Impact logo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a red outfit stands confidently by a wooden pier overlooking an idyllic coastal village."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character in a dark coat stands on a wooden pier overlooking a coastal village with traditional architecture and sailboats under a bright blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style male character with black hair and wolf-like ears stands on a wooden pier adjusting his collar, set against a backdrop of a coastal harbor with traditional ships and mountains."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts characters from a game engaged in conversation on a dock by the water."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful anime-style video game dialogue scene shows several characters standing on a dock by the water, with [PERSON] speaking on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three characters are standing by a dockside; [PERSON] expresses excitement over recent good events."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three animated characters stand on a dock near water, with one character speaking about recent good events."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the video game [PERSON] shows three characters and a floating creature standing on a wooden dock by the water during a dialogue scene."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features animated characters engaged in a conversation on a colorful outdoor setting near water."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot from [ORGANIZATION] shows [PERSON] talking with the [LOCATION] and [ORGANIZATION] on a bright seaside dock during in-game dialogue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three characters are standing together in a bright outdoor setting near water. One character named [PERSON] speaks about helping friends."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three animated characters stand on a dock near water, with one character speaking via dialogue text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the video game [PERSON] showing a dialogue scene on a ship deck between three characters."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A video game screenshot shows two anime-style characters, [PERSON] and [PERSON], engaged in dialogue by a body of water, with [PERSON] speaking about being a 'team of one'."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two animated characters in a scenic outdoor setting, engaged in a dialogue about teamwork and leadership."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] dialogue scene shows two anime-style characters standing on a sunny seaside dock, with [PERSON] speaking and multiple response choices on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two characters are conversing in a bright outdoor environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two anime-style characters converse on a seaside dock, with dialogue boxes showing their interaction."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the video game [PERSON] shows two anime-style characters, [PERSON] and [PERSON], standing on a ship deck with dialogue options displayed on the right."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two animated characters engaged in a humorous conversation about a fantastical idea involving a water gun."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style game dialogue screenshot shows two fantasy characters facing each other against a bright blue sky, with [LOCATION] speaking in on-screen subtitles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two animated characters are engaged in a conversation under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two anime-style characters stand outdoors under a blue sky, with one speaking via dialogue text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from a video game featuring two anime-style female characters standing outdoors against a blue sky, with dialogue text displayed at the bottom."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital mailbox interface from a game, featuring a birthday message and various notifications."
+        },
+        "gpt-5.4": {
+          "summary": "A Genshin Impact mailbox screenshot shows a birthday message from [ORGANIZATION] with a gift attachment ready to claim."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Birthday greeting from [ORGANIZATION] in a game mailbox interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game mail interface showing a birthday greeting from [ORGANIZATION] with a gift attachment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the in-game mailbox interface from [ORGANIZATION] displaying a birthday gift message and other system notifications."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized character in a dynamic pose against a vibrant orange background with the word '[ORGANIZATION]' prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized game character stands beside a shattered black-and-white figure in front of giant glowing letters reading \"WITHOUT\" in an orange-lit scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in futuristic armor stands against a backdrop of large yellow letters spelling '[ORGANIZATION]'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized character stands before a large, glowing yellow text reading '[ORGANIZATION] against an orange background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white-haired anime-style character in dark tactical gear stands before a large, stylized yellow text graphic that reads '[ORGANIZATION] against an orange background."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a digital representation of the 'Staff of the Scarlet Sands' from a game, highlighted with a five-star rating."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] reward screen shows the 5-star polearm Staff of the Scarlet Sands with an extra Masterless Starglitter x10 bonus."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a game item called 'Staff of the Scarlet Sands' displayed in an ornate design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A five-star in-game weapon named 'Staff of the Scarlet Sands' is displayed with an accompanying reward of 'Masterless Starglitter x10'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the game [PERSON] displaying a five-star weapon pull for 'Staff of the Scarlet Sands' alongside extra currency rewards."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON] from a game, displayed with a vibrant background and game-related elements."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] reward screen displays the character [PERSON] with green visual effects and duplicate-conversion rewards."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character named [PERSON] in a fantasy-themed game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A five-star game character named [PERSON] stands dynamically holding a glowing weapon against a green-lit digital background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the game [PERSON] showing the character [PERSON] being obtained with a four-star rarity indicator."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music app interface featuring a song titled '[ORGANIZATION] (Japanese)' along with a character illustration."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a game music-selection screen with an anime character and song details above a messaging interface overlaid by a large purple peace-sign image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music app interface showing a song selection screen alongside an emoji sticker of peace."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A split-screen image showing a game's music selection interface with an anime character and a messaging app's peace symbol sticker."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image showing a music selection interface from the game [ORGANIZATION] featuring the character [PERSON], positioned above a large purple peace sign icon in a messaging app."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character from a game, standing in a vibrant environment with a musical instrument."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a rhythm-game scene with an anime-style character and score [ORGANIZATION], overlaid in a messaging app with a large purple peace-symbol image being composed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a fantasy outfit holding an instrument above their head next to a peace symbol."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a mobile game interface showing a character playing an instrument, overlaid with a messaging app's peace-sign icon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image showing a mobile rhythm game featuring the character [PERSON] from [ORGANIZATION] alongside a large peace symbol sticker in a messaging interface."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a game statistics screen showing the results of a wish event, including star ratings and percentages for characters and weapons."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed game statistics screenshot shows a Chronicled Wish pull summary with totals, percentages, pity averages, and the item name \"Staff of the Scarlet Sands\" at 81 pity."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chart showing statistics of a game event called 'Chronicled Wish', including total counts, percentages, average pity values by star rating."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game gacha wish summary showing stats for a 5-star weapon named 'Staff of the Scarlet Sands'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A statistical breakdown of the 'Chronicled Wish' banner in a video game, highlighting that the Staff of the [LOCATION] was pulled with an average pity count of 81."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays challenge results from a gaming interface, showing an 'A' grade and various statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A video game challenge results screen displays a large pink A rank, a 1:31 clear time, and progress panels with anime-style character portraits."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A game challenge results screen showing a large 'A' grade."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game challenge results screen showing a glowing purple 'A' grade with performance stats and player options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game results screen displays a large glowing purple 'A' grade for a completed challenge, featuring character stats and performance metrics."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a game screen indicating the completion of a challenge titled 'Icy Resurrection' with associated rewards."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy video game results screen shows a completed challenge called \"Icy Resurrection\" with a reward card and an [ORGANIZATION] button against a starry, floating-ruins background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A game completion screen showing '[ORGANIZATION] in a fantasy-themed environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game screen showing a completed challenge titled 'Icy Resurrection' with a reward icon and an automatic exit countdown."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game interface displays a 'Challenge Completed' screen for an event titled 'Icy Resurrection', showing a reward item and an exit button."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a game screen indicating a failed performance with options to pause, restart, or rewind."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy game failure screen shows a combat arena scene with the message \"Performance Failed\" and options to pause, restart, or rewind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A game screen showing a performance failure message."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game performance failure screen with options to pause, restart, or rewind, set against a fiery fantasy background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game interface displays a 'Performance Failed' message with options to pause, restart, or rewind the action."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cracked smartphone screen displaying a theme selection interface with a focus on a character named [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a smartphone with a heavily cracked screen displaying a themes page featuring a Wriothesley/Genshin Impact item."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cracked smartphone screen displaying a theme app interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cracked smartphone screen displays a theme app interface with visible text and an anime-style character preview."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a smartphone with a severely cracked screen displaying the 'wriothesley' theme page within the Galaxy Themes app."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a cracked smartphone screen showing a Genshin Impact app featuring a character named [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A cracked smartphone screen displays a store page for a Genshin Impact Wriothesley animated always-on-display theme with anime preview images."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cracked smartphone screen displaying a YouTube app icon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cracked smartphone screen displays a theme store page for an animated '[ORGANIZATION] wallpaper featuring the character [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a smartphone with a severely cracked screen displaying [ORGANIZATION][LOCATION] app page for a Genshin Impact Wriothesley animated Always On Display theme."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a game map with various locations and rewards for a game, likely related to exploration and missions."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy video game world map screen shows [ORGANIZATION] covered with exploration markers, reward menu items, and 90% exploration progress."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A game map showing exploration progress in Act 9 of a fantasy-themed adventure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game map interface showing exploration progress on [LOCATION] with various locations and rewards marked."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the in-game map interface for [ORGANIZATION] in [ORGANIZATION], showing exploration progress and various location markers."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a game interface showing 'Visionary Mode' with performance details and options."
+        },
+        "gpt-5.4": {
+          "summary": "A dark fantasy-style video game results screen shows \"Visionary Mode\" with a total performance duration of 14m 13s and a current record of Act 10."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "End screen of a performance in Visionary Mode showing total duration and current record."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game screen showing the results of 'Visionary Mode' with performance stats and options to replay or return."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game results screen displaying a 'Visionary Mode' performance summary with a duration of 14 minutes and 13 seconds, a star rating, and options to replay or return to the lobby."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A tabby and white cat is peacefully sleeping on a stack of colorful folded items, with its paw resting on a textured surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sleeping cat rests on a pile of colorful fabric."
+        },
+        "gpt-5.4": {
+          "summary": "A white-and-tabby cat is lounging sleepily on top of stacked purple, green, and black bags or cushions indoors against a plain wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat peacefully sleeping atop a stack of plastic bags."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby-and-white cat is sleeping peacefully on top of folded plastic bags."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white and tabby cat is sleeping peacefully on a stack of folded umbrellas placed on a textured carpet."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white tabby cat is peacefully sleeping on a pile of colorful clothes and a black bag, resting on a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat is resting on a pile of colorful fabric and bags."
+        },
+        "gpt-5.4": {
+          "summary": "A white and gray tabby cat is curled up asleep on top of folded bags or clothing indoors against a wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat lounging comfortably atop a stack of folded blankets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby-and-white cat is sleeping curled up on a pile of folded fabrics next to a backpack and helmet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white and tabby cat is sleeping on a pile of folded clothes, a black backpack, and a motorcycle helmet."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a colorful game interface featuring a thank-you gift section with various rewards and a character named [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful mobile game event rewards screen shows [ORGANIZATION] with milestone prizes and a character card for [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A game interface showing [ORGANIZATION] event where players can claim rewards."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game interface showing a reward screen for 'Signal Search Thank-You Gift' with purchasable items and a character named [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile game event interface titled '[ORGANIZATION] displaying a reward track for the character [PERSON]."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a game screen indicating the completion of a quest titled 'A Dance of Snowy Tides and [ORGANIZATION] in a fantasy setting."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy video game quest completion screen shows a character overlooking a stylized landscape with on-screen story text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A completed quest notification from a game featuring snowy landscapes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game quest completion screen showing a character in a snowy landscape with text announcing the end of 'Act I'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game achievement screen displays a '[ORGANIZATION] notification for the 'Song of [LOCATION] I' storyline, featuring an anime-style character against a fantasy landscape."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital art image displays a male fantasy character with white hair, horns, and dark, ornate clothing, standing against a fiery red background, presented as a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON], depicted as a muscular figure with a dark, fantasy-inspired outfit and a glowing red gem."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy game unlock screen shows a horned white-haired character in dark armor with glowing red energy standing before a fiery red portal."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A new character named [PERSON]: [ORGANIZATION] has been unlocked in a fantasy-themed game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A male fantasy character with silver hair and demonic horns stands in dark armor against a red swirling background, announcing a new game companion unlock."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game character named [PERSON]: [ORGANIZATION] is displayed in a full-body pose with demonic features and dark armor against a swirling red background."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a plush doll with white fluffy hair, red eyes, and an embroidered outfit featuring a necklace, against a dark fabric background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plush doll with white hair and red eyes, dressed in a stylish outfit."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a small anime-style plush doll with white hair, red eyes, and a purple outfit against a dark fabric background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush toy resembling a character from an anime or manga series."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a plush toy with white hair, red eyes, and embroidered facial details against a dark fabric background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a hand holding a plush doll with white hair, red glittery eyes, and embroidered clothing details against a dark fabric background."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of a group chat conversation"
+        },
+        "gpt-4o-mini": {
+          "summary": "A chat conversation discussing party setup and character roles in a game."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode group chat screenshot shows people joking in Indonesian about a game party setup, healer, and an electro reaction called \"super conduct.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat conversation discussing party planning in a gaming context."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chat conversation about optimizing a game party composition, specifically discussing healer roles and elemental reactions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] group chat named '[ACCOUNT]' where users discuss game party composition and elemental reactions in Indonesian."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a mobile app interface showing an update notification for a game called 'Love and [ORGANIZATION]'."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile game update details screen shows an error popup saying file validation failed, above anime character artwork and update notes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Notification of a failed file validation in an app update."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app screen showing a failed file validation message over an update announcement for 'Love and [ORGANIZATION] [PERSON] with character portraits below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface displays a 'Failed to validate files' error message overlaying the latest update details for the game Love and [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of various posts including a workout guide, a fashion piece, and a fitness video."
+        },
+        "gpt-5.4": {
+          "summary": "A social media discovery feed shows a workout infographic, a dark purple-and-black outfit on a mannequin, a portrait photo, and a [ORGANIZATION]-style incline pushup clip."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fitness workout guide alongside fashion images."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media feed showing fitness content including a workout poster, fashion garment, portrait, and an incline push-up video."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media feed screenshot displaying a mix of fitness workout guides, gothic fashion styling, and celebrity portraits."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a chat conversation with playful and informal exchanges between two users."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a casual Indonesian conversation with a shared [ORGANIZATION] link, joking replies, and a thank-you message."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A playful conversation between two people exchanging light-hearted messages."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a chat conversation with playful and teasing messages."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a dark-mode chat conversation showing a shared link and messages in Indonesian slang mixed with English."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a conversation with humorous and informal exchanges about art and a specific individual named [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows an Indonesian conversation joking about art and explicit references related to “Xavier.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation discussing an art piece's quality followed by playful banter."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation discussing a character named [PERSON], with humorous reactions and references to card game content."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a dark-mode chat conversation in Indonesian discussing the adult content creator [PERSON]."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dynamic scene from a video game featuring characters engaged in combat against a large robotic enemy in a futuristic setting."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional gameplay-style image for [PERSON] Zone Zero shows anime-styled characters fighting a large glowing robotic enemy in a ruined futuristic city setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dynamic scene from 'Zenless Zone Zero' featuring a character in combat against robotic enemies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character battles a large glowing robotic monster in a futuristic urban setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the video game [PERSON] Zero depicts a character in red and white combat gear attacking a large, blocky mechanical enemy with glowing green accents in an urban setting."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized animated scene with characters engaged in dynamic action amidst a futuristic urban backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "Anime-style game artwork shows two characters facing a giant floating monster in a ruined futuristic city with the title \"HOLLOW\" overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dynamic action scene featuring two characters in a futuristic urban environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two stylized characters battle a large mechanical monster in a futuristic, ruined cityscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dynamic action scene from the video game [PERSON] Zone Zero featuring two characters fighting a large mechanical monster in a futuristic city."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dynamic scene from a video game featuring characters engaged in combat against a large robotic enemy in a futuristic setting."
+        },
+        "gpt-5.4": {
+          "summary": "Stylized game promo art shows anime-style characters battling a giant floating enemy with neon energy attacks in a ruined futuristic city."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dynamic action scene from 'Hollow' featuring characters in a futuristic environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized action scene from the game 'Zenless Zone Zero' shows characters battling a large mechanical enemy in a ruined cityscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dynamic action scene from the video game [PERSON] Zone Zero featuring characters fighting a large mechanical enemy in a ruined urban setting."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dynamic scene from a digital animation showcasing a character in a battle stance against a large, menacing figure."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized anime/game promotional image shows robot-like fighters battling a large pink-and-black enemy in a ruined city, with the title \"HOLLOW\" at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Action-packed scene from 'Hollow' featuring a character in combat amidst futuristic elements."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized battle scene featuring robotic and humanoid figures in a futuristic, ruined cityscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional image for the video game '[ORGANIZATION] featuring a large, red and black armored character in combat with smaller robotic units against a ruined city backdrop."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming interface showing performance metrics and options for a mobile device."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a GameTurbo gaming overlay with a real-time FPS graph and quick tools over a game screen, plus a side app dock."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a gaming performance app showing real-time FPS data."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen showing the 'GAMETURBO' gaming mode interface with real-time FPS monitoring and quick-access utility buttons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a smartphone displaying the 'GAMETURBO' gaming overlay interface with performance metrics and utility tools."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A chat conversation discussing the purchase of an apartment and joking about buying mosquitoes."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode group chat screenshot shows a humorous Indonesian conversation about buying an apartment and “buying mosquitoes,” with a reply joke and visible message bubbles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat conversation discussing apartment purchase plans in Indonesian."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a group chat discussing buying an apartment and splitting costs, with humorous reactions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a group chat conversation where users joke about buying an apartment and accidentally type 'mosquito' instead of another word."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a detailed miniature model of an apartment interior, showcasing various rooms and furniture."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a group chat shows a joke about buying an apartment, illustrated with a photo of a detailed miniature dollhouse-style apartment building."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A discussion thread featuring a miniature apartment model displayed in an online chat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A multi-story miniature dollhouse with illuminated rooms is displayed on a marble countertop, accompanied by social media chat discussing 'apartemen'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a group chat conversation where users discuss buying an apartment, illustrated by a shared image of a detailed miniature dollhouse."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A chat conversation among three users discussing typos and humorous reactions."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a dark-mode group chat showing an Indonesian conversation with joking typo reactions and profanity."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Chat conversation in a messaging app discussing typo correction."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a dark-themed chat conversation with humorous and teasing messages in Indonesian."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] group chat named '[PERSON]' showing a conversation in informal Indonesian where users joke about typos and use slang."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a messaging interface with an unsent message stating '[PERSON] (I have a headache)."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode direct message screenshot shows an unsent outgoing message reading \"[PERSON],\" a red delivery error notice, and a typing indicator from the other side."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A message in a messaging app interface shows '[PERSON] (I have headache) but it's marked as unsent."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A messaging app interface showing an unsent message '[PERSON] with a notification."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a failed direct message in a chat interface showing an unsent Indonesian phrase and a system error notification."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot displays [ORGANIZATION] x Tomoro Coffee collaboration merchandise, including two cups in a carrier, a sheet of stickers"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features [PERSON]-themed coffee cups and promotional materials from [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A Genshin Impact x TOMORO Coffee collaboration drink carrier with anime-themed cups and matching stickers is displayed on a table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Genshin Impact-themed coffee set featuring character stickers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Genshin Impact x TOMORO COFFEE collaboration package with branded cups and stickers on a wooden table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a Genshin Impact and [ORGANIZATION] collaboration set, featuring two character-themed cups in a carrier alongside stickers and a coaster."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of hands interacting with a game interface, showcasing a fantasy-themed design with text related to unlocking a companion and making wishes."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile game gacha event screen with a gothic fantasy theme shows hands over ornate clothing and multiple wish/pull buttons for the event 'Where Silverwings Rest.'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a hand interacting with an ornate outfit in what appears to be a game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gacha game interface showing a 'Where Silverwings Rest' event with wish options and character previews."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile game gacha screen featuring a character named 'Where Silverwings Rest' with options to purchase wishes and view limited banners."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON], depicted in a dramatic fantasy setting with a dark, mystical atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy game character reveal screen shows a white-haired male companion in ornate white clothing with red demonic effects, labeled as a new companion named [PERSON]: [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in an elaborate white outfit stands amidst a mystical red aura."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fantasy character with silver hair and ornate white attire stands amidst red wings and gothic decor, announcing a new companion."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital illustration of a male character with silver hair and bat-like wings in an ornate white suit, presented as a new game companion."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person in an apron, with a visible bruise on their chest, standing in a kitchen setting."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized close-up shows a shirtless torso with a hand on the abdomen in a kitchen setting, with a red pot visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person's chest in front of kitchen appliances."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a visible chest scar is partially undressed in a kitchen setting near a pink pot."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a shirtless, muscular male character's torso in a kitchen setting with a pink pot on the stove."
+        }
+      }
     }
   }
 }

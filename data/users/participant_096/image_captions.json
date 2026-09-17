@@ -1,52 +1,337 @@
 {
   "user_id": "participant_096",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "crafts and design"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; crafts and design."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a brown crocheted item with a ball of brown yarn and a yellow crochet hook nearby on a patterned surface."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a chunky dark-brown crocheted slipper or shoe in progress beside a ball of matching yarn and a crochet hook on a pink patterned surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a partially completed crochet project next to yarn balls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a brown crocheted slipper next to a ball of matching yarn on a pink-patterned fabric."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a thick, brown crocheted tube next to a ball of matching yarn and crochet hooks on a pink patterned surface."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "music"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; music."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a phone lock screen featuring a person in a maroon shirt with a blurred face against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone lock screen screenshot shows a stylish profile portrait wallpaper with sunglasses, along with the date, time, battery, and app widgets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a red patterned shirt against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[ORGANIZATION] lock screen showing a person in profile wearing sunglasses and a patterned red shirt, with date, time, battery, and app icons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] lock screen displaying a wallpaper of a person in profile wearing sunglasses and a patterned red shirt."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "crafts and design",
-        "music"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; crafts and design; music."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a shopping cart interface featuring two types of chenille yarn in green and red, along with pricing and shipping information."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile shopping cart screen shows chenille knitting yarn from the store carrotcat, with green and red color variants selected and priced at [ORGANIZATION] each."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A product listing showing two types of Chenille yarn in green (9.Hijau [ORGANIZATION]) and red (24.Merah), each priced at [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shopping cart interface showing two colored chenille yarn products with prices and quantity selectors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile e-commerce interface displays a shopping cart containing green and red chenille yarn balls with Indonesian text and pricing."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [],
-      "summary": "Generalized visual topics: content withheld."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a spreadsheet on a laptop displaying a list of items with their quantities and prices."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop screen shows a [ORGANIZATION] Excel spreadsheet listing craft or flower-supply items with quantities, unit prices, totals, and a final total amount."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A spreadsheet showing inventory items in a table format."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop screen displays an Excel spreadsheet listing items with quantities, unit prices, and totals in Indonesian Rupiah."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a laptop screen displaying an Excel spreadsheet listing craft supplies with quantities and prices in Indonesian Rupiah."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "dining",
-        "music"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; dining; music."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an [ORGANIZATION] profile for a handmade flower and personal gift business alongside handwritten crochet notes."
+        },
+        "gpt-5.4": {
+          "summary": "A tablet displays an [ORGANIZATION] business profile for a handmade crochet bouquet shop beside handwritten crochet pattern notes and a pen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tablet displaying an [ORGANIZATION] profile alongside a notebook filled with crochet instructions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tablet displays an [ORGANIZATION] profile for a handmade crochet business, positioned above a notebook filled with handwritten crochet patterns."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tablet displays an [ORGANIZATION] profile for a handmade crochet business named 'simpulsayang.id' resting on top of an open notebook containing handwritten crochet stitch instructions."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "crafts and design",
-        "music"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; crafts and design; music."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A purple basket is filled with various colorful skeins of yarn, a yellow crochet hook, and a small crocheted piece."
+        },
+        "gpt-4o-mini": {
+          "summary": "A colorful assortment of yarn balls and a crochet hook in a pink basket."
+        },
+        "gpt-5.4": {
+          "summary": "A pink basket holds assorted colorful yarn skeins and a crochet hook on a bed, suggesting knitting or crochet supplies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A basket filled with colorful yarns of various colors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink basket filled with colorful yarn skeins and a yellow crochet hook."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A purple plastic basket filled with colorful skeins of yarn and a yellow crochet hook resting on top."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds four colorful, crocheted, fish-shaped keychains with black bead eyes, set against a red and cream patterned background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding four colorful crocheted fish keychains against a patterned background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds four colorful crocheted fish-shaped keychain charms with bead chains against a patterned fabric background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand displays four crocheted fish ornaments in various colors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds four colorful crocheted bird-shaped keychains against a patterned red and beige background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds four colorful, crocheted bird-shaped keychains with black bead eyes against a patterned red and cream background."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Four colorful, handmade crocheted drawstring pouches, each with a different fruit or heart design, are displayed on a brown furry surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features four colorful, crocheted drawstring bags with fruit-themed designs."
+        },
+        "gpt-5.4": {
+          "summary": "Four small handmade crocheted drawstring pouches with fruit and flower designs are laid out on a brown fuzzy surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four crocheted pouches shaped like different fruits are displayed against a brown textured background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four colorful crocheted pouches shaped like fruit and food items rest on a brown furry surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four colorful, hand-crocheted drawstring pouches featuring fruit designs like strawberries and watermelons are arranged on a brown textured surface."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a tablet displaying a scene from a show while a colorful crochet project is being worked on beside it."
+        },
+        "gpt-5.4": {
+          "summary": "A tablet playing a period drama sits on a pink surface beside pastel yarn, a crochet hook, and a partially crocheted piece."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tablet displaying a historical drama scene alongside crochet work in progress."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tablet displaying a period drama is placed on a pink surface alongside a colorful yarn ball and an ongoing crochet project."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tablet playing a historical drama on iQIYI rests on a pink surface next to a large spool of pastel yarn and an in-progress crochet project."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a nighttime scene with a group of people on motorcycles near a military vehicle, surrounded by smoke."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime street scene in an [ORGANIZATION] story shows motorcycles and a large vehicle moving through smoke under streetlights, with overlaid text and a question sticker."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime scene showing a military vehicle spraying water from its hose onto protesters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime street scene with smoke, motorcycles, and a military-style vehicle, overlaid with text asking '[PERSON]?' and censored university names."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night-time street scene showing a military-style vehicle and motorcyclists amidst smoke, with overlaid text questioning the identity of the people involved."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a tablet screen displaying a music player interface alongside a pink keyboard."
+        },
+        "gpt-5.4": {
+          "summary": "A tablet on a desk shows the control center with music playing, next to a pastel wireless keyboard and stationery."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a tablet displaying control center settings next to an attached keyboard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tablet displaying control center with music playing, resting on a floral-patterned surface next to a matching keyboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a tablet displaying the control center with music playing, resting on a floral surface next to a beige [ORGANIZATION] keyboard."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile e-commerce application screen displays a list of 'Dikemas"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a mobile app interface showing a list of orders with details about various products, including curtains and a telescopic rod."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile shopping app screenshot shows the '[PERSON] orders page on [ORGANIZATION] with several home decor items like curtains, rods, and a beaded curtain awaiting shipment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a shopping app showing three orders in 'Dikemas' status."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile screenshot showing three ordered curtain-related products in the 'Dikemas' (Packed) stage, with prices and estimated delivery dates."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot showing a user's order history page with three pending home decor items, including floral curtains and curtain rods."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a [ORGANIZATION] displaying a [ORGANIZATION] video, accompanied by a glass of chocolate milk with a spoon, resting"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop displaying a video with a glass of chocolate drink beside it on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] on a wooden table displays lifestyle and productivity video content in a browser beside a glass of milky coffee."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person using a [ORGANIZATION] while streaming videos."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displaying [PERSON] on a wooden table next to a glass of milk tea."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a [ORGANIZATION] displaying a [ORGANIZATION] video on a wooden table next to a glass of iced coffee."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation with affectionate language and casual greetings."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed chat screenshot shows a casual Indonesian conversation with affectionate messages and timestamps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation between two people discussing waking up late."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a chat conversation with four messages exchanged between two users."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] chat conversation in Indonesian featuring affectionate nicknames and casual greetings against a dark patterned background."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a digital chat conversation with multiple message bubbles containing text and timestamps"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation with humorous exchanges and casual language."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a dark-themed chat conversation in Indonesian with maroon and gray message bubbles and visible timestamps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation between two people discussing something humorous."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a chat showing two messages in Indonesian with timestamps."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a casual chat conversation in Indonesian featuring three messages exchanged at 17:55 against a dark background with faint doodle icons."
+        }
+      }
     }
   }
 }

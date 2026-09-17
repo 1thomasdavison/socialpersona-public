@@ -263,7 +263,16 @@ def write_manifest(root: Path):
 
 
 def verify_data(root: Path, expected_users: int = 100) -> list[str]:
-    """Strict allowlist validation: additional keys and arbitrary text fail closed."""
+    """Validate the declared release schema; v1 retains its fixed vocabulary."""
+    manifest_path = Path(root) / "data" / "manifest.json"
+    if manifest_path.is_file():
+        try:
+            version = read_json(manifest_path).get("release_variant")
+        except (ValueError, AttributeError):
+            return ["Malformed release manifest"]
+        if version == "targeted-deidentified-v2":
+            from .targeted_privacy import verify_candidate
+            return verify_candidate(root, expected_users)
     issues = []
     def check(condition, message):
         if not condition:

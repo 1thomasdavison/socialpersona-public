@@ -1,67 +1,733 @@
 {
   "user_id": "participant_057",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "dining",
-        "film and television",
-        "nature observation",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: dining; film and television; nature observation; nature visits; outdoor activities."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in scrubs is focused on paperwork in a clinical setting."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a video call shows one person leaning over a notebook or ledger at a desk indoors, with a smiling face appearing in a small inset window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a blue shirt is working intently over papers while another individual looks down from above."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blue shirt leans over a stack of papers at a desk, with a video call inset showing a smiling woman."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in blue scrubs is working at a desk with papers and equipment, while a woman's face appears in a video call overlay."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "crafts and design",
-        "dining",
-        "music",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: crafts and design; dining; music; nature visits; outdoor activities."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in medical scrubs is using a microscope in a laboratory setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in blue scrubs and gloves is using a microscope at a counter in a small lab or clinic room, with a small video-call style inset in the top right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a lab coat uses a microscope while wearing gloves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in blue scrubs uses a microscope in a lab setting, with a small inset image showing someone getting their hair styled."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in blue scrubs and gloves examines a sample through a microscope in a laboratory setting, with a small inset image of hands visible in the top right corner."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "dining",
-        "film and television",
-        "live performances",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: dining; film and television; live performances; nature visits; outdoor activities."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays [ORGANIZATION]Word of the Day' for [DATE], which is 'gossip,' defined as 'to talk about the personal lives of others.'"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the 'Word of the Day' from [ORGANIZATION], featuring the word 'gossip' along with its definition and pronunciation."
+        },
+        "gpt-5.4": {
+          "summary": "A blue [PERSON] graphic shows the Word of the Day for [DATE]: “gossip,” labeled as a verb with its pronunciation and a short definition."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON] Word of the Day for [DATE]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] card for the Word of the Day, defining 'gossip' as talking about others' personal lives."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic from [PERSON] displaying the 'Word of the Day' for [DATE], which is the verb 'gossip'."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "dining",
-        "music",
-        "nature observation",
-        "nature visits",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: dining; music; nature observation; nature visits; spectator sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a crowd at an event, with many attendees holding illuminated items."
+        },
+        "gpt-5.4": {
+          "summary": "A dim, grainy crowd scene at what looks like a concert or live event, with many small lights visible and one person circled in white."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A crowd of people in a dimly lit venue holding illuminated devices."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowded concert audience with many glowing phone lights, highlighted by a white circle around one person."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crowded indoor audience at a concert or event, with many attendees holding up illuminated mobile phones."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "dining",
-        "live performances",
-        "music",
-        "nature visits",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: dining; live performances; music; nature visits; photography."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features lyrics from the song 'Please Please Please' by [PERSON], presented in a [ORGANIZATION]-themed design."
+        },
+        "gpt-5.4": {
+          "summary": "A blue [ORGANIZATION] lyrics share card displays [PERSON]’s song “Please Please Please” with a prominently quoted lyric."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] playlist cover featuring a blue background with lyrics from [PERSON] song 'Please Please Please'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] music card displaying lyrics from [PERSON] song 'Please Please Please'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] music player interface displaying lyrics from the song 'Please Please Please' by [PERSON]."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "dining",
-        "film and television",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: dining; film and television; nature visits; outdoor activities; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a blue shirt is engaged in a video call, with a blurred face and a background showing a room with yellow walls."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a video call shows one person indoors in blue clothing with a smaller inset of another smiling person in a yellow room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a blue shirt looks down while another individual appears smaller as an inset video call."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in blue scrubs looks down while on a video call, with a smiling woman visible in a picture-in-picture window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video call showing a person in blue scrubs looking down, with a smaller inset window displaying another participant smiling."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in blue scrubs and gloves is gesturing with their hand in a medical or clinical setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in blue scrubs and gloves is taking a selfie in a clinical-looking room, with a small inset showing another person making a peace sign indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a blue uniform gestures while another individual makes peace signs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in blue scrubs and gloves smiles while holding up a finger, with a messy desk and a small inset photo of another smiling person."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in blue medical scrubs and gloves smiles at the camera while holding a video call with another smiling individual wearing braces."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person in a blue shirt, partially visible, in a room with various items and a second person in a video call overlay."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a split-screen video call shows one person in blue clothing indoors with a smaller inset of another person smiling from a room with yellow walls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a blue shirt looks down while another individual appears as an inset video call."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blue shirt is shown in profile during a video call, with a smaller inset image of another person smiling."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video call showing a man in blue scrubs looking down, with a smaller inset window displaying a woman smiling against a yellow wall."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person in a blue shirt working at a desk in a cluttered office environment, with a video call interface visible in the corner."
+        },
+        "gpt-5.4": {
+          "summary": "A person in blue scrubs smiles for a selfie in a clinic or medical workspace, with equipment, cabinets, and a small inset of another person’s face on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a blue uniform smiles while taking a selfie indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in blue scrubs smiles at the camera in a cluttered office or clinic, with a small inset photo of another smiling person."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in blue medical scrubs smiles at the camera during a video call, with a smaller inset showing another smiling individual wearing braces."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An anime"
+        },
+        "gpt-4o-mini": {
+          "summary": "A character in a dark, mystical setting is casting a spell, surrounded by swirling purple energy."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style game character with long purple hair raises a glowing weapon beneath a large swirling purple vortex in a dark fantasy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a fantasy outfit stands under swirling purple clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character in ornate white and red attire stands before a swirling purple vortex under a dark sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style character with long blue hair and a white outfit stands in a dark, purple-hued environment, looking up at a swirling vortex of energy while holding a glowing sword."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing sunglasses and a striped tank top stands outdoors holding a basketball, with a bright sunny sky, clouds"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a striped tank top holds a basketball while standing near a body of water under a sunny sky."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing sunglasses and a striped tank top holds up a basketball by a sunny lakeside with a car, boat, and grassy shoreline in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a basketball outdoors under bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holding a basketball outdoors near a lake under a bright, cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing sunglasses and a striped tank top stands outdoors holding a basketball, with a lake and bright sky in the background."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated at a bar, looking towards the camera in a dimly lit setting with various bottles visible behind them."
+        },
+        "gpt-5.4": {
+          "summary": "Two people sit at a bar counter, smiling toward the camera in a dimly lit cafe/bar interior with bottles and warm hanging lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people are taking a selfie in front of an illuminated bar counter."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile while taking a selfie at a bar, viewed through a reflective surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman are seated at a bar counter, smiling as they look into a mirror while holding a smartphone."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a bouquet of pink and peach-"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a bouquet of pink and yellow flowers wrapped in clear plastic."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a wrapped bouquet of soft pink and peach flowers with green leaves indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a bouquet featuring pink chrysanthemums in various shades."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a bouquet with pink and yellow chrysanthemums wrapped in clear cellophane with lace trim."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a bouquet featuring pink and yellow chrysanthemums wrapped in clear plastic with white lace trim."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a digital representation of the 'Staff of [PERSON]' weapon from a game, highlighted with a star rating."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] reward screen shows the 5-star polearm Staff of [PERSON] with an extra Masterless Starglitter x10 bonus."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a game item called 'Staff of [PERSON]' displayed in an inventory screen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A five-star game weapon named 'Staff of [PERSON]' with a fiery red top is displayed, accompanied by an extra reward of 'Masterless Starglitter x10'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the game [PERSON] displaying a five-star weapon pull for 'Staff of [PERSON]' alongside extra currency rewards."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a decorative item titled 'A Thousand Floating Dreams' with a star rating and additional rewards."
+        },
+        "gpt-5.4": {
+          "summary": "A game reward screen shows the 5-star item \"A Thousand Floating Dreams\" with an extra reward of [ORGANIZATION] x10."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot from a game featuring an ornate lamp titled 'A Thousand Floating Dreams' alongside extra rewards."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A five-star in-game item named 'A Thousand Floating Dreams' with an extra reward of 'Masterless Starglitter x10' displayed against a starry background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the game [PERSON] displaying a five-star weapon pull for 'A Thousand Floating Dreams' alongside bonus currency."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are taking a selfie in a restaurant with a green wall and a painting in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows two people seated at a restaurant table with water glasses, condiments, and a green wall with framed artwork behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people are taking a selfie in what appears to be an indoor restaurant."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people take a selfie in a restaurant mirror, with a green wall and artwork behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman take a mirror selfie at a restaurant table with green walls, water glasses, and condiments visible."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses for a selfie at night near a decorative light installation by a water body."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling nighttime selfie of two people by a waterfront with a large cone-shaped light installation and illuminated trees in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie in front of an illuminated water feature during nighttime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie at night near a lit-up water feature and decorative lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple wearing braces takes a selfie at night in front of a large, illuminated cone-shaped light installation near a body of water."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman and man smile for a close-up selfie outdoors, with buildings and a decorated tree in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are sitting together, partially visible, in an outdoor setting with a building in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling pair pose for a close outdoor selfie in front of a building with columns and tiled roofs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals take a selfie in front of an architectural building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie outdoors in front of a building with decorative lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling woman wearing glasses and a man with braces standing outdoors in front of a building."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are taking a selfie while seated in a public transport setting."
+        },
+        "gpt-5.4": {
+          "summary": "A cheerful close-up selfie shows two smiling people seated together inside a public transit vehicle."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie inside what appears to be an airplane cabin."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people with braces take a selfie inside a vehicle, likely a train or bus."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling man and woman with dental braces sitting side-by-side inside a moving train."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a black hoodie with an anime-style graphic is looking down at"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a black hoodie is sitting in a cafe, focused on their phone."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black hoodie sits in a warmly lit cafe or restaurant, looking down at a smartphone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a hoodie sits in an indoor space using their phone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black hoodie is seated indoors, focused on using a smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black hoodie with an anime graphic sits in a dining area, focused on using a smartphone."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a milestone achievement of a 100-day streak with a playful character and vibrant background."
+        },
+        "gpt-5.4": {
+          "summary": "A bright orange app screenshot celebrates a 100-day streak with a flame icon, weekly progress bar, and share milestone button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A milestone achievement screen celebrating a '100 day streak'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app screen celebrating a 100-day streak with a cartoon flame character."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displays a '100 day streak' milestone with a cartoon flame character wearing sunglasses against an orange background."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A contestant in a sparkling gown is walking on stage during a beauty pageant event."
+        },
+        "gpt-5.4": {
+          "summary": "A beauty pageant contestant in a sparkling silver gown stands smiling onstage during Miss Universe Philippines 2025."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A contestant in a sparkling gown walks during Miss [ORGANIZATION] coronation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A contestant in a sparkling white gown smiles on stage during the Miss Universe Philippines 2025 pageant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female contestant in a sparkling white gown and headpiece walks on stage during the Miss Universe Philippines 2025 coronation event."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized representation of the number '11' made from layered colorful paper."
+        },
+        "gpt-5.4": {
+          "summary": "Abstract geometric paper artwork made from stacked multicolored sheets arranged in zigzag cutout shapes on a white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful paper sculpture resembling a stylized letter 'M' against a white background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized letter 'M' formed from stacked, colorful paper layers against a white background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized, three-dimensional letter 'M' constructed from stacked layers of colorful paper against a white background."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman with a happy expression holds a maroon"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holds a maroon book titled '[ORGANIZATION] in Modern and [PERSON] with a visible Ph.D. designation."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person indoors holds a maroon Ph.D. thesis/book titled about olfactory ethics and the politics of smell in modern and contemporary prose."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a PhD thesis titled '[ORGANIZATION] by [LOCATION] [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while holding a maroon PhD thesis folder titled '[ORGANIZATION] in Modern and [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman in a maroon sweater holds a red doctoral thesis bound with gold lettering and a university crest."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of seven young men pose casually on a [LOCATION] at sunset, with a warm orange and blue sky in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of six individuals poses together on a beach during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A group of six people pose together on a beach at sunset, wearing casual outfits with a calm, relaxed vibe."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Six individuals posing together in a beach sunset scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Seven people pose together on a beach during sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of seven young men pose together on a [LOCATION] during sunset, wearing casual streetwear including hoodies and denim jackets."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple takes a selfie on a sandy beach with mountains and an overcast sky"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses for a selfie on a beach with a cloudy sky in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in swimwear take a smiling selfie on a sandy beach with calm water, cloudy skies, and mountains in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie together on a sandy beach under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie on a sandy beach with mountains and cloudy skies in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple takes a selfie on a sandy beach with mountains in the background under an overcast sky."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing happily on blue ATVs in a lush outdoor setting with a tower in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people wearing helmets pose on blue ATVs in a grassy outdoor adventure area with a tall metal observation tower and dense trees behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people are riding ATVs in a lush green field near an observation tower."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people in helmets pose cheerfully on blue ATVs in a grassy field with a tall metal tower and trees in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two smiling individuals wearing helmets and protective gear pose on blue ATVs in a grassy field with a tall metal tower in the background."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing with hand signs while wearing helmets and protective gear near an [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Two people wearing helmets and protective pads pose with hand signs beside an [ORGANIZATION] under a thatched roof shelter."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals wearing protective gear pose in front of an [ORGANIZATION] under a wooden structure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people wearing helmets and protective gear pose cheerfully with rock hand gestures beside an [ORGANIZATION] under a thatched roof."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man and woman wearing helmets and protective gear pose with hand gestures in front of an [ORGANIZATION] under a thatched roof."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling man and woman take a selfie outdoors in a lush garden setting with a house in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A selfie of two individuals in a lush, green garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie of two people in a lush courtyard filled with hanging and potted plants in front of a house."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A selfie of two individuals in a lush garden courtyard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people pose for a selfie in a lush, plant-filled courtyard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man and woman pose for a selfie in a lush, plant-filled outdoor courtyard."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a pink floral dress and glasses stands smiling in front of a rustic stone wall with arched openings, with outdoor cafe seating visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a floral dress poses in a stone archway at an outdoor dining area."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a pink floral dress poses under rustic stone arches in a café-style outdoor seating area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a floral dress poses under an arched stone structure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a pink floral dress poses indoors under a stone archway with tables and chairs visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman wearing glasses and a pink floral dress poses in front of rustic stone arches at an outdoor cafe."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing sunglasses and a casual outfit poses with crossed arms next to a large fluted column in an ornate architectural setting with a patterned floor and decorative ceiling."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands casually against a column in a grand architectural setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in sunglasses and a tan shirt stands with arms crossed in an ornate stone colonnade with tall columns, a patterned floor, and a gold coffered ceiling."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands confidently in a grand architectural space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in sunglasses and a brown shirt stands confidently with arms crossed beside a large stone column in a grand architectural corridor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing sunglasses and a brown t-shirt stands with arms crossed in an ornate corridor featuring large stone columns, a gold coffered ceiling, and geometric floor tiles."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] recap for a user, highlighting their viewing statistics and top channels."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful [ORGANIZATION] recap graphic shows the username [ACCOUNT] with viewing stats, top channels, top game categories, and a most-used emote."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] recap showing streaming statistics including hours watched, distinct days visited, chats sent, top channels viewed, categories played in, and most used emote."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [PERSON] user activity recap showing stats like hours watched, days visited, and chats sent, along with top channels, categories, and emote usage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful [ORGANIZATION] recap graphic displaying the user '[ORGANIZATION] viewing statistics, top channels, and favorite game categories against a purple gradient background."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A colorful video game screenshot, likely from a [ORGANIZATION] title, features [ORGANIZATION] and various [ORGANIZATION] creatures, overlaid with large, playful text requesting a '[ORGANIZATION]."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a colorful, animated landscape from a video game, featuring [ORGANIZATION] and various [ORGANIZATION] in a vibrant setting."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful gaming meme overlays the text “buy me a switch 2 please.” on a cartoon scene mixing Animal Crossing-style island visuals with [ORGANIZATION] characters and a Pokémon Center."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful cartoon scene promoting a [ORGANIZATION] console."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful game scene featuring a [ORGANIZATION]-themed village with overlaid text requesting a [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful meme featuring a screenshot of the video game Pokémon Let's Go with large, playful text overlaid that reads 'buy me a switch 2 please.'"
+        }
+      }
     }
   }
 }

@@ -1,47 +1,137 @@
 {
   "user_id": "participant_055",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
       "status": "active",
       "long_term_interests": [
         {
+          "label": "gym workout",
+          "evidence_post_indices": [
+            0,
+            3,
+            4,
+            10,
+            24,
+            34,
+            35,
+            40,
+            44,
+            79,
+            98,
+            111,
+            188
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0001",
+            "participant_055_post_0004",
+            "participant_055_post_0005",
+            "participant_055_post_0011",
+            "participant_055_post_0025",
+            "participant_055_post_0035",
+            "participant_055_post_0036",
+            "participant_055_post_0041",
+            "participant_055_post_0045",
+            "participant_055_post_0080",
+            "participant_055_post_0099",
+            "participant_055_post_0112",
+            "participant_055_post_0189"
+          ]
+        },
+        {
           "label": "fitness",
           "evidence_post_indices": [
             0,
-            1,
-            2,
-            3
+            3,
+            4,
+            10,
+            34,
+            79,
+            106,
+            111,
+            188
           ],
           "evidence_post_ids": [
-            "participant_055_phase_1",
-            "participant_055_phase_2",
-            "participant_055_phase_3",
-            "participant_055_phase_4"
+            "participant_055_post_0001",
+            "participant_055_post_0004",
+            "participant_055_post_0005",
+            "participant_055_post_0011",
+            "participant_055_post_0035",
+            "participant_055_post_0080",
+            "participant_055_post_0107",
+            "participant_055_post_0112",
+            "participant_055_post_0189"
+          ]
+        },
+        {
+          "label": "fitness routine",
+          "evidence_post_indices": [
+            24,
+            35,
+            40,
+            44,
+            98,
+            103
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0025",
+            "participant_055_post_0036",
+            "participant_055_post_0041",
+            "participant_055_post_0045",
+            "participant_055_post_0099",
+            "participant_055_post_0104"
+          ]
+        },
+        {
+          "label": "weightlifting",
+          "evidence_post_indices": [
+            0,
+            4,
+            34,
+            68,
+            98,
+            111
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0001",
+            "participant_055_post_0005",
+            "participant_055_post_0035",
+            "participant_055_post_0069",
+            "participant_055_post_0099",
+            "participant_055_post_0112"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "cycling",
+          "label": "bodybuilding",
           "evidence_post_indices": [
-            1
+            0,
+            24
           ],
           "evidence_post_ids": [
-            "participant_055_phase_2"
+            "participant_055_post_0001",
+            "participant_055_post_0025"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "f45 training",
           "evidence_post_indices": [
-            1,
-            3
+            98
           ],
           "evidence_post_ids": [
-            "participant_055_phase_2",
-            "participant_055_phase_4"
+            "participant_055_post_0099"
+          ]
+        },
+        {
+          "label": "indoor cycling",
+          "evidence_post_indices": [
+            103
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0104"
           ]
         }
       ]
@@ -51,67 +141,101 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "music listen",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            1,
+            38,
+            42,
+            51,
+            172,
+            181
           ],
           "evidence_post_ids": [
-            "participant_055_phase_1",
-            "participant_055_phase_3",
-            "participant_055_phase_4"
+            "participant_055_post_0002",
+            "participant_055_post_0039",
+            "participant_055_post_0043",
+            "participant_055_post_0052",
+            "participant_055_post_0173",
+            "participant_055_post_0182"
           ]
         },
         {
-          "label": "film and television",
+          "label": "reality tv",
           "evidence_post_indices": [
-            0,
-            3
+            6,
+            39,
+            150,
+            173
           ],
           "evidence_post_ids": [
-            "participant_055_phase_1",
-            "participant_055_phase_4"
+            "participant_055_post_0007",
+            "participant_055_post_0040",
+            "participant_055_post_0151",
+            "participant_055_post_0174"
           ]
         },
         {
-          "label": "music",
+          "label": "kpop",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            26,
+            41,
+            57,
+            68
           ],
           "evidence_post_ids": [
-            "participant_055_phase_1",
-            "participant_055_phase_3",
-            "participant_055_phase_4"
+            "participant_055_post_0027",
+            "participant_055_post_0042",
+            "participant_055_post_0058",
+            "participant_055_post_0069"
+          ]
+        },
+        {
+          "label": "movies",
+          "evidence_post_indices": [
+            89,
+            152,
+            190
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0090",
+            "participant_055_post_0153",
+            "participant_055_post_0191"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "e book",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            92,
+            144
           ],
           "evidence_post_ids": [
-            "participant_055_phase_2",
-            "participant_055_phase_3",
-            "participant_055_phase_4"
+            "participant_055_post_0093",
+            "participant_055_post_0145"
           ]
         },
         {
-          "label": "reading",
+          "label": "stoicism",
           "evidence_post_indices": [
-            1,
-            2
+            92,
+            144
           ],
           "evidence_post_ids": [
-            "participant_055_phase_2",
-            "participant_055_phase_3"
+            "participant_055_post_0093",
+            "participant_055_post_0145"
+          ]
+        },
+        {
+          "label": "spotify",
+          "evidence_post_indices": [
+            1,
+            38
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0002",
+            "participant_055_post_0039"
           ]
         }
       ]
@@ -128,58 +252,131 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "coffee and tea",
+          "label": "coffee",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            5,
+            55,
+            60,
+            86,
+            92,
+            117,
+            132,
+            153,
+            161
           ],
           "evidence_post_ids": [
-            "participant_055_phase_1",
-            "participant_055_phase_2",
-            "participant_055_phase_3",
-            "participant_055_phase_4"
+            "participant_055_post_0006",
+            "participant_055_post_0056",
+            "participant_055_post_0061",
+            "participant_055_post_0087",
+            "participant_055_post_0093",
+            "participant_055_post_0118",
+            "participant_055_post_0133",
+            "participant_055_post_0154",
+            "participant_055_post_0162"
           ]
         },
         {
-          "label": "dining",
+          "label": "coffee shop",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            8,
+            29,
+            38,
+            41,
+            45,
+            106,
+            146,
+            172
           ],
           "evidence_post_ids": [
-            "participant_055_phase_1",
-            "participant_055_phase_2",
-            "participant_055_phase_3",
-            "participant_055_phase_4"
+            "participant_055_post_0009",
+            "participant_055_post_0030",
+            "participant_055_post_0039",
+            "participant_055_post_0042",
+            "participant_055_post_0046",
+            "participant_055_post_0107",
+            "participant_055_post_0147",
+            "participant_055_post_0173"
+          ]
+        },
+        {
+          "label": "dining out",
+          "evidence_post_indices": [
+            31,
+            55,
+            61,
+            133,
+            136,
+            151,
+            161,
+            177
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0032",
+            "participant_055_post_0056",
+            "participant_055_post_0062",
+            "participant_055_post_0134",
+            "participant_055_post_0137",
+            "participant_055_post_0152",
+            "participant_055_post_0162",
+            "participant_055_post_0178"
+          ]
+        },
+        {
+          "label": "cafe visiting",
+          "evidence_post_indices": [
+            5,
+            20,
+            44,
+            69,
+            90,
+            146,
+            170
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0006",
+            "participant_055_post_0021",
+            "participant_055_post_0045",
+            "participant_055_post_0070",
+            "participant_055_post_0091",
+            "participant_055_post_0147",
+            "participant_055_post_0171"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "baking and desserts",
+          "label": "italian cuisine",
           "evidence_post_indices": [
-            0
+            151,
+            177
           ],
           "evidence_post_ids": [
-            "participant_055_phase_1"
+            "participant_055_post_0152",
+            "participant_055_post_0178"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "ice cream",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            188,
+            192
           ],
           "evidence_post_ids": [
-            "participant_055_phase_1",
-            "participant_055_phase_2",
-            "participant_055_phase_3"
+            "participant_055_post_0189",
+            "participant_055_post_0193"
+          ]
+        },
+        {
+          "label": "bakery product",
+          "evidence_post_indices": [
+            60,
+            113
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0061",
+            "participant_055_post_0114"
           ]
         }
       ]
@@ -191,43 +388,121 @@
         {
           "label": "city exploration",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            8,
+            20,
+            29,
+            38,
+            41,
+            66,
+            69,
+            70,
+            90,
+            106,
+            113,
+            117,
+            146,
+            161,
+            166,
+            168,
+            172,
+            191
           ],
           "evidence_post_ids": [
-            "participant_055_phase_1",
-            "participant_055_phase_2",
-            "participant_055_phase_3",
-            "participant_055_phase_4"
+            "participant_055_post_0009",
+            "participant_055_post_0021",
+            "participant_055_post_0030",
+            "participant_055_post_0039",
+            "participant_055_post_0042",
+            "participant_055_post_0067",
+            "participant_055_post_0070",
+            "participant_055_post_0071",
+            "participant_055_post_0091",
+            "participant_055_post_0107",
+            "participant_055_post_0114",
+            "participant_055_post_0118",
+            "participant_055_post_0147",
+            "participant_055_post_0162",
+            "participant_055_post_0167",
+            "participant_055_post_0169",
+            "participant_055_post_0173",
+            "participant_055_post_0192"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "bandung",
           "evidence_post_indices": [
-            1,
-            3
+            5,
+            29,
+            105,
+            106
           ],
           "evidence_post_ids": [
-            "participant_055_phase_2",
-            "participant_055_phase_4"
+            "participant_055_post_0006",
+            "participant_055_post_0030",
+            "participant_055_post_0106",
+            "participant_055_post_0107"
+          ]
+        },
+        {
+          "label": "jakarta",
+          "evidence_post_indices": [
+            15,
+            37,
+            117
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0016",
+            "participant_055_post_0038",
+            "participant_055_post_0118"
+          ]
+        },
+        {
+          "label": "city walks",
+          "evidence_post_indices": [
+            45,
+            99,
+            137
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0046",
+            "participant_055_post_0100",
+            "participant_055_post_0138"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "travel city exploration interests",
+          "label": "bekasi",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            66,
+            167
           ],
           "evidence_post_ids": [
-            "participant_055_phase_1",
-            "participant_055_phase_2",
-            "participant_055_phase_3"
+            "participant_055_post_0067",
+            "participant_055_post_0168"
+          ]
+        },
+        {
+          "label": "exploring local area 1",
+          "evidence_post_indices": [
+            166,
+            167
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0167",
+            "participant_055_post_0168"
+          ]
+        },
+        {
+          "label": "exploring local area 2",
+          "evidence_post_indices": [
+            99,
+            166
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0100",
+            "participant_055_post_0167"
           ]
         }
       ]
@@ -237,52 +512,86 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "crafts and design",
+          "label": "content creation",
           "evidence_post_indices": [
-            2,
-            3
+            31,
+            57,
+            70,
+            74,
+            75,
+            121,
+            179
           ],
           "evidence_post_ids": [
-            "participant_055_phase_3",
-            "participant_055_phase_4"
+            "participant_055_post_0032",
+            "participant_055_post_0058",
+            "participant_055_post_0071",
+            "participant_055_post_0075",
+            "participant_055_post_0076",
+            "participant_055_post_0122",
+            "participant_055_post_0180"
           ]
         },
         {
-          "label": "photography creation interests",
+          "label": "mirror selfie",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            13,
+            86,
+            127
           ],
           "evidence_post_ids": [
-            "participant_055_phase_1",
-            "participant_055_phase_2",
-            "participant_055_phase_3",
-            "participant_055_phase_4"
+            "participant_055_post_0014",
+            "participant_055_post_0087",
+            "participant_055_post_0128"
+          ]
+        },
+        {
+          "label": "graphic design",
+          "evidence_post_indices": [
+            29,
+            74,
+            84
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0030",
+            "participant_055_post_0075",
+            "participant_055_post_0085"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "photography",
+          "label": "digital camera",
           "evidence_post_indices": [
-            1,
-            3
+            13,
+            127
           ],
           "evidence_post_ids": [
-            "participant_055_phase_2",
-            "participant_055_phase_4"
+            "participant_055_post_0014",
+            "participant_055_post_0128"
           ]
         },
         {
-          "label": "photography creation interests",
+          "label": "studio lighting",
           "evidence_post_indices": [
-            2
+            57,
+            75
           ],
           "evidence_post_ids": [
-            "participant_055_phase_3"
+            "participant_055_post_0058",
+            "participant_055_post_0076"
+          ]
+        },
+        {
+          "label": "social media management",
+          "evidence_post_indices": [
+            70,
+            74
+          ],
+          "evidence_post_ids": [
+            "participant_055_post_0071",
+            "participant_055_post_0075"
           ]
         }
       ]

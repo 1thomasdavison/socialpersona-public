@@ -79,6 +79,7 @@ def _posts_for_profile_input_mode(posts: list[dict[str, Any]], *, profile_input_
     for post in posts:
         row = dict(post)
         row["created_at"] = ""
+        row.pop("relative_day", None)
         if not keep_text:
             row["text"] = ""
             row["hashtags"] = []

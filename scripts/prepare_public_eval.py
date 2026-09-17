@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Prepare generalized public profiles for the evaluation CLI.
+"""Prepare public profiles for the evaluation CLI.
 
-Visual topic summaries remain at the user level because the public data omits
+Image captions remain at the user level because the public data omits
 links between images and individual posts.
 """
 import argparse
@@ -29,7 +29,7 @@ def main():
     gold.mkdir(parents=True, exist_ok=True)
     for folder in sorted((data_dir / "users").iterdir()):
         shutil.copyfile(folder / "gold_profile.json", gold / (folder.name + ".json"))
-    print("Prepared 100 generalized profiles for the maintained evaluation CLI.")
+    print("Prepared 100 public profiles for the maintained evaluation CLI.")
 
 
 if __name__ == "__main__":

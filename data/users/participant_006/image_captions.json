@@ -1,67 +1,3725 @@
 {
   "user_id": "participant_006",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "live performances",
-        "nature visits",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; live performances; nature visits; spectator sports."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless, blood-covered man holding a championship belt yells triumphantly in a dark arena, with \"HEAVYWEIGHT CHAMPIONSHIP\" displayed on a screen in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A muscular athlete stands in a wrestling ring holding a heavyweight championship belt, with a sign reading 'HEAVYWEIGHT CHAMPIONSHIP' in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bloodied combat sports champion stands in a ring holding a title belt beneath a large 'HEAVYWEIGHT CHAMPIONSHIP' sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler celebrates in a ring after winning an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bloodied wrestler celebrates triumphantly while holding a championship belt under bright stage lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless, bloodied male fighter screams in celebration while holding a championship belt under arena lights."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "dining",
-        "film and television",
-        "live performances",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: dining; film and television; live performances; photography; spectator sports."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a spoon scooping mashed potatoes from a dish, with several rolled omelets or crepes visible on a plate in the blurred background"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a spoonful of a creamy dish next to rolled food items on a plate."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a plated homemade savory dish topped with mashed potatoes, with several rolled crepe- or omelet-like wraps on a plate in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of mashed potatoes topped with a spoonful being lifted."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of mashed potatoes with a spoonful lifted, behind which are rolled omelets on a plate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a plate with mashed potatoes and a spoon, with rolled omelets in the background."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "film and television",
-        "live performances",
-        "photography",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; live performances; photography; spectator sports; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a scene from a cartoon where a character is pointing and delivering a humorous insult to another character, surrounded by onlookers."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style edited Simpsons scene shows two real faces in red caps composited onto cartoon characters, with one character confronting the other in a crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring a character from 'The Simpsons' with two different headshots superimposed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two real people's heads are superimposed onto cartoon characters from 'The Simpsons' in a confrontational pose."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring a scene from The Simpsons where the character's head is replaced by [PERSON] and another by a young boy, both wearing red caps with political slogans."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "live performances",
-        "savory food",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; live performances; savory food; spectator sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a glass filled with a pink iced drink, set against a blurred background of a television screen displaying what appears to be a wrestling match."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a glass of pink drink in the foreground with a wrestling match displayed on a television in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A pink iced drink in a tall glass sits on a table in front of a blurred TV showing a wrestling ring and match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A glass of pink drink with ice cubes in front of a boxing match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink cocktail with ice sits in front of a TV showing a wrestling match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tall glass filled with a pink beverage and ice sits in the foreground, while a wrestling match plays on a large television screen in the background."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "dining",
-        "film and television",
-        "photography",
-        "savory food",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: dining; film and television; photography; savory food; spectator sports."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts an exhibition titled 'Star Power' featuring photographs from [LOCATION]'s Golden Age, with visitors observing the displayed works."
+        },
+        "gpt-5.4": {
+          "summary": "A museum gallery displays a 'STAR POWER' exhibition on [LOCATION] Golden Age photography, with visitors viewing framed portraits along the walls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Exhibition banner titled 'STAR POWER' featuring a vintage photograph of [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Visitors view a large exhibition sign for 'Star Power: Photographs from [LOCATION]'s Golden Age by [PERSON] in a gallery with framed photos on purple walls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Visitors view the entrance to a photography exhibition titled 'Star Power' featuring [PERSON] in an art gallery hallway."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "film and television",
-        "live performances",
-        "photography",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; live performances; photography; spectator sports; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a drink in a glass with a decorative design, set against a blurred background of a wrestling match on TV."
+        },
+        "gpt-5.4": {
+          "summary": "A short glass of red cocktail with a citrus peel sits on a coaster in front of a TV showing a blurry wrestling match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A glass of red liquid sits in front of a television showing two boxers sparring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A decorative glass with a dragon etching holds a red beverage on a coaster, with a blurred wrestling match on TV in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a red cocktail in an etched glass sits on a coaster, with a wrestling match playing on a television screen in the background."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a wrestling ring set up in a venue with an audience waiting for an event to start."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestling ring is set up inside an ornate theater venue with spectators seated around it before the show starts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling event setup in a vintage theater with an audience seated around."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestling ring is set up in a vintage theater with an audience watching as a screen displays '[ORGANIZATION] No Compadre STARTS IN 19:39'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestling ring is set up in the center of a vintage theater with an audience seated around it, while a large screen on stage displays event details."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two spiked baseball bats"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling ring with two spiked baseball bats on the mat, suggesting a post-match scene."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestling ring is shown after a hardcore-style match, with two spiked bats lying on the mat and spectators around the venue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two spiked weapons lie in a wrestling ring amidst bloodstains."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two spiked bats lie on a blood-stained wrestling ring mat, with spectators and cameras visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two spiked, makeshift weapons lie on a wrestling ring canvas marked with red stains, viewed from the corner post with spectators in the background."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestling match scene featuring a performer being thrown through a glass panel, with visible blood and intense action."
+        },
+        "gpt-5.4": {
+          "summary": "An intense pro wrestling match shows one wrestler crashing another through a pane of glass inside the ring while a photographer captures the action."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers engage in a dramatic moment as water splashes around them during an intense match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler breaks a glass barrier in a ring while another wrestler lies injured on the ground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two wrestlers are in a ring during a match where one has just crashed through a glass barrier, resulting in visible blood and shattered debris."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two wrestlers are engaged in a dramatic moment in the ring, with one smashing a bottle, creating a cloud of debris."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic pro-wrestling ring moment shows one wrestler smashing a chair into another amid exploding debris and dust."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler celebrates by smashing a bottle in an arena filled with confetti."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a black tank top and white pants delivers a powerful blow to an opponent inside a wrestling ring, sending debris and smoke flying."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A muscular man with a tattooed arm and bloodied head delivers a powerful punch to an opponent inside a wrestling ring, causing a bottle to shatter into a spray of liquid."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dynamic shot captures a person pouring liquid, creating a splash of droplets"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a lively wrestling event where a person is spraying a beverage, creating a dynamic scene with audience engagement."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic ringside scene at a wrestling event shows liquid splashing through the air as people crowd around the ring and a photographer captures the moment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a wrestling ring interacts enthusiastically with an audience behind glass."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person pours liquid from a bottle onto another person in a crowd, creating a splash effect."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A chaotic indoor scene captures a person pouring liquid from a can onto another individual, creating a dramatic spray of droplets amidst a crowd."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with a beard and mustache, wearing a tie-dye hoodie, stands intensely in what appears to be a wrestling ring or stage under bright lights, with water"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a colorful hoodie stands confidently in a wrestling ring, surrounded by a misty atmosphere and bright stage lights."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a tie-dye hoodie stands in a ring or stage area under bright lights with water or mist spraying around him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a hoodie stands under rainlit stadium lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a tie-dye hoodie stands inside a ring under bright lights as rain falls around him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man in a tie-dye hoodie stands inside a wrestling ring under bright lights with water spraying around him."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing for a photo in a casual indoor setting, with one making a hand gesture and the other giving a thumbs up."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose casually for a selfie indoors in a rustic venue, one making a hand sign and the other giving a thumbs-up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie in an indoor space, making playful gestures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose for a selfie indoors, one making a hand gesture and the other giving a thumbs-up."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose for a selfie indoors, with the woman making a hand gesture and the man giving a thumbs-up."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two wrestlers are engaged in a match, with one breaking a wooden object over the other in a wrestling ring."
+        },
+        "gpt-5.4": {
+          "summary": "Two wrestlers in a ring are shown mid-impact as one smashes a door or wooden panel over the other, with a [ORGANIZATION] event screen in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers in a ring are engaged during an intense moment involving broken furniture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two wrestlers in a ring are engaged in combat using a large, splintered wooden object."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two wrestlers engage in a hardcore match inside a ring, with one striking the other using a large wooden board while confetti falls around them."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling match scene with a bloodied wrestler sitting on the mat, surrounded by spectators."
+        },
+        "gpt-5.4": {
+          "summary": "A bloodied wrestler sits on the mat inside a wrestling ring beside another downed competitor, with spectators watching in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a wrestling ring covered in blood sits defeated."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bloodied wrestler sits defeated in a wrestling ring, with another wrestler lying motionless nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald, tattooed man in grey scrubs with fake blood on his face sits dazed inside a wrestling ring while another person lies motionless nearby."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A tattooed individual in a blood-stained shirt holds a glass panel in a dimly lit setting, suggesting a dramatic or intense scene."
+        },
+        "gpt-5.4": {
+          "summary": "A bloodied person in a wrestling ring or performance setting holds a large broken glass panel, creating a graphic hardcore-sports scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a wrestling ring covered in blood holds an object near their face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bloodied bald man in a grey shirt holds a glass shard while standing behind a wrestling ring barrier."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald, tattooed man in a blood-stained grey shirt with '[LOCATION]. REDACTED' text stands behind glass in a wrestling ring, holding a shard of broken glass to his face."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestling match scene shows a performer being slammed into a glass structure, creating a dramatic effect."
+        },
+        "gpt-5.4": {
+          "summary": "A pro-wrestling match is captured mid-impact as one tattooed wrestler crashes through a pane of glass in the ring while another stands nearby and a photographer shoots from ringside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling match captures a dramatic moment as two wrestlers clash in mid-air over broken glass."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler breaks a glass barrier in a ring while another wrestler lies injured on the mat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two wrestlers are in a ring where one has just crashed through a glass barrier, with visible blood on his face and shattered glass debris flying."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a glass of cocktail with an orange peel and cherry, set in front of a television displaying a sports event."
+        },
+        "gpt-5.4": {
+          "summary": "A short cocktail with an orange peel garnish and cherry sits on a table in front of a TV showing a blurry sports or fight broadcast."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cocktail garnished with an orange peel sits in front of a TV showing what appears to be a sports event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cocktail with an orange peel and olive sits on a coaster in front of a TV showing a combat sports event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of an amber cocktail garnished with orange peel and a cherry on a wooden table, with a television screen in the background showing a female athlete at a sporting event."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two scenes: a physical altercation between individuals and a person smoking, both with humorous labels referencing wrestling personalities."
+        },
+        "gpt-5.4": {
+          "summary": "A split-panel meme shows an outdoor party scene where two women are tussling on the left while a shirtless person smokes from a bottle on the right, with wrestling names overlaid as labels."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two humorous images featuring CM Punk vs. [PERSON] in a fight scene juxtaposed against [PERSON] smoking."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Split image meme comparing [ORGANIZATION] wrestlers [ORGANIZATION] and [PERSON] with [PERSON] in a running scene."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-panel meme featuring shirtless men at an outdoor party, with [ORGANIZATION] wrestler names overlaid on their images."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an empty arena set up for a wrestling event, featuring a wrestling ring and audience seating."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor arena is set up for a live ring event, with a brightly lit ring, scattered spectators, and LED boards displaying event branding."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Wrestling event setup in an arena filled with spectators."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestling event setup in a large arena with fans and staff around a ring under bright stage lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a professional wrestling event inside an arena, featuring a ring on the floor and spectators in tiered seating under bright lights."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a wrestling event featuring a match in a packed arena with a prominent display of the name '[PERSON] and the phrase 'FINAL ACE USA ~ KINSHIP'."
+        },
+        "gpt-5.4": {
+          "summary": "A live pro-wrestling match is underway in a packed arena, with one wrestler standing in the ring, another on the mat, and bright event signage overhead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling match in progress inside a packed arena."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler stands in a ring during a professional wrestling event, with a large crowd watching and overhead screens displaying text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestler stands in the ring during a packed indoor arena event, with large digital banners overhead announcing '[PERSON] FINAL [ORGANIZATION] ~KINSHIP~'."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A muscular wrestler poses confidently in the ring, with a crowd cheering in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A professional wrestler stands on the corner turnbuckle in a ring during a live arena event, with a crowd below and large overhead signage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler stands in a ring under bright lights during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler stands atop a turnbuckle in a ring under bright lights, with a large screen above displaying his name."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless male wrestler with blonde hair stands on the turnbuckle of a wrestling ring in front of a crowd, under a large red sign reading '[PERSON] FINAL'."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male wrestler with numerous tattoos, red"
+        },
+        "gpt-4o-mini": {
+          "summary": "A tattooed wrestler is crouched in a wrestling ring, preparing for action."
+        },
+        "gpt-5.4": {
+          "summary": "A tattooed wrestler crouches in a ring in a ready stance, wearing black gear and tall lace-up boots during a live event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler in a ring crouches readying himself."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tattooed wrestler with red eye makeup crouches aggressively inside a ring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tattooed professional wrestler with red face paint crouches intensely inside a wrestling ring."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler performs a high-flying move in a wrestling match against another competitor."
+        },
+        "gpt-5.4": {
+          "summary": "An action shot in a wrestling ring shows one wrestler leaping high toward an opponent while a referee and crowd watch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler leaps high in a wrestling ring during an intense match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tattooed wrestler leaps mid-air toward an opponent in a ring during a professional wrestling match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A professional wrestler with tattoos leaps through the air to attack an opponent in a wrestling ring while a referee watches."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a wrestling event is sitting with a [PERSON]' bag, showing excitement."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestler sits against the ringside barricade at a live wrestling event, holding a [PERSON] bag and gesturing toward another wrestler while the crowd watches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a wrestling ring holding out their fist while wearing boxing gloves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a gold outfit sits behind a barrier holding a [PERSON]' bag while raising his fist."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestler in a gold shirt and red contact lenses sits on the barricade holding a [PERSON]' bag while pointing at the camera."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A chalkboard displaying movie showtimes outside a venue, with a portrait in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A sidewalk chalkboard outside a venue lists a 'Now Playing' lineup of films, with a portrait painting displayed in the window behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] sign listing movie times in a cinema."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chalkboard sign outside a venue lists movie showtimes, with a portrait visible in the window behind it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A chalkboard marquee outside a theater lists a film schedule featuring [PERSON] movies, with a portrait of the director visible in the window above."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A meme featuring two characters resembling Merry and Pippin from Lord of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two characters in cloaks with text referencing a '[ORGANIZATION] and a humorous dialogue about having had a first but questioning a second."
+        },
+        "gpt-5.4": {
+          "summary": "A meme uses a two-panel scene from The Lord of the [ORGANIZATION] with overlaid text joking about wanting a second '[LOCATION].'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring two characters from 'The Lord of the Rings' discussing a sports event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in fantasy costumes react to text overlays about '[ORGANIZATION] with contrasting expressions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring two characters with curly hair, one looking skeptical and the other smiling, overlaid with text about '[ORGANIZATION] in a sports context."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cocktail glass with a lime wedge in the foreground, while a colorful event titled 'GATES OF AGONY' is displayed on a TV in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A tall iced cocktail garnished with a lime wedge sits on a side table in front of a TV showing a brightly lit stage or game show."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A refreshing drink garnished with a lime slice sits in front of an 'Escape Room' game screen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tall glass of iced beverage with a lime wedge sits on a table in front of a TV showing 'GATES OF [ORGANIZATION]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of an amber-colored cocktail with ice and a lime wedge garnish sits on a wooden table, with a blurred television screen displaying a concert in the background."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a group of stylized characters posing confidently, with a focus on strength and athleticism."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful anime-style group illustration shows muscular characters in blue athletic outfits, with a central figure posing confidently and subtitle text at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular character surrounded by four women in a vibrant anime-style illustration."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of muscular anime characters in athletic wear pose confidently against a vibrant background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vintage anime illustration depicts a group of muscular wrestlers in blue singlets posing with intense expressions against a colorful background."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An animated scene depicts two characters engaged in a wrestling match"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts an animated wrestling match with two characters engaged in a dramatic move in a colorful arena."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style wrestling match shows one female wrestler lifting another over the ropes in a brightly lit arena with a crowd and subtitles on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers are engaged in a dramatic wrestling match under bright stadium lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two anime wrestlers are locked in combat inside a ring under bright lights, with an English subtitle describing the heated match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from an anime wrestling match showing two female characters grappling in a ring with a crowd in the background."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features four animated characters in colorful swimsuits, standing in a forested area, with one character facing away from the viewer."
+        },
+        "gpt-5.4": {
+          "summary": "A retro anime-style scene shows four muscular characters in colorful one-piece outfits standing outdoors at night and facing a person seen from behind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four animated characters in colorful bodysuits stand confidently against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four anime characters in swimsuits stand confidently facing viewers, with two figures seen from behind in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four muscular anime characters in colorful swimsuits stand in a line facing two seated figures in a dark, blue-lit setting."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling ring with a match in progress, emphasizing women's sports."
+        },
+        "gpt-5.4": {
+          "summary": "A brightly colored anime-style wrestling ring scene shows a referee and two wrestlers on the mat, with a subtitle praising women's sports."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling ring logo featuring two wrestlers in action."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An animated wrestling match scene with a referee and fallen wrestler in a ring, surrounded by a crowd."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An animated scene depicts a wrestling match inside a blue ring with a referee and photographer, featuring a large logo on the mat. A subtitle at the bottom reads 'This is the pinnacle of women's sports!'."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is performing a dance pose on stage, wearing a colorful outfit with mismatched footwear."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in face paint and a colorful costume holds a low squat pose on a dark stage-like floor under spotlight lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a red top and white pants performing an athletic pose."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a white mask, green sunglasses, and red top poses dynamically on a stage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestler wearing a white face mask, green visor, and red top performs a low squat pose on a dark stage with star-like lights in the background."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two female wrestlers are engaged in a match, with one holding"
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestling match scene featuring two competitors in action on stage."
+        },
+        "gpt-5.4": {
+          "summary": "Two competitors grapple during a live wrestling match onstage at [PERSON] [ORGANIZATION] with [ORGANIZATION] branding visible on large screens."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler lifts another in a wrestling match during [PERSON] [LOCATION] event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler lifts an opponent in mid-air during a match at [ORGANIZATION] [PERSON]'s [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two female wrestlers are in the middle of a match inside a ring, with one lifting the other, set against large event banners for '[ORGANIZATION] [PERSON] [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling match featuring two performers, one in a mask and costume, engaging in a humorous or provocative moment."
+        },
+        "gpt-5.4": {
+          "summary": "A masked wrestler poses behind another wrestler in fishnet tights and black trunks inside a wrestling ring, with a peach emoji covering part of the scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler in a black mask performs an aerial maneuver over another wrestler wearing fishnet tights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A masked wrestler in black and gold gear holds another wrestler bent over in a ring, with a peach emoji obscuring the second wrestler's backside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A masked wrestler in black and gold gear stands behind a shirtless opponent wearing fishnet tights inside a wrestling ring, with the opponent's lower back obscured by a peach emoji."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a violent wrestling scene with one wrestler applying a hold on another, who is bleeding."
+        },
+        "gpt-5.4": {
+          "summary": "A tattooed wrestler in a dark arena restrains a bloodied opponent in a dramatic close-up action shot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Image omitted because the provider blocked visual analysis during safety inspection."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Image omitted because the provider blocked visual analysis during safety inspection."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Image omitted because the provider blocked visual analysis during safety inspection."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts two individuals engaged in a wrestling match, with one appearing to use a weapon on the other, resulting in visible blood."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic close-up shows a bloody pro-wrestling-style fight, with one man shouting while holding a small object over another man's head in a dark venue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are engaged in a physical altercation under dramatic lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two bloodied men are engaged in a violent confrontation, one wielding a knife near the other's ear."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two bald men with beards are covered in blood during an intense physical confrontation, with one man screaming while holding a knife. - visible_text: [] - tags: [\"violence\", \"blood\", \"knife\", \"confrontation\", \"aggression\", \"dark\"]"
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a wrestling ring set up inside a large inflatable venue, with an audience seated around it."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestling ring is set up inside an indoor dome-like venue with crowd barriers and seated spectators around it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling match setup in a dome tent with spectators seated around."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An indoor wrestling event with a ring surrounded by spectators under a white tent structure."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestling ring is set up inside a large white tent with green flooring, surrounded by an audience seated behind metal barriers."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals pose for a photo in an indoor sports setting, with a green field visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose for a selfie inside an indoor turf sports venue with chain-link fencing and a small event crowd in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are posing together in a sports facility."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men pose for a selfie in front of a chain-link fence at an indoor sports facility."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose for a selfie in front of a chain-link fence at an indoor sports facility, with other people and merchandise visible in the background."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is speaking into a microphone in a wrestling ring, with an audience visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bearded man in a backward cap speaks into a microphone inside a wrestling ring with an audience watching."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man speaks into a microphone in front of an audience inside what appears to be a wrestling ring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bearded man in a wrestling ring speaks into a microphone while an audience watches."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man in a backward cap stands inside a wrestling ring holding a microphone, addressing an audience under blue lighting."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a traditional outfit stands in a crowded outdoor setting with a temple in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie shows a person in a light gray kimono-style robe at a traditional shrine courtyard with lanterns and visitors in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a traditional Japanese kimono smiles near an ornate shrine."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a gray kimono smiles for a selfie at a traditional Japanese shrine with visitors and ornate architecture in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a grey kimono smiles for a selfie at a traditional Japanese shrine with visitors and architecture in the background."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long dark hair, a beard, and glasses smiles slightly while wearing a white t-shirt against a plain light background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with long hair wearing a white t-shirt, partially obscured face, against a plain background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person with long dark hair, glasses, and a beard wearing a light-colored shirt against a plain wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person wearing glasses and long hair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long hair and glasses smiles at the camera while wearing a white shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long dark hair, a beard, and glasses wearing a white t-shirt against a plain wall."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two colorful signs, one welcoming back '[ORGANIZATION] and the other referencing '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Two handmade fan poster boards on a wooden floor show large welcome messages, one with a cartoon figure in a suit and sunglasses."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two handmade signs referencing '[ORGANIZATION] in a humorous context."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two hand-drawn signs on a wooden floor welcome '[ORGANIZATION] and '[PERSON] back."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two hand-drawn signs on a wooden floor feature wrestling-themed text and illustrations, including a cartoon figure in a steel cage."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling scene where one character expresses concern about another character's actions."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestling-ring photo shows two performers with added speech bubbles making a darkly comedic reaction meme in front of a crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in a wrestling ring discussing an intense situation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two individuals in a wrestling ring exchange dialogue via speech bubbles, with one saying 'I think we're gonna have to kill this guy, [PERSON].' and the other replying 'Damn.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two individuals stand in a wrestling ring with added speech bubbles containing dialogue."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a performer in a wrestling ring, showcasing a dramatic pose with a flowing black fabric and a championship belt."
+        },
+        "gpt-5.4": {
+          "summary": "A blonde woman in a wrestling ring wears a black outfit, gold championship belt, and dramatic flowing black veil or cape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer in a dramatic black outfit with flowing fabric and gold accents."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a black outfit and championship belt stands inside a ring, viewed through a flowing black veil."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blonde woman in a black outfit and championship belt stands inside a wrestling ring, partially obscured by a large black veil."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestling match is taking place with one wrestler performing a high-flying move over another."
+        },
+        "gpt-5.4": {
+          "summary": "An action shot from a pro wrestling match shows one wrestler delivering a corner kick to another inside a packed arena ring."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers are engaged in a dramatic move during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler lifts another wrestler over his shoulder in a ring during a professional wrestling match, with an audience watching."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two professional wrestlers perform a high-impact move in the ring during a live event with a large audience watching."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An indoor presentation is taking place at a convention, featuring a speaker"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a presentation about 'Surf's Up 2: [LOCATION]' at an anime convention, with attendees seated in front of the screen."
+        },
+        "gpt-5.4": {
+          "summary": "An audience watches a convention panel at [ORGANIZATION], with a projected slide titled \"Surfs Up 2: Wavemania\" and a speaker seated at a table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] panel discussion featuring 'Surfs Up 2: [LOCATION]'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A presenter speaks at an Anime Central event, with a slide about 'Surfs Up 2: [LOCATION]' displayed behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A panelist speaks at a table in front of an [ORGANIZATION] backdrop while a presentation slide about the movie 'Surfs Up 2: [LOCATION]' is displayed on a screen."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals face off in a competitive setting, with a trophy prominently displayed between them."
+        },
+        "gpt-5.4": {
+          "summary": "Two wrestlers face off intensely on a live [ORGANIZATION] stage with a trophy between them and large event graphics behind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers face each other in a wrestling ring during an [ORGANIZATION] event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men face off intensely on a stage with a trophy between them, under bright lights and a colorful backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men face off in a tense stare-down on a stage with a trophy between them, set against a backdrop featuring the '[ORGANIZATION]' logo and large portraits."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with blonde hair, dressed in a suit jacket and open-collared shirt, holds a microphone and speaks on a stage with dramatic red and white lighting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is speaking on stage while holding a microphone with an [ORGANIZATION] logo, set against a vibrant, illuminated background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a dark suit speaks into an [ORGANIZATION]-branded microphone on a brightly lit stage with red and white lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit holding an [ORGANIZATION] microphone speaks into it against a vibrant red backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit holds a microphone with '[ORGANIZATION]' branding while standing on a stage with red and white lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with blonde hair in a dark suit stands on a stage holding an [ORGANIZATION] microphone against a red patterned backdrop."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An expressive woman with curly hair, wearing a vibrant blue and black jacket with stars and unicorns, leans"
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a colorful jacket poses in a wrestling ring, engaging with the audience."
+        },
+        "gpt-5.4": {
+          "summary": "A performer poses dramatically against the ropes inside a wrestling ring, with a large arena crowd blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a colorful jacket stands triumphantly inside an arena ring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a colorful jacket leans against a ring rope, shouting with one hand raised."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with curly hair stands inside a wrestling ring, shouting into her cupped hand while wearing a colorful jacket with stars and moons."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a black outfit and championship belt poses confidently on stage."
+        },
+        "gpt-5.4": {
+          "summary": "A blonde female wrestler in a black outfit poses in a ring while wearing a large gold championship belt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a wrestling outfit holding championship belts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blonde woman in a black bikini and feathered jacket poses confidently with a championship belt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blonde woman in wrestling attire, including a black bikini top and checkered bottoms, stands with a large gold championship belt around her waist while wearing a black feathered cape."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A muscular wrestler poses in a wrestling ring during a match."
+        },
+        "gpt-5.4": {
+          "summary": "A muscular pro wrestler stands in the ring flexing and shouting during an intense live match, with another wrestler and a referee blurred behind him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular wrestler celebrates in a wrestling ring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular wrestler roars triumphantly in a wrestling ring with an opponent down and a referee nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A muscular, shirtless wrestler with a bald head screams in celebration inside a wrestling ring while wearing black and gold trunks."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bloodied wrestler is seen in a wrestling ring, appearing to be in a moment of distress."
+        },
+        "gpt-5.4": {
+          "summary": "A bloodied professional wrestler leans against the ropes inside a ring during a live arena match, with the crowd blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler in a ring covered in blood leans against the ropes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bloodied wrestler leans on the ropes of a wrestling ring with an intense expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless, bald male wrestler covered in blood leans on the ropes of a wrestling ring while looking intensely forward."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An indoor wrestling event is taking place in a grand venue with an ornate ceiling, a wrestling ring, and an audience watching from behind metal barriers."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a wrestling ring set up in a spacious venue with an audience eagerly awaiting the event."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor pro wrestling ring is set up in an ornate hall with lighting rigs and spectators gathered around before or between matches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Crowd gathered around a wrestling ring in an ornate venue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestling ring set up in an ornate, high-ceilinged hall with spectators watching."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestling ring is set up in the center of an ornate, historic hall with a high ceiling and arched windows, surrounded by a crowd of spectators behind metal barriers."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals pose for a selfie, one holding a signed photo while wearing colorful leis."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose for a cheerful indoor selfie, with one wearing colorful leis and holding a signed photo or poster featuring the same person."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose playfully in a room decorated with floral leis."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men pose for a selfie indoors, one holding a signed photo of the other who is wearing colorful Hawaiian attire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose for a selfie indoors, with one holding a red poster featuring his own image and a handwritten message."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestling scene where one performer is splashing a drink on another during a match."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic live wrestling/performance moment shows one shirtless performer leaning back with mouth open while another sprays a canned drink toward him near a ring post, with spectators in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man pours a drink over another's head in an energetic celebration."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler is being sprayed with beer by another wrestler in a celebratory moment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with curly hair reacts with an open mouth as another person in a blue sequined outfit pours a beverage from a can over his head."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bare-chested individual in a wrestling ring, facing away from the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless wrestler stands inside a ring under dramatic lighting, looking to the side with an intense expression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular man stands in a boxing ring under dim lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless man with a tattoo looks intensely over his shoulder inside a wrestling ring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless, muscular man with a mohawk hairstyle stands inside a wrestling ring, looking intensely to the side while sweat glistens on his skin."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling match with two competitors and a referee in a ring setting."
+        },
+        "gpt-5.4": {
+          "summary": "A referee stands between two wrestlers in a wrestling ring under stage lights, with chains in their hands and an audience visible beyond the ropes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A referee in a striped shirt points towards two wrestlers inside an illuminated wrestling ring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two wrestlers face off in a ring while a referee holds chains and gestures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A referee in a striped shirt stands between two wrestlers inside a ring, holding a chain while stage lights illuminate the scene."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler appears exhausted and bloodied, leaning against the ropes in a wrestling ring."
+        },
+        "gpt-5.4": {
+          "summary": "A tattooed wrestler in a ring leans against the ropes while tangled with metal chains during an intense match moment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler in a ring with chains around his neck appears defeated."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bloodied wrestler leans heavily on the ropes of a wrestling ring, appearing exhausted or injured."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tattooed male wrestler in a white tank top leans over the ropes of a wrestling ring, appearing exhausted with visible blood on his face and shirt."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler celebrates in the ring while holding a flag, with an enthusiastic crowd cheering in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in a wrestling ring leans over an excited crowd while holding up a T-shirt in a lively indoor event setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer in a wrestling ring holds aloft an oversized flag during what appears to be a celebratory moment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a ring holds up a banner while an enthusiastic crowd watches from below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female wrestler in a black and orange outfit stands on the top turnbuckle of a ring, holding up a white flag with blue text while an enthusiastic crowd cheers below."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features text about yellow perch, detailing its habitat, role in the food chain, and identification characteristics."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows an informational display about yellow perch, including habitat, food chain role, lake changes, and identifying features."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Educational information about yellow perch habitats, roles in food chains, lake changes impacts, black stripe identification tips."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of an informational text panel about yellow perch, detailing its habitat, ecological role, physical traits, and fishing guidelines."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a printed educational document detailing facts about yellow perch, including their habitat, role in the food chain, and identification features."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling match with a referee in a striped shirt overseeing the action."
+        },
+        "gpt-5.4": {
+          "summary": "A referee in a striped shirt reacts intensely inside a wrestling ring while a wrestler is blurred in the foreground during a live match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A referee in a striped shirt leans against wrestling ring ropes while observing an intense match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A referee in a striped shirt leans against a wrestling ring turnbuckle with an intense expression, while a wrestler is visible nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A referee in a striped shirt makes an intense facial expression inside a wrestling ring while a wrestler is visible in the foreground."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a wrestling match with a referee and a wrestler in a leopard-print sleeve."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless wrestler wearing a leopard-print arm sleeve poses intensely in a ring beside a surprised-looking referee under purple stage lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in a wrestling ring; one appears surprised while another looks intense."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler with a leopard-print arm sleeve and a referee in a striped shirt are both reacting with shocked expressions inside a wrestling ring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless wrestler with a leopard-print arm sleeve and a referee both display exaggerated shocked expressions inside a wrestling ring under purple stage lights."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A muscular man in a tank top and shorts stands in a café, looking at a display of pastries and drinks."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestler in ring gear stands inside a [ORGANIZATION], looking at the menu and pastry display while wrestling-show graphics overlay the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in wrestling attire browsing a bakery display."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular person in a white tank top and underwear with 'LIGHTNING' printed on it stands inside a [ORGANIZATION] cafe, facing the counter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A muscular individual with long dark hair, wearing a white tank top and black briefs with 'LIGHTNING' printed in pink, stands inside a [ORGANIZATION] coffee shop facing the counter. A TV screen in the foreground displays wrestling-related imagery."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler in a dramatic costume holds a blue mask while standing in a wrestling ring, surrounded by an audience."
+        },
+        "gpt-5.4": {
+          "summary": "A costumed wrestler kneels in the ring during a live wrestling event, with a referee, another wrestler, and a crowd visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers in a wrestling ring are embracing each other during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a blue and black costume stands in a ring with an audience watching, while a small inset shows two commentators."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded wrestler in a black and blue costume stands inside a wrestling ring holding a mask, with an audience watching from the background."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An animated scene shows one character in a pink top and blue pants sitting on top of another character lying on the floor, demanding '100,000 yen' in a blue-walled room."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts two animated characters in a tense situation, with one demanding money from the other."
+        },
+        "gpt-5.4": {
+          "summary": "An anime scene shows one character pinning another to the floor in a blue metal corridor, with a subtitle demanding money."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a red shirt sits confidently while another person lies beneath them holding out their hand."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon character in a pink shirt sits atop another person lying on the floor, demanding money with text overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime character in a pink shirt and blue pants is tied to a chair while another person lies on the floor, with a subtitle demanding money."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cocktail glass is placed on a table in front of a television displaying a wrestling event."
+        },
+        "gpt-5.4": {
+          "summary": "A pink cocktail in a coupe glass sits on a table in front of a TV showing a blurred wrestling ring and arena crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cocktail glass sits in front of a TV screen displaying an esports event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cocktail in a coupe glass sits on a table in front of a TV showing a wrestling event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a pink cocktail in a coupe glass on a wooden table, with a blurred television screen showing a live sports event in the background."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vinyl record player with an album cover of 'The Best of Booker T. & The MG's' displayed in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A vinyl record is playing on a turntable in front of the album cover for \"The Best of Booker T. & the [ORGANIZATION]'s.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vinyl record player playing 'The Best of Booker T. & The [ORGANIZATION]'s' album."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vinyl record player with a spinning record and the album cover for 'The Best of Booker T. & the [ORGANIZATION]'s' displayed above it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vinyl record by [ORGANIZATION] the [ORGANIZATION]'s is playing on a turntable with its album cover displayed behind it."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A glass of drink with lemon slices is in the foreground while a wrestling match is displayed on the TV in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A tall iced cocktail with citrus peel sits on a table in front of a blurred TV showing a wrestling ring and crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A glass of lemon-infused water in front of a boxing match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A glass of fizzy drink with lemon slices and ice sits in front of a TV showing a wrestling match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a tall glass filled with an amber-colored drink, ice, and lemon peel sits on a table in the foreground, while a wrestling match plays on a large television screen in the background."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scene depicting a confrontation between two animated characters, one with green skin and muscular build, and another with dark hair and a determined expression."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style scene shows a green-skinned character in a dark outfit being struck or held by a black-haired character against a blue sky with clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A green-skinned character in a black outfit appears to be attacking another person wearing an orange top against a blue sky backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green-skinned anime character with muscular arms grabs another character against a blue sky background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A green-skinned, muscular character in a dark martial arts uniform is shown mid-fight against a black-haired opponent under a blue sky."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling event taking place in a venue with a crowd watching the match."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor pro-wrestling match is underway in a small venue with a ring, referee, and audience surrounding the action."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers are engaged in a match inside 'The Silver Bullet' wrestling venue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two female wrestlers compete in a ring while an audience watches from chairs and standing areas."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A live professional wrestling match takes place in a dimly lit venue with an audience watching from the floor and a balcony."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a scene from the film 'Touch of Evil' depicting a nighttime street with a police officer directing traffic."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white movie still shows a nighttime street scene with vintage cars, a police officer, and the title text 'Touch of Evil' overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A noir scene from 'Touch of Evil' featuring a police officer directing traffic in an urban street."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A noir-style black-and-white movie still shows a police officer directing traffic at night, with the title 'TOUCH OF EVIL' overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white film still from 'Touch of Evil' depicts a nighttime street scene with a police officer, a couple embracing, and vintage cars."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person smoking while discussing a casting decision involving [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white close-up shows a person holding a cigarette with smoke around them, overlaid with a subtitle-style caption."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man smokes a cigarette while discussing casting in an upcoming thriller."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a black-and-white film scene holds a cigarette lighter, with subtitles revealing dialogue about casting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white close-up of a man in a suit smoking, overlaid with text about casting for a thriller at Universal."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is animatedly gesturing in front of a wall covered with papers and notes, indicating a chaotic investigation or brainstorming session."
+        },
+        "gpt-5.4": {
+          "summary": "A man in office attire gestures animatedly in front of a wall covered with papers and red string, creating a chaotic conspiracy-board scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a cluttered office environment points dramatically towards pinned papers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a shirt and tie gestures energetically toward a cluttered bulletin board covered in papers, photos, and red strings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a light blue shirt and striped tie stands with an intense expression in front of a wall covered in papers, photos, and red connecting strings."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An animated male character with dark hair and a blue shirt looks up with a surprised expression, while a television showing a news anchor is visible in the background, accompanied by a subtitle about a women's wrestling show."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a character excitedly anticipating the start of a women's wrestling show while watching a television broadcast."
+        },
+        "gpt-5.4": {
+          "summary": "An anime character turns toward a TV in a room, with subtitles mentioning a women's wrestling show about to start."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person watching a wrestling show on TV."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon man in a blue shirt watches TV with a surprised expression, as subtitles announce a women's wrestling show is about to start."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A side-profile view of an anime character with dark hair wearing a blue shirt, looking towards a television screen in the background while yellow subtitles at the bottom read 'Oh right! My women's wrestling show is about to start.'"
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An indoor wrestling event is underway in a grand hall with ornate ceilings, featuring two wrestlers in the ring, a referee, and a large audience watching."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a lively wrestling event taking place in a decorated indoor venue with a large audience."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor wrestling match is taking place in a decorated hall with a seated crowd around the ring."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers face each other in a ring surrounded by an audience inside a large hall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An indoor wrestling event with two wrestlers in a ring, surrounded by an audience seated in chairs and standing near railings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestling match takes place in a ring set up inside an ornate hall with pink walls and decorative ceilings, surrounded by a seated audience."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a copper mug with condensation, set in front of a television displaying a performance stage."
+        },
+        "gpt-5.4": {
+          "summary": "A chilled copper mug sits on a coaster in front of a large TV showing a brightly lit stage or wrestling entrance scene in a living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A copper mug sits in front of a TV displaying an animated character."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chilled copper mug sits in the foreground with a TV screen showing a performer on stage in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a hammered copper mug with condensation sits on a coaster in the foreground, while a television screen in the background displays a blurry performance by a male singer on stage."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a group of pixelated characters celebrating with raised arms, accompanied by the text 'A WINNER IS YOU'."
+        },
+        "gpt-5.4": {
+          "summary": "Retro pixel-art wrestlers stand with their arms raised on a black background above the text “A WINNER IS YOU.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pixel art illustration of six wrestlers in colorful attire celebrating victory."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pixel-art image shows six colorful wrestlers celebrating with arms raised, below which text reads 'A WINNER IS YOU'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Six pixel-art wrestlers in colorful gear stand with arms raised against a black background, accompanied by the text 'A WINNER IS YOU'."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a glass of a dark beverage with ice in the foreground, while a person holding a championship belt is visible on a television screen in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A glass of dark soda with ice sits on a table in front of a TV showing a blurred wrestling or ring-side scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A glass of cola with ice sits in front of a television screen showing an individual holding what appears to be a championship belt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A glass of dark soda with ice sits in the foreground, with a blurred TV screen showing a wrestler holding a championship belt in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a glass filled with ice and a dark beverage sits on a wooden table, with a television screen in the background showing a female wrestler holding a championship belt."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two characters from a film, with a caption referencing a dramatic moment."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel reaction meme shows edited faces on movie-scene characters, with a shocked expression in the lower panel and the caption \"THE WRONG KID DIED\" at the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in a tense conversation depicted through facial expressions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A two-panel meme showing a man with a serious expression above a shocked man with a beard, overlaid with the text 'THE WRONG KID DIED'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A two-panel meme featuring a man with a serious expression in the top panel and a digitally altered version of him with a shocked face and beard in the bottom panel, overlaid with the text 'THE WRONG KID DIED'."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a glass of beer with foam and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A glass of beer sits on a bar counter with a well-stocked liquor shelf in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A pint of beer sits on a napkin at a warmly lit bar counter with liquor bottles and a blurred circular sign in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A glass of beer sits on a bar counter in front of bottles labeled 'Fat Cat.'"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chilled beer with foam sits on a napkin at a warmly lit bar, with 'Fat Cat' signage visible above shelves of liquor bottles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a cold, foamy beer in a pint glass resting on a napkin at a dimly lit bar counter with shelves of liquor bottles and a 'Fat Cat' sign in the background."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A female wrestler performs a high-flying move above another wrestler in a wrestling ring during a match."
+        },
+        "gpt-5.4": {
+          "summary": "A professional wrestling match shows one wrestler leaping high from the ring area toward another wrestler beside the ring in a crowded arena."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A female wrestler performs a high-flying move over another in an arena."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler leaps mid-air toward another wrestler below in a ring during a live event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A professional wrestling match in an indoor arena where a blonde wrestler in white gear leaps from the top rope toward an opponent in red standing on the mat."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with outstretched arms holds a microphone while standing on an ornate balcony, captured in a dramatic black and white image."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer stands on a balcony with arms raised, expressing a dramatic pose in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a person with arms raised inside an ornate historic balcony or window, creating a dramatic theatrical scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a decorative alcove with arms raised."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands on an ornate balcony, arms raised holding a microphone, in a dramatic black-and-white shot."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photo shows a performer in an ornate, darkened theater box holding a microphone with arms outstretched."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a glamorous outfit sings from a balcony while another figure watches from a nearby balcony."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a performer holding a microphone and posing from an ornate theater box or balcony in a dim interior."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white photograph of a statue in an ornate display case."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in vintage attire performs on an ornate, carved balcony stage under dramatic lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph captures a woman in vintage attire performing on an ornate, illuminated theater balcony while holding a microphone."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a decorative balcony, appearing contemplative in a black and white setting."
+        },
+        "gpt-5.4": {
+          "summary": "A grainy black-and-white photo shows a person posing in an ornate theater box or balcony with dramatic, vintage-style lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands behind a decorative podium in an ornate room under dramatic lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands on an ornate, carved stage balcony under a draped curtain in a black-and-white photo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of a person with blonde hair standing on an ornate, carved balcony or stage structure."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler poses dramatically in the ring while an enthusiastic crowd captures the moment with their phones."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestler stands on the ring ropes and points toward the crowd during a live wrestling event in an ornate indoor venue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] wrestler in a ring energizing an audience."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular wrestler with tattoos stands on the top rope of a wrestling ring, gesturing to an enthusiastic crowd in a decorated arena."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded wrestler in a black tank top and camouflage pants stands on the ropes of a wrestling ring, pointing at an audience inside an ornate theater."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with blonde hair and a polka-dot top stands on an ornate, covered balcony in a dramatic, sepia-toned setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A figure stands confidently on a decorative balcony, showcasing ornate architectural details."
+        },
+        "gpt-5.4": {
+          "summary": "A sepia-toned image shows a costumed figure standing on an ornate balcony beneath a canopy in dramatic low light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman stands confidently in a decorative balcony under ornate drapery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in vintage attire stands confidently on an ornate, carved balcony under dramatic lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sepia-toned photograph of a vintage-style balcony featuring an ornate canopy and a statue of a woman in a swimsuit."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scene at a wrestling event where medical personnel are assisting an individual, surrounded by a crowd of spectators."
+        },
+        "gpt-5.4": {
+          "summary": "At a crowded wrestling event, [ORGANIZATION] medical staff assist a visibly bloodied man through the audience area near the barricade."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Medical staff assist a man in distress during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bloodied man in an [ORGANIZATION] shirt is being escorted by medical staff through a crowd at a live event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male wrestler with a bloody face is being escorted out of the ring by two medical staff members wearing [ORGANIZATION] shirts while surrounded by spectators."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in colorful attire holds a certificate aloft on stage, with a vibrant backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A performer stands on a lit stage holding up a framed plaque in front of a large '[PERSON] backdrop at a wrestling-style event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person celebrates a victory by holding an award aloft in front of 'Platinum Max Caster' signage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in colorful attire holds up a certificate on stage at a 'Platinum Max Caster' event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestler in a black jacket and colorful fringed pants stands on stage holding up an award, with a large screen behind him displaying his name."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler lies on the ground with a certificate nearby, while a large screen displays the text 'THE BEST WRESTLER ALIVETM?' and the number '42'."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestler in a pink, black, and white outfit kneels face-down on a stage in front of a giant screen reading “THE BEST WRESTLER ALIVETM?” above the number 42."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Wrestler in a dramatic pose under 'The Best Wrestler Alive?' sign."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in zebra-print trunks kneels on stage as a hand presents a framed certificate, with a large screen behind them displaying 'THE BEST WRESTLER ALIVETM?' and the number '42'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestler in pink and black zebra-striped pants lies face down on a stage while someone presents a framed certificate, with a large screen behind displaying the number 42."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a dynamic moment in a wrestling match with multiple wrestlers in action inside a ring."
+        },
+        "gpt-5.4": {
+          "summary": "An action-packed professional wrestling match shows multiple wrestlers mid-air in a ring with red ropes, a referee, and a cheering crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers perform a high-flying move in an arena."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a blue, red, and white outfit performs an aerial move onto another wrestler inside a ring with a referee and crowd watching."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A professional wrestler in red, white, and blue trunks performs a high-flying aerial maneuver over the ropes of a wrestling ring while another wrestler and a referee watch from below."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features multiple posters advertising a live pro wrestling event in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A storefront window is covered with repeated posters advertising a live pro wrestling event at [LOCATION] Town Hall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Multiple wrestling event posters are displayed in a window promoting shows at [ORGANIZATION] Town Hall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Multiple identical wrestling event posters are taped to a glass storefront window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A window display covered in multiple identical posters advertising a '[ORGANIZATION] live pro wrestling event at [LOCATION] Town Hall."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals posing together, one in a suit and the other in a casual t-shirt, in a dimly lit indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows two people posing together, one in a suit grinning with a raised fist and the other wearing glasses and a black \"BLACKPOOL COMBAT CLUB\" T-shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men pose together indoors; one in a suit with a fist pump and the other wearing a 'BLACKPOOL COMBAT CLUB' t-shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose for a selfie indoors, with one wearing a suit and lanyard making an excited expression while the other wears glasses and a black t-shirt."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a wrestling ring with a 'PROGRESS' banner in a dimly lit venue filled with spectators."
+        },
+        "gpt-5.4": {
+          "summary": "An empty wrestling ring is set up inside an indoor live-event venue with spectators, balcony banners, and prominent [ORGANIZATION] branding under bright stage lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling ring setup in a venue branded '[ORGANIZATION] under bright stage lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestling ring with 'PROGRESS' branding is lit up on a stage with spectators watching."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A professional wrestling ring is set up in a dimly lit venue with blue stage lighting, surrounded by spectators and banners for [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a commentator at a sports event, wearing a mask and headset, focused on a monitor while taking notes."
+        },
+        "gpt-5.4": {
+          "summary": "A live event commentary desk with headset-wearing announcers sits beside an arena entrance ramp as spectators watch from nearby seats."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a headset sits behind an 'UNIVAMITE' desk during what appears to be a gaming event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Broadcast crew at a wrestling event's commentary desk, with audience members visible in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a wrestling commentary desk with three commentators wearing headsets, one writing notes, and an audience watching from the foreground."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals, one wearing a mask, with a caption stating 'We live inside a dream.'"
+        },
+        "gpt-5.4": {
+          "summary": "A TV wrestling promo scene shows three suited men seated together, including one in sunglasses and one in a lucha mask, with the subtitle \"We live inside a dream.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling event scene featuring a masked figure holding an award."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three men in suits stand together at a wrestling event, one wearing a mask and another holding a championship belt, with the text 'We live inside a dream.' displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three men, including one in a wrestling mask and another wearing sunglasses, stand together indoors with the subtitle 'We live inside a dream.' displayed at the bottom."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a comic-style depiction of a wrestling scene with a character reacting to the action."
+        },
+        "gpt-5.4": {
+          "summary": "A four-panel reaction meme shows a cartoon figure greeting [ORGANIZATION], then reacting in shock to wrestling ring images, ending with the caption \"JESUS CHRIST.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON] humorously comparing a wrestling match's intensity."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A four-panel meme showing a cartoon character reacting to violent wrestling scenes from [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A four-panel meme featuring the 'Hey AEW Collision' character reacting to a wrestling match image with shock."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestling match scene showing one wrestler applying pressure to another's arm on the mat."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up action shot shows two professional wrestlers grappling on the mat inside a ring, with one applying an arm hold to the other."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler in black pants applies a submission hold during an intense wrestling match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in black pants with a crown and kanji design applies a submission hold to an opponent lying on the mat in a wrestling ring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless wrestler in black pants with a red and white logo is applying a submission hold to an opponent lying on the mat in a wrestling ring."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two men are presenting a framed artwork featuring muscular figures, likely in a wrestling context, to a large audience."
+        },
+        "gpt-5.4": {
+          "summary": "Two suited presenters stand in an [ORGANIZATION] wrestling ring beside a framed painting, speaking into microphones in front of a large arena crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are presenting a wrestling match poster in front of an audience during [ORGANIZATION] NAMITE."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in suits stand beside a framed wrestling poster inside a ring, with one holding an [ORGANIZATION] microphone and the other gesturing toward the poster."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men in suits stand in a wrestling arena, presenting a framed painting of two muscular wrestlers to a large crowd."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person aiming a firearm, with a blurred background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up reaction-style image of a man aiming a firearm, overlaid with the red text \"CLABBER GIRL.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a man looking concerned over 'Clabber Girl' logo."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a man with an intense expression, overlaid with the 'CLABBER GIRL' brand logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a man with an intense expression looking through a scope, overlaid with the red text 'CLABBER GIRL'."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a wrestling match on a television screen with several wrestlers in action and a lively audience."
+        },
+        "gpt-5.4": {
+          "summary": "A home entertainment center is shown with a TV broadcasting an [ORGANIZATION] wrestling match in a packed arena."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling match from [ORGANIZATION] displayed on a TV in front of an audience."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A TV displays a live [ORGANIZATION] wrestling match with wrestlers in the ring, surrounded by audience and broadcast graphics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television displays a live [ORGANIZATION] wrestling match in a home entertainment setup featuring a soundbar, gaming console, and bookshelf."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler in a black outfit is being declared the winner by a referee in a wrestling ring."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestler in black gear stands in a wrestling ring holding a championship belt while a referee raises their arm under MPX event banners."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "#MPXWHORUNSTHEWORLD referee raises winner's hand in a wrestling ring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in black leather gear celebrates victory in a ring as a referee raises her arm, holding a championship belt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female wrestler in black studded gear holds a championship belt while a referee raises her arm in victory inside a wrestling ring."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cocktail in a coupe glass with a lemon peel garnish sits on a wooden surface, with a blurry wrestling match playing on a screen in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cocktail is prominently displayed in the foreground while a wrestling match is shown on the television in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A pale cocktail in a coupe glass with a lemon twist sits on a table in front of a TV showing a blurred wrestling match in a ring."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cocktail garnished with a lemon twist sits in front of a wrestling match being broadcasted."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cocktail in a coupe glass sits on a wooden table in front of a TV showing a wrestling match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow cocktail in a coupe glass with a lemon twist sits on a wooden table, with a wrestling match playing on a television screen in the background."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler in a plaid outfit and championship belt poses in a wrestling ring, surrounded by spectators."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in dramatic black-and-red attire with a championship belt poses inside a wrestling ring in front of a crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a wrestling ring holding their head while wearing gloves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a black and red outfit with white gloves stands in a ring, holding up a championship belt while posing dramatically."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a [PERSON]-inspired costume with white gloves and red lipstick poses inside a wrestling ring while wearing a championship belt."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A plate of roasted chicken and [LOCATION] sprouts sits in the foreground, with a glass of ice water and a television displaying a blurry"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of food with chicken and [LOCATION] sprouts in the foreground, while a wrestling match is displayed on the TV in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A plate of roasted chicken and [LOCATION] sprouts sits in front of a TV, with a glass of iced sparkling water on the side."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of chicken thighs and roasted [LOCATION] sprouts in front of a TV showing an action scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a plate with fried chicken and roasted [LOCATION] sprouts, next to a glass of soda, with a blurred TV screen showing a wrestling match in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a home-cooked meal featuring roasted chicken and [LOCATION] sprouts on a white plate, with a glass of water and a television displaying a fight scene in the background."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dish of melted cheese atop a savory filling served in a bread bowl, accompanied by condiments and a glass of water."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a baked cheese-topped bread bowl dish on a restaurant table, with bread and side dishes in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a baked dish served in bread bowl."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cheesy baked dish served in a bread bowl on a patterned plate at a restaurant table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a savory dish served in a bread bowl topped with melted cheese, set on a patterned plate at a restaurant table."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image features a blonde-haired person with dark eye makeup, blood on their nose and mouth, against a black background, with the name \"JULIA HART\" in white text above."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a young woman with blood on her face, conveying a dramatic and intense expression."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized close-up cutout of a bruised blonde woman's face with blood on her nose and lips appears against a black background with large white text at the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person with blonde hair against a black background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a blonde woman with blood on her lips and face, set against a black background with the text '[ORGANIZATION] at the top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up image of a blonde woman with pale skin, dark eye makeup, and red lipstick against a black background, overlaid with the text '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A refreshing drink with a lime wedge sits on a wooden table in the foreground, while a wrestling match plays"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a drink with a lime slice in front of a wrestling match on TV."
+        },
+        "gpt-5.4": {
+          "summary": "A lime-garnished mixed drink sits on a table in front of a TV showing a blurred pro wrestling match in a living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A glass of lemonade sits in front of a TV showing an action scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cocktail with a lime garnish sits in the foreground while a wrestling match plays on TV in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a cocktail with ice and a lime wheel garnish sits on a table in the foreground, while a wrestling match plays on a television screen in the background."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a chair with their feet up, surrounded by an enthusiastic crowd."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an X post shows a wrestling-event video still with a headset-wearing commentator leaning back with his foot up and arms raised beside another commentator, with a cheering crowd behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person celebrates enthusiastically in a crowd during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a black jacket and headset cheers with arms raised while seated, with another person's boot visible in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a black hoodie and headset sits with his feet up on a desk, raising both arms in excitement while watching an event."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling person in a sparkly, star-patterned performance outfit with glitter makeup holds a microphone labeled '2 2' and waves, set against a blurred blue background with colorful lights."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a sparkly outfit waves while holding a microphone on stage."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling stage performer in a shiny star-decorated outfit waves while holding a microphone under colorful concert-style lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a silver outfit celebrates while holding a microphone labeled '2'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling performer in a sparkly costume waves to the camera while holding a microphone with the number '2' on it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling performer in a sparkly purple and silver costume holds a microphone labeled '2' while waving against a dark background with colorful lights."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestling match scene featuring two competitors in a ring with a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "Two wrestlers face off and talk inside a wrestling ring in front of a colorful neon-splatter backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers in a ring facing each other under colorful confetti."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two wrestlers face off inside a ring under colorful lights, with one gesturing toward the other."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female wrestler in silver gear and a male wrestler in orange trunks face off inside a ring against a colorful, splattered backdrop."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An indoor wrestling event is"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling event setup with a ring and audience in a venue featuring wooden beams and decorative lighting."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor wrestling venue is set up with a ring, seated crowd, and illuminated [ORGANIZATION] branding around the entrance stage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Crowd watching a wrestling match in an indoor venue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An indoor wrestling event with spectators watching a ring labeled '[ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide shot of an indoor wrestling event featuring a blue ring with '[ORGANIZATION] branding, surrounded by spectators in a hall with wooden beams."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling person with glasses and a beard takes a selfie in an urban plaza with several tall buildings, a fountain, and flags under a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person takes a selfie in a city plaza with modern skyscrapers and a fountain in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie shows a person in front of a downtown skyline and a large fountain sculpture in a sunny city plaza."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in front of an urban skyline featuring modern buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie in front of a city skyline featuring tall buildings and a fountain on a sunny day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man with glasses and a beard takes a selfie in front of a city skyline featuring tall skyscrapers and a fountain on a sunny day."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scene from an animated show where one character is throwing push pins at another character, with the text 'Pocket Tacks!' prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon meme image shows a man dramatically tossing drawing pins at another person inside a diner, with the caption 'Pocket Tacks!'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character in a diner is holding out his hand as tacks fly towards him."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An animated character in an orange cap and sunglasses throws pocket tacks at another person in a suit."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon character in an orange cap and sunglasses throws a handful of thumbtacks at another man in a suit, with the text 'Pocket Tacks!' overlaid at the bottom."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a large, colorful hat resembling a [ORGANIZATION] character, surrounded by a crowd."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a colorful costume with large novelty accessories is standing in a crowded stadium or arena seating area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a colorful costume resembling [ORGANIZATION] in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurry image of a television screen showing a person in a costume with a yellow and black propeller hat, and another person below wearing a grey hat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-resolution photo of a television screen showing a crowd scene with a person in the foreground wearing a grey hooded garment and another figure holding a black object with yellow accents."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character with robotic arms enthusiastically declaring a phrase against '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous meme shows a cartoon robot body with a pasted human face raising its arms in a lab-like scene, with the caption \"KILL ALL [LOCATION]!\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring a person's face superimposed onto an animated robot character in a sci-fi setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person's face is superimposed onto an animated robot character with arms raised, set against a [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring a robot character with a superimposed human face raising its arms, set against a cartoon background with the text 'KILL ALL [LOCATION]!'."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the exterior of a building with a sign for 'Berwyn Eagles' and a nearby banner advertising bingo."
+        },
+        "gpt-5.4": {
+          "summary": "A street-corner exterior at dusk shows the [LOCATION] building with a tall vintage sign and nearby bingo advertising."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime view of a building labeled '[ORGANIZATION] featuring ivy-covered walls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An exterior shot of the [ORGANIZATION] club at dusk, featuring its illuminated sign and nearby advertisements for bingo and food."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An exterior shot of the Berwyn Eagles building at dusk, featuring a prominent vertical sign and banners advertising bingo events."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An indoor wrestling event is captured from an audience perspective, showing a referee and two wrestlers in the ring, one on the mat, surrounded by spectators and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestling match is taking place in a venue with an audience watching intently."
+        },
+        "gpt-5.4": {
+          "summary": "A live professional wrestling match is taking place in an indoor venue, with one wrestler standing, another down on the mat, and a crowd gathered around the ring."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling match in progress inside a venue decorated with chandeliers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two wrestlers in a ring with a referee, surrounded by an audience under decorative lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A professional wrestling match is in progress inside a ring at an indoor venue with spectators watching from behind barriers."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling ring in a venue filled with spectators, with some individuals preparing for an event."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor wrestling ring is set up in a crowded venue with spectators gathered around and staff preparing at ringside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Wrestling match setup in a wooden-paneled venue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People gather around a wrestling ring in an indoor venue with wooden walls and chandeliers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from inside a wrestling ring looking out at a crowd of spectators and a referee in a wood-paneled venue with chandeliers."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases a clothing store display featuring various leopard print outfits and accessories against a colorful mural backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful thrift-store style clothing display features leopard and zebra print dresses, tops, shoes, and boots beneath a large mural with a [PERSON] logo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A retail display featuring leopard print clothing items in a vibrant store interior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A retail store displays leopard-print and zebra-pattern clothing and shoes against a colorful mural wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A retail store display featuring a collection of animal print clothing and footwear arranged on racks and shelves beneath a colorful, graffiti-style mural."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer is energetically speaking into a microphone in a wrestling ring setting."
+        },
+        "gpt-5.4": {
+          "summary": "A performer wearing heart-shaped glasses and a denim jacket energetically sings or speaks into a microphone inside a wrestling ring with spectators in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a denim jacket and leopard print pants sings into a microphone while standing inside what appears to be an indoor wrestling ring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing heart-shaped glasses sings into a microphone inside a wrestling ring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with blonde hair and red heart-shaped glasses performs energetically into a microphone while standing inside a wrestling ring."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a sparkling blue outfit and gloves is singing into a microphone in a wrestling ring."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in a sparkly blue outfit sings into a microphone inside a wrestling ring, holding a fan with a theatrical stage presence."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a blue sequined outfit stands confidently inside a wrestling ring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer in a blue sequined outfit and glasses sings into a microphone inside a wrestling ring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A performer in a blue sequined outfit and gloves sings into a microphone inside a boxing ring at night."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a purple and black costume, featuring a striped tie, gloves, and socks, kneels"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a playful pose wearing a purple-themed outfit and gloves, standing in a hallway."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black outfit with purple gloves, tie, and leg warmers poses dramatically on one knee indoors near a patterned bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in purple tie and gloves striking a dynamic pose indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a purple-themed costume poses dramatically indoors on a patterned rug."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long hair is kneeling on a patterned rug in an indoor setting, wearing a purple and black striped tie, purple gloves, and purple socks as part of a costume."
+        }
+      }
+    },
+    "image_00124": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A stylized image depicts a large, triangular, futuristic or alien gateway structure glowing with vibrant purple energy, set in an outdoor landscape with unusual"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a large, glowing portal structure surrounded by a natural landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A futuristic triangular portal or monolith glows with swirling purple energy in a grassy outdoor landscape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A futuristic portal emitting a purple energy field amidst natural surroundings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A glowing purple energy portal framed by a futuristic, broken archway in a natural landscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, futuristic archway with glowing orange lights frames a swirling purple energy portal in an outdoor landscape."
+        }
+      }
+    },
+    "image_00125": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is looking at their reflection in a bathroom mirror, accompanied by text dialogue."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel meme shows a man looking at himself in a bathroom mirror with Undertale-style dialogue boxes overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man looks into a mirror reflecting his own face in two different frames."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with curly hair looks at his reflection in a bathroom mirror, overlaid with dialogue text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A two-panel meme featuring a man with curly hair and a beard looking at his reflection in a bathroom mirror, overlaid with text boxes containing dialogue."
+        }
+      }
+    },
+    "image_00126": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features individuals in humorous costumes, including a cow and a ghost-like character, in a backstage setting."
+        },
+        "gpt-5.4": {
+          "summary": "Backstage at a live event, two people in a cow costume and a white inflatable sailor-themed costume face three performers in shiny outfits beside equipment cases."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two costumed characters resembling a cow and Stay Puft Marshmallow Man interact backstage near wrestlers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two costumed characters—a cow and a ghost—stand backstage near equipment while two men in wrestling attire observe."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two individuals in inflatable costumes, a cow and the Stay Puft Marshmallow Man, stand backstage near equipment cases while two men in wrestling attire observe them."
+        }
+      }
+    },
+    "image_00127": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A humorous image features two adult male faces photoshopped onto a child's body wearing an oversized white 'Get Along shirt' against a brick wall."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two children are wearing a large white shirt with the text '[ORGANIZATION] shirt' written in blue."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous edited image shows two oversized faces on a small body wearing a white shirt with blue handwritten text, posed in front of a stone wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals wearing a '[ORGANIZATION] shirt' pose against a stone wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two digitally superimposed faces appear on a person wearing a white t-shirt with the text '[ORGANIZATION] shirt'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A humorous composite image featuring a child's body wearing a white t-shirt with two adult male faces photoshopped onto it, standing against a stone wall. The shirt has blue handwritten text reading '[ORGANIZATION] shirt' and a small logo on the leg."
+        }
+      }
+    },
+    "image_00128": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long dark hair looks intently at a smartphone held in their hand, with a surprised or shocked expression."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long, dark hair is holding a smartphone, partially obscured by a blurred effect."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a person with a dramatic surprised expression while staring at a smartphone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person with long hair looks intently at a smartphone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with wet hair looks shocked at their smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a person with long dark hair and a sweaty complexion staring intensely at a smartphone screen with an expression of shock or disbelief."
+        }
+      }
+    },
+    "image_00129": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A meme-style illustration depicts one cartoon man, labeled '[ORGANIZATION]', holding a fork towards another man, labeled '[PERSON], who is recoiling defensively."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a humorous confrontation between two cartoon characters, one holding a fork and the other appearing defensive."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon meme shows one labeled man holding a bent fork toward another labeled man who is crouching defensively on a sidewalk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme depicting two characters labeled '[PERSON]' and '[PERSON], where [PERSON] holds a fork while [PERSON] appears defensive."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men face each other; one holds a fork toward the other, who raises hands defensively."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme depicting a confrontation between two illustrated men labeled '[ORGANIZATION]' and '[PERSON], where one holds a fork while the other adopts a defensive martial arts stance."
+        }
+      }
+    },
+    "image_00130": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cocktail in a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cocktail glass with a lemon slice in the foreground, while a blurred figure is seen on a television screen in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A pale cocktail with a lemon wedge sits on a table in front of a TV showing a blurry wrestling or boxing scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cocktail garnished with a lemon slice sits in front of a television showing an action scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cocktail in a coupe glass with a lemon wedge sits on a coaster in front of a TV displaying a person under stage lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a pale cocktail in a coupe glass garnished with citrus, resting on a coaster in front of a television displaying a blurred figure."
+        }
+      }
+    },
+    "image_00131": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a group of people holding a colorful poster with the letters '[ORGANIZATION]' and a stylized illustration of three figures."
+        },
+        "gpt-5.4": {
+          "summary": "A person waves a red-and-yellow flag in front of a large stylized poster or screen reading \"[ORGANIZATION]\" with illustrated characters in a dim blue-lit setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people in a festive atmosphere holding flags and drums under neon '[ORGANIZATION]' signage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds up a poster featuring three illustrated men with the text '[ORGANIZATION]' under blue lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person holds a large poster featuring three illustrated men and the letters '[ORGANIZATION]' in a stylized font, set against a dark background with blue lighting."
+        }
+      }
+    },
+    "image_00132": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman wearing a championship wrestling belt poses with a dramatic expression, surrounded by others in a vibrant setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a hooded scarf and fingerless gloves poses indoors while wearing an [ORGANIZATION] women's championship belt, with another partially visible person beside them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are in a wrestling ring; one holds an AEW Women's World Championship belt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler wearing an AEW Women's World Championship belt poses confidently with a hand to her chin."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female wrestler wearing a headscarf and striped gloves poses with [ORGANIZATION] belt in a spotlighted arena setting."
+        }
+      }
+    },
+    "image_00133": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals pose together in a warehouse-like setting, holding a signed poster and wearing festive clothing."
+        },
+        "gpt-5.4": {
+          "summary": "Three people pose smiling in front of large walls of canned drinks, with one person holding a signed wrestler print and another flashing a peace sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three people pose in a warehouse filled with canned goods."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people pose cheerfully in front of a wall of stacked beverage cans, with one person holding a signed wrestling poster."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three smiling people pose for a photo in front of a wall stacked with beverage cans, with the central person holding a signed wrestling poster."
+        }
+      }
+    },
+    "image_00134": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with curly hair wearing a blue jacket, set in a dimly lit venue with wrestling equipment in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A pro wrestler wearing sunglasses and an open satin jacket stands in a wrestling ring under dramatic blue-purple event lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing sunglasses and a jacket stands in front of stage lights during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with curly hair and sunglasses, wearing an open blue jacket, appears mid-expression under stage lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with long curly hair and sunglasses stands shirtless under an open jacket in a dimly lit venue with blue stage lighting."
+        }
+      }
+    },
+    "image_00135": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A muscular wrestler in a blue fur costume holds a bone prop in a wrestling ring."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestler in a ring is roaring while holding a large bone prop and wearing blue furry ring gear."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular man in a wrestling ring holds an animal bone while yelling."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular wrestler with a beard and tattoos roars inside a ring while holding a large bone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded wrestler with tattoos stands in a ring, roaring while holding a large prop bone and wearing blue furry trunks."
+        }
+      }
+    },
+    "image_00136": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-5.4": {
+          "summary": "A professional wrestler stands in the ring at an indoor warehouse-style venue, raising one arm toward the crowd under bright lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler celebrates in a wrestling ring surrounded by cheering fans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler stands triumphantly in a ring, raising one arm as fans cheer and hold red objects."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless male wrestler with tattoos stands in a ring, raising one hand to the crowd in an indoor venue with exposed wooden beams and string lights."
+        }
+      }
+    },
+    "image_00137": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two wrestlers are celebrating in a ring, with one spraying a drink while the other raises their arm."
+        },
+        "gpt-5.4": {
+          "summary": "Two wrestlers in a ring celebrate with a can spraying liquid, with one wearing a cowboy hat in an indoor venue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers in a ring celebrate after an event; water sprays from cans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two wrestlers in a ring celebrate by spraying champagne at each other."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two shirtless wrestlers in a ring celebrate by clashing beer cans, splashing liquid over themselves while spectators watch from the background."
+        }
+      }
+    },
+    "image_00138": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in an elaborate, colorful, and sparkly performance costume with fur accents and a small hat poses dramatically on the ropes of a wrestling ring under purple stage lighting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a colorful, flashy outfit poses confidently in a wrestling ring under vibrant lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in a glittery, fur-trimmed outfit and hat poses dramatically on wrestling-style ropes under purple stage lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer in a vibrant costume strikes an expressive pose under purple stage lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer in a glittering costume strikes a dynamic pose inside a wrestling ring under purple stage lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A performer in a glittering, theatrical costume with fur accents and a hat poses dynamically on the ropes of a wrestling ring under purple stage lighting."
+        }
+      }
+    },
+    "image_00139": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two wrestlers are engaged in a competitive hold in a wrestling ring."
+        },
+        "gpt-5.4": {
+          "summary": "Two wrestlers in colorful gear are grappling inside a wrestling ring during a live match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two performers in a wrestling ring engage dynamically during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two wrestlers in colorful costumes grapple intensely inside a ring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two female wrestlers in colorful, sequined gear are engaged in a physical match inside a ring with black ropes."
+        }
+      }
+    },
+    "image_00140": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman in vibrant, ornate wrestling attire and dramatic makeup stands in a wrestling ring, with a man holding a championship belt beside her and another person filming in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a colorful, elaborate costume stands in a wrestling ring, flanked by two individuals holding trophies."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in a colorful wrestling outfit stands in a ring beside a person holding a championship-style belt or trophy, with spectators visible nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a colorful wrestling outfit stands confidently inside an arena ring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a colorful outfit stands confidently in a ring while a man holds championship belts beside her."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female wrestler in a colorful, elaborate costume stands in the ring while a referee holds a championship belt behind her."
+        }
+      }
+    },
+    "image_00141": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler poses on the ropes while fans capture the moment with their phones in a lively venue."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestler stands on the corner ropes in a ring, posing and shouting toward a crowd under bright stage lights at an indoor live event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler performs a high-flying move in front of an enthusiastic crowd under vibrant stage lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in black boots and face paint stands atop a wrestling ring turnbuckle, roaring at an excited crowd under bright stage lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestler in black boots and a vest stands on the top turnbuckle of a ring, shouting to an enthusiastic crowd under bright stage lights."
+        }
+      }
+    },
+    "image_00142": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler poses dramatically on the ropes in a dimly lit venue."
+        },
+        "gpt-5.4": {
+          "summary": "A professional wrestler with black face paint poses on the ring corner under colorful venue lights, wearing a patched denim vest and black gear."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler in a green vest performs an entrance move under dramatic lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a denim vest and face paint stands atop a ring turnbuckle, pointing dramatically under purple stage lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male wrestler with black face paint and a denim vest stands on the top turnbuckle of a ring, pointing outward under dramatic blue and purple lighting."
+        }
+      }
+    },
+    "image_00143": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two wrestlers are engaged in a match inside a wrestling ring."
+        },
+        "gpt-5.4": {
+          "summary": "Two shirtless wrestlers are mid-action in a ring, with one appearing to strike the other while a referee stands behind them in an indoor venue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two wrestlers in a ring during an intense match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two muscular wrestlers are engaged in a match inside a ring, with one appearing to be thrown backward."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two shirtless male wrestlers are engaged in a match inside a ring, with one wrestler reacting to a blow while the other advances."
+        }
+      }
+    },
+    "image_00144": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestling match scene featuring one wrestler lifting another in a dramatic hold, with an audience in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless wrestler carries another wrestler at ringside during an indoor pro wrestling event as the crowd and an official react nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling match in progress featuring a dramatic moment between two wrestlers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler lifts another wrestler overhead in a competitive match, with an audience and referee watching."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded wrestler in black trunks lifts an opponent over his shoulder during a match, with a referee and spectators watching closely."
+        }
+      }
+    },
+    "image_00145": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An indoor wrestling event is captured from a spectator's perspective, showing a wrestling ring with a banner, surrounded by a crowd in an ornate venue."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling ring set up in a venue filled with spectators, showcasing an event atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor professional wrestling ring is set up in a theater-like venue with audience seating and barricades around it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling ring in a vintage-style venue filled with spectators."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestling ring with 'FREELANCE WRESTLING' branding is set up in an ornate indoor venue, surrounded by spectators."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestling ring is set up inside a vintage theater hall with an audience watching from the floor and balcony."
+        }
+      }
+    },
+    "image_00146": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male wrestler wearing a black tank top with '[PERSON] printed on it gestures to an audience while entering a wrestling ring, with a [LOCATION] flag visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler named [PERSON] poses confidently in a wrestling venue, wearing a distinctive tank top."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in a black graphic shirt walks beside a wrestling ring during a live pro-wrestling event, with crowd barriers, spectators, and warm stage lighting around them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler in a '[ORGANIZATION] tank top gestures confidently during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a black tank top with '[PERSON] text stands inside a ring, gesturing to the crowd under stage lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestler wearing a black tank top with '[PERSON] printed on it poses inside a wrestling ring while spectators watch from behind a barrier."
+        }
+      }
+    },
+    "image_00147": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a dramatic pose, wearing a cape and costume, stands in front of a skull-themed backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in a crown, [LOCATION], and fitted costume poses with arms outstretched on a stage in front of a large skull backdrop under blue-purple lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer in a black cape and crown strikes an expressive pose against a backdrop featuring silhouettes of faces."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer in a crown and cape stands on stage with arms outstretched before a backdrop featuring a large skull design."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A performer in a wrestling costume with a crown and cape stands on stage with arms outstretched against a backdrop featuring a large skull graphic."
+        }
+      }
+    },
+    "image_00148": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male wrestler in a 'GOOD BOY' tank top stands on a stage with blue lighting and a large skull graphic backdrop, looking energetic and smiling."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler wearing a tank top with 'GOOD BOY' printed on it walks towards the audience under dramatic lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestler makes a stage entrance under blue lights in front of a large skull backdrop, wearing a shirt that says \"GOOD BOY.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer in a 'GOOD BOY' tank top dances energetically under stage lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer in a 'GOOL BOY' tank top stands on stage under blue lights, with a large skull backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male wrestler stands on a platform in front of a large skull backdrop, wearing a black tank top with the text 'GOOD BOY' and wrestling gear under blue stage lighting."
+        }
+      }
+    },
+    "image_00149": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler in a black leather jacket poses confidently in a wrestling ring, engaging with the audience."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestler in a black jacket points beside a wrestling ring during a brightly lit indoor live event with spectators nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler in a leather jacket points towards an opponent during a wrestling match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a leather jacket gestures passionately inside a ring under vibrant red lighting, with an audience watching."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless wrestler in a black leather jacket points aggressively at the crowd while standing next to a wrestling ring under red and purple stage lighting."
+        }
+      }
+    },
+    "image_00150": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male wrestler with a beard and medal around his neck stands on a stage under green lighting, arms outstretched and mouth open in an energetic roar, with a large skull"
+        },
+        "gpt-4o-mini": {
+          "summary": "A wrestler poses confidently on stage with a skull-themed backdrop and bright lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A wrestler wearing trunks and a medal makes an intense entrance pose on a stage lit green in front of a large skull backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shirtless man in wrestling attire celebrates enthusiastically under green stage lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular wrestler with a beard and championship medal celebrates triumphantly on stage under green lighting, with a large skull backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless male wrestler with a beard and tattoos celebrates on stage under green lighting, wearing wrestling gear and a medal, with a large skull backdrop."
+        }
+      }
+    },
+    "image_00151": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman in a black outfit expresses excitement with her hands on her head, surrounded by a cheering crowd."
+        },
+        "gpt-5.4": {
+          "summary": "A woman in a black performance outfit reacts excitedly with her hands on her head beside metal barricades in a crowded indoor event space."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black outfit stands behind barriers, hands raised near their head."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a black outfit reacts excitedly with hands on her head at a crowded event behind a metal barrier."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a black outfit stands behind a metal barrier at an event, holding her head with both hands and displaying an expression of shock or excitement."
+        }
+      }
+    },
+    "image_00152": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two performers, a man carrying a woman on his shoulders, pose dramatically on a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A performance featuring two wrestlers, one in a dramatic pose with a red cape, against a backdrop with a skull design."
+        },
+        "gpt-5.4": {
+          "summary": "Two costumed performers pose dramatically on a stage, with one carrying the other and a large red metallic cape spread wide under colorful event lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer balances atop another in a theatrical acrobatic act under vibrant stage lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer in a red winged costume stands atop another performer on stage under colorful lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male wrestler carries a female performer on his shoulders as she displays large red wings during a theatrical stage performance."
+        }
+      }
+    },
+    "image_00153": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a dramatic red costume poses triumphantly in a wrestling ring, with an audience cheering in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in a wrestling ring smiles while posing on another performer’s shoulders with large red wing-like fabric, as the crowd cheers and a [LOCATION] flag hangs in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer in a red cape stands triumphantly atop another person's shoulders during what appears to be an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler carries a smiling performer with a flowing red cape inside a wrestling ring, with a [LOCATION] flag visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female wrestler in a black outfit and red cape stands triumphantly on the shoulders of a male wrestler inside a ring, with a [LOCATION] flag visible in the background."
+        }
+      }
+    },
+    "image_00154": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A female wrestler performs a move on another wrestler in a wrestling ring, with an audience in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling wrestler in black and red gear rides on another wrestler’s shoulders inside a ring while pointing toward the crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer in a black outfit stands triumphantly atop another person's shoulders during what appears to be an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A female wrestler smiles triumphantly while perched on the shoulders of a male wrestler inside a ring, with spectators watching."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female wrestler in a black top and red skirt sits on the shoulders of a male wrestler with long dark hair inside a ring, smiling while pointing towards an audience."
+        }
+      }
+    },
+    "image_00155": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing"
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a dramatic pose wearing a patterned poncho and hat, illuminated by stage lights with smoke effects."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in a wide-brim hat and patterned poncho poses energetically on a smoke-filled stage with bright concert lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer in a dramatic pose under stage lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer in a patterned poncho and hat passionately sings on a smoky stage with dramatic lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man wearing a black hat and patterned poncho performs passionately on a stage illuminated by blue lights and smoke."
+        }
+      }
+    },
+    "image_00156": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer in a pink outfit and championship belt poses in a dramatic, smoky setting."
+        },
+        "gpt-5.4": {
+          "summary": "A performer in a bright pink outfit and sunglasses stands in purple stage haze wearing a large championship-style belt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a vibrant wrestling outfit stands confidently under purple stage lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler in a shiny pink outfit and championship belt stands confidently under purple stage lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestler in a shiny pink puffer jacket and matching gear poses on stage under purple lighting while wearing a championship belt."
+        }
+      }
+    },
+    "image_00157": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A muscular wrestler poses triumphantly in the ring, with a crowd visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A professional wrestler stands on the corner of a ring in a dark arena while the crowd watches beneath large red overhead signage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestler stands in a ring under bright red signage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wrestler stands atop a turnbuckle in a ring under bright lights, with a large screen above displaying his name."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless male wrestler with blonde hair stands on the turnbuckle of a wrestling ring in a dimly lit arena, looking upwards while a crowd watches from below."
+        }
+      }
+    },
+    "image_00158": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large concert stage is illuminated with intense red lighting and pyrotechnics, featuring performers in various costumes and a large audience watching from below."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vibrant concert scene with performers on stage amidst dramatic lighting and flames."
+        },
+        "gpt-5.4": {
+          "summary": "A large arena concert stage with an ornate mansion-like set is lit in red and surrounded by flames and pyrotechnics as many performers stand before a crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant stage performance featuring dancers in front of a fiery backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A concert stage bathed in red light with flames erupting from an ornate structure, performers on stage facing a cheering crowd."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large-scale concert performance featuring a massive stage set engulfed in flames with numerous performers and a dense crowd of spectators."
+        }
+      }
+    },
+    "image_00159": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dramatic scene from a wrestling event with smoke and lights, suggesting an entrance or performance."
+        },
+        "gpt-5.4": {
+          "summary": "A brightly lit, smoke-filled wrestling entrance stage is shown with purple-blue lights and event text overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic stage setup with bright lights and smoke during a [LOCATION] event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A brightly lit wrestling event stage filled with smoke and purple lighting, with text indicating a farewell event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestling stage is illuminated by intense blue and purple spotlights with heavy smoke effects during a broadcast event."
+        }
+      }
+    },
+    "image_00160": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A silhouetted figure raises a hand amidst a foggy atmosphere, likely during a wrestling event."
+        },
+        "gpt-5.4": {
+          "summary": "A silhouetted wrestler-like figure raises a hand through blue stage fog, with Japanese event text for Wrestle Kingdom 20 displayed on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A silhouette of a person raising their arm in front of smoke against blue lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A silhouetted wrestler waves through smoke at a wrestling event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A silhouetted figure with long hair raises an arm against a hazy blue background, overlaid with Japanese text announcing a wrestling event and retirement."
+        }
+      }
+    },
+    "image_00161": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a female figure in a cosmic setting, celebrating a championship title."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized wrestling promo graphic shows [PERSON] in a cosmic [ORGANIZATION] portrait with text announcing she is still [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme celebrating [PERSON] [ORGANIZATION] World Championship title."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in futuristic attire stands against a cosmic backdrop with text declaring her championship status and peace in the galaxy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic featuring wrestler [PERSON] in a Star Wars-inspired costume against a cosmic background, announcing her status as [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00162": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a variety of colorful sunglasses arranged on a display rack."
+        },
+        "gpt-5.4": {
+          "summary": "A shop display rack holds multiple oversized mirrored sunglasses and visor-style glasses in bright neon colors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A display of colorful sunglasses in various styles arranged neatly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A display rack holds multiple colorful, reflective sport-style sunglasses with vibrant frames and lenses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A retail display rack showcases a variety of colorful, sport-style sunglasses with reflective lenses and bright frames."
+        }
+      }
+    },
+    "image_00163": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wrestling event in a lively indoor venue with an engaged audience watching the match."
+        },
+        "gpt-5.4": {
+          "summary": "A live professional wrestling match is taking place in an indoor venue, with two wrestlers in the ring and a seated crowd surrounding it under colorful lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wrestling match takes place in a dimly lit venue filled with spectators."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Wrestlers compete in a ring surrounded by an audience under purple-lit ceilings with chandeliers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wrestling match takes place in a ring surrounded by an audience inside a venue with exposed wooden beams and purple lighting."
+        }
+      }
+    },
+    "image_00164": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bald man with glasses and a beard is seen through a car window, shouting with an"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting inside a vehicle, partially visible through the window."
+        },
+        "gpt-5.4": {
+          "summary": "A bald man with glasses is shouting from the back seat of a dark vehicle in a dramatic reaction-style screenshot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a car appears distressed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with glasses and a beard is yelling from inside a dark SUV at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with glasses and a bald head is seen shouting through the open window of a dark vehicle at night."
+        }
+      }
+    },
+    "image_00165": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a bowl of fried rice with egg, vegetables, and meat, positioned in front of an open cookbook displaying a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bowl of fried rice alongside an open cookbook displaying a recipe."
+        },
+        "gpt-5.4": {
+          "summary": "A bowl of fried rice with diced vegetables and meat sits in front of an open cookbook showing a similar recipe photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bowl of fried rice next to an open cookbook featuring a similar dish."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bowl of fried rice sits in front of an open cookbook displaying a similar dish."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a bowl of fried rice with pineapple and meat, placed in front of an open cookbook displaying the same dish."
+        }
+      }
+    },
+    "image_00166": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two cooked fish garnished with lemon slices on a baking tray, alongside a partially visible cookbook page with a recipe."
+        },
+        "gpt-5.4": {
+          "summary": "A tray of roasted whole fish with lemon slices sits in front of an open cookbook showing a fish recipe and a photo of a plated dish."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cooked fish fillets garnished with lemon slices placed next to a cookbook."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Cooked fish fillets with lemon slices rest on parchment paper beside an open cookbook displaying a recipe."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of two cooked whole fish on a baking sheet, prepared with lemon slices and herbs, placed in front of an open cookbook displaying the recipe."
+        }
+      }
+    },
+    "image_00167": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a golden-"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a grilled cheese sandwich cut in half, served with a small bowl of tomato soup."
+        },
+        "gpt-5.4": {
+          "summary": "A toasted grilled cheese-style sandwich with melted cheese and onions is served on a plate beside a small bowl of red soup or dipping sauce, with an open book blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A grilled cheese sandwich served alongside a small bowl of sauce."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A toasted sandwich cut in half, served with a side of red sauce on a white plate, with an open cookbook in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a golden-brown grilled sandwich cut in half on a white plate, served with a side of red soup in a glass bowl."
+        }
+      }
+    },
+    "image_00168": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two bowls of spaghetti topped with chili, shredded cheddar cheese, and diced white"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two bowls of spaghetti topped with ground beef, shredded cheese, and diced onions, alongside an open cookbook."
+        },
+        "gpt-5.4": {
+          "summary": "Two bowls of spaghetti topped with chili-like meat sauce, shredded cheddar, and diced onions sit beside an open cookbook with food photos."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two bowls of spaghetti topped with ground beef, cheese shreds, and diced onions are displayed next to an open cookbook."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two bowls of chili-topped spaghetti with cheese and onions sit beside an open cookbook."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two white bowls of spaghetti topped with ground meat, shredded yellow cheese, and diced onions sit on a dark surface in front of an open cookbook."
+        }
+      }
+    },
+    "image_00169": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals at a commentary table, one in a colorful shirt and the other in a shiny red jacket, with a championship belt displayed in front of them."
+        },
+        "gpt-5.4": {
+          "summary": "Two headset-wearing commentators stand at a crowded event table, one in a red sequined jacket, with a championship-style belt displayed in front."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are broadcasting a wrestling event from behind commentary desk."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in headsets sit at a table with a championship belt, surrounded by others in a lively indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men wearing headsets stand behind a table with a championship belt, surrounded by an audience in what appears to be a wrestling commentary or broadcast setting."
+        }
+      }
     }
   }
 }

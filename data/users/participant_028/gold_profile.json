@@ -1,69 +1,109 @@
 {
   "user_id": "participant_028",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
       "status": "active",
       "long_term_interests": [
         {
-          "label": "fitness",
+          "label": "weight loss",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            9,
+            21,
+            22,
+            38,
+            51,
+            75,
+            167
           ],
           "evidence_post_ids": [
-            "participant_028_phase_1",
-            "participant_028_phase_3",
-            "participant_028_phase_4"
+            "participant_028_post_0010",
+            "participant_028_post_0022",
+            "participant_028_post_0023",
+            "participant_028_post_0039",
+            "participant_028_post_0052",
+            "participant_028_post_0076",
+            "participant_028_post_0168"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "fitness routine",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            26,
+            56,
+            75,
+            190
           ],
           "evidence_post_ids": [
-            "participant_028_phase_1",
-            "participant_028_phase_3",
-            "participant_028_phase_4"
+            "participant_028_post_0027",
+            "participant_028_post_0057",
+            "participant_028_post_0076",
+            "participant_028_post_0191"
+          ]
+        },
+        {
+          "label": "fitness progress",
+          "evidence_post_indices": [
+            9,
+            21,
+            22,
+            167
+          ],
+          "evidence_post_ids": [
+            "participant_028_post_0010",
+            "participant_028_post_0022",
+            "participant_028_post_0023",
+            "participant_028_post_0168"
+          ]
+        },
+        {
+          "label": "fitness goal",
+          "evidence_post_indices": [
+            38,
+            51,
+            92
+          ],
+          "evidence_post_ids": [
+            "participant_028_post_0039",
+            "participant_028_post_0052",
+            "participant_028_post_0093"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
+          "label": "weight lift",
+          "evidence_post_indices": [
+            26,
+            56
+          ],
+          "evidence_post_ids": [
+            "participant_028_post_0027",
+            "participant_028_post_0057"
+          ]
+        },
+        {
           "label": "fitness",
           "evidence_post_indices": [
-            2,
-            3
+            14,
+            61
           ],
           "evidence_post_ids": [
-            "participant_028_phase_3",
-            "participant_028_phase_4"
+            "participant_028_post_0015",
+            "participant_028_post_0062"
           ]
         },
         {
-          "label": "spectator sports",
+          "label": "combat sport",
           "evidence_post_indices": [
-            1
+            141,
+            142
           ],
           "evidence_post_ids": [
-            "participant_028_phase_2"
-          ]
-        },
-        {
-          "label": "sports outdoor interests",
-          "evidence_post_indices": [
-            2,
-            3
-          ],
-          "evidence_post_ids": [
-            "participant_028_phase_3",
-            "participant_028_phase_4"
+            "participant_028_post_0142",
+            "participant_028_post_0143"
           ]
         }
       ]
@@ -73,30 +113,54 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "film and television",
+          "label": "tv shows",
           "evidence_post_indices": [
-            1,
-            3
+            40,
+            41,
+            111,
+            147
           ],
           "evidence_post_ids": [
-            "participant_028_phase_2",
-            "participant_028_phase_4"
+            "participant_028_post_0041",
+            "participant_028_post_0042",
+            "participant_028_post_0112",
+            "participant_028_post_0148"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "youtube content",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            57,
+            189
           ],
           "evidence_post_ids": [
-            "participant_028_phase_1",
-            "participant_028_phase_2",
-            "participant_028_phase_3"
+            "participant_028_post_0058",
+            "participant_028_post_0190"
+          ]
+        },
+        {
+          "label": "stranger thing",
+          "evidence_post_indices": [
+            111,
+            147
+          ],
+          "evidence_post_ids": [
+            "participant_028_post_0112",
+            "participant_028_post_0148"
+          ]
+        },
+        {
+          "label": "media consumption",
+          "evidence_post_indices": [
+            104,
+            175
+          ],
+          "evidence_post_ids": [
+            "participant_028_post_0105",
+            "participant_028_post_0176"
           ]
         }
       ]
@@ -106,84 +170,153 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "gaming interests",
+          "label": "world of warcraft",
           "evidence_post_indices": [
-            0,
             1,
-            2,
-            3
+            29,
+            67,
+            81,
+            87,
+            109,
+            115,
+            134,
+            135,
+            136,
+            139,
+            147,
+            165,
+            166,
+            169,
+            175,
+            178,
+            180,
+            186,
+            190
           ],
           "evidence_post_ids": [
-            "participant_028_phase_1",
-            "participant_028_phase_2",
-            "participant_028_phase_3",
-            "participant_028_phase_4"
+            "participant_028_post_0002",
+            "participant_028_post_0030",
+            "participant_028_post_0068",
+            "participant_028_post_0082",
+            "participant_028_post_0088",
+            "participant_028_post_0110",
+            "participant_028_post_0116",
+            "participant_028_post_0135",
+            "participant_028_post_0136",
+            "participant_028_post_0137",
+            "participant_028_post_0140",
+            "participant_028_post_0148",
+            "participant_028_post_0166",
+            "participant_028_post_0167",
+            "participant_028_post_0170",
+            "participant_028_post_0176",
+            "participant_028_post_0179",
+            "participant_028_post_0181",
+            "participant_028_post_0187",
+            "participant_028_post_0191"
           ]
         },
         {
-          "label": "role-playing games",
+          "label": "mmorpg",
           "evidence_post_indices": [
-            0,
             1,
-            2,
-            3
+            87,
+            109,
+            115,
+            134,
+            135,
+            136,
+            139,
+            175,
+            190
           ],
           "evidence_post_ids": [
-            "participant_028_phase_1",
-            "participant_028_phase_2",
-            "participant_028_phase_3",
-            "participant_028_phase_4"
+            "participant_028_post_0002",
+            "participant_028_post_0088",
+            "participant_028_post_0110",
+            "participant_028_post_0116",
+            "participant_028_post_0135",
+            "participant_028_post_0136",
+            "participant_028_post_0137",
+            "participant_028_post_0140",
+            "participant_028_post_0176",
+            "participant_028_post_0191"
           ]
         },
         {
           "label": "video games",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            47,
+            61,
+            69,
+            121,
+            131,
+            143,
+            192,
+            194
           ],
           "evidence_post_ids": [
-            "participant_028_phase_1",
-            "participant_028_phase_2",
-            "participant_028_phase_3",
-            "participant_028_phase_4"
+            "participant_028_post_0048",
+            "participant_028_post_0062",
+            "participant_028_post_0070",
+            "participant_028_post_0122",
+            "participant_028_post_0132",
+            "participant_028_post_0144",
+            "participant_028_post_0193",
+            "participant_028_post_0195"
+          ]
+        },
+        {
+          "label": "game streaming",
+          "evidence_post_indices": [
+            47,
+            83,
+            178,
+            180,
+            191
+          ],
+          "evidence_post_ids": [
+            "participant_028_post_0048",
+            "participant_028_post_0084",
+            "participant_028_post_0179",
+            "participant_028_post_0181",
+            "participant_028_post_0192"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "gaming interests",
+          "label": "stellar blade",
           "evidence_post_indices": [
-            0,
-            2
+            57,
+            61
           ],
           "evidence_post_ids": [
-            "participant_028_phase_1",
-            "participant_028_phase_3"
+            "participant_028_post_0058",
+            "participant_028_post_0062"
           ]
         },
         {
-          "label": "role-playing games",
+          "label": "rpg gaming",
           "evidence_post_indices": [
-            1,
-            2
+            69,
+            128
           ],
           "evidence_post_ids": [
-            "participant_028_phase_2",
-            "participant_028_phase_3"
+            "participant_028_post_0070",
+            "participant_028_post_0129"
           ]
         },
         {
-          "label": "video games",
+          "label": "the war within",
           "evidence_post_indices": [
-            1,
-            2
+            169,
+            190
           ],
           "evidence_post_ids": [
-            "participant_028_phase_2",
-            "participant_028_phase_3"
+            "participant_028_post_0170",
+            "participant_028_post_0191"
           ]
         }
       ]
@@ -193,77 +326,165 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "dining",
+          "label": "home cook",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            6,
+            7,
+            11,
+            16,
+            28,
+            37,
+            42,
+            48,
+            52,
+            53,
+            55,
+            64,
+            103,
+            105,
+            108,
+            150,
+            159,
+            162,
+            167
           ],
           "evidence_post_ids": [
-            "participant_028_phase_1",
-            "participant_028_phase_3",
-            "participant_028_phase_4"
+            "participant_028_post_0007",
+            "participant_028_post_0008",
+            "participant_028_post_0012",
+            "participant_028_post_0017",
+            "participant_028_post_0029",
+            "participant_028_post_0038",
+            "participant_028_post_0043",
+            "participant_028_post_0049",
+            "participant_028_post_0053",
+            "participant_028_post_0054",
+            "participant_028_post_0056",
+            "participant_028_post_0065",
+            "participant_028_post_0104",
+            "participant_028_post_0106",
+            "participant_028_post_0109",
+            "participant_028_post_0151",
+            "participant_028_post_0160",
+            "participant_028_post_0163",
+            "participant_028_post_0168"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "steak",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            105,
+            108,
+            150,
+            159,
+            162
           ],
           "evidence_post_ids": [
-            "participant_028_phase_1",
-            "participant_028_phase_2",
-            "participant_028_phase_3",
-            "participant_028_phase_4"
+            "participant_028_post_0106",
+            "participant_028_post_0109",
+            "participant_028_post_0151",
+            "participant_028_post_0160",
+            "participant_028_post_0163"
+          ]
+        },
+        {
+          "label": "grocery shopping",
+          "evidence_post_indices": [
+            7,
+            13,
+            24,
+            71
+          ],
+          "evidence_post_ids": [
+            "participant_028_post_0008",
+            "participant_028_post_0014",
+            "participant_028_post_0025",
+            "participant_028_post_0072"
+          ]
+        },
+        {
+          "label": "breakfast",
+          "evidence_post_indices": [
+            17,
+            37,
+            52,
+            162
+          ],
+          "evidence_post_ids": [
+            "participant_028_post_0018",
+            "participant_028_post_0038",
+            "participant_028_post_0053",
+            "participant_028_post_0163"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "dining",
+          "label": "lunch",
           "evidence_post_indices": [
-            3
+            18,
+            39
           ],
           "evidence_post_ids": [
-            "participant_028_phase_4"
+            "participant_028_post_0019",
+            "participant_028_post_0040"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "home cook",
           "evidence_post_indices": [
-            3
+            35,
+            46
           ],
           "evidence_post_ids": [
-            "participant_028_phase_4"
+            "participant_028_post_0036",
+            "participant_028_post_0047"
+          ]
+        },
+        {
+          "label": "meal prep",
+          "evidence_post_indices": [
+            7,
+            48
+          ],
+          "evidence_post_ids": [
+            "participant_028_post_0008",
+            "participant_028_post_0049"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "dining",
+          "label": "brussel sprout",
           "evidence_post_indices": [
-            1,
-            3
+            10,
+            55
           ],
           "evidence_post_ids": [
-            "participant_028_phase_2",
-            "participant_028_phase_4"
+            "participant_028_post_0011",
+            "participant_028_post_0056"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "dinner",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            10,
+            103
           ],
           "evidence_post_ids": [
-            "participant_028_phase_2",
-            "participant_028_phase_3",
-            "participant_028_phase_4"
+            "participant_028_post_0011",
+            "participant_028_post_0104"
+          ]
+        },
+        {
+          "label": "soft drink",
+          "evidence_post_indices": [
+            39,
+            101
+          ],
+          "evidence_post_ids": [
+            "participant_028_post_0040",
+            "participant_028_post_0102"
           ]
         }
       ]

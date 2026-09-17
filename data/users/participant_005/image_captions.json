@@ -1,67 +1,2383 @@
 {
   "user_id": "participant_005",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "dogs",
-        "live performances",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; dogs; live performances; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting on a swing in a rustic outdoor setting, holding a phone."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits on a rustic wagon-wheel porch swing outside a stucco house, holding a phone in a calm outdoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sits on a rustic swing bench in an outdoor garden area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits on a rustic swing with wagon wheels, holding a phone, outdoors near a beige building."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with two-toned hair sits on a rustic wooden porch swing outdoors, wearing a white jacket and jeans while holding a smartphone."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "crafts and design",
-        "live performances",
-        "music",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; crafts and design; live performances; music; photography."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a to-do list with several tasks written in a notebook format."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a handwritten-style to-do list app shows several blurred tasks and three readable items in Indonesian."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digital to-do list showing tasks related to financial planning."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A digital to-do list with partially obscured items and three visible Indonesian tasks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital to-do list screenshot from the app [LOCATION] showing a mix of redacted tasks and specific Indonesian-language items related to web design and networking."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "crafts and design",
-        "live performances",
-        "music",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: crafts and design; live performances; music; outdoor activities; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two polaroid-style photos, one of a person in a shirt and tie, and another of a person playing an acoustic guitar."
+        },
+        "gpt-5.4": {
+          "summary": "Two [ORGANIZATION]-style photos on a white background show a person posing in a shirt and tie and sitting on a couch playing an acoustic guitar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of two [ORGANIZATION]-style photos showing a person in casual attire and another playing an acoustic guitar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two [ORGANIZATION]-style photos show a person in a white shirt with a tie and another playing an acoustic guitar on a couch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two [ORGANIZATION]-style photographs of a young man, one showing him in a shirt and tie and the other playing an acoustic guitar."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "live performances",
-        "music",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; live performances; music; photography."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features keychains with photos and the text 'My Love' in a playful design."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel collage displays custom photo keychains with sepia portrait inserts arranged on a spiral notebook page."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of keychains featuring 'My Love' stickers in pastel colors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several keychains with photo charms and the text 'de MY LOVE!' are displayed on a notebook with 'My Love' written on it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A display of custom acrylic keychains featuring photos of a young man and the text 'de MY LOVE', arranged on a notebook with K-pop related writing."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "crafts and design",
-        "live performances",
-        "music",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; crafts and design; live performances; music; photography."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a collection of colorful text stickers with various phrases and titles."
+        },
+        "gpt-5.4": {
+          "summary": "A dark design workspace shows colorful sticker-style text graphics in a reference panel and on the canvas, likely for digital art or typography editing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digital interface displaying various colorful stickers labeled 'Fly Up!', 'Inside My Love', etc."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A digital design interface displaying colorful, stylized text stickers with phrases like 'Fly Up!' and 'Another Life'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a digital design interface displaying a 'Reference' panel with colorful, stylized text stickers on a dark grid background."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "crafts and design",
-        "live performances",
-        "music",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; crafts and design; live performances; music; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An image displays a group of six young men in casual attire running or posing in a grassy outdoor setting, above a white box containing text about \"NOBAR RIIZING LOUD SEOUL\" and a message about a response."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a group of individuals outdoors, with a text overlay expressing gratitude for a response related to an event in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A social-media style graphic shows five young men outdoors on a grassy path above a response card reading “NOBAR RIIZING LOUD SEOUL.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of young men posing outdoors in a casual manner."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of young men in casual outdoor attire are shown above a confirmation message for a survey response."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post featuring a group photo of six young men in an outdoor setting above a confirmation message for a poll or survey."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a partially visible document discussing an event titled 'Angklung Goes to [LOCATION]'."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a printed official-looking letter with some text covered in blue and a partial stamp visible at the bottom left."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A document mentions a statement letter addressed as '[PERSON] to [LOCATION]' scheduled for October."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a document with partially obscured text, mentioning an event titled 'Angklung Goes to [LOCATION]' scheduled for the 20th."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a formal document featuring a blue highlighter mark and text referencing an event called 'Angklung Goes to [LOCATION]' with a partial official stamp visible."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text conversation expressing emotional sentiments related to 'isayang' at the end of each day."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a chat message showing Korean text with an English translation in purple on a pastel messaging app background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A message expressing emotional connection through 'isayang' in Korean."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a Korean-language text message expressing emotional attachment to someone named 'isayang'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat message featuring Korean text and its English translation, expressing emotional sentiment about the presence of 'isayang'."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image shows a close-up of dark and light hair clippings scattered on a light-colored floor, with a 'cut' text overlay and a blonde-haired person emoji."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows hair clippings on a surface, indicating a recent haircut."
+        },
+        "gpt-5.4": {
+          "summary": "An [PERSON] story screenshot shows cut hair scattered on a salon floor with overlaid text saying \"cut.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of hair clippings scattered across a floor next to an electric razor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pile of cut hair rests on a speckled floor with an emoji and the word 'cut' overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of cut black and blonde hair scattered on a speckled floor with an emoji and the word 'cut' overlaid."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a promotional graphic for a cheering event, showcasing a person in formal attire with a blurred face."
+        },
+        "gpt-5.4": {
+          "summary": "A blue-and-white promotional graphic shows a cheering kit featuring a portrait of [PERSON] and a matching slogan banner design."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[2025] CHEERING kit for RIIZE ANTON"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional image for a 2025 cheering kit featuring a portrait of a person and a large 'ANTON' slogan on a blue background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic displaying a 2025 cheering kit for the K-pop idol [PERSON] from the group RIIZE, featuring a portrait photo and a holographic banner."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a promotional design for a cheering kit, showcasing a person in a blue and white outfit with a South Korean flag."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel blue fan-style poster shows a person in a white-and-blue athletic jacket with a South Korean flag patch, surrounded by bubbles and decorative slogan text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[2025] CHEERING kit featuring a swimmer in white attire against a blue background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional image for a 2025 cheering kit featuring a person in a swimmer's jacket against a blue, bubble-filled background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic for a 2025 cheering kit featuring a person in a white and blue athletic jacket with a South Korean flag patch, set against a light blue background with bubbles."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cheering kit with a photo of a person in a suit and a large slogan in a stylized font."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional graphic shows an \"[PERSON]\" cheering kit with one fabric banner featuring a portrait of a person in a suit and red tie and another banner with large black Korean lettering."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster featuring a person in formal attire alongside Korean text promoting '2025 Cheering Kit'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional image for a 2025 cheering kit featuring a portrait of [PERSON] and a black glitter slogan design."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic displaying a 2025 cheering kit for the individual [PERSON], featuring a photo towel and a black glitter slogan towel."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation discussing various individuals and a potential sale."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a casual messaging app conversation in Indonesian with forwarded messages and joking replies about names including [PERSON], [PERSON], and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat conversation discussing mentorship options."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] chat showing playful messages between two users discussing forwarded content and joking about names."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] chat in Indonesian discussing the availability of individuals named [PERSON], [PERSON], and [PERSON] for mentorship."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person with short dark hair and a black tank top looking directly at the camera against a textured grey background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a blurred face, wearing a black sleeveless shirt against a textured background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person with short dark hair wearing a black sleeveless top against a plain gray wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black sleeveless top against a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person with short dark hair wearing a black sleeveless top against a textured gray wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a young person with short dark hair wearing a black sleeveless top against a textured grey background."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of photo cards arranged on a laptop, with music playing in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A tablet showing a music player is covered with multiple collectible idol-style photo cards and a small printed quote card."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displays a music player interface showing 'Embody Me' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several K-pop idol photocards are arranged on a laptop keyboard, with the screen showing a music player for 'Embod Me' by [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of K-pop photocards is arranged on a laptop keyboard while the screen displays a music player interface for the song 'Embody Me' by [PERSON]."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cute plush toy resembling a deer, dressed in a blue and white outfit, holding a colorful food item, alongside another plush toy in a blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A plush animal doll wearing a white outfit with blue trim and a burger-shaped crossbody bag sits on a shelf beside another plush in a hooded outfit."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush cow toy wearing a Rize jersey holds an ice cream cone next to another stuffed animal in pajamas."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two plush toys sit on a shelf; one wears a jersey with '[LOCATION]' and holds a burger-shaped accessory."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A beige plush deer character wearing a baseball jersey and holding a burger sits on a shelf next to another plush toy in a hooded outfit."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plush toy in a decorative box, part of a collection labeled 'Midnight Mirage Ver.' with colorful characters on the packaging."
+        },
+        "gpt-5.4": {
+          "summary": "Several pastel-purple K-pop merchandise boxes featuring cartoon characters and a plush toy are arranged on a carpeted surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush toy in a box labeled '[ORGANIZATION] from [PERSON]'s first album [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plush toy in a purple-themed box labeled '[ORGANIZATION] with cartoon characters on the packaging."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a purple box containing a plush voice keyring from the K-pop group [ORGANIZATION]'s 'The First Album Odyssey' Midnight Mirage Ver., displayed alongside other merchandise."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are sitting on a couch, holding stuffed toys and interacting with a laptop."
+        },
+        "gpt-5.4": {
+          "summary": "Blue-tinted two-panel photo of two people sitting together and eating ice cream cones, with a close-up of their hands and cones in the lower panel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are sitting closely together while eating ice cream."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people sit closely on a couch, each holding a small white stuffed animal, under cool blue lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two individuals are seated together in a blue-tinted, low-light setting, each holding a small white stuffed animal while looking down at a laptop screen."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful design with the text '[PERSON] and decorative stars on a striped background."
+        },
+        "gpt-5.4": {
+          "summary": "A cute pastel graphic reads \"Riizing Luv\" on a blue striped background with small yellow stars."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pastel-themed graphic promoting '[PERSON] freebies by [ORGANIZATION]!"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pastel-colored graphic with the text '[PERSON] and 'freebies by: îsa!' against a striped background with yellow stars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic featuring the bubbly white text '[PERSON] and a yellow star against a blue and pink striped background with scattered stars."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a calendar for July 2025 with various events and photos marked, accompanied by colorful stickers and text."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel July 2025 calendar graphic is decorated with blue portrait photo cutouts and playful sticker text including song-like titles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digital calendar showcasing July 2025 with various stickers and photos of a person."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized July 2025 calendar decorated with photos of a young man and colorful event stickers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital calendar for July 2025 decorated with stylized stickers and photos of a young male idol against a blue striped background."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several photo cards of individuals posing with playful expressions and accessories."
+        },
+        "gpt-5.4": {
+          "summary": "Several printed selfie photo cards are laid out on a display surface, including solo and duo portraits and one card with a small pastel plush toy."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of photo cards featuring young individuals in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four fan photos of young men are arranged on a surface, with one holding a plush toy and another making a peace sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of four glossy photo cards featuring young male idols is displayed on a dark surface alongside small plush toys and merchandise boxes."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media story from 'riize_official"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image announces new cinema locations for a film release."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] story from riize_official announces added cinema locations with orange background graphics."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Announcement of new cinema additions by riize_official."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[PERSON] from riize_official announcing new cinema releases in [LOCATION], [LOCATION], [LOCATION], [LOCATION], and [LOCATION], partnered with megaboxon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media story from the verified account riize_official announces cinema additions in [LOCATION], [LOCATION], [LOCATION], [LOCATION], and [LOCATION], featuring a mention of megaboxon."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two versions of a music album titled 'ODYSSEY' by an artist named 'JUNZO', displayed against a black background."
+        },
+        "gpt-5.4": {
+          "summary": "Promotional graphic for RIIZE's first album 'ODYSSEY' showing two jewel-case CD versions on a black background, including a [LOCATION]-exclusive edition."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover art for '[LOCATION]' by [ORGANIZATION] featuring two different album versions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two jewel case versions of the album 'ODYSSEY' by [ORGANIZATION] are displayed against a black background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Promotional image displaying two versions of the 'ODYSSEY' jewel case album by the group FuzE against a black background."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of keychains with photos and decorative text expressing affection."
+        },
+        "gpt-5.4": {
+          "summary": "A digital design mockup shows handmade photo keychains with pastel lettering reading love-themed phrases on a notebook-style background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of keychains featuring 'My Love' designs displayed over a notebook."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A digital mockup of custom keychains with photos and '[PERSON]!' text displayed on a striped background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital mockup displaying custom acrylic keychains featuring photos of a male idol and the text 'Made My Love' against a blue striped background."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of a messaging app conversation showing several blue text bubbles with Indonesian"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a chat interface with several messages expressing gratitude and excitement, accompanied by an emoticon."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a chat-style image shows four blue message bubbles with celebratory Indonesian text and crying/animated stickers at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat interface showing a message thread in Malay."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a chat showing excited messages in Indonesian, accompanied by an emoji and pixel art character."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] chat with four messages in Indonesian expressing gratitude to God and parents, set against a light blue patterned background with emojis."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features various stickers and photo cards laid out on a surface, with a phone displaying a scene from a library in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A tabletop display of K-pop fan merchandise shows idol photo cards, round pins, colorful stickers, and a screen playing a subtitled scene in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of stickers featuring '[PERSON],' a character named Fly Up!, and promotional items from an anime series."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of fan merchandise including photos, badges, and stickers featuring a person, arranged on a white surface with a phone displaying a movie scene in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat lay of K-pop merchandise featuring stacks of photo cards, round badges, and colorful stickers arranged on a white surface with a smartphone displaying a video in the background."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of round buttons and photo cards, showcasing various characters or individuals, along with some decorative stickers."
+        },
+        "gpt-5.4": {
+          "summary": "A tabletop display shows K-pop fan merchandise, including photo cards, round pin buttons with idol portraits, and decorative stickers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Various collectible pins featuring different individuals are displayed alongside stickers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of fan merchandise including circular badges and cards featuring portraits of individuals, alongside decorative stickers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat-lay display of K-pop merchandise featuring numerous circular badges and stacks of photo cards depicting various male idols, alongside decorative stickers."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a blue shirt and red cap, with angel wings graphics and the name '[PERSON] prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a design editor showing multiple portrait card layouts of a person in a red cap and blue shirt, decorated with wing graphics and the label \"[PERSON].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three identical images of a person wearing school uniform labeled '[PERSON] are displayed in an editing interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer screen displays three identical digital cards of a person named [PERSON], each featuring him in a blue shirt and red cap with white wings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A computer screen displays a photo editing interface featuring multiple digital cards of a young man with blonde hair, wearing a red cap and blue shirt, labeled '[PERSON]."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person sorting through various stickers and small items on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a pink top is sorting small photo cards, pin badges, and decorative stickers on a wooden bench/floor beside a tumbler, bag, and plush keychains."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person arranges various items including stickers and photos of a figure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a pink shirt is sorting through fan merchandise, including photos and stickers, on a wooden floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a pink shirt sorts through a collection of K-pop merchandise, including photo cards and stickers, on a wooden table."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a collection of stickers, photos, and accessories spread out on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A wooden table is covered with fan merchandise including portrait photo cards, pin buttons, packaged items, and colorful stickers featuring the same male performer."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of stickers featuring a person's face arranged neatly on a wooden table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden table displays various fan merchandise including photo cards, badges, and stickers with text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of K-pop merchandise, including photo cards, button badges, and stickers featuring a male idol, is spread across a wooden table."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a performer on stage with arms outstretched, illuminated against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A dark room shows a projected performance image of a male pop idol in a black leather jacket with arms outstretched against a starry background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a leather jacket stands confidently against a starry background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person is watching a projected image of a performer in a black jacket against a starry background, with the text 'RIZING OUT' visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A projection screen in a dark room displays a male performer wearing a black leather jacket against a starry background."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person performing on a screen, with a chat conversation expressing excitement."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a chat shows a dark photo of a projected stage-performance image, with excited messages reacting to it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Chat interface showing a message from anton expressing excitement over an image of someone performing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] chat shows two users reacting with emojis and text to a shared image of a person on a screen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation featuring a photo of a male performer on stage, with users reacting enthusiastically."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two young men with different hair colors are embracing each other and posing for a photo against a dark background."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are embracing each other while wearing matching white t-shirts."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows two people in white T-shirts posing with their arms around each other against a dark backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in white shirts pose closely together against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two young men in white shirts pose closely together against a black backdrop, one with red hair embracing the other."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two young men with styled hair pose closely together in white t-shirts against a dark background, one wearing a shirt with the text 'LOUD'."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a collection of packaged buttons featuring various images and colorful designs laid out on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A pile of individually wrapped photo buttons and fan-made stickers featuring the same pop idol is spread across a wooden table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of badges featuring various individuals in holographic packaging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Multiple packaged fan badges with celebrity photos are scattered on a wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of K-pop merchandise, including round badges and stickers featuring various male idols, is displayed in holographic plastic bags on a wooden surface."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collection"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a collection of stickers, photos, and small items spread out on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "Fan-made K-pop style merch, photo cards, stickers, and button accessories are spread out on a wooden floor beside bags and a phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A table displaying various collectibles including stickers, photos in bags, a plush toy, and other items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of fan merchandise, including photos, stickers, and plush toys, spread across a wooden table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of K-pop merchandise, including photo cards, stickers, and buttons featuring a male idol, is spread out on a wooden table alongside plush toys and bags."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a black sleeveless shirt poses with a hand gesture in an empty arena."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black sleeveless outfit poses with hand signs in front of stacked yellow bleacher seats inside an indoor arena or gym."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in an empty stadium seating area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black tank top poses with hand gestures in front of rows of yellow stadium seats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a black sleeveless top and pants poses with hand gestures in front of rows of empty yellow stadium seats."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a black tank top looks back at the camera from a dark, elevated backstage area overlooking a brightly lit venue."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a sleeveless shirt is seen on a staircase in a dimly lit environment, possibly backstage at an event."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black sleeveless top stands on a dark metal staircase and looks back in a dim, hazy indoor setting with overhead lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a black tank top leaning against railings inside what appears to be an indoor exhibit."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black tank top stands on stairs, looking back over their shoulder with a dimly lit, atmospheric background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a black tank top stands on dark stairs looking back, with a brightly lit stage visible through a window behind them."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a stylish outfit is seated in a backstage area, surrounded by equipment and crew."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up backstage-style portrait shows a person in a glossy dark jacket and layered necklaces sitting beside scaffolding and yellow caution-style tape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a maroon jacket stands behind yellow caution tape labeled 'DREAM WITH [LOCATION]'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a shiny maroon jacket poses behind yellow event tape with Korean and English text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man with styled dark hair and a maroon velvet jacket poses for a selfie in a backstage area marked by yellow caution tape."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in a stylish outfit featuring a shiny maroon jacket and a black mesh top, set against a dimly lit background."
+        },
+        "gpt-5.4": {
+          "summary": "A flash-lit fashion portrait shows a person in a glossy burgundy jacket and black mesh top with jewelry in a dim industrial backstage setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a shiny maroon jacket in an industrial-style environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short dark hair wears a shiny maroon jacket over a black top, posing indoors near stage equipment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with short dark hair poses in a dimly lit backstage area, wearing a shiny maroon jacket over a black mesh top and layered necklaces."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a stylish outfit is seated near a crowd, with a focus on their accessories and the background signage."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up backstage-style portrait shows a person in a glossy burgundy jacket with a headset mic and layered jewelry beside bright yellow tape and metal scaffolding."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a maroon jacket stands in front of yellow tape reading 'DREAM WITH'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a shiny maroon jacket poses behind yellow caution tape with visible text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a young man with styled dark hair wearing a maroon velvet jacket and headset, posing in front of yellow event tape."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a stylish outfit with visible accessories and stage equipment in a backstage setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows a person in a glossy burgundy jacket with layered jewelry and in-ear monitors standing beneath exposed ductwork and bright strip lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a shiny maroon jacket stands in an industrial-looking space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a shiny maroon jacket and layered necklaces poses against industrial-looking ductwork with bright lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair poses backstage wearing a shiny maroon jacket, layered necklaces including a cross pendant, and in-ear monitors against a background of silver insulation pipes."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person leaning against a wall, holding something in their hands, with another individual partially visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Three people are gathered at night in a cool-toned outdoor scene, with one person in the foreground holding a small object while another uses a phone in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person leaning against a wall in an outdoor nighttime scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white shirt leans against a surface at night while holding something small in their hands, with another person visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair in a white shirt is shown in profile at night, holding a small object while another individual wearing sunglasses stands in the background."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair, wearing a white shirt draped off one shoulder and dark pants, leans on a low wall on a rooftop, looking out at a city skyline under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a white shirt leans against a wall, overlooking a city skyline under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a loose white shirt leans on a rooftop wall with city buildings and a bright cloudy sky in the background, creating an airy editorial-style portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands contemplatively against a rooftop railing overlooking an urban skyline."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short dark hair leans against a white rooftop railing, looking out over a cityscape under a bright sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with short dark hair stands on a rooftop, wearing an oversized white shirt and looking out over a city skyline."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A young person wearing a white hoodie is holding a stylus while looking at a tablet displaying images."
+        },
+        "gpt-5.4": {
+          "summary": "A soft-lit close-up selfie shows a person in round glasses and a white hoodie holding a stylus, with a tablet displaying illustrations on their lap."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses holds a white object near their mouth while seated in front of an open laptop displaying stickers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white hoodie and glasses holds a white stylus near their mouth while looking at a tablet displaying character designs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing glasses and a white hoodie, holding a stylus near their mouth while looking at a tablet displaying digital art or stickers."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital design featuring keychains with various names and images, likely for a fan merchandise project."
+        },
+        "gpt-5.4": {
+          "summary": "A tablet screen displays a design layout of blue-themed idol photo keychains with names and \"Fly Up!\" text, alongside a bag and notebook."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digital tablet displaying a collection of keychains featuring various individuals."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tablet displays a collection of fan-made keychains featuring K-pop idols with 'Fly Up!' branding."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tablet screen displays a digital design layout featuring multiple oval keychains with photos of young men and the text 'Fly Up!', viewed next to a white zippered pouch."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while sitting at a table, with a focus on their reflection in a device."
+        },
+        "gpt-5.4": {
+          "summary": "A warm-lit indoor mirror selfie shows a person with glasses and shoulder-length dark hair holding a light blue phone, with curtains and a wall-mounted air conditioner in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie in front of their laptop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses takes a mirror selfie holding a light blue phone, wearing a black striped top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair and glasses takes a mirror selfie while holding a light blue smartphone, wearing a black striped top in an indoor setting."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of various emojis, text snippets, and cartoon characters, conveying a playful and humorous mood."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a grid of assorted meme stickers and emojis, including cartoon reactions, cats, and several Indonesian text captions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of various emojis, stickers, and images featuring animals."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of various memes, emojis, and images with humorous or emotional themes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grid of memes and emojis featuring Indonesian text, crying cats, and reaction faces."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a promotional banner for [ORGANIZATION] in [LOCATION], displaying event details and a quote."
+        },
+        "gpt-5.4": {
+          "summary": "A large indoor hanging banner promotes [ORGANIZATION]'s FATE world tour in [LOCATION], with overlaid caption text and a [ORGANIZATION] watermark."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A promotional banner advertising an [ORGANIZATION] event in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hanging banner for [ORGANIZATION]'s 'FATE+' world tour in [LOCATION], overlaid with text about family expectations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle shot of a hanging promotional banner for the [ORGANIZATION] 'FATE+' World Tour in [LOCATION], overlaid with a caption about family unity."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a phone captures a display of plush toys and photo cards labeled 'Collect Here'."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a phone photographing a pastel photobooth strip and fluffy plush keychains in front of a blue \"Collect Here\" counter sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Someone takes a photo of plush toys in front of an automated collect machine."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a phone taking a photo of plush toys and photo strips displayed in a 'Collect Here' station."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a smartphone taking a photo of a display featuring pastel plush toys and printed photo strips next to a 'Collect Here' sign."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media post displays text on a white background, quoting someone named [ORGANIZATION] about what motivates him."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post discussing motivation attributed to someone named [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A white screenshot shows English and Korean text quoting “eunseok” saying, “the joy that comes while doing it,” followed by a teary-eyed emoji."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet discussing [ORGANIZATION]'s motivations in a playful tone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text post quoting someone named [ORGANIZATION] saying 'the joy that comes while doing it' with a smiling emoji."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A text-based post sharing a quote from an individual named [ORGANIZATION] regarding his motivation."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An audience watches a cultural performance on a brightly lit stage, where performers in traditional attire are presenting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A diverse audience watches a cultural performance or presentation featuring individuals in traditional attire on stage."
+        },
+        "gpt-5.4": {
+          "summary": "A large seated audience watches a stage presentation with performers in colorful traditional attire at an indoor cultural event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cultural event featuring performers in traditional attire presenting to an audience seated indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An audience watches a cultural performance on stage with performers in colorful traditional costumes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An audience wearing batik shirts watches a cultural performance on stage featuring performers in traditional costumes and headdresses."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of people wearing colorful traditional attire"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people dressed in colorful traditional attire are gathered in a room, likely preparing for an event."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people in colorful traditional costumes are getting dressed and adjusting accessories in a classroom or office meeting room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people in traditional attire are gathered around tables indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People in colorful traditional costumes prepare for an event in an office setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people in colorful traditional attire are preparing for a performance or event inside an office space."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a man being filmed or photographed in front of banners for [ORGANIZATION] and [ORGANIZATION] in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor interview or recording is taking place in front of [ORGANIZATION] and [ORGANIZATION] [LOCATION] promotional banners."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a patterned shirt poses next to banners promoting [ORGANIZATION] dual degree programs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man smiles while being photographed indoors in front of university banners."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a patterned shirt poses for a photo taken by a person in traditional red and gold attire, standing in front of university promotional banners."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a grid of thumbnails featuring various groups of people in traditional attire, likely at a cultural event or festival."
+        },
+        "gpt-5.4": {
+          "summary": "A screen shows a grid of photo thumbnails and filenames, mostly depicting people at a cultural event in traditional clothing, performances, and outdoor group scenes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A grid of images showcasing cultural events featuring people in traditional attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grid of thumbnail images showing cultural events and people in traditional attire, each with a unique alphanumeric identifier."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital gallery displays a grid of thumbnail images featuring people in traditional cultural attire and outdoor gatherings."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a hoodie and sunglasses, with a message below asking for information."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a direct message reply to a story shows a selfie of a person in a white hoodie and glasses, with a message bubble saying “SPILL JAKETT.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a hoodie and glasses replied to someone's story."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white hoodie and glasses makes a playful face in a selfie reply to a story."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media story reply featuring a selfie of a person in a white hoodie and glasses making a pouty face, with the text 'SPILL JAKETT' below."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collection of plush toys, a light blue wallet, and a smartwatch with a light green band are neatly arranged on top of a light blue suitcase."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of cute plush toys arranged on a suitcase, alongside a smartwatch and a wallet."
+        },
+        "gpt-5.4": {
+          "summary": "A hard-shell suitcase is topped with several cute plush toys, an [ORGANIZATION], and a passport holder or travel wallet in an indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of plush toys arranged atop a suitcase."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several plush toys and a smartwatch rest on top of a gray suitcase with gold trim."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of colorful plush toys, a smartwatch, and a passport holder are arranged on top of a closed grey suitcase."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair and glasses takes a selfie inside a car, making a playful pouty face while wearing a light blue gingham shirt over a white top with a blue necklace."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a car, wearing a checkered shirt and a white top, with a white blanket draped over their shoulder."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person with round glasses and a blue gingham shirt making a pouty expression inside a sunlit car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses sits in a car seat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses makes a playful face while sitting inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark hair and glasses sitting in the back seat of a car, wearing a blue checkered shirt over a white top."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair and glasses is taking a selfie inside a car, wearing a light blue gingham shirt over a white top with a blue pendant."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with glasses is taking a selfie in a car, wearing a checkered shirt and a white top."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person wearing round glasses and a light gingham shirt while sitting in a sunlit car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses sits in a car's backseat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses sits inside a car, looking at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark hair and glasses sitting in the passenger seat of a car, wearing a green checkered shirt."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two suitcases adorned with plush toys and a watch, with labels indicating 'mamio' and 'daddy'."
+        },
+        "gpt-5.4": {
+          "summary": "A collage shows two near-identical photos of packed suitcases with plush toys, smartwatches, and travel accessories, labeled with names at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two suitcases labeled 'mamio' and 'daddy', adorned with plush toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two suitcases labeled 'mamio' and 'daddy' are decorated with plush toys and a smartwatch, framed by heart emojis."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of travel suitcases in pink and blue tones, decorated with plush toys and smartwatches, labeled 'mamio' and 'daddy'."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two suitcases adorned with various plush toys and a smartwatch."
+        },
+        "gpt-5.4": {
+          "summary": "Pastel pink and blue suitcases are arranged indoors with several plush toys, two smartwatches, and small travel accessories placed on top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two suitcases adorned with plush toys in a cozy indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three suitcases in pastel shades are topped with plush toys and smartwatches, suggesting travel preparation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three suitcases in pastel blue and pink are packed with various plush toys, smartwatches, and luggage tags, suggesting preparation for travel."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie in an indoor pool area, wearing a white towel and swim trunks, with a distinctive arched ceiling visible in the reflection."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a swimming area, wearing swimwear and a towel."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person with wet hair and a towel over their shoulders standing by a tiled indoor pool area under a curved glass roof."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in an indoor pool area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a tiled indoor pool area, draped in a white towel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in an indoor pool area, wearing wet swim trunks and a white towel draped over their shoulders."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with wet, dark hair and a white robe takes a selfie next to a swimming pool."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with wet hair is taking a selfie while wearing a white towel, near a swimming pool."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up poolside selfie shows a person with wet hair wearing a white towel, with tiled decking and blue pool water in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a white towel around their shoulders stands near an outdoor pool."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with wet hair wrapped in a white towel poses near a swimming pool."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with wet hair and a white towel draped over their shoulders, standing on a tiled pool deck."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a collection of photo cards displayed in a protective case on a patterned surface."
+        },
+        "gpt-5.4": {
+          "summary": "A portrait photocard in a clear protective sleeve and a holographic decorative card package lie on cardboard over a patterned rug."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A photo album open to a page featuring an individual wearing headphones."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a photo card of a person with a blue flower accessory, placed on brown cardboard next to a holographic sticker."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of K-pop photocards and merchandise, including a winking portrait in a protective sleeve and a holographic card with a bow design, resting on a patterned rug."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair takes a selfie, making a pouty face, with a capybara image superimposed in front of them, against a light wooden background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a blurred face holding a capybara in front of them."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person and a capybara facing the camera against a light wood-paneled wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person posing in front of a wooden wall with an edited capybara superimposed below their chest."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person makes a puckered face while holding a capybara in front of them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark wavy hair making a pouty face while holding a capybara in front of a light wood-paneled background."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of stickers and a photo card on a patterned surface, with a digital device displaying the time."
+        },
+        "gpt-5.4": {
+          "summary": "A phone lying on a patterned rug is placed beside K-pop fan items, including a photo card, a glittery slogan card, and a sticker reading 'Full ♥ Stickies.'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of stickers featuring a person holding an ice cream cupcake."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a K-pop idol photo card with a cupcake, placed on a patterned rug alongside stickers and a tablet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a K-pop photocard featuring a male idol holding a cupcake, displayed in a protective sleeve alongside stickers on a patterned rug."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an empty theater with red seats and a stage where a group of people is gathered."
+        },
+        "gpt-5.4": {
+          "summary": "A mostly empty theater auditorium with red seats faces a stage where a small group of people appear to be rehearsing or setting up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A rehearsal scene in a theater with performers preparing on stage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An empty theater with red seats and people on stage under spotlights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from the audience seating area of a theater looking towards a stage where several people are gathered during what appears to be a rehearsal or setup."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows performers dancing on stage in a theater setting with red seats in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A stage-view photo shows three blurred performers jumping with raised arms in a theater with red audience seats and overhead lighting rigs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three performers in a theater rehearse under stage lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three performers leap dynamically on a theater stage under bright spotlights, with rows of red seats visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three performers in colorful costumes are captured mid-jump on a wooden stage inside an empty theater with red seating."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large group of performers poses together on stage after a concert, celebrating their event."
+        },
+        "gpt-5.4": {
+          "summary": "A large group poses on a theater stage in front of a colorful event screen for an angklung-themed performance concept, with instruments and flowers visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people posing together in front of a stage backdrop advertising '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large group of people poses joyfully on a stage in front of a concert banner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of people poses for a celebratory photo on a wooden stage in front of a digital screen advertising the 'Pre-Journey Concert'."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of colorful flower bouquets and a teddy bear, suggesting a celebratory or affectionate occasion."
+        },
+        "gpt-5.4": {
+          "summary": "Several gift bouquets with pastel flowers are arranged together with a brown teddy bear, decorative ribbons, a photo strip, and small keepsakes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bouquet of flowers accompanied by a teddy bear and photo strips."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of floral bouquets, plush toys, and photo strips arranged together."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of gift bouquets featuring pink and blue flowers, a brown teddy bear, and K-pop photo cards arranged on a surface."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cluttered desk with various colorful stickers, an [ORGANIZATION], and personal items."
+        },
+        "gpt-5.4": {
+          "summary": "A desk shelf is filled with K-pop-style photocards, stickers, stationery, plush decor, vinyl records, and [ORGANIZATION] device boxes arranged in a cozy collector setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A desk cluttered with various stickers, pins, and a collection of items including an [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cluttered desk covered in colorful stickers, fan merchandise, and tech products like an [ORGANIZATION] box and [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cluttered desk surface is covered with a large assortment of K-pop photocards, stickers, and merchandise alongside [ORGANIZATION] product boxes."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful assortment of stickers, notes, and decorative items spread out on a flat surface."
+        },
+        "gpt-5.4": {
+          "summary": "A large spread of colorful stationery and fan merch is laid out on the floor, including stickers, photo cards, badges, keychains, and decorative notes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of colorful stickers featuring various designs such as animals, food items, and motivational phrases."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful collection of stickers, pins, and fan merchandise scattered on a tiled floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, colorful assortment of K-pop merchandise and stationery items, including stickers, buttons, and photo cards, is spread out on a tiled floor."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a photocard featuring"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a photo card featuring a person with light-colored hair, surrounded by bubble wrap."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie-style photocard showing a person with light-colored hair making a peace sign is placed on top of bubble wrap packaging."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person making a peace sign in front of bubble wrap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up photo of a person with silver hair making a peace sign, encased in bubble wrap."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a K-pop photocard featuring a young man with silver hair making a peace sign, resting on bubble wrap."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several individuals, with one person obscured, and includes a pair of waving hands emoji."
+        },
+        "gpt-5.4": {
+          "summary": "A printed portrait photo of a person in a black hoodie is placed on shiny bubble wrap beside other cropped photos, with two hand emoji stickers covering the lower part."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of three photos featuring a person in casual attire against metallic backgrounds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of photos featuring young men, overlaid with repeated Chinese text and yellow hand emojis."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a young man in a black hoodie is displayed on bubble wrap alongside other photos, with two yellow hand emojis overlaid at the bottom."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a city intersection with a pedestrian waiting at a traffic light, surrounded by modern buildings and vehicles."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] intersection with office buildings, cars, a few pedestrians, bike lanes, and a cloudy sky after rain."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A city street scene featuring a wet intersection under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people stand at a wet city street corner under an overcast sky, with modern buildings and parked cars in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street-level view of a wet city intersection featuring pedestrians, vehicles, and tall buildings under an overcast sky."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a large event space set up for a gathering, featuring tables and a stage with an Australian flag backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "An ornate event hall is set with round banquet tables facing a stage and large screen showing the Australian flag, flanked by [LOCATION] and [LOCATION] banners."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A formal event setup in a grand hall featuring round tables under blue lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An ornate hall set up for an event, featuring round tables, a stage with a large Australian flag projection, and banners for 'IndOz Conference 2023'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grand, ornate hall is set up for a formal event with round tables and chairs facing a stage featuring a large screen displaying the Australian flag."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person wearing a scarf and a jacket, with a clear blue sky in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up outdoor selfie of a person wearing round glasses, a plaid scarf, and a puffy jacket in bright sunlight against a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses and a scarf outdoors under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person wearing glasses and a patterned scarf outdoors under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing black-rimmed glasses and a plaid scarf against a clear blue sky."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A quiet street scene featuring shops and vehicles under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet urban main street lined with shopfronts and a few cars sits under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quiet urban street lined with shops under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A quiet urban street lined with shops and parked cars under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A quiet, sunlit main street in a town lined with shops and parked cars under a clear blue sky."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a grassy area in front of a historic building, wearing casual clothing and holding a cap."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses on a grassy lawn in front of a large historic church with a clock tower, with a red double-decker tour bus passing behind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a grassy area near historic architecture under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands on a grassy lawn in front of a historic building with a clock tower, holding a cap and wearing a black jacket over a light blue t-shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young person with dark hair stands on a grassy lawn in front of a historic stone building and a red double-decker tour bus."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long dark hair and glasses is sitting on green grass"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting on grass, wearing a striped jacket and a white skirt, with their hands clasped together."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person with glasses sits on green grass outdoors, looking up at the camera in a casual portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting cross-legged in a grassy area wearing glasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses is crouching on grass and smiling at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle portrait of a smiling young woman with dark hair and glasses crouching on a green lawn while wearing a striped jacket, white dress, and sneakers."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features various colorful stickers and photo cards laid out on a surface."
+        },
+        "gpt-5.4": {
+          "summary": "A tabletop display shows colorful slogan stickers alongside several stacks of blue-toned portrait photo cards."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of stickers featuring 'Midnight Mirage' and other phrases like 'Another Life', along with photo cards."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of fan merchandise including photo cards and stickers with phrases like 'Midnight Mirage' and 'Another Life' arranged on a white surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat lay of K-pop merchandise featuring stacks of photo cards and colorful acrylic stickers on a white surface."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collection of K-pop idol photocards featuring various male individuals, along with some circular pins, laid out on a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of printed photo cards with various portraits arranged on a surface."
+        },
+        "gpt-5.4": {
+          "summary": "Several small stacks of idol-style photo cards and a few round portrait buttons are arranged on a white surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of photo cards featuring young men in casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Multiple stacks of printed photos featuring young men are arranged on a surface, alongside circular badges and decorative stickers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat-lay arrangement of multiple stacks of printed photo cards and circular badges featuring a young male celebrity against a starry background."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a young person with styled hair, wearing a light-colored shirt, alongside decorative text elements."
+        },
+        "gpt-5.4": {
+          "summary": "A screen shows a design/editing interface with fan-style photo cards featuring a portrait and text for [PERSON] and [PERSON] on a light blue polka-dot background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] collage featuring a person in casual attire alongside Korean text."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A digital collage of fan-made cards featuring a young man, with one card displaying Korean text and another showing 'I ❤️ ANTON'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A computer screen displays a digital design project featuring a photo of a young man and a card with Korean text, likely for K-pop fan merchandise."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a light blue shirt with a text overlay expressing affection for '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel scrapbook-style fan edit shows a portrait of a young man alongside a vertical name card reading [PERSON] in Korean and a small sticker saying \"I ♥ ANTON.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digital scrapbook page featuring a photo of an individual holding 'I ❤️ [PERSON]' sign."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A digital scrapbook page featuring a photo of a young man and Korean text with the name '이찬영' ([PERSON]), alongside a sticker saying 'I ❤️ ANTON'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital collage featuring a photo of a young man with brown hair and a light blue shirt, alongside a card displaying his name in Korean and English."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a white zip-up hoodie with a playful graphic of cartoon characters on the back, set against a light blue background."
+        },
+        "gpt-5.4": {
+          "summary": "A product-style image shows a white zip-up hooded top on a pastel blue background, featuring a small chest logo and a cute cartoon character graphic on the back."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A white zip-up hoodie featuring a cute cartoon character design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white zip-up hoodie with a faint cartoon character print is displayed flat against a light blue background with stars, accompanied by a mug and a small photo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat-lay product display featuring a white zip-up hoodie with a cartoon character print, accompanied by a matching mug and a small photo of a person."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands beside a black horse in a scenic outdoor setting, partially obscured by the horse's head."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized close-up portrait shows a person beside a black horse outdoors, holding the reins against a moody sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a white shirt holding reins of black horse against scenic backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white shirt and black vest stands beside a black horse wearing a bridle, holding its reins against a backdrop of trees and sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with short dark hair stands in profile next to a black horse, holding its reins while wearing a white shirt and black vest."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a suit leans against an ornate chair in a lavish, classically decorated room, captured in black and white"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a black outfit leans against a chair in an elegantly decorated room with large windows and ornate furnishings."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a person in dark formal clothing leaning on an ornate chair inside an elegant room with chandeliers, tall windows, and vintage furniture."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in formal attire walks through an ornate room filled with antique furniture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a dark suit leans against an ornate chair in a grand, black-and-white photographed room with classical furnishings and large windows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of a person in dark clothing leaning against an ornate chair inside a luxurious, classically furnished room with large windows."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting on a windowsill in a stylish pose, dressed in black attire, with a large window in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white portrait shows a person in dark fashion clothing sitting on an indoor windowsill in a softly lit, moody room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a stylish outfit sits by an open window, gazing outside."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short hair sits casually on a windowsill in a black-and-white portrait, looking out at trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of a person with light-colored hair sitting on a window sill in formal attire, looking out the window."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a stylish outfit poses on a staircase surrounded by [ORGANIZATION] in a black and white setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white fashion portrait shows a person in a loose white shirt, dark vest, and tall lace-up boots posing on an outdoor stone stair rail beside a building and garden."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a stylish outfit sits contemplatively outdoors near an old building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in stylish attire sits relaxed on a stone bench outdoors in a black-and-white portrait."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white photograph of a person in dramatic, layered fashion posing on an outdoor stone balustrade with eyes closed and head tilted back."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with red hair, dressed in a black suit and boots, sits elegantly on a luxurious white and gold sofa in an opulent room."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in formal attire sits elegantly on a vintage sofa in a luxurious interior setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black suit and lace-up boots poses on an ornate cream sofa in a luxurious classical room with a fireplace, gilded mirror, and framed portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black suit sits elegantly on an ornate sofa against a classical backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair sits elegantly on a ornate white sofa in a luxurious, classically decorated room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with red hair dressed in a black suit and boots sits on an ornate white chaise lounge in a classic, elegant room."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in formal attire stands next to a black horse on a grassy lawn in front of a large, classical white building, captured in black and white."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in formal attire stands next to a large black horse in front of a grand building."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white editorial-style photo shows a person in dark formalwear standing beside a black horse on the lawn in front of a large neoclassical mansion."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in formal attire stands beside a horse against an elegant mansion backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a dark suit stands beside a black horse on grass in front of a large classical mansion, captured in black and white."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white portrait of a person in dark formal attire standing beside a horse on a lawn with a large neoclassical mansion in the background."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a white zip-up hoodie with a playful graphic design of cartoon characters on the back."
+        },
+        "gpt-5.4": {
+          "summary": "A white short-sleeve zip-up hoodie is displayed front and back on a pastel blue background, featuring small embroidery on the chest and a cute character graphic on the back."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A white zip-up hoodie featuring a cute cartoon character design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white zip-up hoodie with a faint cartoon character print is displayed flat against a light blue background with stars, accompanied by a mug and a small photo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat-lay product shot displays a white zip-up hoodie featuring a cartoon character print, accompanied by a matching mug and a small photo of a person."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital illustration displays ten different nail art designs, featuring various patterns like polka dots, musical notes, a dog's face, and wings, arranged in two rows labeled 'R' and 'L' on a white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a design layout for decorated nails with various patterns and colors."
+        },
+        "gpt-5.4": {
+          "summary": "A hand-drawn nail design chart shows left and right fingernail patterns in pastel yellow, blue, brown, polka dots, music notes, and a small dog face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Cartoon-style nail designs featuring various patterns like polka dots, musical notes, a dog face, and abstract shapes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand-drawn design layout for a pair of fingernails with colorful patterns including polka dots, musical notes, and cartoon characters."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand-drawn nail art design sketch showing two rows of illustrated fingernails with pastel colors, polka dots, musical notes, and a cartoon character."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a clear display stand showcasing several artificial nails with intricate, dessert-themed designs in various colors."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases a hand holding a display of creatively designed nail art samples with various colors and patterns."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a nail display stick with several decorated artificial nails in pastel and chocolate-themed designs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a hand holding colorful nail samples featuring various designs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a set of decorative, dessert-themed nail art samples on a clear display bar."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a clear display stand featuring five pairs of press-on nails decorated with pastel colors, chocolate swirls, and polka dots."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of photo cards with various individuals, each displaying a unique style and background."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional collage shows six selfie-style portrait photo cards of a performer arranged over pink backing cards labeled for an \"EAME The 2nd Single\" release."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of six promotional images featuring young individuals in various poses against a pink-themed backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Six promotional cards for 'FAME The 2nd Single' featuring different individuals in varied poses and outfits."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A horizontal display of six promotional photocards featuring individual members of a K-pop group against pink backing cards labeled 'FAME The 2nd Single'."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with brown hair wearing"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while wearing a black polo shirt with the word '[PERSON]' visible on it."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel indoor selfie collage shows a person in a black collared shirt posing against a plain wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black polo shirt taking two selfies against a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black polo shirt with a white embroidered logo poses for two selfies against a plain wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen selfie of a young man with brown hair wearing a black polo shirt against a plain white wall."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The post expresses a desire to spend money on a blue item, accompanied by heartbroken emojis."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an X.com post by [ACCOUNT] saying they would spend money if a certain item was blue, with multiple broken-heart emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet expressing disappointment over a product's color."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post expressing disappointment about a product, accompanied by broken heart emojis."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an X.com post by user [ACCOUNT] expressing disappointment that a product, referred to as 'cb', is not blue."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a building facade with the name '[PERSON] prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "Exterior view of a beige building facade with a large \"[PERSON]\" sign and an angklung-shaped decoration."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A building facade displaying '[PERSON] in large white letters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A building facade with large white cursive text reading '[PERSON] and a smaller plaque below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle shot of a yellow building facade featuring large white cursive signage reading '[PERSON] and a smaller official plaque below."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman in a yellow shirt assists a group of individuals in a casual setting, likely at a market or event."
+        },
+        "gpt-5.4": {
+          "summary": "Several people wearing matching blue headbands browse items at an indoor merchandise or registration table while a woman in a yellow shirt assists them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are examining items displayed in a market stall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a yellow shirt assists several young men in green shirts and blue headbands at a merchandise stall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young people wearing matching green shirts and blue headbands browse merchandise at an indoor stall while a vendor in yellow assists them."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white zip-up hoodie featuring a graphic of multiple cartoon characters on the back is displayed alongside a small cup with similar character designs, presented in a product catalog style."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a white zip-up hoodie with a playful graphic of cartoon characters on the back."
+        },
+        "gpt-5.4": {
+          "summary": "A product-style layout shows white hooded sweatshirts on a pastel blue background, including a zip-up hoodie and a pullover hoodie with cute cartoon characters printed on the back."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A white zip-up hoodie featuring a cute cartoon character design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white zip-up hoodie with a faint cartoon character print is displayed flat against a light blue background with stars, accompanied by a mug and a small photo of a person."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat-lay product display featuring a white zip-up hoodie with a cartoon character print, accompanied by a matching mug and a small photo of a person."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylish bag adorned with various cute pins and plush toys in its pockets."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] tote-style ita bag covered with pins, photo cards, keychains, and plush items is shown in a product-style graphic with labeled dimensions and two front PVC pockets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A denim tote bag filled with plush toys and badges."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A decorated denim tote bag with dimensions and accessory details shown via overlaid text and graphics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark blue tote bag is displayed with dimensions and features, heavily decorated with K-pop merchandise including buttons, a photo card, and clear pockets filled with plush toys."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a dark blue tote bag with a blank sheet of paper placed on top and some colorful buttons attached to the side."
+        },
+        "gpt-5.4": {
+          "summary": "A dark tote bag on a tiled floor is partially covered by a blank white sheet of paper, with a few colorful pins or patches visible on the side pocket."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] blue tote bag placed against a tiled floor with an empty white sheet of paper resting over it."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white sheet of paper covers a [ORGANIZATION] blue tote bag resting on tiled flooring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] blue tote bag with colorful pins and a large white paper covering most of its front, resting on a tiled floor."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black high-waisted skirt with a lace-up detail and a high-low hem is laid flat on a white textured surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a black skirt laid flat on a light-colored surface."
+        },
+        "gpt-5.4": {
+          "summary": "A black high-waisted lace-up skirt is laid flat on a white fabric background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black skirt displayed against a plain white background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black lace-up skirt with an asymmetrical hem is laid flat on a white fabric background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black, high-waisted skirt with a lace-up front and A-line silhouette is displayed flat on a white wrinkled surface."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a decorated bag adorned with various pins, a plush toy, and a photo frame."
+        },
+        "gpt-5.4": {
+          "summary": "A decorated dark tote bag is covered with cute pins, plush charms, [ORGANIZATION], and handwritten text introducing a bag setup for day 2."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A decorated tote bag filled with plush toys, stickers, pins, a photo frame of an idol group member, and other accessories."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A decorated denim tote bag filled with plush toys, photo cards, and fan-made badges against a pastel background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark blue tote bag heavily decorated with K-pop merchandise, including plush toys, buttons, and a photo card holder featuring members of the group RIIZE."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cluttered workspace with various craft supplies, clothing items, and stickers scattered across a bed."
+        },
+        "gpt-5.4": {
+          "summary": "A bed is covered with craft supplies, ribbons, stickers, keychains, and small accessories being assembled or decorated."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cluttered table filled with crafting materials including ribbons, fabric pieces, scissors, stickers, and other supplies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cluttered bedspread displays crafting supplies, clothing items, and fan merchandise with visible text like 'Midnight Mirage' and 'Of My Love'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white surface is covered with various crafting supplies, including ribbons, stickers, scissors, and merchandise items like a light stick and plush toys."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person wearing a white ruffled blouse and a light blue polka-dotted scarf."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a person wearing a white ruffled blouse with a polka-dot scarf or tie, shown in a casual crowded setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person wearing a white dress with ruffles holding shopping bags."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of a person wearing a white ruffled dress with a polka-dot mask and accessories."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a person wearing a white dress with ruffled details and a polka-dot sash, accessorized with a pearl necklace and face mask."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bag adorned with various plush toys, buttons, and stickers, showcasing a playful and colorful aesthetic."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] bag is densely decorated with plush keychains, pins, photo cards, and soft toys in a kawaii/fandom style at an outdoor event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person displays a backpack filled with plush toys and badges."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person displays a heavily decorated navy bag filled with plush toys, badges, and photos."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a [ORGANIZATION] blue backpack heavily decorated with plush toys, character pins, and clear pockets filled with K-pop merchandise."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a concert scene with a large stage backdrop displaying the text '2023 RIZE CONCERT TOUR RIZING LOUD'."
+        },
+        "gpt-5.4": {
+          "summary": "A packed indoor concert crowd faces a brightly lit stage with a large screen displaying RIIZE tour branding."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Crowd watching a concert during RIIZE's 'Rizing Light' tour."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Crowd at a concert venue with large screens displaying '2026 RIIZE CONCERT TOUR RIZING LOUD'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crowd of concert attendees films a large stage screen displaying the 'RIIZING Loud' tour logo under bright venue lights."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a user interface of a messaging app showing a disconnected status."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a messaging app inbox screen with a red 'Disconnected' status, a search bar, and tabs for All, Unread, [ORGANIZATION], and Requests."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Disconnected status displayed in a messaging app interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app interface showing a disconnected status with navigation tabs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface screenshot displaying a 'Disconnected' status message, a search bar, and navigation tabs for All, Unread, [ORGANIZATION], and Requests."
+        }
+      }
     }
   }
 }

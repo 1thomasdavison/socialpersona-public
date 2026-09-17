@@ -1,67 +1,2163 @@
 {
   "user_id": "participant_070",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "film and television",
-        "music",
-        "outdoor activities",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; music; outdoor activities; visual art."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An animated character resembling [PERSON] from Spongebob Squarepants stands with arms crossed and a slightly annoyed expression, wearing a white suit and a clear helmet with a pink flower."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character, [PERSON], wearing a space suit and looking serious."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon still shows [PERSON] from [ORGANIZATION] SquarePants standing underwater in a white spacesuit with arms crossed and a serious expression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon chipmunk wearing a space suit holds two basketballs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon squirrel in an astronaut suit with a flower on its helmet stands on sandy ground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon squirrel character in a white astronaut suit and helmet stands with arms crossed underwater."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "film and television",
-        "nature visits",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; nature visits; photography; reading."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of vintage movie posters displayed along the ceiling of a room, with a playful 'FAN' graphic in the corner."
+        },
+        "gpt-5.4": {
+          "summary": "A basement or home theater-style room is decorated with a long row of vintage movie posters and retro concession-themed wall art."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A room decorated with vintage movie posters along a ceiling beam."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A room decorated with vintage movie posters lining the ceiling and cartoon popcorn, hot dog, and soda cup decals on the wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A room decorated with a long row of vintage movie posters along the ceiling and cartoon food characters on the wall."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "film and television",
-        "photography",
-        "reading",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; photography; reading; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a decorated wall with various themed items including a lollipop, popcorn, and movie-related decor."
+        },
+        "gpt-5.4": {
+          "summary": "A decorated room wall features Western and movie-themed decor, including framed posters, star accents, and popcorn/candy props."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wall decorated with vintage movie memorabilia including a lollipop graphic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wall decorated with Western and movie-themed decor, including posters, a star, a lollipop, and popcorn."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wall decorated with Western and cinema memorabilia, including movie posters, a clapperboard, popcorn buckets, and digital stickers of a lollipop and popcorn."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "film and television",
-        "nature visits",
-        "reading",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; nature visits; reading; spectator sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cozy interior with a lamp, a television, and wall art that includes a quote from 'It's a Wonderful Life.'"
+        },
+        "gpt-5.4": {
+          "summary": "A warmly lit indoor wall display shows a large red sign reading \"IT'S A WONDERFUL LIFE\" above a TV, with a floor lamp and a small \"[PERSON] the [PERSON]\" artwork nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sign reading 'IT'S A WONDERFUL LIFE' hangs above a TV in an indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red wooden sign reading 'IT'S A WONDERFUL LIFE' hangs above a TV, next to a framed drawing titled '[PERSON] The Moon'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A living room interior featuring a red wooden sign reading 'IT'S A WONDERFUL LIFE' mounted above a television, accompanied by a smaller framed illustration of [PERSON] lassoing the moon."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "film and television",
-        "nature visits",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; nature visits; photography; reading."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a wall adorned with various movie posters from classic films."
+        },
+        "gpt-5.4": {
+          "summary": "A room wall is decorated with multiple classic movie posters, including framed posters for [ORGANIZATION] and The [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wall display of classic movie posters including 'Friday the 13th', '[ORGANIZATION], and others."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wall displays a collection of vintage movie posters, including 'Friday the 13th', '[ORGANIZATION], '[ORGANIZATION], '[ORGANIZATION], and 'The Goonies'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wall in a room is decorated with a collection of vintage movie posters, including titles like '[ORGANIZATION] and 'The Goonies'."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "film and television",
-        "photography",
-        "reading",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; photography; reading; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Twitter profile with a colorful balloon overlay, showcasing a user named '[ACCOUNT]' who shares a mysterious and horror-themed caption."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an X/Twitter profile with colorful balloon overlays, showing a horror-themed bio and a dark statue [PERSON] in a pinned post."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Twitter profile page featuring colorful balloons against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media profile page with a spooky theme, featuring colorful balloons overlaid on a dark statue image and horror-themed text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media profile for user '[ACCOUNT]' featuring a dark aesthetic with floating balloons and a pinned post about horror."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An animated character resembling [PERSON] from [LOCATION] is depicted smiling broadly with closed eyes, wearing a sailor hat"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character, [PERSON], smiling and posing in a spotlight."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon [ORGANIZATION] character in a restaurant hat and uniform smiles awkwardly while posing under spotlights indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon frog character wearing a sailor hat appears distressed behind chain-link fencing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[PERSON] is shown in a cartoon scene, wearing a hat and smiling under spotlights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "[PERSON] from [ORGANIZATION] SquarePants is shown with a wide, forced smile and closed eyes while standing under spotlights in what appears to be a performance setting."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds up a New Balance sneaker featuring a multi-"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand is holding a New Balance sneaker, showcasing its design and colors."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a New Balance sneaker in gray, beige, and [ORGANIZATION] indoors on a carpeted floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a New Balance sneaker showcasing its design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds up a New Balance sneaker with gray, beige, and white panels against a carpeted floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a New Balance sneaker featuring a grey, beige, and [ORGANIZATION] [PERSON] against an indoor carpeted background."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds up a pair of New Balance sneakers featuring grey, white, and tan colors with a prominent 'N' logo on the side."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a pair of New Balance sneakers against a home interior backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a pair of gray, tan, and white New Balance sneakers indoors in a casual home setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a New Balance sneaker in front of an indoor background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds up a pair of grey and beige New Balance sneakers indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds up a pair of grey, beige, and navy New Balance sneakers in an indoor room setting."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand is holding a pair of gray and white New Balance sneakers against a carpeted floor."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding up a pair of gray, white, and tan New Balance sneakers indoors on a carpeted floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand adjusts a pair of New Balance sneakers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a pair of grey New Balance sneakers with [ORGANIZATION], showing the brand logo and model number '480'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a pair of grey and navy New Balance sneakers with white laces against a carpeted background."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cartoon-style illustration depicts a bouquet of pink lilies with green leaves, wrapped in white and pink"
+        },
+        "gpt-4o-mini": {
+          "summary": "A digital illustration of a bouquet of pink flowers wrapped in white paper with a pink ribbon."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized illustration shows a bouquet of pink lilies wrapped in white paper with a ribbon against a sparkly pink background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cute bouquet of pink flowers wrapped in a ribbon against a pastel background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized illustration of a bouquet of pink lilies wrapped in white paper and tied with a pink ribbon, set against a sparkling pink background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style illustration of a bouquet of pink lilies wrapped in white paper with a pink ribbon, set against a sparkly pink background."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with colorful hair is taking a selfie in a casual outfit, standing in a room with visible furniture."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie indoors showing a person with pink-and-green hair wearing a brown zip hoodie and dark pants in a casual home setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bedroom wearing colorful hair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with colorful hair takes a mirror selfie wearing a brown zip-up jacket and dark pants in a home setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with pink and green hair takes a mirror selfie wearing a brown zip-up hoodie and dark pants in a bedroom setting."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person lying in a hospital bed with a towel on their head and wearing a hospital gown."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person lying in a hospital or medical chair wearing a blue cap and a towel on their forehead, with an IV visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person lying in a hospital bed wearing medical headgear."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person lies in a hospital bed wearing a surgical cap and a towel on their head, smiling at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a blue surgical cap and white towel lies in a hospital bed, smiling at the camera."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with colorful, wavy hair, partially obscured by a blur effect."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie in a car showing a person with multicolored hair and bandages on the nose and upper lip area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a car wearing colorful hair and bandages over their nose."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with colorful hair sits inside a car, their mouth taped shut and nose bandaged."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with multi-colored hair sitting in a car, showing visible post-operative bandaging on their nose and mouth."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An overcast outdoor scene"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts an industrial setting with a road leading to buildings, accompanied by text indicating the date as [PERSON]'s Day."
+        },
+        "gpt-5.4": {
+          "summary": "A grainy, overcast view of an industrial site with utility poles and a dirt road is shown with on-screen text reading \"Saturday, [DATE] Valentine's Day.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A desolate industrial area under a cloudy sky marked as Valentine's Day."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A desolate industrial landscape under overcast skies, with a date overlay indicating Valentine's Day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A desolate industrial landscape at dusk featuring a building labeled '[ORGANIZATION] with an overlay text indicating the date and holiday."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A green, frog-like character wearing a chef's hat and colorful apron is holding a drink with a straw."
+        },
+        "gpt-5.4": {
+          "summary": "A small felt/plush character wearing a chef hat and rainbow-striped apron drinks from a white cup with a red straw in a cozy indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush toy chef holding a drink cup in front of mushroom decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green felt puppet wearing a chef's hat and apron sips from a cup with a red straw."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A green felt puppet wearing a chef's hat and colorful apron sips from a cup with a red straw in a miniature kitchen setting."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a Spongebob Squarepants-shaped popsicle with a yellow face, white eyes, and a red bottom, against a blurred background of a person and a colorful blanket in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a colorful [ORGANIZATION]-themed ice pop against a cozy background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a [ORGANIZATION]-themed popsicle or frozen treat on a stick in a casual indoor living-room setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a popsicle shaped like [ORGANIZATION] SquarePants."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a popsicle shaped like [ORGANIZATION] SquarePants, featuring yellow and red layers with drawn facial features."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a homemade popsicle decorated to resemble the cartoon character [PERSON] SquarePants against a cozy indoor background."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A plush toy featuring two smiling green peas in a pod, held in a person's hand."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a cute green reversible pea pod plush toy with smiling cartoon faces in a cozy indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a plush avocado toy in front of their bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a plush toy shaped like two smiling peas inside a pod, resting on a colorful quilt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a green plush toy featuring two smiling peas inside an open pod, set against a colorful quilted background."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a green, plush pea pod toy featuring the embroidered text \"We're two peas in"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plush toy shaped like two peas in a pod, with a playful message embroidered on it."
+        },
+        "gpt-5.4": {
+          "summary": "A green pea-pod plush toy with two smiling peas is being held indoors on a colorful quilted bedspread."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a green plush toy saying 'We're two peas in a pod' against colorful bedding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a green plush pea pod toy with embroidered text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a green, plush pea pod toy with embroidered text and faces against a colorful quilt background."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a cozy setting, holding a plush toy while surrounded by purple lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person with eyes closed resting beside a small smiling plush toy under purple-pink lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person lying down in a cozy room under purple lighting holding an emoji pillow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person rests peacefully with their eyes closed, holding a smiling plush toy under purple ambient lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with closed eyes resting their head on a plush toy inside the pocket of a hoodie, illuminated by strong purple ambient lighting."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a [ORGANIZATION]-themed popsicle in a dimly lit room with a TV in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a [PERSON] popsicle in a dim living room with pink-purple LED lighting and a TV on in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a popsicle decorated like [ORGANIZATION] SquarePants in front of a TV showing two people."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION]-shaped popsicle in front of a TV playing a show, under colorful ambient lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a homemade [ORGANIZATION] SquarePants popsicle in a dimly lit room with purple and red ambient lighting while a movie plays on a TV in the background."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of movies scheduled for [DATE], along with their ratings and release years."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed movie diary screenshot shows several films logged on [DATE] with star ratings and heart icons, including No Hard Feelings, Heart Eyes, [PERSON], and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Movie ratings from February 2026 showing various horror films."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed movie rating list for February 2026, showing five Valentine's Day-themed films with star ratings and heart icons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a movie tracking application interface displaying a list of five films watched on [DATE], with star ratings and cover art."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a white shirt looks pensive with his finger on"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated with a finger to their lips, suggesting a playful or secretive mood."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up reaction-style image shows a man in a white shirt touching his lip in a warmly lit indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man in a white shirt resting his chin thoughtfully."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a white shirt looks thoughtfully to the side with his finger on his lip, set against a dimly lit background with warm lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a white shirt looks sideways with a contemplative expression while touching his chin."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man and a woman are enthusiastically singing or shouting at a bar counter, surrounded by other smiling patrons in a lively, social setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people socializing at a bar, with two individuals prominently engaged in conversation."
+        },
+        "gpt-5.4": {
+          "summary": "A man and woman sit at a bar table appearing to sing or react animatedly, with other patrons smiling in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people enjoying a lively moment in what appears to be a bar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and woman are seated at a bar, singing or shouting with expressive faces while others laugh in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman are singing enthusiastically at a bar counter while other patrons look on in the background."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a LEGO building set box featuring a character named [PERSON] from 'How to Train Your Dragon'."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a LEGO Icons Toothless \"How to Train Your Dragon\" building set box on a bed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A LEGO Icons Toothless set box featuring a black dragon figure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a LEGO Icons box featuring Toothless from How to Train Your Dragon, designed for ages 18+."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person holds a LEGO Icons box featuring the character [PERSON] from 'How to Train Your Dragon' set against a colorful quilted background."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark, unsettling cartoon"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character with a shadowy appearance, suggesting a moody or eerie atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A very dark, eerie cartoon frame shows [PERSON] peeking from behind a wall with glowing eyes in a dim hallway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character stands in a dimly lit room near an open door."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon squid character with glowing red eyes stands in a dark, shadowy setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark, shadowy figure with glowing red eyes and a light-colored hat stands in a dimly lit room."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays two product shots of cobalt blue apparel: sweatpants worn by a person and a hoodie worn by a smiling man, accompanied by text descriptions detailing the items, color, size, and quantity."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two clothing items: cobalt blue sweatpants and a hoodie, displayed with their descriptions and quantities."
+        },
+        "gpt-5.4": {
+          "summary": "A product-style graphic shows a person modeling cobalt blue minimalist sweatpants and a hoodie alongside item names, sizes, and quantities."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A minimalist cobalt blue outfit featuring sweatpants in size S and a hoodie in M."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A product display showing cobalt blue minimalist sweatpants and hoodie in matching sizes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split image displays a male model wearing a cobalt blue minimalist sweatpants and hoodie set, accompanied by product details."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a book titled 'be gay do crime' with colorful illustrations and a black cover."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds the book \"be gay do crime,\" showing a black cover with colorful sticker-style illustrations and the subtitle \"Sixteen Stories of Queer Chaos\" in front of bookshelves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a book titled 'Be Gay do Crime' featuring various stickers related to crime themes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a book titled 'The Gay Do Crime' with a colorful collage cover featuring items like a watch, phone, gun, and marijuana leaf."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a book titled 'The Gay Do Crime' featuring a collage of colorful stickers including a gun, pizza, and a ski mask against a black background."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with green hair is wearing a brown hoodie and has a pink ribbon in their hair, sitting in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person in a brown hoodie with a bandage on their nose and tissue tucked in one ear, seated on a couch near a bright window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a brown hoodie adjusts their hair in front of a window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with green-streaked hair wears a pink hoodie and has a bandage on their nose and tissue in their ear, seated indoors near a window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with green-tipped hair wearing a brown hoodie, featuring a bandage on their nose and a tissue stuffed in one ear."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a cozy, dimly lit room with colorful lighting, a television displaying a scene with subtitles, and various decorative items."
+        },
+        "gpt-5.4": {
+          "summary": "A cozy living room glows with red and purple LED lighting, featuring string lights, a TV, bookshelves, candles, and a flower-shaped cat tree."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy room illuminated by purple lights featuring a cat tree, string lights, books, candles, and a TV playing 'I forgot to bleed lines'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit room bathed in red and purple lighting, featuring a TV displaying a movie scene with text overlay, string lights, a cat tree, and bookshelves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cozy living room bathed in red and purple ambient lighting features a television displaying the title 'I FORGOT TO BLEED LINES' alongside a cat tree and bookshelves."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up overhead shot shows several pieces of fried dough, dusted with powdered sugar, arranged on a white plate with a dollop"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of fried dessert pieces dusted with powdered sugar, served with a sauce and cream."
+        },
+        "gpt-5.4": {
+          "summary": "A plated dessert of fried pastry pieces dusted with powdered sugar is served with red fruit sauce and a dollop of cream on a white plate."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of fried dough sticks dusted with powdered sugar served alongside a dollop of cream and strawberry sauce."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plated dessert of fried bread pieces dusted with powdered sugar, served with red sauce and cream."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up overhead shot of a plated dessert featuring fried bread cubes dusted with powdered sugar, served alongside red fruit sauce and cream on a white plate."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a [ORGANIZATION] displaying the game '[ORGANIZATION] while a TV in the background features a dining scene with people."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] displays the title screen for [ORGANIZATION] 4 Special in a dim room with pink-purple lighting and a blurred TV show playing in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] displaying '[ORGANIZATION] in a cozy room setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] displays the main menu of '[ORGANIZATION] 4 Special' in a dimly lit room with purple ambient lighting, while a TV in the background shows a blurry scene of people dining."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] displays the title screen for '[ORGANIZATION] 4 Special' in a dimly lit room with purple ambient lighting, while a television plays a show in the background."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy cat sits on a windowsill next to decorative glass items, looking towards the viewer with a wintery outdoor scene visible through the window."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat sits on a windowsill, looking out at a snowy landscape with trees in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy black-and-white cat sits on an indoor windowsill beside glass containers and a candle holder, with trees visible outside the window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy cat sits by a window overlooking snowy trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy black-and-white cat sits on a windowsill indoors, looking toward the camera with snow-covered trees visible outside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat sits on a grey textured surface in front of a window, looking towards the camera while snow falls outside."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat sits on a pink cat tree in a cozy room filled with books and decorative items."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy cat sits on a pink cat tree in a cozy, pink-lit room beside a bookshelf filled with fantasy books."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy cat perches atop a pink cat tree in a cozy room filled with books."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy cat sits atop a pink, mushroom-shaped cat tree in a cozy room with bookshelves and soft lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy tabby cat sits atop a pink, cloud-shaped cat tree in a room with pink ambient lighting and a bookshelf filled with fantasy novels."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is lying down, taking a selfie"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person lying down with their arm resting on a pillow, featuring visible tattoos."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person lying on a bed with a nose bandage, arm tattoos, and green-patterned bedding."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person lying down in a relaxed pose against pillows."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person lies on a bed with a green-patterned pillow, wearing a dark tank top and posing with one hand near their face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with reddish hair and visible tattoos lies on a bed, resting their head on a green-patterned pillow while looking at the camera."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with pink-streaked hair, wearing a teal textured hoodie and a seatbelt, smiles playfully with their tongue sticking out while inside a car."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a green hooded jacket is seated in a vehicle, partially obscured by the hood."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person in a green hooded sweatshirt inside a car, smiling and sticking out their tongue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a green hooded jacket smiles playfully in what appears to be an indoor car environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a green hooded jacket sticks out their tongue while smiling inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling person with pink-tinted hair wearing a green textured hoodie inside a car."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy, long-haired cat with white, brown, and black fur is sleeping peacefully on a green blanket next to a dark-cl"
+        },
+        "gpt-4o-mini": {
+          "summary": "A fluffy cat is peacefully sleeping against a person's leg on a couch."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy long-haired cat is curled up and sleeping against a person's leg on a couch or chair in a cozy indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy cat lounging comfortably in someone's lap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy long-haired cat is sleeping curled up on a green textured surface next to a person's leg."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy, long-haired cat with white and dark tabby markings is sleeping on its back next to a person's leg on a green textured surface."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person's hand gently pets a sleeping long-haired tabby and white cat, nestled on a green textured blanket and a plaid blanket."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person gently pets a sleeping cat while sitting on a couch."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy cat is sleeping curled on a person's lap while being gently petted indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A relaxed cat being petted while lying down."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy cat sleeps peacefully while being petted by a person wearing plaid pajamas."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy tabby and white cat sleeps peacefully on a person's lap while being gently petted."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy, long-haired tabby and white cat is seen sleeping peacefully, nestled against a person wearing a plaid shirt."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is cuddling a fluffy cat while relaxing on a couch."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy tabby-and-white cat with closed eyes is being cuddled close in a relaxed indoor close-up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a relaxed tabby cat in their arms."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy tabby cat sleeps peacefully while being held by a person wearing a plaid shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a fluffy tabby and white cat sleeping peacefully while being held by a person wearing a plaid shirt."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with short hair and a dark jacket makes a playful, scrunch-nosed smile in an indoor setting with blurred warm lights in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a black jacket, seated in a dimly lit setting with candles in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a smiling person in a dark jacket during what appears to be an indoor interview or talk-show setting with warm candlelit background lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a black jacket smiling warmly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short hair and a black jacket smiles warmly in a dimly lit, cozy indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a person with short hair wearing a black jacket, making a playful grimace or smile in a dimly lit indoor setting."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a black outfit with a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows a person in dark clothing against a black background, lit like an interview or studio setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black outfit against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short hair wearing a black collared shirt against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A portrait of a person with short, wavy brown hair wearing a dark collared shirt and [ORGANIZATION] against a black background."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy black and white cat is lying on its back with its paws stretched upwards, appearing relaxed on"
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat is comfortably resting with its paws stretched out on a person's lap."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy black-and-white cat is curled upside down on someone's lap indoors with its front paws stretched up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat lounges comfortably in someone's lap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat is lying on its back on someone's lap, exposing its belly and paws."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy black and white cat lies on its back resting on a person's lap, displaying its paws while wearing green sweatpants."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two plastic cups of beer on a wooden table with the text 'Post 225' visible."
+        },
+        "gpt-5.4": {
+          "summary": "Two plastic cups of amber beer sit on a wooden bar table, with one cup nearly empty and a menu in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two plastic cups of beer sit on a wooden table labeled '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two plastic cups with beer sit on a wooden bar, one nearly empty, near a menu and branded bar top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two plastic cups containing amber-colored beverages sit on a wooden bar counter marked with the text 'Post 225'."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up view of a person's upper body and a blurred face, with a cozy indoor setting in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person in a black hoodie resting against a textured cushion, with wall decor visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up selfie of a person wearing a hoodie indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with green hair peeking from behind a gray pillow in a cozy indoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with green-tinted hair wearing a black hoodie, partially obscured by a grey textured object in the foreground."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character, [ORGANIZATION] SquarePants, performing on stage under a spotlight while holding a piece of paper."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon character in a horned costume stands on a stage under a spotlight, holding a paper as if singing or reciting, with curtains and a moonlit window in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] SquarePants stands in a dimly lit room holding papers while wearing a hat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[ORGANIZATION] SquarePants performs on a stage under a spotlight, wearing medieval attire and holding a script."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "[ORGANIZATION] SquarePants is dressed in medieval attire, standing on a stage under a spotlight while holding a paper and singing into a microphone."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "An animated character is crouched down, covering their face with one hand, suggesting a moment of distress or sadness."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon character crouches on the floor in a facepalm pose near a wall or doorway, conveying embarrassment or frustration."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character sits dejectedly against a wall in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon character sits on the floor against a wall, covering their face with one hand and raising the other in a gesture of distress or exhaustion."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon character with black hair, wearing a white shirt and grey pants, is crouching on the floor while covering their face with one hand and pressing the other against a wall."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a text conversation discussing speeding tickets and a request to call back."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a text conversation shows messages asking about 'two speeding yickets' corrected to 'Tickets' and requesting a phone call."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation discussing speeding tickets followed by a request to call."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation showing a question about speeding tickets, a short reply, and a request to call later."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text message conversation featuring a typo correction and a request for a phone call."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person with multi-colored hair (pink and green streaks) making a 'kiss' face with glossy pink lips, wearing a light-colored textured sweater."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up selfie of a person with vibrant green and pink hair, showcasing glossy lips and a neutral expression."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie showing a person with pastel pink-and-green hair, glossy lips, and long eyelashes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up selfie of a person with colorful hair in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up selfie of a person with long, multicolored hair featuring pink and green streaks, wearing shiny lips and a light-colored knit top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long, multi-colored hair featuring green and pink tones, wearing glossy pink lipstick and a beige knit cardigan."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image celebrates the 30th anniversary of [ORGANIZATION] with a character and the text 'Pokémon: Since 1996'."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized Pokémon 30th-style anniversary graphic shows the character [PERSON] sitting inside a large green-and-white number 30 above the text 'Pokémon: Since 1996'."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Celebratory logo marking [ORGANIZATION]'s thirtieth anniversary since its launch in 1996."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green Pokémon character sits inside a large stylized '30' logo with the text 'Pokémon: Since 1996' below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic celebrating the [ORGANIZATION] franchise's 30th anniversary featuring the character Celebi perched on a stylized number '30' and [ORGANIZATION] design."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "An animated character in a suit is lying on the floor, while another character appears to be in distress nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon scene shows a suited man lying on the floor indoors while another character in the foreground holds their head, suggesting a chaotic or comedic moment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character in a suit appears to be falling backward into another person."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon character in a suit is being pushed or thrown backward by another person in a kitchen setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon character in a suit is shown falling backward onto another person's head in an indoor setting."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person sitting with a cigarette, wearing a light-colored top."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows a person in a satin camisole smoking a cigarette indoors with a moody, cinematic feel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a white lace top smoking while looking into a mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with blonde hair smokes a cigarette while wearing a white lace top, viewed through a slightly fogged or dirty surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with wet blonde hair smokes a cigarette while looking into a mirror, wearing a satin camisole and rings."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a takeout bag inside a car, with a drink visible in the cup holder."
+        },
+        "gpt-5.4": {
+          "summary": "A hand in a green jacket is holding a brown fast-food takeout bag with a receipt inside a car, with a large drink in the cup holder."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a paper bag containing food items in their car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a brown paper bag of takeout food inside a car, with a drink cup and sanitizer bottle nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a car holds a [ORGANIZATION] paper bag containing a beef and [LOCATION], with a drink visible in the cup holder."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A character resembling a cat holds brochures for [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A costumed Cat in the [PERSON] character is holding [ORGANIZATION] brochures and making an expressive face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person dressed as The Cat in the [ORGANIZATION] from [ORGANIZATION] Hollywood."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A costumed Cat in the [ORGANIZATION] character holds two [ORGANIZATION] park tickets with a joyful expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A costumed character resembling the Cat in the [ORGANIZATION] holds up two [ORGANIZATION] [LOCATION] tickets with a wide, excited expression."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A film crew is capturing a scene with a woman in a casual outfit in a partially constructed indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A behind-the-scenes film set shows a camera rig and boom mic recording a woman standing in a dim unfinished room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A behind-the-scenes shot of a film set showing an actress in costume being filmed by crew members."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman stands in front of a camera rig during a film shoot inside a wooden structure."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A behind-the-scenes shot of a woman being filmed by a camera crew in an unfinished wooden room."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a dress shirt is writing complex mathematical equations on a chalkboard."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a dress shirt writes on a large chalkboard covered with mathematical and physics-style equations and diagrams."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person writing equations on a chalkboard in an academic environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a light shirt writes complex mathematical equations on a chalkboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a white shirt and tie writes complex mathematical equations on a large chalkboard in a classroom setting."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling woman with blonde hair and headphones is"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with tousled hair is seated in a garden, interacting with a camera setup."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person wearing a headset leans toward a field monitor on an outdoor film set surrounded by garden plants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a plaid shirt smiles while standing outdoors near some greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with headphones laughs while sitting outdoors next to film equipment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with short blonde hair and headphones looks at a professional video monitor in an outdoor garden setting."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a blue hoodie and matching sweatpants."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person smiling indoors while wearing an oversized blue hoodie and matching sweatpants with pink socks."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing blue tracksuit pants and hoodie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a blue hooded sweatshirt and matching pants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with blonde hair takes a mirror selfie wearing a matching blue velour sweatsuit and patterned socks."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two women in medical scrubs are depicted in an intense and emotional scene, with one screaming in distress while the other holds"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts two individuals in scrubs, one appearing to support the other in a hospital-like setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in medical scrubs appear in a tense hospital scene, with one person gripping the other from behind as the front person screams."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in scrubs are engaged in a physical altercation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women in scrubs are shown in a tense, physically strained moment indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two women in blue medical scrubs are shown in a hospital setting, with one woman screaming while being held from behind by the other."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cartoon character with blonde pigtails, large blue eyes, and a light blue dress stands with a slight smile against a stylized green and yellow background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character with blonde pigtails and large expressive eyes, standing in a playful pose."
+        },
+        "gpt-5.4": {
+          "summary": "A low-resolution cartoon image shows Bubbles from The Powerpuff Girls standing outdoors with large watery eyes and a small smile."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Cartoon character with large eyes and pigtails standing outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon character with large eyes and pigtails stands in a simple outdoor scene."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-resolution image of the animated character [PERSON] from The Powerpuff Girls standing against a yellow and green background."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant bouquet of mixed flowers, including red roses and other colorful blooms, is displayed in a clear wrapping."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a wrapped mixed flower bouquet with red and cream roses, lily buds, purple blossoms, and green leaves indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant bouquet of red roses, white carnations, yellow lilies, purple chrysanthemums, and green leaves wrapped in clear plastic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful bouquet of red, cream, and purple flowers wrapped in patterned paper."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a colorful flower bouquet featuring red and cream roses, purple chrysanthemums, and green lily buds wrapped in translucent paper."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A brown monkey is seen from behind, partially"
+        },
+        "gpt-4o-mini": {
+          "summary": "A baboon is seen climbing on a barred door in a zoo-like setting."
+        },
+        "gpt-5.4": {
+          "summary": "A small monkey is climbing on the bars of a worn metal door or cage opening indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A monkey peers through a barred window of an aged door."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small monkey sits on the ledge of a barred, weathered door, facing away from the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small brown monkey is seen from behind, clinging to the bars of a weathered metal grate set into a peeling white door."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a blue, cartoonish creature with large eyes and a playful expression."
+        },
+        "gpt-5.4": {
+          "summary": "A blue cartoon lizard-like creature with large droopy eyes is shown on a plain white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A blue cartoon creature resembling a stylized fish-like [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue cartoon creature with large eyes and a playful pose."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon illustration of a blue, lizard-like creature with large eyes and fangs standing against a white background."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a text message discussing plans to build Legos and cook after watching movies."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of a text message proposing to build Legos and cook after watching movies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A message discussing plans involving [ORGANIZATION] building after a movie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text message bubble shows a casual invitation to build Legos and cook after watching movies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text message bubble containing a casual conversation about building Legos and cooking after watching movies."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a multi-day weather forecast showing daily temperatures, weather conditions with icons, and precipitation chances."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weekly weather forecast with temperatures and precipitation chances."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone weather forecast screenshot shows a 10-day outlook with temperatures in the 20s to 60s and mixed sun, clouds, rain, and snow later in the week."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing temperatures from today through Thursday."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather forecast app showing daily high and low temperatures with icons for sun, clouds, rain, and snow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a weather forecast application displaying a ten-day outlook with daily temperatures, weather icons, and precipitation probabilities."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "[ORGANIZATION], a red furry puppet, sits on stone steps holding a small yellow puppet, in front of a green double door surrounded by potted flowers."
+        },
+        "gpt-4o-mini": {
+          "summary": "A red furry character sits on steps holding a smaller character, surrounded by potted flowers."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] sits on a brownstone-style stoop holding a small orange toy, surrounded by potted flowers in front of green double doors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] sits on a stoop holding another puppet in front of green doors surrounded by potted flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red puppet character sits on outdoor steps holding a smaller puppet, surrounded by potted flowers and a green door."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red furry puppet holding a smaller yellow puppet sits on the stoop steps in front of green double doors surrounded by potted flowers."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with curly hair is seated in a racing outfit, with tires visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black, white, and red racing-style leather outfit sits backstage or in a garage area, with another seated person blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a racing suit sits in an indoor garage area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a racing suit sits in a chair in a garage setting with tires and tools visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with curly blonde hair sits in a racing suit featuring [ORGANIZATION] and [ORGANIZATION] branding within a garage setting containing tires and equipment."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "[ORGANIZATION], a red furry puppet, sits on a stone doorstep holding a small yellow bird puppet, surrounded by potted flowers in front of a dark green double door."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a red furry character sitting on steps with a small yellow character, surrounded by potted flowers."
+        },
+        "gpt-5.4": {
+          "summary": "A red Muppet-like character sits on brownstone steps in front of green double doors, holding a small orange doll and surrounded by potted flowers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] sits on a stoop holding an orange plush toy in front of green double doors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red puppet character sits on outdoor steps holding a smaller puppet, surrounded by potted flowers and a green door."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "[ORGANIZATION] sits on the stoop steps of a brownstone holding a small yellow puppet, surrounded by potted flowers."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals in colorful shirts pointing objects towards the camera at a beach setting."
+        },
+        "gpt-5.4": {
+          "summary": "A group of five people in colorful clothing pose on a beach while pointing handguns toward the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Five individuals in vibrant clothing pose dramatically by a beach."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five young men with colorful hairstyles and outfits stand on a beach, pointing toy guns toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Five men in colorful, flamboyant 1980s-style clothing stand on a beach pointing toy guns at the camera."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person stands in a dimly lit room filled with numerous lit candles and glowing cross decorations, observing a central display."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dimly lit ceremonial space filled with candles and illuminated crosses, suggesting a somber or spiritual atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel image shows a dim, ornate church interior filled with candles, glowing blue-outlined crosses, and a central draped figure on a flower-lined altar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A solemn religious ceremony in a dimly lit church adorned with candles and crosses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person viewed from behind stands in a dimly lit church filled with candles and illuminated crosses, looking toward an altar with a draped figure."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A composite image showing a person from behind looking at an altar with glowing crosses, and a close-up of the same altar filled with candles and religious statues."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant masquerade ball scene featuring a performer in a dramatic costume on a staircase, surrounded by an enthusiastic audience."
+        },
+        "gpt-5.4": {
+          "summary": "A theatrical ballroom scene shows a costumed performer with large white wings descending a grand staircase amid a festive crowd and red draped decor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant scene of a masquerade ball in an ornate hall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A lavish, theatrical scene with a central figure in a white costume performing on stairs amid a crowd and ornate red drapery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant, crowded indoor party scene featuring a central figure in a large white costume on a staircase, surrounded by guests in elaborate outfits and red drapery."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a beautifully lit indoor pool area with decorative lights and statues, creating an elegant atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime courtyard with a glowing swimming pool, ornate statues and staircases, and trees wrapped in string lights outside a large villa."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Elegant courtyard scene illuminated by string lights around a pool."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime scene of an ornate courtyard with a glowing blue pool, string lights, statues, and people near balconies and stairs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A nighttime view of a luxurious mansion courtyard featuring an illuminated swimming pool, classical statues, and palm trees wrapped in warm string lights."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a racing jacket sitting in a chair, with a text message about hitting a car's mirror."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-like screenshot shows a seated woman in a black, white, and red racing-style jacket beside a blue text message saying she hit someone’s car mirror off."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a racing suit sits next to another individual while holding an object."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a racing jacket sits in a chair with a serious expression, while a text bubble below reads 'i just hit someone's mirror clean off their fucking car'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring a photo of a woman in a racing suit with a blue text bubble below reading 'i just hit someone’s mirror clean off their fucking car'."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a profile edit screen with a mystical background and a character icon, along with a bio about mystery and horror."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode social profile edit screen with a glowing jellyfish banner, a cartoon avatar, and a bio mentioning mystery and horror."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile editing screen showing a night-themed background of glowing jellyfish."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A profile editing screen showing a dark fantasy-themed background, a cartoon avatar, and a bio about mystery and horror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media profile editing interface featuring a fantasy-themed banner with jellyfish and butterflies, a cartoon avatar, and a bio containing atmospheric text."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a container with an apple on top, placed in a car's center console."
+        },
+        "gpt-5.4": {
+          "summary": "A hand in a blue sleeve holds a container with an orange lid topped by a red apple inside a car center console, with a drink can in a cup holder."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a container lid with an apple balanced atop it in their car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a container topped with an apple inside a car, next to a drink can in the cup holder."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand in a blue sleeve holds a glass container with an orange lid topped by a red apple inside a car, next to a yellow beverage can."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Twitter profile with a colorful background, displaying a verified account named '[ACCOUNT]' with a whimsical character avatar."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an X/Twitter profile page with a colorful abstract header and a bio focused on mystery and horror."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet promoting a spooky theme featuring monsters in an atmospheric night setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter profile page for user '[ACCOUNT]' with a spooky-themed avatar and a horror-mystery themed bio post."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter profile for user '[ACCOUNT]' ([ACCOUNT]) featuring a wizard avatar and a post about mystery and horror."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Twitter profile with a dark, mysterious theme and a focus on horror and mystery."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows an X/Twitter profile with a blue flame-like banner, a cartoon avatar, and a bio themed around mystery and horror."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Twitter post by [ACCOUNT] featuring a spooky theme."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter profile page for user '[ACCOUNT]' with a dark blue flame background, displaying a horror-themed bio and follower count."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a Twitter profile for user '[ACCOUNT]' featuring a [PERSON] avatar, blue flame header, and a post about mystery and horror."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a text message conversation with playful and humorous exchanges about an [ORGANIZATION] purchase."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an iPhone-style text conversation with a joking message exchange about an 'Etsy witch.'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Text message exchange discussing a purchase from Etsy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text message conversation showing surprise and satisfaction about an [ORGANIZATION] purchase."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text message conversation where one person expresses shock and the other praises an [ORGANIZATION] purchase."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character with red hair wearing a suit, partially obscured from view."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style red-haired character in a black suit is shown in side profile with a glowing yellow eye and a clawed hand extended in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A side-profile of a character in formal attire against an evening backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red-haired anime character in a suit with glowing yellow eyes looks sideways in a dim setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style illustration of a man with red hair and glowing yellow eyes, wearing a dark suit in a dimly lit setting."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up anime style illustration features a muscular character with white spiky hair, yellow eyes, and a serious expression, looking upwards."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a muscular character with white hair and a serious expression, looking directly at the viewer."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized anime close-up shows a muscular white-haired man lying back and looking upward under dramatic lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular character with white hair and a determined expression."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular anime man with white hair and beard looks upward with an intense expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style illustration of a muscular, shirtless man with white hair and a goatee looking upward with an intense expression."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts two individuals in scrubs, one appearing to support the other in a hospital-like setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in medical scrubs are in a tense, dramatic scene indoors, with one shouting while the other holds them from behind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in scrubs are engaged in a physical altercation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women in scrubs are engaged in a physical struggle indoors, with one woman shouting and the other holding her."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two women in blue medical scrubs are shown in a hospital setting, with one woman screaming while the other holds her from behind."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An animated yellow sponge character with a tired or unimpressed expression is depicted sitting in a brown boat on purple water under a grey sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character, [ORGANIZATION] SquarePants, looking contemplative while sitting in a small boat on a purple sea under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon yellow sponge character sits in a small boat on purple water, giving a skeptical side-eye expression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character wearing glasses sits in a small boat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon sponge character sits in a boat with a tired expression against a gloomy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow sponge character with a bored expression sits in a small boat on purple water under a gray sky."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is holding a book titled \"Heated Rivalry\" featuring an illustration of two male hockey players facing off on an ice rink."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person holding a book titled 'Heated Rivalry' with a hockey-themed cover."
+        },
+        "gpt-5.4": {
+          "summary": "A person is holding the book \"Heated Rivalry\" by [PERSON], featuring an illustrated cover of two hockey players facing off on the ice."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a book titled 'Heated Rivalry' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds up a book titled 'Heated Rivalry' featuring illustrated hockey players on the cover."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person holds a paperback copy of the book 'Heated Rivalry' by [PERSON], featuring an illustration of two hockey players on the cover."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a character resembling a clown in pajamas, cuddling a devilish toy in bed."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized cartoon shows a person in pajamas lying in bed and cuddling a red devil-like plush or pet, with a lamp on a bedside table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The Joker lies in bed cuddling a red cat under purple pajamas."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon character with green hair sleeps in bed, holding a small red devil plush toy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon character with green hair and a clown-like face lies in bed wearing pink pajamas, cuddling a small red devil cat."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character with spiky hair wearing a jacket adorned with a distinctive emblem on the back."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white manga-style illustration shows a figure from behind wearing a coat with a large emblem panel on the back, with small Japanese text in the upper corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A monochrome illustration of a character wearing an outfit featuring intricate designs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white manga-style illustration of a character viewed from behind, wearing a jacket with a prominent emblem and Japanese text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white manga illustration of a character viewed from behind, featuring spiky hair and a jacket with a large patch displaying a gear-like symbol and Japanese text."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a relaxed cat while sitting on a couch."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy cat is lying relaxed across a person's lap or chest indoors while being gently held."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy cat lounging comfortably in someone's lap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy cat lies relaxed on a person's lap, being gently petted."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy, long-haired cat with white and tabby markings lies on its back being petted by a person wearing dark clothing."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a fluffy cat in a relaxed position on a couch."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy long-haired cat is being cradled on someone’s lap indoors in a cozy, low-light snapshot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy cat lounging comfortably while being petted."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy cat lies on its back on a person's lap, being gently held."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy white and grey cat lies on its back in a person's lap while being petted."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot displays two LEGO botanical sets, a pink cherry blossom bonsai tree and a green bamboo plant, on a marble-"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two decorative plant models: a pink cherry blossom tree and a green bamboo plant, displayed on a table."
+        },
+        "gpt-5.4": {
+          "summary": "Two decorative brick-built plant models, a pink blossom bonsai and green bamboo, are displayed on a table in a cozy indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A detailed LEGO bonsai tree set displayed alongside a bamboo plant in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two LEGO plant models—a cherry blossom tree and a bamboo plant—are displayed on a marble surface with ambient lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two assembled LEGO botanical models, a cherry blossom tree and bamboo stalks, are displayed on a marble table in a room with ambient purple lighting."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a mannequin head with a pink braided hairstyle being held by a person."
+        },
+        "gpt-5.4": {
+          "summary": "A mannequin head with pink hair is being held up to show a neatly styled oversized braided ponytail, likely in a hairstyling practice setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person braiding a mannequin's hair into an intricate braid."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a mannequin head with long peach-colored hair styled in a thick braid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a mannequin head featuring a long, dusty rose-colored wig styled into a thick, textured braid held by a person's hand."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in formal attire with a bow tie is posing for the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a white tuxedo and sunglasses poses indoors with novelty vampire fangs against a warm formal-event backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a white suit jacket, black bow tie, sunglasses, and an open mouth displaying teeth."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a white tuxedo and black bow tie wears sunglasses and has fangs visible while smiling."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a white tuxedo and sunglasses poses with vampire fangs against a gold background."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A low-resolution image shows a stylized female character with dark hair and large eyes, wearing a blue top, sitting in front of a plain background with part of a wooden chair visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a doll with a blurred face sitting on a chair against a plain background."
+        },
+        "gpt-5.4": {
+          "summary": "A simple low-resolution cartoon-style female avatar with black hair is shown indoors against a plain background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Cartoon-style drawing of a person wearing dark hair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-resolution digital avatar of a person with dark hair sitting in a chair."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-resolution digital avatar with black hair and large eyes sits in a room, displaying a neutral expression."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark horse gallops across a field with a snow-capped mountain in the background, under a sky featuring a subtle rainbow or atmospheric halo."
+        },
+        "gpt-4o-mini": {
+          "summary": "A horse is running across a landscape with a snow-capped mountain in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A dark horse runs across an open field with a snow-capped mountain and a rainbow-like halo in the sky behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A horse gallops across a grassy field under a majestic snow-capped mountain."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark horse gallops across a grassy field with a snow-capped mountain in the background under a bright sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark horse gallops across a grassy field with a snow-capped mountain and atmospheric light effects in the background."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair is seen from an overhead angle, cuddling closely with a fluffy white and tabby cat, both looking towards the camera in a cozy indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying down with a fluffy cat resting on their chest."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up, low-light selfie shows a person cuddling a fluffy cat while lying on a bed or couch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person lying down next to a cat in bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person lies in bed cuddling a fluffy tabby cat, both looking toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person lying in bed cuddling with a fluffy tabby and white cat."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant bouquet of red roses sits in a vase on a wooden"
+        },
+        "gpt-4o-mini": {
+          "summary": "A bouquet of red roses is displayed on a wooden table near a window."
+        },
+        "gpt-5.4": {
+          "summary": "A bouquet of deep red roses in a glass vase sits on a sunlit wooden table by a window with blinds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bouquet of red roses in a vase by an open window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bouquet of deep red roses sits in a vase on a wooden table near a window with blinds, bathed in sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bouquet of deep red roses in a glass vase sits on a wooden table near a window with blinds, illuminated by natural sunlight. A decorative mushroom figurine and other small items are visible nearby."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with purple and blonde hair poses in front of a cluttered kitchen cabinet filled with various food items."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a beanie, sunglasses, and hoodie takes a selfie indoors in front of an open wooden pantry cabinet filled with snack and grocery items."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a beanie and sunglasses in front of an open cabinet filled with snacks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with purple hair wearing a beanie and sunglasses poses in front of an open kitchen cabinet filled with snacks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with purple hair wearing a beanie and sunglasses poses in front of an open kitchen cabinet filled with snacks."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young child with curly blonde hair, wearing a pink shirt and denim overalls, squats on a grassy lawn, looking intently at something in their hands."
+        },
+        "gpt-4o-mini": {
+          "summary": "A young child squats on grass, playing with something in their hands."
+        },
+        "gpt-5.4": {
+          "summary": "A person in rolled-up denim overalls and a pink shirt is crouching on a grassy lawn, looking closely at something in their hands in a warm, slightly faded photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young child crouches in a grassy area holding something small."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young child with curly hair crouches in a grassy field, focused on something in their hands."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young child with curly blonde hair, wearing denim overalls and a pink shirt, crouches in a grassy yard while examining something in their hands."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is lying down,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person resting on a couch with a colorful patterned background."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry close-up shows a person lying on an orange patterned couch or cushion, looking directly at the camera, with part of a red shirt visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up selfie of a person lying down in bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person lying on a patterned couch, holding a red object with a logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-resolution selfie of a person with short hair lying on an orange patterned surface while holding a red object."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a person's head with dark hair and a beanie, set against a dimly lit background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person smiling brightly while wearing a brown beanie in a dark indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a beanie smiles in dim lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a beanie smiles brightly in a dimly lit car interior."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling person with blonde hair wearing a brown beanie and dark jacket inside a dimly lit vehicle."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is seen in a close-up, lying on a patterned surface, holding a red object with a partial logo."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person resting on a couch with a colorful blanket and a toy or clothing item nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor photo shows a person lying against a patterned couch or cushion with a wide-eyed expression, wearing a red top with a partially visible circular logo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up selfie of a person lying down in bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person lying on a patterned couch, holding a red object with a logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-resolution selfie of a person with short hair lying on a patterned surface while holding a red object."
+        }
+      }
     }
   }
 }

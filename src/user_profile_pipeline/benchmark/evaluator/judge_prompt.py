@@ -3,6 +3,8 @@ from __future__ import annotations
 import json
 from typing import Any
 
+from ...multimodal_context import post_timestamp
+
 
 RUBRIC_JUDGE_SYSTEM_PROMPT = """You are an expert evaluator for domain-level user-interest profiling from social-media posts.
 
@@ -56,7 +58,7 @@ def _format_posts(posts: list[dict[str, Any]]) -> str:
     for fallback_idx, post in enumerate(posts):
         idx = post.get("_line_index", fallback_idx)
         post_id = str(post.get("post_id") or "").strip()
-        created_at = str(post.get("created_at") or "").strip()
+        created_at = post_timestamp(post)
         text = str(post.get("text") or "").strip()
         hashtags = post.get("hashtags") or []
         mentions = post.get("mentions") or []

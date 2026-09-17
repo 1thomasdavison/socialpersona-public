@@ -17,6 +17,8 @@ USER_LEVEL_PROFILE_METHODS = {
     EXTRACTIVE_PROFILE_METHOD,
 }
 
+# Identifies the prompt and uncapped extraction/scoring contract for new runs.
+PROFILE_EVAL_PROTOCOL_VERSION = "uncapped_interest_tags_v1"
 RETRY_CONTEXT_VERSION = "preserve_img_text_timestamp_v1"
 PROFILE_INPUT_MODE_TEXT_ONLY = "text_only"
 PROFILE_INPUT_MODE_IMAGE_CAPTIONS_ONLY = "image_captions_only"

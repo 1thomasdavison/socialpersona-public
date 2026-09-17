@@ -1,67 +1,1107 @@
 {
   "user_id": "participant_043",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "board and card games",
-        "film and television",
-        "music",
-        "nature visits",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: board and card games; film and television; music; nature visits; visual art."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A top-down view shows two hands on a grassy surface, one holding a wafer roll labeled 'YOU' and the other holding a lit cigarette labeled 'ME', with red arrows connecting the labels to the items."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two hands holding different items, one resembling a candy stick and the other a cigarette, with labels 'YOU' and 'ME' pointing to each item."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style outdoor photo shows one hand holding a wafer roll labeled \"YOU\" and another holding a cigarette labeled \"ME\" while sitting on grass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two hands hold a cinnamon roll labeled 'YOU' next to another hand holding a cigarette labeled 'ME'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two hands hold contrasting items — a wafer cookie labeled 'YOU' and a lit cigarette labeled 'ME' — outdoors on grass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme showing a hand holding a wafer roll labeled 'YOU' next to another hand holding a lit cigarette labeled 'ME'."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "board and card games",
-        "comedy",
-        "music",
-        "nature visits",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: board and card games; comedy; music; nature visits; photography."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful album cover with the title 'ALBUM' prominently displayed in pixelated text."
+        },
+        "gpt-5.4": {
+          "summary": "A bold blue-and-yellow graphic resembling album art or a music screen shows large pixel-style text reading “ALBUM,” with an explicit label and “By [PERSON]” at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pixelated album cover split in blue and yellow halves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bold album cover with 'ALBUM' in pixelated text split across blue and yellow halves, featuring an 'EXPLICIT' label and artist credit."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen graphic featuring the word 'ALBUM' in pixelated font against blue and yellow backgrounds, with a black footer displaying the artist name [PERSON]."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "film and television",
-        "music",
-        "photography",
-        "reading",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; music; photography; reading; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features four individuals in black dresses with white collars, posing in front of a height chart."
+        },
+        "gpt-5.4": {
+          "summary": "A social media screenshot shows a video of four women in matching black dresses and glasses posing in front of a height-chart-style backdrop, with a post about [ORGANIZATION]’s “Taller than You.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four individuals in black dresses pose against a striped backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four women in matching black dresses and glasses pose against a striped background with the number '167' visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post featuring a video clip of the K-pop group [ORGANIZATION] in matching black dresses and glasses, commemorating their song '[PERSON] than You'."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "film and television",
-        "music",
-        "nature visits",
-        "reading",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; music; nature visits; reading; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows a person with blonde hair peeking over a pile of white feathers, with a dark background, presented as a video thumbnail with title and"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person with light-colored hair, surrounded by soft, ethereal elements."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized close-up video thumbnail shows a person’s eyes peeking through soft white feathers, with a music clip interface visible below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person surrounded by white feathers against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with blonde hair peers through white feathers in a moody, cinematic scene."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a blonde woman with blue eyes partially obscured by white feathers, displayed within a [ORGANIZATION] video player interface."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "comedy",
-        "music",
-        "photography",
-        "reading",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: comedy; music; photography; reading; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a collage of music artists with their names and popularity percentages."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized music ranking graphic displays top artists/albums with labeled tiles for [PERSON], [ORGANIZATION], [ORGANIZATION], Three Days Grace, [PERSON], [PERSON], and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful infographic showcasing top albums by various artists."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music chart graphic displaying seven artists or albums with their rankings and percentages, each in a colorful oval frame."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displays a list of seven music artists and bands, including [PERSON], [ORGANIZATION], [ORGANIZATION], Three Days Grace, [PERSON], [PERSON], and [PERSON], each accompanied by an album cover or photo."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "comedy",
-        "film and television",
-        "music",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: comedy; film and television; music; photography; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features lyrics from a diss track titled '[ORGANIZATION] Diss Track' by [PERSON], discussing themes of addiction and commitment."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-style lyric graphic shows the song \"IRS Diss Track\" by [PERSON] with large explicit lyrics about rehab, addiction, and gambling on a brown background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet promoting a song by [PERSON] titled '[ORGANIZATION] Diss Track', featuring lyrics about gambling as an addiction."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Image omitted because the provider blocked visual analysis during safety inspection."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A solid orange graphic displaying lyrics from a song titled '[ORGANIZATION] Diss Track' by [PERSON], featuring the [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a music profile for the group [ORGANIZATION], showcasing their popular tracks and monthly listeners."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows the [ORGANIZATION] artist page for [ORGANIZATION] with a group promo image and popular songs listed, including “HYPNOTIZE.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music artist's [ORGANIZATION] page featuring their album 'HYPNOTIZE' by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app profile for the artist [ORGANIZATION], showing their album art with five members and a list of popular tracks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the [ORGANIZATION] artist page for the group [ORGANIZATION], displaying their profile banner, monthly listener count, and a list of popular songs including 'HYPNOTIZE' and 'GALA'."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a mobile word puzzle game interface with the word '"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a crossword puzzle game interface with a background of a cityscape at dusk."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile word puzzle game screen shows a letter wheel with O, C, P, H, and R, the solved word “CHOP,” and a crossword-style grid over a stylized city backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A word puzzle game interface showing a pyramid structure in the background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A word puzzle game interface showing the word 'CHOP' with pinecone icons and letter tiles against a backdrop of the Louvre Pyramid at sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile word puzzle game featuring a crossword grid with pinecone icons, letter tiles spelling 'CHOP', and a background image of [ORGANIZATION] at sunset."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification from Discord indicating missed messages in a chat group."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone-style notification shows a Discord alert stating that messages were missed in a channel labeled \"furry porn paradise.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Discord notification indicating missed messages in a furry-themed channel."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Discord notification alerting about missed messages in a channel named 'furry porn paradise'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone notification from [ORGANIZATION] displays a message preview indicating missed messages in a server named 'furry porn paradise'."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two animated characters posing in a lineup, holding signs with their names and heights, set against a backdrop of 'wanted' posters."
+        },
+        "gpt-5.4": {
+          "summary": "An anime/manga-style illustration shows two stylized characters posing in front of a height-chart wall while holding name boards, with graffiti and wanted-poster graphics around them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two anime characters are depicted in a mugshot style illustration holding height signs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two anime-style characters pose against a police lineup backdrop with height markers, holding chalkboards displaying their names and heights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style illustration depicts two characters posing for a mugshot against a height chart, holding nameplates and surrounded by 'WANTED' posters."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An anime-style illustration features a character with long, wavy pink hair and large, expressive eyes looking directly at the viewer, with a bookshelf and plant in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character with pink hair expressing a concerned or intense emotion while gesturing with a pencil."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up anime-style illustration shows a pink-haired character indoors, adjusting a strand of hair with shelves and a plant in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a red-haired character in an indoor scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A manga-style illustration of a young woman with orange hair looking surprised or flustered indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style illustration depicts a young woman with voluminous reddish-orange hair and large expressive eyes looking intently at her reflection in a mirror."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features colorful speech bubbles with humorous and playful messages about relationships and interactions."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-like chart shows colored paint blobs labeled with misspelled color names and paired with humorous relationship-style captions on a white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme using colored paint splatters as a backdrop for various humorous dating messages."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A color-coded chart humorously maps colors to relationship intentions or vibes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme displaying a grid of colorful paint splatters, each labeled with a misspelled color name and a humorous or dramatic relationship status."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a dark setting alongside a collage of group photos of individuals, with various expressions and styles."
+        },
+        "gpt-5.4": {
+          "summary": "A collage shows a person on webcam beside pop-group photos, with large comment, [PERSON], and heart icons across the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a dark room next to an inset of five individuals posing together."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage showing a person in a gaming chair, a group of female K-pop idols, and a solo artist with orange hair, below which are social media interaction icons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image featuring a young man on the left and two K-pop group photos on the right, with social media interaction icons displayed below."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful chart categorizing different personality types with humorous descriptions."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style chart shows nine colored labels with humorous descriptions of different online personality types."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful chart categorizing different types of Twitter users based on their behavior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful chart categorizes different Twitter user archetypes with humorous descriptions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme infographic displaying nine colorful cloud-shaped labels with slang names and humorous descriptions of specific Twitter user archetypes."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a digital message asking for sweet responses regarding a situation involving 'smiling friends.'"
+        },
+        "gpt-5.4": {
+          "summary": "A pink, stylized social-media message card shows a post asking to send something sweet and a reply mentioning that \"smiling friends\" has ended."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet expressing affection towards a friend who ended their relationship."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized browser window displays a message asking for something sweet, with a reply about a friendship ending."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic styled as a social media post from '[ACCOUNT]' featuring the text 'send me something sweet' and a message about smiling friends ending."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a dimly lit setting with a message about mental health displayed below them."
+        },
+        "gpt-5.4": {
+          "summary": "A dark green-tinted close-up of a person sitting indoors with subtitle-style text about mental health and kindness overlaid on the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a dimly lit environment with green lighting, accompanied by an inspirational message."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in profile is shown in dim, green-tinted lighting with a subtitle reading 'you can't see people's metal health. pls be kind always.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a person with dark hair in a dimly lit, green-hued setting, featuring a subtitle about mental health and kindness."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an old man with tears in his eyes, accompanied by a humorous dialogue about a phone repair."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white portrait of an elderly man is overlaid with meme text about taking a phone to a repair shop and ending with the phrase \"[PERSON] sahur folk.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous meme depicting an old man's reaction after a repairer says his phone has no issues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of an elderly man with a caption telling a joke about him bringing his phone to a repair shop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white portrait of an elderly man is paired with a text-based joke about him taking his phone to a repair shop and reacting emotionally to the news that it works."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a grid of music-related prompts with album covers and categories for personal music preferences."
+        },
+        "gpt-5.4": {
+          "summary": "A collage titled \"About You: Music\" shows many album covers arranged in a grid under categories such as favorite album, best vocals, and most depressing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music-themed collage featuring various album covers and categories like 'Favorite Album' and 'Best Narrative'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music taste quiz titled 'About You: Music' displaying album art and user-submitted opinions across various categories."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grid infographic titled 'About You: Music' displays various album covers categorized by subjective music preferences such as favorite, underrated, and overrated."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music profile with the name 'sombr' and a list of popular songs."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] artist page for sombr, showing the artist portrait and a list of popular songs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music artist's [ORGANIZATION] page featuring their popular tracks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music artist profile page showing 'sombr' with a portrait of the artist covering ears, and a list of popular songs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [ORGANIZATION] artist profile for 'sombr', displaying a banner image of the artist and a list of popular songs with high play counts."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a series of comments with hashtags related to a specific topic."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot shows three social media comments with hashtag text, reply links, and heart like counts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "#crucifysombr #curbstompssomb #skinsomberalive"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three social media replies with hashtags, each featuring a profile picture and engagement metrics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media comment section showing three users posting hashtags related to the band '[ORGANIZATION]' alongside their profile pictures and engagement metrics."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation with humorous comments about pants potentially ripping."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped screenshot of a chat conversation with a playful reply over a dark patterned background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Text message exchange discussing pants comfort."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a chat showing a reply about pants ripping and a joke suggesting letting them rip for easy access."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text message conversation featuring a green bubble stating 'i hope my pants didn't rip' and a gray reply suggesting 'Let it rip for easy access'."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a grid of various objects with accompanying phrases that express different emotional connections or sentiments."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style chart titled \"WHO AM I TO YOU?\" shows 12 labeled objects like Heart, Beer, Blade, Discman, Coffee, Moth, and [ORGANIZATION] with short humorous or dark descriptions beneath each."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme comparing various objects and creatures as metaphors of different emotions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meme grid titled 'WHO AM I TO YOU?' pairs images with humorous romantic interpretations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme titled 'WHO AM I TO YOU?' displays twelve objects paired with humorous or dark interpretations of their symbolic meaning in a relationship."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a silhouette of a person with a quote attributed to [PERSON] saying 'What?'."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white close-up portrait of [PERSON] is shown against a dark background with the text \"What?\" and \"- [PERSON].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white portrait of [PERSON] against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white portrait of [PERSON] with the text 'What?' and '- [PERSON]' overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white profile image of [PERSON] with the text 'What? - [PERSON]' on a dark background."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a hand holding a microphone, with a blurred face in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a tweet joke showing a reply 'glitter glue ish' above a meme image of a woman holding a microphone close to the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a microphone in front of their face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a microphone close to the camera while looking directly at it, with overlaid Twitter posts asking for username explanations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter reply featuring a meme image of a woman holding a microphone with a serious expression."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a dark-themed search interface with various search queries listed."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode smartphone screenshot shows a search app screen with recent searches listed under a search bar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a search history in an app showing various queries."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen showing a search history list with recent queries."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile phone screenshot displaying a dark-mode search history list with entries related to games, shopping, and utilities."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a conversation about the perceived sexuality of a member from the group [ORGANIZATION], with humorous AI responses included."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of two dark-mode social media posts sharing humorous AI prompt images about [PERSON] and [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Twitter thread discussing AI responses regarding [PERSON] from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two tweets show humorous AI chatbot responses to questions about [ORGANIZATION] member [PERSON]'s sexuality, referencing 'Friday Night Funkin'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter thread where users share humorous screenshots of an AI chatbot incorrectly identifying K-pop idol [PERSON] from [ORGANIZATION] as gay or referencing the game Friday Night Funkin'."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a comic panel featuring characters expressing excitement and humor in a festive setting."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of an open manga/comic page showing excited cartoon kids in a green-highlighted scene with speech bubbles and narration."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A comic strip featuring a character expressing relief after being stuck by two children."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A manga panel shows excited characters reacting to a situation, with one character reflecting on being stuck with siblings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a manga page featuring characters in winter clothing with dialogue bubbles and the chapter title 'Wishes Granted'."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character labeled as '[PERSON]' with various personality traits and preferences listed in a table format."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon nerd character is shown above a table listing an [ORGANIZATION] profile with traits, likes, dislikes, and match preferences."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character labeled as a '[PERSON]' with personality traits listed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon character with green hair and glasses is shown above a personality profile labeled '[ORGANIZATION] with [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon character with green hair and spiral glasses is displayed above a table detailing personality traits, [ORGANIZATION] type [ORGANIZATION], and relationship compatibility."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five individuals poses together in a playful manner, showcasing a mix of casual and trendy fashion styles."
+        },
+        "gpt-5.4": {
+          "summary": "Studio-style group portrait of five women posing playfully with edgy fashion, including beanies, glasses, and striped tops."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of five young women posing playfully in a studio setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five young women pose together in a studio photo with playful expressions and trendy outfits."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five young women pose playfully in a studio setting, wearing casual streetwear and making expressive faces."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a surreal collage with a plane flying towards a building, surrounded by colorful sparkles and text in Korean."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode social media screenshot shows a surreal edited collage of a tall building with an airplane, sparkling sky, K-pop idol cutouts, and a comment thread underneath."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A promotional poster featuring two individuals in front of a large book titled \"이달의 소녀\" ([ORGANIZATION]) against fireworks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized image of two women beside a skyscraper with fireworks and text overlays, including Korean and English phrases."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme image featuring two women and a building with Korean text, overlaid with comments discussing the [DATE] attacks."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is celebrating with an American flag and wearing a glittery outfit."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling female athlete in a sparkly gold costume poses with a [LOCATION] flag draped around her shoulders and a medal visible against a blurred event backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person celebrates wearing a gold medal around their neck."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling woman in a glittery outfit holds an American flag while wearing a medal."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling female figure skater wearing a gold sequined costume and holding an American flag while displaying a medal."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Five young women with various [PERSON] and casual outfits pose playfully for a photo against a plain background, sticking out their tongues and making expressive faces."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five individuals poses together in a casual and stylish manner, showcasing a mix of fashion styles."
+        },
+        "gpt-5.4": {
+          "summary": "A studio-style group portrait shows five women posing playfully with edgy fashion, including beanies, a backward cap, glasses, and striped tops."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of five young women posing playfully in a studio setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five young women pose closely together in a studio setting, striking playful and expressive poses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five young women pose playfully in a studio setting, wearing casual streetwear and making expressive faces."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person taking a mirror selfie while wearing a pink zip-up top and holding a pink bag."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a playful mirror selfie in a tiled bathroom, wearing a light pink zip-up top and holding a matching pink handbag and phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of tiled walls wearing pink clothing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom, wearing a pink hoodie with text and carrying a matching pink backpack while sticking out their tongue."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a tiled bathroom wearing a pink zip-up hoodie with '[PERSON]' text, black nail polish, and a cross necklace while sticking their tongue out."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dialogue about a question regarding the members of a group called 'lesserafim' and their perceived dynamics."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed screenshot shows a prompt asking \"whos the gayest in lesserafim\" and an AI-style reply with a humorous fandom/shipping response, plus feedback buttons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat interface showing a response to an inquiry asking who's 'the gayest' in [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chat interface shows a user asking an AI about the 'gayest' member of [ORGANIZATION], with the AI responding that it doesn't know much but is saddened by the implication."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat interface showing a user asking an AI about the sexual orientation of K-pop group [ORGANIZATION], with the AI responding with a joke about [PERSON] themes."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cartoon Spongebob Squarepants character floats above a mountainous landscape, delivering an encouraging message in a speech bubble."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character, [ORGANIZATION] SquarePants, superimposed over a scenic mountain landscape with an encouraging message."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] meme is edited over a mountain landscape, holding a blue text box with an encouraging message about making mistakes and still being loved."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] SquarePants floats above a mountainous landscape with an uplifting message."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[ORGANIZATION] SquarePants floats above mountains delivering an encouraging message in a speech bubble."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cheerful [ORGANIZATION] SquarePants is superimposed over a mountain landscape, accompanied by an encouraging text message about making mistakes and being loved."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of a messaging app shows a video thumbnail of a woman with her hand over her mouth,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a blurred photo of a person with a message discussing a provocative topic."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social-media chat shows a video thumbnail of a person covering their mouth and a message with explicit suggestive text over a pixel-art style background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A message thread showing a reply from an anime character avatar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a chat showing a reply with explicit text and a video thumbnail of a person covering their mouth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media reply featuring a video thumbnail of a woman covering her mouth and a text message with explicit language."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a fragrance bottle labeled '67 [PERSON]' with details about its scent profile and characteristics."
+        },
+        "gpt-5.4": {
+          "summary": "An infographic-style fragrance review image shows the Pomellato 67 Artemisia perfume bottle with accord bars, rating, notes, longevity, sillage, and seasonal/daytime usage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A product page showcasing '67 [PERSON]' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fragrance infographic for [PERSON]'s 67 Artemisia perfume, detailing its scent profile, notes, and seasonal suitability."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An infographic displaying the fragrance profile, notes, and ratings for [PERSON]'s '67 [PERSON]' perfume."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a chat notification from [ORGANIZATION] featuring a user named '[ACCOUNT]' with messages about personal experiences."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode smartphone notification screenshot shows an [PERSON] message alert with explicit chat text and a reply option."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Image omitted because the provider blocked visual analysis during safety inspection."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Image omitted because the provider blocked visual analysis during safety inspection."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Image omitted because the provider blocked visual analysis during safety inspection."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals in pink pants celebrates a birthday with signs and decorations in an outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] screenshot shows a group outdoors in matching pink pants holding a chalkboard birthday message for [PERSON], a heart sign, and a printed portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people in pink outfits hold signs celebrating [PERSON]'s birthday."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people in pink pants stand outdoors holding birthday signs and a photo for someone named [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of shirtless men wearing matching pink pants stand outdoors holding signs and a photo to celebrate the birthday of [PERSON]."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two tweets discussing humorous scenarios related to online interactions and profile pictures."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of two social media posts joking about Discord sexting and the meme phrase \"[PERSON].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] discusses sexting on Discord while [ACCOUNT] comments humorously."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two Twitter posts discussing the phrase '[PERSON] in relation to Discord sexting and generational trends."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter thread discussing the '[ORGANIZATION] meme in the context of Discord profile pictures."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a list of food items paired with various social messages, suggesting a coded way to communicate feelings or intentions."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a list of food items paired with playful phrases indicating different levels of social interaction."
+        },
+        "gpt-5.4": {
+          "summary": "A text-based chart on a plain background lists foods and drinks paired with social or romantic meanings, such as coffee meaning friendship and mint meaning love."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A list of food items paired with flirtatious phrases."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A list pairing food items with playful romantic or flirtatious messages."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A text-based graphic listing various food and drink items paired with specific social meanings or levels of romantic interest."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays song lyrics from 'Is It Really You?' by Loathe on a dark background, featuring a pixelated font style."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features lyrics from a song, expressing themes of connection and emotional turmoil."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed music player screenshot shows the song \"Is It Really You?\" by Loathe with large scrolling lyrics on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pixelated poem titled 'Is It Really You?' by Loathe."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed mobile screen displaying lyrics from the song 'Is It Really You?' by Loathe."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile music player displaying lyrics for the song 'Is It Really You?' by Loathe in pixelated text against a dark background."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a conversation about smoking and drinking between two users."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of a text conversation shows messages about having fun and asking whether they are going to smoke and drink."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation between two people discussing smoking and drinking."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation where one user asks if they are going to smoke and drink, and the other replies affirmatively."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a direct message conversation where one user asks if they are going to smoke and drink, and the other replies affirmatively."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A Twitter conversation where a user asks if another is the creator of a person associated with '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Twitter/X reply thread shows a user asking, \"wait r u the who created the bigbang person,\" with a reply underneath saying, \"Yes......\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT] asks [ACCOUNT] who created [PERSON] person in a tweet."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter reply asking if the recipient created 'the [PERSON] person', with a short reply confirming it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter conversation where user [ACCOUNT] asks if the user [ACCOUNT] created the '[PERSON] person' character, to which [ACCOUNT] replies affirmatively."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man wearing a white 'FREEDOM' t-shirt sits with his eyes closed or looking down, in front of a backdrop featuring '"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a white shirt with the word 'FREEDOM' sits in front of a branded backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A seated person in a white \"FREEDOM\" T-shirt is shown at an event in front of a branded backdrop with [LOCATION] and [ORGANIZATION] logos."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a 'FREEDOM' t-shirt seated in front of event signage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a white 'FREEDOM' t-shirt sits before a backdrop featuring '[ORGANIZATION] USA' and '[PERSON]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a white t-shirt with the word 'FREEDOM' sits in front of a backdrop featuring the Turning Point USA logo and website."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a white t-shirt with a graphic design related to 'Steel Ball Run'."
+        },
+        "gpt-5.4": {
+          "summary": "A white graphic T-shirt with a stylized portrait and 'Steel Ball Run' design is shown in a shopping cart inside a clothing store, with a humorous text overlay across the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A t-shirt featuring a cartoon character wearing a bandana in what appears to be an arcade game setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white t-shirt with a graphic of a man wearing a blue bandana and a horseshoe, featuring the text 'STEEL IRK RUN' in stylized lettering."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white t-shirt featuring a graphic of the character [PERSON] from the anime '[PERSON]'s Bizarre Adventure' is held up in a clothing store."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person seen from behind looks out over a sparkling ocean under a bright sky, with text overlaid about music and perfume."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seen from behind, gazing at the ocean with a quote about music and perfume overlaying the image."
+        },
+        "gpt-5.4": {
+          "summary": "A person seen from behind looks out over a sunlit body of water with an overlaid quote about music, perfume, and memory."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A silhouette of a person overlooking an ocean with overlaid text suggesting music and perfume are key memories."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person viewed from behind gazes at a bright ocean horizon while overlaid text reads 'music and perfume are the best way to remember things'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person viewed from behind gazes out at a sunlit ocean while overlaid text states that music and perfume are the best way to remember things."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two chibi-style anime characters are depicted sitting on a checkered blanket, holding playing cards, with one eating an onigiri and the other a donut, in a cute and playful"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two chibi characters are sitting on a checkered blanket, playing cards and enjoying snacks."
+        },
+        "gpt-5.4": {
+          "summary": "A cute chibi-style anime illustration shows two characters sitting on a picnic blanket, holding playing cards while one eats a pink donut."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three chibi characters are sitting together playing cards in a picnic-like setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two chibi-style anime characters sit on a checkered blanket playing cards while eating snacks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "[PERSON]-style anime characters with pink and black hair sit on a checkered blanket playing cards and eating donuts."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON], depicted in a seated position with a description of his traits and interests."
+        },
+        "gpt-5.4": {
+          "summary": "A minimalist black-and-white character sketch of [PERSON] sitting on the floor beside a handwritten profile list about him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A manga-style illustration of [PERSON] sitting cross-legged in a hoodie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white manga-style illustration of a young man sitting cross-legged, accompanied by text describing his character traits."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white manga illustration of a young man named [PERSON] sitting on the floor, accompanied by a bulleted list of character statistics and personality traits."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A childlike digital drawing of an orange star-like character with large eyes and a smile is displayed within a stylized interface, featuring colorful scribbles in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful drawing of a star with large eyes and a smiling face, accompanied by the name '[PERSON]!' written in bold letters."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot-style frame shows a colorful hand-drawn cartoon of an orange star-like character with big eyes, with the text “[PERSON]!” and a site header above it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful drawing of a character labeled '[PERSON]!' against pink and orange background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful, childlike drawing of a character with large eyes and pink cheeks, set against a vibrant background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital drawing of a yellow star character with large black eyes and pink blush, set against a pink and orange background within a browser window frame."
+        }
+      }
     }
   }
 }

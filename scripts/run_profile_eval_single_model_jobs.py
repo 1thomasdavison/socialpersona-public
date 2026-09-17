@@ -14,6 +14,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any
 
+from user_profile_pipeline.benchmark.profile_eval.specs import PROFILE_EVAL_PROTOCOL_VERSION
+
 
 MODELS = [
     "gemini-2.5-flash",
@@ -129,6 +131,8 @@ def metric_is_valid(path: Path, *, model: str, method: str, expected_n_tasks: in
         return False
     if str(metrics.get("profile_method") or "").lower() != method.lower():
         return False
+    if metrics.get("profile_eval_protocol_version") != PROFILE_EVAL_PROTOCOL_VERSION:
+        return False
     if int(metrics.get("n_tasks") or 0) != expected_n_tasks:
         return False
     if int(metrics.get("n_tasks_skipped") or 0) != 0:
@@ -181,6 +185,7 @@ def merge_batch_report(
         "visual_mode": "text_image",
         "profile_input_mode": "text_image_captions_timestamps",
         "profile_method": method,
+        "profile_eval_protocol_version": PROFILE_EVAL_PROTOCOL_VERSION,
         "profile_method_max_posts": 200,
         "hierarchical_chunk_size": 20,
         "extractive_k": 12,

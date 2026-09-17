@@ -1,6 +1,6 @@
 {
   "user_id": "participant_048",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
@@ -8,25 +8,34 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "outdoor activities",
+          "label": "outdoor recreation",
           "evidence_post_indices": [
-            0,
-            2
+            26,
+            72
           ],
           "evidence_post_ids": [
-            "participant_048_phase_1",
-            "participant_048_phase_3"
+            "participant_048_post_0027",
+            "participant_048_post_0073"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "sports outdoor interests",
+          "label": "firearm",
           "evidence_post_indices": [
-            1
+            55
           ],
           "evidence_post_ids": [
-            "participant_048_phase_2"
+            "participant_048_post_0056"
+          ]
+        },
+        {
+          "label": "tactical gear",
+          "evidence_post_indices": [
+            55
+          ],
+          "evidence_post_ids": [
+            "participant_048_post_0056"
           ]
         }
       ]
@@ -37,34 +46,43 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "reading",
+          "label": "literature",
           "evidence_post_indices": [
-            0,
-            1
+            47,
+            79
           ],
           "evidence_post_ids": [
-            "participant_048_phase_1",
-            "participant_048_phase_2"
+            "participant_048_post_0048",
+            "participant_048_post_0080"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "book",
           "evidence_post_indices": [
-            0
+            20
           ],
           "evidence_post_ids": [
-            "participant_048_phase_1"
+            "participant_048_post_0021"
           ]
         },
         {
-          "label": "reading",
+          "label": "fine art",
           "evidence_post_indices": [
-            2
+            78
           ],
           "evidence_post_ids": [
-            "participant_048_phase_3"
+            "participant_048_post_0079"
+          ]
+        },
+        {
+          "label": "painting",
+          "evidence_post_indices": [
+            78
+          ],
+          "evidence_post_ids": [
+            "participant_048_post_0079"
           ]
         }
       ]
@@ -82,41 +100,43 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "food drink interests",
+          "label": "healthy eating",
           "evidence_post_indices": [
-            3
+            1,
+            18
           ],
           "evidence_post_ids": [
-            "participant_048_phase_4"
+            "participant_048_post_0002",
+            "participant_048_post_0019"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "coffee and tea",
+          "label": "fruit consumption",
           "evidence_post_indices": [
-            3
+            18
           ],
           "evidence_post_ids": [
-            "participant_048_phase_4"
+            "participant_048_post_0019"
           ]
         },
         {
-          "label": "dining",
+          "label": "breakfast",
           "evidence_post_indices": [
-            2
+            25
           ],
           "evidence_post_ids": [
-            "participant_048_phase_3"
+            "participant_048_post_0026"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "espresso",
           "evidence_post_indices": [
-            3
+            10
           ],
           "evidence_post_ids": [
-            "participant_048_phase_4"
+            "participant_048_post_0011"
           ]
         }
       ]
@@ -126,40 +146,73 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "travel city exploration interests",
+          "label": "sightsee",
           "evidence_post_indices": [
-            0,
-            1
+            52,
+            58,
+            72,
+            75,
+            82
           ],
           "evidence_post_ids": [
-            "participant_048_phase_1",
-            "participant_048_phase_2"
+            "participant_048_post_0053",
+            "participant_048_post_0059",
+            "participant_048_post_0073",
+            "participant_048_post_0076",
+            "participant_048_post_0083"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "travel city exploration interests",
+          "label": "landmark",
           "evidence_post_indices": [
-            1,
-            2
+            35,
+            52
           ],
           "evidence_post_ids": [
-            "participant_048_phase_2",
-            "participant_048_phase_3"
+            "participant_048_post_0036",
+            "participant_048_post_0053"
+          ]
+        },
+        {
+          "label": "aviation",
+          "evidence_post_indices": [
+            43,
+            44
+          ],
+          "evidence_post_ids": [
+            "participant_048_post_0044",
+            "participant_048_post_0045"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "travel city exploration interests",
+          "label": "abu dhabi",
           "evidence_post_indices": [
-            1,
-            2
+            52
           ],
           "evidence_post_ids": [
-            "participant_048_phase_2",
-            "participant_048_phase_3"
+            "participant_048_post_0053"
+          ]
+        },
+        {
+          "label": "sheikh zay grand mosque",
+          "evidence_post_indices": [
+            52
+          ],
+          "evidence_post_ids": [
+            "participant_048_post_0053"
+          ]
+        },
+        {
+          "label": "lighthouses",
+          "evidence_post_indices": [
+            35
+          ],
+          "evidence_post_ids": [
+            "participant_048_post_0036"
           ]
         }
       ]
@@ -170,23 +223,36 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "visual art",
+          "label": "painting",
           "evidence_post_indices": [
-            2
+            30,
+            35
           ],
           "evidence_post_ids": [
-            "participant_048_phase_3"
+            "participant_048_post_0031",
+            "participant_048_post_0036"
+          ]
+        },
+        {
+          "label": "visual art",
+          "evidence_post_indices": [
+            30,
+            35
+          ],
+          "evidence_post_ids": [
+            "participant_048_post_0031",
+            "participant_048_post_0036"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "visual art",
+          "label": "oil painting",
           "evidence_post_indices": [
-            2
+            30
           ],
           "evidence_post_ids": [
-            "participant_048_phase_3"
+            "participant_048_post_0031"
           ]
         }
       ]

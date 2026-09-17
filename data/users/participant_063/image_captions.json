@@ -1,67 +1,1613 @@
 {
   "user_id": "participant_063",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "dogs",
-        "nature visits",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; dogs; nature visits; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a sports bracket for a basketball tournament, highlighting [LOCATION] as the winner."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a March Madness-style college basketball bracket shows [LOCATION] picked to beat [LOCATION] and win the championship."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a sports bracket showing [LOCATION] as the winner in multiple rounds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bracket tracking [ORGANIZATION] tournament results, showing [LOCATION] as the predicted winner with a dog mascot logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a computer screen displaying a March Madness bracket with [LOCATION] selected as the tournament winner."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "dogs",
-        "music",
-        "nature visits",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; dogs; music; nature visits; spectator sports."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two young men are shown indoors, one in a teal polo shirt and the other in a white t-shirt, with a"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are seated indoors, engaged in conversation with a focus on a computer."
+        },
+        "gpt-5.4": {
+          "summary": "Two people sit closely at a desk in a bright room, focused on a computer setup, with a subtitle visible at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are seated indoors near a window; one appears contemplative while looking down."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men sit indoors near a window, one focused on a laptop while the other looks down with a subtitle reading 'He must have won when I wasn't there.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men are seated indoors looking at a computer screen with concerned expressions, accompanied by the caption 'He must have won when I wasn't there.'"
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "dogs",
-        "nature visits",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; dogs; nature visits; photography; spectator sports."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [LOCATION] stands on a sidewalk wearing solar eclipse glasses, looking playfully at the camera on a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog wearing solar eclipse glasses stands on a sidewalk with a residential backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A large black, white, and brown dog stands on a sidewalk wearing eclipse-viewing glasses in a residential neighborhood."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog wearing solar eclipse glasses stands outdoors in a suburban neighborhood."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Bernese mountain dog wearing solar eclipse glasses stands happily on a sidewalk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy tricolor dog stands on a suburban sidewalk wearing cardboard solar eclipse glasses with its tongue out."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "dogs",
-        "nature visits",
-        "pet care",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; dogs; nature visits; pet care; spectator sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A crowd at [LOCATION] watches a pre-game ceremony with a large American flag on the field."
+        },
+        "gpt-5.4": {
+          "summary": "Wide view of a baseball game ceremony at [LOCATION] with players lined up and a large American flag spread across the field."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large American flag displayed across a baseball field during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowd at [LOCATION] watches a large American flag unfurled on the baseball field during a pre-game ceremony."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of [LOCATION] during a pre-game ceremony featuring a large American flag on the field and players lined up, with spectators in the foreground taking photos."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "dogs",
-        "nature visits",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: city exploration; dogs; nature visits; photography; reading."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a conversation about a humorous poker story involving a power outage at a tournament."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a forum thread titled \"Gobbo's Awesome JRB Story\" with posts discussing a humorous [ORGANIZATION] poker anecdote."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] post discussing a poker tournament experience shared by gobbo."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a forum thread where user 'gobbo' recounts a humorous poker story involving [PERSON], followed by a reply from '[ACCOUNT]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a forum thread titled '[ORGANIZATION] featuring a user recounting a humorous anecdote about poker player [PERSON] at the [ORGANIZATION]."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "dogs",
-        "music",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; dogs; music; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of tacos with various fillings, accompanied by lime wedges and sauces, set on a colorful table."
+        },
+        "gpt-5.4": {
+          "summary": "A plate of assorted street-style tacos with lime wedges and radish slices sits on a colorful restaurant table beside a Corona beer and squeeze bottles of salsa."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of tacos garnished with cilantro, onions, radishes, lime wedges, accompanied by a bottle of beer."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plate of five tacos with garnishes sits on a colorful painted table alongside condiment bottles and lime wedges."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A plate of six tacos with various fillings, garnished with cilantro and onions, sits on a colorful painted table alongside lime wedges, radishes, a [ORGANIZATION] beer bottle, and squeeze bottles of sauce."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bright outdoor scene features a clear blue swimming pool surrounded by a paved patio, a white fence, and lush green trees under a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a clear swimming pool surrounded by a patio and trees under a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny backyard scene shows a turquoise swimming pool beside a paved patio with a chair, a dark bottle, a white fence, and tall trees under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene backyard scene featuring a swimming pool under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A backyard pool area on a sunny day, featuring clear blue water, a patio chair, and a black speaker on paver stone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A backyard swimming pool with clear blue water is surrounded by a paved patio, a white privacy fence, and green trees under a bright blue sky."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is gently petting a dog's head while sitting on a couch."
+        },
+        "gpt-5.4": {
+          "summary": "A large tricolor dog lies on the floor indoors with its head resting on a person's lap while being petted beside a couch and coffee table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person pets a relaxed dog lying under furniture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tricolor dog lies relaxed on a patterned rug while being petted by a person sitting nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand petting a large tricolor dog lying on a rug next to a black table."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Four smiling people, three men and one woman, pose in front of a green curtain adorned with string lights and an 'ENGAGED' banner, holding drinks."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four people poses together in front of a decorative backdrop celebrating an engagement."
+        },
+        "gpt-5.4": {
+          "summary": "Four people pose together at an engagement celebration in front of green curtains, string lights, and a banner reading \"ENGAGED.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four people celebrate an engagement party in front of a 'ENGAGED' banner."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four people pose together at an engagement celebration under a banner reading 'ENGAGED'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four smiling friends pose for a group photo at an engagement party in front of a green curtain backdrop with string lights."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [LOCATION] with its tongue out is lying on stone steps in front of a house at dusk, illuminated by warm light from the porch."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [LOCATION] is lounging on the steps of a house during twilight."
+        },
+        "gpt-5.4": {
+          "summary": "A large Bernese mountain dog lies on the front steps of a house at dusk, facing the camera with its tongue out."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A happy dog lounging on a stone step in front of a house."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [LOCATION] sits happily on stone steps in front of a house during twilight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tricolor [LOCATION] sits on stone steps in front of a house porch at dusk."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person sitting in a chair with a striped shirt and a cap in a garage-like setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing sunglasses and an [PERSON] cap sits in a rough utility or basement-like room with lockers, pipes, and hanging cables in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man wearing a brown [PERSON] cap and sunglasses in an industrial-like environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing sunglasses and a cap leans against a pole in an industrial setting with lockers and pipes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing sunglasses and an [PERSON] cap sits in a folding chair outdoors near white lockers and a concrete wall."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people socializing in a basement with a pool table and a cozy seating area."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people relaxes in a basement game room with a pool table, couches, and board games on the coffee table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are gathered in a recreational room playing pool."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people are gathered in a basement lounge around a pool table, with some seated on couches and others standing or using phones."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people are gathered in a well-lit basement recreation room featuring a large blue pool table, beige sofas, and a bar area."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Several people walk along a [LOCATION] next to the ocean, with one person carrying a stack of small white"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people are walking along a beach with one person carrying boxes."
+        },
+        "gpt-5.4": {
+          "summary": "Several people walk along a sandy beach by the ocean, including a barefoot vendor carrying boxed items near the waves and rocks."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "People are walking along a beach near the ocean."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People walk along a [LOCATION] near rocks and ocean waves, one person carries pizza boxes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people walk along a [LOCATION] near the ocean, including a vendor in a blue shirt carrying boxes."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two smiling men in festive, tropical-themed attire, one wearing a lei and a bucket hat, the other wearing large pink sunglasses, pose"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two men are posing together at a casual gathering, wearing colorful tropical shirts and leis."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose indoors at a tropical-themed party, wearing colorful floral shirts, leis, a bucket hat, and pink novelty sunglasses beside a table with food."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men in tropical-themed shirts pose together indoors during a casual gathering."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in festive Hawaiian shirts pose indoors, one wearing pink sunglasses and a flower, the other holding a drink."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose indoors in festive Hawaiian shirts and accessories, including a dog-print shirt with a lei and oversized pink sunglasses, while holding food and drinks."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A happy [LOCATION] with its tongue out is lying on a light gray elevated dog bed indoors, with a wooden floor and dark furniture in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [LOCATION] is lying on a dog bed with a relaxed expression."
+        },
+        "gpt-5.4": {
+          "summary": "A large black, white, and brown dog lies on an elevated pet cot indoors, looking at the camera with its tongue out."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A happy [LOCATION] lounging in a pet bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tricolor dog lounges comfortably on a raised pet bed indoors, tongue out."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large tricolor dog, likely a [LOCATION], lies on a raised beige cot indoors with its tongue out."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cartoon boy with"
+        },
+        "gpt-4o-mini": {
+          "summary": "A character interacts with a turtle in an aquarium setting."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon scene shows [PERSON] from Hey [PERSON]! leaning toward a large turtle inside what looks like an aquarium or display tank."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character interacts affectionately with a large turtle in an underwater environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon boy with spiky hair stands beside a large green turtle inside a submarine-like vessel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon character with spiky blond hair and a backward cap stands on a blue platform, gently touching the head of a large green turtle-like creature inside a vehicle."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a poker game interface with chat messages and player actions."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo of an online poker game screen shows the table interface, player chat, betting options, and a small weather widget."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a poker game interface showing chat messages between players."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a poker game interface showing player actions, chat messages, and in-game statistics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a computer screen displaying an online poker game interface with active chat logs and player statistics."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [LOCATION] is seen resting on a wooden floor next to a white wall and a staircase, with a raised dog bowl stand in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is lying on the wooden floor near a staircase in a home setting."
+        },
+        "gpt-5.4": {
+          "summary": "A large black-and-white dog lies partly hidden behind a wall on a hardwood floor near a staircase, with a metal water bowl in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white dog rests its head near a wooden staircase."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white dog rests quietly on a hardwood floor near a staircase railing and an empty elevated food bowl."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black, white, and tan dog rests on a hardwood floor near a wooden staircase and an elevated metal food bowl."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is joyfully holding a large dog in a home setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person indoors is hugging and kissing a large Bernese mountain dog, with a corkboard visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man holds a large dog in his arms while smiling."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man holds a large dog close while kissing its forehead indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a white t-shirt is affectionately hugging and kissing a large tricolor dog indoors."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a poker tournament interface showing player rankings, chip counts, and prize distribution."
+        },
+        "gpt-5.4": {
+          "summary": "A computer monitor shows an online poker tournament lobby and table interface, with prize pool and player rankings visible against a starry desktop background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Screenshot of a poker tournament leaderboard showing player rankings and chip counts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer screen displays a poker tournament leaderboard with player rankings, chip counts, and payout information."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a computer monitor displaying an online poker tournament leaderboard with player rankings, chip counts, and prize pool details."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [LOCATION] lies on a raised dog bed on a wooden floor, holding a plush sloth toy and looking directly at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [LOCATION] lies on a bed holding a plush toy in its mouth."
+        },
+        "gpt-5.4": {
+          "summary": "A large black, white, and brown dog lies on a raised indoor pet bed while holding a plush toy and looking at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog lounging on a pet bed holding onto its toy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [LOCATION] lies on a raised pet bed holding a stuffed toy bear, looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large tricolor dog lies on a raised grey cot indoors, holding a brown stuffed animal toy in its paws."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a poker tournament interface showing a player's status and event details."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] tournament popup is shown over an online poker table, highlighting a [ORGANIZATION] event and a current prize standing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] promotional pop-up advertising a poker tournament."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] tournament pop-up showing event details and player progress."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] online poker interface displaying a tournament pop-up for [ORGANIZATION] event."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime view of a street leading to a city skyline, with a visible moon and the word 'Home' in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A dark nighttime view looks down a residential street toward a brightly lit city skyline in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime suburban scene viewed from a hill overlooking city lights under moonlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime view from a residential street looking toward a distant city skyline under a moonlit sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night-time view from a residential street looking down towards a brightly lit city skyline under a moonlit sky."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [LOCATION] lies on a wooden floor, holding a pink plush toy in its mouth, with a sofa visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is lying on the floor, holding a pink toy in its mouth."
+        },
+        "gpt-5.4": {
+          "summary": "A large black, white, and brown dog lies on a wooden floor indoors, resting with a bright pink plush toy in its mouth near a couch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog lies on a wooden floor holding a pink stuffed toy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white dog lies on a wooden floor holding a pink stuffed toy, with a brown couch in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large black, white, and brown dog lies on a wooden floor holding a pink stuffed toy in its mouth near a grey sofa."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [LOCATION] sits calmly on a park bench next to a yellow leash and harness, looking to the side with a wooded, leaf-covered hillside in the background on a sunny day."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog sits on a bench in a wooded area, looking off to the side."
+        },
+        "gpt-5.4": {
+          "summary": "A large tricolor dog sits on a park bench in sunlight with leashes beside it, against a wooded hillside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog sits calmly on a bench in an outdoor park-like area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tricolor dog sits calmly on a park bench with a leash beside it, set against a backdrop of bare trees and dry ground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tricolor dog sits attentively on a park bench next to a leash, with a wooded area in the background."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A clear plastic container is filled with numerous fresh, red strawberries, some with green caps, resting on a speckled countertop."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a container filled with fresh, ripe strawberries."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a clear plastic container filled with large red strawberries on a countertop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A clear plastic container filled with fresh strawberries."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A clear plastic container filled with fresh, ripe strawberries sits on a speckled countertop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a clear plastic clamshell container filled with fresh red strawberries resting on a speckled granite countertop."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two dogs, one brown and one black and white, are lying on a patch of grass, with the brown dog gently resting its head near the black and white dog's face, under bright sunlight."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs are interacting on grass, with a toy nearby."
+        },
+        "gpt-5.4": {
+          "summary": "Two dogs relax and interact on a sunny grassy area, with a plush toy beside the brown dog wearing a harness."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs interacting playfully in a grassy area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs rest on grass, one wearing a harness and near a stuffed toy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A brown puppy wearing a harness and a black-and-white dog lie together on grass next to a stuffed toy."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two dogs, a brown"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs, a brown puppy and a larger black and white dog, are lying on grass in a yard near a brick house."
+        },
+        "gpt-5.4": {
+          "summary": "Two dogs, including a small brown puppy in a harness and a larger black-and-white dog, are lying on a grassy yard beside a brick house."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs relaxing in a grassy yard near a brick house."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs resting on grass in front of a brick house."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A brown puppy wearing a harness and a large tricolor dog lie together on a grassy lawn in front of a brick house."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A playful dog is tugging on a plush toy held by a person in a grassy outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A brown dog wearing a black harness plays tug-of-war with a plush toy on a sunny grassy lawn."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A brown dog plays tug-of-war with a stuffed toy in an outdoor grassy area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A brown dog wearing a harness lies on grass, holding a plush toy while a human hand pulls it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A brown dog wearing a black harness plays tug-of-war with a person's hand over a plush toy on a grassy lawn."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A brown dog wearing a harness lies on a sunny grassy lawn next to a plush toy"
+        },
+        "gpt-4o-mini": {
+          "summary": "A brown dog lies on the grass next to a toy in a suburban setting."
+        },
+        "gpt-5.4": {
+          "summary": "A brown dog in a black harness lies on a sunny lawn beside a plush toy near a suburban sidewalk and street corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chocolate [LOCATION] retriever wearing a harness lies in grass near its toy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A brown dog wearing a harness lies on grass next to a plush toy, with a street and parked car in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A brown dog wearing a black harness lies on a grassy lawn next to a plush toy, with a suburban street and parked car in the background."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man wearing sunglasses and a colorful shirt poses with a cigarette, expressing a humorous desire to be punched in the face."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person wearing red-tinted aviator sunglasses, a patterned shirt, and a dark jacket with a cigarette in their mouth, overlaid with caption text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man wearing sunglasses smoking a cigarette indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard and red sunglasses has a cigarette in his mouth, wearing a patterned shirt under a jacket, with text overlay reading 'I want you to punch me in the face'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man wearing red-tinted aviator sunglasses, a patterned shirt, and a leather jacket poses with a cigarette in his mouth while an overlaid text message reads 'I want you to punch me in the face'."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with curly hair, a beard, sunglasses, and a red bandana is shown in a close-up selfie, smoking a cigarette, with a house siding in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with curly hair wearing a red bandana, partially obscured, in a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up outdoor selfie of a bearded person wearing round sunglasses and a red bandana with a cigarette in their mouth, with house siding in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a red bandana and sunglasses smokes while sitting outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard, sunglasses, and red bandana holds a cigarette while text overlay reads 'I am not a human'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a bearded man wearing sunglasses and a red bandana, smoking a cigarette with the text 'I am not a human' overlaid."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a scene from a movie with a character speaking the line 'Our destiny chooses us.'"
+        },
+        "gpt-5.4": {
+          "summary": "A wall-mounted TV displays a close-up scene of an older man in glasses speaking, with the subtitle visible at the bottom and blue ambient backlighting around the screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A television screen displaying a scene from 'The Prestige' featuring [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A TV screen displays a close-up of an older man with glasses, showing the subtitle 'Our destiny chooses us.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a television screen displaying an older man with white hair and glasses, featuring the subtitle 'Our destiny chooses us.'"
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two men in formal attire, one in a tuxedo and the other in a suit, stand smiling and holding drinks in an indoor venue decorated with holiday plants."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two men in formal attire pose together with drinks in a decorated indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in formalwear pose smiling with drinks in a hotel-like lobby decorated with holiday poinsettias."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men in formal attire pose together indoors during a festive event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in formal attire pose together with drinks at a festive indoor event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men in formal black suits pose together holding drinks in a hotel lobby decorated with poinsettias and a Christmas tree."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people engaged in a poker game at a casino table."
+        },
+        "gpt-5.4": {
+          "summary": "A group of players sits around a poker table with stacks of chips in a casino-style room, with one smiling player centered in the shot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals are seated around a poker table in what appears to be an indoor casino environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard smiles while playing poker at a casino table, surrounded by other players."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man in a dark t-shirt sits at a poker table with chips, flanked by other players in a casino setting."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [LOCATION] stands on rocky terrain by the ocean, with a clear blue sky in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A happy black, white, and brown dog stands on a rocky shoreline with ocean waves and a clear blue sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A happy dog stands on rocky terrain near a beach under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [LOCATION] stands on rocky beach terrain with ocean waves in the background under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tricolor dog with a bone-shaped tag stands on rocky terrain near the ocean under a clear blue sky."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog wearing a red bandana with heart patterns sits on a gray mat in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A Bernese mountain dog sits on a chair indoors wearing a black bandana covered with red hearts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog wearing a heart-patterned bandana sits indoors near decorative items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [LOCATION] wearing a red heart-patterned bandana sits attentively on a gray couch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [LOCATION] wearing a red heart-patterned bandana sits attentively on a grey surface indoors."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [LOCATION] puppy sits outdoors on a sunny day, looking up with its mouth open, possibly panting or yawning."
+        },
+        "gpt-4o-mini": {
+          "summary": "A happy dog is sitting on a sidewalk, smiling with its mouth open."
+        },
+        "gpt-5.4": {
+          "summary": "A happy Bernese mountain dog sits on a sunlit concrete walkway, looking up at the camera with its mouth open."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A happy dog sitting outdoors on a sunny day."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tricolor dog sits happily on a sidewalk, mouth open in a joyful expression under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle shot captures a fluffy tricolor dog, likely a [LOCATION], sitting on concrete steps and looking up with its mouth open in bright sunlight."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog stands on a street with a city skyline illuminated in the background at night."
+        },
+        "gpt-5.4": {
+          "summary": "A black dog stands at a stop line on a steep residential street at night, with a lit city skyline visible in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog stands in a street near 'STOP' markings under an urban night sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog stands on a street at night, looking toward a distant city skyline illuminated with lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large black and tan dog stands on a residential street at night, looking out toward a distant city skyline."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man and a child are seated at a restaurant table, both making hand gestures while the child holds a kids' menu."
+        },
+        "gpt-5.4": {
+          "summary": "Two people smile at a restaurant table, making hand signs while one holds a kids menu."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man and a child are sitting in a restaurant giving thumbs-up gestures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a young girl pose cheerfully at a restaurant table, both making hand gestures while holding a kids menu."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man and a young girl pose with thumbs-up gestures at a restaurant table, holding a kids menu amidst condiments and glasses."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large black and white dog is relaxing on a gray couch under a patterned blanket, holding several stuffed toys, in a cozy indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large dog is lying on a couch, holding a stuffed toy while surrounded by other toys in a cozy living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white dog lounges on a gray armchair in a living room with a stuffed toy under its chin and another plush toy on the floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog lounges on a couch holding stuffed toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white dog rests on a gray couch, cuddling a stuffed toy, with another plush toy on the floor nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white dog rests on a gray sofa holding a stuffed animal, with other toys scattered on the wooden floor nearby."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [LOCATION] sits on stone steps, looking up with its tongue slightly out, bathed in bright sunlight against a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [LOCATION] sits on stone steps, looking up against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A large tricolor dog stands on outdoor stone steps beside a white railing under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A happy [LOCATION] sits on a stone staircase under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy [LOCATION] sits happily on stone steps outdoors under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large tricolor dog sits on stone steps outdoors under a clear blue sky, looking upward with its tongue out."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large [LOCATION] is seen resting on a wooden floor, partially visible through an open doorway, with its head near the threshold."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large dog is sleeping on the floor near an open doorway."
+        },
+        "gpt-5.4": {
+          "summary": "A large black, white, and brown dog is lying sleepily across an indoor doorway on a hardwood floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large black-and-white dog rests peacefully in a doorway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large black-and-white dog is sleeping peacefully on a wooden floor just inside a doorway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large black, white, and tan dog is sleeping on a wooden floor in a doorway."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a poker tournament interface showing a player ranked 2nd with a prize amount of $5,806.39."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a computer screen shows a [ORGANIZATION] tournament results popup for a SCOOP NLHE event with a runner-up finish and prize amount."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "$45[ORGANIZATION] poker tournament result displayed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] tournament pop-up showing player '[ACCOUNT]' with a balance of $5,806.39 in a $100 [ORGANIZATION] event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a PokerStars online poker tournament results screen showing a player named [PERSON] finishing in 2nd place and winning $5,806.39."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [LOCATION] with a tricolor coat holds a red, yellow, and green plush toy in its mouth while standing on a wooden floor indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [LOCATION] is holding a colorful toy in its mouth while standing on a wooden floor."
+        },
+        "gpt-5.4": {
+          "summary": "A large black, white, and brown dog stands indoors by a door holding a colorful plush toy in its mouth."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog holding a colorful toy in its mouth while lying down."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Bernese mountain dog holds a rainbow-colored toy in its mouth while standing on hardwood flooring near a door."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large tricolor dog stands on a wooden floor holding a colorful, rainbow-patterned toy in its mouth."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A panoramic view of a baseball stadium with a clear blue sky and a well-maintained field."
+        },
+        "gpt-5.4": {
+          "summary": "Wide view of a baseball game at [LOCATION] showing the field, crowd-filled stands, and a large screen with the [ORGANIZATION] logo under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a baseball stadium during daytime under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide view of a baseball stadium under a clear blue sky, with fans seated and players on the field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a sunny day at [LOCATION] showing the baseball field, players warming up, and spectators in the stands."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a blue dish filled with a creamy dessert topped with cocoa powder."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a small black dish filled with cocoa-dusted cream or mousse-like dessert, photographed outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a heart-shaped bowl filled with tiramisu topped with cocoa powder."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a blue bowl containing tiramisu-like dessert dusted with cocoa powder."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a blue plastic cup containing a dessert with piped cream and cocoa powder, likely tiramisu or a similar treat."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog lies on the grass in a residential area at night, with a city skyline visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A dog lies on the grass beside a sidewalk at night, overlooking a residential hill with parked cars and a brightly lit city skyline in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog rests in a grassy yard under streetlights as city lights glow across the horizon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dog rests on grass in a residential yard at night, with a distant city skyline visible across the street."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-furred dog rests on a grassy lawn at night, looking out from a residential street toward a brightly lit city skyline in the distance."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in a lobby area, relaxed with their feet up on a table while using a phone."
+        },
+        "gpt-5.4": {
+          "summary": "A casual indoor lounge or hotel lobby scene shows a person seated in a high-back chair using a phone, with a bag on the floor nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sits in a chair holding an object near their mouth while wearing casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits in a yellow armchair in a hotel lobby, holding a phone, with luggage nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person sits in a beige armchair in a hotel lobby, looking at a phone while another person's legs are visible on an adjacent chair."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a casual indoor setting with a person lounging in a chair and another person seated nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A casual indoor lounge or lobby scene shows two people seated in armchairs with a bag on the floor nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sits in a yellow armchair next to another chair by an open window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits relaxed in a yellow armchair in a room with wood-patterned flooring and other furniture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a waiting room with wood-look flooring, featuring two people seated in armchairs and a duffel bag on the floor."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in a business outfit is bending down in a lobby area with seating and decor."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry indoor lounge or hotel lobby scene shows a person bending near a small table, with armchairs, a bag on the floor, and recessed ceiling lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person bends over in a living room filled with furniture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurry indoor scene showing a person bending over in a furnished room with wood flooring and ceiling lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blurry indoor shot of a hotel lobby or lounge featuring a person bending over near a table, with a large armchair and patterned flooring in the foreground."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man is seen behind a [LOCATION], which is resting its head on a grey surface and looking directly at the camera in a close-up shot."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a dog resting on a couch with a person partially visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor photo shows a large black, white, and brown dog lying down with a person leaning behind it on a couch or bed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a man lying next to his dog in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie showing a person resting their head on a large [LOCATION] lying on a couch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a man resting his head affectionately against the face of a large tricolor dog on a couch."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a foot with a visible injury and a bandage, placed on a textured surface."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a bare foot on rough concrete with a small injured toe wrapped in a bloody makeshift bandage and a joking text overlay."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a foot showing an injured toe covered in bandage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a foot with a bloody injury on the big toe, covered partially by a torn wrapper, resting on textured ground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a human foot with a bloody bandage on the fourth toe, resting on a textured concrete surface."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large dog is lying on the floor next to a suitcase and a backpack in a home setting."
+        },
+        "gpt-5.4": {
+          "summary": "A large tricolor dog lies on a hardwood floor with its head resting against stacked luggage beside a staircase inside a house."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog rests beside a stack of bags in front of stairs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large black-and-white dog sleeps peacefully on a hardwood floor next to stacked luggage near a staircase."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large tricolor dog lies on a wooden floor next to packed luggage near a staircase."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a hand holding a large, multi-layered burger with sesame seed buns, two patties, cheese, lettuce, and onions, presented in a white fast-food box."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a layered hamburger with lettuce and cheese."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds two stacked cheeseburgers with sesame buns, beef patties, lettuce, and melted cheese indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a double cheeseburger being held in someone's hand."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a hand holding a double-patty hamburger with sesame buns and lettuce."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a hand holding a double cheeseburger with sesame seed buns, lettuce, and jalapeños."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An expansive view of a golf course at dusk, featuring lush green fairways, a winding cart path, a reflective pond, and a colorful sky with clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a golf course at sunset, featuring lush green grass, trees, and a pond."
+        },
+        "gpt-5.4": {
+          "summary": "A peaceful golf course landscape at sunset shows rolling fairways, a winding cart path, trees, and a small pond under a cloud-filled sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene golf course during sunset with a winding path leading through lush greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene golf course at dusk with a winding path, water hazard, and dramatic sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a golf course at dusk featuring manicured fairways, a water hazard, and a colorful sunset sky."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sunny day at a golf course with players preparing to tee off."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny golf course scene shows a golfer teeing off near a clubhouse with several other players and golf bags nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A golfer prepares to putt near a clubhouse under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golfer takes a swing on a sunny day, with spectators and a Tudor-style building nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunny outdoor scene at a golf course featuring players on the green and a Tudor-style clubhouse in the foreground."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man with a beard smiles while sitting on steps next to a dog in a residential setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up outdoor selfie shows a smiling shirtless man in front of a house with a large black-and-white dog sitting on the steps beside him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man takes a selfie in front of his house while smiling next to a dog."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shirtless man with a beard smiles with eyes closed while standing on porch steps, accompanied by a [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless man with a beard and visible tattoos smiles with closed eyes in the foreground while a large black, white, and tan dog sits on the steps of a white house behind him."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] interface showing the song 'Only In Dreams' by [PERSON], featuring a group of four blurred individuals against a blue background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows [ORGANIZATION] playing [PERSON]’s song “Only In Dreams” from Liked Songs, with the band’s blue album artwork on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a music app showing [PERSON]'s 'Only In Dreams' playing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing the band [PERSON] playing 'Only In Dreams' from a 'Liked Songs' playlist."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile music player interface displaying the song 'Only In Dreams' by [PERSON] with the band's album art visible in the background."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals lying on a bed with a pillow displaying the text 'best buds' while a song by the band [ORGANIZATION] plays."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a music player playing [PERSON].'s song \"[PERSON] vs. My [ORGANIZATION]\" with the \"best buds\" album art featuring two people lying on a bed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are lying in bed while listening to a song by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing [ORGANIZATION] song '[PERSON] vs. My [ORGANIZATION]', with album art featuring two men lying on a bed next to a pillow that reads 'best buds'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile music player screenshot showing the song '[PERSON] vs. My [ORGANIZATION]' by [ORGANIZATION], with album art featuring two men lying in bed."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [LOCATION] stands on a sunlit sidewalk in a residential neighborhood, with houses, trees, and flowering bushes in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [LOCATION] stands on a sidewalk in a residential area with flowering plants and trees in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A large black, white, and brown dog stands on a sunny residential sidewalk beside landscaped stone walls, flowering bushes, and trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog stands on a sidewalk in front of landscaped gardens."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black, white, and tan dog stands on a sidewalk in front of a landscaped yard with pink flowering bushes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [LOCATION] stands on a concrete sidewalk in a residential neighborhood, with stone retaining walls and blooming pink flowers visible nearby."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a panoramic view of a city skyline with buildings and greenery in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A distant city skyline rises beyond a residential neighborhood, framed by leafy trees under large clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a suburban area transitioning into an urban skyline under partly cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from a leafy vantage point overlooking suburban homes and a distant city skyline under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view from a residential hillside looking down on suburban houses and across to a distant city skyline under a partly cloudy sky."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a mobile screen showing the [ORGANIZATION] website listing recent earthquakes, with a pop-up window providing detailed information for a 3.0 magnitude earthquake near [LOCATION], [LOCATION]."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a screenshot of an earthquake report from the [ORGANIZATION], highlighting a 3.0 magnitude earthquake near [LOCATION], [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot of the [ORGANIZATION] earthquake website shows the past-day quake list with a highlighted M3.0 event near [LOCATION], [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] earthquake report showing recent seismic activities."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen showing the [ORGANIZATION] earthquake app with a pop-up detail for a magnitude 3.0 quake near [LOCATION], [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the [ORGANIZATION] website displaying a list of recent earthquakes, with a detailed pop-up for a magnitude 3.0 event in [LOCATION], [LOCATION]."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [LOCATION] is resting on a couch with a yellow pillow, while a person's leg is visible in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A large black, white, and brown dog lounges on a brown couch with its head resting on a beige pillow in a living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large dog lounging comfortably on a couch next to someone's legs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large black-and-white dog rests comfortably on a couch next to a person's leg."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large black, white, and brown dog rests on a grey couch next to a person's leg in a living room setting."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [LOCATION] is lying on a rug in a cozy living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A large Bernese mountain dog lies on a rug indoors with its tongue out, in front of a small bookshelf and staircase."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A happy [LOCATION] sitting indoors in a cozy home environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [LOCATION] sits happily on a rug indoors, looking at the camera with its tongue out."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large tricolor dog, likely a [LOCATION], lies on a rug indoors with its tongue out while looking at the camera."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a tweet announcing [PERSON] victory in a poker event, along with a leaderboard of top players and their winnings."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot of a Twitter post reporting a [ORGANIZATION] poker tournament win by [PERSON], with event details and a payout leaderboard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Tweet announces [PERSON]'s win in a poker tournament."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet announcing [PERSON] win in a [ORGANIZATION] poker event, with a leaderboard of top players and prize money."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a tweet by [PERSON] announcing [PERSON] win at the WSOPcom Event 9, accompanied by a leaderboard showing top finishers and their prize money."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bright orange full moon is visible in a twilight sky above a distant city skyline and closer industrial"
+        },
+        "gpt-4o-mini": {
+          "summary": "A bright full moon is visible over a city skyline during twilight."
+        },
+        "gpt-5.4": {
+          "summary": "A bright full moon hangs over a distant city skyline at dusk, with power lines crossing the sky and rooftops in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "City skyline under a full moon during twilight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright full moon hangs over a city skyline at dusk, viewed from an elevated residential area."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A full yellow moon hangs in a twilight sky above a distant city skyline with illuminated skyscrapers, viewed from an elevated residential area."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a white t-shirt and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a white shirt and hat stands in front of a futuristic vehicle with a rainbow in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a white T-shirt and bucket hat stands in a parking lot making a rude hand gesture, with a rainbow, a chain-link sports area, and a silver [PERSON] in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in front of a futuristic vehicle under a rainbow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man stands outdoors near a futuristic car under a rainbow, making a hand gesture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a white bucket hat and t-shirt stands outdoors giving the middle finger, with a silver [PERSON] parked behind him under a rainbow."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [LOCATION] lies on a wooden floor in a sunlit room, with a large window offering a view of a cityscape and residential area, and several wrapped items leaning against the wall."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [LOCATION] lies on a wooden floor in a room with a view of a city skyline through a window."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white dog lies on a sunlit hardwood floor beside wrapped items under a large window with a distant city skyline view."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog lounges by a window overlooking an urban landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white dog rests on a wooden floor near a window with a cityscape view, surrounded by unpacked furniture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large black, white, and tan dog lies on a hardwood floor in front of a window with a city view, surrounded by wrapped packages."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black, white, and brown dog lies on a sunny grassy hill, looking out over a distant city skyline with tall buildings under a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog relaxes on a grassy area with a city skyline in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white dog lies on a sunny grassy hill with a large city skyline and a tall central skyscraper in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog lounges in a grassy field overlooking an urban skyline."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [LOCATION] rests on grass overlooking a city skyline under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large tricolor dog rests on [ORGANIZATION] with the [LOCATION] skyline, including One World Trade Center, visible in the background under a clear blue sky."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large [LOCATION] stands next to a bed covered with a black and white patterned duvet, appearing to sniff the bedding in a room with white walls and a wooden floor."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog stands beside a bed with a patterned blanket in a simple room."
+        },
+        "gpt-5.4": {
+          "summary": "A large black, white, and brown dog stands beside a bed with bold black-and-white patterned bedding in a plain bedroom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large dog stands beside a bed covered in black-and-white patterned sheets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white dog rests its head on a bed with a bold leaf-patterned comforter in a bedroom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large black, white, and tan dog rests its head on a bed covered with a bold black-and-white leaf-patterned duvet in a bedroom."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a reservation form with a special accommodation request for a printed picture of [PERSON] on a bed pillow."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows a hotel reservation/payment form with a humorous special accommodations request asking for a printed picture of [PERSON] on the bed pillow upon entering."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a hotel reservation form showing special accommodations requested."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile screen showing a hotel reservation form with special accommodations and billing details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a hotel booking form showing a specific special accommodation request for a [PERSON] pillow and standard billing fields."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A printed photo of actor [PERSON] smiling is placed on a white bed with pillows and a wooden headboard."
+        },
+        "gpt-4o-mini": {
+          "summary": "A printed photo of a person is placed on a bed between two pillows."
+        },
+        "gpt-5.4": {
+          "summary": "A neatly made bed with white pillows is shown indoors, with a printed photo of a man propped against one pillow."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pillow features a printed photo of [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A printed photo of a man in a suit rests on a bed with white striped sheets and pillows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A printed photograph of actor [PERSON] rests against a white pillow on a neatly made bed with striped linens."
+        }
+      }
     }
   }
 }

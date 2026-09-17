@@ -1,62 +1,337 @@
 {
   "user_id": "participant_030",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "dining",
-        "film and television"
-      ],
-      "summary": "Generalized visual topics: dining; film and television."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person walks down a path holding a Quran, with a serene landscape in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in black clothing and a white cap walks down a narrow walled outdoor path at golden hour, carrying an ornate book, with the overlaid text \"Alhamdulillah, here we go again.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person walks down a street wearing traditional attire under warm sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white cap and black shirt walks away down a narrow path beside a high wall, with text overlay reading '[PERSON], here we go again'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a white kufi cap and black shirt with a Quran patch walks down a dusty alleyway lined with walls and trees."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "dining",
-        "music",
-        "nature visits",
-        "savory food",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: dining; music; nature visits; savory food; walking and hiking."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A young person poses in three different stances, wearing a black t-shirt and sweatpants, showcasing a casual style."
+        },
+        "gpt-5.4": {
+          "summary": "A three-panel collage shows a person posing in a black graphic T-shirt, black joggers, and slide sandals on a tiled porch near a doorway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young man poses in three different outfits featuring '[ORGANIZATION] shirts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young person poses in three different stances wearing a black branded t-shirt and [PERSON], standing on tiled flooring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A triptych collage of a young man posing in black athletic wear featuring 'LDN DENIM' and '[PERSON]' branding against an outdoor tiled background."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "dining",
-        "film and television",
-        "music",
-        "outdoor activities",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: dining; film and television; music; outdoor activities; reading."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in front of a pink wall, wearing a colorful graphic sweatshirt and ripped jeans, holding a folder."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands outdoors against a worn pink wall, wearing a black graphic outfit and holding a black folder or document sleeve."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands against a weathered wall wearing vibrant clothing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young man stands against a weathered pink wall wearing a graphic black sweatshirt, ripped black pants with text, and black sandals while holding a folder."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man stands against a weathered pink wall wearing a black graphic sweatshirt, ripped jeans with white text, and [PERSON] slide sandals while holding a folder."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "film and television",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; film and television; walking and hiking."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of flatbreads and a colorful vegetable dish on a patterned surface."
+        },
+        "gpt-5.4": {
+          "summary": "A plate holds several browned crepe-like pancakes with a side of sautéed cabbage and carrots, with a fork resting on the plate."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of pancakes topped with a vegetable stir-fry sits ready to eat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plate of flatbread and saucy vegetable stew garnished with herbs, set on a patterned tablecloth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white plate holds a serving of sautéed vegetables and two golden-brown flatbreads resting on a patterned tablecloth."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "dining",
-        "film and television",
-        "music",
-        "reading",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: dining; film and television; music; reading; savory food."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a white plate holding a meal of sliced white food topped with green herbs and a pile of reddish scrambled food, with a golden fork resting on the plate."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of food featuring scrambled eggs mixed with red ingredients and slices of a starchy side dish, garnished with herbs."
+        },
+        "gpt-5.4": {
+          "summary": "A plate of spicy scrambled eggs with onions is served alongside sliced boiled yam or similar starchy pieces sprinkled with herbs, with a fork on the side."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of food featuring mashed potatoes topped with herbs alongside a dish resembling scrambled eggs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plate of cooked food with sliced white bread garnished with herbs, served with a fork on a dark countertop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white plate on a dark table holds a serving of scrambled eggs mixed with red sauce and onions, accompanied by slices of white bread sprinkled with dried herbs."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "film and television",
-        "outdoor activities",
-        "savory food",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: film and television; outdoor activities; savory food; walking and hiking."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A muscular anime character with a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a muscular animated character with a bun hairstyle, set against a natural background."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style shirtless muscular character with facial scars stands outdoors against a blurred tree-filled background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular animated character stands outdoors in a dramatic pose."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular anime male character with a crown-like hairstyle and facial scar, standing outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A muscular anime character with a topknot hairstyle and dark markings on his face and torso stands outdoors against a blurred natural background."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop displaying an animated fight scene while a plate of colorful rice and corn is placed in front of it."
+        },
+        "gpt-5.4": {
+          "summary": "A plate of yellow rice and fried food sits on a bed in front of a laptop playing an anime fight scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop displaying an anime scene sits open next to a plate of food."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displaying an anime fight scene sits on a bed next to a plate of yellow rice and corn."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A plate of yellow rice, meat, and corn sits on a striped bedspread in front of an open laptop displaying an anime fight scene."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a white t-shirt and green cargo pants stands outside a building, holding a small bag and wearing wireless earbuds."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a white T-shirt and green pants stands outdoors by a white building in warm sunlight, wearing a crossbody bag and earbuds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands outdoors in front of a white building wearing casual attire including earbuds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands outdoors near a white wall, wearing a white t-shirt and carrying a crossbody bag with 'VOLUNTEER' text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man stands outdoors in front of a white building, wearing a white t-shirt, green cargo pants, and a grey crossbody bag with the word 'VOLUNTEER' printed on the strap."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young man stands outdoors with his eyes closed, wearing a white t-shirt, green cargo pants, and a black shoulder bag, bathed in sunlight against a white building wall."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands outside a building wearing a white t-shirt and green pants, holding a black bag with 'VOLUNTEER' written on it."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands outdoors in bright sunlight by a white building wall, wearing a white T-shirt, green pants, and a black crossbody bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person standing outdoors in front of a white building wearing casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands outdoors near a white building, wearing a white t-shirt and green pants, with a crossbody bag labeled 'VOLUNTEER'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man stands outdoors in front of a white building, wearing a white t-shirt, light green cargo pants, and a black crossbody bag with visible branding."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person standing in front of a wall with two smaller figures, one appearing to interact with the wall and the other looking out of a window."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a white T-shirt and green cargo pants poses outside a white building with a crossbody bag, while another smaller figure in a reflective vest stands near plants and a window-side cutout figure gives the image an edited collage look."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young man stands near a wall mural while another person works above him."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young man with a 'VOLUNTEER' bag stands beside another person in a safety vest working near a wall, while a third person is visible through a window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man wearing a white t-shirt and green cargo pants stands outdoors next to a child in a safety vest, with a third person visible in a window reflection."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands outside a building with several workers in safety vests depicted in a surreal manner around them."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized outdoor collage shows a person standing in casual clothes in front of a house wall, with smaller cutout versions in safety vests and a hard hat doing electrical and construction work around him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young man in casual attire stands outdoors near a construction site where workers are engaged."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young man stands near a wall where several workers in high-visibility vests are performing electrical or construction tasks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man in casual attire stands outdoors while surrounded by cutout images of himself wearing safety gear and performing construction tasks."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a chair, partially obscured, wearing a white shirt with a green collar."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person smiling in an office chair, wearing a white collared shirt and sport-style glasses pushed up on their head."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person adjusting sunglasses while seated in a chair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits in a chair, smiling while adjusting sports glasses resting on their head."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man wearing a white shirt with green accents and safety goggles on his forehead poses for a selfie while seated in an office chair."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in a chair, wearing a white shirt with green stripes and earbuds, against a plain wall."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor selfie shows a person seated in a chair wearing a white shirt with green trim, an earbud, and tinted glasses resting on the forehead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing safety goggles indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a white and green shirt with goggles on their head sits in a chair against a plain wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man wearing a white and green striped shirt with safety goggles on his forehead sits in an office chair against a plain wall."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while wearing earbuds and a shirt with green stripes, with a green background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person wearing clear goggles on their forehead, wireless earbuds, and a white shirt with green stripes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing safety goggles indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing goggles on their head and earbuds poses for a selfie indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a young man wearing safety goggles on his forehead, white wireless earbuds, and a white shirt with green accents."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays song lyrics on a laptop screen with a [ORGANIZATION] interface."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] screen shows [ORGANIZATION] in lyrics view with large song lyrics on a dark background and a playlist/queue panel on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Lyrics displayed on a [ORGANIZATION] screen during [ORGANIZATION] playback."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] displays [ORGANIZATION] lyrics with a highlighted line, showing a music-playing interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a [ORGANIZATION] screen displaying [ORGANIZATION] lyrics with the current line highlighted."
+        }
+      }
     }
   }
 }

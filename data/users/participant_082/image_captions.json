@@ -1,67 +1,2867 @@
 {
   "user_id": "participant_082",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "dining",
-        "fitness",
-        "live performances"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; dining; fitness; live performances."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a wet, dark surface with water droplets, likely on a car window."
+        },
+        "gpt-5.4": {
+          "summary": "A high-contrast black-and-white close-up shows raindrops covering a car window and body panel with reflected light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a wet surface reflecting light in black-and-white."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A high-contrast black-and-white close-up of raindrops on a curved, reflective surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-contrast black and white close-up of raindrops on a dark, curved surface with visible streaks."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "dining",
-        "fitness",
-        "music"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; dining; fitness; music."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a mobile interface showing various articles and images related to the Pyramids of Giza alongside a chat interface."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows the [PERSON] app in Arabic alongside [ORGANIZATION] search results about the Pyramids of Giza."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] feed showcasing various images of pyramids in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A split-screen view showing a [ORGANIZATION] feed about the pyramids alongside an AI assistant chat discussing pyramid facts in Arabic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen mobile view showing a [PERSON] chatbot interface with Arabic text about the Pyramids of Giza alongside a [ORGANIZATION] feed displaying various images and videos of Egyptian pyramids."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "dining",
-        "fitness",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; dining; fitness; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a dish with a yellow sauce and a brown baked item beside it."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a round serving dish filled with a thick brown food topped with whole dates and oil, with bread visible at the bottom edge."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bowl of a brownish mixture topped with dates in syrup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a bowl containing a brown paste garnished with dates and a central oil-and-spice mixture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a traditional round brown cake in a white ceramic dish, garnished with dates and a central bowl of golden syrup."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "dining",
-        "fitness",
-        "music"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; dining; fitness; music."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bouquet of white and peach roses, along with a blue"
+        },
+        "gpt-4o-mini": {
+          "summary": "A bouquet of pink roses and [ORGANIZATION] is placed in a car's passenger seat."
+        },
+        "gpt-5.4": {
+          "summary": "A large bouquet of white and pale pink roses with [ORGANIZATION] sits inside a car, with a blue floral card tucked among the flowers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bouquet of white roses sits in a car's center console next to an envelope."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bouquet of peach and white roses with [ORGANIZATION] sits in the passenger seat of a car, accompanied by a blue box labeled '[ORGANIZATION]' and a blurred card."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large bouquet of pink and white roses with eucalyptus sits on the passenger seat of a car at night, accompanied by a blue box labeled '[ORGANIZATION]' and a card."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "dining",
-        "fitness",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; dining; fitness; outdoor activities."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in traditional white attire and headwear smiles broadly while playing an oud, with a microphone positioned in front of him, suggesting a musical performance."
+        },
+        "gpt-4o-mini": {
+          "summary": "A musician in traditional attire plays an oud while seated on a stage."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling performer in white traditional attire plays an oud beside a microphone on a stage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in traditional attire smiles while playing a stringed instrument."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in traditional white attire smiles while playing a stringed instrument on stage with a microphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in traditional white Arab attire plays an oud on stage with a microphone nearby."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "dining",
-        "fitness",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; dining; fitness; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A coffee cup from [PERSON]' is placed in a car's cup holder, with car controls visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A takeaway coffee cup sits in a car cup holder beside a dimly lit dashboard and climate controls at night."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A coffee cup from [ORGANIZATION] placed in a car's center console."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coffee cup sits in a car's cup holder next to illuminated climate controls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [PERSON]' coffee cup sits in a car's center console cup holder next to illuminated climate controls at night."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a dark road with a curved path and road signs indicating a turn."
+        },
+        "gpt-5.4": {
+          "summary": "A dark nighttime view from inside a car shows a curved road with guardrails and [ORGANIZATION] turn signs, with very little else visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime road scene viewed from inside a vehicle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime view from inside a car driving on a curving road with illuminated lane markings and roadside signs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark, low-light view from inside a vehicle driving along a curving road at night with visible lane markings and chevron signs. - visible_text: [] - tags: [\"night driving\", \"road trip\", \"highway\", \"darkness\", \"travel\", \"driving\"]"
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark night sky is filled with numerous small, bright stars, suggesting a clear view of the cosmos."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dark night sky filled with scattered stars."
+        },
+        "gpt-5.4": {
+          "summary": "A dark night sky with scattered bright stars is shown in a minimal long-exposure style."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dark night sky filled with scattered stars."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark night sky with scattered stars visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark night sky featuring scattered stars and a faint, curved atmospheric glow or lens flare."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a gym, showcasing their arm and workout gloves."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie in a gym, wearing a black workout shirt and wrist grips with exercise equipment visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym wearing workout gear."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym wearing a black shirt and fingerless workout gloves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black t-shirt and hand wraps takes a mirror selfie in a gym, holding a smartphone."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A top-down view shows a takeout meal consisting"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a takeout meal consisting of pasta and a salad."
+        },
+        "gpt-5.4": {
+          "summary": "A takeout meal on a table shows creamy orange-sauce pasta, a saucy chicken dish, and a small salad in a clear plastic bowl."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal consisting of pasta in a creamy sauce, another dish possibly containing noodles covered in orange sauce, and a salad."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meal featuring pasta and chicken in sauce, accompanied by a salad in a clear container."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a takeout meal featuring a black tray with macaroni and cheese and a creamy chicken dish, accompanied by a side salad in a clear plastic container."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a gym interior with various exercise equipment and weights."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit gym interior with various weight machines, dumbbells, and plate-loaded equipment arranged in front of mirrored walls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A well-equipped gym interior featuring various exercise machines."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit gym interior showcasing weightlifting equipment, including barbells with weight plates and various machines."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit gym interior featuring a Matrix weight machine with black and red 20kg plates in the foreground."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a group of people in a café setting, with one person holding a drink and several cups on the counter."
+        },
+        "gpt-5.4": {
+          "summary": "A wooden coffee bar holds several takeaway cups beside a large espresso machine, with people reflected in the mirror behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A barista in a green uniform takes photos of coffee cups arranged neatly behind him."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a green hoodie takes a photo of coffee drinks on a wooden counter, reflected in a mirror showing the brand '[ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a green hoodie takes a mirror selfie behind a wooden counter displaying several cups of coffee next to a large espresso machine."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a packaged set of clothing, including gray and green items with a university logo."
+        },
+        "gpt-5.4": {
+          "summary": "A folded gray item sealed in clear plastic is shown indoors with green university-branded fabric pieces on top and three hourglass emojis overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Packaging of a gray bag containing green fabric items featuring university logos."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green and gray folded uniform or apparel, sealed in plastic, with a logo reading '[ORGANIZATION] and Arabic text, placed on a tiled floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grey garment and a green graduation stole with white text and symbols are packaged in clear plastic on a tiled floor."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a rainy scene with dark clouds over a building complex featuring canopies and wet pavement."
+        },
+        "gpt-5.4": {
+          "summary": "An empty courtyard between beige buildings with canopy roofs and wet pavement sits under dark storm clouds after rain."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A rainy day scene outside a building complex featuring tents."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet outdoor plaza with patterned tiles and beige tent-like awnings under a heavily clouded sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wet, paved courtyard with beige buildings and tent-like canopies under a heavy, overcast sky."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a form from [ORGANIZATION] related to nursing student evaluations."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of an official Arabic/English form from [ORGANIZATION] of Nursing in [PERSON] about internship preference selection."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Application form from [ORGANIZATION] College of Nursing in [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A form from [ORGANIZATION] College of Nursing requesting students to apply for a change of academic program during the [ORGANIZATION] period."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a printed administrative form from [ORGANIZATION] College of Nursing in [LOCATION], [LOCATION]."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot of a spacious, modern gym interior featuring numerous exercise machines, a large mural of a man lifting weights, and an industrial-style ceiling."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a spacious gym interior with various exercise equipment and a motivational mural on the wall."
+        },
+        "gpt-5.4": {
+          "summary": "A spacious modern gym interior is filled with strength-training machines, with a large fitness mural and staircase in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A spacious gym interior featuring various exercise machines under a large motivational banner."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A spacious gym with rows of yellow and black exercise machines under an industrial-style ceiling."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a spacious, well-lit gym interior featuring rows of weight machines and a large wall mural depicting a man lifting weights."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a cup of iced tea with desserts in the background on a table."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of iced coffee in a paper cup on a table with plates and cups in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a cup filled with coffee and ice cubes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a cup of iced coffee with ice cubes and foam, set on a marble table with plates of dessert in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand holding a cup of iced coffee with two plates of chocolate cake on a table in the background."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view from inside a car with raindrops on the windshield, capturing traffic and a screen displaying an image."
+        },
+        "gpt-5.4": {
+          "summary": "Inside a car at night, the rain-speckled windshield looks out onto traffic and streetlights while the dashboard screen displays a close-up of a man's face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime car interior view showing a rainy windshield outside and an album cover of [PERSON] playing in the background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A rainy night drive viewed from inside a car, with a smiling man's portrait on the infotainment screen and red taillights visible through the wet windshield."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from inside a car at night during rain, showing traffic lights through the windshield and a smiling man's face on the dashboard infotainment screen."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a document or folder with [ORGANIZATION] logo"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a document from [ORGANIZATION], showcasing its logo and a badge indicating a distinguished student."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a [ORGANIZATION] folder or booklet with Arabic and English branding in an indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Image of a [ORGANIZATION] ID card."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a white document featuring the logo and bilingual text for [ORGANIZATION], with part of a green circular badge visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a white document featuring the green logo and name of [ORGANIZATION] alongside a circular badge with Arabic text."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bright moon is partially obscured by clouds in a night sky."
+        },
+        "gpt-5.4": {
+          "summary": "A bright moon glows through thick clouds in a dark night sky above the corner of a building."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A night sky featuring a bright moon partially obscured by clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright moon partially obscured by clouds, viewed from above a building at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night sky scene featuring a bright moon partially obscured by clouds, with the corner of a building visible in the foreground."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a cup of coffee overlooks a cityscape at night, showcasing illuminated buildings and streets."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a paper cup in the foreground overlooking a wide nighttime cityscape from an elevated hillside viewpoint."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime cityscape viewed from a hilltop featuring illuminated buildings against dark skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a cup of coffee in front of a nighttime cityscape view."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a paper cup of tea in the foreground, overlooking a sprawling city illuminated at night from an elevated vantage point."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts an outdoor seating area at night with bar stools and ambient lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime outdoor terrace with gravel flooring, bar stools, patio heaters, and a large planter overlooks a lit-up shopping area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime rooftop bar area illuminated by ambient lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime outdoor patio with gravel flooring, bar stools, and ambient lighting overlooking a cityscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A modern outdoor rooftop lounge at night featuring a concrete bar, gravel flooring, and patio heaters overlooking a city skyline."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a black and yellow striped sports jersey, posing with a confident gesture against a backdrop of fireworks."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic portrait shows a bearded football player in a yellow-and-black striped club jersey with taped hands and fireworks in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a yellow striped sports jersey poses confidently against fireworks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a yellow and black striped football jersey holds a golden object while fireworks explode behind him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded male athlete in a yellow and black striped [LOCATION] poses with golden hand wraps against a smoky background."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man wearing a white thobe, black vest, and a black and yellow striped scarf poses with one finger raised in front of a brightly lit modern building at night."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a black and yellow scarf poses with one hand raised in front of a brightly lit building at night."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a white outfit and black-and-yellow scarf poses at night with one finger raised in front of a brightly lit stadium-like building."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black-and-yellow scarf raises their hand in front of an illuminated building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a black-and-yellow scarf poses with one finger raised in front of a brightly lit modern building at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing a black and yellow scarf stands at night in front of a large, illuminated modern building while raising his index finger."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A long, well-lit corridor with doors on either side and a water cooler visible."
+        },
+        "gpt-5.4": {
+          "summary": "A clean, brightly lit indoor hallway with multiple doors, reflective flooring, ceiling lights, and a water dispenser."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A long corridor in a modern building with tiled floors and ceiling lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A long, brightly lit office hallway with reflective flooring and evenly spaced doors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A long, empty institutional hallway with a polished terrazzo floor and white walls."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text-based tribute or poem with a blurred portrait of a person."
+        },
+        "gpt-5.4": {
+          "summary": "A scanned or photographed page shows a portrait of a man in traditional [LOCATION] attire alongside several lines of Arabic verse or text, with the name [PERSON] and [PERSON] visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tribute post featuring a man in traditional attire alongside Arabic poetry."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A portrait of a man in traditional attire next to Arabic text with a name tag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post featuring a portrait of a smiling man in traditional Arab attire alongside four lines of Arabic poetry and the name '[PERSON]."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene nightscape features a bright crescent moon in a dark sky above parts of light-colored buildings and dark green trees."
+        },
+        "gpt-4o-mini": {
+          "summary": "A crescent moon is visible in the night sky above a building with decorative architecture and surrounding foliage."
+        },
+        "gpt-5.4": {
+          "summary": "A crescent moon glows in a dark night sky above rounded buildings and trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A crescent moon shines above a building under starry night skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crescent moon shines above a curved, warmly lit building at night, framed by palm trees and foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night scene featuring a crescent moon in the sky above beige residential buildings with arched windows and surrounding vegetation."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a cup of coffee overlooks a city illuminated at night."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a paper cup in the foreground while overlooking a brightly lit cityscape at night from an elevated hillside viewpoint."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime cityscape viewed from a hilltop overlooking illuminated buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a branded cup of coffee against a nighttime cityscape view from an elevated position."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a paper cup of tea in the foreground, overlooking a sprawling city illuminated at night from an elevated vantage point."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a booking confirmation for a concert in [PERSON], featuring details about the event and location."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a booking confirmation and [ORGANIZATION] event card for the Ayed Concert in Abha, including the venue, date, and action buttons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A booking confirmation email for an [ORGANIZATION] concert in [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A booking confirmation for an [ORGANIZATION] concert at [ORGANIZATION] in Abha on [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Google Calendar event confirmation for an [ORGANIZATION] concert in [PERSON] on [DATE] at [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in an [LOCATION] holds a trophy on the field, celebrating a victory."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a red-and-green [LOCATION] kit stands on the field holding a large silver trophy with a medal around his neck in a stadium ceremony."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football player in a [LOCATION] national team uniform holds an [ORGANIZATION] trophy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football player in [LOCATION]'s red and green kit holds a large silver trophy on a stadium field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a [LOCATION] and green shorts stands on a field holding a large silver trophy with a blurred stadium crowd in the background."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A live performance featuring a singer on stage with an orchestra in a well-lit venue."
+        },
+        "gpt-5.4": {
+          "summary": "A singer in traditional attire performs on a large blue-lit stage with an orchestra, a big screen close-up, and an audience seated in an indoor auditorium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A live performance featuring a singer in traditional attire accompanied by an orchestra under vibrant stage lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer in traditional attire sings on a brightly lit stage before an audience, with Arabic text displayed on screens."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male singer in traditional white attire performs on a large, blue-lit stage accompanied by an orchestra and projected onto a massive screen."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a coffee brewing system labeled '[ORGANIZATION]' with multiple glass containers and a person partially visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A branded coffee brewing station labeled \"[ORGANIZATION]\" is shown with four pour-over drippers and glass carafes, with a barista partially visible behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A barista prepares coffee using a [ORGANIZATION] brewing system."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white coffee brewing machine labeled '[ORGANIZATION]' dispenses into four glass pour-over cups, with a person in a matching branded shirt partially visible behind it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white automated pour-over coffee machine labeled '[ORGANIZATION]' is brewing four cups of coffee simultaneously with a barista visible in the background."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two paper cups filled with iced dark beverages are placed on a light wooden table, with parts of a wooden chair visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two coffee cups on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "Two paper cups of dark coffee, one iced and one hot, sit on a round wooden table beside wooden chairs in a cafe-like indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cups of coffee are placed side by side on a wooden table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two paper cups of dark beverages sit on a wooden table, with curved wooden chairs visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two paper cups of iced coffee sit on a light wood-grain table in a cafe setting."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a wall with text that creatively plays on the concept of love and chemistry."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit modern interior shows a curved textured wall with large partial lettering and a small table-and-chairs seating area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wall display illuminated by a spotlight featuring motivational phrases."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit interior space with a wall displaying the phrase 'Don't believe love, believe in [ORGANIZATION]' and a small table with chairs nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit interior shot features a textured white wall with partially visible black text reading 'n't believe', 'lieve in', and 'EMISTRY' alongside outdoor furniture."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person holds a cup of a dark drink with mint leaves, with a blue [LOCATION] table and pool balls visible in the blurred background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a coffee cup while a person is playing billiards in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a paper cup of hot drink in the foreground while a blurred person plays [LOCATION] on a blue pool table indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a cup of coffee near a pool table in an indoor recreational space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a coffee cup with a leaf inside, held in front of a blue pool table where someone is playing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a black paper cup with green tea leaves in the foreground, overlooking a blue pool table where another person is playing in the background."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, side-profile shot of a person wearing a traditional red and white patterned ghutra and a white thobe, looking to the left with a neutral expression."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing traditional attire with a red and white headscarf, partially obscured."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up portrait of a bearded person wearing a red-and-white patterned [ORGANIZATION] and a light-colored robe in a dim setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a traditional red-and-white patterned headscarf."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up portrait of a man wearing a traditional red-and-white patterned [ORGANIZATION] and a light-colored collared shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up profile shot of a man with a beard wearing traditional Arab attire, including a red and white ghutra and agal."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a driver's hands on a steering wheel with a cup of tea or coffee in the foreground, set in a car at night."
+        },
+        "gpt-5.4": {
+          "summary": "Nighttime car interior showing a [ORGANIZATION] steering wheel, illuminated dashboard, and a paper cup of hot tea or coffee with blurred city lights ahead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a [ORGANIZATION] steering wheel in front of an illuminated dashboard display."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a coffee cup held next to a [ORGANIZATION] steering wheel covered in plastic wrap, with city lights visible through the windshield at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view from inside a [ORGANIZATION] vehicle at night, showing a digital dashboard and a paper cup of tea held near the steering wheel."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime cityscape view showcasing a sprawling urban area illuminated by numerous lights."
+        },
+        "gpt-5.4": {
+          "summary": "A wide nighttime cityscape is seen from an elevated viewpoint, with sprawling lights under a dark sky and a large building in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime cityscape view from a high vantage point."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime panoramic view of a densely lit cityscape under a dark sky with a faint celestial object visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle night view of a sprawling, brightly lit city from an elevated vantage point."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a gym interior with a person walking past exercise equipment and a screen displaying a fitness-related video."
+        },
+        "gpt-5.4": {
+          "summary": "A gym interior with workout equipment and a hanging punching bag is shown beneath a large screen playing a bodybuilding workout video."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man walks through a gym while an advertisement plays above him."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks through a gym with exercise equipment and a large screen displaying a fitness-themed movie."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man walks through a modern gym with fitness equipment and a large screen displaying bodybuilders in the background."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person walks alone on a wide, empty surface with a song title and artist displayed below."
+        },
+        "gpt-5.4": {
+          "summary": "A music player screenshot shows album art of a lone person standing on an empty open road under a gray sky, with the track \"The City Holds My Heart\" by Ghostly Kisses playing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person walks alone down a wide road under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface shows a video of a person walking toward the camera on an open paved area, with the song title 'The City Holds My Heart' by [ORGANIZATION] displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A music player interface displays a grainy video of a person walking down an empty road with the song 'The City Holds My Heart' by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up view of gym equipment with a focus on the footrests and pulleys."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] view of a person using a seated cable row machine in a modern gym, with weight stacks and footplates visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person using a leg press machine in a gym."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "First-person view of someone using a cable machine at a gym with white sneakers on foot platforms."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person perspective of someone using a leg press machine in a gym, with white sneakers on the footplate and weight stacks visible."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a camel reaching into a car window where a person is holding a cup."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up camel leans into a car window while someone inside holds a small branded paper cup in a dry open landscape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A camel curiously approaches a car window while holding out its tongue towards an offered cup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A camel peers into a car window, curiously sniffing a coffee cup held by a person inside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person inside a car holds out a green paper cup to a camel that is peering through the open window in a dry, outdoor setting."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "An airplane is flying in a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small airplane is flying across a mostly clear blue sky in a minimal, low-information shot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small airplane flying against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A distant airplane flies against a pale blue sky with faint clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A commercial airplane with a dark tail and yellow accents flies across a clear blue sky."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features four cups of iced coffee and a slice of cake on a wooden table, surrounded by various indoor plants."
+        },
+        "gpt-5.4": {
+          "summary": "A tray with four iced coffees and a powdered brownie dessert sits on a wooden table in front of several potted houseplants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four cups of coffee served alongside a slice of cake in front of potted plants."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four cups of iced coffee and a slice of cake on a tray, surrounded by potted plants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A light green tray holds four cups of iced coffee and a slice of powdered cake on a wooden table surrounded by potted plants."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a gym interior with a person walking past exercise equipment and a screen displaying a fitness video."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit gym interior shows workout equipment, a hanging punching bag, a person walking past, and an overhead screen playing a heavy weightlifting scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man walks through a gym while an advertisement plays above him."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks through a dimly lit gym with fitness equipment and a large screen showing a weightlifting scene."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man walks through a modern gym with fitness equipment and a large screen displaying bodybuilders overhead."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person playing a tabletop soccer game while discussing a match between [PERSON] and [LOCATION], with sports-themed posters in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-style screenshot shows a man beside a tabletop soccer board under photos of football coaches, with Arabic text about analyzing [PERSON] vs [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person gestures towards a miniature football field setup while discussing soccer teams."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man reacts excitedly beside a miniature football pitch setup, with posters of football managers on the wall behind him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a white shirt enthusiastically gestures over a miniature football pitch while standing in front of a wall decorated with posters of famous football managers."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a dark blue scrub top and a backpack takes a selfie indoors, with a fire emoji covering their mouth and a chandelier visible on the ceiling."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a dark shirt and earbuds is taking a selfie indoors, with a chandelier visible above."
+        },
+        "gpt-5.4": {
+          "summary": "Low-angle indoor selfie of a person in dark blue scrub-like clothing with earbuds, with a fire emoji covering the lower face and a chandelier ceiling above."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a blue scrub top poses in front of an ornate ceiling fixture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie indoors with a flame emoji covering their mouth, wearing earbuds and a blue shirt under a decorative ceiling with a chandelier."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle selfie of a bearded man wearing blue scrubs and white earbuds, with a digital fire emoji covering his mouth."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large billboard sign for [ORGANIZATION] and [LOCATION] and [ORGANIZATION] is displayed outdoors under a clear blue sky"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a billboard for [ORGANIZATION], specifically highlighting the Eradah and [ORGANIZATION] in Abha."
+        },
+        "gpt-5.4": {
+          "summary": "A roadside billboard under a clear sky advertises [ORGANIZATION] [LOCATION] and [ORGANIZATION] in Abha."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Billboard advertising mental health services in [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large outdoor billboard advertises [ORGANIZATION] and ERADAH AND MENTAL HEALTH HOSPITAL - ABHA under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large white billboard for [ORGANIZATION] and [ORGANIZATION] stands against a clear blue sky, with a hilly landscape visible in the background."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a bottle of protein drink inside a car with a blurred outdoor background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand inside a parked or slow-moving car holds a [ORGANIZATION] protein yogurt drink bottle, with a dry roadside landscape visible through the windshield."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a bottle of Nada Greek yogurt drink in front of car interior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a bottle of [ORGANIZATION] brand yogurt drink inside a car, with a dry landscape visible through the windshield."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a bottle of [ORGANIZATION] brand yogurt drink inside a car, with an arid landscape visible through the windshield."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a page of handwritten text in Arabic, likely from a book or poem."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of an aged book page featuring handwritten-style Arabic poetic text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A handwritten Arabic poem titled 'لويس هاليه' displayed in a circular frame."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of handwritten Arabic poetry on aged, textured paper."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a book page featuring handwritten Arabic poetry in blue ink on textured, aged paper."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vehicle is parked at night, illuminating a patch of greenery with its headlights."
+        },
+        "gpt-5.4": {
+          "summary": "A mostly dark nighttime scene shows a vehicle parked on a dirt path with its lights illuminating nearby grass and brush."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime scene of a vehicle's headlights illuminating grassy terrain."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vehicle's headlights illuminate green vegetation at night in a dark, outdoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark vehicle is parked at night in a desert landscape, with its bright headlights illuminating green shrubs and its red taillight glowing against the blackness."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime scene featuring a partially obscured moon among clouds, with palm trees and modern lighting in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime outdoor scene shows a leafy tree, a cloudy moonlit sky, palm trees, and glowing patio heaters beside a stone building."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A night scene featuring a tree against a dark sky illuminated by moonlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime outdoor scene showing a moon partially obscured by clouds, framed by tree foliage and modern lighting fixtures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night view looking up at a moon partially obscured by clouds, framed by the branches of a large tree and modern outdoor lighting fixtures near a stone building."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "An airplane is taxiing on a runway under a dramatic sunset sky."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] passenger airplane is on an airport runway behind a fence under a dramatic golden sky with dark clouds and distant rain."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Saudi [ORGANIZATION] plane taxis under a dramatic sunset sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] airplane taxis on a runway under a dramatic golden sunset, viewed through a chain-link fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] passenger jet taxis on a runway under a dramatic, golden sunset sky, viewed from behind a chain-link security fence."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A crescent moon is visible in the dark night sky above a sprawling city illuminated by numerous lights."
+        },
+        "gpt-4o-mini": {
+          "summary": "A crescent moon is visible in a night sky above a cityscape illuminated by lights."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime cityscape glows with warm streetlights beneath a dark sky with a small crescent moon overhead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A night sky over a cityscape featuring a crescent moon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crescent moon hangs over a cityscape at night, illuminated by scattered streetlights and building lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night view of a densely lit cityscape with a crescent moon in the sky and a streetlamp in the foreground."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a table with drinks and desserts from a restaurant, with people in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime café table is covered with iced drinks and pastries while people stand and sit in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A table set with multiple cups of coffee and pastries in a casual outdoor café environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A table with four iced coffee drinks and two dessert items from ROW, surrounded by people at an outdoor evening gathering."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a table at night featuring five cups of iced coffee and two almond-topped pastries with cream, served in branded packaging from 'ROW'."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an internship training evaluation form for a nursing student in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a nursing internship training evaluation form in front of a hospital wall sign reading “NURSING SERVICES DEP.” in Arabic and English."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nursing internship evaluation form from [ORGANIZATION] in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds an internship evaluation form in front of a '[ORGANIZATION].' sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of an Internship Training Evaluation Form for a nursing student held in front of a [ORGANIZATION] sign."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a gym, sitting on a red workout bench."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a gym showing a person seated on a red exercise machine, with a social-media like sticker covering the face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie in a gym while sitting on an exercise machine."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits on a red gym bench taking a mirror selfie with a smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a grey t-shirt and black pants sits on a red gym machine taking a mirror selfie with a smartphone."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two hands intertwined on a bed with a green pillow in the background, accompanied by a music player interface."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry selfie-style story screenshot shows a person in dark clothing with hands near their face, overlaid with a music track interface and Arabic text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A blurred close-up of a person's face against an out-of-focus background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurry close-up of a person's face partially obscured by their hand, overlaid with Arabic text and audio waveform."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blurry, close-up image of a person lying down with their hands near their face, overlaid with an audio waveform and Arabic text."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of black gym equipment with red accents, featuring the '[ORGANIZATION]' brand, in a modern fitness center with"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows gym equipment in a fitness center, focusing on a Cybex machine."
+        },
+        "gpt-5.4": {
+          "summary": "A view inside a modern gym shows black-and-red strength machines and open workout space under bright overhead lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a Cybex gym machine in an indoor fitness facility."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of a black Cybex gym machine in a well-lit, spacious fitness center with other equipment and people visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of black Cybex gym equipment in a well-lit fitness center with other machines and people visible in the background."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A winding road is illuminated by lights at night, seen from an elevated perspective against a dark, possibly mountainous, background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A winding road illuminated at night, set against a dark mountainous backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A very dark nighttime landscape shows a winding illuminated road cutting through an otherwise black scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime view of a winding road illuminated by vehicle lights against dark surroundings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A winding road illuminated by streetlights at night, viewed from above against a dark landscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A winding mountain road illuminated by streetlights snakes through a pitch-black landscape at night."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two people enjoying drinks and desserts at a cozy outdoor setting at night."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime outdoor café scene shows drinks and pastries on a table with two partially visible seated people and modern patio seating in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people enjoy drinks and desserts in a cozy rooftop cafe during nighttime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people seated at a table outdoors at night, enjoying drinks and desserts from a café with city lights in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A table at a rooftop cafe at night is set with four iced coffees and assorted desserts, flanked by two people in casual and traditional attire."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person's hand holds a ripe banana in the foreground, with a blurred gym interior featuring exercise equipment and another person in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a banana in a gym setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a ripe banana in the foreground of a gym with weight machines and open floor space in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holding a banana in front of an indoor gym."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a ripe banana in front of a gym background with exercise equipment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a ripe banana inside a gym with exercise equipment and another person visible in the background."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a car's side mirror while driving."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing a seatbelt takes a phone selfie in a car’s side mirror, with a gas station visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in their car side mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie inside a car, reflected in the side-view mirror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man takes a mirror selfie in a car's side-view mirror while wearing a seatbelt, with Arabic text visible on the glass."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two empty patterned folding chairs are positioned on a rocky outcrop, overlooking a misty, green mountainous landscape with a distant building."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two chairs with patterned fabric are positioned on a rocky outcrop overlooking a misty landscape with a white building in the distance."
+        },
+        "gpt-5.4": {
+          "summary": "Two patterned folding chairs sit on a rocky hillside overlook facing a foggy mountain valley with shrubs and a white building below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two patterned chairs are set against a mist-covered mountain landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two patterned folding chairs sit on a rocky hillside overlooking a mist-covered valley with distant buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two patterned lounge chairs sit on a rocky ledge overlooking a misty, green mountain valley with white buildings in the distance."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white building with a flat roof is nestled among green trees and shrubs on a misty hillside, with more fog-covered mountains in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A white building is partially visible amidst a foggy mountainous landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A white building sits below a forested hillside covered in heavy smoke or haze."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene mountain landscape featuring a white building amidst dense fog."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white building sits nestled among trees on a misty hillside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white building sits on a green hillside partially obscured by thick fog."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a hilly landscape with clouds and greenery."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic landscape view shows a hillside town and valley beneath massive low clouds with sunlight breaking through over green vegetation."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a mountainous landscape partially covered by clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic view of rolling green hills partially obscured by large clouds under a bright sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape view of green, terraced hills partially obscured by low-hanging clouds with a few buildings visible in the foreground and distance."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a clean area in a medical or clinical setting, featuring a sink, hand sanitizer, and a computer on a desk."
+        },
+        "gpt-5.4": {
+          "summary": "A clean medical clinic workstation is shown with a sink, sanitizer dispensers, hygiene posters, and a computer on the desk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Medical office desk setup including a sink, hand sanitizer dispenser, cleaning supplies, and informational posters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A clean medical clinic reception desk with hygiene supplies, a computer, and instructional posters on the wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A clean medical examination room featuring a white desk with a computer, sink, and wall-mounted hygiene instructions."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in traditional [LOCATION] attire stands next to a white pickup truck, holding a black bag, with Arabic text overlaid on the image."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in traditional attire stands next to a parked vehicle, holding a briefcase."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a long robe and headscarf stands beside a white pickup truck with red stripes, holding a black bag, with Arabic text overlaid at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in traditional attire stands next to a car under cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in traditional attire stands beside a white pickup truck with red and black stripes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-resolution image of a man in traditional Arab attire standing beside a white pickup truck with Arabic text overlaid on the vehicle's side."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a busy drive-thru area of a [ORGANIZATION] with heavy traffic and a foggy atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A foggy nighttime street scene shows a [ORGANIZATION] drive-thru beside heavy traffic with glowing headlights and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime view of a [ORGANIZATION] drive-thru with heavy traffic in the background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime view of a [ORGANIZATION] drive-thru with heavy traffic on an adjacent highway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] drive-thru is pictured at night next to a busy, foggy highway filled with cars."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a busy street scene with cars and illuminated trees under a foggy atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime street scene shows heavy traffic, trimmed trees, bright streetlights, and a building with Arabic signage under a hazy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime street scene showing parked cars in front of a building under an orange-hued sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime street scene with parked cars, illuminated buildings, and tall trees under a hazy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night scene of heavy traffic on a city street with cars lined up in front of a building and trees under an orange, hazy sky."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A barista in a modern coffee shop prepares multiple coffee drinks and a small berry tart on a marble counter."
+        },
+        "gpt-4o-mini": {
+          "summary": "A barista prepares a dessert and coffee drinks at a stylish café counter."
+        },
+        "gpt-5.4": {
+          "summary": "A barista stands behind a large espresso machine in a stylish cafe, with three takeaway coffee cups and a small berry-topped dessert on trays at the counter."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A barista prepares a dessert while two takeaway cups are ready."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A café counter with coffee cups and a dessert, attended by staff behind a marble surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A barista wearing a mask prepares coffee and dessert on a marble counter next to a large espresso machine."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up view of a car windshield with water droplets and streaks, set against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A dark black-and-white view from inside a car shows a windshield covered in condensation or rain streaks at night."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a wet surface reflecting light in dark surroundings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo showing rain streaks and droplets on a car windshield at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-contrast black and white close-up of a textured surface, likely a car windshield, with streaks of water or condensation running down it against a dark background."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a hospital corridor with directional signs for emergency services."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows a hospital corridor with a hanging directional sign in Arabic pointing to emergency and patient services."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white hallway in a hospital showing directional signs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of a hospital corridor with a suspended sign directing patients to services."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of a long, empty hospital corridor with a hanging directional sign in Arabic."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white, low-light image captures a line of cars and a lone figure under a dramatic, cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A silhouette of a person standing near parked cars against a cloudy night sky."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic black-and-white wide shot shows a row of parked cars and a lone figure silhouetted beneath massive storm clouds on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Silhouettes of cars parked under a dramatic sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white night scene showing multiple cars parked on a field under dramatic clouds, with one person standing near the center."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph taken from inside a vehicle shows a line of cars parked on a ridge at night, silhouetted against a bright, cloudy sky."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contains a page of text in Arabic discussing themes of opportunity, giving, and divine wisdom."
+        },
+        "gpt-5.4": {
+          "summary": "A minimalist Arabic book page shows page number 12 and a centered reflective religious quote in black text on a white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A page from a book featuring Arabic script discussing philosophical ideas."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A page from a book with Arabic text, including a chapter number and a quote."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A page from an Arabic religious text featuring a Quranic verse and a paragraph of theological commentary on divine decree."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An overhead shot displays a meal featuring a Margherita pizza, two sliders, and a dark beverage with a lemon slice, arranged on a dark gray table."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a table setting with two burgers, a pizza, a drink, and a napkin."
+        },
+        "gpt-5.4": {
+          "summary": "Overhead restaurant table scene with a margherita-style pizza, two sliders or burgers, and a dark drink with a lemon slice."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal setup featuring a pizza topped with basil leaves alongside two sliders."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A top-down view of a meal featuring a margherita pizza, two sliders, and a drink on a gray table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a restaurant table featuring a Margherita pizza, two sliders on a dark plate, and a glass of soda with lemon."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view from inside a car, with a dashboard displaying speed and other metrics, while driving on a highway with tall buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "View from inside a [ORGANIZATION] driving on a wide urban highway toward a cluster of tall glass skyscrapers in daylight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Dashboard view of a [ORGANIZATION] car driving through an urban highway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from inside a car driving through a modern city with tall skyscrapers under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view from inside a [ORGANIZATION] driving on a highway with a modern city skyline in the background."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person with a mustache and beard, seated in what appears to be"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in a convertible car at night, with city buildings and lights in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime selfie shows a person in a car with tall city buildings and streetlights in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] taken in a cityscape during nighttime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie at night inside a vehicle with city buildings visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a man with facial hair taken at night from inside a vehicle, featuring illuminated city skyscrapers in the background."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a nighttime cityscape featuring illuminated skyscrapers and a busy street with parked cars."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime city skyline with [ORGANIZATION] in the distance, viewed above a lit low-rise building, parked cars, and a busy road."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime cityscape featuring illuminated skyscrapers in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime cityscape featuring the Burj Khalifa and illuminated skyscrapers behind a modern building with parked cars and moving vehicles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night view of a modern city skyline featuring [ORGANIZATION], with illuminated buildings and traffic on a highway in the foreground."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two sun care products, a [ORGANIZATION] tanning oil and a Beesline sunscreen, are displayed side-"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two sun care products: a tanning oil and a sunscreen, placed on a white surface."
+        },
+        "gpt-5.4": {
+          "summary": "Two sun-care products—a [ORGANIZATION] tanning oil spray and a Beesline SPF 50 facial sunscreen—are placed on a white slatted outdoor surface in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two sun protection products are displayed side by side against a white wooden surface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two sunscreen/tanning products sit side-by-side on a white slatted surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two sun protection products, a [ORGANIZATION] tanning oil and a [PERSON] sunscreen cream, are placed on a white slatted surface outdoors."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A modern building with blue glass facades and white triangular balconies is seen"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a modern building with reflective glass and palm trees, viewed from beneath a sunshade."
+        },
+        "gpt-5.4": {
+          "summary": "Upward view of a modern blue-glass building with white balconies, palm trees, and large shade canopies against a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Modern architecture under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle view of a modern glass building framed by large beige umbrellas and palm trees under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a modern glass skyscraper with distinctive white balconies, framed by large beige umbrellas and palm trees under a clear blue sky."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person sits at a table with various food items and drinks, overlooking a cityscape with a large [PERSON] wheel at night."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] lounge scene with pizzas and drinks on a table, people relaxing, and a giant [PERSON] wheel across the water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person enjoys a meal outdoors near water under nighttime lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits at a dining table with food and drinks, overlooking a city skyline with a large [PERSON] wheel at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person sits at an outdoor dining table filled with pizza and drinks, overlooking a waterfront city skyline featuring a large [PERSON] wheel at night."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a sunset view at an airport with vehicles and luggage carts in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "Sunset over an airport-style curbside roadway with parked cars, streetlights, and a row of luggage carts in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sunset scene outside an airport terminal."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunset view from an airport terminal, showing parked cars and luggage carts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunset view from an airport curb with cars, streetlights, and a row of luggage carts in the foreground."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the tail of an airplane with a palm tree logo against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "View of an airplane wing and blue tail fin with the [LOCATION] logo against a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Airplane tail fin featuring a palm tree logo against clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle view of an airplane's tail and wing against a clear blue sky, showing the Saudi [ORGANIZATION] logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from an airplane window showing the blue tail fin with a palm tree and crossed swords logo against a clear sky."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime urban scene featuring a building, palm trees, and a partially visible moon."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime urban scene shows a moonlit cloudy sky above a curved high-rise, palm trees, and storefronts with illuminated signs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime cityscape featuring a palm tree in front of illuminated buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime urban scene featuring a lit skyscraper, palm trees, and storefronts under a cloudy sky with a visible moon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night view of a modern city skyline featuring a curved skyscraper, palm trees, and illuminated storefronts under a cloudy sky with the moon visible."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a clay bowl with a liquid, a glass, and a spoon on a decorative plate."
+        },
+        "gpt-5.4": {
+          "summary": "Top-down view of a small espresso with foam art, a glass of water, and a spoon on a ceramic cafe tray atop a stone table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ceramic bowl of soup served alongside a glass of water on an engraved tray."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A ceramic cup of espresso with latte art, a glass of water with ice, and a spoon arranged on a branded tray atop a marble surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a ceramic cup containing espresso and a glass of water served on an irregularly shaped tray with the text 'KOMA' visible."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A partially obscured moon is visible through dark, cloudy skies."
+        },
+        "gpt-5.4": {
+          "summary": "A dim, blurry night-sky photo shows the moon glowing through clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A moon partially obscured by clouds in a dark sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit moon partially obscured by clouds in a dark sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small, bright moon is visible through a break in dark, heavy clouds against a night sky."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image shows a view from inside a vehicle driving on a dark road at night, illuminated by headlights, with hills or terrain visible on either side under a dark sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit road stretches into the distance, flanked by dark cliffs."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime view from inside a vehicle shows an empty paved road stretching forward between dark rocky embankments, lit by headlights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime road scene viewed from a vehicle's dashboard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime view from a car driving down a straight road flanked by hills, illuminated by headlights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night-time view from a moving vehicle showing a two-lane road illuminated by headlights, flanked by dark hills under a grainy sky."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a split screen featuring a music track on [ORGANIZATION] and a gym setting on [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screen shows app switcher previews of [ORGANIZATION] and [PERSON], including a music post and a gym snap interface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A split-screen showing a [ORGANIZATION] post featuring an audio track alongside a Snapchat interface in gym mode."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A split-screen showing a [ORGANIZATION] audio post with Arabic text and a Snapchat camera interface over a gym background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen mobile interface displaying a [ORGANIZATION] audio player with an Arabic caption and a black-and-white portrait on the left, alongside a Snapchat gym video feed on the right."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An illuminated modern building with a prominent 'SECTION-B' sign and decorative leaf-like structures on its rooftop is captured at night, with a car partially visible in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the exterior of a modern building labeled 'SECTION-B' with decorative lighting at dusk."
+        },
+        "gpt-5.4": {
+          "summary": "A modern building entrance at night with illuminated rooftop canopy structures and a large 'SECTION-B' sign above glass storefront windows."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A modern building entrance labeled 'SECTION-B' illuminated against a night sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime exterior of a modern building labeled 'SECTION-B' with illuminated circular art above the entrance."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A modern building entrance at dusk featuring a prominent 'SECTION-B' sign and illuminated circular architectural elements on the roof."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a table with four cups of iced coffee and a slice of cake in a cafe setting with [ORGANIZATION] in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A cafe table holds four iced drinks and a toasted sandwich in a stylish indoor space with arches, plants, and seated patrons in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four cups of iced coffee are served alongside a slice of bread pudding in an indoor café."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four iced coffee drinks and a pastry on a tray in a lush, arched cafe setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tray holding four cups of iced coffee and a slice of cake sits on a table in a modern cafe with an arched entryway and indoor plants."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a coffee cup in a car, with a digital display of a vehicle interface in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A takeaway coffee cup with Arabic branding is held inside a car, with the vehicle’s touchscreen display and a nighttime street scene in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A coffee cup in a car dashboard view showing an infotainment system."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coffee cup sits in front of a car's touchscreen displaying a vehicle model."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a red takeaway coffee cup with Arabic branding is held in the foreground, while a car's infotainment screen displays a 3D model of an SUV in the background."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime cityscape featuring a road lined with trees and a tall building illuminated in green."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet city street at dusk is lined with trees and streetlights, with a lit modern tower and a crescent moon in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime cityscape featuring a lit skyscraper under a clear sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime city street scene with a lit skyscraper, trees, and a crescent moon in the sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A city street at twilight featuring a distinctive illuminated skyscraper, a crescent moon in the sky, and streetlights lining the road."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of a car's"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a car's center console with two cups of tea and various controls."
+        },
+        "gpt-5.4": {
+          "summary": "A car’s center console is shown from above, with the gear selector beside two cup holders containing dark drinks with green leaves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A car center console featuring two cups of tea in paper containers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a car's center console with two cups of tea and a gear shifter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a car's center console featuring two paper cups filled with dark liquid and green leaves, situated next to an automatic gear shifter."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a brightly lit food stall with Arabic signage, indicating a tea shop."
+        },
+        "gpt-5.4": {
+          "summary": "Nighttime photo of a small food kiosk with bright Arabic signage and a lit service window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime view of a food stall named 'شاهي الجبل' ([PERSON]) illuminated by neon lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime shot of a food cart with illuminated Arabic signage advertising tea and sweets."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night shot of a food stall featuring illuminated yellow Arabic signage and a circular logo depicting mountains and a teapot."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a car's dashboard displaying a music player with the song 'Wa Balayt Ya Qalby' by [PERSON], set against a nighttime city backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A car’s dashboard screen shows an Arabic song playing at night, with blurred lights and parked cars visible through the windshield."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A car dashboard display showing a song playing in Arabic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A car's infotainment screen displays a song playing at night, with a blurred street scene visible through the windshield."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A car's infotainment screen displays a music player interface at night, showing the song 'Wa Balayt Ya Qalby' by [PERSON] with city lights visible through the windshield."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a chair overlooking a city skyline at night, with lights visible in the distance."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime city skyline is viewed from an elevated spot, with silhouetted people and palm leaves in the dark foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people sit silhouetted against a cityscape under night skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A silhouette of a person and a palm tree overlooks a sprawling cityscape at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A silhouette of a person sitting on a hillside at night, overlooking a sprawling cityscape illuminated by [LOCATION]."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a cup of espresso on a saucer, with a wooden background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a small ceramic cup of espresso on a saucer atop a wooden café table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a small ceramic cup filled with coffee placed on a saucer."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a ceramic cup filled with espresso, resting on a matching saucer on a wooden tray."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a ceramic cup filled with espresso, resting on a matching saucer atop a wooden tray."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a person sitting outdoors at night with a kettle and tea glasses, while a tablet displays content against a backdrop of city lights."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime outdoor scene overlooks distant city lights, with a tea setup on a mat and a tablet displaying a black-and-white photo in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person enjoys a quiet evening outdoors watching media on an [ORGANIZATION] while sipping tea."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits outdoors at night, drinking tea beside a tablet playing a video, with a cityscape visible in the distance."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person sits outdoors at night on a hillside overlooking city lights, watching a video of two smiling men on a tablet while holding a glass of tea next to a metal kettle."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of a weather application displaying the current conditions and a multi-day forecast for [PERSON], set against a starry night sky with a visible moon."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast for [PERSON], showing current and upcoming temperatures and conditions."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone weather app screen shows the forecast for Abha at 16° and partly cloudy under a moonlit night theme."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast app showing current temperature in [PERSON] as partly cloudy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather app screen showing current conditions and a 10-day forecast for [PERSON] under a starry night sky with a moon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone screenshot displays a weather application interface showing current conditions and forecasts for [PERSON]."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a gym setting, wearing casual athletic clothing and holding a green bag."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in a gym wearing casual athletic clothes and a green shoulder bag, with exercise balls and workout equipment in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a gym holding an object over their face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym, holding a phone and wearing casual workout attire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a grey sweatshirt and black cargo pants takes a mirror selfie in a gym, with their face obscured by a vinyl record graphic."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a modern gym interior with various workout equipment and a mirrored wall."
+        },
+        "gpt-5.4": {
+          "summary": "A modern indoor gym with weight machines, benches, dumbbell racks, and mirrors is shown empty under bright strip lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A well-equipped gym area featuring various exercise machines."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An empty gym with weight benches, dumbbells, and equipment under bright linear lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An empty, modern gym interior featuring red and black weight benches, dumbbell racks, and industrial-style lighting."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a car interior at night with a music player displaying a song titled 'ما اقتربت انا ليك - سلطنة'."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime view from inside a car shows the dashboard screen with [ORGANIZATION] playing an Arabic song while traffic and streetlights are visible ahead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A car's dashboard display showing [ORGANIZATION] playing a song."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A car's infotainment screen shows Arabic music playing via [ORGANIZATION] during a nighttime drive."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from inside a car at night showing the dashboard infotainment screen playing an Arabic song via [ORGANIZATION], with city traffic visible through the windshield."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a cup of coffee is visible in a car, with a nighttime city street in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry nighttime view from inside a car shows a hand holding a cup in the foreground while driving down a lit city street."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a cup of coffee while driving through an urban street at night."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a cup of dark liquid inside a car at night, with city lights and buildings visible through the windshield."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view from inside a car at night, showing a hand holding a cup of coffee while driving down a city street."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime view of a cityscape illuminated by lights, with a foreground of dry grass and buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A wide nighttime cityscape is viewed from an elevated hillside, with glowing urban lights below and dark sky above."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime cityscape viewed from a hilltop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime panoramic view of a cityscape illuminated by countless lights, seen from an elevated vantage point with dry grass in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle night view of a sprawling city illuminated by countless lights, captured from a hillside with dry grass in the foreground."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A red disposable cup with Arabic text is discarded on dark, rocky ground,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A red cup is lying on a rocky, dirt surface in low light."
+        },
+        "gpt-5.4": {
+          "summary": "A red paper cup with Arabic text lies on a rocky dirt ground at night under flashlight-like lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red cup labeled in Arabic rests against a rocky wall under dim lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red paper cup with Arabic text lies discarded on rocky, dirt ground under dim lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A discarded red paper cup with Arabic text lies on a rough, rocky dirt surface illuminated by artificial light at night."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tall communication tower illuminated against a dark night sky."
+        },
+        "gpt-5.4": {
+          "summary": "A tall red-and-white lattice communication tower with blinking red lights stands on a rocky hillside under a dark, starry night sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tall illuminated tower stands against a dark night sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tall lattice tower with red lights stands against a starry night sky on a rocky hillside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tall lattice communication tower illuminated with red warning lights stands on a rocky hillside against a dark night sky."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is gesturing with their hand while standing in front of colorful wooden objects."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-style selfie video shows a man speaking indoors, with Arabic on-screen text about the new [ORGANIZATION] appearing over the clip."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a pink sweater gestures while speaking in front of yellow objects."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a red shirt smiles while holding a phone to his ear, with Arabic text overlay and social media interface elements visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard and maroon shirt speaks directly to the camera in a selfie-style video, gesturing with his hand while standing indoors near decorative wooden objects."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in outdoor attire is waving at the camera while standing in a rocky landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped social-media video screenshot shows a person in hiking clothes outdoors on rocky terrain, raising a gloved hand toward the camera with Arabic caption text overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in outdoor attire holding a backpack against rocky terrain."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in outdoor attire gestures toward a rocky landscape while text overlays convey a message of divine protection."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in outdoor gear gestures towards the camera while standing on a rocky trail, with an Arabic condolence message overlaid at the bottom."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a nighttime cityscape view from a car, with a coffee cup in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime cityscape is viewed from an elevated spot or parked car, with glowing urban lights and a paper coffee cup in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime cityscape viewed from a car window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime cityscape viewed from a high vantage point, with a coffee cup in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A nighttime view of a sprawling cityscape from an elevated vantage point, with a paper cup in the foreground."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A traditional dallah (coffee pot) sits on embers in a brick fireplace with burning logs, creating a warm and cozy scene."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a traditional kettle beside a roaring fire in a fireplace."
+        },
+        "gpt-5.4": {
+          "summary": "A metal coffee pot sits beside burning logs inside a brick fireplace, creating a warm, cozy scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A traditional metal coffee pot sits beside a fire in an outdoor brick oven."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A brass coffee pot sits in front of a roaring fire inside a brick fireplace."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A traditional metal coffee pot with a brass lid sits in front of a roaring fire inside a brick fireplace."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a graduation gown and cap sits among others at a graduation ceremony."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black graduation gown and cap sits onstage among other attendees at a formal ceremony."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a graduation gown sits attentively during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black graduation gown and cap sits with hands clasped, surrounded by others in academic attire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing a black graduation cap and gown sits on a stage with his hands clasped, surrounded by other attendees in academic regalia."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A workspace setting featuring a wooden table with a plant, electronic devices, and a casual atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A modern shared workspace features a long wooden table with tablets, laptops, coffee cups, charging ports, a large potted plant, and a few seated people."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are working in a modern office space with plants and tech equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People are seated at a long wooden table in a modern café or co-working space, using tablets and laptops."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view of a long wooden communal table in a modern workspace where people are working on laptops and tablets, anchored by a large potted plant."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an ambulance being transported on a flatbed truck."
+        },
+        "gpt-5.4": {
+          "summary": "A white ambulance is being carried on a flatbed/tow truck on a sunny road, with Arabic text overlaid at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A white ambulance parked in a lot under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white ambulance is being towed on a flatbed truck under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white ambulance with red markings is being transported on a flatbed tow truck under a clear blue sky."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person's arm with an IV drip in a medical setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows an outstretched arm with a taped IV line in a bright indoor room beside another person standing nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person's arm showing an IV drip in a medical setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person's arm with an IV drip attached, viewed from a first-person perspective in a clinical setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of an arm with a secured IV catheter, showing a medical setting with another person standing nearby."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a young child posing in three different shots, wearing a plaid shirt and pink pants."
+        },
+        "gpt-5.4": {
+          "summary": "A three-photo collage shows a small child posing outdoors in a plaid button-up shirt and bright pink pants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young child in three different poses wearing shirts with Arabic script."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of three photos showing a young child in different poses wearing a plaid shirt and pink pants, with Arabic text overlaid on each image."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of three photos showing a young boy in a plaid shirt and pink pants with an Arabic phrase overlaid on each image."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated at a table using a tablet in a room with various equipment and a fire alarm notice on the wall."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a white jacket sits at a desk using a tablet in a plain indoor workroom with wall panels and posted notices."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a white jacket works intently on an open laptop in what appears to be an office environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a beige jacket is seated at a desk using a laptop in a utility room with fire alarm zone signage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard wearing a beige jacket sits at a white desk focused on a black tablet in an office setting."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in traditional attire reads a book while a baby lies on a table."
+        },
+        "gpt-5.4": {
+          "summary": "A man in traditional [LOCATION] attire sits at a table reading a book while a baby lies on the tabletop beside him in an indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in traditional attire reads a book while sitting next to an infant lying down."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in traditional attire reads a book at a desk while a baby rests nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in traditional Arab attire reads a book at a desk while a baby lies on the table beside him, with several other books stacked nearby."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a blurred face, set against a textured background."
+        },
+        "gpt-5.4": {
+          "summary": "A grayscale close-up portrait of a person with a loading spinner graphic over their head, creating a meme-like image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white portrait of a person wearing a cap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white portrait of a person with a loading spinner graphic superimposed over their head."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white close-up of a man wearing a white cap with a digital loading spinner graphic superimposed on his forehead."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A first-person perspective shot shows a person wearing a yellow medical gown,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person in protective gear, including a yellow gown and blue gloves, standing next to a blue chair in a clinical setting."
+        },
+        "gpt-5.4": {
+          "summary": "A first-person view shows someone wearing a yellow protective gown and blue glove standing in a clinical room next to a rolling stool."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a protective suit sits near an office chair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view of someone in medical scrubs and gloves standing next to a blue rolling stool in a clinical setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a person wearing yellow protective gear and blue gloves standing next to a medical stool in a clinical setting."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a nighttime scene with illuminated trees and buildings, accompanied by a chat interface displaying messages."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone chat screenshot shows an Arabic Snapchat/WhatsApp-style conversation with a small night street photo preview and a short Arabic text exchange."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime street scene captured in a chat interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] chat screenshot showing a saved snap with a night scene and Arabic text messages."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] chat screenshot showing a conversation in Arabic about visiting an Egyptian restaurant, accompanied by a blurry night photo of a building exterior."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "An airplane is taxiing on a runway under a dramatic sunset sky."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] passenger airplane is on an airport runway behind a fence under a dramatic golden sunset sky with rain clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Airplane taxiing under a dramatic sunset sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] airplane taxis on a runway under a dramatic golden sunset sky, viewed through a chain-link fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] aircraft taxis on a runway under a dramatic golden sunset sky, viewed from behind a chain-link fence topped with barbed wire."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows two cups of coffee on a wooden table, with one cup in the foreground featuring a logo and another"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two coffee cups on a wooden table, with a hand holding one of the cups."
+        },
+        "gpt-5.4": {
+          "summary": "Two paper cups of iced dark drinks sit on a wooden table, with one cup being held by a person in an indoor cafe-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of two coffee cups placed side by side on a wooden table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of two coffee cups on a wooden table, one held by a person in a gray sleeve."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of two paper cups filled with dark liquid and ice on a wooden table, with a person's hand holding one cup in the background."
+        }
+      }
+    },
+    "image_00124": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a table with drinks and a smartphone, with people partially visible in a cozy setting."
+        },
+        "gpt-5.4": {
+          "summary": "A cozy indoor hangout scene shows several people seated around a black coffee table with cold drinks, a travel mug, smartphones, and a small earbuds case."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people are sitting around a table in an indoor setting, engaging casually."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people sit around a dark round table with drinks and phones, suggesting a casual social gathering."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people are gathered around a dark coffee table with drinks, phones, and earbuds in a casual indoor setting."
+        }
+      }
+    },
+    "image_00125": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a chat interface from a social media app showing multiple contacts with unread messages and snap counts."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows the Snapchat Chat screen with a list of contacts, many unread snaps, redacted names, and app notification badges."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat screen showing a list of recent conversations in an app."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Snapchat chat screen showing multiple conversations with unread snaps and timestamps."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the Snapchat chat interface displaying a list of contacts with unread snaps, view counts, and timestamps."
+        }
+      }
+    },
+    "image_00126": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a dark outfit holds a cup of coffee in front of a shelf displaying various decorative cups."
+        },
+        "gpt-5.4": {
+          "summary": "A person in dark clothing holds a paper cup in front of a wooden cubby shelf displaying handmade ceramic cups with small Arabic labels."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black outfit holding a cup of coffee stands before shelves filled with various containers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a dark shirt holds a cup of coffee in front of a wooden shelf displaying labeled ceramic mugs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a dark uniform holds a mug of coffee while standing in front of a wooden grid shelf displaying various ceramic mugs with Arabic labels."
+        }
+      }
+    },
+    "image_00127": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a lively outdoor café setting at night, illuminated by string lights and featuring groups of people socializing."
+        },
+        "gpt-5.4": {
+          "summary": "A cozy outdoor café at night is lit by hanging string lights, with people seated and chatting around small fire tables among plants and a crescent moon decoration."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A lively outdoor gathering under string lights in a cozy urban setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime outdoor gathering at a warmly lit patio with string lights, palm trees, and people socializing around tables."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people gather at an outdoor cafe or restaurant patio at night, illuminated by string lights and a glowing crescent moon sign."
+        }
+      }
+    },
+    "image_00128": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a pair of black shoes standing on a brick path covered with fallen leaves."
+        },
+        "gpt-5.4": {
+          "summary": "A downward nighttime view shows black shoes and a white garment standing on a brick sidewalk beside a curb lined with dry leaves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing black shoes stands above a brick sidewalk scattered with fallen leaves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view of someone standing on a brick sidewalk at night, looking down at a pile of fallen leaves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a person wearing black shoes and white trousers standing on a brick sidewalk next to a pile of fallen leaves at night."
+        }
+      }
+    },
+    "image_00129": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of newspapers and magazines displayed on a rack, highlighting various articles and headlines."
+        },
+        "gpt-5.4": {
+          "summary": "A wooden rack is filled with newspapers, posters, and clippings featuring [LOCATION]-related imagery and headlines, including an aviation-themed cover and current news pages."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A display of newspaper clippings featuring headlines related to [LOCATION] Crown Prince [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden rack displays several newspapers and magazines, including headlines about [LOCATION] Crown Prince and global news."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wooden magazine rack displays various publications featuring Saudi Arabian leaders and news about the [LOCATION]'s economic investments."
+        }
+      }
+    },
+    "image_00130": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a white paper cup filled with iced coffee, featuring dark coffee with melting ice and a creamy swirl, placed on a wooden surface with patterned rugs in the blurred background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a cup of iced coffee with cream swirling on top, placed on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "A paper cup of iced coffee with cream swirling on top sits on a wooden table indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a cup filled with an iced coffee drink placed on a wooden table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cup of iced coffee with swirls sits on a wooden table next to a patterned rug."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of an iced coffee with cream swirls in a patterned paper cup resting on a wooden table."
+        }
+      }
     }
   }
 }

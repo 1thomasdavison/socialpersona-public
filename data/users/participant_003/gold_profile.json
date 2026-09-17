@@ -1,6 +1,6 @@
 {
   "user_id": "participant_003",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
@@ -14,34 +14,67 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "home alone",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            34,
+            63,
+            89,
+            107
           ],
           "evidence_post_ids": [
-            "participant_003_phase_2",
-            "participant_003_phase_3",
-            "participant_003_phase_4"
+            "participant_003_post_0035",
+            "participant_003_post_0064",
+            "participant_003_post_0090",
+            "participant_003_post_0108"
+          ]
+        },
+        {
+          "label": "movies",
+          "evidence_post_indices": [
+            0,
+            11,
+            106,
+            115
+          ],
+          "evidence_post_ids": [
+            "participant_003_post_0001",
+            "participant_003_post_0012",
+            "participant_003_post_0107",
+            "participant_003_post_0116"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "holiday movies",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            63,
+            107
           ],
           "evidence_post_ids": [
-            "participant_003_phase_1",
-            "participant_003_phase_2",
-            "participant_003_phase_3",
-            "participant_003_phase_4"
+            "participant_003_post_0064",
+            "participant_003_post_0108"
+          ]
+        },
+        {
+          "label": "celebrity new",
+          "evidence_post_indices": [
+            34,
+            183
+          ],
+          "evidence_post_ids": [
+            "participant_003_post_0035",
+            "participant_003_post_0184"
+          ]
+        },
+        {
+          "label": "little house on the prairie",
+          "evidence_post_indices": [
+            33
+          ],
+          "evidence_post_ids": [
+            "participant_003_post_0034"
           ]
         }
       ]
@@ -51,41 +84,84 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "gaming interests",
+          "label": "the legend of zelda",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            5,
+            19,
+            24,
+            30,
+            46,
+            55,
+            59,
+            63,
+            83,
+            89,
+            109,
+            118,
+            123,
+            126,
+            134,
+            157,
+            162,
+            168,
+            172,
+            176
           ],
           "evidence_post_ids": [
-            "participant_003_phase_1",
-            "participant_003_phase_2",
-            "participant_003_phase_3",
-            "participant_003_phase_4"
+            "participant_003_post_0006",
+            "participant_003_post_0020",
+            "participant_003_post_0025",
+            "participant_003_post_0031",
+            "participant_003_post_0047",
+            "participant_003_post_0056",
+            "participant_003_post_0060",
+            "participant_003_post_0064",
+            "participant_003_post_0084",
+            "participant_003_post_0090",
+            "participant_003_post_0110",
+            "participant_003_post_0119",
+            "participant_003_post_0124",
+            "participant_003_post_0127",
+            "participant_003_post_0135",
+            "participant_003_post_0158",
+            "participant_003_post_0163",
+            "participant_003_post_0169",
+            "participant_003_post_0173",
+            "participant_003_post_0177"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "gaming interests",
+          "label": "video games",
           "evidence_post_indices": [
-            3
+            123,
+            134
           ],
           "evidence_post_ids": [
-            "participant_003_phase_4"
+            "participant_003_post_0124",
+            "participant_003_post_0135"
           ]
         },
         {
-          "label": "video games",
+          "label": "video game fandom",
           "evidence_post_indices": [
-            0,
-            1
+            162,
+            176
           ],
           "evidence_post_ids": [
-            "participant_003_phase_1",
-            "participant_003_phase_2"
+            "participant_003_post_0163",
+            "participant_003_post_0177"
+          ]
+        },
+        {
+          "label": "gam fandom",
+          "evidence_post_indices": [
+            5
+          ],
+          "evidence_post_ids": [
+            "participant_003_post_0006"
           ]
         }
       ]
@@ -95,33 +171,39 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "dining",
+          "label": "restaurant",
           "evidence_post_indices": [
-            0
+            148,
+            162,
+            168
           ],
           "evidence_post_ids": [
-            "participant_003_phase_1"
+            "participant_003_post_0149",
+            "participant_003_post_0163",
+            "participant_003_post_0169"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "dining",
+          "label": "cocktail",
           "evidence_post_indices": [
-            0
+            162,
+            168
           ],
           "evidence_post_ids": [
-            "participant_003_phase_1"
+            "participant_003_post_0163",
+            "participant_003_post_0169"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "dining out",
           "evidence_post_indices": [
-            0
+            162
           ],
           "evidence_post_ids": [
-            "participant_003_phase_1"
+            "participant_003_post_0163"
           ]
         }
       ]
@@ -131,37 +213,46 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "travel city exploration interests",
+          "label": "sightsee",
           "evidence_post_indices": [
-            0,
-            3
+            5,
+            19,
+            148
           ],
           "evidence_post_ids": [
-            "participant_003_phase_1",
-            "participant_003_phase_4"
+            "participant_003_post_0006",
+            "participant_003_post_0020",
+            "participant_003_post_0149"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "city exploration",
+          "label": "travel destination",
           "evidence_post_indices": [
-            0
+            19
           ],
           "evidence_post_ids": [
-            "participant_003_phase_1"
+            "participant_003_post_0020"
           ]
         },
         {
-          "label": "travel",
+          "label": "city living",
           "evidence_post_indices": [
-            0,
-            3
+            143
           ],
           "evidence_post_ids": [
-            "participant_003_phase_1",
-            "participant_003_phase_4"
+            "participant_003_post_0144"
+          ]
+        },
+        {
+          "label": "holiday travel",
+          "evidence_post_indices": [
+            148
+          ],
+          "evidence_post_ids": [
+            "participant_003_post_0149"
           ]
         }
       ]

@@ -1,67 +1,3285 @@
 {
   "user_id": "participant_072",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "dining",
-        "film and television",
-        "live performances",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; dining; film and television; live performances; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a conversation in Tagalog discussing memories related to a breakup, with playful banter between the participants."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of a social media direct-message thread in Filipino/Taglish with chat bubbles, laughter reactions, and timestamps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation in Filipino discussing memory issues related to separation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation in Tagalog about relationship dynamics and returning to the [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [PERSON] reply thread featuring a conversation in Tagalog-English code-switching about relationships and returning to the [LOCATION]."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "dining",
-        "film and television",
-        "music",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; dining; film and television; music; photography."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a chat conversation with humorous exchanges about graduation and dropping out."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows purple message bubbles in Tagalog joking about graduating, dropping out, and reacting with crying emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation discussing graduation plans in Filipino."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a humorous text conversation in Tagalog about a grandmother teasing someone about graduating."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a humorous text conversation in Tagalog where one person jokes about their grandmother expecting them to graduate, and the other replies that they would have dropped out or died by now."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "dining",
-        "music",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: cats; dining; music; photography; reading."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a selection of [ORGANIZATION] with their respective CP values and star ratings."
+        },
+        "gpt-5.4": {
+          "summary": "A Pokémon GO collection screen displays multiple [ORGANIZATION] evolutions with their CP values, including [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], and [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] rankings displayed in a mobile game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] game interface displaying six evolved forms of [ORGANIZATION] with their CP values and names."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from a mobile game displaying eight evolved forms of [ORGANIZATION], each labeled with its name and [ORGANIZATION] (CP) value."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "dining",
-        "film and television",
-        "live performances",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; dining; film and television; live performances; photography."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a conversation about arranging a parcel pickup at a plaza."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a dark-mode chat conversation in Filipino about arranging a parcel pickup and meeting at a plaza."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation in Filipino discussing parcel delivery arrangements."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation in Tagalog about someone asking permission to take a parcel and the other person agreeing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation in Tagalog discussing the pickup location for a parcel."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "dining",
-        "film and television",
-        "music",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; dining; film and television; music; photography."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a conversation about Pride Month with playful and humorous exchanges."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot shows a social media direct-message exchange in Filipino with jokes about June/Pride Month and crying-emoji reactions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat message exchange in a dark-themed interface showing two messages discussing pride month."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation showing playful, teasing messages in Tagalog and English with emoji reactions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media comment thread featuring a humorous exchange in Tagalog about Pride Month and being single."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "dining",
-        "film and television",
-        "music",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; dining; film and television; music; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a series of text messages discussing sleep, a binder, and eviction status among housemates."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode messaging screenshot shows several outgoing blue chat bubbles in Filipino/English mentioning a binder, sleep, housemates, and being safe from eviction."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a conversation in Filipino discussing housemate responsibilities."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text message conversation in Tagalog and English, with messages about sleeping, housemates, and being safe from eviction."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a late-night chat conversation in Taglish where the sender jokes about photographing their binder before sleeping to prevent housemates from evicting them."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a series of blue text message bubbles on a black background, showing a conversation with expressions of frustration"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a series of text messages expressing frustration about unreadable tags."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a dark-mode text conversation shows several blue chat bubbles expressing frustration about tags and unreadable writing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat interface showing frustration over unreadable tags."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a messaging app conversation with frustrated text about unreadable tags and random placeholder words."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation on a black background featuring blue message bubbles expressing frustration about tags and sleeplessness."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a humorous chat conversation with playful banter about doing something illegal."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a playful Tagalog conversation with jokes, laughter, a hashtag, and emoji reactions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat conversation discussing illegal activities humorously."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation showing playful banter about doing something 'illegal' while maintaining morals, with emojis and a hashtag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a humorous chat conversation in Tagalog and English where one user jokingly suggests doing something illegal, leading to a playful debate about morality."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a conversation in a chat format with humorous exchanges between two users."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of a casual chat conversation with humorous messages and emoji reactions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat conversation discussing a humorous situation involving going 'to war without weapon'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation showing playful banter about new tags and going to war without weapons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a dark-mode chat conversation featuring mixed English and Tagalog text with laughing emojis."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a humorous text overlay discussing preferences in personality versus physical attributes."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of pillows or bedding with overlaid meme text joking about preferring 'personality' and mentioning a personality disorder."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person's arm resting against striped fabric; overlaid text discusses personality preferences."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a person's arm resting on striped fabric with overlaid text humorously contrasting 'personality' with 'ass or tits' and mentioning a 'personality disorder'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up image of a person's arm resting on a striped fabric surface, overlaid with white text presenting a humorous caption about personality disorders."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a conversation in Filipino, expressing humor and lightheartedness about a situation involving someone named [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot shows chat messages in Filipino with a laughing reaction emoji at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous conversation in Tagalog discussing a funny situation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text message conversation showing humorous, fragmented Filipino text with a laughing emoji."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text conversation in Tagalog where one person laughs at another's reaction to being told they are going to [PERSON]'s."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a group of individuals on a talk show set, with a vibrant background and text messages discussing their looks."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a Tagalog conversation reacting humorously to an embedded TV show image, with slang-filled messages and crying-laughing emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat conversation discussing a TV show featuring four individuals in formal attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chat conversation reacting to a TV show image featuring people in formal outfits on a set with a large eye logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation discussing the fashion looks of celebrities Charlie and Chares on the TV show 'It's [ORGANIZATION]'."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a conversation in a chat format discussing back pain with playful emojis."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a dark-mode chat conversation in Filipino/Tagalog with message reactions, timestamps, and a blue reply bubble with heart emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Text conversation in Filipino discussing spider bites."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation in Tagalog, showing humorous complaints about back pain and playful replies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a casual text conversation in Tagalog discussing arm pain and playful banter."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a conversation about dating on [PERSON], with humorous exchanges regarding the presence of men on the platform."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot shows a casual text conversation joking about [PERSON] settings, tags, and men appearing on the app."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat conversation discussing a dating app experience."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a chat conversation discussing [PERSON] app usage, with one user joking about it being for women only."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation discussing the [PERSON] dating app, specifically noting that it is currently set to show only women."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a tabby and white cat with green eyes, wearing a digitally added pink bow on its head, looking directly at the camera while being held by a person in a dark hoodie."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a cat with a decorative bow, partially obscured by a blurred face."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a tabby-and-white cat indoors, with a pink bow sticker placed on its head."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a cat wearing an emoji pink bow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby cat with a pink bow sticker on its head looks directly at the camera while resting in a dark hooded garment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a tabby and white cat with green eyes, held by a person in a black hoodie, featuring a digital pink bow sticker on its head."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, slightly blurry photo captures a tabby and white cat with its mouth open, appearing"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a cat's face, appearing to be vocalizing or meowing."
+        },
+        "gpt-5.4": {
+          "summary": "A very close-up, slightly blurry photo shows a tabby-and-white cat with its mouth open near the camera indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a cat making an expressive face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurry close-up of a tabby cat with its mouth open, looking upward."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, motion-blurred photo of a tabby and white cat with its mouth open."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a cat's face alongside a person's hand and part of their clothing."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a tabby-and-white cat resting against a person, with the cat’s face filling most of the frame."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a relaxed cat resting its head."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a fluffy tabby cat resting with half-closed eyes, appearing calm and relaxed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, slightly blurry photo of a tabby and white cat resting on a person's lap with a sleepy expression."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a magazine page with an interview and a photo of a person wearing a polo shirt and baggy jeans."
+        },
+        "gpt-5.4": {
+          "summary": "A fashion magazine/editorial page with a full-body model in a dark polo and wide-leg jeans is placed over printed interview pages and a cardboard shipping box."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A magazine spread featuring a person in casual attire standing next to an article."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A magazine spread featuring a smiling young man in casual clothing, overlaid with printed interview text and shipping labels."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a magazine spread featuring a male model in casual denim and polo attire, partially covered by a printed interview page."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital interface displays a list of numerical options with corresponding radio buttons, where the '3.0x' option is currently selected."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a selection menu for video playback speed options."
+        },
+        "gpt-5.4": {
+          "summary": "A dark app settings screen shows playback speed options with 3.0x selected via a green checkmark."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A selection menu showing zoom levels from 1.75x to 3.x."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A settings menu showing zoom levels with 3.0x selected."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-mode user interface displaying a vertical list of playback speed options with the 3.0x setting currently selected."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a chat conversation expressing a desire for balut and includes an emoji conveying surprise or fear."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of a Filipino text conversation with blue and gray message bubbles, a shocked emoji, and messages including “gusto [PERSON]” and “girl.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation in Filipino discussing a preference."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation showing playful, teasing messages between two people."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a humorous text conversation in Tagalog where one person expresses a desire for balut and the other jokingly responds with self-cannibalism."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a conversation with playful and humorous exchanges, including references to song lyrics."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot shows a social media reply thread with Tagalog chat bubbles, laughing reactions, and a profanity-laced message."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation in Filipino discussing a song lyric."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation with playful, teasing messages in Tagalog."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media comment thread featuring text in Tagalog and English discussing song lyrics."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a text"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a conversation with humorous and playful messages about grilling and camaraderie."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of a text conversation shows a blue chat message in Filipino/Taglish, a laughing reaction, and a reply saying support for 'dalawanglibo'."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation in a messaging app discussing getting grilled."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation showing playful teasing and affectionate replies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media comment thread featuring a humorous message in Taglish about supporting a user named '[ACCOUNT]' despite potential backlash."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of rice and grilled meat in the foreground, with a TV screen showing a group of individuals in martial arts uniforms in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A plate of white rice and browned meat is shown in front of a TV screen displaying several people in white martial-arts-style uniforms with subtitles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of rice topped with grilled meat in front of a display featuring figures dressed as martial artists."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a meal with rice and grilled meat, with a TV screen in the background showing a martial arts show."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a meal featuring white rice and grilled meat is set in front of a television screen displaying a K-pop group in martial arts uniforms with Korean and English subtitles."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a conversation with playful banter and emojis between two individuals discussing height and food."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of a playful chat conversation with teasing messages, emoji reactions, and a timestamp."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation in a messaging app discussing height differences humorously."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation with playful banter and emojis."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text message conversation featuring a mix of English and Tagalog, where one person jokes about being taller than the other."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a conversation about the film 'Grave of the Fireflies' by [ORGANIZATION], with a humorous tone regarding emotional impact."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a conversation about watching \"Grave of the Fireflies,\" with a joking reply warning about emotional suffering."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation snippet discussing a [ORGANIZATION] film."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation with one message in Filipino and another in English asking if the recipient craves suffering."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text message exchange discussing the [ORGANIZATION], with one participant jokingly questioning if the other wants to watch something sad."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features multiple printed photos of a group of people posing together in a friendly manner."
+        },
+        "gpt-5.4": {
+          "summary": "Several printed portrait photos of a male music group, including a large group shot and smaller individual/group portraits, are spread on a blue surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Group photo of young men posing together in casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several printed photos of a K-pop group are arranged on a blue surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of printed photographs featuring a group of young men, likely a K-pop band, arranged on a light blue surface."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up side profile shot of a person wearing large black sunglasses, a black shirt, a silver necklace, and multiple earrings, with a blurred background of horizontal lines."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person with dark hair, wearing a black shirt and accessories, set against a backdrop of vertical blinds."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a person wearing oversized black sunglasses, earrings, and a necklace, with blinds in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person wearing sunglasses indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short dark hair wears large sunglasses and a black top, standing indoors near blinds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark hair wearing large black sunglasses, multiple ear piercings, and a long chain earring that extends down their neck."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text conversation expressing a collective feeling of being down and questioning future misery."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a conversation about everyone being in a low mood and asking if things will stay miserable until August."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation discussing a downlow mood among friends."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation expressing collective moodiness and questioning if it will last until August."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation discussing recent low moods and asking if the group will remain miserable until August."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features lyrics with emotional themes about relationships and personal struggles against a bright orange background."
+        },
+        "gpt-5.4": {
+          "summary": "A text-only graphic on an orange background displays several lines of white song lyrics or poetic text about a conflicted relationship."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A poem expressing frustration over conflicting desires."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "White text on an orange background displays lyrics expressing emotional conflict and confusion."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A solid orange graphic displaying white text containing lyrics from the song 'Nothing Else Matters' by [PERSON]."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are engaged in a playful interaction, with one person embracing the other while gesturing with their hand."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling young performers in plaid shirts pose closely on a dark stage, with one hugging or lifting the other in a playful moment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are playfully interacting in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two young men in plaid shirts share a playful, affectionate moment with one hugging the other."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two young men are shown in a close embrace against a dark background, with one wearing a plaid shirt and the other a dark sweater. The image features overlaid Korean text bubbles indicating playful dialogue."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two young individuals pose for a selfie, both making peace signs with their hands against a plain background."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing together, making peace signs with their hands against a neutral background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows two people posing indoors and making peace signs in a casual, soft-lit portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals posing together in a casual studio setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two individuals pose closely together against a plain background, making hand gestures with rings visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two young men pose closely together against a solid background, both making peace signs with their hands."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays notifications related to a streaming service featuring drama content."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone notification panel shows multiple Viu streaming app alerts promoting shows, including a message about high school politics and another about '[PERSON].'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a mobile app interface showing drama recommendations from [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone notification screen showing three Viu app alerts promoting a drama series with text about high school politics and streaming episodes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a smartphone notification panel displaying three alerts from the 'Viu now' streaming app."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a social media message from a user named [PERSON] expressing gratitude to a fan and asking about their favorite song."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a social media message request from an account named [PERSON] with a fan-directed message and options to report, delete, or accept."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON] expresses gratitude towards his fans in a heartfelt message."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media message from [PERSON] thanking a fan and calling them '[ORGANIZATION], followed by a request to accept the message."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a social media message request from an account named '[PERSON] thanking fans and asking for their favorite song."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation among five people discussing humorous family relationships."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode group chat screenshot shows a casual conversation in Filipino with message reactions and timestamps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group chat discussing multiple personalities in a humorous tone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a group chat discussing familial relationships with humorous Filipino text messages."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a group chat named 'multiple personalities' showing three messages in Tagalog discussing characters from a drama series."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with long hair wearing a leather jacket, giving a thumbs-up gesture."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up portrait of a person with layered brown hair, earrings, and a black leather jacket, looking off-camera in a softly lit indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black jacket giving a thumbs-up gesture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up portrait of a person with brown hair and an earring, wearing a black leather jacket and giving a thumbs-up gesture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a young man with brown hair and a black leather jacket giving a thumbs-up gesture."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait shows a person with long wavy hair wearing a white, intricately beaded bridal veil and a strapless garment, looking serenely at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a woman in a bridal outfit with a decorative veil."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows a person with soft glam makeup wearing a lace-trimmed white veil in a studio-style setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a bridal gown wearing an ornate veil."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in bridal attire with a detailed veil and soft makeup looks toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A portrait of a woman with styled hair and makeup wearing an ornate white lace veil against a plain background."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a caption addressing fans of [PERSON], discussing perceptions about her sexuality."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style image shows a blue-lit bedroom ceiling and bed frame with overlaid text about [PERSON] fans."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring a light trail leading towards '[ORGANIZATION] suggesting fan interest."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue-toned image with text overlays addressing fans of [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle shot of a ceiling with LED strip lighting overlaid with text referencing [PERSON] and fan speculation."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a refrigerator filled with various food items, including snacks, energy drinks, and canned goods."
+        },
+        "gpt-5.4": {
+          "summary": "An open storage compartment is packed with convenience foods, including [ORGANIZATION] cans, instant ramen packets, canned tuna, luncheon meat, and a [ORGANIZATION] box."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A refrigerator stocked with various snacks including Monster energy drinks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mini fridge filled with snacks including [ORGANIZATION] drinks, [ORGANIZATION], tuna, and various Korean instant ramen packs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An open mini-fridge is stocked with a variety of instant noodles, energy drinks, canned tuna, luncheon meat, and chocolate bars."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital screen displays a message about a 'Pet and 101-day Streak lost' at 'Today 12:01 AM', with interactive emoji reactions and a 'Nudge' button."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification about losing a pet and a 101-day streak."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode messaging app screenshot shows a notification that a pet and a 101-day streak were lost, with reaction and nudge buttons below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Notification indicating a streak has been lost."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A notification showing a lost pet and streak, with interaction buttons including 'Nudge'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a messaging app interface displaying a notification that a 'Pet and 101-day Streak' has been lost, accompanied by reaction buttons."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a notification about losing a pet and a 196-day streak."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a message saying a 196-day streak was lost, with reaction and “Nudge” buttons below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Notification indicating a streak of pet-related activities has ended after 196 days."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A notification showing a lost pet streak with a flame emoji and interaction buttons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a messaging app interface displaying a notification that a 'Pet and 196-day Streak' has been lost, accompanied by reaction buttons."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text message expressing pride, accompanied by emojis."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a messaging app shows a blue chat bubble saying \"unceasingly is proud\" with emojis and a laughing reaction marked with 2."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A message bubble displaying 'unceasingly is proud' accompanied by emojis."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text message bubble reads 'unceasingly is proud' with chicken and flexing arm emojis, above a small photo of a product package."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a blue chat bubble containing the text 'unceasingly is proud' with emojis, overlaid on an image of [ORGANIZATION] wipes and a green object."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a white jacket and a red cap is seated, while another person gestures towards them."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a red beanie and white track jacket sits indoors in front of a bookshelf while someone points toward them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a white jacket and red cap sits in front of bookshelves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white jacket and red cap sits indoors with a hand pointing at their shoulder, behind a bookshelf."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man with shoulder-length hair wearing a red cap and white jacket sits in front of a bookshelf while another person's hand points at his clothing."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation with playful messages and emojis."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode social media screenshot shows a reply thread with chat bubbles saying \"ate 😉\" and \"pakyu,\" followed by a laughing emoji reaction and a timestamp."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet reply showing a username '[ACCOUNT]' reacting positively."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed social media reply showing two messages and a reaction emoji."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media reply thread featuring a green cartoon character avatar, text bubbles reading 'ate' and 'pakyu', and a timestamped username."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person gesturing with their hand, surrounded by album covers and a caption reading '[ORGANIZATION]'."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media reposts panel over a meme-like image labeled \"[ORGANIZATION],\" showing a person in the background and three album-art-style pictures with repost comments below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting in a room with three images below labeled '[ORGANIZATION]', featuring different scenes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social-media post titled '[ORGANIZATION]' displays three images side-by-side, with comments below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media repost showing a '[ORGANIZATION]' of three movie posters with comments in Tagalog expressing fear and confusion."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with orange hair holding their hands together, partially obscured."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up mirror selfie showing a person with light brown hair, earrings, and rings holding a phone with a purple cartoon-character case."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a mirror selfie while holding an [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with orange hair takes a mirror selfie using a phone with a cartoon-patterned case, wearing multiple rings and earrings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dyed orange hair takes a mirror selfie holding a smartphone with a pink [LOCATION] case, wearing multiple rings and earrings."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with stylish hair is engaged in conversation, smiling and gesturing with their hands."
+        },
+        "gpt-5.4": {
+          "summary": "A person with short hair and layered jewelry sits at a table, smiling and gesturing during what looks like an indoor event or fan meeting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black shirt with white stripes gestures while speaking."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short brown hair smiles while gesturing during what appears to be a seated event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man with brown hair, wearing a black shirt and striped sleeves, smiles while gesturing during what appears to be an indoor event or signing session."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Twitter conversation expressing disbelief and discussing a relationship situation."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of an X/Twitter post and reply from the same account expressing disbelief and mentioning trying things out again with someone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Twitter conversation expressing disbelief over a recent event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter thread showing a user expressing disbelief about a situation and later mentioning they're trying things out again."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter thread by user [LOCATION] expressing disbelief and emotional reflection on reconciling with someone."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a screen displaying a title card for a show about debuting, with the text 'The journey of debuting.'"
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a [ORGANIZATION] video page shows a black-and-white intro graphic with the number 1 and subtitles reading “The journey of debuting.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screen capture of a [ORGANIZATION] video page titled 'The journey of debuting.'"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer screen shows a [ORGANIZATION] video player displaying a black-and-white graphic with the number '1' and text 'The journey of debuting.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A computer screen displays the [ORGANIZATION] streaming interface showing a black-and-white title card for 'Boys Planet 2' featuring a large number one logo and subtitles in Korean and English."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a conversation discussing the trending topic of a boxer, with humorous and sarcastic remarks about his status."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a Tagalog conversation jokingly asking if [PERSON] died and then discussing boxing and allegedly rigged results."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation discussing [PERSON]'s status in boxing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation in Tagalog discussing whether boxer [PERSON] is dead, with humorous and skeptical reactions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text conversation in Tagalog and English discussing the death of boxer [PERSON], with participants expressing disbelief and joking about rigged boxing results."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a conversation in a chat format discussing a woman crying on a train."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot shows a humorous Filipino chat conversation with blue and gray message bubbles, reaction emojis, and messages about someone on a train."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Text conversation discussing a woman who vomited in train."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation in Tagalog about making excuses to go on a train ride, with humorous replies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation in Tagalog discussing a woman crying on a train."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a conversation in a chat format with humorous and casual exchanges between users."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of a social media message thread shows a humorous Tagalog exchange with replies, reactions, and timestamps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat conversation in Filipino discussing reasons why someone wants something."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation with humorous, Tagalog-language messages and emoji reactions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter conversation in Tagalog-English code-switching where users joke about the reasons for wanting to be mature, specifically referencing a handrail at an airport."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a group of participants in yellow jerseys seated in a studio setting, discussing a competition."
+        },
+        "gpt-5.4": {
+          "summary": "A TV screen shows a Korean competition show with contestants in yellow jerseys seated in bleachers and subtitles about star ranking."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of young men in yellow uniforms are seated together during a sports event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Television screen showing contestants in yellow jerseys during a 'Boys Planet' competition, with on-screen text indicating a possible downgrade to 'Two Star'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television screen displays a scene from the K-pop survival show 'Boys II Planet' featuring young men in yellow uniforms during an event labeled 'ALL Star'."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of clothing items, a book, and small accessories arranged on a pink background."
+        },
+        "gpt-5.4": {
+          "summary": "A flat-lay outfit on a pink background shows a beige short-sleeve button-up shirt, blue jeans, a black tote bag, a gray [PERSON] cap, a [PERSON] book, and small accessories."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A flatlay of casual clothing items including a shirt, jeans, cap, book titled 'Letters to [PERSON]', and accessories."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A flat-lay of children's clothing, accessories, and a book arranged on a pink surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat-lay arrangement of children's clothing and accessories, including a beige [ORGANIZATION] shirt, denim shorts, an [PERSON] cap, a tote bag, and a book titled 'Letters to [PERSON]' by [PERSON]."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A plush toy resembling a green frog with an orange mouth and blue shirt is seen behind a glass window."
+        },
+        "gpt-5.4": {
+          "summary": "A large green frog plush toy in a blue shirt is pressed against a window or glass surface with a bored-looking expression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush toy frog wearing a blue shirt stands behind glass."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green plush frog with a sad expression, wearing a blue shirt, is seen behind a glass surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A plush toy of the [PERSON] the Frog character wearing a blue shirt is pressed against a glass window."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A plush penguin toy is hanging from a backpack with a rope tied around its neck."
+        },
+        "gpt-5.4": {
+          "summary": "A small plush penguin is tied with a white rope to a bright red backpack in a close-up shot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush penguin toy tied around a red backpack strap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plush penguin toy is tied with a rope around its neck and hangs against a red fabric background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A plush penguin toy is suspended by a rope tied around its neck, hanging from the zipper of a red backpack."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a low battery warning on a phone screen."
+        },
+        "gpt-5.4": {
+          "summary": "A social media post screenshot shows a phone low-battery shutdown warning above a line reading “Posted by [ORGANIZATION].”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Low battery shutdown notification indicating a phone will shut down unless charged."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen displays a low battery shutdown warning with a progress bar."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a smartphone notification warning that the device will shut down due to low battery and instructing the user to connect a charger."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A plush toy resembling [PERSON], wearing a red [LOCATION]-like hat, holds a pink plush cup with a straw."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plush toy resembling a green frog character with a red wig, holding a pink drink."
+        },
+        "gpt-5.4": {
+          "summary": "A green frog plush toy in a blue shirt and red fuzzy hat is holding a pink drink-shaped plush indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush toy of [PERSON] the Frog holding a pink drink."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green plush frog wearing a blue shirt and red hair holds a pink drink plush."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A green plush toy resembling [PERSON], wearing a red wig and blue shirt, holds a pink plush drink with a straw. A CE MADE tag is visible on the drink."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plush frog character wearing glasses and a red outfit with a strawberry design."
+        },
+        "gpt-5.4": {
+          "summary": "A green frog plush toy is posed indoors wearing red glasses, a red fuzzy hat with a \"Happy\" decoration, and a matching outfit with a strawberry patch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush toy frog wearing a red hat labeled 'Happy' and glasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plush frog wearing red glasses, a red fuzzy hat with 'Happy' text, and a red dress with a strawberry patch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a green plush toy resembling [PERSON], dressed in a red outfit with a strawberry patch and wearing red glasses."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals engaged in a lively interaction during a show, with one person gesturing while the other appears to be listening."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a performer on a purple-lit stage from [ORGANIZATION]'s \"BOYS PLANET\" while a social media \"Send to\" share panel covers the bottom of the screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a performance pose during 'Boys Planet' broadcast."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer on a brightly lit stage with expressive gestures, overlaid with a 'Send to' interface showing contact options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile app interface showing a 'Send to' sharing menu overlaid on a performance clip from the K-pop survival show Boys Planet."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a conversation thread discussing a malfunctioning air conditioning unit and humorously blaming someone named [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of a social media reply thread showing humorous chat messages about an air conditioner, with emoji reactions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation thread discussing blame allocation in a humorous context."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation where users humorously blame 'geonwoo' for hot air conditioning."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media thread featuring a humorous exchange in Taglish about blaming someone named [ORGANIZATION] for the heat and air conditioning issues at [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Ise and [PERSON] are sitting on a bench near an ATM, enjoying snacks from a convenience store."
+        },
+        "gpt-5.4": {
+          "summary": "A blurred photo of a 7-Eleven storefront is overlaid with a timestamp, location note, and a block of story-style text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A food diary entry describing a snack session involving Creamy Cheese Big Bite and Sweet Cream Cheese Fuwa Fuwa bun."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text overlay describes two people, [PERSON] and [PERSON], sitting near an ATM and eating snacks from a 7-Eleven store."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A narrative text overlay describes two characters, [PERSON] and [PERSON], eating snacks at a 7/11 convenience store."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a conversation about a person's perfume usage during a concert, discussing scent perceptions and personal anecdotes."
+        },
+        "gpt-5.4": {
+          "summary": "A black-background screenshot shows a text post titled \"[#WEVERSE REPLY] 250728 #RIWOO\" discussing [PERSON], perfume, scent reviews, and a concert."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation discussing [PERSON]'s scent during a concert."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter thread discussing perfume usage at a concert, with replies explaining scent perceptions and personal anecdotes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a text-based conversation discussing the scent habits of an individual named [PERSON] during a concert."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with orange hair is adjusting their bag in an airport setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person with bright orange hair adjusts a shoulder strap while standing beside bags in an indoor airport-like checkpoint or conveyor area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person with orange hair wearing a black outfit stands in an indoor public space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with orange hair is adjusting a bag while standing indoors near a glass barrier."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with bright orange hair wearing a black tank top stands on an escalator while adjusting the strap of a shoulder bag."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person sitting and looking at their phone, with a text message above referencing a shared memory."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a Tagalog message, reactions, and a GIF of a person laughing while looking at a phone indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a light-colored robe smiles while looking down at their phone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a gray sweater laughs while looking at a phone, shown as a GIF in a messaging interface with overlaid text and reactions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation featuring a text message in Tagalog and a GIF of a smiling person with shoulder-length hair looking at a phone."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a humorous advertisement about [ORGANIZATION] retrograde, suggesting victims call a phone number."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot shows a joke message reading \"[ORGANIZATION] rx sponsored by [ORGANIZATION]\" above a GIF-style billboard ad that says \"Have you been the victim of [ORGANIZATION] Retrograde?\" with a fake phone number."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous billboard advertisement featuring a man in a suit questioning whether someone has been affected by [ORGANIZATION] Retrograde."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A GIF of a man looking thoughtful in front of a billboard advertising '[ORGANIZATION] Retrograde' services."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring a billboard advertisement with a man in a suit and text about [ORGANIZATION] Retrograde, overlaid with the caption '[ORGANIZATION] rx sponsored by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a pencil above a math worksheet filled with addition problems."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holding a pencil works on a math worksheet with addition problems and handwritten answers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holding a pencil over an arithmetic worksheet."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a pencil over a math worksheet with addition problems and handwritten answers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand holding a yellow pencil over a math worksheet featuring multi-digit addition problems."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A child is holding a piece of food and feeding it to a plush toy while sitting against a blue background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a smiling child in a striped sleeveless shirt holding a small white plush toy while someone offers a piece of food near its face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Child feeding a stuffed duck toy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a white stuffed bird while eating a snack, with the bird's mouth appearing to bite the snack."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a child in a striped tank top eating a cracker while holding a white stuffed animal with a red heart."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a fluffy white object with red accents, possibly a slipper or plush"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a plush toy with red accents positioned on a dark surface."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up, low-information view shows fluffy white fur with red plush accents on a black textured surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a plush toy resembling an animal face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a white, fluffy plush toy with red accents resting on a textured surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a white, fluffy plush toy with red accents resting on a black textured surface."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is speaking into a microphone on a television show titled 'Boys Planet'."
+        },
+        "gpt-5.4": {
+          "summary": "A TV screen shows a person speaking into a microphone on the Korean show Boys Planet, with on-screen graphics and a [LOCATION] logo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a microphone appears in front of promotional graphics related to 'Boys Planet'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A television screen shows a man speaking into a microphone during a Korean reality show broadcast."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A photograph of a television screen displaying a male host in a black jacket holding a microphone during a broadcast of the show 'Boys II Planet'."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of photo cards arranged around a central pink book with a door illustration."
+        },
+        "gpt-5.4": {
+          "summary": "A pink album box is surrounded by many portrait photocards arranged on a pastel purple background, resembling a K-pop merchandise display."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of photos arranged around a central pink album cover featuring an ornate door design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of portrait photos arranged around a pink ornate cabinet on a purple background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of K-pop photocards featuring members of the group [ORGANIZATION] is arranged around a pink album cover with an ornate wardrobe design on a purple background."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of photo cards and an album related to a music group, displayed on a pink surface."
+        },
+        "gpt-5.4": {
+          "summary": "A flat lay shows K-pop album packaging and multiple glossy portrait photo cards spread across a pink fabric surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of colorful photos featuring young women in various outfits arranged over a purple surface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A flat lay of K-pop idol merchandise, including album covers and photos of members from [ORGANIZATION] and another group, arranged on a purple surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat lay of K-pop merchandise featuring the album 'Metamorphic' by [ORGANIZATION] and various member photocards scattered on a purple surface."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collection of photo cards featuring a female individual in various poses and outfits, displayed on a purple fabric surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several photo cards of individuals displayed on a purple background."
+        },
+        "gpt-5.4": {
+          "summary": "Several printed portrait photos and photocards featuring the same woman in different fashion looks are arranged on a pink fabric background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Collage of three women in stylish poses against a purple background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four printed photos of women in different outfits are arranged on a purple fabric surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four glossy photocards featuring a young woman in various fashion styles are arranged on a textured purple surface. One card shows her wearing a plaid cap with the text 'miu', while others display black-and-white and color portraits."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white and blue plush toy with a simple face is being washed under a stream of water, surrounded by soap bubbles."
+        },
+        "gpt-4o-mini": {
+          "summary": "A plush toy with a smiling face is submerged in soapy water."
+        },
+        "gpt-5.4": {
+          "summary": "A white-and-blue plush toy is being rinsed under running water in a sink or tub filled with soap bubbles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush toy resembling a snowman in soapy water being rinsed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white and blue plush toy with a surprised expression is being washed in soapy water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white and blue plush toy with a surprised expression is being washed in soapy water."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A green frog plush toy, resembling [PERSON] and wearing a blue garment, is being washed in a red basin with soapy water"
+        },
+        "gpt-4o-mini": {
+          "summary": "A plush toy resembling a frog is submerged in soapy water in a red basin."
+        },
+        "gpt-5.4": {
+          "summary": "A green frog plush toy in a blue shirt is soaking in soapy water inside a red basin while water pours over it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A green frog plush toy being washed in a red basin filled with soapy water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green plush frog toy with a sad expression is being washed in soapy water inside a red basin."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A green plush frog toy wearing a blue shirt is being washed in a red basin filled with soapy water and bubbles."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of a dark-mode messaging conversation shows messages of congratulations and pride, accompanied by numerous crying-face emojis."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a conversation with emotional responses, including congratulations and expressions of pride."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of a social media reply thread showing enthusiastic congratulatory messages with many crying emojis and reaction counts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A congratulatory message thread expressing pride."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a celebratory text conversation with multiple messages expressing pride and congratulations, using laughing-crying emojis."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media comment thread featuring celebratory messages and emojis in English and Tagalog."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of individuals showcasing their fashion styles, accompanied by a humorous comment about one person's wardrobe."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a collage of a person in different outfits with humorous reactions and Filipino text messages below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post featuring a person in various outfits accompanied by emojis."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of three images showing a person in different outfits, including a shirt with text, with visible emojis and chat messages below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post featuring a collage of three photos showing a young man in different outfits, accompanied by text and emojis expressing amusement."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A purple square graphic displays a number '25' followed by Korean and English text, suggesting a ranking or name card."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a ranking badge for an individual named [PERSON], indicating a position of 25th."
+        },
+        "gpt-5.4": {
+          "summary": "A purple square ranking badge displays the text \"25위 판저이\" with the name \"FAN ZHE YI\" underneath on a light background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A purple square displaying '25위 판저이' (meaning Top 25 Fan [PERSON]) in Korean."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A purple digital badge displays Korean text and English name 'FAN [PERSON] with rank '[ORGANIZATION]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A purple digital badge displays the Korean text '25위 판저이' and the English name 'FAN [PERSON], indicating a ranking."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are seated indoors, with one person encouraging the other to smile."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in matching black-and-white outfits sit indoors against a wood-paneled wall, with one person in focus looking to the side and an on-screen subtitle visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in a casual indoor setting are seated side by side; one person has their arm resting over legs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white shirt and black vest sits with arms crossed, looking directly ahead, while another person is partially visible beside them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man with dark hair sits indoors against a wood-paneled wall, looking forward with a neutral expression while wearing a white shirt and black vest."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a metallic bench in a public space, possibly a subway or train station."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed social media screenshot shows part of an indoor scene above a post caption reading “she’s got a way, she got away,” with the username “☆ [ACCOUNT] ☆” and save/time info below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Image of a machine in an industrial setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit close-up of a metallic appliance with warm glowing lights, overlaid with the caption 'she’s got a way, she got away'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-themed social media post displays a cropped, warm-toned image of a metallic bench or radiator above the white text 'she’s got a way, she got away' and user handle '[ACCOUNT]'."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a text conversation where one person apologizes for an inconvenience and the other responds with understanding."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a messaging app shows an apology message, a polite reply, and an \"Unread Messages\" divider."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two messages exchange apologies in a chat interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text message conversation showing an apology and a reply."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a messaging app conversation showing an apology and acceptance between two users."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows a person's face with red lipstick and dark spots, possibly from a filter, with text overlayed prompting to watch a live stream."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a person's face with artistic makeup featuring dots, looking directly at the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a face with dark dot-like makeup or stickers and a live-stream overlay at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person wearing makeup with dark spots applied."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up selfie of a person with dark dots on their face and bright red lips, overlaid with a 'Tap to watch LIVE' prompt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with red lipstick and dark spots on their face, overlaid with a 'Tap to watch LIVE' prompt."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows the lower half of a person's face with blonde hair and a cat with orange and white fur looking upwards, positioned in front of the person."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up selfie of a person with a cat, both looking at the camera."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person making a pout behind an orange-and-white cat, with the cat’s face filling the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up selfie of a person kissing an orange tabby cat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person holding an orange and white cat, both looking toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with blonde hair and an orange-and-white cat, both making puckered expressions towards the camera."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows a person with blonde hair smiling while holding a grey cat with wide green eyes."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is smiling while holding a gray cat close to their face."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person holding a gray cat indoors, creating a soft and affectionate pet portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a gray cat close-up."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with blonde hair is holding a grey cat with green eyes in a close-up selfie."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with blonde hair holding a grey cat with green eyes."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A grid of identical digital 'Voting Certificate' cards, each featuring a headshot of a young man and details for a 'Final Survivor Live Vote' for 'BOYS PLANET"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays multiple voting certificates for a competition titled 'BOY'S PLANET'."
+        },
+        "gpt-5.4": {
+          "summary": "A phone gallery screenshot shows many repeated purple voting certificate images featuring the same portrait and Boys II Planet branding."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A grid of voting certificates featuring a person in various poses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grid of identical purple voting certificates for 'BOYS II PLANET' featuring a young man's portrait and daily participation instructions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grid of identical purple digital voting certificates for a male participant in the 'BOYS II PLANET' survival show."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a voting certificate for a participant in a show called 'Boys Planet'."
+        },
+        "gpt-5.4": {
+          "summary": "A purple Boys II Planet voting certificate graphic shows a live-vote confirmation with a portrait and the name FAN [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A voting certificate from 'Boys Planet' featuring Fan [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A purple voting certificate for 'Boys II Planet' featuring a portrait of Fan [PERSON] and details of a live vote participation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital voting certificate for the K-pop survival show 'Boys II Planet' verifying a vote for participant [PERSON]."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman with dark hair and bangs,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long hair is seated at a table in a cafe, resting their chin on their hand."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows a smiling person seated at a dimly lit cafe or restaurant table with chairs and windows in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting in a cozy café smiling gently."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while resting their chin on their hand inside a dimly lit cafe."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a smiling young woman with long dark hair resting her chin on her hand inside a dimly lit cafe."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two white plush geese or ducks with orange and yellow beaks are positioned on a metal grid rack, appearing to touch beaks."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two plush toy ducks facing each other on a display rack."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of two white goose plush toys with yellow/orange beaks facing each other in a wire display [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two plush duck toys are positioned close together in a wire basket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two white plush ducks are positioned nose-to-nose inside a black wire basket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two white plush geese with orange and yellow beaks are positioned facing each other on a black wire display rack, appearing to kiss."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a fast-food restaurant counter with a menu display and customers waiting to order."
+        },
+        "gpt-5.4": {
+          "summary": "Customers are lined up at a fast-food restaurant counter beneath large ORDER and CLAIM signs and illuminated menu boards."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fast-food restaurant's ordering area showing a menu board displaying burgers and chicken fillets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Customers queue at a fast-food restaurant counter under signage for ordering and claiming food."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view of the interior of a fast-food restaurant showing customers waiting in line under 'ORDER' and 'CLAIM' signs with digital menu boards displaying burgers and chicken meals."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A tabby cat with white markings is curled up and sleeping peacefully on a light-colored surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "A curled-up cat is peacefully sleeping on a light-colored surface."
+        },
+        "gpt-5.4": {
+          "summary": "A tabby-and-white cat is curled up asleep on a light-colored chair indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A gray tabby cat lounging peacefully indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gray tabby cat with white markings is curled up and sleeping on a light-colored surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a tabby and white cat curled up asleep on a light-colored surface."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person resting their head on a shiny, glittery object, accompanied by song lyrics and a [ORGANIZATION] logo."
+        },
+        "gpt-5.4": {
+          "summary": "A split image shows a [ORGANIZATION] lyric card for [PERSON]'s song \"Paths\" beside a soft close-up photo of a person resting on a shiny blue-green surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person lying down next to a [ORGANIZATION] playlist cover titled 'Paths' by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A split image shows a [ORGANIZATION] song card for 'Paths' by [PERSON] with lyrics, alongside a person resting their head on a glittery blue pillow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image featuring a close-up of a person resting their head on an iridescent object alongside [ORGANIZATION] lyrics for the song 'Paths' by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of colorful plush toys, including a yellow and green character, against a background of a pink basket."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows fluffy plush keychain toys piled in a pink basket, including pastel and cream stuffed animals with metal clips."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a colorful plush toy resting in a pink basket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy, multicolored plush toy with a green ear and keychain lies inside a pink plastic basket surrounded by other soft items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of several colorful plush keychains, including a rainbow-colored character and a yellow-and-white figure, resting inside a pink plastic basket."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant, three-dimensional number '1' crafted from paper in blue, orange, and pink stands on a green surface against a purple background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful, three-dimensional number '1' against a vibrant background."
+        },
+        "gpt-5.4": {
+          "summary": "A brightly colored 3D number 1 sculpture stands on a green surface against a purple background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Colorful paper cutout of a number '5' placed against contrasting purple and green backgrounds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful, three-dimensional number one made of layered paper stands on a green surface against a purple background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful, three-dimensional paper cutout of the number '1' stands on a green surface against a purple background."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of six individuals in matching orange outfits are lying on a sandy surface in a relaxed manner."
+        },
+        "gpt-5.4": {
+          "summary": "Several people in matching orange outfits are lying and resting on a floor covered with pink granules in an indoor wellness-style room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Six individuals in yellow robes lie relaxed on a pebble floor inside what appears to be an indoor spa."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five people in matching orange outfits lie relaxed on a bed of small stones inside a wooden room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Six individuals wearing matching mustard-yellow outfits are lying on a bed of pink salt in an indoor room with wooden walls and a visible sign."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital blood pressure monitor showing readings of 120 mmHg systolic and 94 mmHg diastolic."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a digital blood pressure monitor showing 120 systolic, 94 diastolic, and a pulse of 89."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digital blood pressure monitor displaying systolic ([ORGANIZATION]) of 129 mmHg."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a digital blood pressure monitor displaying systolic and diastolic readings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a digital blood pressure monitor displaying a systolic reading of 120, diastolic of 94, and pulse of 89."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A tabby"
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat is sitting on the floor near some footwear."
+        },
+        "gpt-5.4": {
+          "summary": "A tabby cat is curled on a tiled floor indoors, looking up near a sandal and a sneaker."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat lounging comfortably between a person's legs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby cat sits on a tiled floor looking up, surrounded by shoes and a black bag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tabby cat sits on a tiled floor, resting its chin on a dark blue slipper while looking up at the camera."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small figurine of a child in a yellow raincoat holding an umbrella stands on top of a banknote."
+        },
+        "gpt-5.4": {
+          "summary": "A small stylized figurine in a yellow raincoat holds a black umbrella while standing on paper money indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small figurine dressed in a yellow raincoat stands atop [ORGANIZATION] bills."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine of a child in a yellow raincoat holding an umbrella stands on top of a Philippine 500-peso bill."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small figurine of a child in a yellow raincoat holding an umbrella stands on top of a Philippine 500 peso banknote."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of six individuals wearing blindfolds are playfully huddled together in a living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people in casual clothes wear matching cartoon sleep masks while playfully huddling together on the floor in an indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Six individuals wearing sleep masks are gathered closely in a cozy indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several young men in white shirts and blue animal masks are gathered closely on the floor in a playful, interactive scene."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young men wearing matching white shirts and blue sleep masks are playfully huddled together on the floor in a living room setting."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a blue-lit water dispenser next to a colorful aquarium scene."
+        },
+        "gpt-5.4": {
+          "summary": "A small blue-lit appliance sits on a desk beside a brightly lit aquarium-style display with colorful tropical fish and coral imagery."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small aquarium setup next to a larger tank filled with colorful fish."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A humidifier with a blue glowing water tank sits beside a brightly lit aquarium filled with colorful fish and coral decorations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a white dehumidifier with a glowing blue water collection tank positioned next to a brightly lit aquarium filled with colorful fish and artificial coral."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a bouquet of sunflowers held in a car, with a person's shoulder partially visible."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a person in a car holding a large bouquet of bright yellow sunflowers wrapped in blue paper, with a heart-shaped note attached."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a bouquet of sunflowers in their lap while sitting inside a car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a car leans over a large bouquet of sunflowers with a heart-shaped card attached."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person sits in a car holding a large bouquet of sunflowers wrapped in blue paper, with a heart-shaped card attached."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hospital setting with an IV drip and a laptop displaying a performance video."
+        },
+        "gpt-5.4": {
+          "summary": "A hospital-room scene shows IV bags and an infusion pump beside a screen playing an Mnet performance video."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hospital room setup includes an IV drip system next to a monitor displaying a performance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hospital bed with IV equipment next to a TV displaying a K-pop performance."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hospital room scene featuring an IV drip stand and medical pump next to a television screen displaying a K-pop performance."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a selection screen for character cards with a theme option labeled 'COLOR'."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile game screen shows a 'Choose Theme' menu with the 'Color' option selected and a row of collectible character cards labeled A, R, and [PERSON]"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A selection screen showing various character cards under a 'CHOOSE THEME' heading."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game interface showing six character cards under a 'CHOOSE THEME' header with 'COLOR' selected."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile game interface displaying a 'CHOOSE THEME' screen with six selectable character cards featuring young men, where the 'COLOR' option is currently selected."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person's waist area adorned with colorful buttons, keychains, and a can of energy drink."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a colorful outfit featuring a button-covered tie, baggy jeans with plush keychains and charms, and a printed tumbler."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful belt adorned with various buttons and plush keychains."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of a person's waist with colorful button accessories, plush keychains, and a [ORGANIZATION] drink."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a person's waist featuring light-wash jeans, a pink button-adorned fanny pack, and multiple plush keychains attached to belt loops."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a black shirt with the word '[ORGANIZATION]' and a cute plush toy attached to their pants."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a seated person wearing a black graphic T-shirt with large pink text, light green pants, and a plush chick keychain clipped at the waist."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a shirt featuring cats and the word '[ORGANIZATION]', holding a plush toy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a black t-shirt with '[ORGANIZATION]' text and cat graphics, paired with light jeans and a strawberry-themed plush keychain."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a person wearing a black graphic t-shirt with red text and cat imagery, paired with light-wash denim shorts and a plush keychain."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person sitting with a focus on their outfit, accessories, and a small plush toy attached to their belt."
+        },
+        "gpt-5.4": {
+          "summary": "Overhead casual selfie-style photo of a seated person wearing a graphic black top and light green pants beside a white table with a phone and earphones."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black t-shirt with butterfly designs sits in front of an open laptop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a dark shirt with a butterfly graphic and light-wash jeans sits near a desk with a phone and earphones."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle shot of a person wearing a black graphic t-shirt with a butterfly design, light green jeans, and an evil eye necklace, sitting next to a white desk with personal items."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person's legs with cute plush keychains attached to their pants."
+        },
+        "gpt-5.4": {
+          "summary": "A top-down view shows jeans decorated with plush bunny keychains, several keys, and pastel accessory charms while seated indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing light blue jeans adorned with plush toy pouches featuring a llama design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of light-wash jeans adorned with multiple plush keychains and accessories."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a person's lap wearing light-wash jeans, displaying a collection of plush keychains and charms attached to their belt loop."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a chat message discussing a person named [PERSON] and their popularity among lesbians."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot shows a chat message in Filipino with a small profile photo and a crying emoji reaction below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A message in Filipino expressing a comparison involving 'sikat na sikat' (bright) and lesbians."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chat bubble displays a humorous Filipino text message questioning why a person named [ORGANIZATION] is popular among lesbians, accompanied by a crying-laughing emoji."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat message in Tagalog asking why '[ORGANIZATION]' is popular among lesbians, accompanied by a crying emoji and a profile picture of a young man."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a beach setting with surreal elements like flying animals above the ocean."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie-style image shows a person in a tilted black cap against a tropical beach background with humorous edited flying animals and a dolphin over the ocean."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a tropical beach selfie with surreal elements like flying animals."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a cap poses against a tropical beach backdrop digitally altered with flying cows and a dolphin."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with blonde hair and a black cap is superimposed onto a tropical beach background featuring surreal flying animals, including a cow with wings and a dolphin-cow hybrid."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of glazed chicken pieces sprinkled with sesame seeds, accompanied by a fork."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of saucy fried chicken pieces coated in a glossy reddish-brown glaze with sesame seeds, with a fork and spoon in the dish."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a plate containing glazed meat pieces garnished with sesame seeds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of glazed chicken pieces topped with sesame seeds on a plate with a fork and spoon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of glazed, sesame-topped fried food pieces on a textured plate with a fork and spoon."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up overhead shot shows a pile of glazed, sesame-seed-covered food, possibly chicken or a similar dish, resting in a metal bowl."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of glazed, sesame-coated chicken pieces in a metallic bowl."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of bite-sized chicken pieces coated in a glossy brown sauce with sesame seeds and onion bits in a metal bowl."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of cooked chicken pieces in a glossy sauce garnished with sesame seeds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Saucy chicken pieces topped with sesame seeds in a metal bowl."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of glazed chicken wings coated in a glossy brown sauce and sprinkled with sesame seeds inside a metal mixing bowl."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a mobile screen displaying a waiting status for an online service with a large number of users ahead in the queue."
+        },
+        "gpt-5.4": {
+          "summary": "A tilted photo of a smartphone screen shows an app queue page with a progress bar and large waiting counts in a dark setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A mobile screen displaying a waiting queue status showing users ahead (10357) and behind (839)."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A phone screen shows a waiting queue interface with 10,357 users ahead and 839 behind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone screen displays a digital queue interface indicating the user is waiting with over 10,000 people ahead of them."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features lyrics from the song 'Memories' by [PERSON], presented on a red background."
+        },
+        "gpt-5.4": {
+          "summary": "A red [ORGANIZATION]-style lyric card shows the song \"Memories\" by [PERSON] with a visible excerpt of the lyrics."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Lyrics from 'Memories' by [PERSON] displayed in a red [ORGANIZATION] interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] music card displays lyrics from [PERSON] song 'Memories' against a red background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red [ORGANIZATION] lyric card displaying lyrics from the song 'Memories' by [PERSON]."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cozy scene features a cake with a lit candle, two other burning candles, and a smartphone displaying an"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a birthday cake with a candle, flanked by two candles, and a phone displaying a digital apple in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A lit cake and several candles sit in a dim setting, with a phone in the background displaying an outdoor scene partly covered by a large apple emoji."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a decorated cake next to lit candles in front of an outdoor scene displayed on TV."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chocolate cake with candles sits beside lit red and white candles, with a smartphone displaying an apple emoji in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a frosted cake with lit candles and a red candle next to a smartphone displaying an outdoor scene with a large apple emoji overlay."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an abstract black and white artwork associated with the song 'Sugar High' by [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark music player screen shows the song \"Sugar High\" by [PERSON] with a black-and-white surreal illustration and a playback progress bar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white illustration featuring a central figure surrounded by swirling patterns."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white fantasy illustration of three mirrored female figures with flowing hair, framed by ornate swirls, displayed above a music player showing 'Sugar High' by [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white surrealist illustration of a three-faced female figure with flowing hair and smoke, displayed within a music player interface for the song 'Sugar High' by [PERSON]."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An image showing the back of a person with an in-ear monitor under stage"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person from behind, with a focus on their hairstyle and an ear monitor, set against a backdrop of colorful lights, indicating a performance or music setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dark, stylized music-player screenshot shows a backlit person seen from behind with in-ear monitors, with the track 'Sugar HIGH' by [PERSON] and 'BOYS II PLANET' text on the artwork."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person from behind in a dimly lit environment with 'BOYS II PLANET' displayed prominently."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person viewed from behind, adjusting an earpiece under stage lighting, with 'BOYS II PLANET' text overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying the song 'Sugar HIGH' by [PERSON], featuring an album cover with a back view of a person on stage under purple lighting and the text 'BOYS II PLANET'."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person with long brown hair and a serious expression, wearing a white top and a chunky silver chain necklace with a sparkling cross pendant."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with long, wavy hair wearing a silver chain necklace with a cross pendant."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a person with long wavy brown hair, a neutral expression, and a chunky chain necklace with a cross pendant."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing a cross necklace."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up portrait of a person with long brown hair wearing a diamond-encrusted cross necklace."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long brown hair and winged eyeliner wearing a jeweled cross necklace."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an underwater scene with colorful fish alongside a [ORGANIZATION] song quote and a user's profile information."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social profile header collage with aquarium fish, a [ORGANIZATION] lyric card for 'Paths' by [ORGANIZATION], a close-up portrait, and a tweet-style text joke below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile picture of a person in an underwater scene next to a [ORGANIZATION] playlist cover art."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media profile showing a [ORGANIZATION] song card, an aquarium background, a user avatar, and a caption about unexplained tension."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media profile page featuring a banner with an aquarium scene, a [ORGANIZATION] music embed for the song 'Paths' by [ORGANIZATION], and a close-up photo of a person resting their head on a shiny blue pillow."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals in a cozy setting, alongside a [ORGANIZATION] song cover and a personal caption about emotional tension."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed social media profile screenshot shows a collage of selfies and a [ORGANIZATION] lyric card, with a tweet-style caption below about vanishing without explaining."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post featuring a [ORGANIZATION] playlist cover art by [ORGANIZATION] titled 'Paths' alongside images of young individuals in various poses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media profile showing a [ORGANIZATION] song card for 'Paths' by [ORGANIZATION], alongside photos of young men and a circular avatar of a woman."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media profile header featuring a collage of K-pop group [ORGANIZATION] members, a [ORGANIZATION] song embed for 'Paths', and a humorous caption about the user's relationship with vanishing."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, low-angle shot of a tabby cat wearing a red and plaid bow tie, with a strawberry shortcake emoji superimposed next to its head."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a surprised-looking cat wearing a red bow tie."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up low-angle photo shows a tabby cat with wide eyes wearing a red plaid bow tie indoors, with a cake sticker overlay near its neck."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a cat wearing a red bow tie with an emoji slice of cake."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a tabby cat wearing a red bow tie with a strawberry cake pin, looking upward with wide eyes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-angle shot of a tabby cat with wide eyes wearing a red bow tie and a digital cake sticker."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a medical device connected to two IV bags."
+        },
+        "gpt-5.4": {
+          "summary": "A tilted close-up shows IV fluid bags connected to a medical infusion pump in a hospital or clinical room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A medical IV drip setup in a clinical environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A medical IV drip setup with a fluid bag hanging from a stand over a wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a medical infusion pump with an attached IV bag hanging from a metal stand in a clinical setting."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a crowded area with a bus and a brightly lit building in the background."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor space with exposed steel beams and fluorescent lights shows part of a bus on the left and several people standing on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "People are gathered in a modern indoor space under industrial-style ceilings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An indoor public space with exposed ceiling beams, fluorescent lights, and a crowd near a bus stop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a covered outdoor area at night, featuring industrial steel beams and fluorescent lighting above a building facade with vertical stripes."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two tall glasses of creamy beverages, likely milkshakes or smoothies, topped with generous swirls of whipped cream and straws, are shown on a table."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two milkshakes, one with a red topping and whipped cream, and the other a creamy yellow shake, placed on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "Two creamy dessert drinks topped with whipped cream and spoons sit on a table, one with strawberry sauce drizzle."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two milkshakes topped with whipped cream are placed side by side."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two creamy milkshakes topped with whipped cream and straws, served in textured glasses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two tall glasses of creamy milkshakes topped with whipped cream and straws sit on a dark table."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a platter of chicken served with rice, salad, and sauces."
+        },
+        "gpt-5.4": {
+          "summary": "A large foil tray holds seasoned yellow rice topped with roasted chicken pieces, small cups of red sauce, and a side salad of cucumber, lettuce, and tomato."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of chicken biryani served with cucumber slices, tomato wedges, lettuce leaves, and small containers of sauce."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A foil-lined tray holds fried chicken pieces atop yellow rice, garnished with sliced cucumbers, tomatoes, and lettuce, accompanied by small cups of sauce."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large foil platter of yellow rice topped with roasted chicken pieces, fresh salad garnish, and small containers of dipping sauce."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person with blonde hair and black-rimmed glasses, wearing a dark grey knitted cardigan, looking directly at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with short, light-colored hair wearing glasses and a dark sweater, partially obscured."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person with light blond hair and black-framed glasses wearing a dark knit sweater."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing glasses and a dark sweater."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up selfie of a person with blonde hair, wearing black-rimmed glasses and a dark knitted sweater."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with platinum blonde hair wearing thick black-rimmed glasses and a dark grey knit cardigan."
+        }
+      }
+    },
+    "image_00124": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a box of fried chicken alongside two plush toys and chopsticks on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A tray of saucy fried chicken from 24 Chicken sits beside chopsticks and two plush cat toys on a wooden surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A box of fried chicken from '24 Chicken' accompanied by plush toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A takeout box of fried chicken sits on a wooden surface next to plush toys and chopsticks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a box of saucy fried chicken from 24 Chicken served on foil, accompanied by chopsticks and two plush toys on a wooden surface."
+        }
+      }
+    },
+    "image_00125": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of plush keychains alongside a bowl of food and a drink."
+        },
+        "gpt-5.4": {
+          "summary": "A tabletop scene shows a brown bag covered in plush character keychains beside a rice bowl with sauce, a bottled iced tea, and small pouches with printed photo cards."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A table setup featuring plush toys, a wallet with an ID card photo of three people, and a bowl of food."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a table with plush keychains, a photo card, a wallet with a portrait, and a meal next to a large iced tea bottle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A table setting featuring a bowl of rice topped with fried cutlet and sauce, surrounded by plush keychains, a purple card holder with a photo, and a bottle of iced tea."
+        }
+      }
+    },
+    "image_00126": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot displays a dish of glazed, bite-sized pieces of food, likely chicken or tofu, generously topped with white sesame seeds."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of sesame-coated chicken pieces in a glossy sauce."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a plate of crispy fried pieces coated in a dark glossy sauce and topped with sesame seeds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a dish topped with sesame seeds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of glazed meat pieces topped with sesame seeds on a patterned plate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a savory dish featuring fried meat or tofu coated in a glossy dark sauce and generously topped with white sesame seeds."
+        }
+      }
+    },
+    "image_00127": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up overhead shot shows several pieces of food, possibly chicken or tofu, coated in a dark, glossy sauce and generously sprinkled with white sesame seeds, served in a white dish."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a dish with meat coated in a glossy sauce and sprinkled with sesame seeds."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of crispy fried chicken pieces coated in a dark glossy sauce and heavily sprinkled with sesame seeds in a bowl."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a dish topped generously with sesame seeds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of glazed meat pieces topped with sesame seeds in a dark sauce."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a savory dish featuring bite-sized pieces coated in a glossy dark sauce and generously topped with white sesame seeds."
+        }
+      }
+    },
+    "image_00128": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A tabby cat with a brown collar is curled up and sleeping peacefully on a round blue and white patterned pet bed, which rests on a tiled floor."
+        },
+        "gpt-4o-mini": {
+          "summary": "A curled-up cat resting on a patterned pet bed."
+        },
+        "gpt-5.4": {
+          "summary": "A gray tabby cat wearing a collar is curled up asleep on a round blue patterned pet bed on a tiled floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat lounging in a circular pet bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gray tabby cat sleeps curled up in a blue and white patterned pet bed on a tiled floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A gray tabby cat with a white patch is curled up asleep in a round, blue and white floral pet bed on a wooden floor."
+        }
+      }
+    },
+    "image_00129": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A tabby cat with white markings is curled up and resting on a colorful mat with a floral pattern."
+        },
+        "gpt-4o-mini": {
+          "summary": "A curled-up cat resting on a colorful floral mat."
+        },
+        "gpt-5.4": {
+          "summary": "A gray tabby cat is curled up resting on a colorful floral cushion on a tiled floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat curled up in a colorful floral-patterned bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby cat with white markings is curled up and sleeping on a colorful floral-patterned blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grey and white tabby cat is curled up asleep on a colorful floral blanket."
+        }
+      }
+    },
+    "image_00130": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of various colorful stickers, tickets, and food packaging, creating a vibrant and eclectic visual."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful scrapbook-style collage combines food packaging, tickets, and cute stickers, including [LOCATION], Korean gochujang, and fruit-themed artwork."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of various stickers, receipts, and food packaging items featuring bright reds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of colorful stickers and receipts featuring snacks, [PERSON], and travel tickets."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat-lay collage of colorful stickers, receipts, and packaging featuring Korean food brands, transit cards, and cute character art."
+        }
+      }
+    },
+    "image_00131": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a variety of skewered meats arranged on trays at a food stall."
+        },
+        "gpt-5.4": {
+          "summary": "A street-food stall display shows assorted skewered grilled meats and bright red hotdogs arranged in metal trays on a green table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Grilled skewers of meat in a street food stall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A variety of grilled skewers and sausages displayed in metal trays on a green tablecloth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A variety of grilled skewers, including meat and red sausages, are displayed in metal trays at a food stall."
+        }
+      }
+    },
+    "image_00132": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cute plush keychain alongside a cup containing dark, textured food items on skewers."
+        },
+        "gpt-5.4": {
+          "summary": "A gray cat plush keychain hangs beside a plastic cup of dark-sauced skewered food on a worn wooden table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush toy cat sits above skewered food in a bowl of sauce."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gray plush keychain with a red heart sits beside a plastic cup of dark, saucy food on a wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a grey plush cat keychain sitting on a wooden table next to a cup of dark, spicy-looking street food skewers."
+        }
+      }
+    },
+    "image_00133": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a diverse array of food items arranged on a table, showcasing a festive spread."
+        },
+        "gpt-5.4": {
+          "summary": "Overhead view of a large table spread with assorted party foods, including noodles, meat dishes, rice trays, fruit, pastries, wrapped snacks, and roast pork."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful spread of various dishes including fruits, meats, soups, and desserts arranged neatly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A top-down view of a table laden with diverse prepared foods including meats, fruits, pastries, and rice dishes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A festive table spread featuring a variety of Filipino dishes including lechon, lumpia, sushi rolls, and fruit platters decorated with digital stickers."
+        }
+      }
+    },
+    "image_00134": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a cat with humorous text about the date and a sense of frustration."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a reposted cat meme shows a close-up orange cat with colorful balloons and text joking about it already being [DATE]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat meme expressing frustration over time passing quickly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of an orange cat with balloons and text expressing disbelief at the passage of time in January."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a wide-eyed orange tabby cat surrounded by digital balloons, overlaid with text expressing shock and frustration at the rapid passage of time in early January."
+        }
+      }
+    },
+    "image_00135": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two buttons, one displaying the names and numbers of hockey players and the other expressing a love for yaoi."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of two fan pins: a heart-shaped hockey-themed badge with [PERSON] names and numbers, and a round button reading 'I [PERSON].'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two buttons are displayed; one reads '[ORGANIZATION]' followed by a number under an obscured face logo. The other button says \"I [PERSON].\""
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two fan buttons display hockey player names and a 'I ❤️ [PERSON]' message."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of two fan buttons resting on a mesh fabric, one featuring hockey players [LOCATION] and [PERSON], and the other displaying an 'I [heart] [PERSON]' slogan."
+        }
+      }
+    },
+    "image_00136": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop displaying a scene from a movie, with a colorful aquarium in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop playing a close-up scene sits in a dark room beneath a brightly lit colorful fish tank or aquarium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dimly lit room featuring a laptop screen displaying an individual in front of fish tanks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displaying a person watching content in a dim room with a glowing aquarium above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A laptop screen displays a scene with a woman in a dimly lit room, illuminated by the glow of the monitor and a small aquarium on a shelf above."
+        }
+      }
+    },
+    "image_00137": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a tray with [ORGANIZATION]-themed kids' meal boxes and a payment device."
+        },
+        "gpt-5.4": {
+          "summary": "Several [PERSON] kids meal and spaghetti boxes with [ORGANIZATION]-themed packaging are placed on a restaurant counter beside a [PERSON] payment terminal."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] Surprise boxes are displayed next to a [ORGANIZATION] box."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three red Pokémon-themed [ORGANIZATION] boxes sit on a tray next to a [PERSON] payment terminal."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a fast-food tray containing three red Jollibee Kids Meal boxes featuring [ORGANIZATION] branding and [PERSON], alongside a spaghetti meal box and a [PERSON] payment terminal."
+        }
+      }
+    },
+    "image_00138": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a sealed special limited album by [ORGANIZATION] titled '[ORGANIZATION]'."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a sealed [ORGANIZATION] special limited album package with glossy wrapping and decorative floral accents."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a '[ORGANIZATION] cover."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sealed brown album cover with gold text reading '[ORGANIZATION] ALBUM' and 'RE-FLOW', featuring a wax seal logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a sealed, brown special limited edition album by the K-pop group [ORGANIZATION] titled 'Re:Flow'."
+        }
+      }
+    },
+    "image_00139": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a silver necklace with a heart-shaped pendant and a leaf charm."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a necklace with two dangling pendants, including an open heart-shaped charm and a small decorative charm, displayed on a black background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a necklace featuring an intricate heart-shaped pendant."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A silver necklace with a twisted heart pendant and a leaf-shaped charm engraved with text, displayed against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A silver necklace featuring a twisted heart pendant and a leaf-shaped charm with stamped text rests on a dark surface."
+        }
+      }
+    },
+    "image_00140": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a cat wearing large black glasses."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a tabby cat wearing oversized round black glasses, creating a playful and humorous portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a cat wearing oversized glasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a tabby cat wearing round black glasses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a tabby cat wearing round black-rimmed glasses, held by a person's hand."
+        }
+      }
+    },
+    "image_00141": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant close-up shot displays a variety of skewered street food, including intestines, marinated meats, and other items, arranged in"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a variety of skewered food items, including meats and sauces, arranged on trays at a street food stall."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a street food stall displaying assorted skewered grilled and marinated meats and organ items in metal trays, with drinks and plastic cups behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A variety of skewered meats and sausages are displayed in a street food stall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A street food stall displays trays of skewered meats and offal coated in red sauce."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a street food stall displaying various trays of raw meat and offal skewers, including intestines and liver, alongside cups of red sauce and large containers of condiments."
+        }
+      }
+    },
+    "image_00142": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a meal from [ORGANIZATION], including spaghetti with sauce and cheese, a burger, a drink, and two [ORGANIZATION] boxes."
+        },
+        "gpt-5.4": {
+          "summary": "A tray of [ORGANIZATION] food is shown on a table, including spaghetti with sauce and cheese, a wrapped item, a soft drink, and two [ORGANIZATION] boxes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] featuring spaghetti topped with meatballs and cheese."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] featuring spaghetti with tomato sauce and cheese, a drink, and branded packaging on a tray."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] kids meal tray featuring spaghetti with meat sauce and cheese, a wrapped burger, a chocolate drink, and two branded boxes on a wooden table."
+        }
+      }
+    },
+    "image_00143": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a page from the book 'Nineteen Eighty-Four' with a quote about oppression and surveillance."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of an open book page showing the title \"NINETEEN EIGHTY-FOUR\" and a passage mentioning \"big brother,\" with a blurry receipt in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A page from a book titled 'Nineteen Eighty-Four' featuring a quote."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a book titled 'NINETEEN EIGHTY-FOUR' showing a passage with defiant text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a page from [PERSON] novel 'Nineteen Eighty-Four' featuring a passage about Big Brother, with a blurred coffee receipt visible in the background."
+        }
+      }
+    },
+    "image_00144": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot captures an empty, modern movie theater featuring rows of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a modern cinema seating area with black and red recliner seats."
+        },
+        "gpt-5.4": {
+          "summary": "An empty movie theater auditorium with rows of black reclining seats, a few red seats in the back, and stepped aisles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A row of reclining cinema seats in a modern theater setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Rows of empty gray and red recliner seats in a modern movie theater with black walls and red accent stripes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Rows of empty grey and red recliner seats in a modern, dimly lit movie theater with black walls and red accent stripes."
+        }
+      }
+    },
+    "image_00145": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large movie screen in a dark theater displays the title card \"the LOVED ONE\" with copyright information, alongside a green '[ORGANIZATION] sign on the left wall."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a movie screen displaying the title 'The Loved One' in a cinema setting."
+        },
+        "gpt-5.4": {
+          "summary": "A large cinema screen in a dark theater displays the title card for \"the LOVED ONE\" with copyright text beneath it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A movie theater screen displaying 'The Loved One' title."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie theater screen displays the title 'the LOVED ONE' with copyright text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, illuminated movie theater screen displays the title 'the LOVED ONE' and copyright information in a darkened auditorium."
+        }
+      }
+    },
+    "image_00146": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a donut, a drink, and a book titled '[ORGANIZATION] on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "A glazed ring donut and orange drink sit on a wooden table beside a receipt and a [PERSON] Classics book or notebook."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A donut wrapper promoting a glazier smile sits next to an orange cup of coffee and movie ticket stubs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A donut, branded drink cup, receipt, and a [PERSON] Classics book rest on a wooden table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a breakfast spread on a wooden table featuring a glazed donut, an orange beverage cup, a receipt, and a paperback book."
+        }
+      }
+    },
+    "image_00147": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a comment expressing frustration about recording in a cinema and the impact of phone screen brightness on the viewing experience."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media post in dark mode shows a user named [PERSON] criticizing phone use inside a movie theater in Filipino."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] expresses frustration over people using their phones during movie screenings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet expressing frustration about a movie review being disappointing despite high ratings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post in Tagalog expressing frustration about someone recording a movie in a theater with their phone screen."
+        }
+      }
+    },
+    "image_00148": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals stands on stage near a blue door, with some appearing to interact while others are more distant."
+        },
+        "gpt-5.4": {
+          "summary": "A group of performers in school-uniform-style outfits stand on a blue-lit stage around a large central door backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of individuals stands in a staged setup resembling an office environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several people stand in a line on a blue-lit stage, facing a central blue door."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of seven young men in school uniforms stand on a stage with blue lighting, facing away from the camera towards a central door."
+        }
+      }
+    },
+    "image_00149": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is waving while appearing on a digital screen, wearing a headband and a dark outfit."
+        },
+        "gpt-5.4": {
+          "summary": "A person on a blue-lit stage waves while wearing a dark outfit and a white floral head accessory, shown on a large LED screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person performing a hand gesture in front of stage lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person waves while wearing a headband and jacket on a blue-lit stage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a white headband and dark jacket waves while standing on a stage illuminated by blue LED lighting."
+        }
+      }
     }
   }
 }

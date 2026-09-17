@@ -1,67 +1,1019 @@
 {
   "user_id": "participant_022",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "dining",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; dining; photography; reading."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman in a red top sits at a cafe table, holding a drink and smiling at the camera, with patterned chairs and a window in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a café, casually holding a drink while wearing a red top and jeans."
+        },
+        "gpt-5.4": {
+          "summary": "A woman in a red top sits in a decorated cafe or restaurant holding a drink and looking at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a red top enjoys an outdoor café scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a red top smiles while holding a drink at an outdoor café with patterned chairs and glass partitions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a red top sits at an outdoor cafe table holding a drink and smiling towards the camera."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "dining",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; dining; photography; reading."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman in a red top sits in a cafe, holding a book and a drink, looking towards the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting at a table in a café, reading a menu while holding a drink."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a red sleeveless top sits at a café table holding an open book and a nearly empty iced drink, looking toward the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a red top reading while seated outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits at a café table holding a drink and an open book, looking toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a red top sits at an outdoor cafe table holding a book and a drink while looking towards the camera."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "dining",
-        "photography",
-        "travel"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; dining; photography; travel."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A picturesque harbor scene"
+        },
+        "gpt-4o-mini": {
+          "summary": "A picturesque harbor scene featuring colorful boats and a lively waterfront with people dining and walking."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny waterfront promenade lined with small boats, outdoor cafes, and historic hillside buildings in a coastal town."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Boats docked along a picturesque waterfront in front of historic buildings under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunny waterfront scene with colorful boats docked along a stone pier, backed by terraced buildings and outdoor cafes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunny harbor scene featuring small boats moored along a stone quay lined with outdoor cafes and historic buildings."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "dining",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; dining; outdoor activities; photography."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays various traditional items, including blue eye charms and soaps, arranged in woven baskets at a market."
+        },
+        "gpt-5.4": {
+          "summary": "A market stall displays blue evil-eye charms, [LOCATION]-themed souvenirs, and small packaged items with handwritten euro price signs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Various souvenirs including evil eye beads are displayed in baskets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A market stall displays baskets of blue glass evil eye charms and packaged souvenirs with price tags."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A market stall display features baskets of blue evil eye charms, Greek-themed souvenirs like magnets and soaps, and other trinkets with visible price tags."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "dining",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; dining; nature visits; outdoor activities; photography."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a signpost with directional arrows indicating distances to various cities around the world."
+        },
+        "gpt-5.4": {
+          "summary": "A wooden signpost outdoors points to various world cities with distances, set against a bright blue sky and mountainous seaside town backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A signpost indicating distances from various cities including [LOCATION] in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden post with hand-painted directional signs pointing to various global cities with distances in kilometers, set against a backdrop of mountains and a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wooden signpost displays distances to various global cities and a local diving center against a backdrop of mountains and blue sky."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "dining",
-        "outdoor activities",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: cats; dining; outdoor activities; photography; reading."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding two pieces of fabric while seated at a table with a white backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a white top holds up a translucent face-shaped sheet mask in a bright, minimalist indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a white tank top smiles while holding small objects near their ears."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while holding up a sheer veil or fabric in front of their face indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman with her hair in a bun sits indoors wearing a white tank top, holding a sheer veil over her face."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of various animated and live-action characters with a central text encouraging viewers to find the poster in these characters."
+        },
+        "gpt-5.4": {
+          "summary": "A 3x3 collage pairs animated and live-action female characters with a central quote about being found in these characters."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of various characters from animated films and TV shows."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage showing a person alongside various animated and live-action characters, with text stating 'If you ever miss me look for me in these characters'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage featuring actress [PERSON] alongside various animated and live-action characters, centered around the text 'If you ever miss me look for me in these characters'."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a beautifully arranged meal consisting of sliced pork cutlet, rice, soup, and cabbage salad."
+        },
+        "gpt-5.4": {
+          "summary": "A neatly arranged meal features sliced breaded pork cutlets with bowls of rice, miso soup, shredded cabbage, dipping sauce, and chopsticks on a white table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal featuring tonkatsu (breaded pork cutlet) served alongside rice, miso soup, pickled cabbage, and a small bowl of sesame seeds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A neatly arranged Japanese meal featuring sliced katsu, rice, miso soup, and shredded cabbage in ceramic bowls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle shot of a complete Japanese tonkatsu meal set featuring sliced breaded pork cutlet, rice, miso soup, and shredded cabbage served in matching ceramic bowls."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows an orange tabby cat peacefully sleeping on a soft, white textured blanket."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sleeping orange tabby cat is curled up on a soft, white blanket."
+        },
+        "gpt-5.4": {
+          "summary": "An orange tabby cat is sleeping curled up on a fluffy white blanket in a cozy indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ginger cat peacefully sleeping curled in a cozy white blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An orange tabby cat is sleeping peacefully on a white textured blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a sleeping orange tabby cat resting on a white textured blanket."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person gently pets a sleeping cat on a bed."
+        },
+        "gpt-5.4": {
+          "summary": "A relaxed tabby cat lies on a bed or couch while being gently petted on the head."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person gently pets a relaxed tabby cat lying on its back."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby cat sleeps peacefully on its back while being petted by a hand."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tabby cat lies on its back sleeping peacefully on white bedding while a human hand gently pets its head."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with glasses, partially visible, in a softly lit indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel indoor selfie shows a person wearing clear-framed glasses and a black spaghetti-strap top, posing close to the camera in warm lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses in two different poses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing clear-framed glasses poses in two mirror selfies, holding the glasses in one shot and looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen selfie collage of a woman with dark hair and clear-framed glasses posing in two different expressions against an indoor background."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait features a woman with long dark hair, wearing makeup including blush and dark lipstick, and a gold chain necklace, looking softly to"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up portrait of a woman with long dark hair, wearing a black outfit and a chain necklace, smiling softly."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a person with long dark hair, makeup, and a chain necklace, seated near a couch against a plain wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing makeup and jewelry against an indoor background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up portrait of a person with long dark hair, wearing makeup and a gold chain choker."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a woman with long dark hair, wearing makeup and a gold chain choker necklace."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot captures a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bouquet of blue tulips arranged in a white and navy bag."
+        },
+        "gpt-5.4": {
+          "summary": "A bouquet of blue tulips wrapped in white paper is photographed in soft warm sunlight indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of blue tulips arranged in a gift box."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bouquet of blue tulips wrapped in white and [ORGANIZATION] paper inside a gift box."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bouquet of blue tulips wrapped in white and [ORGANIZATION] paper sits inside a white gift bag."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A handwritten letter with a heartfelt message of appreciation and encouragement is"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a heartfelt letter addressed to a woman, accompanied by blue tulips and sealed with a decorative wax seal."
+        },
+        "gpt-5.4": {
+          "summary": "A handwritten appreciation letter is tucked into a dark blue envelope with a wax seal, presented in a soft, romantic style."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A heartfelt letter in an envelope addressed 'To the woman whose presence softens the noise of the world,' expressing appreciation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A handwritten letter praising a woman's qualities is tucked into a [ORGANIZATION] blue envelope sealed with a four-leaf clover wax seal."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A handwritten letter addressed to a woman is displayed inside an open [ORGANIZATION] blue envelope sealed with a silver clover wax stamp."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a light-colored, short-sleeved dress and white high heels is sitting on a floor, posing in"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a playful outfit sitting on the floor with a mirror reflection."
+        },
+        "gpt-5.4": {
+          "summary": "A woman in a short light-colored dress and white high heels poses on the floor beside a mirror and dark curtains in a stylized indoor fashion photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a pastel dress poses elegantly by a mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a white lace dress and high heels sits on a reflective surface with a mirror background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a white dress and cat ears poses on a brown surface with her reflection visible in a mirror."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two women in similar outfits sitting back-to-back on chairs, with a focus on their legs and footwear."
+        },
+        "gpt-5.4": {
+          "summary": "A two-photo collage shows a woman in a short white dress and white heels posing on a stool indoors beside a mirror and dark curtains."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a white dress poses seductively against brown curtains."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a light dress and white heels poses on a stool against draped curtains, shown in mirrored reflections."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A composite image featuring a woman in a white dress and heels posing on a stool against dark curtains, with a mirrored reflection visible beside her."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man and a woman are smiling and laughing together, posing"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two smiling individuals pose closely together in front of a collage of images."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling people pose closely together indoors in front of a wall of portrait photos, creating a casual, cheerful event snapshot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are smiling in front of a collage background featuring various people."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man and woman pose closely in front of a wall with multiple portrait photos."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a [LOCATION] with the number 96 and glasses poses closely with a laughing woman in front of a wall display featuring portraits."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a tank top is reclining on a couch, holding a book in front of their face."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black sleeveless outfit lounges on a sofa indoors, holding a book or booklet over their face in a moody portrait-style shot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black tank top sits relaxed while holding an open book near their face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits on a couch holding a book over their face in a monochrome photo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a black tank top sits on a dark sofa, holding an open book with a sunburst design over their face."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features handwritten notes in a journal reflecting on love, friendship, and personal thoughts."
+        },
+        "gpt-5.4": {
+          "summary": "An open notebook shows handwritten reflective journal pages with several sentences highlighted in yellow, centered on a longer love-themed entry on the right page."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Handwritten journal entries discussing love, relationships, and self-discovery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An open notebook displays handwritten personal reflections with highlighted passages, dated [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An open notebook displays handwritten journal entries, with the right page featuring a reflective essay about love and silence highlighted in yellow marker."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a decorative invitation letter with floral elements, a personal photo, and a heartfelt message about a special occasion."
+        },
+        "gpt-5.4": {
+          "summary": "A scrapbook-style journal spread shows a heartfelt wedding invitation letter with a date and location, several pinned photo prints, and a large sunflower."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A heartfelt letter inviting someone as a witness during an upcoming wedding in [LOCATION], [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A handwritten love letter invitation displayed in a spiral-bound journal, accompanied by a sunflower and black-and-white photos of couples."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital wedding invitation styled as an open journal page featuring a heartfelt letter, black-and-white photos of a couple, and a large sunflower."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals standing close together, with a travel-themed interface displaying flight information and a caption."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized social-media collage shows portrait photos of a woman and a man alongside travel-themed story cards with date and route text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two smartphone screens display a couple in 'Sunshine and Seas' branding alongside an event invitation from [LOCATION] to [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized travel-themed collage featuring two individuals in various photos, with text overlays indicating a flight from [LOCATION] to [LOCATION] and social media icons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of three phone screen mockups featuring a young East Asian couple in fashion-forward outfits, styled as social media stories with travel and event details."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of intimate moments between two individuals, showcasing their connection and shared experiences."
+        },
+        "gpt-5.4": {
+          "summary": "A scrapbook-style collage shows two people taking affectionate selfies on a train, including one shot with a pastry, alongside handwritten captions and a poem panel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of intimate moments between two individuals in a train setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of six photos showing a couple affectionately posing together inside an airplane cabin, with handwritten captions and a studio credit."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of five photos featuring a couple, [PERSON] and [PERSON], posing affectionately inside a train car with handwritten captions."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of intimate moments between two individuals, showcasing their relationship and shared experiences."
+        },
+        "gpt-5.4": {
+          "summary": "A vintage-style collage shows two people with glasses taking affectionate selfies on a train, including cheek kisses, cuddling, and one holding a pastry, with handwritten captions and a text panel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of intimate moments between two individuals in a train setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of six photos showing a couple affectionately posing inside an airplane, with handwritten captions and a studio credit."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of five photos featuring a couple, [PERSON] and [PERSON], posing affectionately inside a train carriage with handwritten captions."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person holding a pink water bottle and a red pillow, with soft curtains in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a person relaxing against pillows and curtains while holding a pink travel mug."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person drinking from a pink cup while resting their head against red pillows."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dark hair sips from a pink and red water bottle while leaning against a red pillow near sheer curtains."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long dark hair drinking from a pink and white water bottle while leaning against red cushions."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black cat is peacefully sleeping on a white bed with a patterned pillow and a dark headboard in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cat is peacefully sleeping on a soft blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A black cat is stretched out and resting on white bedding in a bedroom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black cat lounges peacefully on a bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black cat is sleeping peacefully on white bedding against a dark headboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black cat is sleeping stretched out on white bedding in front of a dark wooden headboard."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white frosted cake with a dark red swirled topping and decorative red ribbons is presented inside an open cardboard box."
+        },
+        "gpt-4o-mini": {
+          "summary": "A beautifully decorated cake with a red topping and white frosting, presented in a box."
+        },
+        "gpt-5.4": {
+          "summary": "A white frosted cake with red ribbon bows and a dark red swirled topping sits inside an open bakery box."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A beautifully decorated cake in a box adorned with red ribbons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A round cake with white frosting and red swirl center, decorated with red ribbons, sits inside an open cardboard box on a heart-patterned liner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A round white frosted cake with a red jam center and red ribbons sits inside an open cardboard box lined with heart-patterned paper."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five individuals poses together on a bed in a decorated room."
+        },
+        "gpt-5.4": {
+          "summary": "A styled group portrait shows five women posing on and around a bed in an ornate, vintage-decor room with warm red lamps and patterned furnishings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Five individuals are posed in a vintage-styled room adorned with ornate decor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five women pose together on a bed in a richly decorated, vintage-style room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Five young women pose in a coordinated group portrait within a dimly lit, eclectic room featuring vintage furniture and textured decor."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a plush toy with a smiley face, set against a background of shelves with various items."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person wearing round glasses and holding a large cream-colored smiling flower-shaped plush pillow."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses poses playfully behind a cloud-shaped pillow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses rests their head on a smiling cloud-shaped plush pillow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark hair and tortoiseshell glasses resting their chin on a yellow smiley-face plush toy."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A humorous sign in what appears to be a store window or display reads \"NOW HIRING Friends\" with additional lines \"-Full Time\" and \"- please love me.\""
+        },
+        "gpt-4o-mini": {
+          "summary": "A humorous sign advertising for 'Friends' with a plea for love."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous sign inside a store says \"NOW HIRING Friends\" with smaller bullet points reading \"Full Time\" and \"please love me.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous job advertisement seeking '[ORGANIZATION] as full-time employees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sign in a store reads 'NOW HIRING Friends' with the playful note '-Full [ORGANIZATION] - please love me'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A humorous 'Now Hiring' sign posted in a retail store window that reads 'NOW HIRING Friends - Full Time - please love me'."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cozy Japanese dining experience featuring sushi and a shared meal between friends."
+        },
+        "gpt-5.4": {
+          "summary": "A warm-toned collage shows two people dining at a Japanese restaurant alongside close-up shots of plated dishes and overlaid caption text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Collage of a Japanese dinner experience featuring food preparation and dining moments."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of photos from a Japanese meal featuring sushi, sashimi, and rice dishes, alongside two people posing with text overlays."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of photos showing a couple enjoying a Japanese dinner, featuring close-ups of sushi and other dishes alongside candid shots of the two people."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie outdoors, showcasing their outfit and surroundings."
+        },
+        "gpt-5.4": {
+          "summary": "A person in dark sunglasses and a brown sleeveless top takes a sunlit selfie on a city sidewalk beside steps and planters."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] of a person wearing glasses in an urban outdoor area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie outdoors on a paved sidewalk, wearing glasses and a brown top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a woman wearing black-rimmed glasses and a brown top, standing on a paved city sidewalk with urban background elements."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A table is filled with various drinks and desserts, with hands reaching for the items."
+        },
+        "gpt-5.4": {
+          "summary": "A warm-toned café table scene shows several coffee and matcha-style drinks, a citrus soda, and a slice of chocolate cake as a person reaches for a glass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person enjoys a variety of colorful drinks in different glasses arranged neatly on a wooden table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A top-down view of multiple drinks on a wooden table, with hands reaching for them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle shot captures a wooden table crowded with an assortment of colorful coffee and tea beverages, including matcha lattes and iced coffees, being shared by two people."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in front of a mirror while a cartoon is displayed on a computer screen."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie at a cozy desk setup with skincare products, a notebook, and a monitor showing a black-and-white cartoon scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a mirror selfie in front of skincare products."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bedroom while an animated character appears on a nearby monitor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in front of a lighted vanity mirror, with skincare products and a computer monitor displaying a cartoon drawing visible on the desk."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a white crop top and white shorts in a stylish room filled with clothing and accessories."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a walk-in closet/dressing room showing a person wearing a white tube top and white ruffled shorts, with clothes, handbags, and a vanity visible around them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] of a person in white outfit taking mirror photo."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a white outfit inside a cluttered bedroom with clothes racks and vanity lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a white tube top and shorts takes a mirror selfie in a well-stocked walk-in closet filled with clothing, handbags, and a vanity area."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a stack of printed photographs featuring various scenic views and people."
+        },
+        "gpt-5.4": {
+          "summary": "A stack of printed travel-style photographs lies on a white quilted bedspread, with the top image showing a coastal town beside the water and hills."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Stack of old photographs resting on a textured surface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stack of printed photos showing coastal scenes and people, resting on a textured white fabric."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stack of printed photographs depicting a coastal town and seaside scenery rests on a textured white fabric surface."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman with long dark hair is captured in profile, smiling gently with warm sunlight illuminating her face, amidst a blurred background of other people."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a woman with long dark hair in a crowded setting, partially obscured by other individuals."
+        },
+        "gpt-5.4": {
+          "summary": "A warmly lit candid portrait shows a smiling woman with long dark hair in a crowded indoor social setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman smiles softly in a crowded urban environment bathed in warm sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with long dark hair smiles warmly while standing in a dimly lit crowd."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a smiling woman with long dark hair in a crowded, dimly lit indoor setting."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A red and white [LOCATION] hat is placed on a [LOCATION] next to the words \"MERRY Christmas\" written in the sand."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [LOCATION] hat is placed next to the words 'MERRY CHRISTMAS' written in sand."
+        },
+        "gpt-5.4": {
+          "summary": "A red [LOCATION] hat sits on sandy beach next to the words \"MERRY Christmas\" written in the sand, with footprints nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive message written in sand reads 'MERRY Christmas' accompanied by a small [LOCATION] hat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small red [LOCATION] hat sits beside the words 'MERRY Christmas' written in sand."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small red and white [LOCATION] hat sits on wet sand next to the words 'MERRY Christmas' written in the sand."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song '[ORGANIZATION] by [ORGANIZATION], with a serene sunset background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone-style music player screen shows the song \"Tahanan\" by [ORGANIZATION] with warm sunset beach artwork featuring a hut and two silhouetted figures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Music player interface showing '[ORGANIZATION] by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing a song titled '[ORGANIZATION] by [ORGANIZATION], with a sunset beach scene album art."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player interface displaying the song '[ORGANIZATION] by [ORGANIZATION] with album art featuring a beach scene."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [ORGANIZATION] photo is hanging on a string among Christmas decorations, including shiny ornaments."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-style photo is clipped to twine on a decorated Christmas tree among glittery ornaments and warm festive decor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] photo clipped onto a Christmas tree adorned with ornaments."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white [ORGANIZATION] photo clipped to a string among glittery Christmas ornaments."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] photograph of a smiling person is clipped to a string on a Christmas tree decorated with glittery red, gold, and silver ornaments."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a shadow of a person against a textured background resembling rock or sand."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized beach photo shows a person’s shadow cast on wet sand beside a dark rock or seaweed-covered surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shadow of a person standing beside rocks against an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A silhouette of a person standing on a rocky beach, cast against textured sand and water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shadow of a person standing with hands on hips is cast onto a textured, sandy surface next to a dark rock formation."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair and cat ear headband poses with their chin resting on their hand, wearing makeup, a choker, and a spaghetti strap top against a textured pinkish-brown background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with long hair wearing cat ear accessories, posing with a hand on their chin against a soft, neutral background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up portrait of a person posing against a pink backdrop, wearing a black cat-ear headband and choker with polished makeup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing cat ears poses thoughtfully against a neutral background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with cat ears and makeup poses thoughtfully against a pink background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a young woman with dark hair wearing cat ears and a black choker, posing against a solid pink background."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a car seat, wearing a graphic t-shirt and ripped jeans."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses in a car seat with eyes closed, wearing a choker, ripped black jeans, and a graphic T-shirt in a dim flash-lit photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person reclining in a car seat wearing ripped jeans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person lounges relaxed in the backseat of a car, wearing a graphic tee and ripped jeans."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a graphic t-shirt and ripped black jeans poses playfully in the passenger seat of a car with dark leather interiors."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an open notebook with handwritten notes reflecting personal thoughts and experiences."
+        },
+        "gpt-5.4": {
+          "summary": "An open notebook shows a handwritten trip-planning list on the left page and a highlighted personal journal entry on the right page."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A handwritten journal entry discussing a relationship and travel plans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An open notebook displays handwritten journal entries and a trip checklist, with highlighted emotional reflections about a relationship and upcoming travel to [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An open journal displays handwritten entries featuring a travel checklist on the left and a romantic letter addressed to '[PERSON] with highlighted passages on the right."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, brightly lit portrait shows a person with dark hair and a subtle smile, looking towards the right side of the frame."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up portrait of a young person smiling softly, with a focus on their facial features."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up portrait of a smiling person looking off to the side indoors, wearing a dark top with a red accent."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing black clothing against a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up portrait of a person with dark hair, smiling gently while looking away from the camera against a bright background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a young man with dark hair and red lipstick smiling gently against a bright white background."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a smiling individual with dimples, wearing a dark hoodie."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a smiling person with eyes closed, wearing dark clothing in a softly lit frame."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person smiling warmly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a smiling person wearing a black hoodie with partial white text on the collar."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a smiling person wearing a black hoodie, captured with a screen-door pixelation effect."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases a day of activities including pickleball and café hopping, featuring a person enjoying food and drinks with a friend."
+        },
+        "gpt-5.4": {
+          "summary": "A three-panel story-style collage shows a person by the waterfront, a pickleball court with two shadows and a paddle, and a café table with coffee and a croissant."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of three images showing a person engaging in activities like pickleball and café hopping."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage showing a person enjoying a day with a partner: starting with a waterfront photo, playing pickleball, and ending with café hopping."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A three-panel collage documenting a day out involving pickleball and café hopping with friends."
+        }
+      }
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "user_id": "participant_066",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
@@ -8,45 +8,62 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "fitness",
+          "label": "gym workout",
           "evidence_post_indices": [
-            2,
-            3
+            12,
+            13,
+            19,
+            23
           ],
           "evidence_post_ids": [
-            "participant_066_phase_3",
-            "participant_066_phase_4"
+            "participant_066_post_0013",
+            "participant_066_post_0014",
+            "participant_066_post_0020",
+            "participant_066_post_0024"
+          ]
+        },
+        {
+          "label": "weightlifting",
+          "evidence_post_indices": [
+            12,
+            73
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0013",
+            "participant_066_post_0074"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "fitness",
+          "label": "stargazing",
           "evidence_post_indices": [
-            1,
-            3
+            136,
+            138
           ],
           "evidence_post_ids": [
-            "participant_066_phase_2",
-            "participant_066_phase_4"
+            "participant_066_post_0137",
+            "participant_066_post_0139"
           ]
         },
         {
-          "label": "nature observation",
+          "label": "fitness routine",
           "evidence_post_indices": [
-            1
+            13,
+            107
           ],
           "evidence_post_ids": [
-            "participant_066_phase_2"
+            "participant_066_post_0014",
+            "participant_066_post_0108"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "leg day",
           "evidence_post_indices": [
-            2
+            73
           ],
           "evidence_post_ids": [
-            "participant_066_phase_3"
+            "participant_066_post_0074"
           ]
         }
       ]
@@ -56,49 +73,203 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "live performances",
+          "label": "music listen",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            6,
+            12,
+            18,
+            21,
+            32,
+            48,
+            49,
+            51,
+            54,
+            55,
+            60,
+            79,
+            80,
+            86,
+            89,
+            105,
+            106,
+            109,
+            121,
+            126,
+            128,
+            137,
+            156,
+            162,
+            182,
+            186,
+            188
           ],
           "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_2",
-            "participant_066_phase_3",
-            "participant_066_phase_4"
+            "participant_066_post_0007",
+            "participant_066_post_0013",
+            "participant_066_post_0019",
+            "participant_066_post_0022",
+            "participant_066_post_0033",
+            "participant_066_post_0049",
+            "participant_066_post_0050",
+            "participant_066_post_0052",
+            "participant_066_post_0055",
+            "participant_066_post_0056",
+            "participant_066_post_0061",
+            "participant_066_post_0080",
+            "participant_066_post_0081",
+            "participant_066_post_0087",
+            "participant_066_post_0090",
+            "participant_066_post_0106",
+            "participant_066_post_0107",
+            "participant_066_post_0110",
+            "participant_066_post_0122",
+            "participant_066_post_0127",
+            "participant_066_post_0129",
+            "participant_066_post_0138",
+            "participant_066_post_0157",
+            "participant_066_post_0163",
+            "participant_066_post_0183",
+            "participant_066_post_0187",
+            "participant_066_post_0189"
           ]
         },
         {
-          "label": "music",
+          "label": "concert attendance",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            16,
+            20,
+            44,
+            45,
+            53,
+            57,
+            58,
+            81,
+            84,
+            99,
+            100,
+            114,
+            164,
+            166,
+            167,
+            174,
+            178
           ],
           "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_2",
-            "participant_066_phase_3",
-            "participant_066_phase_4"
+            "participant_066_post_0017",
+            "participant_066_post_0021",
+            "participant_066_post_0045",
+            "participant_066_post_0046",
+            "participant_066_post_0054",
+            "participant_066_post_0058",
+            "participant_066_post_0059",
+            "participant_066_post_0082",
+            "participant_066_post_0085",
+            "participant_066_post_0100",
+            "participant_066_post_0101",
+            "participant_066_post_0115",
+            "participant_066_post_0165",
+            "participant_066_post_0167",
+            "participant_066_post_0168",
+            "participant_066_post_0175",
+            "participant_066_post_0179"
+          ]
+        },
+        {
+          "label": "live music",
+          "evidence_post_indices": [
+            20,
+            44,
+            45,
+            53,
+            57,
+            58,
+            81,
+            84,
+            99,
+            100,
+            114,
+            166,
+            167,
+            174,
+            175,
+            178
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0021",
+            "participant_066_post_0045",
+            "participant_066_post_0046",
+            "participant_066_post_0054",
+            "participant_066_post_0058",
+            "participant_066_post_0059",
+            "participant_066_post_0082",
+            "participant_066_post_0085",
+            "participant_066_post_0100",
+            "participant_066_post_0101",
+            "participant_066_post_0115",
+            "participant_066_post_0167",
+            "participant_066_post_0168",
+            "participant_066_post_0175",
+            "participant_066_post_0176",
+            "participant_066_post_0179"
+          ]
+        },
+        {
+          "label": "music lyric",
+          "evidence_post_indices": [
+            27,
+            34,
+            47,
+            60,
+            107,
+            110,
+            122,
+            135
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0028",
+            "participant_066_post_0035",
+            "participant_066_post_0048",
+            "participant_066_post_0061",
+            "participant_066_post_0108",
+            "participant_066_post_0111",
+            "participant_066_post_0123",
+            "participant_066_post_0136"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "wisp",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            99,
+            100
           ],
           "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_2",
-            "participant_066_phase_3"
+            "participant_066_post_0100",
+            "participant_066_post_0101"
+          ]
+        },
+        {
+          "label": "spotify",
+          "evidence_post_indices": [
+            74,
+            162
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0075",
+            "participant_066_post_0163"
+          ]
+        },
+        {
+          "label": "vinyl record",
+          "evidence_post_indices": [
+            164,
+            185
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0165",
+            "participant_066_post_0186"
           ]
         }
       ]
@@ -108,67 +279,109 @@
       "status": "active",
       "long_term_interests": [
         {
+          "label": "game stream",
+          "evidence_post_indices": [
+            67,
+            71,
+            110,
+            116,
+            120,
+            125,
+            131
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0068",
+            "participant_066_post_0072",
+            "participant_066_post_0111",
+            "participant_066_post_0117",
+            "participant_066_post_0121",
+            "participant_066_post_0126",
+            "participant_066_post_0132"
+          ]
+        },
+        {
+          "label": "valorant",
+          "evidence_post_indices": [
+            67,
+            70,
+            71,
+            120,
+            155,
+            161
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0068",
+            "participant_066_post_0071",
+            "participant_066_post_0072",
+            "participant_066_post_0121",
+            "participant_066_post_0156",
+            "participant_066_post_0162"
+          ]
+        },
+        {
           "label": "competitive gaming",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            67,
+            71,
+            120,
+            161
           ],
           "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_2",
-            "participant_066_phase_3"
+            "participant_066_post_0068",
+            "participant_066_post_0072",
+            "participant_066_post_0121",
+            "participant_066_post_0162"
           ]
         },
         {
-          "label": "gaming interests",
+          "label": "gam setup",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            24,
+            27,
+            125,
+            131
           ],
           "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_2",
-            "participant_066_phase_3",
-            "participant_066_phase_4"
-          ]
-        },
-        {
-          "label": "video games",
-          "evidence_post_indices": [
-            0,
-            1,
-            2
-          ],
-          "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_2",
-            "participant_066_phase_3"
+            "participant_066_post_0025",
+            "participant_066_post_0028",
+            "participant_066_post_0126",
+            "participant_066_post_0132"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "gaming interests",
+          "label": "donkey kong",
           "evidence_post_indices": [
-            0,
-            1
+            110,
+            157
           ],
           "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_2"
+            "participant_066_post_0111",
+            "participant_066_post_0158"
           ]
         },
         {
-          "label": "video games",
+          "label": "gaming hardware",
           "evidence_post_indices": [
-            0
+            168,
+            186
           ],
           "evidence_post_ids": [
-            "participant_066_phase_1"
+            "participant_066_post_0169",
+            "participant_066_post_0187"
+          ]
+        },
+        {
+          "label": "twitch streaming",
+          "evidence_post_indices": [
+            125,
+            131
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0126",
+            "participant_066_post_0132"
           ]
         }
       ]
@@ -178,41 +391,52 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "food drink interests",
+          "label": "energy drink",
           "evidence_post_indices": [
-            0,
-            2
+            46,
+            157,
+            173
           ],
           "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_3"
+            "participant_066_post_0047",
+            "participant_066_post_0158",
+            "participant_066_post_0174"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "dining",
+          "label": "fri chicken",
           "evidence_post_indices": [
-            1,
-            2
+            66,
+            157
           ],
           "evidence_post_ids": [
-            "participant_066_phase_2",
-            "participant_066_phase_3"
+            "participant_066_post_0067",
+            "participant_066_post_0158"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "fast food",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            66,
+            133
           ],
           "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_3",
-            "participant_066_phase_4"
+            "participant_066_post_0067",
+            "participant_066_post_0134"
+          ]
+        },
+        {
+          "label": "beer",
+          "evidence_post_indices": [
+            45,
+            151
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0046",
+            "participant_066_post_0152"
           ]
         }
       ]
@@ -222,65 +446,117 @@
       "status": "active",
       "long_term_interests": [
         {
+          "label": "road trip",
+          "evidence_post_indices": [
+            3,
+            49,
+            92,
+            154,
+            159,
+            162,
+            173,
+            188
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0004",
+            "participant_066_post_0050",
+            "participant_066_post_0093",
+            "participant_066_post_0155",
+            "participant_066_post_0160",
+            "participant_066_post_0163",
+            "participant_066_post_0174",
+            "participant_066_post_0189"
+          ]
+        },
+        {
+          "label": "chicago",
+          "evidence_post_indices": [
+            50,
+            68,
+            85,
+            105,
+            132,
+            133,
+            178
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0051",
+            "participant_066_post_0069",
+            "participant_066_post_0086",
+            "participant_066_post_0106",
+            "participant_066_post_0133",
+            "participant_066_post_0134",
+            "participant_066_post_0179"
+          ]
+        },
+        {
           "label": "city exploration",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            68,
+            78,
+            85,
+            105,
+            139,
+            178
           ],
           "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_2",
-            "participant_066_phase_3"
+            "participant_066_post_0069",
+            "participant_066_post_0079",
+            "participant_066_post_0086",
+            "participant_066_post_0106",
+            "participant_066_post_0140",
+            "participant_066_post_0179"
           ]
         },
         {
-          "label": "travel",
+          "label": "night driving",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            11,
+            46,
+            50,
+            78,
+            115
           ],
           "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_3",
-            "participant_066_phase_4"
-          ]
-        },
-        {
-          "label": "travel city exploration interests",
-          "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
-          ],
-          "evidence_post_ids": [
-            "participant_066_phase_1",
-            "participant_066_phase_2",
-            "participant_066_phase_3",
-            "participant_066_phase_4"
+            "participant_066_post_0012",
+            "participant_066_post_0047",
+            "participant_066_post_0051",
+            "participant_066_post_0079",
+            "participant_066_post_0116"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "travel",
+          "label": "air travel",
           "evidence_post_indices": [
-            1
+            132,
+            133,
+            140
           ],
           "evidence_post_ids": [
-            "participant_066_phase_2"
+            "participant_066_post_0133",
+            "participant_066_post_0134",
+            "participant_066_post_0141"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "exploring local area 1",
           "evidence_post_indices": [
-            2
+            68
           ],
           "evidence_post_ids": [
-            "participant_066_phase_3"
+            "participant_066_post_0069"
+          ]
+        },
+        {
+          "label": "manual transmission",
+          "evidence_post_indices": [
+            73
+          ],
+          "evidence_post_ids": [
+            "participant_066_post_0074"
           ]
         }
       ]

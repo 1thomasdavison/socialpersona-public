@@ -1,67 +1,2361 @@
 {
   "user_id": "participant_029",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "nature visits",
-        "outdoor activities",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; nature visits; outdoor activities; savory food."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a note about a final project presentation with a timestamp and reminders."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a reminder or task list item titled \"PPT FINAL PROJECT [ORGANIZATION]\" with notes about fixing a report and a due time of tomorrow at 3:00 PM."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Reminder post for a final project presentation due tomorrow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A checklist item showing a final project presentation scheduled for tomorrow at 3:00 PM, with ongoing work noted at 10:50 pm."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post showing text about finalizing a [ORGANIZATION] project presentation and report."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "dining",
-        "outdoor activities",
-        "photography",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dining; outdoor activities; photography; savory food."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation discussing a topic related to a person being criticized, with a sad emoji included."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a messaging app conversation shows a forwarded/quoted message in Indonesian and a short reply, with a green chat background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "#cibi cyber business discussion in a messaging app."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] chat screenshot showing a conversation about '#cibi' with playful text and emojis."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] chat in Indonesian discussing the potential backlash against a person referred to as '[PERSON]' if they become a civil servant (kiper)."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "outdoor activities",
-        "photography",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; outdoor activities; photography; savory food."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two women wearing hijabs are taking a selfie in an indoor setting, with one smiling and making"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals is seated together, with one person playfully posing for the camera while wearing a floral shirt and a pink hijab."
+        },
+        "gpt-5.4": {
+          "summary": "A casual indoor selfie shows two women in pink headscarves seated in an office or computer lab, with one making a peace sign and another person partly visible nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two women wearing hijabs are posing together in an office environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women wearing hijabs pose playfully for a selfie in an office setting with computer equipment visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A selfie taken in an office setting featuring two women wearing hijabs, with one making a peace sign and another person partially visible in the background."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "dining",
-        "outdoor activities",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; dining; outdoor activities; savory food."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a motorcycle dashboard showing time, oil change alert, fuel level, and mileage statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A dark close-up photo shows a scooter or motorcycle [ORGANIZATION] dashboard with the speed at 0 km/h and an oil change reminder visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a motorcycle dashboard showing speedometer details."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a car's digital dashboard displaying time, speed, fuel efficiency, and total mileage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a motorcycle's digital dashboard at night showing the time, speed, fuel level, and maintenance alerts."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "outdoor activities",
-        "photography",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; outdoor activities; photography; savory food."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital screen displays a weather widget showing a crescent moon and clouds, a temperature of 18 degrees, sunrise time, and a location."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather widget showing a temperature of 18°C and sunrise time at 5:40 AM in [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone weather widget on a dark screen shows a partly cloudy night icon, 18°, sunrise time, and the location [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing a temperature of 18°C in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather widget displays a crescent moon and clouds, with temperature, sunrise time, and location."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone screenshot displays a weather widget showing 18 degrees, a partly cloudy night icon, and sunrise details for the location [PERSON]."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "nature visits",
-        "photography",
-        "savory food"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; nature visits; photography; savory food."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of a mobile application displays a transaction detail showing a cashback of Rp90,000 from an unspecified merchant."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a cashback transaction notification with a total of +Rp90.000."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile app transaction detail screen in Indonesian shows a cashback entry with a green amount of +Rp90.000."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A transaction detail showing a cashback of Rp90.000 from an external merchant."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A transaction detail screen showing a cashback reward of Rp90,000."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile banking transaction detail screen showing a cashback credit of Rp90,000 from an external merchant."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals in matching blazers are posing together with their hands raised in a playful manner."
+        },
+        "gpt-5.4": {
+          "summary": "A large group of students in matching blue blazers poses indoors against a plain wall, smiling and raising their hands in a playful group portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of students in matching uniforms are posing enthusiastically."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of young people in matching blue jackets posing with open hands against a plain background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of young men and women wearing matching [ORGANIZATION] blue blazers pose together against a plain background, waving enthusiastically at the camera."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of young people in matching blue blazers pose playfully against a plain background, with one woman in"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four individuals in matching blue blazers poses playfully for the camera, with one person making a peace sign."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a black hijab and blue blazer poses with a peace sign and phone while three others in matching blazers strike playful poses against a plain indoor backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people in matching outfits posing playfully indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling woman in a hijab and blue blazer makes a peace sign while three men in matching outfits pose playfully behind her."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of four young adults in matching blue blazers pose playfully against a plain gray background, with one woman in the foreground smiling and making a peace sign."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a [ORGANIZATION] conversation discussing a break without any assignments."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a chat message expressing surprise about being on break with no assignments."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Text message discussing a break from schoolwork."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] chat message from '[PERSON] [ORGANIZATION] [ORGANIZATION]' complaining about being on break with no tasks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat message from a user named [PERSON], expressing surprise that it is holiday time without any tasks."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of people are sitting on a grassy area at night, appearing to socialize in a casual outdoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four individuals is sitting on the grass at night, engaged in an activity together."
+        },
+        "gpt-5.4": {
+          "summary": "Several people are sitting on a grassy lawn at night with drinks and small plastic bags placed in the middle."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people sitting in a grassy area during nighttime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people are sitting on grass at night, gathered around a phone and drinks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young people are sitting on a grassy lawn at night, gathered around plastic bags and bottles."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a hijab and a dark blue jacket is lying on grass, smiling, with '[PERSON]' and 'tepar [PERSON]' text overlays."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying on the grass, wearing a blue blazer and a maroon shirt, with a phone in hand."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a maroon hijab and dark blazer is lying on grass while holding a phone, with playful text overlays on the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person lying outdoors holding a phone with '[ORGANIZATION]' sticker above their head."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a school uniform lies on grass, smiling while holding a phone with a 'BFF' heart graphic overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a school uniform and [PERSON] lies on grass at night, smiling while holding a phone."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five people poses for a selfie at a scenic viewpoint during twilight."
+        },
+        "gpt-5.4": {
+          "summary": "A group of six people pose for a selfie at a hilltop viewpoint overlooking a town under a cloudy dusk sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Group of friends taking a selfie atop a scenic overlook."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of friends poses for a selfie on a high overlook with a cityscape below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of six friends poses for a selfie on a paved mountain viewpoint overlooking a city, with some waving and smiling at the camera."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view of a city at night or dusk, with numerous illuminated buildings and streets stretching across a valley under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A panoramic view of a city illuminated at night, shrouded in mist and clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A foggy dusk view from a hillside overlooks a city valley with scattered lights and dark mountains in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A panoramic view of a city illuminated by lights under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A panoramic view of a city at dusk from a hilltop, with lights illuminating buildings under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle twilight view of a sprawling city illuminated by streetlights, seen from a dark, grassy hillside under an overcast sky."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop screen displaying a scene from 'Squid Game in Conversation' with a person in a suit and subtitles in Indonesian."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a laptop screen showing a [ORGANIZATION] title card and interview scene for \"Squid Game in Conversation\" with Indonesian subtitles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displaying a video titled 'Squid Game in Conversation' featuring subtitles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop screen displays a video interview with the creator of 'Squid Game,' featuring Indonesian subtitles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A laptop screen displays a video titled 'Squid Game in Conversation' featuring an interview with subtitles in Indonesian."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a book donation campaign for the community of [PERSON], featuring two individuals in traditional attire."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional poster encourages book donations for [PERSON], featuring three students in white uniforms and event details, requirements, [ORGANIZATION] code, and contact information."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster encouraging book donations in [PERSON] from [DATE] to [DATE]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three girls in white hijabs examine a book together in a library setting, promoting a book donation drive."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional poster for a book donation drive organized by [ORGANIZATION] to support the community in [PERSON], featuring three smiling students and event details."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two individuals in white uniforms, possibly mechanics or trainees, are in a"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals in white uniforms are engaged in a discussion while working on a motorcycle in a workshop."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in white uniforms stand beside a scooter on a service lift in a workshop, with one pointing up toward an overhead unit labeled \"[ORGANIZATION].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in a workshop environment interacting near motorcycle maintenance equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two mechanics in white uniforms point at a suspended tool above a scooter inside a repair shop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two mechanics in white uniforms and caps stand next to a motorcycle with its seat removed inside a service workshop."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a bottle of Floridina orange juice with an orange cap"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a bottle of Floridina orange drink in a tiled setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a bottle of Floridina orange drink with orange pulp in an indoor tiled setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a bottle of [PERSON] juice."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds an orange-flavored [PERSON] drink bottle against a tiled floor background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a plastic bottle of [PERSON] against a tiled floor background."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a [ORGANIZATION] conversation with a document titled 'KARTU HASIL STUDI' and a [ORGANIZATION] file related to academic information."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] chat shows Indonesian messages and a shared [ORGANIZATION] preview of a university academic study-results document."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] conversation showing a student's academic transcript from [ORGANIZATION] [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] chat showing academic results and greetings, with a [ORGANIZATION] attachment from a university."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation showing academic documents and messages in Indonesian."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people working collaboratively at a table with laptops in a well-lit outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people work side by side on laptops in a café-like covered outdoor space, with one laptop showing an online presentation and video call."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Students are engaged in a collaborative digital workshop focused on branding UMKM (Micro, Small & Medium Enterprises) under [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people are seated at a table indoors, working on laptops during a virtual meeting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young people are gathered around a table at night, working on laptops while participating in a virtual meeting displayed on the foreground screen."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people is gathered around a table discussing life while drinks and phones are visible."
+        },
+        "gpt-5.4": {
+          "summary": "A casual café hangout photo shows people around a wooden table with drinks, phones, chargers, and one person making double peace signs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person making a peace sign while sitting in front of various items including phones, glasses, keys, and receipts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person seated at a wooden table makes peace signs with both hands, surrounded by drinks, phones, and keys."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a wooden table cluttered with drinks, phones, and personal items where a person in the background makes peace signs."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals in blazers pose in a green rice field."
+        },
+        "gpt-5.4": {
+          "summary": "Three people wearing matching blazers and lanyards pose in a lush green rice field, smiling and gesturing toward the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals pose in a lush green field under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people in matching blazers pose cheerfully in a lush green rice field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three smiling young adults wearing matching navy blazers and lanyards pose playfully in a lush green rice paddy field."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of feet standing in shallow water, with various types of footwear visible."
+        },
+        "gpt-5.4": {
+          "summary": "Several people stand ankle-deep in a shallow rocky stream, with feet and sandals visible from above."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Feet wearing sandals are submerged in a shallow stream of water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Multiple people wearing sandals stand in shallow, flowing water from a top-down perspective."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person perspective of multiple people standing in shallow, flowing water wearing sandals and shorts."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a collection of colorful hair accessories and candy scattered on a woven mat."
+        },
+        "gpt-5.4": {
+          "summary": "Small handwritten gift packets with cute stickers, candy, and colorful hair ties are spread out on a woven mat beside two visible hands."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of small gifts laid out on a woven mat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of small gifts and candies arranged on a woven mat, with handwritten notes and colorful hair ties."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of small gifts, including colorful hair ties and candies, are arranged on a woven mat with handwritten notes."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A child is holding a decorated note with stickers while another person stands in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling child outdoors holds a small handmade paper note or craft with cute stickers while another person stands blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young girl smiles while holding a small envelope decorated with cartoon characters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young girl smiles while holding up a handmade note with a cartoon rabbit and book design."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling young girl stands outdoors while a hand holds up a small, decorated paper note in front of her."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital weather widget displays the temperature as 18° in [PERSON], with conditions described as '[PERSON] (partly cloudy) and a temperature range of T:26° R:17°."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather widget showing the current temperature and conditions for [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone weather widget shows [PERSON] with a current temperature of 18° and partly cloudy conditions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing temperature in [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather widget displays current conditions in [PERSON], showing 18°C and partly cloudy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather widget displays the current temperature of 18 degrees in [PERSON] with partly cloudy conditions."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of young people are casually gathered, sitting on a striped mat on the floor in a room with patterned curtains, some engaging with phones and others conversing."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people is sitting on the floor in a cozy indoor setting, engaged in conversation or using their phones."
+        },
+        "gpt-5.4": {
+          "summary": "Several people are sitting together on floor mats in a brightly lit room, chatting and looking at their phones near a window with floral curtains and an open door to the dark outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are sitting in a circle indoors using their phones."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people are sitting cross-legged on patterned mats indoors, some looking at phones while others engage in conversation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young adults sits in a circle on striped mats inside a room with floral curtains, engaging in conversation and using mobile phones."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a camera, viewing a photo of several individuals engaged in an activity indoors."
+        },
+        "gpt-5.4": {
+          "summary": "A person is holding a [ORGANIZATION] camera whose screen shows a recording of several people indoors, with blue striped fabric in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a [ORGANIZATION] camera displaying an outdoor scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a [ORGANIZATION] camera recording a scene of people gathered around a drum in a covered outdoor area."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a dark jacket holds a [ORGANIZATION] mirrorless camera, reviewing footage of a group playing traditional drums on the flip-out screen."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of musicians is playing traditional instruments in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "Several people sit on floor mats with hand drums and hanging gongs in a dimly lit indoor traditional music gathering."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of men are seated in a traditional setting playing musical instruments."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several men sit on patterned mats around traditional drums and gongs in a culturally decorated indoor space."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of men are seated on a patterned mat indoors, participating in a musical performance with traditional instruments like drums and gongs."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A communal meal is being served on a patterned tablecloth, featuring various dishes including rice, soup, and fried food."
+        },
+        "gpt-5.4": {
+          "summary": "Overhead view of a casual shared meal on a striped mat with rice, a large pan of vegetable-and-meat soup, fried food, drinks, and people serving themselves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal setup featuring rice, fried food, soup in a pot, and various utensils."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people are eating a meal together on a striped mat, with bowls of rice, fried food, and a large pan of soup."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people are sharing a communal meal on a striped mat, featuring dishes like fried chicken, vegetable stew, and rice."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of five young adults, dressed in matching"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five individuals poses playfully for a selfie, making peace signs and other gestures."
+        },
+        "gpt-5.4": {
+          "summary": "A group of friends in matching dark blazers take a playful indoor selfie, making peace signs and hand gestures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of five people posing together in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five people in matching blue jackets pose playfully for a selfie indoors, making hand gestures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five young people wearing matching blue blazers pose playfully for a selfie indoors, making hand gestures and smiling."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows baked sushi or a similar dish with creamy orange sauce"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a takeout container with pieces of food topped with dark seaweed and green herbs, partially eaten."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a takeout tray of seaweed-topped savory bites covered in orange creamy sauce, with chopsticks lifting one piece."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a dish featuring grilled salmon topped with herbs in an aluminum tray."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a foil tray containing food topped with dark squares and green herbs, inside a cardboard box."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a partially eaten salmon dish topped with nori and herbs, served in a foil container inside a cardboard takeout box."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather report for [PERSON], indicating a temperature of 18°C."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone weather screen shows the current conditions for [PERSON] at night, reporting 18° and partly cloudy."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather app showing current temperature in [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather app screen showing nighttime temperature data for [PERSON] against a starry sky background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone screenshot displays a weather app interface showing 18°C in [PERSON] against a starry night background."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a blue jacket and a black hijab poses for a selfie in a rural outdoor setting with palm trees in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up outdoor selfie of a person wearing a dark headscarf, blue blazer, and lanyard in a sunny field with palm trees in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a hijab in an outdoor rural area under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a hijab and blue jacket takes a selfie outdoors in a rural field under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing a black hijab and blue blazer, standing outdoors in front of a muddy field with palm trees under a clear sky."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling person wearing a maroon hijab, striped shirt, and light-colored pants stands outdoors in a lush green forest or wooded area, holding a black bag."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a lush green outdoor setting, wearing a striped shirt and a maroon scarf."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses smiling in a lush, sunlit forested area with tall trees and dense greenery."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a lush forested area wearing casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a hijab smiles while standing outdoors in a lush, tree-filled forest setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing a maroon hijab and casual clothing poses on a dirt path surrounded by lush green trees in a forest setting."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up outdoor portrait shows a person wearing a light pink"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a light-colored scarf and a dark sweater, with a necklace visible, set against an outdoor background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up outdoor selfie shows a person in bright sunlight wearing a light beige headscarf, dark clothing, and a small necklace, with a street in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person wearing a hijab in an outdoor urban environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up selfie of a person wearing a light pink [ORGANIZATION], a dark cardigan, and a floral pendant necklace outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing a beige hijab, dark cardigan, and flower pendant necklace in an outdoor setting."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a web error message indicating a timeout occurred while accessing a specific URL."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile browser screenshot shows a [ORGANIZATION] 'A timeout occurred' error page for [ORGANIZATION] with error code 524 and a host error status."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A timeout error occurred during a web request."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A browser error page indicating a timeout occurred while trying to access [ORGANIZATION], with [ORGANIZATION] and the browser functioning normally."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile browser screenshot displays a [ORGANIZATION] 524 timeout error page for the domain [ORGANIZATION], indicating a host connection failure."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals in blue blazers poses for a selfie by a lake."
+        },
+        "gpt-5.4": {
+          "summary": "A cheerful group selfie shows several people in matching blue blazers posing outdoors by a lakeside pavilion and trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Six individuals in school uniforms pose together outdoors near a body of water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of seven people in matching blue jackets pose for a selfie outdoors near a lake under a traditional roofed structure."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of seven young adults wearing matching blue blazers and lanyards pose for a selfie outdoors near a lake and traditional pavilion."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals in blue blazers poses for a selfie near a body of water."
+        },
+        "gpt-5.4": {
+          "summary": "A group of seven people in matching blue blazers take a cheerful outdoor selfie near a lakeside gazebo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Six individuals in school uniforms pose together outdoors near a body of water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of young people in matching blue jackets pose for a selfie under a wooden pavilion near water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of seven young adults wearing matching blue blazers and lanyards pose for a selfie outdoors near a wooden pavilion and water."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two young women are taking a playful mirror selfie inside a clothing store, surrounded by racks of apparel."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two women are posing for a selfie in a clothing store, showcasing their outfits and accessories."
+        },
+        "gpt-5.4": {
+          "summary": "Two friends pose for a cheerful mirror selfie in a bright clothing store, surrounded by racks of apparel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two women take a selfie in front of mirrors while shopping."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women wearing hijabs take a selfie in a brightly lit clothing store while posing with phones and accessories."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two women wearing hijabs pose playfully for a mirror selfie inside a brightly lit clothing store, surrounded by racks of apparel."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are taking a selfie in a brightly colored store, showcasing hats and a playful atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows two friends in a brightly lit retail store, with colorful hats and a sign visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie in front of hats displayed on shelves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women take a selfie in a brightly colored store aisle, holding a pink phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two women wearing hijabs take a mirror selfie in a brightly lit retail store, with colorful merchandise and signage visible in the background."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a chat interface with text messages and a cute cat holding roses, set against a background of books and floral elements."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an Indonesian [ORGANIZATION] chat over a bookshelf-and-floral wallpaper includes a cat image holding rose emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat interface showing a conversation in Indonesian between two people."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation overlaid on a background of books and flowers, featuring a meme image of a cat holding roses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation in Indonesian overlaid on a background featuring book spines and a meme of a cat holding roses."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a chat interface with emojis and a text message in Indonesian."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a messaging app reaction bar and context menu opened on a chat message in Indonesian."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a chat interface showing an emoji reaction bar above a message."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurred screenshot of a messaging app showing a message with emojis and an action menu."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile messaging app interface showing a message bubble with reaction emojis and a context menu in Indonesian."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows two individuals wearing helmets, with one person playfully sticking out their tongue."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two individuals wearing helmets, with a focus on their heads and shoulders."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up, low-light selfie shows two people in helmets, with one wearing glasses and a plaid jacket under a bright overhead light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up selfie of a person wearing glasses indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A selfie of two people wearing helmets, one smiling and looking at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of two people wearing motorcycle helmets, with one person in the foreground wearing glasses and a plaid shirt."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling person wearing a maroon hijab and a striped shirt poses outdoors in a lush, green natural environment."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a maroon hijab and a striped shirt stands in a lush green outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a maroon headscarf and striped top stands on a sunlit path surrounded by dense green tropical vegetation."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a hijab stands in front of lush greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a maroon hijab and striped shirt smiles while standing outdoors in a lush, green forested area."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing a maroon hijab and striped shirt stands outdoors in a lush, green forest setting."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people posing together in a park setting, wearing matching outfits and displaying playful gestures."
+        },
+        "gpt-5.4": {
+          "summary": "A large group in matching navy tops, light pants, and lanyards poses together on a paved outdoor courtyard beneath tall palm trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Group of young people posing outdoors in matching uniforms."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of young people in matching uniforms poses cheerfully outdoors under palm trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of young adults wearing matching navy blue uniforms and beige pants pose for a photo outdoors on a paved plaza surrounded by palm trees."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people in matching outfits poses playfully outdoors, showcasing camaraderie."
+        },
+        "gpt-5.4": {
+          "summary": "A large group in matching navy shirts and beige pants poses playfully for a photo on a tiled outdoor plaza lined with palm trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of young people posing playfully in a public square."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of young people in matching uniforms pose energetically outdoors on a patterned pavement."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of young adults in matching navy blue uniforms and beige pants pose playfully outdoors on a paved plaza with palm trees."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Four individuals wearing matching blazers and hijabs pose together in a hallway."
+        },
+        "gpt-5.4": {
+          "summary": "Four people in coordinated dark blazers, white shirts, black headscarves, and event lanyards pose together indoors, smiling at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four individuals in formal attire pose together indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four young women in school uniforms and hijabs pose together indoors, smiling for a group photo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four smiling women wearing matching black hijabs, white shirts, and [ORGANIZATION] blue blazers pose together indoors while wearing event lanyards."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a chat conversation discussing 'gemastik' and 'gembatik' with a background of a decorative element."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a chat conversation shows two green message bubbles over a book-page background, discussing the words \"gemastik\" and \"gembatik.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation snippet showing two messages discussing feelings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a chat conversation showing two messages in Indonesian with timestamps and checkmarks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation in Indonesian discussing the spelling of 'gembatik' versus 'gemastik'."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a light blue [PERSON] smiles while holding a fresh strawberry, standing"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holding a strawberry stands in front of a display of strawberries at a market."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a headscarf holds up a strawberry beside trays full of fresh strawberries at an outdoor farm stand with a motorcycle and [LOCATION] in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman smiles while holding a strawberry in front of crates filled with strawberries."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman smiles while holding a strawberry in front of large crates of strawberries at an outdoor stall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman wearing a light blue [PERSON] and black coat holds up a single strawberry while standing next to large white crates filled with fresh strawberries at an outdoor farm stand."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a large quantity of fresh strawberries displayed in white containers at a market."
+        },
+        "gpt-5.4": {
+          "summary": "Several trays of fresh strawberries are displayed at a market stall, with a hand holding a clear plastic berry container in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Fresh strawberries are displayed in trays at a market stall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Multiple white crates filled with fresh strawberries are displayed at an outdoor market stall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of multiple white styrofoam crates filled with fresh strawberries at an outdoor market stall."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a classroom setting with multiple desks and chairs arranged closely together."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up view of empty classroom desks and chairs arranged in rows on a tiled floor, with bag straps visible at the edges."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A classroom scene showing rows of desks in a school environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle view of rows of empty white school desks and chairs in a classroom, with black straps hanging from the seats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of an empty classroom featuring rows of white student desks with attached chairs and black backpacks resting on the seats."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a traffic jam at dusk, with vehicles and people on motorcycles waiting at a red light."
+        },
+        "gpt-5.4": {
+          "summary": "Evening traffic is backed up at a red light on a city street, with cars and motorcycles under trees, power lines, and a streetlamp."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Traffic congestion during dusk in an urban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowded street at dusk with motorcyclists and cars stopped in traffic, illuminated by red brake lights and [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a motorcycle in heavy evening traffic, showing the back of a rider in a patterned shirt and other commuters waiting at a red light under streetlamps."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] interface showing a street map with various locations and restaurants."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode [ORGANIZATION] screenshot shows a neighborhood map centered on Jl. [ORGANIZATION] with nearby food places and route lines."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] interface showing a street view of Jl. [ORGANIZATION] in an urban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] screen showing a map of an urban area with restaurant locations and street names."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [ORGANIZATION] mobile interface displaying a dark-mode map view of an urban area with specific street names and restaurant locations."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop screen displaying a Discord interface with a gaming scene and various user messages."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop on a desk displays the [ORGANIZATION] app in dark mode with direct messages and a shared image, against a plain wall with a small poster."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displaying a [ORGANIZATION] interface showing messages from friends."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displays a [ORGANIZATION] direct message chat with a [PERSON] game scene featuring a crescent moon and a small structure."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A silver HP laptop displays the [ORGANIZATION] application interface, showing an active voice call and a shared screen of a [PERSON] game featuring a crescent moon."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a chat conversation discussing plans to visit an ice cream place, accompanied by decorative background elements."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an Indonesian chat conversation over a floral collage wallpaper, discussing an ice cream place and meeting up, with a smiling meme sticker included."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation in Indonesian discussing ice cream plans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] chat discussing going to an ice cream place, overlaid on a floral and book-themed background with a smiling cartoon sticker."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation in Indonesian discussing an ice cream shop, overlaid on a collage background featuring books and floral patterns."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a casual setting with two people conversing in a café, while a workspace with laptops and glasses is in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A study or work table with two open laptops, glasses, and a snack sits in a bright café-like indoor space with a [ORGANIZATION] drink sign and a few people chatting in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A workspace setup featuring two laptops displaying documents in a casual study area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two laptops on a table with writing documents open, glasses and mochi snack nearby, in a cafe with '[ORGANIZATION]' branding."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a workspace with two laptops on a white table, featuring a snack and glasses in the foreground and people studying in a cafe setting."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital graphic features the blue and gold Python programming language logo next to the bold text 'PYTHON IS AWESOME!' on a white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a graphic promoting the programming language Python with the text 'PYTHON IS AWESOME!'"
+        },
+        "gpt-5.4": {
+          "summary": "A graphic shows the [ORGANIZATION] logo next to the bold text \"PYTHON IS AWESOME!\" on a white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] logo accompanied by bold text stating 'PYTHON IS AWESOME!'"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graphic featuring the [ORGANIZATION] logo and the text 'PYTHON IS AWESOME!' in bold black letters."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic featuring the official Python programming language logo alongside the bold text 'PYTHON IS AWESOME!'."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a conversation about a group project, with visible frustration expressed through emojis."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an Instagram-style direct message reply shows a small story image of people sitting on a floor, Indonesian chat text about group work, a short reply saying “[ORGANIZATION],” and several angry emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people working together in a classroom-like environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media reply showing a photo of a child working on a floor with text overlay, followed by a comment contrasting 'kerja' and 'kelompok', and four angry emojis."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media chat showing a reply to a story about group work, featuring a humorous comparison between the subjects and cameramen, followed by angry emojis."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of three individuals in blue jackets poses for a selfie in a lush green rice field."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie shows three people in matching blue blazers standing beside bright green terraced rice fields, with one holding a camera on a tripod."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals take a selfie in front of terraced rice fields under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people in matching blue jackets pose for a selfie on a grassy hill overlooking terraced rice fields under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three young people in matching blue blazers pose for a selfie on a grassy hill overlooking green rice terraces, with one holding a camera tripod."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bright, sunny landscape features lush green rice paddies and palm trees in the foreground, with distant mountains partially obscured by haze under a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of lush green rice fields with palm trees and a mountain in the background under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A bright tropical landscape shows palm trees and green rice fields with a hazy mountain in the distance under a high sun."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene rural landscape featuring rice paddies under a bright sun."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright sunny day over lush green rice paddies with palm trees in the foreground and a distant mountain range under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape featuring vibrant green rice terraces and palm trees under a bright sun with a distant mountain in the background."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a chat interface showing a conversation between two users with a timestamp."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed smartphone screenshot shows the top of a social media or messaging screen with a username pair, status icons, and a timestamp."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a messaging app interface showing an incoming message from '[ACCOUNT]'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen showing a social media notification with a blurred message and timestamp."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile messaging interface showing a conversation header with the username '[ACCOUNT]' and a partially obscured contact name."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large crowd of people is walking along a wide path lined with tall palm trees and lush gardens under a partly cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people walking along a palm-lined path in a park-like setting."
+        },
+        "gpt-5.4": {
+          "summary": "A large crowd of people is walking down a palm-lined road under a cloudy blue sky, with many wearing head coverings and colorful casual clothing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "People are walking along a tree-lined path in what appears to be an outdoor park."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowd walks down a tree-lined path under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large crowd of people, many wearing hijabs, walks away from the camera down a wide paved road lined with tall palm trees and decorative lamps under a cloudy sky."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while wearing a blue shirt and a black hijab, with a lanyard visible around their neck."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person in large round glasses and a black head covering, winking while wearing a blue sports-style shirt with a lanyard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a blue hoodie with white accents and glasses takes a selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blue uniform and black [PERSON] winks playfully at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing glasses, a black hijab, and a blue shirt with a white phoenix logo."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a black hijab, glasses, and a dark blue blazer with an armband poses for a selfie indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a blue blazer and a black hijab poses for a selfie, with a visible badge on their arm."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person wearing a black hijab, glasses, a blue blazer, and a lanyard while seated in front of a tiled wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a hijab, glasses, and formal attire sits in an office chair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a hijab poses for a selfie while seated in an office chair, dressed in a blazer with a branded armband."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing glasses, a black hijab, and a blue blazer with an armband in an indoor setting."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large audience is seated in a hall, facing a stage with a presentation titled '[PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A large audience sits in an indoor auditorium facing a stage with a purple event screen that reads “SESI ISHOMA.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Attendees are seated in a large hall watching an event titled 'SESI ISHOMA' displayed prominently on stage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An audience sits in a large hall facing a stage with a purple screen displaying 'SESI ISHOMA' and Indonesian flags."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large audience sits in a conference hall facing a stage with a purple screen displaying 'SESI ISHOMA' and an Indonesian flag."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop with a document open, a cup of iced coffee, and a bottle of water on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop on a desk with a Word document open sits beside an iced drink and a [ORGANIZATION] water bottle in a simple work/study setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A workspace setup featuring a laptop displaying database tables alongside beverages."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displaying a MySQL database schema in [ORGANIZATION] Word sits on a desk next to a beverage and a water bottle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a workspace featuring an open laptop displaying database schema documentation in [ORGANIZATION] Word, accompanied by a plastic cup of iced coffee and a bottle of [PERSON] water on a wooden desk."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A takeout meal is presented in a cardboard box, featuring white rice, fried noodles, crackers, a piece of meat, and lettuce, all individually packaged."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a takeout box containing rice, noodles, crackers, lettuce, and a portion of meat."
+        },
+        "gpt-5.4": {
+          "summary": "An open cardboard takeout box contains a wrapped rice portion, stir-fried noodles, prawn crackers, lettuce, and a piece of fried or grilled meat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal in a takeout container featuring noodles, rice cakes wrapped in plastic wrap, lettuce leaves, and what appears to be meat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A takeout meal in a cardboard box contains fried noodles, lettuce with meat sauce, and packaged crackers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A takeout meal in a cardboard box containing noodles, rice cakes, crackers, and meat with lettuce."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a computer storage drive interface showing low available space on the Windows (C:) drive."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] screenshot shows the C: drive nearly full, with a red storage bar and very little free space left."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a Windows file system showing storage usage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer file explorer window showing the Windows (C:) drive with a red progress bar and free space information."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of [ORGANIZATION] and drives' settings panel showing a C: drive with critically low storage space."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two individuals posing together in a dimly lit setting, with one person partially obscured by a menu overlay."
+        },
+        "gpt-5.4": {
+          "summary": "A dim indoor phone screenshot shows a casual photo of two people sitting together, with an [ORGANIZATION] photo options menu open over the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a hijab smiles while standing next to another individual in an indoor environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit selfie of two people, with a photo management menu overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile interface displaying a photo of two people with an open context menu in Malay."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is carrying two large black garbage bags in a park-like setting with palm trees."
+        },
+        "gpt-5.4": {
+          "summary": "A person walks through a tree-filled outdoor area carrying two large black trash bags while others move equipment in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person carrying two large black trash bags in a park-like area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while holding two large black trash bags in a park-like outdoor setting with trees and other people working in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman wearing a hijab and glasses stands outdoors holding two large black trash bags, with other people setting up equipment in the background."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals in matching attire poses for a selfie outdoors."
+        },
+        "gpt-5.4": {
+          "summary": "A group selfie shows several people in matching dark shirts and lanyards posing outside a building beside a tree, with one hand partly covering the lens."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in matching uniforms take a selfie outdoors near an institutional building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of young people in matching uniforms pose for a selfie outdoors near a building with an \"EXIT\" sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young people wearing matching navy blue uniforms and lanyards pose for a selfie outdoors in front of a modern building."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a light blue surface with handwritten text that reads \"[PERSON]\","
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a mirror with handwritten text on it."
+        },
+        "gpt-5.4": {
+          "summary": "Low-information photo of a whiteboard on a wall with a single handwritten word near the center."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A handwritten signature reading '[PERSON]' appears in cursive script."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A handwritten phrase on a light blue framed surface mounted on a wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a handwritten phrase in black ink on a light blue surface, likely a whiteboard or paper. The text is written in lowercase cursive script."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows several pizza boxes with different types of pizzas displayed on a table."
+        },
+        "gpt-5.4": {
+          "summary": "Several open pizza boxes on a table display rectangular and round pizzas with meat and vegetable toppings, plus cheesy bread and dipping sauces."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A variety of pizza slices in open boxes arranged neatly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several open pizza boxes containing various rectangular and round pizzas with different toppings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a table covered with four open pizza boxes containing various rectangular and round pizzas, alongside dipping sauces and a smartphone."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large pizza with various toppings is displayed in a pizza box, accompanied by dipping sauces."
+        },
+        "gpt-5.4": {
+          "summary": "An open pizza box holds a large rectangular pizza with assorted meat and vegetable toppings, plus dipping sauces, on a table with people seated behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large pizza in a box topped with sausage slices."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A square pizza with various toppings is served in an open cardboard box, with people seated behind it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, rectangular pizza box containing two distinct square-cut pizzas with various toppings sits on a table in front of seated people."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a video call interface with a spreadsheet displayed on the screen, indicating collaborative work."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop screen shows a [ORGANIZATION] project tracker with a [ORGANIZATION] call/chat window over it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person working remotely using a laptop displaying multiple spreadsheets and [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop screen shows a [ORGANIZATION] document with a [ORGANIZATION] chat window open over it, indicating multitasking during work or coordination."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A laptop screen displays a [ORGANIZATION] spreadsheet with recruitment data alongside an active video call window showing two participants."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up selfie featuring two individuals, one wearing a red shirt and the other in a hijab, with a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows two people outdoors, one in glasses and a hijab and the other in a red work-style shirt looking downward."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie outdoors; both wear glasses. One person wears a red shirt labeled 'DETA' while holding a phone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a red shirt with '[LOCATION]' and 'Accommodations' patches looks down at a phone while another person with glasses and a hijab takes a selfie."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of two individuals, one wearing a red uniform shirt with visible patches and the other in a light blue [PERSON] and glasses. The person in red is looking down at a phone."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman in an apron prepares food at a street food stall at night."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime street food stall scene shows a cook working at a wok beside a brightly lit display of fried snacks and ingredients."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A street vendor preparing food under a covered market stall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person prepares food at a nighttime street stall with illuminated display cases of snacks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vendor wearing a hijab and apron prepares food at an open-air street stall at night, surrounded by cooking equipment and display cases filled with fried snacks."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a [ORGANIZATION] conversation discussing a reminder for an upcoming exam."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] chat screenshot shows a forwarded Indonesian message reminding that [ORGANIZATION] is tomorrow, followed by a note about a reminder from [LOCATION] and a short reply."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] message reminding someone of an upcoming [ORGANIZATION] exam."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] chat shows a student requesting exam preparation help and receiving a brief response."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] chat showing a forwarded reminder about upcoming mid-semester exams ([ORGANIZATION]) and the user's brief acknowledgment."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cartoon character holding a magnifying glass with text about seeking learning motivation."
+        },
+        "gpt-5.4": {
+          "summary": "A simple motivational-style graphic shows a 3D stick figure holding a large magnifying glass with Indonesian text about searching for study motivation."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon figure holding a magnifying glass under the words '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A 3D white figure holds a magnifying glass with text above and below indicating a search for learning motivation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white 3D character holds a large magnifying glass with Indonesian text above and below reading '[ORGANIZATION]' and '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a nighttime outdoor setting with illuminated structures and seating areas."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime view of a warmly lit outdoor dining venue with patio umbrellas, parked scooters, and a building across a dark open lot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime view of a lit-up outdoor cafe area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime outdoor café area with lit umbrellas, tables, and surrounding buildings under a dark sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night view of an outdoor cafe or restaurant patio featuring tables with umbrellas, parked motorcycles, and a blue tent under artificial lighting."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people posing together outdoors at night, with a lit background."
+        },
+        "gpt-5.4": {
+          "summary": "A large group of friends poses together at night on an outdoor terrace with lights and buildings visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people posing together outdoors during nighttime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of young people poses together at night on an outdoor balcony overlooking a lit-up area."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of young adults poses for a night-time group photo on an outdoor terrace with city lights visible in the background."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people posing for a selfie at night, with some showing peace signs and playful gestures."
+        },
+        "gpt-5.4": {
+          "summary": "A large group of friends pose for a smiling nighttime outdoor selfie under bright lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people taking a selfie outdoors under streetlights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime selfie of a group of young people posing together outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of smiling young adults poses for a night-time selfie outdoors, with several individuals wearing hijabs and casual attire."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people engaged in a discussion or presentation in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A group gathers around a table with laptops while one person speaks into a microphone, with a projector screen in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are gathered in a room engaged in what appears to be an educational session involving laptops."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people are gathered indoors at night, engaged in a tech-focused workshop or meeting with laptops and a projector screen displaying app icons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young adults gathers indoors around a table with laptops, engaging in a collaborative session or presentation while one person speaks into a microphone."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals poses together, each holding a banner with their respective roles or titles."
+        },
+        "gpt-5.4": {
+          "summary": "A large group in matching outfits poses in a studio while holding colorful role-name signs for what appears to be an event or committee team photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of individuals posing together holding colorful ribbons indicating their roles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people in matching outfits pose for a photo while holding colorful banners indicating their roles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of young adults in matching uniforms poses for a formal studio portrait, holding colorful signs that display their specific roles within an organization."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are seated on steps, wearing blindfolds and crossing their arms."
+        },
+        "gpt-5.4": {
+          "summary": "Three people in matching dark tops sit on white steps in a minimalist studio, posing with folded arms and visors pulled over their eyes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals wearing matching outfits sit cross-legged in a minimalist indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people sit on white steps with blindfolds covering their eyes, arms crossed, in a minimalist studio setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three individuals wearing matching navy blue shirts and beige pants sit on white steps with blindfolds covering their eyes."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop screen displaying a project plan document with various sections highlighted."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop screen displays a [ORGANIZATION] project plan document with a table of contents and highlighted project management sections."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displaying a [ORGANIZATION] document titled '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displays a [ORGANIZATION] project plan titled '[ORGANIZATION] with an outline of sections and subsections."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a laptop screen displaying a [ORGANIZATION] table of contents for a document titled '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop screen displaying a reinforcement learning course interface with tasks and code snippets."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop screen displays [ORGANIZATION]\" course with coding tasks open in the Live Editor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Laptop screen displaying a [ORGANIZATION] reinforcement learning course task."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop screen displays a MATLAB Reinforcement Learning Onramp course interface with code tasks and a 'Correct!' feedback message."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a laptop screen displaying [ORGANIZATION] interface for a 'Reinforcement Learning Onramp' course, showing coding tasks and a solution marked as correct."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone screen showing the time, date, and a music player playing a reggae cover of 'One in a Million' by [PERSON]"
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone lock screen shows the time 03.37, an alarm set for 05.15, and music playing: \"One in a Million ([ORGANIZATION])\" by [PERSON]"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A smartphone lock screen displaying a music player interface playing 'One in a Million ([ORGANIZATION])' by [PERSON]"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone lock screen showing the time as 03:37 on [DATE], with a music player overlay for 'One in a Million ([ORGANIZATION])' by [PERSON]"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone lock screen displaying the time 03:37 on Monday, [DATE], with a music player widget showing 'One in a Million ([ORGANIZATION])' by [PERSON]"
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An image showing a text message bubble from '[ACCOUNT]' with a message in Indonesian about a 'creepy feeling' in the 15th week, timestamped 22.42."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text message expressing a feeling of unease related to a specific event or situation."
+        },
+        "gpt-5.4": {
+          "summary": "A cropped screenshot shows an Indonesian chat message from “[ACCOUNT]” in a white message bubble with the timestamp 22.42."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a chat message discussing feelings in [LOCATION] during week 15."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] message from '[ACCOUNT]' expressing feelings of being scared about an upcoming week."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat message from '[ACCOUNT]' expressing fear about being in week 15 of an internship."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character with a large yellow body and a small child, both engaged in an activity together."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a yellow 3D animated character with large eyes leaning beside a partially visible child character indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a yellow character's face in an animated scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a yellow animated character with large eyes looking down at a surface, with another character partially visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a yellow animated character with large eyes and a dark face, appearing to interact with another character in an indoor setting."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital timeline of assignments due for various courses on an online learning platform."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot of [ORGANIZATION] timeline page showing upcoming university assignment deadlines and multiple 'Add submission' buttons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a university course timeline showing upcoming assignments."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile screenshot of an online learning platform's assignment timeline showing upcoming due dates and submission options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the [ORGANIZATION] learning management system displaying a timeline of academic assignments due between late November and mid-December 2025."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a bathroom, wearing a hijab and a black outfit, with a visible ID badge hanging from their neck."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a beige headscarf and black outfit takes a mirror selfie indoors, wearing a yellow lanyard with an ID badge and holding a phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a hijab takes a mirror selfie in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a hijab and [ORGANIZATION] badge takes a mirror selfie with a smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a beige hijab and black shirt takes a mirror selfie while holding a smartphone with a pop socket, displaying an [ORGANIZATION] badge on a yellow lanyard."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a light purple [LOCATION] and glasses takes a mirror selfie with a smartphone in a tiled room."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a light purple [PERSON] and top is taking a selfie in a bathroom mirror."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a light mauve [ORGANIZATION] and glasses takes a mirror selfie with a smartphone in a tiled restroom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a hijab takes a mirror selfie in front of tiled walls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a light purple [LOCATION] and glasses takes a mirror selfie with a smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a mauve hijab and glasses takes a mirror selfie in a tiled bathroom while holding a black smartphone."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a motorcycle repair shop with several mechanics working on different bikes."
+        },
+        "gpt-5.4": {
+          "summary": "A busy indoor motorcycle and scooter service workshop shows several mechanics working around multiple bikes under overhead cable reels and fluorescent lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Mechanics are working in a scooter repair shop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Technicians work on scooters in a busy repair shop with red overhead lifts and visible license plates."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of mechanics in white uniforms work on multiple scooters inside a busy, well-lit motorcycle service center."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of dumplings with sauce, a bamboo steamer, and a glass of iced tea on a table."
+        },
+        "gpt-5.4": {
+          "summary": "A restaurant table shows dim sum dumplings in a bamboo steamer, two on a plate with orange sauce, a glass of iced tea, and a receipt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal featuring dumplings served in a bamboo steamer basket alongside a glass of tea."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meal featuring steamed dumplings in a bamboo basket and a plate with sauce, accompanied by a glass of iced tea and a receipt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a meal featuring steamed dumplings in a bamboo basket and on a white plate, accompanied by a glass of iced tea and a restaurant receipt."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is studying or working on a laptop with a graph displayed on the screen, surrounded by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie beside an open laptop showing online schoolwork or math assignments, taken at a desk with leafy greenery in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a mask works on their laptop displaying mathematical graphs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses leans over a laptop displaying mathematical graphs and equations, with [ORGANIZATION] visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses rests their head near an open laptop displaying mathematical graphs and text in Thai script."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a messaging interface with various emojis and options for responding to a message."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] chat with the message \"beban\" selected, displaying emoji reactions and an Indonesian context menu."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a messaging app showing options like reply, forward, copy, edit, info, star rating, delete."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A messaging app interface showing a chat bubble with the word '[PERSON]' and a context menu with Indonesian options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation showing a long-press context menu with Indonesian options and a sent message bubble containing the word '[PERSON]'."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant fruit tart, topped with strawberries, kiwi, grapes, and a chocolate piece, is presented in a [LOCATION] box with a 'Happy Birthday [PERSON] message."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a birthday cake decorated with fruits and a message for [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A glossy fruit tart birthday cake topped with mango, [LOCATION], kiwi, and grapes sits in a [LOCATION] bakery box with a handwritten birthday message plaque."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A beautifully decorated fruit tart in a box with 'Happy Birthday [PERSON] written on it."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fruit-filled birthday tart in a branded box, decorated with fresh fruit and a personalized message."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fruit tart with mango glaze, strawberries, kiwi, and grapes sits in a branded box featuring a 'Happy Birthday [PERSON] plaque."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a box of assorted pastries with various toppings and a label indicating the brand 'YUME'."
+        },
+        "gpt-5.4": {
+          "summary": "An open YUME bakery box contains assorted cream-filled pastries and donuts topped with powdered sugar, citrus, nuts, and matcha dusting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A box of assorted pastries from [ORGANIZATION] displayed in a white paper tray."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An open box of assorted pastries from 'YUME', featuring powdered sugar-dusted treats with cream and toppings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An open white box from the brand [ORGANIZATION] contains six assorted cream-filled donuts, including matcha and powdered varieties."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a birthday message card with a personal note addressed to '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a laptop screen showing a handwritten-style birthday message and card, with Indonesian text wishing someone a happy birthday."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A birthday card displayed in a laptop screen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A handwritten birthday card displayed on a laptop screen, featuring bilingual text in English and Indonesian."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a laptop screen displaying a handwritten digital birthday card addressed to '[PERSON]' in Indonesian and English."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing glasses is shown from the"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a smartphone while interacting with a plush toy in a dimly lit room."
+        },
+        "gpt-5.4": {
+          "summary": "A dim indoor photo shows a person in glasses holding a plush dog toy with a small orange on its head while using a smartphone displaying a game."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a mask holds an orange plush toy while looking at their phone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a plush carrot-head accessory is focused on playing a mobile game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a dark hoodie holds a plush capybara toy with an orange on its head while looking at a smartphone screen."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a prayer or supplication text in Arabic and Indonesian, asking for a good ending in life."
+        },
+        "gpt-5.4": {
+          "summary": "A white-background graphic shows an Arabic Islamic prayer with Latin transliteration and an Indonesian translation about asking for husnul khatimah."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A prayer invoking Allah's blessings in Arabic script."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Text-based image displaying Islamic supplication in Arabic, transliterated Indonesian, and English."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displaying a specific Islamic prayer in Arabic, Latin transliteration, and Indonesian translation."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation discussing personal relationships and education."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a messaging chat in Indonesian over a purple cartoon wallpaper shows someone asking about work and relationship status, ending with an apology."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A conversation in a messaging app discussing work status and relationship."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a text conversation showing replies about work status and relationship status."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation in Indonesian where one person asks about the other's employment and marital status, leading to a polite rejection."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An informational graphic announces a routine system backup with a progress bar, advising university students about restricted access to information systems during specific hours."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification about a routine system backup affecting access to information systems for students."
+        },
+        "gpt-5.4": {
+          "summary": "An [ORGANIZATION] story graphic from a university IT directorate announces routine system backup hours that may limit access to information systems and [ORGANIZATION] for students."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Routine system backup notice informing students of restricted access during specific hours."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] graphic announces a routine system backup with 75% progress, advising [ORGANIZATION] students to avoid accessing [ORGANIZATION]/KRS online between 23:00-03:00."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An official announcement from [ORGANIZATION] IT Directorate informing students about a routine system backup between 11 PM and 3 AM that will limit access to information systems like [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases a variety of Indonesian dishes served at a restaurant called 'Mie Gacoan Tarakan'."
+        },
+        "gpt-5.4": {
+          "summary": "A map/listing screenshot shows [PERSON], an Indonesian restaurant, with rating, price range, hours, distance, and food photos."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A food listing page showcasing [PERSON] in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A restaurant listing for 'Mie Gacoan Tarakan' showing food photos, interior, and user ratings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile interface screenshot displaying a [ORGANIZATION] listing for an Indonesian restaurant named 'Mie Gacoan Tarakan' with photos of noodle dishes and the storefront."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of young adults in formal attire playfully pose with 'claw' hands in front of a large screen displaying \"FAREWELL [ORGANIZATION]\" at an event."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people posing playfully in front of a backdrop that says 'FAREWELL [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A group of formally dressed young people pose playfully on a stage in front of a large event screen reading 'FAREWELL [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people posing joyfully in front of a 'FAREWELL [ORGANIZATION] backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people posing enthusiastically in front of a 'FAREWELL [ORGANIZATION] backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young adults in formal attire poses playfully on a stage with claw-like hand gestures in front of a large screen displaying event text."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a gift box with a golden bow and a personalized mug featuring photos and text."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a clear gift box decorated with gold bows next to a custom photo-collage mug in an indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a gift box wrapped in gold ribbon alongside a mug featuring photos of people."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a personalized mug with photos and text, alongside a gift box decorated with a gold bow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a clear gift box filled with gold ribbons and snacks next to a personalized mug featuring group photos and the text '[ORGANIZATION]."
+        }
+      }
     }
   }
 }

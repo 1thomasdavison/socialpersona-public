@@ -1,67 +1,2955 @@
 {
   "user_id": "participant_080",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "dogs",
-        "nature observation",
-        "photography",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: dogs; nature observation; photography; spectator sports; visual art."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a car, with another person giving a peace sign in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry selfie shows two smiling people next to a car, with one person inside the vehicle making a peace sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people are taking a selfie inside a car while giving peace signs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people inside a car, one taking a selfie and the other making a peace sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of two smiling individuals inside a car, with one person in the foreground wearing glasses and a green cap, and another in the background making a peace sign."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "dogs",
-        "outdoor activities",
-        "photography",
-        "spectator sports",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: dogs; outdoor activities; photography; spectator sports; walking and hiking."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a colorful party hat, suggesting a celebration."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person wearing glasses and a shiny [ORGANIZATION] paper crown while making a puckered expression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a party hat making playful facial expressions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a 'King of the [PERSON]' paper crown makes a playful face indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a gold paper crown makes a puckered face at the camera indoors."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "outdoor activities",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; outdoor activities; photography; spectator sports."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of three individuals poses for a photo outside a venue, with one holding a colorful sign."
+        },
+        "gpt-5.4": {
+          "summary": "Three people pose outside a brick stadium entrance, with the center person in [ORGANIZATION] gear holding a colorful sign that reads \"NO BAD BLOOD JUST MAD LOVE.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals pose together in front of a brick building holding signs promoting unity."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people pose together outdoors near a brick wall and green fence, with one holding a colorful sign that reads 'NO BAD BLOOD JUST MAD LOVE'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three people pose for a photo outside a brick stadium entrance, with the central figure holding a colorful sign that reads 'NO BAD BLOOD JUST MAD LOVE'."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "dogs",
-        "music",
-        "outdoor activities",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: dogs; music; outdoor activities; photography; spectator sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person at a baseball game holds a colorful sign expressing support for a player named [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A baseball fan stands near the field at [LOCATION] holding a glittery sign that says “NO BAD BLOOD JUST MAD LOVE [PERSON].”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan holds a sign supporting baseball player [PERSON] during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person at a baseball stadium holds a colorful sign with photos and the phrase 'NO BAD BLOOD JUST MAD LOVE [PERSON]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a [LOCATION] cap and [ORGANIZATION] jersey stands on the field at [LOCATION] holding a glittery sign dedicated to baseball player [PERSON]."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "film and television",
-        "nature observation",
-        "outdoor activities",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: film and television; nature observation; outdoor activities; photography; spectator sports."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Fans at a baseball game hold colorful signs expressing support for players."
+        },
+        "gpt-5.4": {
+          "summary": "At a crowded baseball stadium, two fans in [LOCATION] hold handmade signs supporting [PERSON] and Judge near the front-row seats."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Baseball fans hold signs expressing support during a game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Fans at a baseball game hold up colorful signs supporting players, with one prominently reading 'NO BAD BLOOD JUST MAD LOVE [PERSON]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two enthusiastic fans wearing [ORGANIZATION] jerseys hold handmade signs with messages directed at baseball players [PERSON] and [PERSON] Judge in a crowded stadium."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "dogs",
-        "film and television",
-        "outdoor activities",
-        "photography",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: dogs; film and television; outdoor activities; photography; spectator sports."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A baseball player in a [LOCATION] uniform raises his hat in celebration at [LOCATION], surrounded by a cheering crowd."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] baseball player stands on the field at [LOCATION] with both arms raised, holding a cap as the crowd and scoreboard fill the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A baseball player in a [LOCATION] uniform raises his cap during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A baseball player in a [LOCATION] uniform raises his cap in celebration on a field with a large crowd and scoreboard in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A baseball player in a [LOCATION] uniform stands on the field with arms raised, holding his cap high against a blue sky at [LOCATION]."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of fans wearing matching shirts pose with a player in a baseball jersey at a [ORGANIZATION] event."
+        },
+        "gpt-5.4": {
+          "summary": "Four people pose at a [LOCATION] Cubs-themed event in front of team-logo backdrop and large blue/gold letter balloons, with shirts referencing [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Group posing in front of [ORGANIZATION]-themed balloons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a [LOCATION] Cubs jersey poses with three fans wearing 'Respect [PERSON]' shirts in front of large balloon letters."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A baseball player in a [LOCATION] Cubs jersey poses for a photo with three fans wearing matching blue shirts that read 'RESPECT [PERSON] in front of large balloons."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a red [ORGANIZATION] t-shirt and a black [ORGANIZATION] cap stands in a hallway."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands indoors wearing a black cap, a red [ORGANIZATION] T-shirt, and a pink-and-blue face mask marked with the number 44."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a [ORGANIZATION] cap and shirt indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a red [ORGANIZATION] shirt and black cap stands indoors, with a tie-dye face mask displaying the number '44'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a red [ORGANIZATION] t-shirt, black cap, and a tie-dye face mask with the number 44 stands indoors."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a blue [ORGANIZATION] shirt poses with a child in a bear-themed hat at a baseball field."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling baseball player in a [ORGANIZATION] shirt poses with a fan on the field at a crowded stadium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan in a [ORGANIZATION] mascot costume poses happily next to an athlete during a baseball game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling young man and girl in [ORGANIZATION] gear pose together at a baseball stadium."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling young man in a [ORGANIZATION] t-shirt poses for a photo with a child wearing a blue bear hat on a baseball field."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A selfie taken at a baseball game featuring two individuals wearing sports caps."
+        },
+        "gpt-5.4": {
+          "summary": "A close selfie at a baseball stadium shows a fan next to someone in a [ORGANIZATION] cap and [LOCATION] with eye black, with netting and bright arena lights in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie in front of an illuminated baseball stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie at a baseball game, one wearing a [ORGANIZATION] cap and [LOCATION] with face paint, the other wearing glasses and a headband."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A selfie of two smiling fans wearing [LOCATION] gear at a night baseball game."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays an 'Order summary' screen showing two items: a blue hooded sweatshirt with 'RIZZO 44' and a blue t-shirt with '44EVER', both in size small."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an order summary for two clothing items, including a hooded sweatshirt and a t-shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an online order summary shows a blue '[PERSON] 44' hoodie and a blue '44EVER' T-shirt, with prices redacted."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Order summary showing a blue hoodie labeled '[PERSON]' in size small."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An order summary showing two blue apparel items: a hooded sweatshirt and a t-shirt, both featuring the number 44."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital order summary displays two blue apparel items, a hooded sweatshirt and a t-shirt, both featuring the number 44."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dark t-shirt with the text '[PERSON] BIGGEST FAN IS [ORGANIZATION].' displayed prominently."
+        },
+        "gpt-5.4": {
+          "summary": "A dark T-shirt with a bold fan slogan is laid out on a bed with Halloween-themed ghost-and-pumpkin sheets and a patterned blanket."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black T-shirt laid out on a bedspread featuring Halloween-themed designs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark gray T-shirt with text declaring '[PERSON] BIGGEST FAN IS [ORGANIZATION].' lies on a Halloween-themed blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark blue t-shirt with gold text reading '[PERSON] BIGGEST FAN IS [ORGANIZATION].' is displayed on a bed covered in Halloween-themed bedding featuring cats and pumpkins."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a pair of colorful [ORGANIZATION] sneakers placed on a patterned bedspread."
+        },
+        "gpt-5.4": {
+          "summary": "Two pairs of [ORGANIZATION] sneakers, one blue-white-red low-top pair and one brown-cream-red high-top pair, are displayed on a bed with Halloween-themed ghost and pumpkin bedding in a pink bedroom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two pairs of sneakers are displayed against a Halloween-themed blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two pairs of colorful sneakers are displayed on a Halloween-themed blanket against a pink wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two pairs of [ORGANIZATION] sneakers, one high-top and one low-top, are displayed on a bed covered with Halloween-themed bedding featuring cartoon dogs and pumpkins."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a blue [PERSON] backpack with a teddy bear keychain, set against a colorful wall of posters."
+        },
+        "gpt-5.4": {
+          "summary": "A blue [PERSON] backpack with small pins and a teddy bear keychain is displayed on a plush blanket in front of colorful poster-covered walls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A blue [PERSON] backpack adorned with pins sits atop a colorful blanket next to a plush toy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue [PERSON] mini backpack with a teddy bear keychain sits on a patterned blanket against a wall of colorful concert posters."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blue [PERSON] backpack with pins and a teddy bear keychain sits on a patterned blanket in front of vintage concert posters."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a baseball jersey with '[PERSON]' and the number '44' stands in front of a brick fireplace, facing away from the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A person seen from behind wears a pinstriped \"RIZZO 44\" baseball jersey and a blue cap while standing in front of a brick fireplace with framed photos and artwork on the mantel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a baseball jersey stands in front of a brick fireplace decorated with framed photos."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A child wearing a baseball jersey with 'RIZZO 44' stands with their back to the camera in front of a brick fireplace adorned with family photos and decor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands with their back to the camera in front of a brick fireplace, wearing a white pinstriped baseball jersey with '[PERSON]' and the number '44' on the back."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a decorated poster board with photos and a message of gratitude in a cozy living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a blue [ORGANIZATION] cap stands in front of a brick fireplace holding a glitter-bordered photo collage poster with thank-you messages."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a collage of photos in front of them while standing by a brick fireplace."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands indoors holding a glittery photo collage board with \"THANK YOU\" and \"❤️ [PERSON]\" written on it, in front of a brick fireplace adorned with framed pictures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a [ORGANIZATION] cap and sneakers stands in front of a brick fireplace holding a large, glittery collage board featuring photos with [PERSON]."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming interface featuring the song 'Intoxicated' by [PERSON] and [ORGANIZATION], with a colorful background and a hand holding hair."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song “Intoxicated” by [PERSON] and Good Times Ahead with colorful album art and playback controls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful album cover featuring a person in an orange shirt against vibrant geometric patterns."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing the song 'Intoxicated' by [ORGANIZATION], with a colorful album art featuring a man pulling his hair."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile music player interface displaying the song 'Intoxicated' by [ORGANIZATION], featuring album art of a man with a mustache having his hair pulled."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a [ORGANIZATION] jersey poses for a photo with another individual while holding a decorated poster with pictures."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a [LOCATION] Cubs jersey and cap poses with a man in a white shirt at an outdoor crowd event beside a building, with a camera operator visible nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in front of a baseball stadium backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a young girl in a [LOCATION] Cubs jersey pose for a photo outdoors, with a camera crew visible behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a white t-shirt poses for a photo with a young woman wearing [ORGANIZATION] gear and holding a framed collage of photos."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people, including a smiling individual in a baseball cap, are enjoying a game at a stadium filled with fans."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie at a crowded baseball stadium shows the outfield, packed stands, and nearby fans, including one making a peace sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in front of [LOCATION] during what appears to be an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling person takes a selfie on a baseball field with fans and stadium lights in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing glasses and a baseball cap takes a selfie with friends at a crowded outdoor baseball stadium on a sunny day."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two individuals at a baseball game, with one wearing a light [LOCATION] and a helmet, while the other is in a blue shirt."
+        },
+        "gpt-5.4": {
+          "summary": "Two spectators stand by the outfield wall at a packed baseball stadium, watching the game, with one wearing a light [LOCATION] and helmet marked 34."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are conversing in a baseball stadium during daytime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men converse near a baseball field, one wearing a light blue jersey with '[PERSON]' and the number '44' on the back."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men stand in a baseball stadium dugout overlooking the field, with one wearing a light [LOCATION] labeled '[PERSON]' and number '44'."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows three numbered white guitar picks on a textured green surface."
+        },
+        "gpt-5.4": {
+          "summary": "Three guitar picks, including ones marked \"23\" and \"44,\" are attached to a dark ribbed metal surface in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three guitar picks are displayed against a textured green background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three white guitar picks with numbers and a logo rest on a textured green surface under sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three white guitar picks with blue numbers and a red logo rest on a green, ribbed metal surface."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two blue clothing items with '44' designs laid out on a bed with a Halloween-themed blanket and various decorations on the wall."
+        },
+        "gpt-5.4": {
+          "summary": "Two blue tops with the number 44 are laid out on a [ORGANIZATION] Halloween bedspread in a brightly decorated bedroom with wall art, plush toys, and a [ORGANIZATION] pennant."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two blue sweatshirts displaying '44EVER' are laid out in a colorful bedroom decorated with Halloween-themed bedding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two blue hoodies with the number '44' displayed on a Halloween-themed bedspread against a pink wall decorated with posters and plush toys."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two blue baseball-themed sweatshirts featuring the number 44 are displayed on a bed with Halloween-patterned bedding in a room decorated with [ORGANIZATION] posters and [ORGANIZATION] memorabilia."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a blue [ORGANIZATION] shirt poses with a child in a bear-themed hat at a baseball field."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a [ORGANIZATION] shirt poses with a fan in a blue-and-red [ORGANIZATION]-style bear hat on a baseball field with the crowd and scoreboard in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan poses happily in a [LOCATION] Cubs jersey alongside someone dressed as [PERSON] the [ORGANIZATION] during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling young man and girl wearing [ORGANIZATION] gear pose together at a baseball stadium."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man in a [ORGANIZATION] t-shirt poses for a photo with a child wearing a blue bear hat on the field of a baseball stadium."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of fans wearing [ORGANIZATION] jerseys enjoy a baseball game at a stadium."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling fans in [LOCATION] Cubs jerseys pose in the stands during a crowded baseball game at [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in [ORGANIZATION] attire pose together during a baseball game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people in [LOCATION] Cubs jerseys pose for a photo at a crowded baseball stadium."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man and woman wearing [ORGANIZATION] jerseys pose for a selfie in the stands of a crowded baseball stadium during a sunny day game."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A blue t-shirt with the text 'TRY NOT TO SUCK' displayed on a colorful blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A blue graphic T-shirt reading 'TRY NOT TO SUCK' is laid out on a patterned blanket in a pink-walled bedroom with posters above the bed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A blue t-shirt displaying 'TRY NOT TO SUCK' laid out over a Halloween-themed blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue t-shirt with the phrase 'TRY NOT TO SUCK' and a glasses graphic is laid out on a Halloween-themed blanket against a pink wall with posters."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blue t-shirt with the text 'TRY NOT TO SUCK' and a glasses graphic is displayed on a Halloween-themed blanket against a pink wall."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are seated in a car, wearing baseball jerseys and showing enthusiasm."
+        },
+        "gpt-5.4": {
+          "summary": "Three people wearing [ORGANIZATION] and [ORGANIZATION] baseball apparel smile for a selfie inside a car, with the person in the back giving a thumbs-up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three people in baseball jerseys are taking a selfie inside a car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people in a car wearing baseball jerseys pose for a selfie, with one giving a thumbs-up."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three smiling individuals wearing [ORGANIZATION] and [ORGANIZATION] baseball [PERSON] for a selfie inside a car."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a blue shirt and baseball glove walks on a baseball field with a bucket nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A baseball player in a light blue practice shirt walks on the infield during warmups, with mostly empty stadium seats and a bucket near the field."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A baseball player in a [ORGANIZATION] uniform practicing throwing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blue baseball uniform walks across a field holding a glove, with stadium seats and advertisements in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A baseball player wearing a light blue [ORGANIZATION] practice jersey and white pants walks across the dirt infield carrying a glove, with stadium seating and advertisements visible in the background."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A selfie taken at a baseball game featuring two people, one wearing a festive hat."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie at a baseball stadium shows a fan wearing a decorative crown next to a man in sunglasses, with seats and spectators in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people are taking a selfie in what appears to be an outdoor stadium during daytime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people pose for a selfie at a baseball stadium, one wearing a 'KING TUCK' hat and the other wearing sunglasses and a black cap."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses for a selfie in the stands of a baseball stadium, with the woman wearing a gold 'KING TUCK' crown and blue team jersey."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person at a baseball game holds a baseball and a yellow item while wearing a blue shirt with text."
+        },
+        "gpt-5.4": {
+          "summary": "A person in crowded baseball stadium bleachers smiles while holding a baseball and a yellow rally item, with fans and team gear visible around them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a baseball stadium holding a ball and wearing team merchandise."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling woman at a baseball game holds a baseball and a jersey while making a peace sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling fan wearing a blue t-shirt and glasses poses in stadium bleachers holding a baseball, a yellow foam finger, and a jersey."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person at a baseball game holds a baseball and a snack while wearing a blue jersey and a crown."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands in the seats at a baseball stadium wearing a [ORGANIZATION] crown and holding a baseball and packaged gloves, with the field and scoreboard in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person celebrates a baseball game wearing 'King Tuck' crown, holding popcorn and an autographed ball."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a 'KING TUCK' crown poses at a baseball stadium holding an autographed baseball and a packaged item."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing a 'King Tuck' paper crown and [ORGANIZATION] stands in stadium seating holding a signed baseball and a packaged souvenir."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two individuals posing together in a public space, both wearing casual sports attire and sneakers."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose smiling outside a city venue, with one wearing [ORGANIZATION] gear and a [ORGANIZATION] crown."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a public area wearing [ORGANIZATION]-themed attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose for a photo outdoors, one wearing a [ORGANIZATION] jersey and [ORGANIZATION], the other in a baseball cap and polo shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a young woman pose together outdoors in [ORGANIZATION] apparel, including hats and jerseys, on a brick plaza near a glass building."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a laid-out outfit featuring a [ORGANIZATION] jersey, a blue shirt, socks, shorts, and sneakers on a wooden floor."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]-themed outfit is laid out on a wooden floor, including a light blue '[ORGANIZATION] 23' jersey, [ORGANIZATION] shirt, socks, white shorts, and white sneakers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of [ORGANIZATION]-themed clothing items laid out neatly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A children's baseball outfit laid out on a wooden floor, featuring a light blue jersey with '[ORGANIZATION], shorts with '[LOCATION]', and matching socks and sneakers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flat-lay of [ORGANIZATION] fan apparel and accessories, including a light blue jersey with '[ORGANIZATION], a navy t-shirt, white shorts, socks, and sneakers on a wooden floor."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a [ORGANIZATION] baseball cap and jersey stands outdoors, holding a handmade sign that reads \""
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a colorful sign that says '[PERSON] Later [PERSON]' while wearing a baseball cap and casual attire in a grassy outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in [ORGANIZATION] gear stands outdoors holding a handmade baseball sign that says \"Sei-ya Later [PERSON].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [ORGANIZATION] cap holds a sign saying 'Sei-Ya Later Padres' during [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in [ORGANIZATION] gear holds a handmade sign with a playful baseball-themed message."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing [ORGANIZATION] baseball gear stands outdoors holding a handmade sign that reads '[PERSON] Later Padre's' with '#CUBTOBER'."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holding a sign that says '[PERSON] Later [PERSON]' at a sports event, dressed in team colors."
+        },
+        "gpt-5.4": {
+          "summary": "A baseball fan in [ORGANIZATION] gear stands by a white fence outside [LOCATION] Way holding a handmade sign that reads '[PERSON] Later [PERSON],' with a TV broadcast setup in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan holds a sign supporting their team during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in [ORGANIZATION] gear holds a handmade sign saying 'See ya Later Padre's' at a stadium event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing [ORGANIZATION] gear stands on artificial turf holding a handmade sign that reads '[PERSON] Later Padre's' in front of a white picket fence and film production equipment."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a [ORGANIZATION] jersey poses for a photo with another individual at a crowded outdoor event."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose together at a crowded outdoor baseball plaza, with one wearing [ORGANIZATION] gear and stadium buildings visible behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a baseball cap poses with another person wearing [ORGANIZATION] attire outside [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a young girl in [ORGANIZATION] gear pose for a photo outdoors at a crowded event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a young girl wearing [ORGANIZATION] apparel pose together outdoors at a crowded stadium plaza."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a group of people at a sports event, with two individuals prominently in the foreground wearing team jerseys."
+        },
+        "gpt-5.4": {
+          "summary": "A bright selfie shows two smiling people in [ORGANIZATION] gear seated among a crowded baseball stadium section."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two women wearing baseball caps and sunglasses are smiling in a crowd of spectators."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women wearing baseball jerseys and caps smile for a selfie at a sunny outdoor game, surrounded by other fans."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two smiling women wearing [ORGANIZATION] baseball gear pose for a selfie in the stands of a crowded, sunny stadium."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a [ORGANIZATION] jersey poses with a sign at a baseball event."
+        },
+        "gpt-5.4": {
+          "summary": "A person in [ORGANIZATION] gear sits by a white fence at a baseball-themed outdoor setup, holding a handmade sign that says \"Sei-ya Later [PERSON].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan in a [ORGANIZATION] uniform holds a sign saying '[PERSON] Later [PERSON]' during what appears to be an event setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a [LOCATION] Cubs jersey sits behind a white fence holding a handmade sign that reads '[PERSON] Later Padre's #CuBTOBER'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing [ORGANIZATION] apparel crouches on artificial turf holding a handmade sign that reads '[PERSON] Later Padre's' in front of a white picket fence and film production equipment."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a [ORGANIZATION] cap and [LOCATION] poses for a selfie with another individual in a [ORGANIZATION] shirt, set against a modern building."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling outdoor selfie shows two people in [LOCATION] [ORGANIZATION] hats and shirts standing beside a brick building entrance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals wearing [ORGANIZATION] attire pose outside a building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people wearing [ORGANIZATION] gear pose for a selfie outside a brick building with glass doors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two smiling fans wearing [ORGANIZATION] apparel pose for a selfie outside a brick building with glass doors."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing headphones is speaking into a microphone at a radio broadcast setup with visible branding."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing a headset speaks at an outdoor sports radio broadcast desk in front of a \"670 The Score Cubs Radio\" backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man speaks into a microphone while wearing headphones in front of '[ORGANIZATION] branding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man wearing headphones and a cap speaks into a microphone at an outdoor broadcast booth for '670 The Score Cubs Radio'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man in a grey tank top and cap adjusts his headphones while standing behind a broadcast desk at an outdoor event."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a video call with a person waving their hand, while another person is visible in a smaller window below."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person waves during a video call, with another participant shown in a small inset and call controls visible on the screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person waving during a video call while another participant looks in from their screen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles and waves during a video call, with another participant visible in a picture-in-picture window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video call showing a smiling man waving in the main view and a woman with glasses in a smaller picture-in-picture window."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a blurred video call interface with two participants, one prominently displayed and the other smaller in a corner."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a video call with a smiling participant, a small inset of the other caller, and an X notification banner at the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A video call interface showing two participants in a conversation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurred close-up of a smiling person during a video call, with a smaller inset showing another participant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile video call interface showing a smiling man on the main screen and a woman in a smaller picture-in-picture window, overlaid with an X app notification."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a scene from a classroom with two students discussing a date and a baseball game."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel classroom meme shows a movie scene edited with [ORGANIZATION] caps and captions about [DATE] and the [ORGANIZATION] playing in the NLDS."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring a classroom scene where students are discussing an upcoming [ORGANIZATION] game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A two-panel meme from a TV show scene where a character asks what day it is, and another responds with a [ORGANIZATION] baseball game reference."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A two-panel meme from the movie 'Mean Girls' featuring a [ORGANIZATION] hat, with text referencing [DATE] and the team's NLDS playoff game."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A golden retriever and a black cat are resting on a colorful blanket while watching a baseball game on TV."
+        },
+        "gpt-5.4": {
+          "summary": "A cozy living room scene shows a dog and cat among toys while a TV displays a [ORGANIZATION] baseball game."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy indoor scene featuring a dog lying next to stuffed animals while watching baseball."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever and a black cat rest on a rug in front of a TV showing a baseball game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever and a black cat relax on a living room floor surrounded by toys while watching a [ORGANIZATION] baseball game on television."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is wearing a colorful party hat that says '[ORGANIZATION] and is taking a selfie in a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a smiling person wearing glasses, a shiny paper crown, and a blue [ORGANIZATION] shirt while sitting in a living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a '[ORGANIZATION] party hat indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a 'KING TUCK' novelty crown and glasses smiles indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a blue t-shirt smiles while wearing a gold paper crown with red text in an indoor setting."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals celebrating together, wearing matching black shirts and holding flags."
+        },
+        "gpt-5.4": {
+          "summary": "A baseball team wearing black [LOCATION] celebration shirts and goggles poses on the field with flags during a locker-room style postseason celebration."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Team celebrates victory in a sports stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A baseball team celebrates victory on a field, holding flags and wearing championship-themed apparel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of baseball players in matching black t-shirts and goggles celebrate together on a field, holding flags including one with a blue 'L' and another resembling the [LOCATION] flag."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a blue hoodie with the number '44' is posing with a peace sign in a bathroom mirror."
+        },
+        "gpt-5.4": {
+          "summary": "A bathroom mirror selfie shows a person in a blue hoodie with a large 44 on the front, holding a phone and making a peace sign with a bandaged finger."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in their bathroom wearing glasses and a blue hoodie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom, wearing a blue hoodie with the number '44' and making a peace sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair and glasses takes a mirror selfie in a bathroom, wearing a blue hoodie with the number '44' and making a peace sign."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people, mostly wearing [ORGANIZATION] apparel, are gathered outside a venue, with two individuals holding a sign."
+        },
+        "gpt-5.4": {
+          "summary": "Two [ORGANIZATION] fans pose with a colorful sign in front of a stadium gate while a bundled-up crowd waits in line outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of a crowd outside an event venue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women pose for a photo outside a stadium entrance, holding a colorful sign among other fans in team apparel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two smiling women wearing [ORGANIZATION] apparel pose with a handmade sign in front of the green gates of [LOCATION]."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are seated at a baseball game, both wearing blue jerseys with a team logo."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows two people at a stadium wearing blue [ORGANIZATION] fan gear, with one making a playful surprised face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in [ORGANIZATION] attire take a selfie during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women in blue sports jerseys pose for a selfie at a stadium, with one making a playful face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two women wearing [ORGANIZATION] apparel pose for a selfie in the stands of a baseball stadium."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two young people wearing [ORGANIZATION] baseball apparel"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing together in a casual outdoor setting, both wearing sports-themed apparel."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in [LOCATION] [ORGANIZATION] fan apparel pose on a city sidewalk near a street merch stand selling team jerseys, hats, and flags."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals dressed in [LOCATION] [ORGANIZATION]-themed clothing pose together outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two young people pose outdoors wearing baseball-themed clothing near a display of jerseys."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two smiling individuals wearing [ORGANIZATION] merchandise pose on a sidewalk near an outdoor sports apparel display."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person dressed in a black dress with a white collar and cuffs kneels on a wooden floor next to a golden retriever dog wearing a cow costume, both smiling at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A golden retriever wearing a cow costume sits beside a person in a black outfit."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person kneels beside a golden retriever wearing a black-and-white cow costume with pink ears indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black outfit poses next to their dog dressed as a cow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black button-up outfit kneels beside a golden retriever wearing a cow-print costume with pink ears."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a black dress with white collar kneels on a wooden floor next to a golden retriever wearing a cow costume."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A golden retriever"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person sits on the floor next to a golden retriever wearing a cow-patterned outfit, with a pumpkin visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling golden retriever in a black-and-white cow-print outfit lies beside a person sitting by a front door, with a small pumpkin visible outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person pets a dog wearing cow print attire near an autumnal window display."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits indoors with a golden retriever wearing a cow-print costume, near a window displaying a pumpkin outside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with glasses and braided hair sits on a rug indoors next to a happy Golden Retriever wearing a cow-print shirt, with a pumpkin visible outside the window."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A happy golden retriever dog wearing a black and white cow costume sits on a patterned"
+        },
+        "gpt-4o-mini": {
+          "summary": "A golden retriever wearing a cow costume sits indoors, looking happy."
+        },
+        "gpt-5.4": {
+          "summary": "A happy golden dog sits by a front door wearing a cow-pattern costume with pink ears."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog wearing a cow costume stands indoors near an open door."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever wearing a cow-themed costume sits indoors near a glass door, tongue out."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever wearing a black and white cow-print costume with pink ears sits on an indoor rug near a glass door."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a pink and black cow-print onesie sits cross-legged next to a golden retriever wearing a matching cow-print hat, both looking at the camera in a playful indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a cow-themed onesie poses with a dog wearing a cow hat in a cozy living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person and a golden retriever pose on a living room rug wearing matching cow-themed costumes, creating a playful, cozy scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a cow onesie poses next to their dog also dressed as cows."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person and a golden retriever, both dressed in cow-themed costumes, pose together indoors on a rug near a fireplace."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing pink and black cow-print pajamas sits on a rug next to a golden retriever dog wearing a matching cow hat in a living room."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two fans at a baseball game hold a colorful sign that reads 'OUR [PERSON] IS BETTER'."
+        },
+        "gpt-5.4": {
+          "summary": "Two baseball fans pose by the field behind protective netting at a stadium, holding a handmade sign that says \"OUR [PERSON] IS BETTER.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people hold a sign supporting 'Our Busch Is Better' during an outdoor baseball game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people at a baseball stadium hold up a sign that reads 'OUR [PERSON] is [ORGANIZATION]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two smiling fans wearing blue apparel pose behind a protective net at a baseball stadium, holding a handmade sign that reads 'OUR [PERSON] is [ORGANIZATION]'."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are standing together at an event, one holding a shiny object and the other wearing an apron."
+        },
+        "gpt-5.4": {
+          "summary": "Two people wearing aprons stand behind a serving table with plated food under blue-purple event lighting, with one holding a metal container."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals wearing aprons stand behind a table displaying food items; one holds an award."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people in chef attire pose with a trophy and plated food under purple/blue lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman wearing black aprons pose together at an event, with the woman holding a silver trophy and plates of food visible on a table in the foreground."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a baseball jersey and a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a blue shirt with text poses with another in a baseball jersey in front of a branded backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose at an indoor [LOCATION] Cubs Charities photo backdrop, with one wearing a [ORGANIZATION] jersey and the other a blue fan T-shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of a [ORGANIZATION] backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose together in front of a [ORGANIZATION] backdrop, one wearing a [ORGANIZATION] jersey and the other a t-shirt with text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a [LOCATION] Cubs jersey and a woman wearing a '[PERSON] is good' t-shirt pose for a photo at a charity event."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a [ORGANIZATION] jersey poses with another individual in a festive birthday hat outside a sports venue."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose on a sidewalk outside the [LOCATION] area, with one wearing a [LOCATION] Cubs jersey and a colorful birthday hat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man poses with a young girl wearing [ORGANIZATION] gear in front of [LOCATION] parking."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a young girl pose together outdoors near a baseball stadium, with the girl wearing a [ORGANIZATION] jersey and a birthday hat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a young girl wearing [ORGANIZATION] gear pose for a photo on a sidewalk near [LOCATION] parking."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holding a colorful thank-you sign in front of a brick fireplace."
+        },
+        "gpt-5.4": {
+          "summary": "A person in blue baseball-style apparel stands in front of a brick fireplace holding a colorful thank-you poster for [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a sign expressing gratitude in front of a brick fireplace."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands in front of a brick fireplace holding a colorful sign that reads 'THANK YOU 28 [PERSON]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a blue baseball cap and [LOCATION] stands in front of a brick fireplace holding a handmade sign that reads 'THANK YOU [PERSON]."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a night sky illuminated by vibrant pink and purple hues, with silhouettes of trees and houses below."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime suburban sky glows with vivid pink and red aurora-like light above houses, trees, and power lines."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A night sky illuminated by a pinkish [ORGANIZATION] borealis over suburban houses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A night sky with a red aurora-like glow over suburban houses and bare trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night sky over a residential area is illuminated by a vibrant [ORGANIZATION], with silhouetted trees and houses visible below."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a vibrant night sky displaying auroras with shades of red and green above a suburban landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A bright red and pink aurora with a small green glow fills a starry night sky above a suburban neighborhood with trees, houses, and power lines."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant [ORGANIZATION] display illuminates a suburban night sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant red and green aurora illuminates a suburban night sky above houses and bare trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night sky over a residential neighborhood displays vibrant pink and green [LOCATION] lights above silhouetted trees and houses."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a vibrant display of [ORGANIZATION] with red and green hues in the night sky above a residential area."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime suburban street scene shows vivid red and green aurora-like lights glowing across the sky above houses and trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant [ORGANIZATION] illuminates a residential neighborhood under starry skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant red and green aurora illuminates the night sky above a residential area with parked cars and trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night photograph capturing a vibrant red and green aurora borealis glowing over a residential area with mobile homes."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant [ORGANIZATION] with prominent red and green lights illuminates the night sky above a dark field featuring tall light poles and distant structures."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a vibrant display of [ORGANIZATION] with red and green hues in the night sky over a field."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime landscape shows vivid pink and green aurora lights over a grassy field with silhouetted light poles and trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant display of [ORGANIZATION] over a grassy field under starry skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant red and green aurora illuminates the night sky over a grassy field with stadium lights and distant illuminated structures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night photograph captures a vibrant red and green [ORGANIZATION] borealis over a grassy field with stadium lights and distant holiday decorations."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A colorful cartoon illustration features five turkeys in various bright colors walking in a line above the word \"THANKFUL\" spelled out in large, bubbly, multi-colored letters on a plain background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features colorful cartoon turkeys marching with the word 'THANKFUL' displayed prominently below them."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful cartoon Thanksgiving graphic shows five rainbow-colored turkeys walking above the word “THANKFUL.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful illustration of five cartoon turkeys walking in a line under the word 'THANKFUL'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five colorful cartoon turkeys run across a beige background above the word 'THANKFUL' in multicolored letters."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon illustration of five colorful turkeys marching in a line above the word 'THANKFUL' written in multi-colored bubble letters."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a car, wearing a purple beanie and a green sweater, with a [ORGANIZATION] steering wheel cover visible."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime car selfie shows a person in glasses and a purple [ORGANIZATION] beanie sticking out their tongue, with a [ORGANIZATION] steering wheel cover visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in their car holding Hello Kitty plush toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a car makes a playful face while wearing a purple beanie and glasses, with a Hello Kitty-themed steering wheel cover visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a purple beanie and glasses makes a playful face while sitting in a car with a [ORGANIZATION] steering wheel cover."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing with a peace sign in front of a crowd during an outdoor event."
+        },
+        "gpt-5.4": {
+          "summary": "A cheerful outdoor selfie shows two people making peace signs at what appears to be a charity walk event under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are making peace signs in front of a clear blue sky during an outdoor event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose cheerfully outdoors, making peace signs against a blue sky, with one wearing a 'Walk Off for Cancer 2022' t-shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two smiling individuals pose for a selfie outdoors under a blue sky, with the person in the background wearing a black t-shirt promoting a charity event."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five people poses for a photo at an event related to [PERSON] charity walk for cancer."
+        },
+        "gpt-5.4": {
+          "summary": "Five people pose outdoors in matching [PERSON] charity walk shirts in front of a [PERSON] foundation backdrop with blue and silver balloons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people posing in front of a '[PERSON]' backdrop during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five people pose together at an outdoor event wearing matching event t-shirts in front of a branded backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five people poses for a photo at an outdoor charity event in front of a branded backdrop."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man and a woman are posing for a photo in front of a branded backdrop featuring baseball-themed decorations."
+        },
+        "gpt-5.4": {
+          "summary": "Two people stand at an outdoor baseball-themed charity event photo backdrop with [PERSON] branding and balloon columns topped by a giant baseball balloon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of a backdrop promoting '[PERSON] during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and woman pose in front of a branded backdrop at an outdoor event featuring baseball-themed balloon columns."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a black t-shirt poses for a photo with a woman at an outdoor event featuring a branded backdrop and baseball-themed balloon decorations."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people participating in a charity walk, wearing matching shirts for an event supporting cancer awareness."
+        },
+        "gpt-5.4": {
+          "summary": "A group walks outdoors on a sunny tree-lined path wearing matching [PERSON] Walk-Off for Cancer event shirts, with the central person flashing peace signs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Participants in a charity walk event wearing 'Walk Off For Cancer' t-shirts pose together outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people wearing matching event t-shirts pose outdoors during a charity walk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people, including a central man and woman, walk outdoors on a paved path wearing matching black t-shirts for the '[PERSON] 11th Annual Walk Off For Cancer 2022' event."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two individuals at a baseball game, with one wearing a light [LOCATION] and a helmet, while the other is in a blue shirt."
+        },
+        "gpt-5.4": {
+          "summary": "Two spectators stand near the field at a packed baseball stadium, with one wearing a light blue jersey and batting helmet marked \"[ORGANIZATION].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are conversing in a baseball stadium during daytime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men converse near a baseball field, one wearing a light blue jersey with '[PERSON]' and the number '44'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men stand in the dugout of a crowded baseball stadium, with one wearing a light [LOCATION] labeled '[PERSON]' and number '44'."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people taking a selfie at a baseball game with a crowded stadium in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie at a packed baseball stadium shows fans in the foreground with the field and grandstands behind them on a sunny day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in front of [LOCATION] during what appears to be an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling person takes a selfie on a baseball field with fans and stadium lights in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing glasses and a baseball cap takes a selfie with friends at a crowded outdoor baseball stadium on a sunny day."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two photos: one of a child and an adult at a [ORGANIZATION] convention, and another of a child holding a thank-you sign with an adult in a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "A side-by-side collage shows a [ORGANIZATION] fan posing with a man in [ORGANIZATION] gear at a convention and later outdoors holding a \"THANK YOU [PERSON] 23\" poster with him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two images showing a fan in [ORGANIZATION] attire interacting with players during events."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two photos show a man posing with a young girl at [ORGANIZATION] events, one indoors at a convention and one outdoors holding a 'Thank You [PERSON]' sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A side-by-side photo collage shows a young girl and a man posing together at [ORGANIZATION] events, with the right image featuring a handmade 'Thank You' sign."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three smiling individuals, two men in suits and a young woman in glasses, pose for a photo in a dimly lit indoor setting, with a large 'W' logo at the bottom."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two men in formal attire posing together in a dimly lit setting, with a child partially visible between them."
+        },
+        "gpt-5.4": {
+          "summary": "Three people pose for a photo indoors at a warmly lit event, with two adults in suits standing beside a smiling girl with glasses and a large 'W' logo overlay at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men in suits pose with a young girl wearing glasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people pose together in suits at an indoor event, with a 'W' logo visible at the bottom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men in suits and a young woman with glasses pose for a photo at an indoor event, with a large 'W' logo overlaid at the bottom."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in a chef's apron poses with a girl in a blue dress, both smiling at an event."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose indoors at a cooking/charity event, with a smiling man in an apron and a person in a blue dress holding crutches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a chef's apron poses happily next to another individual holding an ice pack."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man in a chef's apron stands beside a young woman with glasses and a leg cast using crutches, at what appears to be a charity event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a black chef's apron poses with a young woman in a blue dress who is using crutches, standing in front of a closed metal shutter."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling young man in a baseball uniform holds a handwritten sign with a compliment, sitting at a table on a baseball field with stadium"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a blue baseball uniform holds a humorous sign directed at someone named [PERSON], comparing them to the weather."
+        },
+        "gpt-5.4": {
+          "summary": "A baseball player in a blue uniform sits at a stadium signing autographs while holding a fan-made sign with a joke written on it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A baseball player holds a sign humorously comparing [PERSON] popularity in sports to his attractiveness."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A baseball player smiles while holding a handmade sign with a pun about '[PERSON]' and hot weather."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling baseball player in a [LOCATION] and cap sits at a table on a field, holding up a large handmade sign with a joke directed at '[PERSON]'."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a pair of blue shoes with a red 'C' logo, placed on a colorful blanket in a vibrant room."
+        },
+        "gpt-5.4": {
+          "summary": "A pair of blue casual shoes with red-and-white 'C' logos and a Hey Dude tag is displayed on a bed with a [ORGANIZATION] blanket in a colorful bedroom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Blue sneakers featuring a red 'C' logo are displayed against colorful artwork in an artistic background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pair of blue Hey Dude sneakers with a [ORGANIZATION] logo is displayed on a bed with colorful bedding and wall art."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pair of blue Hey Dude slip-on shoes featuring [ORGANIZATION]C' logo sits on a cardboard box in front of a pink wall decorated with [ORGANIZATION] posters and Hello Kitty bedding."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two men in formal attire posing together in a dimly lit setting, with a child partially visible between them."
+        },
+        "gpt-5.4": {
+          "summary": "Three people pose smiling indoors at a formal social event, with two men in suits standing beside a younger person wearing glasses and a large [ORGANIZATION]-style \"W\" graphic at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men in suits pose with a young girl wearing glasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people pose together indoors, two men in suits and a woman with glasses in front, with a 'W' logo at the bottom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men in suits and a young woman with glasses pose for a photo at an indoor event, with a large 'W' logo overlaid at the bottom."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals pose together in front of a brick fireplace, showcasing a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose indoors in front of a brick fireplace mantel, wearing blue casual outfits including [ORGANIZATION]-themed outerwear, with framed photos and artwork behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of a brick fireplace wearing [ORGANIZATION]-themed clothing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose together in front of a brick fireplace adorned with family photos and decor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two individuals wearing [ORGANIZATION] apparel pose for a photo in front of a brick fireplace mantel decorated with family photos and autumn items."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two individuals posing together at a lively event, with colorful lighting and a large neon sign in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose together at a crowded indoor event with purple lighting, one wearing sunglasses and a large glowing neon medallion while cameras and a stage screen are visible behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a vibrant event space illuminated by purple lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose together at a lively, purple-lit event, one holding a glowing [ORGANIZATION] logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two people pose for a selfie in a crowded indoor venue illuminated by purple lighting, with one person holding a glowing neon sign of the [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are seated on stage during an event, with a large screen displaying graphics in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Three men sit on stage holding microphones during a live panel discussion in front of a large blue event backdrop with sports-network branding."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals are seated in a panel discussion setup under [ORGANIZATION] branding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three men sit in chairs on a stage during a panel discussion, with a large screen behind them displaying a graphic and text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three men in suits sit on a stage for a panel discussion, with a large screen behind them displaying [ORGANIZATION] logo and a graphic of a man's face."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in a plaid suit sits on stage holding a microphone, with a colorful backdrop featuring text."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a suit sits onstage holding a microphone during a live talk or panel in front of a blue neon-lit backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit sits on stage holding a microphone during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a plaid suit sits on stage holding a microphone, smiling during an interview or talk show."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a plaid suit sits on a stage holding a microphone, appearing to participate in an interview or panel discussion against a blue backdrop with graphic elements."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two men are posing together on stage with a colorful backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in suits pose together on a stage in front of a bright blue and red LED backdrop with event lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men in formal attire pose together on a stage illuminated by blue lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in suits smile and pose together on a brightly lit stage with colorful graphics behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men in suits pose smiling on a stage with blue and red lighting against a graphic backdrop."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a gray suit is seated on a stage holding a microphone, with a colorful background featuring text."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a light gray suit sits onstage holding a microphone during a live talk or panel event with a blue neon-style backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit speaks into a microphone while seated against a backdrop featuring bold blue lettering."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bald man with a beard in a light suit sits holding a microphone on a stage with blue and red lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald man with a beard wearing a light grey suit sits on a stage holding a microphone in front of a blue screen."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people at a lively event, with some holding up items and taking photos."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie captures a crowded indoor fan event where many people are wearing [ORGANIZATION] gear, with some holding baseballs and a camera under colorful lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Group of people taking a selfie in front of an excited crowd."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A selfie taken at a crowded indoor event, likely a sports fan gathering, with people wearing team apparel and holding baseballs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A selfie taken by a man in a camouflage vest at a crowded baseball stadium, featuring a fan wearing a [ORGANIZATION] hat and jersey posing with him."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals pose together for a photo in a hallway, one wearing a cap and a blue shirt, and the other in a black shirt."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose for a casual photo in a hotel hallway near elevators, with one wearing [ORGANIZATION] gear and a convention badge."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a hallway near an elevator."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose for a photo in a hotel hallway, one wearing a [ORGANIZATION] Con pass and the other giving a thumbs-up."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two people pose for a photo in a hotel hallway, with one wearing a [LOCATION] Cubs jersey and a '[ORGANIZATION] Con 2024' badge."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a baseball jersey and cap poses for a photo with another individual in a crowded setting."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie shows two people smiling in a crowded indoor space, with one wearing a light blue [LOCATION] Cubs-style jersey, cap, and event lanyard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are posing together inside a vehicle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie indoors, with one wearing a [ORGANIZATION] baseball cap and [LOCATION] and the other in a patterned jacket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man and woman pose for a selfie in a crowded indoor setting, with the woman wearing a [LOCATION] Cubs jersey and cap."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a suit stands next to another person wearing a [LOCATION] Cubs jersey and cap in a modern indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling people pose together in a warmly lit hotel-style lobby, with one dressed formally and the other wearing [ORGANIZATION] fan gear."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit stands next to another person wearing [ORGANIZATION] attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose for a photo indoors; one wears a [LOCATION] Cubs jersey and cap, the other wears a suit."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a suit stands next to a woman wearing a [LOCATION] Cubs jersey and cap inside a modern hotel lobby."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals pose together in front of an elevator, with one holding a drink."
+        },
+        "gpt-5.4": {
+          "summary": "Three people pose smiling in a modern indoor hallway, with two wearing [ORGANIZATION] apparel and one holding a drink."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three people pose together in front of an elevator wearing [ORGANIZATION] merchandise."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people pose happily in a hallway near elevators, with one holding a drink and another wearing a [LOCATION] Cubs jersey."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three smiling individuals pose together in a modern hallway, with two wearing [ORGANIZATION] apparel and one holding a drink."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A selfie shows two smiling individuals indoors, one wearing a cap and glasses, and the other in a dark suit jacket."
+        },
+        "gpt-4o-mini": {
+          "summary": "A selfie featuring two individuals in a dimly lit indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A slightly blurry indoor selfie shows two smiling people posing together in a warmly lit lobby or restaurant area, with one wearing a cap and glasses and the other dressed in a dark suit."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A selfie of two individuals in a warmly lit indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie in a warmly lit indoor setting with wood-paneled walls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling woman wearing glasses and a cap standing next to a man in a suit inside a modern building with wood paneling."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are posing together outdoors, wearing [ORGANIZATION] apparel and lanyards, with a city backdrop at night."
+        },
+        "gpt-5.4": {
+          "summary": "Three people pose for a nighttime photo outside a hotel or downtown building, with two wearing [ORGANIZATION] clothing and event lanyards."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three people posing together in front of a building during an evening event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people pose together outdoors at night, wearing [ORGANIZATION]-themed apparel and event lanyards outside a lit building."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three people wearing [ORGANIZATION] apparel and event lanyards pose for a photo at night in front of a modern building."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four people, including a child, pose together in a social setting, likely at a sports event."
+        },
+        "gpt-5.4": {
+          "summary": "A group selfie indoors shows several people smiling together, including a man holding a child whose face is covered with a bear emoji, with [ORGANIZATION]-themed signage in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people posing together in front of a '[ORGANIZATION] sign."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of four people, including a man holding a child with a bear emoji face, pose together indoors near a '[ORGANIZATION] sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of four smiling people, including a man holding a baby with an emoji face, pose for a photo indoors while wearing blue event lanyards and shirts."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four people wearing [ORGANIZATION] apparel poses together in front of a branded backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "Four people pose indoors in [ORGANIZATION] apparel in front of a Purpose & Calling [PERSON] event backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four people posing in front of a 'Purpose & Calling' backdrop wearing [ORGANIZATION]-themed clothing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four people pose together wearing [ORGANIZATION]-themed clothing in front of a 'Purpose & Calling [ORGANIZATION] backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four people pose for a photo in front of a branded backdrop, wearing [ORGANIZATION] apparel and smiling."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people at an event, with one person taking a selfie while others engage in activities and conversations."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling group of [ORGANIZATION] fans poses around a table with laptops and a tablet showing a baseball video game at an indoor event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people in a lively indoor event celebrating baseball."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man in a baseball jersey takes a selfie with a group of excited fans at a [ORGANIZATION]-themed event, where a tablet displays a baseball game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a [ORGANIZATION] jersey takes a selfie with a group of enthusiastic fans, including children and adults wearing team gear, gathered around a table with laptops and tablets at an indoor event."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man and a woman pose together in front of a branded backdrop for a charity event."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling man and another person in a [ORGANIZATION] cap and printed shirt pose together in front of a RIZZO Anthony Rizzo Family Foundation backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of a backdrop featuring '[PERSON]' branding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a young woman pose together in front of a repeating '[PERSON] backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose for a photo in front of a branded backdrop featuring [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man and a woman pose for a selfie in front of a branded backdrop featuring the name '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "Two people smile at a meet-and-greet style event in front of an Anthony Rizzo Family Foundation backdrop, with one holding up a phone as if taking a selfie or video."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man takes a selfie in front of an event backdrop featuring '[PERSON]' branding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a woman pose together for a selfie in front of a branded backdrop featuring the 'RIZZO Anthony Rizzo Family Foundation' logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose for a selfie in front of a branded backdrop featuring [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman in a baseball-themed shirt and cap is interacting with a man in a black shirt against a branded backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose and chat in front of an Anthony Rizzo Family Foundation step-and-repeat backdrop at what appears to be a baseball-related fan event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are posing in front of a backdrop promoting '[PERSON] Family Foundation'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a woman interact in front of a branded backdrop featuring '[PERSON] Family Foundation'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman stand in front of a branded backdrop featuring [ORGANIZATION] logo, where the woman wears a shirt covered in baseball player images."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person and a child pose together for a photo in front of a branded backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose arm-in-arm in front of a repeating [PERSON] logo backdrop, with one wearing [ORGANIZATION]-themed clothing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man and a woman pose in front of an [PERSON]-branded backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a young girl pose together in front of a repeating '[PERSON]' branded backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a young girl pose for a photo in front of a branded backdrop featuring the [PERSON] logo."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals pose together in a casual setting, with one wearing a sports-themed outfit and the other in a hoodie."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose for a photo in an indoor sports merchandise area, with [ORGANIZATION]-themed apparel and a yellow exhibitor pass visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a casual indoor setting wearing sports-themed attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose together indoors near a merchandise display, both wearing casual sports-themed apparel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose together indoors at what appears to be a merchandise booth, with the man wearing an exhibitor pass and the woman dressed in [ORGANIZATION] apparel."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person and a child are seated together in a venue, both appearing relaxed and engaged."
+        },
+        "gpt-5.4": {
+          "summary": "Two people sit together in a conference or event room, with one wearing a [LOCATION] Cubs jersey and other attendees seated in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are seated in a conference room wearing casual attire; one wears a [ORGANIZATION] jersey."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a young girl in a [LOCATION] Cubs jersey pose together in an auditorium seating area."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a young girl wearing a [LOCATION] Cubs jersey pose together in an auditorium with other seated attendees."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses for a photo with another individual in front of a branded backdrop for [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose for a photo in front of a repeating [PERSON] / [PERSON] Family Foundation event backdrop, with one wearing [ORGANIZATION] fan gear."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man poses with a fan in front of an '[PERSON]' backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a young woman pose together in front of a branded backdrop for [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose for a photo in front of a branded backdrop featuring [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A baseball player wearing a blue mask and a [ORGANIZATION] jersey stands on the field."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] baseball player in uniform stands on the field wearing a blue face covering, with a broadcast scoreboard showing the [ORGANIZATION] leading the [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Baseball player wearing a [ORGANIZATION] uniform and blue face covering during gameplay."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A baseball player wearing a [ORGANIZATION] uniform and blue face covering stands on a green field during a game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] baseball player stands on a green field wearing a blue face covering and team uniform during a game against [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a blue shirt with a bear graphic poses for a photo with another individual at an event."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose at an indoor event in front of a [LOCATION] Lucky Horseshoes backdrop, with one person holding up a ring and the other pointing at it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan poses happily holding a ring while standing next to an individual in front of [LOCATION] Lucky Horseshoes branding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose together in front of a [LOCATION] Lucky Horseshoes branded backdrop, one holding up a ring and the other pointing at it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit and a young woman wearing a blue team shirt pose for a photo in front of a [LOCATION] Lucky Horseshoes backdrop, with the woman holding up a championship ring."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A happy golden retriever dog wearing a black and white cow costume sits on a patterned rug indoors, looking towards the"
+        },
+        "gpt-4o-mini": {
+          "summary": "A golden retriever wearing a cow costume sits indoors, looking happy."
+        },
+        "gpt-5.4": {
+          "summary": "A happy golden retriever sits indoors by a front door wearing a black-and-white cow costume with pink ears."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog wearing a cow costume stands indoors near an open door."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever wearing a cow-themed costume sits indoors near a door with a view of autumn trees outside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever wearing a black and white cow-print costume with pink ears sits on an indoor rug near a glass door."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A golden retriever dog is partially submerged in a shallow, rocky pond in a garden setting, looking towards the left."
+        },
+        "gpt-4o-mini": {
+          "summary": "A golden retriever is sitting in a pond surrounded by rocks and plants."
+        },
+        "gpt-5.4": {
+          "summary": "A golden retriever is sitting in a small backyard pond surrounded by decorative rocks and plants beside a house."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A golden retriever dog relaxing in a small pond surrounded by rocks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever sits calmly in a backyard pond surrounded by rocks and plants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever stands in a backyard pond surrounded by large rocks and [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A golden retriever wearing a festive red sweater poses in a grassy area with fallen leaves."
+        },
+        "gpt-5.4": {
+          "summary": "A golden retriever sits on a grassy lawn in autumn wearing a red patterned sweater and tilting its head toward the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A golden retriever wearing a festive sweater sits in an autumnal park."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever wearing a red holiday sweater sits on grass with fallen leaves in an outdoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever wearing a red and white patterned knit sweater sits on grass with fallen leaves in an outdoor setting."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A golden retriever dog wearing a white and blue baseball cap with the \"[ORGANIZATION]\" logo is lying down and looking directly at the camera with"
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog wearing a baseball cap sits on a couch."
+        },
+        "gpt-5.4": {
+          "summary": "A golden retriever is lying indoors and wearing a white-and-blue [ORGANIZATION] baseball cap, looking at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A golden retriever wearing a [ORGANIZATION] cap sits indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever wearing a [ORGANIZATION] baseball cap looks directly at the camera indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever wearing a [ORGANIZATION] baseball cap sits indoors on a patterned rug with a leather couch in the background."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog watches a television program featuring a dog competition in a cozy living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dog lies on a rug in a living room facing a large TV that is showing a dog-themed sports or game broadcast."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog watches a TV show featuring puppies playing in an obstacle course."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever sits on a rug watching a TV show about dogs playing football."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever lies on a rug in a living room, watching a dog-themed football game on a large television screen."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A golden retriever rests its head on a person's leg while sitting on a couch."
+        },
+        "gpt-5.4": {
+          "summary": "A golden retriever lies on a leather couch with its head resting against a person in a hoodie and jeans, creating a cozy indoor scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A golden retriever rests its paws on a person's lap while sitting in an armchair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever rests its head on a person's lap while lying on a gray leather couch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever rests its head on a person's leg while sitting on a brown leather couch."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman in a colorful bucket hat and glasses takes a selfie with a bearded man in"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a colorful bucket hat takes a selfie with others in a sunny outdoor setting, likely at a sports event."
+        },
+        "gpt-5.4": {
+          "summary": "A casual outdoor selfie shows two people in hats near a stadium or event entrance, with a green parking sign visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people taking a selfie in front of an outdoor venue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose for a selfie outdoors under a wooden roof structure, with one making a peace sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A selfie of a man and woman at an outdoor stadium, with the man making a peace sign in front of a green parking sign."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four people wearing [ORGANIZATION] apparel poses for a photo in front of a branded backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "Four people pose smiling in [ORGANIZATION] apparel in front of a Purpose & Calling [PERSON] event backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four people posing in front of a 'Purpose & Calling' backdrop wearing [ORGANIZATION]-themed clothing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four people pose together wearing [ORGANIZATION]-themed clothing in front of a 'Purpose & Calling [ORGANIZATION] backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four people pose for a group photo in front of a branded backdrop, wearing [ORGANIZATION] apparel and shirts supporting '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a baseball jersey and a patterned bucket hat holds a sign expressing support for 'Dansby' at a crowded baseball stadium."
+        },
+        "gpt-4o-mini": {
+          "summary": "A fan holds a colorful sign supporting a player named [PERSON] at a baseball game."
+        },
+        "gpt-5.4": {
+          "summary": "A fan stands in the seats at a baseball stadium holding a handmade sign supporting [ORGANIZATION] during a game."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan holds a sign supporting 'Dansby' during what appears to be an outdoor sports event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fan at a baseball stadium holds up a colorful sign supporting 'Dansby' with the hashtag #7."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling fan wearing a [ORGANIZATION] hat and jersey holds a handmade sign reading '[ORGANIZATION] at a crowded baseball stadium."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are taking a selfie outdoors, with one wearing a colorful birthday hat."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose for a sunny outdoor selfie near a stadium and building, with one wearing a colorful hat that says 'Happy Birthday.'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of a building wearing festive hats."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people take a selfie outdoors, one wearing a colorful 'Happy Birthday' hat, with a modern building and stadium structure in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A selfie of two people outdoors on a sunny day, with one person wearing a festive birthday hat and the other giving a peace sign in front of a brick building and stadium structure."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quilt made from various t-shirts related to baseball player [PERSON] and cancer awareness events."
+        },
+        "gpt-5.4": {
+          "summary": "A handmade patchwork quilt made from [ORGANIZATION] and [PERSON] event T-shirts is laid out on a living room floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quilt made from various t-shirts featuring [PERSON] number '44' and cancer awareness themes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A quilt made from t-shirts featuring [PERSON], [ORGANIZATION], and 'Walk Off for Cancer' event graphics, laid on a wooden floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A handmade patchwork quilt constructed from various [ORGANIZATION] and [PERSON] t-shirts is displayed on a wooden floor."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a group of people seated in a sports venue, with one individual holding a drink and another wearing a sports jersey."
+        },
+        "gpt-5.4": {
+          "summary": "A TV broadcast shows spectators at a baseball game, including a lower-third identifying [PERSON] in the stands holding a drink."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "People are watching a sports event featuring [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A TV screen shows a sports broadcast featuring [PERSON], identified as a 2016 World Series Champion, with fans in stadium seats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A photograph of a television screen displaying a baseball broadcast featuring [PERSON] and spectators in the stands."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a car, wearing a hat, with a second person visible in a smaller inset."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie video call screenshot shows a smiling person in a car wearing a cap and cross earring, with another person visible in a small inset window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a cap smiles in front of another individual who appears smaller due to zoom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man wearing a patterned cap sits in a car while video chatting with another person shown in a picture-in-picture window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a smiling man wearing a patterned cap and cross earring, captured during a video call with a woman visible in a small inset window."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holds a colorful sign reading 'HIP HIP JORGE' while posing with a tall individual at a baseball event."
+        },
+        "gpt-5.4": {
+          "summary": "At a baseball stadium, a [ORGANIZATION] player poses on the field with a fan holding a handmade sign that reads “HIP HIP JORGE” and “12.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan holds a sign supporting '[PERSON]' during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fan holds a celebratory sign for '[PERSON]' at a [ORGANIZATION] baseball game while posing with a player."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling baseball player in a [ORGANIZATION] uniform stands on a field next to a young fan holding a colorful handmade sign that reads 'HIP HIP JORGE'."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a [ORGANIZATION] jersey poses with a player in a [ORGANIZATION] uniform at a baseball field."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] player and a fan pose for a photo beside the field at a baseball stadium under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan poses happily next to a [ORGANIZATION] player in front of an empty stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A baseball player in a [ORGANIZATION] uniform poses with a fan at a stadium on a sunny day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling male baseball player in a [ORGANIZATION] uniform poses for a photo with a female fan wearing a matching jersey on the field of a sunny stadium."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a red outfit is embracing a doll dressed in a baseball uniform at a stadium."
+        },
+        "gpt-5.4": {
+          "summary": "A baseball player in [ORGANIZATION] gear hugs a person in a [LOCATION] beside the dugout at a stadium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a red baseball cap hugs another individual near an empty stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man in a red baseball cap hugs a child wearing a matching cap near a stadium dugout."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a red Los Angeles Angels uniform and cap embraces a young child wearing a matching red cap at a baseball stadium."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a yellow shirt poses with a child holding a colorful hockey jersey at an ice rink."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose on an indoor hockey rink while holding a colorful [LOCATION] after an on-ice event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are posing together holding a Grateful Dead-themed hockey jersey in an indoor arena."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose together on an ice rink, holding up a custom-designed [LOCATION] with a [ORGANIZATION] skull logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man in a yellow jersey and a woman pose on an ice rink holding up a custom Rivermen hockey jersey featuring a [ORGANIZATION] skull design."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of three people poses together on an ice rink, with one holding a hockey puck."
+        },
+        "gpt-5.4": {
+          "summary": "Three people pose together at the glass beside an indoor hockey rink, wearing team apparel in a Rivermen arena."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three people pose together in a hockey arena holding pucks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people pose together near an ice rink, wearing hockey jerseys and holding memorabilia."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three smiling individuals pose for a photo on the ice at an indoor hockey arena, wearing team jerseys and holding memorabilia."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A circular Grateful Dead \"Steal Your Face\" logo item, featuring a skull with a lightning bolt, rests on a vibrant tie-dye fabric."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION] logo sticker placed on a colorful tie-dye background."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] logo puck or round object with the skull-and-lightning-bolt design rests on a colorful tie-dye fabric background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a [ORGANIZATION] logo patch placed atop tie-dye fabric."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A circular Grateful Dead logo pin rests on a colorful tie-dye fabric."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A circular Grateful Dead pin featuring the 'Steal Your Face' skull logo rests on a colorful tie-dye fabric background."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a blue shirt is leaning over another person who is lying on a couch."
+        },
+        "gpt-5.4": {
+          "summary": "A bearded person in a blue shirt leans over another person lying on a cushioned chair in an indoor setting, creating a playful candid scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a blue shirt leans over another person lying down while smiling."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a blue shirt leans over a child lying on a couch, playfully pointing at the child's jersey."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man in a blue shirt playfully holds down another person wearing a sports jersey on a light blue armchair."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a baseball uniform and a young girl holding a sign pose for a photo at a crowded baseball stadium."
+        },
+        "gpt-4o-mini": {
+          "summary": "A child holds a sign expressing support for a baseball player while posing with him at a game."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] player poses near the field with a fan holding a handmade sign in a crowded baseball stadium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan holds a sign supporting player [PERSON]'s #49 during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A baseball player and a young fan pose together near a dugout at a stadium, with the fan holding a handmade sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A baseball player in a [ORGANIZATION] uniform poses with a young fan holding a handmade sign on the field."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man and a child pose together at an outdoor event, both wearing clothing associated with [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose together in a crowd outside a stadium or entertainment venue, with [ORGANIZATION] apparel visible and signage in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a lively outdoor sports event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a young girl in baseball attire pose for a photo outdoors at a crowded venue."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a young girl wearing [ORGANIZATION] apparel pose together outdoors at a crowded stadium plaza."
+        }
+      }
+    },
+    "image_00124": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A selfie featuring two individuals in a casual setting with a brick wall background."
+        },
+        "gpt-5.4": {
+          "summary": "A casual selfie shows two smiling people indoors, with one wearing an apron in a rustic brick-walled setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie in an indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie in front of a brick wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A selfie of a smiling man with a beard and a woman wearing glasses, both posing indoors near a brick wall."
+        }
+      }
+    },
+    "image_00125": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A young fan holds a colorful sign in front of a baseball player at a game."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] player poses with a fan holding a handmade sign on the field at a sunny baseball stadium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in baseball attire pose together holding a sign supporting [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A baseball player and a young fan pose together holding a handmade sign with playful text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young fan wearing a [ORGANIZATION] cap and glasses poses with two baseball players on a sunny field, holding a handmade sign that reads '[ORGANIZATION] PUTS THE [ORGANIZATION] IN #9 [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00126": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a baseball uniform poses with a child at a baseball field."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] baseball player in uniform poses with a spectator at field level beside the diamond, with a crowd-filled stadium in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a [ORGANIZATION] uniform poses with a young girl wearing glasses during what appears to be an event at [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and a young girl in baseball uniforms pose for a photo on a sunny day at a baseball stadium."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling baseball player in a [ORGANIZATION] uniform poses for a photo with a young fan on a sunny field."
+        }
+      }
+    },
+    "image_00127": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a baseball uniform interacts with a fan at a baseball field."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a [ORGANIZATION] uniform poses with a fan by the railing at a sunny baseball stadium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A baseball player in a [ORGANIZATION] uniform signs an autograph while posing with fans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a baseball uniform poses with a young girl at a sunny stadium."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A baseball player in a [ORGANIZATION] uniform poses for a photo with a young fan on the field during a sunny day game."
+        }
+      }
+    },
+    "image_00128": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A baseball player interacts with fans, holding signs that express admiration."
+        },
+        "gpt-5.4": {
+          "summary": "A baseball player in a [ORGANIZATION] uniform poses by the field with fans at the railing, holding a handwritten sign during a stadium interaction."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A baseball player signs autographs in a dugout while fans hold personalized notes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A baseball player in a [ORGANIZATION] uniform smiles while holding a handwritten note from a fan."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling baseball player in a [ORGANIZATION] uniform holds up a handwritten sign reading 'My #1 FAN' while standing near fans at a stadium."
+        }
+      }
+    },
+    "image_00129": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person takes a selfie with a baseball player at a game, both showing excitement."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling [ORGANIZATION] player poses with a young fan taking a selfie near the field at a baseball stadium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fan takes a selfie with an athlete during pre-game activities."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young girl and a man in [ORGANIZATION] gear pose together for a selfie at a baseball stadium."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling young fan wearing a [ORGANIZATION] beanie and [LOCATION] takes a selfie with a baseball player in team gear on the field."
+        }
+      }
+    },
+    "image_00130": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A child wearing a [LOCATION] Cubs jersey and cap stands next to an adult in a blue hoodie."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose indoors, with one wearing a [LOCATION] Cubs jersey and bucket hat and the other wearing a light blue hoodie and sweatpants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a [LOCATION] Cubs jersey poses next to another individual wearing casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling adult and a young person pose together indoors, the child wearing a [LOCATION] Cubs jersey and a patterned hat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a light blue tie-dye hoodie stands next to a young girl wearing a [LOCATION] Cubs jersey and a patterned bucket hat."
+        }
+      }
+    },
+    "image_00131": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a blue dress poses with another individual wearing a chef's apron at a food event."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose for a photo at an indoor food event with chef-themed apparel, plated dishes, and restaurant banners in a brick-walled venue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a kitchen-themed event space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a photo at an indoor food event near a buffet table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a black apron poses with a young woman using crutches at an indoor food tasting event."
+        }
+      }
+    },
+    "image_00132": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses with a child holding a colorful sign that reads '[PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose outdoors on a paved street, with one holding a colorful handmade sign reading “FLICKA DA WRIST.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are posing outdoors holding a sign promoting 'Flick Da Wrist'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tall man and a young woman pose together outdoors; she holds a colorful sign reading 'FLICKA DA WRIST...'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tall man in athletic wear poses with a smiling young woman holding a colorful handmade sign outdoors."
+        }
+      }
+    },
+    "image_00133": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A golden retriever dog wearing a blue baseball cap with a red 'C' logo is lying on a patterned blanket on a couch, looking directly at the camera with its tongue slightly out."
+        },
+        "gpt-4o-mini": {
+          "summary": "A golden retriever wearing a blue baseball cap sits on a colorful blanket."
+        },
+        "gpt-5.4": {
+          "summary": "A golden retriever lounges on a couch wearing a blue baseball cap with a red 'C' logo in a cozy indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A golden retriever wearing a [ORGANIZATION] cap lounges comfortably under a blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever wearing a blue baseball cap sits on a couch wrapped in a patterned blanket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever wearing a blue [ORGANIZATION] baseball cap lies on a patterned blanket indoors."
+        }
+      }
+    },
+    "image_00134": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a light blue baseball jersey and a headband with a [ORGANIZATION] logo kneels on green grass next to a golden retriever dog wearing a white [ORGANIZATION] baseball cap, both smiling in a sunny backyard."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person kneels beside a golden retriever in a grassy yard, both appearing cheerful."
+        },
+        "gpt-5.4": {
+          "summary": "A person in [LOCATION] Cubs gear kneels on a sunny backyard lawn beside a golden retriever also wearing a [ORGANIZATION] cap."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a [ORGANIZATION] jersey poses outdoors next to their dog wearing a [ORGANIZATION] cap."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person and a golden retriever wearing [ORGANIZATION] gear pose together on a grassy lawn."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a [LOCATION] Cubs jersey and headband kneels on a lawn next to a golden retriever wearing a matching baseball cap."
+        }
+      }
     }
   }
 }

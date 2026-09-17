@@ -1,57 +1,117 @@
 {
   "user_id": "participant_009",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
       "status": "active",
       "long_term_interests": [
         {
-          "label": "spectator sports",
+          "label": "football",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            5,
+            26,
+            57,
+            69,
+            88,
+            100,
+            101,
+            126,
+            129
           ],
           "evidence_post_ids": [
-            "participant_009_phase_2",
-            "participant_009_phase_3",
-            "participant_009_phase_4"
+            "participant_009_post_0006",
+            "participant_009_post_0027",
+            "participant_009_post_0058",
+            "participant_009_post_0070",
+            "participant_009_post_0089",
+            "participant_009_post_0101",
+            "participant_009_post_0102",
+            "participant_009_post_0127",
+            "participant_009_post_0130"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "football jersey",
           "evidence_post_indices": [
-            1,
-            2
+            26,
+            58,
+            101,
+            126
           ],
           "evidence_post_ids": [
-            "participant_009_phase_2",
-            "participant_009_phase_3"
+            "participant_009_post_0027",
+            "participant_009_post_0059",
+            "participant_009_post_0102",
+            "participant_009_post_0127"
+          ]
+        },
+        {
+          "label": "manchester united",
+          "evidence_post_indices": [
+            57,
+            70,
+            129
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0058",
+            "participant_009_post_0071",
+            "participant_009_post_0130"
+          ]
+        },
+        {
+          "label": "football fandom",
+          "evidence_post_indices": [
+            70,
+            100,
+            129
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0071",
+            "participant_009_post_0101",
+            "participant_009_post_0130"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "sports outdoor interests",
+          "label": "real madrid",
           "evidence_post_indices": [
-            1
+            101,
+            126
           ],
           "evidence_post_ids": [
-            "participant_009_phase_2"
+            "participant_009_post_0102",
+            "participant_009_post_0127"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "sports outdoor interests",
+          "label": "atletico madrid",
           "evidence_post_indices": [
-            1,
-            3
+            5
           ],
           "evidence_post_ids": [
-            "participant_009_phase_2",
-            "participant_009_phase_4"
+            "participant_009_post_0006"
+          ]
+        },
+        {
+          "label": "badminton",
+          "evidence_post_indices": [
+            109
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0110"
+          ]
+        },
+        {
+          "label": "badminton racket",
+          "evidence_post_indices": [
+            109
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0110"
           ]
         }
       ]
@@ -61,46 +121,385 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "jkt48",
           "evidence_post_indices": [
-            0,
-            1,
             2,
-            3
+            7,
+            8,
+            15,
+            16,
+            18,
+            19,
+            26,
+            27,
+            33,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            47,
+            48,
+            49,
+            51,
+            58,
+            64,
+            78,
+            79,
+            81,
+            88,
+            91,
+            93,
+            94,
+            95,
+            101,
+            104,
+            113,
+            121,
+            124,
+            126,
+            132,
+            135,
+            139,
+            140,
+            141,
+            142,
+            145,
+            149,
+            154,
+            158,
+            163,
+            170,
+            176,
+            177,
+            180,
+            183,
+            184,
+            187,
+            191
           ],
           "evidence_post_ids": [
-            "participant_009_phase_1",
-            "participant_009_phase_2",
-            "participant_009_phase_3",
-            "participant_009_phase_4"
+            "participant_009_post_0003",
+            "participant_009_post_0008",
+            "participant_009_post_0009",
+            "participant_009_post_0016",
+            "participant_009_post_0017",
+            "participant_009_post_0019",
+            "participant_009_post_0020",
+            "participant_009_post_0027",
+            "participant_009_post_0028",
+            "participant_009_post_0034",
+            "participant_009_post_0036",
+            "participant_009_post_0037",
+            "participant_009_post_0038",
+            "participant_009_post_0039",
+            "participant_009_post_0040",
+            "participant_009_post_0041",
+            "participant_009_post_0048",
+            "participant_009_post_0049",
+            "participant_009_post_0050",
+            "participant_009_post_0052",
+            "participant_009_post_0059",
+            "participant_009_post_0065",
+            "participant_009_post_0079",
+            "participant_009_post_0080",
+            "participant_009_post_0082",
+            "participant_009_post_0089",
+            "participant_009_post_0092",
+            "participant_009_post_0094",
+            "participant_009_post_0095",
+            "participant_009_post_0096",
+            "participant_009_post_0102",
+            "participant_009_post_0105",
+            "participant_009_post_0114",
+            "participant_009_post_0122",
+            "participant_009_post_0125",
+            "participant_009_post_0127",
+            "participant_009_post_0133",
+            "participant_009_post_0136",
+            "participant_009_post_0140",
+            "participant_009_post_0141",
+            "participant_009_post_0142",
+            "participant_009_post_0143",
+            "participant_009_post_0146",
+            "participant_009_post_0150",
+            "participant_009_post_0155",
+            "participant_009_post_0159",
+            "participant_009_post_0164",
+            "participant_009_post_0171",
+            "participant_009_post_0177",
+            "participant_009_post_0178",
+            "participant_009_post_0181",
+            "participant_009_post_0184",
+            "participant_009_post_0185",
+            "participant_009_post_0188",
+            "participant_009_post_0192"
+          ]
+        },
+        {
+          "label": "idol fandom",
+          "evidence_post_indices": [
+            1,
+            7,
+            9,
+            14,
+            18,
+            32,
+            33,
+            35,
+            36,
+            37,
+            39,
+            41,
+            51,
+            53,
+            58,
+            59,
+            63,
+            72,
+            73,
+            74,
+            87,
+            94,
+            95,
+            99,
+            100,
+            101,
+            109,
+            110,
+            113,
+            114,
+            117,
+            121,
+            125,
+            131,
+            139,
+            140,
+            145,
+            149,
+            154,
+            165,
+            172,
+            176,
+            180,
+            183,
+            188
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0002",
+            "participant_009_post_0008",
+            "participant_009_post_0010",
+            "participant_009_post_0015",
+            "participant_009_post_0019",
+            "participant_009_post_0033",
+            "participant_009_post_0034",
+            "participant_009_post_0036",
+            "participant_009_post_0037",
+            "participant_009_post_0038",
+            "participant_009_post_0040",
+            "participant_009_post_0042",
+            "participant_009_post_0052",
+            "participant_009_post_0054",
+            "participant_009_post_0059",
+            "participant_009_post_0060",
+            "participant_009_post_0064",
+            "participant_009_post_0073",
+            "participant_009_post_0074",
+            "participant_009_post_0075",
+            "participant_009_post_0088",
+            "participant_009_post_0095",
+            "participant_009_post_0096",
+            "participant_009_post_0100",
+            "participant_009_post_0101",
+            "participant_009_post_0102",
+            "participant_009_post_0110",
+            "participant_009_post_0111",
+            "participant_009_post_0114",
+            "participant_009_post_0115",
+            "participant_009_post_0118",
+            "participant_009_post_0122",
+            "participant_009_post_0126",
+            "participant_009_post_0132",
+            "participant_009_post_0140",
+            "participant_009_post_0141",
+            "participant_009_post_0146",
+            "participant_009_post_0150",
+            "participant_009_post_0155",
+            "participant_009_post_0166",
+            "participant_009_post_0173",
+            "participant_009_post_0177",
+            "participant_009_post_0181",
+            "participant_009_post_0184",
+            "participant_009_post_0189"
+          ]
+        },
+        {
+          "label": "idol group",
+          "evidence_post_indices": [
+            0,
+            2,
+            8,
+            15,
+            19,
+            26,
+            27,
+            38,
+            40,
+            47,
+            48,
+            64,
+            78,
+            81,
+            88,
+            91,
+            93,
+            104,
+            118,
+            124,
+            126,
+            132,
+            141,
+            163,
+            170,
+            172,
+            177,
+            191
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0001",
+            "participant_009_post_0003",
+            "participant_009_post_0009",
+            "participant_009_post_0016",
+            "participant_009_post_0020",
+            "participant_009_post_0027",
+            "participant_009_post_0028",
+            "participant_009_post_0039",
+            "participant_009_post_0041",
+            "participant_009_post_0048",
+            "participant_009_post_0049",
+            "participant_009_post_0065",
+            "participant_009_post_0079",
+            "participant_009_post_0082",
+            "participant_009_post_0089",
+            "participant_009_post_0092",
+            "participant_009_post_0094",
+            "participant_009_post_0105",
+            "participant_009_post_0119",
+            "participant_009_post_0125",
+            "participant_009_post_0127",
+            "participant_009_post_0133",
+            "participant_009_post_0142",
+            "participant_009_post_0164",
+            "participant_009_post_0171",
+            "participant_009_post_0173",
+            "participant_009_post_0178",
+            "participant_009_post_0192"
+          ]
+        },
+        {
+          "label": "celebrity fandom",
+          "evidence_post_indices": [
+            6,
+            15,
+            16,
+            25,
+            49,
+            55,
+            87,
+            89,
+            103,
+            114,
+            125,
+            131,
+            151,
+            162,
+            178,
+            187,
+            192
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0007",
+            "participant_009_post_0016",
+            "participant_009_post_0017",
+            "participant_009_post_0026",
+            "participant_009_post_0050",
+            "participant_009_post_0056",
+            "participant_009_post_0088",
+            "participant_009_post_0090",
+            "participant_009_post_0104",
+            "participant_009_post_0115",
+            "participant_009_post_0126",
+            "participant_009_post_0132",
+            "participant_009_post_0152",
+            "participant_009_post_0163",
+            "participant_009_post_0179",
+            "participant_009_post_0188",
+            "participant_009_post_0193"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "david bowie",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            76,
+            158
           ],
           "evidence_post_ids": [
-            "participant_009_phase_1",
-            "participant_009_phase_2",
-            "participant_009_phase_3"
+            "participant_009_post_0077",
+            "participant_009_post_0159"
+          ]
+        },
+        {
+          "label": "dawson creek",
+          "evidence_post_indices": [
+            160,
+            161
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0161",
+            "participant_009_post_0162"
+          ]
+        },
+        {
+          "label": "hello project",
+          "evidence_post_indices": [
+            110,
+            183
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0111",
+            "participant_009_post_0184"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "adeline wijaya",
           "evidence_post_indices": [
-            0,
-            2
+            63
           ],
           "evidence_post_ids": [
-            "participant_009_phase_1",
-            "participant_009_phase_3"
+            "participant_009_post_0064"
+          ]
+        },
+        {
+          "label": "cassette collecting",
+          "evidence_post_indices": [
+            174
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0175"
+          ]
+        },
+        {
+          "label": "dance cover",
+          "evidence_post_indices": [
+            191
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0192"
           ]
         }
       ]
@@ -117,77 +516,143 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "dining",
+          "label": "indonesian cuisine",
           "evidence_post_indices": [
-            1,
-            2
+            7,
+            33,
+            41,
+            185
           ],
           "evidence_post_ids": [
-            "participant_009_phase_2",
-            "participant_009_phase_3"
+            "participant_009_post_0008",
+            "participant_009_post_0034",
+            "participant_009_post_0042",
+            "participant_009_post_0186"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "restaurant",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            54,
+            93,
+            116,
+            138
           ],
           "evidence_post_ids": [
-            "participant_009_phase_1",
-            "participant_009_phase_2",
-            "participant_009_phase_3",
-            "participant_009_phase_4"
+            "participant_009_post_0055",
+            "participant_009_post_0094",
+            "participant_009_post_0117",
+            "participant_009_post_0139"
+          ]
+        },
+        {
+          "label": "break fast",
+          "evidence_post_indices": [
+            72,
+            82,
+            92,
+            102,
+            112,
+            114,
+            130,
+            144,
+            148,
+            155,
+            162,
+            169,
+            181
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0073",
+            "participant_009_post_0083",
+            "participant_009_post_0093",
+            "participant_009_post_0103",
+            "participant_009_post_0113",
+            "participant_009_post_0115",
+            "participant_009_post_0131",
+            "participant_009_post_0145",
+            "participant_009_post_0149",
+            "participant_009_post_0156",
+            "participant_009_post_0163",
+            "participant_009_post_0170",
+            "participant_009_post_0182"
+          ]
+        },
+        {
+          "label": "burger",
+          "evidence_post_indices": [
+            54,
+            56,
+            90
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0055",
+            "participant_009_post_0057",
+            "participant_009_post_0091"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "dining",
+          "label": "street food",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            33,
+            185
           ],
           "evidence_post_ids": [
-            "participant_009_phase_1",
-            "participant_009_phase_3",
-            "participant_009_phase_4"
+            "participant_009_post_0034",
+            "participant_009_post_0186"
           ]
         },
         {
-          "label": "savory food",
+          "label": "pizza",
           "evidence_post_indices": [
-            0,
-            2
+            54,
+            186
           ],
           "evidence_post_ids": [
-            "participant_009_phase_1",
-            "participant_009_phase_3"
+            "participant_009_post_0055",
+            "participant_009_post_0187"
+          ]
+        },
+        {
+          "label": "fast food",
+          "evidence_post_indices": [
+            54,
+            56
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0055",
+            "participant_009_post_0057"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "baking and desserts",
+          "label": "cake",
           "evidence_post_indices": [
-            2
+            81
           ],
           "evidence_post_ids": [
-            "participant_009_phase_3"
+            "participant_009_post_0082"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "pecel",
           "evidence_post_indices": [
-            2,
-            3
+            7
           ],
           "evidence_post_ids": [
-            "participant_009_phase_3",
-            "participant_009_phase_4"
+            "participant_009_post_0008"
+          ]
+        },
+        {
+          "label": "takjil",
+          "evidence_post_indices": [
+            49
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0050"
           ]
         }
       ]
@@ -197,80 +662,95 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "city exploration",
+          "label": "sightsee",
           "evidence_post_indices": [
-            0,
-            1,
-            3
+            20,
+            33,
+            35,
+            145
           ],
           "evidence_post_ids": [
-            "participant_009_phase_1",
-            "participant_009_phase_2",
-            "participant_009_phase_4"
+            "participant_009_post_0021",
+            "participant_009_post_0034",
+            "participant_009_post_0036",
+            "participant_009_post_0146"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "city exploration",
           "evidence_post_indices": [
-            0,
-            3
+            20,
+            137,
+            145
           ],
           "evidence_post_ids": [
-            "participant_009_phase_1",
-            "participant_009_phase_4"
+            "participant_009_post_0021",
+            "participant_009_post_0138",
+            "participant_009_post_0146"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "travel",
+          "label": "jakarta",
           "evidence_post_indices": [
-            2,
-            3
+            39,
+            159
           ],
           "evidence_post_ids": [
-            "participant_009_phase_3",
-            "participant_009_phase_4"
+            "participant_009_post_0040",
+            "participant_009_post_0160"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "indonesia travel",
           "evidence_post_indices": [
-            0,
-            3
+            20,
+            65
           ],
           "evidence_post_ids": [
-            "participant_009_phase_1",
-            "participant_009_phase_4"
+            "participant_009_post_0021",
+            "participant_009_post_0066"
+          ]
+        },
+        {
+          "label": "domestic tourism",
+          "evidence_post_indices": [
+            19,
+            33
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0020",
+            "participant_009_post_0034"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "city exploration",
+          "label": "borobudur temple",
           "evidence_post_indices": [
-            1
+            65
           ],
           "evidence_post_ids": [
-            "participant_009_phase_2"
+            "participant_009_post_0066"
           ]
         },
         {
-          "label": "travel",
+          "label": "bandung city",
           "evidence_post_indices": [
-            1
+            140
           ],
           "evidence_post_ids": [
-            "participant_009_phase_2"
+            "participant_009_post_0141"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "domestic travel",
           "evidence_post_indices": [
-            2
+            140
           ],
           "evidence_post_ids": [
-            "participant_009_phase_3"
+            "participant_009_post_0141"
           ]
         }
       ]
@@ -281,49 +761,65 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "photography",
+          "label": "ai image generation",
           "evidence_post_indices": [
-            2,
-            3
+            65,
+            66
           ],
           "evidence_post_ids": [
-            "participant_009_phase_3",
-            "participant_009_phase_4"
+            "participant_009_post_0066",
+            "participant_009_post_0067"
           ]
         },
         {
-          "label": "photography creation interests",
+          "label": "photo editing",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            35,
+            66
           ],
           "evidence_post_ids": [
-            "participant_009_phase_1",
-            "participant_009_phase_3",
-            "participant_009_phase_4"
+            "participant_009_post_0036",
+            "participant_009_post_0067"
+          ]
+        },
+        {
+          "label": "content creation",
+          "evidence_post_indices": [
+            29,
+            182
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0030",
+            "participant_009_post_0183"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "photography creation interests",
+          "label": "image colorization",
           "evidence_post_indices": [
-            2,
-            3
+            66
           ],
           "evidence_post_ids": [
-            "participant_009_phase_3",
-            "participant_009_phase_4"
+            "participant_009_post_0067"
           ]
         },
         {
-          "label": "visual art",
+          "label": "adobe photoshop",
           "evidence_post_indices": [
-            3
+            32
           ],
           "evidence_post_ids": [
-            "participant_009_phase_4"
+            "participant_009_post_0033"
+          ]
+        },
+        {
+          "label": "digital painting",
+          "evidence_post_indices": [
+            32
+          ],
+          "evidence_post_ids": [
+            "participant_009_post_0033"
           ]
         }
       ]

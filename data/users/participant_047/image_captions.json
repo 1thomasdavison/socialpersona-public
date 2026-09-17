@@ -1,67 +1,3527 @@
 {
   "user_id": "participant_047",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "dining",
-        "film and television",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; dining; film and television; outdoor activities."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of various circular profile pictures, predominantly showcasing stylized characters and a few human faces."
+        },
+        "gpt-5.4": {
+          "summary": "A collage on a pale green background shows many circular profile icons featuring doll figurines, selfies, anime-style drawings, and a few pet images, with a watermark at the bottom left."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Circular collage of various character avatars against a light green background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of circular photos showing people and stylized figurines arranged in a spiral pattern on a light green background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital collage of circular profile pictures arranged in a circle, featuring a mix of K-pop idols, anime characters, and [ORGANIZATION]-style vinyl toys on a mint green background."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "crafts and design",
-        "dining",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; crafts and design; dining; video games; visual art."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a small figurine standing on a laptop keyboard, with a blurred background of a room."
+        },
+        "gpt-5.4": {
+          "summary": "A small stylized figurine with a box-like head stands on a laptop keyboard in a dimly lit room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small figurine of a character wearing an angry mask stands atop a laptop keyboard in front of curtains."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon figurine with an angry face stands on a laptop keyboard next to an open laptop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cardboard box-headed figurine with a drawn face stands on the palm rest of an open laptop in a dimly lit room."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "board and card games",
-        "dining",
-        "film and television",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: board and card games; dining; film and television; photography; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a toy figure while peering through a cardboard cutout with a monster face."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors wearing a box-shaped cartoon face mask while holding a matching small figurine in dim warm lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a box featuring an anime character's face next to another small figure of similar design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wears a cardboard mask resembling an anime character, holding a matching figurine in front of them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person holds a cardboard cutout mask featuring an anime-style face over their own face while holding a small figurine with a similar box head in the background."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "nature visits",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; nature visits; video games; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a small figurine inside a transparent case next to a laptop displaying mathematical equations and notes."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop showing math software and equations sits beside a small doll inside a clear case on top of printed worksheets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small figurine wearing a '[PERSON]' hat sits in front of an open laptop displaying mathematical equations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displaying calculus equations sits next to a small figurine in a clear case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a laptop screen displaying complex calculus equations in wxMaxima software, accompanied by a small figurine in a clear case and printed math worksheets."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "dining",
-        "film and television",
-        "nature visits",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dining; film and television; nature visits; video games."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON], depicted in an ethereal setting with flowing ribbons and a magical aura."
+        },
+        "gpt-5.4": {
+          "summary": "Stylized game character art shows Aglaea floating in a starry fantasy scene, wearing ornate white-and-gold clothing and surrounded by puppet-like figures and ruins."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character named [PERSON] in a dynamic pose against an ethereal background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fantasy character named [PERSON], marked as 'New', is depicted in a dynamic pose amidst golden ribbons and floating debris against a starry backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style illustration of a female character named Aglaea floating in a cosmic setting, flanked by two headless statues."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "film and television",
-        "nature visits",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; film and television; nature visits; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand holding an identification card for a character named 'Can't Let Go' from the [PERSON] 24/7 You series."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a collectible [ORGANIZATION] 24/7 YOU figure identification card during an [ORGANIZATION] shopping livestream, with toy displays blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Displaying a collectible card featuring an anime character's identification details."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds up a collectible figure's ID card from the [ORGANIZATION] 24/7 YOU series, displaying character details and an official print label."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a collectible identification card for a '[ORGANIZATION]' series figure named 'Can't Let Go' during an [ORGANIZATION] live shopping session."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bouquet of pink roses and white flowers with a small figurine placed in the center."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a large wrapped bouquet of pink roses and small white flowers, with a tiny pink-haired figurine tucked among the blooms indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bouquet of flowers wrapped in white paper with a small figurine placed among them."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a floral bouquet with red roses, white and yellow filler flowers, and a small pink-haired doll figurine nestled among the blooms."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a large bouquet of red roses, yellow filler flowers, and white daisies wrapped in white paper with gold trim, featuring a small doll figurine with pink hair nestled among the blooms."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a small figurine standing on a laptop keyboard next to a document interface displaying text about river degradation and macroinvertebrates."
+        },
+        "gpt-5.4": {
+          "summary": "A small cartoon figurine stands on a laptop keyboard in front of a document editing screen showing an academic-looking paper and document tabs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small figurine stands atop a laptop keyboard next to an open document."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine stands on a laptop keyboard in front of a screen displaying a document with academic text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small figurine with brown hair and a blue jacket stands on a laptop keyboard in front of a screen displaying a document about river geomorphology."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collectible figure and an identification card on a wooden surface, surrounded by other figurines and objects."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized collectible toy figure is displayed on a wooden shelf with its box and identification card, surrounded by other figurines in a warm indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collectible figure of [ORGANIZATION] from '[ORGANIZATION] 24/7 YOU' series displayed alongside its identification card."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] 24/7 YOU collectible figure sits beside its ID card on a wooden surface, with other toys visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a [ORGANIZATION] blind box figure and its identification card on a wooden surface, with other collectibles visible in the background."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three stylized figurines with unique hats and expressions, displayed on a wooden surface alongside illustrated cards."
+        },
+        "gpt-5.4": {
+          "summary": "A tabletop display shows several stylized collectible figurines with cardboard-themed outfits, character cards, and toy packaging in warm indoor light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of figurines wearing house-shaped hats displayed in a room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three stylized figurines with box-like heads are displayed on a wooden surface alongside illustrated cards and collectible boxes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of stylized art figures with cardboard box heads and melancholic expressions are displayed on a wooden surface alongside their corresponding character cards."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of cute, stylized figurines arranged on a decorative fabric background."
+        },
+        "gpt-5.4": {
+          "summary": "A group of whimsical collectible figurines in costume and box-themed outfits is laid out on ornate patterned fabric."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of intricately designed figurines arranged on a patterned fabric."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several stylized figurines with cardboard box accessories are arranged on a patterned fabric surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of eight small, stylized figurines with cardboard-like accessories are arranged on a patterned fabric surface."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a congratulatory letter from [ORGANIZATION] offering admission to a student for the Fall 2025 term."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a [ORGANIZATION] admission letter offering acceptance to the [ORGANIZATION] program for Fall 2025 and mentioning a merit award."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] admission letter offering a Merit Award."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A formal letter offering admission to [ORGANIZATION] [ORGANIZATION] program with a merit award for tuition reduction."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a formal admission letter from [ORGANIZATION] offering acceptance to the [ORGANIZATION] program for Fall 2025."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand holding an identification card for a toy character named 'Romance' from 'Trendy Fun Toys'."
+        },
+        "gpt-5.4": {
+          "summary": "A livestream shopping screen shows hands holding a collectible toy character card and order slip for a [ORGANIZATION] blind-box figure."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a collectible card featuring an animated character named 'Romance' from Kubo 24/7 You."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a collectible toy identification card featuring a cartoon character playing violin, with an order receipt below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand holding a '[ORGANIZATION] 24/7 YOU' character identification card and a purchase receipt from 'Trendy Fun Toys' during a live stream."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a grassy field under a partly cloudy sky with trees and distant figures in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A wide grassy field with a tree line under a large blue sky filled with wispy clouds, with a few small people visible in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene grassy field under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide grassy field under a partly cloudy sky with distant trees and small groups of people."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide landscape view of a grassy field with distant trees and people under a blue sky with wispy clouds."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a small figurine standing on a wooden table with a plant in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A small stylized figurine stands on a wooden table in a softly lit indoor room with a leafy plant, window, and chair in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small clay figurine of a character stands on a wooden table in front of green plants."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small clay-like figurine of a chibi-style character stands on a wooden table near a window and green plant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small, unpainted clay figurine of a stylized character stands on a light wooden table with a green plant and window in the background."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop screen displaying the [ORGANIZATION] game interface with a focus on the Valorant Masters Bangkok event."
+        },
+        "gpt-5.4": {
+          "summary": "An HP laptop is open indoors with the [ORGANIZATION] client on screen, showing an install in progress and a [ORGANIZATION] Masters [LOCATION] event page."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displaying a [ORGANIZATION] event page."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displays the [ORGANIZATION] game client installing content for the 2025 [PERSON] event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of an [ORGANIZATION] laptop screen displaying the [ORGANIZATION] game launcher, which is currently installing updates while promoting the '[ORGANIZATION] esports event."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two decorative figurines on a wooden surface, surrounded by various stationery items."
+        },
+        "gpt-5.4": {
+          "summary": "A desk shelf holds two stylized collectible figurines beside a pen cup, router, cables, glue bottle, and a blue mesh speaker or microphone base."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Desk setup featuring figurines of a character in a dinosaur costume and another whimsical figure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two stylized figurines sit on a wooden desk beside a pen holder, router, and smart speaker."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two small collectible figurines, one in a cardboard box costume and another resembling a white creature with antlers, sit on a wooden desk next to a pen holder and a blue speaker."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group selfie featuring three individuals outdoors with emoji faces obscuring their identities."
+        },
+        "gpt-5.4": {
+          "summary": "Outdoor roadside selfie with three people in casual clothes under a wide cloudy sky, with two faces covered by emoji stickers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A selfie taken outdoors under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people pose for a selfie outdoors on a road under a cloudy sky, with two faces obscured by emoji overlays."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A selfie of a young man in a black t-shirt standing outdoors on a roadside with two companions whose faces are obscured by emoji stickers."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features four stylized figurines with distinct designs and expressions, set against a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "Four stylized collectible toy figures in themed costumes are posed on a wooden surface in front of a Nintendo Switch, with doodled labels and star accents around them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of four figurines arranged in front of a [ORGANIZATION] console."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four stylized figurines are arranged on a wooden surface in front of a [ORGANIZATION] console."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four stylized collectible figurines are displayed on a wooden surface in front of a [ORGANIZATION] console."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two collectible figures"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two collectible figurines on a wooden surface, with a [ORGANIZATION] console in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] on a wooden desk is displayed beside two stylized collectible figurines, including a Little Prince figure holding a rose and another figure with a lantern-like head, with a boxed toy in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two figurines of The Little Prince holding a rose and another character in medieval attire are displayed next to an open [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two stylized figurines sit on a wooden desk beside a [ORGANIZATION] console, with one holding a rose in a glass dome and the other wearing a lantern helmet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two stylized character figurines, one resembling The Little Prince and the other a street lamp keeper, are displayed on a wooden desk next to a [ORGANIZATION] console."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a figurine playing a violin next to an identification card and a box labeled '[ORGANIZATION] 24/7 YOU'."
+        },
+        "gpt-5.4": {
+          "summary": "A small violin-playing designer toy figure labeled [ORGANIZATION] 24/7 is displayed on a wooden surface with its box and ID card in front of a shelf full of collectible figurines."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine of a character holding an instrument stands next to its identification card labeled '[ORGANIZATION]' in front of a display case filled with similar figures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow-haired figurine holding a violin stands beside its ID card on a wooden surface, with other collectibles visible in a glass case behind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow [PERSON] blind box figure playing a violin stands next to its identification card and packaging on a wooden surface, with a display case of other collectible figures in the background."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a doll's face with a bright light source above, creating a lens flare effect."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry close-up selfie shows part of a face in a red-and-white hat indoors with strong flash glare and lens flare."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person's face in an indoor environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurry, low-angle selfie of a person with reddish hair, taken indoors under bright ceiling lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blurry, low-angle selfie of a person with pink hair and makeup taken indoors under bright lighting."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two collectible figurines on a wooden surface, with one dressed in blue and the other in a white outfit."
+        },
+        "gpt-5.4": {
+          "summary": "Two stylized collectible character figurines are displayed on a wooden desk, with bottles and other household items blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two small figurines are displayed on a wooden desk in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two stylized figurines sit on a wooden surface, one in traditional blue robes holding a scroll and the other in a white robe with a red symbol, surrounded by everyday items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three stylized anime-style figurines are displayed on a wooden surface, featuring characters in traditional and modern attire with distinct facial expressions."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a stylized figurine of a child wearing a blue cap and red outfit, standing on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A slightly blurry close-up shows a stylized vinyl figurine in a blue cap and red outfit standing on a wooden desk beside a red game controller."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a toy figure wearing red pants and white shoes standing indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a stylized figurine wearing a blue cap and red outfit, standing on a wooden surface next to a gaming console."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, high-angle shot of a stylized figurine with large eyes and freckles wearing a blue cap and red outfit on a wooden surface."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collectible figurine with a dripping paint design, accompanied by its packaging and a card."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] collectible figure with dripping gold paint styling is displayed on a wooden table beside its box and illustrated card."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] figurine of a character covered in gold paint next to its packaging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] collectible figure and its packaging, both featuring a character covered in dripping gold paint, displayed on a wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] figurine covered in dripping gold paint is displayed on a wooden surface next to its packaging box and an illustrated character card."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cute figurine of a character in a castle, accompanied by a colorful box and a card from the 'Finding Mokoko' series."
+        },
+        "gpt-5.4": {
+          "summary": "A collectible POP LAND 'Finding Mokoko' figurine is displayed on a wooden desk beside its colorful box and matching character card, with electronics and cables in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine of a character in a tower next to its box art."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] toy figure sits beside its box and a collectible card on a wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A 'Finding Moko' blind box figure of a character in a castle tower with a crown and balloon is displayed on a wooden surface alongside its packaging box and identification card."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two cartoonish figurines resembling characters in castle towers, with one character appearing frustrated."
+        },
+        "gpt-5.4": {
+          "summary": "Two stylized toy figurines shaped like grumpy children inside castle towers sit on a wooden surface beside a [ORGANIZATION] console."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two figurines resembling children in castle towers are displayed next to a [ORGANIZATION] console."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two stylized figurines with castle-themed bases sit on a wooden surface next to a [ORGANIZATION] console."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two stylized figurines with castle-themed heads and grumpy expressions sit on a wooden surface next to a blue [PERSON]."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON] from a game, showcasing her in a dynamic pose with a [ORGANIZATION] background."
+        },
+        "gpt-5.4": {
+          "summary": "A game gacha result screen shows the anime character [PERSON] in a dramatic white-and-red outfit, with rewards for a duplicate pull displayed on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character named [PERSON] in a fantasy-themed game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character named [PERSON] in a white and red outfit is displayed with game interface elements showing her conversion to '[PERSON]'s [ORGANIZATION]' and a bonus drop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the game [ORGANIZATION] showing a character summon result for [PERSON], displaying her artwork and obtained rewards."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a figurine on a tablet displaying cartoon illustrations."
+        },
+        "gpt-5.4": {
+          "summary": "A small stylized figurine stands on a wooden table beside a tablet displaying a cute digital drawing in a gallery app, with bench seating and a dumbbell blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine of a character in steampunk attire sits atop an open tablet displaying digital artwork."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tablet displaying digital artwork sits on a wooden table next to a small figurine."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tabletop scene featuring a small figurine with a paint can hat standing next to a tablet displaying a digital illustration of a character in a pink hoodie."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a plush toy with a distinctive design in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in dim lighting while holding a large cartoonish plush toy with X-shaped eyes and sharp white teeth."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a plush toy resembling an anime character in front of their face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a large, box-like plush toy with screw designs over their face in a dimly lit room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a purple shirt poses indoors with a large plush toy resembling the character [PERSON]."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a figurine next to an identification card and a sign in a kitchen setting."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] character figurine with its box and ID-style card is displayed on a kitchen countertop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON] figurine displayed alongside its identification card in a kitchen setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] 24/7 YOU collectible figure and its packaging sit on a kitchen counter, with the [ORGANIZATION] card showing 'NAME: 17:20见' and 'HOBBY: R&B'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] blind box toy figure with an identification card and packaging displayed on a kitchen counter."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a harbor scene with a partially submerged vehicle and several boats docked nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A cloudy harbor scene shows docked boats, a crane, parked vehicles, and a small red vehicle floating beside the quay."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small harbor scene featuring boats docked along a pier under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red amphibious vehicle is partially submerged in water at a dock, with boats, cars, and cranes visible under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red amphibious vehicle floats in the water near a concrete dock where boats and cars are parked under an overcast sky."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view of rooftops and mountains under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "Overcast sky above green hills, trees, utility wires, and corrugated metal rooftops in a semi-rural area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a rural area featuring corrugated metal roofs in the foreground, trees, hills covered by [ORGANIZATION] under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from a corrugated metal roof shows an overcast sky, distant green hills, and scattered vegetation with a truck parked in the midground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a rooftop overlooking corrugated metal roofs, an industrial yard with a truck, and green mountains under a cloudy sky."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two collectible figurines on a countertop, accompanied by their respective cards and packaging."
+        },
+        "gpt-5.4": {
+          "summary": "Two designer toy figures with collectible cards and opened POP MART Hirono boxes are displayed on a kitchen countertop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two figurines are displayed in a kitchen countertop setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two colorful figurines and their collectible cards are displayed on a kitchen countertop next to unopened POP MART boxes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two [ORGANIZATION] blind box figures, one white and one red-haired in yellow overalls, are displayed on a granite countertop alongside their original packaging and character cards."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collectible figure named [PERSON], accompanied by an identification card and various other figures in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] 24/7 YOU collectible figure with its box and ID card is posed on a wooden surface in front of a cabinet filled with similar art toys."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collectible figure of a character named [PERSON] next to its identification card."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] 24/7 YOU collectible figure stands beside its ID card and box, displayed on a wooden surface with other figures in background cases."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] blind box figure and its identification card are displayed on a wooden surface in front of a glass case filled with other collectible figurines."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collectible figure alongside an identification card and a booklet, all displayed on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] collectible figure with matching box and ID card is displayed on a shelf in front of a cabinet full of other small figurines."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collectible toy figure named 'Crushing On You' from [ORGANIZATION] series displayed alongside its identification card."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] collectible figure with goggles and a green heart stands beside its ID card and box on a wooden surface, with other figurines in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a [ORGANIZATION] blind box figure and its accompanying identification card displayed in front of a glass case filled with other collectible figurines."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine with a serious expression, wearing goggles and a hoodie, holding a green object."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a stylized collectible figure wearing aviator goggles and holding a small green skateboard indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A toy figure wearing aviator goggles and a black hoodie stands in front of an out-of-focus background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized figurine with goggles and a stern expression holds a green object, set against an indoor background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized vinyl art toy with an angry expression, wearing aviator goggles and holding a green object."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collectible figurine, styled with goggles and a helmet, stands holding two miniature skateboards in front of a [ORGANIZATION] console."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine of a character with a unique outfit and accessories, standing on a textured surface."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized collectible figure wearing goggles and holding a small green skateboard stands in front of a Nintendo Switch with a red [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A toy figure wearing a helmet and goggles stands in front of what appears to be gaming controllers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized figurine wearing pilot goggles and holding a skateboard stands next to a red Nintendo Switch Joy-Con controller."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized vinyl figurine with an aviator helmet and goggles holding a skateboard, positioned in front of a red Nintendo Switch Joy-Con controller."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two cute collectible figurines on a wooden surface, with additional art and items in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A tabletop display shows cute designer toy figurines in front of art cards, with shelves of collectible figures in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two figurines are displayed in a collection of small toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two stylized figurines sit on a wooden surface in front of artwork and a display case filled with collectibles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two stylized vinyl art toys, one with red hair and a crown holding a clock and another in a white ghost costume, are displayed on a wooden surface in front of their packaging cards."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An upward view captures a dense canopy of green leaves from various trees, including palm trees, against a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a view of lush green tree branches against a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "Upward view of a dense tropical tree canopy and palm fronds silhouetted against a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Tropical trees against a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle view looking up through dense green foliage and palm trees toward a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view looking up through a dense canopy of green trees and palm fronds against an overcast sky."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An outdoor landscape shot features a dark, pebbly beach meeting calm water under a cloudy sky, with a distant horizon line."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene coastal scene featuring a rocky beach and calm ocean under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] meets a calm sea beneath large dramatic clouds in a soft, overcast sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene beach scene under a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calm shoreline with dark pebbles meets the ocean under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide shot of a dark, pebbly shoreline meeting calm ocean waters under a dramatic sky filled with large white and grey clouds."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a landscaped pathway leading to a gate, surrounded by [ORGANIZATION] and cloudy skies."
+        },
+        "gpt-5.4": {
+          "summary": "A landscaped entrance road leads to a gated compound with tropical trees, a large white lion-like statue, and dramatic dark clouds overhead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A paved road leads towards a gate entrance surrounded by [ORGANIZATION] under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A paved path leads to a modern gate entrance flanked by lush greenery and large white statues under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paved entrance road leads to a modern gate and manicured grounds featuring large white statues, palm trees, and a cloudy sky."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a platter of grilled skewers garnished with vegetables, accompanied by rice on the table."
+        },
+        "gpt-5.4": {
+          "summary": "A table spread shows grilled meat skewers on a wooden serving board with cucumber, tomato, lettuce, and scallion garnish alongside several plates piled with white rice."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of grilled skewers garnished with vegetables served alongside rice."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden board holds grilled meat skewers garnished with cucumber, tomato, and green onions, served alongside plates of white rice."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wooden platter of grilled meat skewers garnished with vegetables and served alongside plates of white rice on a dining table."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collectible figure with sunglasses and an identification card beside it, set against a backdrop of various other figures."
+        },
+        "gpt-5.4": {
+          "summary": "A small [ORGANIZATION] collectible figurine with sunglasses is posed on a wooden desk beside its box and character card, with many other toy figures displayed in clear shelves behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collectible figure of a character named [PERSON] from [PERSON] series displayed alongside its identification card."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] 24/7 YOU collectible figure and its ID card are displayed on a wooden surface in front of shelves filled with other figurines."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] blind box figure wearing sunglasses and a racing suit stands next to its packaging and an identification card on a wooden surface, with a large collection of other figures displayed in the background."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collectible vinyl figure with blonde hair and a serious expression, wearing a white and blue jacket with \"KU BO\" written on it, stands on a wooden"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine with a bear-like hat, dressed in a blue and white outfit."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a stylized vinyl figurine in a white-and-blue outfit standing on a wooden surface, with other collectible figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a figurine wearing futuristic attire standing in front of other collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a stylized figurine with cat ears and a stern expression, wearing a white and blue outfit with visible text on the arms, set against a blurred background of other collectibles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized vinyl figurine with cat ears and a grumpy expression, wearing a white and blue outfit labeled '[PERSON]' and 'Bo', displayed on a wooden surface among other collectibles."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collectible figure of a character with elephant ears holding a small elephant, accompanied by two cards labeled '[ORGANIZATION]' and 'CITY OF MERCY'."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] collectible figure in a gray elephant costume is displayed on a wooden table with its box and character card in front of a shelf of other figurines."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine of a character in an elephant costume sits next to its packaging labeled '[LOCATION] of Mercy'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gray elephant-themed figurine sits beside its branded packaging and a card on a wooden surface, with other collectibles visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A gray elephant-eared figurine sits on a wooden surface next to its packaging and an illustrated card, with a collection of other toys visible in the background display case."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cute figurine of a child dressed as an elephant, holding a small elephant toy and sitting on a box."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a stylized collectible figure in a gray elephant costume holding a banana, displayed on a shelf among other toy figures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cute figurine wearing a gray hoodie sits atop a display case surrounded by other collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized elephant-headed figurine sits atop a box in front of a shelf filled with other collectible figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a grey elephant-themed blind box figure holding a banana, displayed on a white box with other collectible figures visible in the background."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cute collectible figurine of a child in a grey elephant costume, holding a small yellow banana, sits on a white surface with"
+        },
+        "gpt-4o-mini": {
+          "summary": "A cute figurine of a character in an elephant costume holding a banana, surrounded by other collectibles."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a stylized collectible figurine in a gray elephant costume sitting on a display stand, with other toy figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine of a character in gray attire holding an object sits atop a display case surrounded by other collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a grey elephant-themed figurine holding a banana, sitting on a display stand with other collectibles blurred in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a gray elephant-costumed figurine holding a banana, displayed on a white box with other collectible figures blurred in the background."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a variety of Chinese dishes including fried rice, crispy chicken with vegetables, and dumplings."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a Chinese-style meal with vegetable egg fried rice, crispy fried meat in sauce with peppers, and steamed dumplings in a bamboo basket."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of fried rice mixed with vegetables alongside a dish of sweet-and-sour chicken and steamed dumplings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three dishes of Chinese food: fried rice, sweet and sour chicken, and steamed dumplings in a bamboo steamer."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a Chinese meal featuring shrimp fried rice, sweet and sour pork with peppers, and steamed dumplings in a bamboo basket."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two [ORGANIZATION]-themed t-shirts hanging on display, one with [PERSON] and the other with [PERSON] and his nephews."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] graphic T-shirts featuring [PERSON] and [ORGANIZATION] are hanging on wooden hangers in a clothing store display."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two [ORGANIZATION]-themed t-shirts are displayed in a store; [PERSON] shirt features his classic design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two white [ORGANIZATION]-themed T-shirts on wooden hangers display [PERSON] and the Three Ducks characters."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two white [ORGANIZATION] graphic t-shirts featuring [PERSON] and the triplets are displayed on wooden hangers in a retail store setting."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person sitting in a car with clothing hanging in the back seat."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person in a white collared shirt sitting in a car with a seatbelt on, with hanging clothes visible in the back."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a white shirt sits in the backseat of a car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white collared shirt and seatbelt sits in a car, with clothes hanging from the rearview mirror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a young person in a white collared shirt sitting in the driver's seat of a car with clothes hanging on the rearview mirror."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An evening street scene captures a vibrant sunset sky over a busy road with cars, pedestrians, and a brightly lit 7-Eleven store."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a street scene at dusk with a prominent 7-Eleven sign and a colorful sunset in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A street scene at dusk shows cars on the road, bright streetlights, and a glowing 7‐Eleven sign against a colorful sunset sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A street scene during dusk featuring a glowing sky over parked cars near a convenience store."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A street scene at dusk with a glowing 7-Eleven sign, cars, and a vibrant orange-pink sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street scene at dusk featuring a bright moon with lens flare, a colorful sunset sky, and an illuminated 7-Eleven sign on the right."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collectible figure named [PERSON] holding a small package, alongside an identification card with details about the character."
+        },
+        "gpt-5.4": {
+          "summary": "A small [ORGANIZATION] character figurine with dog ears and an ID card is posed on a wooden table in front of shelves filled with collectible toy figures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collectible figure of [PERSON] stands next to its identification card in a display case filled with other figurines."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized figurine with an ID card stands on a wooden surface in front of a display case filled with other collectible figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow and white [ORGANIZATION] blind box figure stands next to its identification card and packaging on a wooden surface, with a background of numerous other collectible figures in clear display cases."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine of a character with animal features, holding a small blue package."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a stylized collectible figure with animal-like ears and a blue bag displayed on top of its box, with other toy figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a figurine from '[ORGANIZATION]' series displayed among other collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a cat-eared figurine holding a blue box, displayed on its packaging among other collectibles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a [ORGANIZATION] collectible figure with blonde hair and cat ears holding a blue gift box, displayed on its packaging within a glass case filled with other figurines."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie on a laptop while sitting at a table with bags and an umbrella nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop on a desk displays a selfie on a video/photo app in a classroom-like setting, with a backpack, jacket, and folded umbrella nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Laptop screen shows a video call in progress."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displays a video call where a person holds up a phone, surrounded by bags and an umbrella on a desk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A silver laptop on a desk displays a video call where a young man in a school uniform is taking a selfie with a digital fish filter, surrounded by backpacks and an umbrella."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three cute collectible figurines, one dressed as an elephant, one as a ghost, and a small white creature with a balloon, are displayed on a wooden surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three small figurines on a wooden surface, including a character in an elephant costume, another in a ghost-like outfit, and a small white creature."
+        },
+        "gpt-5.4": {
+          "summary": "Three small collectible figurines, including an elephant-costumed character and a white hooded character, are displayed on a worn wooden bench indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three small figurines are displayed on a wooden surface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three stylized figurines sit on a wooden surface in front of an ornate wooden background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three stylized ceramic figurines, including characters in animal hoods and a small white creature, are arranged on a distressed wooden surface."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An anime-style character with pink hair, horns, and a vibrant outfit is displayed against"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful character named [PERSON], depicted in a dynamic pose with vibrant effects in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful video game character splash screen shows an anime-style female character named [PERSON] posing in front of neon graffiti-like effects with a five-star rating."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant character named [PERSON] in a dynamic pose against an energetic background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized anime character named [PERSON] with pink hair and a dynamic pose, surrounded by vibrant purple and cyan energy effects."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A five-star anime-style character named [PERSON] is displayed in a dynamic pose with pink hair and glowing purple energy effects."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collectible figure in a green outfit alongside its packaging on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized collectible toy figure with green hair, headphones, and roller skates is displayed on a wooden surface in front of its [ORGANIZATION] box and character card, with more figures in a display case behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collectible toy figure of a character in green attire displayed alongside its packaging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green-haired [ORGANIZATION] figurine with headphones and roller skates sits beside its box and collectible card on a wooden floor, with shelves of other figures in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A green-haired [ORGANIZATION] figure named 'Light Rider' is displayed on a wooden surface alongside its packaging box and an identification card, with a collection of other toys visible in the background."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collectible figurine with green hair, headphones, a green jacket, and roller skates stands on a wooden"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine wearing a green outfit and roller skates, with other figurines blurred in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a stylized collectible toy figure with green hair, headphones, and roller skates posed in front of a shelf of other figurines."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A toy figure wearing headphones stands in front of a collection of other figurines."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green-haired figurine wearing headphones and roller skates stands in front of a blurred collection of other figurines."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a green-haired vinyl toy figure wearing headphones and roller skates, displayed in front of a blurred collection of other figurines."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a stylized"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a figurine with green hair and headphones, standing in front of other figurines."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a stylized vinyl figure with green hair and large headphones, photographed on a shelf among other collectible figures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a [PERSON] figurine wearing headphones surrounded by other collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green-haired figurine wearing white headphones with '[PERSON]' written on the earcup, standing in front of a blurred collection of other collectible figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a green-haired vinyl figure wearing white headphones with the name '[ORGANIZATION]' written on the ear cup, displayed among other collectibles."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two collectible figure boxes, one labeled 'KUBO 24/1 you' and the other 'MIME', displayed on a textured surface."
+        },
+        "gpt-5.4": {
+          "summary": "Two opened collectible figure blind boxes, one [ORGANIZATION] and one [PERSON], are displayed on a bed in a warm indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two collectible figure boxes labeled '[PERSON]' and 'Mime,' featuring cartoonish characters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two collectible figure boxes, '[PERSON]' and 'Mime', displayed upright on a textured surface with their character cards inserted."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two blind box toy packages, '[ORGANIZATION]' and 'MIME', are displayed on a white textured surface with their identification cards sticking out."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene park scene with lush green trees and a grassy area under a clear sky."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny park scene with large leafy trees, an open grassy lawn, and a railing in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene park scene bathed in sunlight through tree branches."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunlit park scene viewed from a railing, featuring lush green trees and grass under a bright sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunlit park scene viewed from a balcony, featuring lush green grass, large trees with hanging seed pods, and a grey railing in the foreground."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide"
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a tree-lined road with cyclists and buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet road and sidewalk run beneath a dense canopy of large trees, with a few people walking or jogging in warm daylight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene tree-lined street under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunlit tree-lined avenue with people walking and cycling under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunlit, tree-lined road with a person jogging on the sidewalk and buildings visible in the background."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows [PERSON], a building with a modern architectural design, surrounded by [ORGANIZATION] and people."
+        },
+        "gpt-5.4": {
+          "summary": "A large campus-style building labeled \"PALMA HALL\" stands behind broad steps, with a few people outside and a silver SUV on the street."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of [LOCATION] building entrance in a university campus."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A silver SUV drives past the steps of [LOCATION], a large institutional building with people sitting and standing nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of the [LOCATION] building entrance with people sitting on the steps and a silver SUV driving past on the street."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a cup of dessert with tapioca pearls and a spoon, surrounded by people."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a cup of soft tofu dessert topped with syrup and tapioca pearls, with a plastic spoon and an outdoor stall scene in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a cup of bubble tea topped with taro balls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a cup of dessert with tofu pudding, tapioca pearls, and syrup."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a yellow cup filled with a dessert containing white tofu-like cubes and brown tapioca pearls in syrup."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a promotional post for a POP MART figure featuring a character with a dog, along with shipping details and pricing."
+        },
+        "gpt-5.4": {
+          "summary": "A shopping app screenshot shows a [ORGANIZATION] order for a [ORGANIZATION] figure with shipping timing, price, and quantity details."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] listing featuring a POP MART Hirono x [ORGANIZATION] Figure priced at [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] product page for a POP MART Hirono x [ORGANIZATION] figure, showing price, shipping info, and return policy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile e-commerce screenshot from [ORGANIZATION] displaying a product listing for a POP MART Hirono x [ORGANIZATION] figure priced at ₱1,700.00 with shipping details."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collectible box with a cartoon character illustration and visible text related to a product."
+        },
+        "gpt-5.4": {
+          "summary": "A livestream shopping screen shows hands holding a blind-box collectible card and package featuring cartoon character artwork."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a collectible card featuring an illustrated character in protective gear."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a collectible blind box labeled '[ORGANIZATION] [PERSON]' with an illustrated card featuring a cartoon character in a helmet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a '[ORGANIZATION] blind box figure and its accompanying character card, displayed within a live shopping interface."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [ORGANIZATION] surrounded by flowers and butterflies in a vibrant, fantasy setting."
+        },
+        "gpt-5.4": {
+          "summary": "Anime-style game character art shows [ORGANIZATION] in a floral fantasy scene beside a large purple dragon-like creature with butterflies and glowing light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character named [ORGANIZATION] stands in a mystical forest adorned with purple flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fantasy character named [ORGANIZATION] stands in a mystical garden with purple flora and butterflies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style female character named [PERSON] with white hair and a purple floral outfit stands in a magical forest setting surrounded by large flowers and butterflies."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a modern café interior with wooden furniture and industrial design elements."
+        },
+        "gpt-5.4": {
+          "summary": "An empty industrial-style coffee shop interior features red chairs, exposed ceiling pipes, wooden counters, and coffee equipment on display."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy café interior featuring red chairs around a wooden table under exposed pipes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An industrial-style coffee shop interior with exposed pipes, red chairs, and a wooden counter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An industrial-style coffee shop interior featuring exposed concrete ceilings, copper piping, wooden counters, and red chairs in the foreground."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a table setting at a restaurant with drinks, a food platter, and a brightly lit background."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime restaurant patio table is set with plastic cups, a metal bucket, and a plate of loaded nachos under colorful neon lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A table setup in a dimly lit bar featuring drinks and nachos."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a table with drinks and loaded nachos at a dimly lit bar or restaurant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a table at a dimly lit bar or restaurant featuring plastic cups with ice, a metal bucket, and a plate of nachos."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cityscape featuring a tall residential building, with a view of other buildings and greenery in the background under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A tall modern high-rise stands over a cityscape with low-rise buildings, a parking lot, trees, and a cloudy blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A panoramic view of a cityscape featuring tall residential buildings under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A high-rise building dominates a cityscape under an overcast sky, with parked cars and trees in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a dense urban landscape featuring a tall grey and white residential tower, a parking lot, and a distant city skyline under an overcast sky."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bowl of pasta topped with green onions and a piece of fried food, with drinks and a hand holding a phone in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bowl of creamy pasta topped with chopped green onions and a fried bacon piece sits on a restaurant table, with drinks and someone holding a phone in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bowl of pasta topped with green onions sits in front while a person uses their phone behind."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a pasta dish topped with green onions and bacon, served at a wooden table while someone uses a smartphone nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a bowl of creamy pasta with green onions and fried meat on a wooden table, while a person in the background uses a smartphone."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON] from a game, depicted in a vibrant, mystical setting with various graphical elements."
+        },
+        "gpt-5.4": {
+          "summary": "A game character unlock screen shows the anime-style character [PERSON] in a purple celestial-themed outfit with reward text for [ORGANIZATION] and bonus starlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character named [PERSON] in a fantasy-themed game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character named [PERSON] is displayed in a game interface with star-themed background and conversion rewards."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the game [ORGANIZATION] showing a character summon result for [PERSON], displaying her artwork and obtained items."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand holding a card with an illustration of a character, set against a background of toy boxes."
+        },
+        "gpt-5.4": {
+          "summary": "A livestream shopping screen shows a hand holding a toy/figure package and illustrated card for a Hirono Echo Series collectible from [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a card featuring an illustration of a child in winter clothing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds up a collectible toy card featuring a cartoon character, with an order receipt visible below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand holding a collectible card and box for the 'Hirono Echo Series Figures' toy line during a live shopping stream."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized card with a character illustration and some visible text, held in a person's hand."
+        },
+        "gpt-5.4": {
+          "summary": "A livestream app screenshot shows a hand holding a creepy illustrated character card above a labeled package or badge in a blurred indoor shop-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a card featuring an illustration of a sad-looking character."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds up a textured card featuring a cartoon character with the text 'HIDING BEHIND YOU' and Chinese characters, overlaid with live chat messages."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand holding a collectible card featuring a cartoon character in a hood, overlaid with live-stream interface elements and chat comments."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand holding a card with a cartoon character and some visible text."
+        },
+        "gpt-5.4": {
+          "summary": "An Instagram livestream screenshot shows a hand holding a labeled card/package with a sketchy cartoon creature drawing in a shop-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a card featuring an illustration of a sad cat above another ID-like document."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a handmade card with a cartoon monster and the text 'EATEN' over a receipt from '[ORGANIZATION] OFFICE [PERSON]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand holding a textured, vintage-style card featuring a cartoon character and a white label with the text 'MONKEY OFFICE [PERSON]'."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features collectible figurines and cards displayed on a countertop."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized collectible toy figure with a metal helmet and attached bear accessory is displayed on a kitchen counter in front of its illustrated [PERSON] packaging cards."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A toy figure wearing a lamp hat stands next to its packaging in what appears to be a kitchen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collectible figurine with a metallic helmet and a small teddy bear stands beside its illustrated packaging on a kitchen countertop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] x Hirono 'Echo' vinyl figure with a metal helmet and vacuum [PERSON] stands on a granite countertop next to its illustrated character cards."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two collectible figures: one dressed in a black suit and the other a bear with a metallic hat."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of collectible vinyl figures on a tabletop, including a suited character and a small brown bear wearing a metallic [ORGANIZATION] helmet."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A toy figure in a suit interacts playfully with another bear-like figurine."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine of a boy in a suit stands beside a brown bear wearing a metal helmet on a wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized figurine in a black suit holding a remote control next to a brown teddy bear wearing a metallic lampshade hat."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a stylized figurine with a serious expression, wearing a suit and a metallic hat with a coil."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a stylized collectible figure with orange hair and freckles wearing a suit, a metal bucket-like helmet, and a coiled machine attachment in an indoor display setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a [ORGANIZATION] Pop figure wearing an industrial helmet."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a stylized figurine wearing a metallic hat and suit, standing beside a mechanical device."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized figurine with brown hair and freckles wearing a metal pot on its head, standing next to a metallic vacuum device."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine with a metallic headpiece and a small weapon, set against a backdrop of other figurines."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized collectible figure wearing a large metallic robot-like helmet stands on a wooden surface in front of a shelf of other toy figures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a toy figure wearing an oversized metallic hat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized collectible figurine with a metallic helmet and [PERSON] stands on a wooden surface, surrounded by other similar figures in clear cases."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a chibi-style figurine with orange hair and a large silver helmet, standing on a wooden surface in front of a display case filled with other similar collectible figures."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three stylized figurines in a playful setting, with one wearing a bear hat and another holding a bear."
+        },
+        "gpt-5.4": {
+          "summary": "A display shelf shows several stylized collectible toy figures, with three featured in front including one in a pink monster hat, one in a suit under a metallic lamp-like helmet, and one in a bear costume."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of small figurines arranged in a display case."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three stylized figurines are arranged on a wooden surface in front of a backdrop of other collectible figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three detailed art toy figurines stand in the foreground on a wooden surface, with a large collection of similar figures displayed in a glass case behind them."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two plates of fried food and dipping sauces are on a wooden table at an outdoor dining spot with a view of a body of water"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a table with two plates of food and a scenic view of water and clouds in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Plates of fried food and dipping sauce sit on a table on a covered patio overlooking calm water and palm trees at dusk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene outdoor dining setup featuring fried foods by a waterfront under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A table with fried food and dipping sauces overlooks a waterfront view framed by palm trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A table set with plates of fried food and dipping sauces on a covered patio overlooking a body of water at dusk."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An overhead shot shows a meal featuring a plate of crispy fried chicken, a plate of smaller fried items, and two small bowls of dipping sauces on a wooden table."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of fried chicken alongside two small bowls of dipping sauces and a plate of crispy snacks."
+        },
+        "gpt-5.4": {
+          "summary": "Plates of fried chicken and battered fried pieces are served on a table with red and dark dipping sauces."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of fried chicken wings served alongside two dipping sauces."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of fried chicken wings and fried mushrooms served with two dipping sauces on a wooden table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a meal featuring two plates of [ORGANIZATION], one with golden-brown chicken pieces and another with battered strips, accompanied by two dipping sauces on a wooden table."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene waterfront scene with trees lining a pathway under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wet tree-lined waterfront walkway sits beside calm water under a dramatic cloudy sky with soft golden light near the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene lakeside scene under a cloudy sky during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet paved path runs alongside a grassy area and calm water under an overcast sky with a hint of sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wet paved promenade lined with young trees runs alongside a calm body of water under an overcast sky at dusk."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wet, tree-lined road runs"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene pathway lined with trees and a river, featuring a few people walking."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet tree-lined road beside a waterfront is shown after rain, with a few people walking under a bright cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene lakeside pathway lined with trees under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet paved path lined with trees and a fence leads toward a waterfront under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paved waterfront promenade lined with lush trees and a white fence, featuring pedestrians and a parked car under an overcast sky."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON], depicted in an animated style with flames and a horse in a dynamic pose."
+        },
+        "gpt-5.4": {
+          "summary": "Stylized game character art shows [ORGANIZATION], a fox-eared anime character, posing with a fan beside a white horse amid swirling flames and smoke."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dynamic character riding a horse in an action-packed scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized anime character with fox ears rides a white horse amidst swirling flames and smoke against a starry night background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style character named [PERSON] with fox ears and pink hair rides a white horse through a cosmic setting while holding a flaming torch."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a figurine of a child with orange hair sitting on a cloud, holding a leash attached to a small [ORGANIZATION] figure."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized figurine of a child sitting on a blue cloud and looking at a small [ORGANIZATION] figure is displayed on a wooden surface, with many collectible vinyl figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine of a child sitting on a cloud holding [ORGANIZATION]'s leash."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine of a child sitting on a cloud holding a leash attached to [ORGANIZATION], displayed on a wooden surface with other collectible figures in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a collectible figurine featuring a cartoon boy with orange hair sitting on a blue cloud while holding a balloon shaped like [ORGANIZATION], set against a blurred background of other toys."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a figurine of a character resembling [PERSON] sitting on a blue cloud with a small [ORGANIZATION] figure."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a [PERSON]-style collectible figure sitting on a blue base and holding a [ORGANIZATION] balloon, with other toy figures displayed in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Figurines of [PERSON] holding [ORGANIZATION] in a playful scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine of [PERSON] holding a leash attached to [ORGANIZATION] sits on a wooden surface, with other collectible figures visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized [PERSON] and [ORGANIZATION] figurine sitting on a blue cloud base, displayed on a wooden surface with other collectible figures in the background."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a [ORGANIZATION] figurine in front of another character's head, set on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a small [ORGANIZATION] figurine mounted on a pin or stand on a wooden tabletop, with other collectible figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a [ORGANIZATION] figurine standing next to an orange plush toy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] figurine wearing headphones sits on a wooden surface, viewed from behind a blurred orange and white hat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a small [ORGANIZATION] figurine standing on a wooden surface, with a blurred [PERSON] figure in the foreground and other collectibles in the background."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three colorful collectible figurines dressed in playful costumes, displayed in front of decorative boxes."
+        },
+        "gpt-5.4": {
+          "summary": "Three stylized [ORGANIZATION] collectible figures are displayed on a wooden shelf in front of their illustrated boxes and cards, with more toys visible in a display case behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three colorful figurines are displayed in front of boxes labeled '[PERSON]' featuring illustrations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three stylized figurines in colorful costumes are displayed on a wooden surface with branded boxes behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three colorful [PERSON] blind box figures are displayed on a wooden surface with their packaging boxes behind them."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two stylized figurines, one in a colorful outfit and the other in a red hooded garment, set against a backdrop of various other figurines."
+        },
+        "gpt-5.4": {
+          "summary": "Two stylized toy figurines in pointed hooded outfits stand on a wooden surface, with a blurred display of other collectible figures in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two figurines dressed as jester characters stand side by side in a collection of similar figures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two stylized figurines with expressive faces stand on a wooden surface, surrounded by other collectible figures in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two stylized art toy figures with pointed hoods stand on a wooden surface in front of a display case filled with other collectible figurines."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a small figurine of a child in a green dinosaur costume, sitting on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A small green dinosaur-costumed collectible figure sits on a wooden surface in front of a blurred display of other toy figures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A green dinosaur-themed figurine sits in front of a collection of other small figures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green dinosaur-themed figurine sits in front of a blurred display of other collectible figures on a wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a green cactus-themed vinyl figurine with orange hair sitting on a wooden surface, with a blurred collection of other similar figures in the background."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two cute figurines dressed in dinosaur-themed outfits, with one sitting and the other appearing to be fishing."
+        },
+        "gpt-5.4": {
+          "summary": "Two stylized collectible toy figures in green dinosaur outfits sit on a wooden table, with many other vinyl figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two toy figures dressed in green dinosaur costumes are displayed against a backdrop of other figurines."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two green dinosaur-themed figurines sit on a wooden surface, with a collection of other stylized figures blurred in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two stylized vinyl art figures with orange hair and green dinosaur-themed outfits sit on a wooden surface in front of a display case filled with other collectible figurines."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [ORGANIZATION], depicted in a fiery setting with a confident expression."
+        },
+        "gpt-5.4": {
+          "summary": "A fiery game character reveal screen shows [ORGANIZATION] in a lava-filled scene with legendary, magic, and rear role labels."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] character stands amidst a fiery environment, exuding an intense aura."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fiery animated character declares 'I am the fire!' against a lava-filled background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional image for [ORGANIZATION] character from a mobile game, featuring fiery visuals and character stats."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [ORGANIZATION], depicted with flames and a magical staff in a vibrant, fiery setting."
+        },
+        "gpt-5.4": {
+          "summary": "A fiery game promo image shows a flame-themed cartoon character with a staff in a burning cavern, labeled as the legendary [ORGANIZATION] skin \"Wings of Fire.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fiery character labeled '[ORGANIZATION] wielding a staff amidst flames."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fiery, cookie-themed character labeled '[ORGANIZATION] is showcased with a 'NEW' and 'LEGENDARY' badge against a flaming background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional image featuring a fiery, anthropomorphic character named '[ORGANIZATION] holding a staff amidst flames."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A colorful mobile game screenshot displays a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a results screen from a mobile game featuring various character icons and their stats."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile game results screen shows cartoon character tokens, upgrade progress bars, and resource rewards after a draw or battle."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A game results screen showing various character cards in a fantasy-themed layout."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game results screen showing character upgrades and stats in a colorful, cartoon-style interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile game results screen displaying ten character shards with upgrade progress bars and resource costs."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named Shadow Milk Cookie, depicted in a colorful, animated style with a playful expression."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful game character reveal image shows Shadow Milk Cookie with fantasy-themed [ORGANIZATION] labels and a dialogue quote."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A blue cartoon character named Shadow Milk Cookie holds a cookie while promoting deceit."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue-themed animated character named Shadow Milk Cookie, labeled as a 'BEAST' and '[ORGANIZATION] type, poses with a speech bubble saying 'Seriously, who can say \"no\" to a pinch of good old [PERSON]?!'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic for the character [ORGANIZATION] from a game, featuring blue and black artwork with a speech bubble quote."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON], depicted with lightning and storm elements."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile game character screen shows [ORGANIZATION] wielding a lightning staff among glowing storm clouds, marked as a new legendary unit."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant promotional graphic featuring a character named [ORGANIZATION] wielding lightning-themed powers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized cookie character with storm-themed hair and lightning effects, labeled as '[PERSON]' and 'New'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional image for [ORGANIZATION]Stormbringer Cookie' character from a game, featuring an animated figure with dark hair and lightning effects holding a staff."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine wearing a striped hat and pink shirt, accompanied by a small green creature on a leash, with illustrated cards in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A designer toy figure in a striped yellow hat, goggles, and pink coat stands on a shelf beside illustrated [PERSON] cards, with other collectible figurines blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine wearing a bee hat stands next to two books titled '[PERSON]' and 'Daydreaming'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine wearing a striped hat and blindfold stands beside its illustrated packaging on a wooden surface, surrounded by other collectible figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a collectible vinyl figure wearing a yellow striped hat and pink shirt, standing next to its packaging card on a wooden surface with other figures in the background."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A detailed collectible figurine wearing a striped hat and pink shirt holds a leash attached to a small green dinosaur toy, displayed on a wooden surface with other blurred figurines in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine of a child wearing a striped hat and sunglasses, holding a leash attached to a small creature."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized collectible vinyl figure wearing a striped yellow hat and goggles stands on a wooden surface with a small green toy beside it, surrounded by other blurred figurines in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A toy figure wearing a bee-themed hat stands in front of other figurines."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized figurine wearing a striped hat and mask stands on a wooden surface with other collectible figures in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized vinyl art toy wearing a yellow striped hat and pink shirt, holding a small green dinosaur figure on a leash."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a small green dinosaur toy on wheels being pulled by a rope held by a larger, blurred figure on a wooden surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "A toy figure of a person in a pink shirt is holding a leash attached to a small green dinosaur toy on wheels."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a small green dinosaur toy on wheels being pulled by a figurine across a wooden floor, with a blurred cat in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A toy dinosaur being pulled by a figurine of a person."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine of a person in pink clothing walks a green dinosaur toy on wheels, connected by a rope."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a green dinosaur toy on wheels being pulled by a rope held by a figurine with pink clothing on a wooden surface."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a score of 68 prominently, with an owl graphic in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A simple score screen shows the text \"Your score:\" above a large red number 68 on a pale background with faint bird illustrations."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A score of 'Your score:' followed by a large red number \"68\"."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A score display showing 'Your score: 68' in bold black and red text against a beige background with faint owl outlines."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic displaying the text 'Your score:' in black above a large red number '68' on a beige background with faint owl outlines."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a black bucket hat and black shirt takes a selfie inside a car, playfully sticking out their tongue."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a black hat is sitting in a car, partially visible with a focus on their face and surroundings."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up partial selfie inside a car shows a person in a black hat making a playful pout, with daylight and trees visible through the window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a hat inside a car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a black hat takes a selfie inside a car with a light-colored interior and visible seats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing a black hat and shirt, seated inside a car with visible interior details and daylight outside the window."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a bathroom mirror while wearing a headband and a black t-shirt."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a bathroom showing a person wearing a headband and facial cream mask, holding a phone with a playful expression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie while shaving in front of an oval bathroom mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a white face mask and headband takes a mirror selfie in a bathroom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a white headband and a black t-shirt takes a mirror selfie in a bathroom while applying a white facial mask."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two stylized figurines with distinct clothing and expressions, positioned closely together."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of two stylized toy figurines with large hats, freckles, and colorful painted details, photographed indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two cartoonish characters in close proximity, possibly interacting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of two stylized figurines with painted faces and colorful hats facing each other."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of two stylized vinyl art toys with large eyes and freckles, featuring one in a black hood with colorful spots and another in a red hood."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON] from a game, depicted in an action pose with vibrant wings and weapons."
+        },
+        "gpt-5.4": {
+          "summary": "A game screenshot shows the anime-style character [PERSON] in a dramatic purple-themed reveal screen with rewards for an [ORGANIZATION] conversion and bonus starlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character named [PERSON] from a game appears in an action pose surrounded by magical effects."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character named [PERSON] from 'The Hunt' is displayed with a weapon and dynamic purple/blue energy effects, alongside game drop information."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the game [ORGANIZATION] showing a character summon result for '[PERSON]' with her [ORGANIZATION] and bonus currency."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person in a car holding [ORGANIZATION] food, with a focus on the interior and food items."
+        },
+        "gpt-5.4": {
+          "summary": "A BeReal-style photo shows the inside of a car with [ORGANIZATION] takeout bags and boxes, plus a selfie inset of someone holding food in the passenger seat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person enjoys Jollibee food in a car while using [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person is eating Jollibee food inside a car, with a selfie inset showing their face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view from inside a car showing a spread of [ORGANIZATION] fast food, including spaghetti and hotdogs, with an inset selfie of the driver holding a box."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine with a box and an identification card, set against a backdrop of other figurines."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized collectible figure with cat ears and a guitar case is displayed on a wooden surface with its box and identification card in front of a shelf of other toy figures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collectible figure of a character named '[PERSON]' alongside its identification card."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] collectible figure with an ID card is displayed on a wooden surface, backed by a box and other figures in clear cases."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a [ORGANIZATION] blind box figure with cat ears and a guitar case, displayed alongside its packaging box and an identification card on a wooden surface."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine with a unique outfit and accessories, set against a backdrop of other similar figures."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a stylized vinyl collectible figure with cat-ear hair and yellow eyes posed on a wooden shelf, with other toy figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collectible figurine of a character wearing cat ears stands in front of other anime-style figures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized cat-eared figurine with an angry expression stands on a wooden surface, surrounded by other collectible figures in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized vinyl collectible figure with cat ears and an edgy punk aesthetic, standing on a wooden surface in front of a blurred display case filled with other figures."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot from behind shows a collectible figurine holding a black object adorned"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figure holding a guitar decorated with various stickers, set against a blurred background of other figures."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a vinyl collectible figurine from behind, carrying a black sticker-covered accessory, with other toy figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a toy figure holding stickers featuring various symbols like hearts, smiley faces, and 'Hi!'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a stylized figurine holding a guitar decorated with colorful stickers, set against a blurred background of other similar figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up rear view of a stylized vinyl figure with black hair carrying a black guitar case decorated with colorful stickers."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figure wearing a hippo costume alongside two illustrated cards with a playful design."
+        },
+        "gpt-5.4": {
+          "summary": "A small designer toy figure in a pink dinosaur costume is displayed on a wooden shelf in front of collectible cards, with many other figurines blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A toy figure of a creature in front of its packaging featuring an illustration."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink dinosaur-headed figurine stands beside a card with a sketch and text, set against a backdrop of other collectible figures in a display case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pink hippo-costumed vinyl figure stands on a wooden surface next to its character card, with a display case of other collectible figures in the background."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a collectible figurine with a grumpy expression,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine of a character wearing a pink creature costume, standing on a wooden surface with other figurines blurred in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a stylized collectible figure wearing a pink dinosaur-like costume on a wooden surface, with other toy figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a toy figure resembling an anthropomorphic hippo in front of other figurines."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized figurine with a dinosaur head and human-like face stands on a wooden surface, surrounded by other collectible figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized vinyl art toy featuring a character with a grumpy expression wearing a large pink monster mask, displayed on a wooden surface with other collectibles in the background."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a pink, pufferfish-shaped toy with a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a stylized fish-like figure with a unique expression, set against a blurred background of various collectible figures."
+        },
+        "gpt-5.4": {
+          "summary": "A pink fish-like vinyl figure with a sleepy expression sits on a wooden surface, with a blurred display of collectible toy figures in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a pink toy head resting on a wooden surface surrounded by other figurines."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a pink, spiky, anime-style figurine with a grumpy expression sits on a wooden surface, with other collectible figures blurred in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a pink, round figurine with a grumpy expression resting on a wooden surface in front of a blurred display case filled with other collectible figures."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a character alongside various swords, indicating a gaming context, likely related to weapon collection or upgrades."
+        },
+        "gpt-5.4": {
+          "summary": "A Genshin Impact wish result screen shows a newly obtained 4-star character card alongside several swords and a polearm/weapon lineup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of fantasy swords displayed in a game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character card with a 'New' label and eight sword weapon cards, each marked with five stars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a gacha game summoning result featuring a new five-star character and nine weapons."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant, stylized image depicts a bright burst of light and particles against a blue sky with white clouds, suggesting a magical or energetic event."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vibrant cosmic scene with bright light rays and colorful sparkles against a backdrop of clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A bright anime-style burst of light streaks across a blue sky with clouds, sparkles, and small heart-shaped effects."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant sky scene featuring a bright explosion of light amidst clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant animated sky scene with a bright central explosion of light, streaks, and heart-shaped particles between fluffy clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant, anime-style sky scene featuring a bright magical explosion of pink and blue light with floating hearts and sparkles amidst clouds."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An anime-style female character with blonde hair and a chef's hat, wearing a white and purple"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON], depicted in a vibrant, fantasy style with ice-themed elements."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy game character splash screen shows [PERSON], a five-star anime-style chef-themed woman surrounded by icy crystal effects."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant character illustration of [PERSON] in a dynamic pose surrounded by icy blue effects."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized anime character named [PERSON] in a chef-themed outfit surrounded by blue magical effects."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style female character named [PERSON] is depicted in a dynamic pose with blue ice effects, wearing a chef's hat and fantasy attire."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital document displays an admission offer from [ORGANIZATION] to an applicant named [PERSON] for a Bachelor"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an admission offer from [ORGANIZATION] for a Bachelor of Science in Computer Engineering."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a [ORGANIZATION] My.[LOCATION] applicant inquiry page showing an admission offer to [ORGANIZATION] program at the [LOCATION] campus."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A university admission letter from [ORGANIZATION] offering [PERSON] a Bachelor of Science in [ORGANIZATION] program."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An admission offer document from [ORGANIZATION] for a student named [ORGANIZATION] to [ORGANIZATION] program in [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] admission offer letter for [ORGANIZATION] program."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON] from a game, depicted in a dynamic pose with a mystical background."
+        },
+        "gpt-5.4": {
+          "summary": "A Genshin Impact character acquisition screen shows Keqing in a purple outfit holding a sword, with reward icons and a [ORGANIZATION] button on the interface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character named [PERSON] in a dynamic pose holding swords against a starry background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A five-star game character named [PERSON] is shown in a dynamic pose with swords, marked as 'Converted' with item icons below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the game [PERSON] displaying a five-star character named [PERSON] in a purple outfit holding a sword."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A whimsical, angelic-looking cartoon character with pink hair, wings, and a halo,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [ORGANIZATION], depicted in a whimsical style with a playful expression."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful game character splash screen shows the pink angelic character [ORGANIZATION] with role labels and a speech bubble."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cute pink character named [ORGANIZATION] promises happiness forever."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink-haired angelic character with wings holds a lyre against a purple crystalline background, introducing '[ORGANIZATION] with a speech bubble."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional image for [ORGANIZATION] character from a game, featuring an anime-style girl with pink hair and wings against a purple background."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene seascape features a calm body of water under a partly cloudy blue sky, with a few rocks visible in the bottom left corner."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene seascape with calm waters and a partly cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A calm ocean scene shows towering white clouds under a bright blue sky with soft light reflecting on the water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene ocean view under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calm ocean stretches to the horizon under a vast blue sky with dramatic, illuminated clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A calm seascape featuring a large, illuminated cumulus cloud hovering over the horizon with its reflection shimmering on the water's surface."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image captures a serene sunset over a body of water, featuring silhouetted figures swimming and standing on a floating raft, with a dark island and palm trees in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset over a calm body of water with silhouettes of people and a small boat."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] sunset scene shows silhouetted swimmers and a small raft or boat on reflective water beside a dark island and palm-lined shore."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene over a calm beach with silhouetted figures in water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Silhouettes of people and a floating structure on calm water at sunset, with a cloudy sky and distant landmass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A serene beach scene at sunset featuring silhouettes of people swimming and standing on a floating platform against a backdrop of a hilly island and cloudy sky."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a bathroom, wearing a black hat and a black t-shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie in a tiled bathroom, wearing a black hat, black shirt, and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom wearing black attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a tiled bathroom while wearing a black hat and [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black bucket hat, [PERSON], and black t-shirt takes a mirror selfie in a tiled bathroom."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "A large bonfire is burning on a sandy area at night, with people visible on a balcony in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bonfire burns on a sandy beach at night in front of a lit seaside building with people watching from balconies and the ground level."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bonfire burns brightly in a sandy outdoor area under night skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large bonfire burns brightly on a sandy beach at night, with people watching from balconies of nearby buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large bonfire burns on a sandy beach at night, with spectators watching from the balconies of an adjacent resort building."
+        }
+      }
+    },
+    "image_00124": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black baking tray is filled with numerous baked scallops, each served in its shell and topped with melted cheese and herbs."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a tray filled with small baked dishes, likely appetizers, arranged neatly."
+        },
+        "gpt-5.4": {
+          "summary": "A baking tray on a table is filled with baked scallops in shells topped with melted cheese and black pepper."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Baked scallops in paper cups arranged neatly on a baking tray."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A baking tray filled with scallops topped with melted cheese and herbs, resting on a dark wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black baking tray filled with baked scallops in their shells, topped with melted cheese and herbs, resting on a dark wooden surface next to a blue-rimmed plate."
+        }
+      }
+    },
+    "image_00125": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An anime-style character with pink hair and large wings, dressed in a red and white outfit, winks while holding a staff and"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [LOCATION] with wings, surrounded by flowers and a rainbow in a whimsical setting."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful fantasy game character reveal image shows the winged anime-style character [PERSON] on a floating grassy island with flowers, a rainbow trail, and [ORGANIZATION] text indicating a new Remembrance character."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant digital illustration of a character named [LOCATION] in an ethereal, magical environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cheerful anime-style character with large white wings and floral accessories floats above a rainbow, surrounded by whimsical elements."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style character named [LOCATION] with pink hair and large white wings is depicted flying amidst flowers and a rainbow in a fantasy setting."
+        }
+      }
+    },
+    "image_00126": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cardboard box containing two smaller boxes labeled '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "An open cardboard shipping box contains two POP MART product boxes cushioned with packing paper."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cardboard box containing two [ORGANIZATION] branded packages."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two [ORGANIZATION] blind box figures nestled in protective plastic inside a cardboard shipping box."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An overhead view of an open cardboard shipping box containing two sealed [ORGANIZATION] blind boxes, one brown and one black, nestled in protective plastic."
+        }
+      }
+    },
+    "image_00127": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital screen displays \"Your score: 54\" in black and red text on a light beige background with faint owl outlines."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a score of 54 prominently, with an owl motif in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A simple score screen shows the text \"Your score:\" with a large red number 54 over a light background with faint owl illustrations."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A score of 'Your score: 54' displayed against a background featuring owl illustrations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A score display showing 'Your score: 54' in bold red text against a beige background with faint owl patterns."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displays the text 'Your score:' in black above a large red number '54' on a beige background with faint owl outlines."
+        }
+      }
+    },
+    "image_00128": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two collectible figurines, one resembling a monster and the other a boy, alongside a card and a box labeled 'Patience'."
+        },
+        "gpt-5.4": {
+          "summary": "Two designer toy figurines with their box and art cards are displayed on a wooden surface in front of a shelf full of similar collectible figures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of figurines displayed in a glass case alongside cards labeled 'The Monster' and 'Patience'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two stylized figurines flank collectible cards on a wooden surface, with more figures displayed in a case behind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two [PERSON] designer figurines, 'The Monster' and a character with a paper airplane, are displayed on a wooden surface alongside their packaging cards in front of a collection case filled with similar toys."
+        }
+      }
+    },
+    "image_00129": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a stylized toy figure with brown hair and horns, appearing slightly angry, with other toy figures blurred in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a stylized horned creature vinyl figure on a shelf, with other collectible figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a brown figurine resembling an animal character."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a brown, horned figurine with large eyes and freckles, holding a white object, set against a blurred background of other collectible figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a brown, horned vinyl art toy with large eyes and freckles, holding a white object, surrounded by other blurred figures."
+        }
+      }
+    },
+    "image_00130": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a stylized figurine with a serious expression, set against a backdrop of other figurines."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a stylized collectible figure with black hair, a sad expression, freckles, and a piece of bread on its head, posed in front of other blurred display figures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a figurine wearing an apron in front of other collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a stylized figurine with black hair and freckles, wearing a small white halo and holding a scroll, displayed among other similar figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized vinyl figurine with black hair, large eyes, and red freckles, carrying a scroll on its back while other similar figures are visible in the blurred background."
+        }
+      }
+    },
+    "image_00131": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a stylized figurine in front of a display case filled with various other figurines."
+        },
+        "gpt-5.4": {
+          "summary": "A small stylized figure stands on a wooden desk in front of clear display cases filled with collectible character figurines."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small figurine stands in front of a collection of other collectible figures displayed behind it."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of stylized vinyl figures displayed on a wooden surface, with one figure prominently in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a black-haired vinyl art toy standing on a wooden surface with a collection of similar figures displayed in clear cases behind it."
+        }
+      }
+    },
+    "image_00132": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A detailed collectible figurine of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a figurine of a character wearing a rose-themed outfit, with other similar figurines displayed in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A rose-headed collectible figurine stands on a wooden surface in front of its box and character card, with many other designer toys displayed behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine of a character from 'The Little Prince' series by [PERSON], holding a rose."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine of a character wearing a red rose hood stands on a wooden surface, with its packaging and other collectible figures in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a Hirono x Le Petit Prince figurine featuring a character with a large red rose head, displayed on a wooden surface in front of its packaging and a collection of other figures."
+        }
+      }
+    },
+    "image_00133": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two stylized figurines, one resembling a character with a rose-themed headpiece and the other holding a glass dome with a rose inside."
+        },
+        "gpt-5.4": {
+          "summary": "Two stylized collectible figurines are posed on a tabletop, one dressed as a red rose and the other holding a rose under a glass dome, with more toy figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two figurines dressed as characters from 'The Little Prince' are displayed side by side."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two stylized figurines, one as a rose and one as the Little Prince holding a rose in a glass dome, stand on rocky bases with other collectibles blurred in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two stylized figurines representing the [PERSON] and The Little Prince stand on rocky bases with a collection of other figures in the background."
+        }
+      }
+    },
+    "image_00134": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of colorful figurines displayed in a glass case, showcasing various characters with distinct outfits and expressions."
+        },
+        "gpt-5.4": {
+          "summary": "An acrylic display case is filled with whimsical collectible figurines, including several Little Prince-themed characters with a rose, [ORGANIZATION], and other fantasy costume designs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of colorful figurines displayed in a clear acrylic case."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of stylized figurines with expressive faces and varied outfits displayed inside a transparent case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of stylized vinyl figurines, including characters resembling The Little Prince and the [ORGANIZATION], are displayed inside a clear acrylic storage case."
+        }
+      }
+    },
+    "image_00135": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collectible figure wearing a yellow raincoat and holding a black umbrella stands on a wooden surface, with other blurred figures in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful figurine of a child in a yellow raincoat holding a black umbrella, set against a backdrop of other figurines."
+        },
+        "gpt-5.4": {
+          "summary": "A small toy figure in a yellow raincoat holds a black umbrella on a wooden surface, with many other figurines blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine in a yellow raincoat holding an umbrella stands among other collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow raincoat figurine holding a black umbrella stands on a wooden surface in front of a display case filled with other collectible figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a yellow raincoat figurine holding a black umbrella, displayed on a wooden surface with other collectible figures in the background."
+        }
+      }
+    },
+    "image_00136": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a small figurine of a child hiding under a cardboard box with a warning sign and a crossed-out creature illustration."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized anime figure crouches under a cardboard box labeled with warning-style markings on a wooden surface, with other collectible figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine of a child wearing an oversized cardboard box labeled 'WARNING' lies on its side."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine with a cardboard box on its head, featuring 'WARNING' and a prohibited shark symbol, rests on a wooden surface amid other collectibles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized figurine with brown hair and freckles crawling on a wooden surface while wearing a cardboard box helmet marked with warning signs."
+        }
+      }
+    },
+    "image_00137": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three stylized figurines, with one dressed in a red devil costume, another in a blue outfit holding a toy horse, and the third in pajamas."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows three stylized collectible figurines on a wooden surface, posed in playful costumes with many other toy figures displayed in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three figurines dressed in costumes are displayed against a backdrop of other collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three stylized figurines with expressive faces sit on a wooden surface, each holding unique props, with a collection of similar figures blurred in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three stylized vinyl figurines with melancholic expressions are displayed in the foreground on a wooden surface, while a collection of similar toys is visible inside a glass display case in the background."
+        }
+      }
+    },
+    "image_00138": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collectible figurine of a character in blue pajamas with a pillow on its head and a small green frog in its pocket sits on a wooden surface, surrounded by other blurred figurines."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cute figurine of a child in a pajama outfit holding a small frog toy, set against a backdrop of other similar figurines."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a stylized collectible toy figure in star-pattern pajamas holding a small green puppet, with other similar figures blurred in the background on a wooden surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine dressed in a nightcap and pajamas sits among other collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine of a child in pajamas with a pillow on its head sits on a wooden surface, surrounded by other collectible figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized vinyl figurine wearing a star-patterned blue hood and holding a green frog, set against a blurred background of other collectible toys."
+        }
+      }
+    },
+    "image_00139": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine of a child with a red bucket hat, holding a toy horse and appearing slightly displeased, set against a backdrop of various other figurines."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized collectible toy figure wearing a red bucket hat and holding a toy horse stands on a shelf in front of many other art figurines."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine of a child wearing an orange bucket hat stands in front of other miniature figures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine wearing a red bucket hat and holding a wooden horse stands on a wooden surface, surrounded by other collectible figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized figurine with a red bucket hat and wooden horse toy, set against a blurred background of other collectible dolls."
+        }
+      }
+    },
+    "image_00140": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collectible figurine wearing a red horned hoodie"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a small figurine of a child in a red hoodie with horns, sitting on a wooden surface with other figurines in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized toy figure in a red horned hoodie sits on a wooden surface holding a small box, with many other collectible figures blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine dressed in a red devil costume sits atop wooden blocks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine of a child in a red devil costume sits on a wooden surface holding a [ORGANIZATION] box and a detonator, with other collectible figures blurred in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized vinyl figurine wearing a red devil hood, sitting on a wooden surface with a box labeled '[ORGANIZATION]' and other collectible figures in the background."
+        }
+      }
+    },
+    "image_00141": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A detailed collectible figurine of a character dressed as an aviator, complete with helmet and goggles, stands on a wooden surface with many other blurred figurines in the background"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine of a young aviator with a helmet and a bag, set against a backdrop of various other small figures."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized toy figure dressed as an aviator stands on a shelf in front of a display of other collectible figurines."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine dressed in a pilot's outfit stands among other collectible figures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine dressed as a pilot with goggles and helmet stands in front of a backdrop of other collectible figures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized pilot figurine with goggles and a propeller hat, displayed on a wooden surface in front of a blurred collection of other colorful character figures."
+        }
+      }
+    },
+    "image_00142": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figurine of a child dressed as a pilot, standing on a wooden surface with other figurines in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized collectible figurine dressed as an aviator stands on a wooden table, with several other toy figures blurred in a display case behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A figurine dressed as a pilot stands in front of other collectible figures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A figurine of a child in aviator gear stands on a wooden surface, with other collectible figures visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized pilot figurine with goggles and a propeller helmet standing on a wooden surface, with other colorful collectible figures displayed in the background."
+        }
+      }
+    },
+    "image_00143": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON] from a game, depicted in an action pose with vibrant colors and dynamic effects."
+        },
+        "gpt-5.4": {
+          "summary": "A gacha game result screen shows the anime character [PERSON] with a five-star rating, along with rewards for [PERSON]'s [ORGANIZATION] and bonus Undying Starlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character named [PERSON] from a game appears in an action pose surrounded by magical effects."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dynamic anime-style character named [PERSON], wielding a large weapon, is shown in a game interface with rewards listed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the game [ORGANIZATION] showing a character summon result for '[PERSON]' with her [ORGANIZATION] and bonus currency."
+        }
+      }
+    },
+    "image_00144": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a character interface from a game, featuring various abilities and stats related to the character [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A game character upgrade screen shows [ORGANIZATION]’s Eidolon Resonance menu with shard-like artwork panels and named unlock nodes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character interface showcasing abilities in a game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character profile screen from a game showing [ORGANIZATION] abilities with fragmented portrait visuals."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the character menu for '[PERSON]' in the game [ORGANIZATION], displaying her [ORGANIZATION] upgrade screen with a shattered glass visual theme."
+        }
+      }
+    },
+    "image_00145": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays an anime-style male character with white hair, blue and gold"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON], depicted with angelic wings and a staff, set against a cosmic background."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic anime-style game character splash screen shows the winged fantasy character [PERSON] holding a spear amid lightning, floating rocks, and glowing effects."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character named [PERSON] in a dynamic pose against an apocalyptic backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized anime character with white hair and large wings holds a weapon amidst a dramatic, shattered landscape under a starry sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital illustration of a male anime-style character named [PERSON] with white hair and large blue wings, wielding a sword amidst lightning effects."
+        }
+      }
+    },
+    "image_00146": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character named [PERSON] from a game, depicted with vibrant colors and floral elements."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy game character reveal screen shows the anime-style character [PERSON] with green plant-themed effects and reward icons labeled as converted."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant character named [PERSON] surrounded by green floral motifs in a magical setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A five-star game character named [PERSON] is displayed with green energy swirls and floral motifs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from the game [PERSON] displaying the character [PERSON] with a five-star rarity rating and green elemental effects."
+        }
+      }
+    },
+    "image_00147": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a suitcase filled with various toys and plush figures, including a Pikachu plush and several bags of small figurines."
+        },
+        "gpt-5.4": {
+          "summary": "An open suitcase is packed with many bagged collectible figures, alongside a Pikachu plush and a larger white plush toy."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A suitcase packed neatly with various plush toys in plastic bags."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An open suitcase packed with numerous small collectible figures in sealed bags, topped with a white plush toy and a yellow Pikachu plush."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An open suitcase is packed with numerous small collectible figures organized in plastic bags, accompanied by plush toys and clear storage cases."
+        }
+      }
+    },
+    "image_00148": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collectible figure from the [LOCATION] series alongside its packaging and a card on a table."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel designer toy figurine is displayed on a table beside its box and character card, with shopping bags and a blurred indoor store or café background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collectible figurine of a character from 'The Paradox' series by [ORGANIZATION] x [PERSON] displayed alongside its packaging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink-toned collectible figurine and its packaging are displayed on a countertop, with an '[PERSON]' branded bag in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a pink and white [PERSON] figurine from the 'The Paradox' series displayed on a speckled countertop alongside its packaging card and box."
+        }
+      }
+    },
+    "image_00149": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a colorful, cartoon-themed airplane visible through a rain-speckled window."
+        },
+        "gpt-5.4": {
+          "summary": "A rainy nighttime view through a window shows a cartoon-decorated airplane outside, with indoor reflections and metal beams in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A rainy window view of a colorful mural featuring Hello Kitty."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A rainy night view from inside a vehicle, looking through a wet window at a Hello Kitty-themed decoration."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view through a rain-speckled glass window of a Hello Kitty-themed interior, likely inside a vehicle or attraction."
+        }
+      }
+    },
+    "image_00150": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a spacious, well-lit airport corridor with a colorful wall mural welcoming visitors to [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A clean airport corridor features a large [LOCATION] welcome mural with multilingual greetings and a moving walkway along the side."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of an airport terminal in [LOCATION] featuring a colorful welcome sign."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An empty airport corridor with a multilingual welcome mural for [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide, empty airport terminal hallway featuring a large wall mural with '[LOCATION]' and multilingual welcome messages alongside local landmarks."
+        }
+      }
+    },
+    "image_00151": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A blurry selfie captures a person's face in the foreground, with other individuals walking in a brightly lit indoor hallway"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person takes a selfie in a busy indoor corridor with other people walking in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie in a bright indoor corridor shows people walking with bags and backpacks, suggesting a transit or airport walkway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A selfie taken in a busy indoor corridor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A selfie taken in a brightly lit indoor corridor with people walking in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a young man in an airport terminal with another person and travelers carrying luggage in the background."
+        }
+      }
+    },
+    "image_00152": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a busy airport pickup area at night with several cars, including a blue SUV and a white sedan."
+        },
+        "gpt-5.4": {
+          "summary": "Nighttime view of an airport terminal curbside with several cars, an elevated roadway, and brightly lit modern buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime scene of a busy airport parking area filled with cars."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime scene at an airport terminal with cars parked under a canopy, including a blue SUV and a white sedan."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night scene at an airport terminal curb featuring a blue [ORGANIZATION] SUV and a white [ORGANIZATION] in traffic."
+        }
+      }
+    },
+    "image_00153": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An interior view of an airport terminal shows"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an escalator leading down to [ORGANIZATION] area at an airport, with an American flag prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "An escalator descends into a [ORGANIZATION] area at [LOCATION] beneath a large American flag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of an escalator leading into [ORGANIZATION] area in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An airport customs checkpoint at [LOCATION], marked by an American flag and a sign welcoming travelers to [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from an escalator looking down at [ORGANIZATION] area in [LOCATION], marked by a large American flag."
+        }
+      }
+    },
+    "image_00154": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a selfie inside an airplane cabin, looking directly at the camera with a slightly pouting expression."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person seated in an airplane, with a focus on the arm and part of the torso, while the airplane interior is visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person seated in an airplane cabin with patterned seats, overhead panels, and bright cabin lighting visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting in an airplane seat taking a selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person makes a playful face while taking a selfie inside an airplane cabin."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person sitting in an airplane seat, wearing a black polo shirt and white earbuds."
+        }
+      }
+    },
+    "image_00155": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a large collection of small figurines scattered on the floor, with a guitar and storage boxes in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A room corner shows an acoustic guitar beside stacked records, storage bins, and many collectible figurines displayed in a clear case and scattered across the carpet."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of figurines displayed in a room next to an acoustic guitar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large collection of chibi-style figurines is spread across a carpeted floor next to an acoustic guitar and storage bins."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large collection of colorful vinyl art toys is displayed on a carpeted floor next to an acoustic guitar and storage bins."
+        }
+      }
+    },
+    "image_00156": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cinema building named 'Century Theatres' surrounded by palm trees under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A palm-lined [ORGANIZATION] movie theater building is shown from across the street under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A clear view of a [LOCATION] building under bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunny exterior shot of the Century Theatre, framed by palm trees and a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle exterior shot of a [ORGANIZATION] movie complex featuring a tall marquee, palm trees, and a clear blue sky."
+        }
+      }
+    },
+    "image_00157": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie in a bathroom, wearing a black and white patterned shirt and white shorts, with a slightly pouting expression."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a bathroom mirror, wearing a black and white patterned shirt and white shorts."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie in a tiled bathroom while wearing a black patterned shirt and white shorts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a tiled bathroom, holding a smartphone with a black case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black and white patterned shirt and light-colored shorts takes a mirror selfie in a tiled bathroom."
+        }
+      }
+    },
+    "image_00158": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital interface showcasing the 'Reaver Phantom' weapon skin from a video game."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop screen shows [ORGANIZATION]’s collection menu highlighting the Reaver Phantom weapon skin and its variants in a dim indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displaying a video game skin selection menu featuring '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop screen displays a game's weapon customization interface for '[ORGANIZATION] with variant options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of an [ORGANIZATION] laptop screen displaying [ORGANIZATION] weapon skin from the video game [PERSON] within its collection menu."
+        }
+      }
+    },
+    "image_00159": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a quiet suburban street with palm trees and parked cars under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet suburban residential street with a sidewalk, trimmed lawns, trees, parked cars, and an overcast sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quiet suburban street lined with houses, trees, and parked cars under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A quiet suburban street with sidewalks, parked cars, and lush greenery under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A quiet suburban street scene featuring a curved sidewalk, green lawns, palm trees, and parked cars under an overcast sky."
+        }
+      }
+    },
+    "image_00160": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a character selection screen from a video game featuring various weapons and characters."
+        },
+        "gpt-5.4": {
+          "summary": "A fantasy gacha game results screen shows multiple pulls, including two copies of a blue-haired anime character, another character card, and several weapon/item rewards."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A game interface showcasing characters and weapons in a fantasy theme."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game gacha result screen displaying two new characters and seven weapons with star ratings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a gacha game summoning result displaying two new five-star characters, one duplicate character, and several three-star weapons."
+        }
+      }
     }
   }
 }

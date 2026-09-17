@@ -1,67 +1,2537 @@
 {
   "user_id": "participant_071",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "coffee and tea",
-        "nature visits",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; coffee and tea; nature visits; walking and hiking."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white dog sits on a sidewalk next to a pole displaying a 'LOST' poster with a picture of a similar dog, accompanied by the text 'Aren't we all?'."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog sits next to a 'Lost' poster of another dog, with a humorous caption reflecting on the concept of being lost."
+        },
+        "gpt-5.4": {
+          "summary": "A white dog lies on a sidewalk beneath a pole with a pink 'LOST' poster showing the same dog, with the meme text 'Aren't we all?' overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dog sits near a 'LOST' sign featuring its own photo."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white dog sits calmly on pavement beside a 'LOST' poster of itself."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white dog lies on a sidewalk beneath a pink 'LOST' poster featuring its own photo, with the caption 'Aren't we all?' overlaid."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "coffee and tea",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; coffee and tea; nature visits; outdoor activities."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A calico cat is resting on a grey cushion on a wooden surface outdoors, with [ORGANIZATION] and a car in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A calico cat is resting on a round cushion placed on a wooden table, surrounded by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A calico cat is resting on a round gray cushion placed on a wooden outdoor table near potted shrubs and a parked car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A relaxed calico cat lounges atop a cushioned pet bed outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calico cat is resting on a grey cushion placed on a wooden table outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A calico cat rests comfortably on a round grey cushion placed atop a wooden outdoor table, with a large planter and parked car visible in the background."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "coffee and tea",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; coffee and tea; nature visits; outdoor activities."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image captures a vibrant sunset over a vast body of water, with waves crashing in the foreground and the sun dipping below the horizon."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of the ocean at sunset with waves crashing against the shore."
+        },
+        "gpt-5.4": {
+          "summary": "A sunset over the ocean with scattered clouds and foamy waves crashing near the rocky shoreline."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a vast ocean viewed from moving watercraft."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunset over the ocean with waves crashing near a rocky shore."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a sunset over the ocean with waves crashing in the foreground."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "coffee and tea",
-        "dining",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: cats; coffee and tea; dining; nature visits; outdoor activities."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A picturesque view of the sun setting or rising over a vast ocean with a cloudy sky, casting warm light on the water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic sunset over the ocean with waves and clouds in the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A golden sunset sits low over the ocean, with scattered clouds and choppy waves in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a vast ocean with gentle waves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunset over the ocean with golden light reflecting on choppy waves and scattered clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a golden sunset over a choppy ocean with scattered clouds in the sky."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "coffee and tea",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; coffee and tea; nature visits; outdoor activities."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A figure in a dark dress holding an umbrella sits on a wire surrounded by crows against a moody sky."
+        },
+        "gpt-5.4": {
+          "summary": "An Arabic quote appears above a dark, surreal illustration of a woman in a black dress holding an umbrella while crows gather around her on a wire."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a Victorian-style dress holding an umbrella stands amidst flying crows under cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a dark dress holding an umbrella floats above a reflective surface, surrounded by crows against a gloomy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A surreal digital artwork depicts a woman in Victorian mourning attire holding an umbrella while floating above a wire with several crows, set against a cloudy sky."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "coffee and tea",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; coffee and tea; nature visits; outdoor activities."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds several fresh figs, with a car interior visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding several ripe figs inside a car."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding several ripe purple figs inside a car interior."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a cluster of figs in front of car interior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds several ripe purple figs inside a car, with the dashboard visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a cluster of fresh purple figs inside a car, with the dashboard and radio visible in the background."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A coffee cup rests on a wooden surface with a city street, palm trees, and the sea visible in the background under a morning or evening sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a coffee cup on a wooden table with a scenic view of palm trees and a beach promenade in the background during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A paper coffee cup sits on an outdoor table beside a palm-lined waterfront street with a tall high-rise and a bright sunset sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene outdoor scene featuring a coffee cup placed on a wooden bench overlooking palm trees under a clear sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An empty coffee cup sits on a wooden table overlooking a palm-lined waterfront promenade at sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A disposable coffee cup sits on a wooden table in the foreground, overlooking a paved promenade lined with palm trees and a tall building under a bright sky."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene coastal landscape at dusk or dawn, featuring a calm body of water, a distant shoreline with buildings and a crane, and a sky painted with soft orange and blue hues."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset over a calm sea with buildings and a crane in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A calm waterfront scene at sunset shows rippling water, low clouds, distant mountains, and shoreline buildings with a crane in silhouette."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a calm sea with silhouettes of buildings along the coast."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coastal sunset scene with calm water, distant mountains, and city buildings on the right."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A coastal cityscape at dusk featuring a calm sea, distant mountains, and silhouetted buildings including a construction crane against a gradient sky."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A twilight or night scene captures a waterfront area with illuminated buildings, boats in a [LOCATION], and a tall building under a colorful sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a twilight scene overlooking a [LOCATION] with illuminated structures and a high-rise building in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A dusk waterfront cityscape shows a lit terrace and [LOCATION] below with a tall high-rise building on the right under a fading blue-orange sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene evening scene at a waterfront promenade during twilight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A twilight cityscape viewed from a railing, featuring illuminated buildings and a marina with boats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A twilight view of a waterfront promenade featuring illuminated cabanas, a [LOCATION] with boats, and a tall building under construction against a dusky sky."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene view of a coastal promenade lined with palm trees and streetlights, with a rocky shoreline and the sea under a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic waterfront promenade at sunset, featuring rocky shores and palm trees."
+        },
+        "gpt-5.4": {
+          "summary": "A palm-lined seaside promenade runs beside a rocky shore and calm water under a soft sunset sky, with a few people walking in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene coastal walkway at sunset lined by palm trees under a soft sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coastal promenade at sunset with palm trees, street lamps, and a person walking along the waterfront."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A coastal promenade at dusk featuring a paved walkway lined with palm trees and street lamps, bordered by rocky shores and the sea under a soft sunset sky."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cup of coffee or tea sits on a ledge, overlooking a scenic coastline with cliffs and turquoise water under a partly cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A coffee cup sits on a table with a scenic view of cliffs and the sea in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A paper cup with a foamy drink sits by a window overlooking a rocky seaside cove with turquoise water and a cloudy blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a rocky coastline from indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A paper coffee cup sits on a windowsill overlooking a scenic coastal cliffside with turquoise water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paper cup of coffee sits on a glass table in the foreground, overlooking a scenic coastal view with turquoise water and white cliffs."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A clear blue sky stretches over a calm ocean with gentle waves, and the foreground shows sparkling, transparent water revealing the sandy bottom."
+        },
+        "gpt-4o-mini": {
+          "summary": "A clear view of shallow water at a beach with gentle waves and a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] scene shows clear shallow water, small waves, and a blue sky with a few distant swimmers or buoys near the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene beach scene with clear water reflecting sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Clear shallow ocean water with gentle waves under a bright blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [LOCATION] scene featuring crystal-clear shallow water with visible sand ripples, gentle waves rolling in, and a few distant swimmers against a clear blue sky."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A picturesque sunset over the ocean with numerous people swimming and enjoying the water, featuring a vibrant orange sun dipping below the horizon and scattered clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene beach scene at sunset with people enjoying the water."
+        },
+        "gpt-5.4": {
+          "summary": "A beach sunset scene shows gentle waves, scattered swimmers in the water, and a few boats on the horizon under cloudy skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene at a beach with people enjoying the water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People enjoy a sunset at the beach with boats visible on the water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a beach at sunset with silhouettes of people wading in the water and boats on the horizon."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a sunset over the ocean with several people wading and swimming in the water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene beach scene at sunset with people wading in the water."
+        },
+        "gpt-5.4": {
+          "summary": "A wide beach sunset scene shows people wading in shallow ocean water under scattered clouds, with a small boat on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene at a beach with people enjoying the water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People enjoy the ocean at sunset with colorful clouds and gentle waves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a beach at sunset with silhouettes of people wading in the ocean and scattered clouds in the sky."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image captures a clear, shallow ocean with visible ripples on the water's surface, leading to deeper blue water with small waves under a bright blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a clear view of a beach with shallow water and gentle waves under a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Clear shallow seawater and small waves stretch across a sunny beach under a cloudless blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene beach scene with clear water reflecting sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Clear shallow ocean water with gentle waves under a bright blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [LOCATION] scene featuring crystal-clear shallow water with visible sand ripples, leading to gentle waves and a blue horizon where distant swimmers are present."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a bottle of water and a small cup on a wooden table with palm trees and cars in the background under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A water bottle and a small paper cup sit on an outdoor table beside a palm-lined street with parked cars under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bottle of Tannourine water sits next to a coffee cup at an outdoor café."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A water bottle and coffee cup sit on a wooden table outdoors under a clear blue sky, with palm trees and parked cars in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A plastic water bottle and a paper coffee cup sit on an outdoor wooden table with palm trees, parked cars, and a city skyline in the background."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a pile of small, oval, reddish-yellow fruits, possibly dates or jujubes, resting in an"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a pile of small, oval-shaped fruits on an orange plate."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a pile of small oblong potatoes in a yellow bowl."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pile of small, oval-shaped fruits resting in a yellow bowl."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pile of small, oval-shaped fruits with varied skin tones rests in a bright orange bowl."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pile of small, oval-shaped fruits with smooth skin in varying shades of green and reddish-brown rests on a yellow plate."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat is lounging on the ground in a sunny outdoor setting with palm trees and a view of a street."
+        },
+        "gpt-5.4": {
+          "summary": "A cat lounges on a tiled outdoor patio beside a coffee cup and water bottle, facing a palm-lined street under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat sits near a table with an espresso cup and water bottle under palm trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calico cat walks away on a tiled plaza under palm trees, with a water bottle and coffee cup in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a coffee cup and water bottle on an outdoor table with a calico cat sitting nearby, overlooking a palm-lined street."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat lounges on a table beside a bottle of water and a coffee cup, with a cityscape in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A calico cat lies on an outdoor table beside a water bottle and paper cup, facing a palm-lined city street at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat lounges by a table at sunset near palm trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calico cat lounges on a wooden table beside a water bottle and cup, overlooking a palm-lined urban street at sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A calico cat rests on a wooden outdoor table next to a bottle of water and a paper cup, with a street scene featuring palm trees and cars in the background."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A coffee cup and a bottle of water are placed on a patterned tray in an outdoor café setting with buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny outdoor cafe patio scene shows a small coffee, a water bottle, and seating surrounded by city buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy outdoor café scene featuring a bottle of water, an espresso cup, and [ORGANIZATION] cookies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coffee and water bottle sit on a patterned table outdoors at a café with urban buildings in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a coffee cup, water bottle, and biscuit on a patterned tray at an outdoor cafe patio with urban buildings in the background."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two men are on a stage, one holding a"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two men are engaged in a conversation on stage, with one holding a microphone."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style image shows two men on a stage or TV set leaning close while one holds a microphone, with Arabic text overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men are engaged in a conversation while holding microphones during what appears to be an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men are engaged in an intense face-to-face interaction on a dimly lit stage, one holding a microphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men are shown in a close-up shot on a dimly lit stage, with one holding a microphone and the other leaning in closely."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a cluster of fresh purple figs inside a car, with the dashboard and car seat visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding several ripe figs inside a car."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding several ripe purple figs inside a car, with the dashboard and seat visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a cluster of dark purple figs in front of car interior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds several ripe purple figs inside a car, with the dashboard visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a cluster of fresh purple figs inside a car, with the dashboard and seat visible in the background."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a sunset over the ocean with several people wading and swimming in the water, and a few boats"
+        },
+        "gpt-4o-mini": {
+          "summary": "A sunset view at the beach with people enjoying the water."
+        },
+        "gpt-5.4": {
+          "summary": "A beach sunset scene shows people wading in shallow waves with a few boats silhouetted on the horizon beneath scattered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene at a beach where people are enjoying the water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Silhouettes of people enjoying the ocean at sunset with boats visible on the horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Silhouettes of people wading and swimming in the ocean while watching a vibrant sunset with scattered clouds."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man wearing sunglasses and a white tank top takes a selfie on a beach or pier during sunset, with the ocean and other people in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person takes a selfie at the beach during sunset, with others relaxing in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing sunglasses and a white tank top takes a beach selfie at sunset with lounge chairs, umbrellas, and the sea in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie at sunset by the beach."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man takes a selfie on a beach at sunset with people and umbrellas in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man wearing sunglasses and a white tank top takes a selfie on a [LOCATION] during sunset, with the ocean and other beachgoers visible in the background."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A calico cat is lounging on a wooden bench in a public area, with people walking in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A calico cat lounges on a wooden bench beside a blue water bowl on a city sidewalk outside a storefront."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A relaxed calico cat lounges on a wooden bench in an outdoor urban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calico cat lounges upside down on a wooden bench outdoors, with a blue-lidded cup nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A calico cat lies on its back on an outdoor wooden table, looking up at the camera with a blue water bowl nearby."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man wearing a tropical shirt holds an orange and white cat outdoors under a clear blue sky with palm trees in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a cat in a tropical outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up outdoor selfie shows a person in a floral shirt holding a wide-eyed orange-and-white cat beneath palm trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man holds a small orange kitten in front of palm trees under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a tropical shirt holds an orange-and-white cat outdoors under palm trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard wearing a tropical print shirt holds an orange and white cat outdoors under palm trees."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A clear turquoise river flows through a narrow rocky gorge with steep, moss-"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene waterway surrounded by rocky cliffs and lush greenery."
+        },
+        "gpt-5.4": {
+          "summary": "A turquoise pool sits between steep [LOCATION] walls, leading into a shaded cave-like opening in a natural outdoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a turquoise pool nestled between rocky cliffs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A narrow canyon with turquoise water flowing between rugged rock walls under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a turquoise river flowing through a narrow, [LOCATION] with steep cliffs and sparse vegetation."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene view of a turquoise river surrounded by lush greenery and trees."
+        },
+        "gpt-5.4": {
+          "summary": "A serene forested lake or river with striking turquoise water is surrounded by trees and rocky hills in bright daylight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a turquoise lake surrounded by lush greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene view of a turquoise river surrounded by dense green trees and distant mountains under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a vibrant turquoise river winding through a lush, forested canyon under bright sunlight."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a small cup of coffee and a metal pot on"
+        },
+        "gpt-4o-mini": {
+          "summary": "A beachside table setting featuring a cup of coffee and a coffee pot under a blue umbrella."
+        },
+        "gpt-5.4": {
+          "summary": "A small coffee set sits on a tray under a blue beach umbrella, overlooking sandy shore, lounge chairs, and the sea on a bright day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A relaxing beach scene under a blue umbrella at an outdoor café."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tray with coffee and a cezve sits on a blue table under a beach umbrella, overlooking a sandy beach and ocean."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a coffee tray with a traditional pot and cup sitting on a blue table under an umbrella, overlooking a sunny sandy beach."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A coffee cup sits on a wooden table with a view of palm trees and a city street in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A small paper cup sits on an outdoor table beside a palm-lined street with parked cars and a tall building under a bright sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene urban scene at sunset featuring a coffee cup in focus."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coffee cup sits on a wooden table outdoors, with palm trees, parked cars, and a tall building in the background under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a paper coffee cup resting on a wooden table, overlooking a paved promenade lined with palm trees and parked cars under a clear sky."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A street scene at golden hour, featuring"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a street scene with palm trees and buildings at sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A palm-lined urban street with sidewalks, mid-rise buildings, and a warm sunset glow behind the skyline."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene urban scene at sunset featuring palm trees lining a street."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A paved sidewalk leads toward a street lined with palm trees and modern buildings under a warm sunset sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paved promenade and road lined with palm trees and modern buildings during a warm sunset."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat is resting on a chair at an outdoor café with a street view in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A ginger-and-white cat sits on a café chair beside a paper coffee cup, overlooking a quiet urban street with parked cars and storefronts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat sits on a chair at an outdoor café table in front of parked cars."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An orange-and-white cat sits on a patio chair beside a table with a coffee cup, overlooking a city street."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An orange and white cat sits on a wicker chair at an outdoor cafe table with a paper cup, overlooking a city street with parked cars and storefronts."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vast ocean under a cloudy sky with a faint sunset on the horizon and a small airplane visible in the upper left."
+        },
+        "gpt-4o-mini": {
+          "summary": "A view of the ocean at sunset with cloudy skies and an airplane in the distance."
+        },
+        "gpt-5.4": {
+          "summary": "A cloudy sky hangs over the ocean at sunset, with a small airplane visible above the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a calm ocean under an expansive cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A distant airplane flies over a cloudy ocean at sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide seascape under a cloudy sky with a distant airplane and a sunset glow on the horizon."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic seascape features a vibrant orange sunset or sunrise line on the horizon under a cloudy, grey sky, with dark ocean water in the foreground and a rocky edge."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene seascape at sunset with cloudy skies and gentle waves."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic cloudy sky hangs over a dark ocean with a bright strip of sunset light along the horizon and rocky shoreline in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic sunset over a vast ocean under an expansive cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic sunset over the ocean with dark clouds and a bright yellow horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A seascape view from a rocky shore featuring a bright yellow sunset on the horizon beneath heavy, grey clouds."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A conversation in Arabic discussing feelings and concerns between two individuals."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] chat in Arabic with green and white message bubbles discussing relationship boundaries, with timestamps around 9:30–9:33 pm."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] conversation discussing emotional support in Arabic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] chat with Arabic text messages and emojis exchanged between two users."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation in Arabic featuring an emotional exchange between two people, with one expressing fear and the other offering reassurance."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A disposable coffee cup sits on a wooden surface in the foreground, with a street scene featuring palm trees, parked cars, and a scooter under a cloudy sky in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a coffee cup in the foreground with palm trees and vehicles in a street setting under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small coffee cup sits on an outdoor table facing a palm-lined street with parked cars, a scooter, and a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A coffee cup sits at a table in an outdoor plaza under palm trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coffee cup sits on a wooden table outdoors, with palm trees, parked vehicles, and a cloudy sky in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a coffee cup on an outdoor table with palm trees, parked cars, and a cloudy sky in the background."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A picturesque coastal scene at sunset or sunrise, featuring a rocky shoreline, ocean waves, a promenade with streetlights, and a dramatic sky with orange and grey clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a rocky coastline at sunset with dramatic clouds and a distant city skyline."
+        },
+        "gpt-5.4": {
+          "summary": "A rocky seaside promenade overlooks the ocean under dramatic sunset clouds with distant mountains on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a rocky coastline with gentle waves crashing against rocks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coastal sunset with orange clouds over the ocean, rocky shoreline, and a seaside walkway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic coastal view at sunset featuring a rocky shoreline, a paved promenade with lampposts, and distant mountains under a dramatic sky."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant waterfront promenade is captured at sunset, featuring people walking"
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic waterfront promenade with people walking and a sunset in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A wide seaside promenade lined with palm trees, people walking and jogging, parked cars, and tall city buildings at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a waterfront promenade during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People jog along a seaside promenade at sunset, lined with palm trees and parked cars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a paved seaside promenade at sunset, featuring joggers, palm trees, and a city skyline in the background."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cup of espresso sits on an outdoor table with a street lined with palm trees and a blue sky in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A coffee cup sits on a table with palm trees and a street view in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A small cup of coffee sits on an outdoor table facing a palm-lined street and coastal promenade under a bright evening sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene outdoor scene featuring a cup of coffee at sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An espresso cup sits on a table outdoors, with palm trees and a street visible under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a nearly finished coffee cup on an outdoor table, overlooking a paved promenade lined with palm trees and parked vehicles under a twilight sky."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black plastic crate is filled with numerous dark purple grapes on their stems, with some lighter-colored grapes visible in an adjacent container."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a basket filled with dark purple grapes, with some green leaves visible."
+        },
+        "gpt-5.4": {
+          "summary": "A crate filled with dark purple grapes is shown at what appears to be a produce market or storage area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a crate filled with dark purple grapes at what appears to be an outdoor market."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of dark purple grapes still on their stems, filling a black plastic crate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a black plastic crate filled with freshly harvested dark purple grapes, with green stems and leaves visible."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "People walk along a waterfront promenade lined with tall buildings and palm trees, illuminated by the setting sun."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a sunset view along a bustling waterfront promenade with people walking and tall buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A waterfront city promenade lined with palm trees and high-rise buildings is shown at sunset with several people walking along the path."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic sunset along a waterfront promenade lined with palm trees and modern buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People walk along a waterfront promenade at sunset, with tall buildings and palm trees lining the path."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a seaside promenade at sunset with pedestrians walking along the waterfront, flanked by modern high-rise buildings and palm trees."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A coffee cup and a [ORGANIZATION] cookie are placed on a wooden table with palm trees and cars in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A small espresso and a wrapped [ORGANIZATION] biscuit sit on an outdoor table beside a palm-lined street with parked cars, a motorcycle, and a tall building under a partly cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene outdoor scene featuring a cup of coffee and [ORGANIZATION] cookies at an urban park."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coffee cup and a [ORGANIZATION] cookie wrapper sit on a wooden table outdoors, with parked cars, palm trees, and a tall building in the background under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a coffee cup and [ORGANIZATION] cookie on an outdoor wooden table, with parked cars, palm trees, and a city skyline in the background."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "This is a placeholder summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a voice message interface alongside a text message in Arabic."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a 1-second voice message and an Arabic text reply with a laughing emoji."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat message in Arabic discussing energy levels."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A messaging app screenshot showing a voice message playback bar and an Arabic text bubble with a laughing emoji."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat interface showing a one-second audio message and a blue text bubble containing Arabic script with a laughing emoji."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of people walk along a palm-lined waterfront promenade at sunset, with parked cars, buildings, and mountains in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a bustling promenade with people walking, palm trees, and a sunset in the background."
+        },
+        "gpt-5.4": {
+          "summary": "People walk and jog along a palm-lined waterfront promenade at sunset, with parked cars and city buildings beside the path."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic walkway lined with palm trees during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People stroll along a palm-lined waterfront promenade at sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "People walk and jog along a paved seaside promenade lined with palm trees during a bright sunset."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bottle of water, a coffee cup, and a biscuit sit"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a table with a coffee cup, a biscuit, and a water bottle, set against a backdrop of palm trees and a clear sky."
+        },
+        "gpt-5.4": {
+          "summary": "A water bottle, coffee cup, and biscuit pack sit on a wooden table beside a palm-lined city street at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A casual outdoor scene featuring a bottle of water, bread packet, cup labeled 'Life After Coffee', and palm trees under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coffee cup, water bottle, and biscuit sit on a wooden table outdoors near palm trees and parked cars under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a simple snack setup on a wooden table outdoors, featuring a water bottle, coffee cup, and biscuit against a backdrop of palm trees and city buildings."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a city promenade at sunset or sunrise, featuring people walking along the waterfront with tall buildings, palm trees, and mountains in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic waterfront promenade at sunset with people walking and tall buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A palm-lined waterfront promenade with a few people walking stretches toward high-rise buildings at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene along a waterfront promenade lined with palm trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A waterfront promenade at sunset with palm trees, pedestrians, parked cars, and a city skyline in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a paved seaside promenade at sunset, featuring pedestrians walking along the waterfront with a city skyline and palm trees in the background."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a coffee cup and a [ORGANIZATION] cookie on a wooden table with palm trees and cars in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A small espresso and a [ORGANIZATION] biscuit sit on an outdoor table beside a palm-lined street with cars under a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene outdoor scene featuring a [ORGANIZATION] biscuit packet and coffee cup at sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coffee cup and a [ORGANIZATION] cookie sit on a wooden table overlooking a palm-lined urban street at sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a coffee cup and a [ORGANIZATION] cookie on a wooden table, overlooking a paved promenade with palm trees and parked cars at dusk."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A paved pathway illuminated by a street lamp, flanked by palm trees and a modern building with balconies, under a twilight sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit pathway lined with palm trees and a modern building at night."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime walkway lined with palm trees and a streetlamp runs beside a modern apartment building with balconies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime scene of a well-lit pathway leading towards modern high-rise buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A quiet nighttime walkway beside a modern high-rise building, illuminated by a streetlamp and surrounded by palm trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paved walkway at dusk is illuminated by a streetlamp, flanked by palm trees and modern high-rise apartment buildings."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A happy husky dog with striking blue eyes looks out of a car window in an urban setting with buildings and palm"
+        },
+        "gpt-4o-mini": {
+          "summary": "A dog is sitting in the open window of a parked SUV, with a cityscape in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A husky-like dog happily sticks its head out of the rear window of a parked or slow-moving SUV, viewed from another car on a city street."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A happy dog leans out of a car window in an urban environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A happy husky dog sticks its head out of a maroon SUV window on a sunny day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A happy husky dog with blue eyes looks out of the open window of a maroon SUV in an urban setting."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A meal featuring grilled meat, french fries, and a side salad is presented on a black platter, with other food items and a drink visible in the background on a white table."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of grilled chicken with fries and a side salad."
+        },
+        "gpt-5.4": {
+          "summary": "A restaurant meal of grilled chicken, French fries, a side salad, and a small dipping sauce is served on a black plate at a table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal consisting of grilled meat, fries, a salad bowl, and dipping sauce."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meal featuring grilled chicken, french fries, and salad on a black tray."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a restaurant meal featuring grilled chicken, french fries, and salad served on a black slate platter."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a suit and tie takes a selfie in an indoor setting, standing in front of a branded backdrop that"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in formal attire poses for a selfie in front of a branded backdrop at an event."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a suit takes a selfie in front of a branded event backdrop and red-carpet area inside a bright indoor venue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit takes a selfie at an event backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit takes a selfie in front of a branded backdrop inside a modern building."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a formal suit and tie takes a selfie in front of a branded event backdrop inside a modern building."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A split image featuring a bustling seaside promenade with palm trees and urban buildings at sunset, alongside a close-up of a coffee cup and a water bottle on a wooden surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic waterfront promenade with people walking, palm trees, and a table featuring a coffee cup and a water bottle."
+        },
+        "gpt-5.4": {
+          "summary": "A sunset waterfront promenade lined with palm trees and apartment buildings is shown above a street-side table with a water bottle and a coffee cup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene evening scene at a waterfront promenade lined with palm trees under warm sunset hues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A waterfront promenade at sunset with palm trees and buildings, paired with a close-up of a water bottle and coffee cup on a table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split image showing a seaside promenade at sunset with pedestrians and palm trees, alongside a close-up of a coffee cup and water bottle on a table."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a dark suit and tie takes a mirror selfie with a red phone in an indoor setting featuring modern tiled walls and patterned carpet."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in formal attire poses for a mirror selfie in a modern setting."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie of a person in a dark suit and tie holding a red phone in a modern indoor hallway or restroom area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit takes a mirror selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit takes a mirror selfie with a red phone in a modern hallway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard wearing a dark suit and tie takes a full-body mirror selfie in a modern hallway using a red smartphone."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds several ripe purple figs"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding several ripe figs inside a car."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds several dark purple figs inside a car, with the dashboard and passenger seat visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a cluster of dark purple figs in front of car interior."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds several ripe purple figs inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a cluster of fresh purple figs inside a car, with the dashboard and passenger seat visible in the background."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a beach at sunset with numerous people wading and swimming in the ocean, under a sky with scattered clouds and a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A sunset view at the beach with people enjoying the water."
+        },
+        "gpt-5.4": {
+          "summary": "A sunset beach scene shows people wading and swimming in shallow waves with a few boats on the horizon under scattered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene at a beach where people are enjoying the water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Silhouettes of people enjoying the ocean at sunset with boats visible on the horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic sunset over the ocean with silhouettes of people wading in the water and boats on the horizon."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in sunglasses and a white tank top takes a selfie outdoors with the sun setting over the ocean and other people in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person takes a selfie at the beach during sunset, with others relaxing in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A beach selfie at sunset shows a person in sunglasses and a white tank top with lounge chairs, umbrellas, and the sea in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie at sunset by the beach."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man takes a selfie at sunset on a beach with lounge chairs and umbrellas in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man wearing sunglasses and a white tank top takes a selfie on a [LOCATION] during sunset, with the sun glowing behind him and other beachgoers visible in the background."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A calico cat lies on its back on a wooden bench outdoors, looking up at the camera, with a blue bottle cap nearby and a sidewalk and people's legs in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A calico cat is lounging on a wooden bench in a public area, with people walking in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A calico cat is stretched out on a wooden bench beside a sidewalk seating area, with a blue water dish nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A relaxed calico cat lounges on a wooden bench in an outdoor seating area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calico cat lounges upside down on a wooden bench outdoors, with a blue-lidded cup nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A calico cat lies on its back on an outdoor wooden table, looking up at the camera with a blue water bowl nearby."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A calico cat with green eyes is lying on a worn stone staircase, looking directly at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A calico cat is lounging on a staircase."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy calico cat is lying on an indoor stairway and looking directly at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A calico cat lounges comfortably at the bottom of a worn staircase."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy calico cat lounges on worn concrete stairs, looking directly at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy calico cat with green eyes is lying on a worn, light-colored stone staircase and looking directly at the camera."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A calico cat with green eyes is being gently petted by a human hand while standing on a concrete ledge outdoors, surrounded by green foliage."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is gently petting a cat in a lush, green outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy calico/tabby cat stands on a low wall outdoors among leafy plants while being petted by a hand."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person pets a fluffy cat sitting outdoors near greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calico cat stands on a stone ledge outdoors as a hand pets its neck, surrounded by green foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy calico cat with green eyes stands on a concrete ledge outdoors while a human hand pets its back near large green leaves."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A calico cat with striking green eyes stands on a concrete wall, looking directly at the camera, against a backdrop of dense green foliage."
+        },
+        "gpt-4o-mini": {
+          "summary": "A calico cat stands on a low wall surrounded by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A calico cat stands on a low wall outdoors in front of dense green shrubs, looking directly at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat sits alertly atop a wall surrounded by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calico cat with green eyes stands alert on a concrete ledge amid green foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white and ginger cat stands alert on a concrete wall in front of dense green foliage."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An orange tabby cat is resting with its eyes closed on a wooden floor."
+        },
+        "gpt-4o-mini": {
+          "summary": "A relaxed orange tabby cat is lying on a wooden floor with its eyes closed."
+        },
+        "gpt-5.4": {
+          "summary": "An orange tabby cat is lying relaxed on a wooden floor indoors with its eyes closed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy orange tabby cat lounges peacefully on a wooden floor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An orange tabby cat is resting peacefully with its eyes closed on a wooden floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A ginger tabby cat rests peacefully with its eyes closed on a wooden floor."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An orange and white cat is peacefully sleeping in a cozy shop window display adorned with autumn leaves and various decorative items."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sleeping orange and white cat is seen in a shop window surrounded by decorative items and autumn leaves."
+        },
+        "gpt-5.4": {
+          "summary": "A ginger-and-white cat is curled up in a sunlit shop window display beside small animal-themed items and autumn leaves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat lounges in a shop window surrounded by autumn leaves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sleeping orange-and-white cat rests inside a shop window decorated with autumn leaves, a hedgehog figurine, and a yellow cat-themed mat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An orange and white cat sleeps peacefully in a shop window display decorated with autumn leaves, a hedgehog figurine, and a framed photo of a dog."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime landscape features a bright moon partially obscured by clouds over a grassy field covered with fallen autumn leaves, with dark trees and distant lights visible on the horizon."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime scene featuring a partially obscured moon over a grassy field with fallen leaves."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime park scene shows a grassy field with fallen leaves, trees in silhouette, and a bright moon glowing through low clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene night scene in a park under moonlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime park scene with a bright moon partially covered by clouds, scattered fallen leaves on grass, and distant trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night scene of a grassy park covered in fallen leaves with the moon shining through clouds above a tree line."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime view of a park with trees and a grassy area, illuminated by streetlights and a full moon partially obscured by clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime park scene illuminated by streetlights and a partially visible moon among clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime park scene shows lit pathways and bare trees beneath a dramatic cloudy sky with the moon glowing through."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene night scene in a park illuminated by streetlights under a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime park scene with illuminated trees, scattered lights, and a moon partially obscured by clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night scene of a park featuring a grassy foreground, illuminated trees, and a cloudy sky with the moon visible."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A green park bench is situated on a path covered with fallen autumn leaves, surrounded by green foliage and illuminated at night."
+        },
+        "gpt-4o-mini": {
+          "summary": "A solitary green bench surrounded by fallen leaves and dimly lit by a nearby streetlight."
+        },
+        "gpt-5.4": {
+          "summary": "A green park bench sits beside a lamppost on a leaf-covered path at night, surrounded by bushes and trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A park bench surrounded by fallen leaves under dim lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green park bench sits under artificial light at night, surrounded by fallen leaves and ivy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An empty green park bench sits on a path covered in fallen autumn leaves at night, illuminated by artificial light."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A night scene shows a paved path next to a garden area with trees and bushes, illuminated by a bright street lamp, casting shadows."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit park scene at night featuring a tree with sparse leaves and a street lamp."
+        },
+        "gpt-5.4": {
+          "summary": "A bright lamppost lights a quiet garden path at night beside trees with sparse pinkish-red leaves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime scene of a park path illuminated by [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime park scene with a lit streetlamp illuminating a tree with sparse red leaves beside a winding path."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paved pathway in a park at night is illuminated by a bright streetlamp, casting shadows on the ground and highlighting trees with sparse reddish leaves."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black mug rests on a white outdoor table under a large umbrella, overlooking a grassy area, a road, and modern buildings in an urban setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black coffee cup sits on a round table in an outdoor café setting with trees and buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A black coffee mug sits on a round outdoor café table under large umbrellas, with trees and modern buildings in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene outdoor café scene featuring a coffee mug under an umbrella."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An empty black mug sits on a white outdoor table under a large umbrella, with city buildings and greenery in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a black coffee mug on an outdoor cafe table under a large umbrella, with a park and city buildings in the background."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A coastal promenade with people walking and jogging, lined with tall buildings and palm trees, set against a sunset sky over the sea and distant mountains."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic waterfront promenade in a city during sunset, with people walking along the path."
+        },
+        "gpt-5.4": {
+          "summary": "A waterfront promenade with people walking beside rocky shoreline, palm trees, and tall apartment towers at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a waterfront promenade during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People stroll along a seaside promenade at sunset, with modern high-rise buildings and palm trees lining the coast."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a coastal city promenade at sunset, featuring pedestrians walking along the waterfront with high-rise buildings and palm trees in the background."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless older man with white hair and sunglasses, smoking a cigarette, is relaxing by a body of water with boats and a distant mountain, showing a chest tattoo that reads \"TUTTO PASSA.\""
+        },
+        "gpt-4o-mini": {
+          "summary": "An older man with a tattoo reading 'TUTTO PASSA' poses shirtless by a waterfront."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless person wearing sunglasses and holding a cigarette relaxes by a waterfront with small boats, rocks, and a mountain in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man wearing sunglasses smokes a cigarette while standing shirtless by the water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An older man with white hair and sunglasses sits shirtless by water, smoking a cigarette, with the tattoo 'TUTTO PASSA' visible on his chest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless older man with white hair and sunglasses stands on a stone pier with a cigarette in his mouth, displaying a chest tattoo that reads 'TUTTO PASSA' against a harbor backdrop."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A disposable coffee cup sits on a wooden table in the foreground, with an urban street scene featuring palm trees, parked scooters and cars, and tall buildings under a cloudy sky in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A coffee cup sits on a wooden table with a view of palm trees and buildings under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small coffee cup sits on an outdoor table beside a palm-lined city street with parked scooters, cars, and a dramatic cloud-filled sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A coffee cup sits on a wooden table in an outdoor urban area under partly cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An empty coffee cup sits on a wooden table outdoors, with scooters, cars, palm trees, and a tall building in the background under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a nearly empty coffee cup on a wooden table, overlooking a paved promenade lined with palm trees, parked scooters, and cars under a cloudy sky."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A meme featuring two men in an indoor setting, with one holding a harmonica-like object and Arabic text overlays suggesting a humorous dialogue."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a scene with a person holding a device while another person sits in the background, accompanied by Arabic text."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel Arabic meme shows a man indoors examining a long magazine-like object while another person sits in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a white robe holds an old-fashioned radio while another person sits behind him."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A two-panel meme showing a man playing a harmonica while text overlays deliver sarcastic dialogue, with another person seated in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A two-panel meme featuring a man in traditional white clothing playing a harmonica, with Arabic text overlaid on each panel and social media handles at the bottom."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a dark, rugged landscape, possibly mountains, illuminated by a bright, glowing horizon line at dusk or dawn, with scattered small lights visible on"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a dark aerial view of snow-covered mountains with a faint horizon line illuminated by sunset."
+        },
+        "gpt-5.4": {
+          "summary": "An aerial view shows [LOCATION] and coastal water under a dramatic sunset or sunrise horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a mountainous landscape at dusk from an airplane window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of a snow-covered mountainous landscape at dusk or dawn with distant lights visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An aerial view from an airplane window at twilight showing a snow-covered mountainous landscape with scattered city lights and the bright horizon line."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up view of a coffee cup and a vase with white flowers on a cafe table at night, with a bustling city street and illuminated buildings in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cozy café scene at night featuring a cup of espresso and decorative flowers on a table."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime outdoor café table with an espresso, a mug, and a red vase of white flowers sits beside a city street lined with lit buildings and passing cars."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy café scene at night featuring a cup of espresso."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A café table at night with coffee, a vase of white flowers, and a view of city streets."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a cafe table set with coffee and flowers at night, overlooking a busy city street with classic architecture."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with a beard takes a selfie outdoors from a high vantage point, overlooking a city skyline with the Eiffel Tower visible in the background under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a balcony overlooking a cityscape with [LOCATION] in the background under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie shows a person with a beard on a rooftop terrace with [LOCATION] and a cloudy sunset city skyline in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A selfie taken from a high vantage point overlooking [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard poses for a selfie on a rooftop overlooking [LOCATION], with [LOCATION] visible in the distance under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man in a dark sweater takes a selfie on a balcony with [LOCATION] and Parisian rooftops visible in the background under a cloudy sky."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A panoramic view captures a city street with buildings and trees under a cloudy sky, illuminated by the warm glow of a sunset."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a cityscape at sunset, featuring buildings, trees, and a road."
+        },
+        "gpt-5.4": {
+          "summary": "A wide outdoor view shows a residential hillside with trees, buildings, and a dramatic cloudy sunset over the city."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene urban landscape at sunset featuring a road lined by trees and buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cityscape at sunset with buildings, trees, and a road under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a city at sunset or sunrise, featuring residential buildings on a hillside, trees with autumn foliage, and a cloudy sky."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black platter holds a meal of grilled chicken, french fries, and a side salad, with other dishes and a person's legs visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of grilled chicken, French fries, and a side salad."
+        },
+        "gpt-5.4": {
+          "summary": "A restaurant meal shows grilled meat with French fries, a side salad, and a small cup of white dipping sauce on a black platter."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal consisting of grilled meat, fries, a salad bowl, and dipping sauce."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meal featuring grilled chicken, french fries, and salad on a black tray."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a restaurant meal featuring grilled chicken, french fries, and salad served on a black slate platter."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a suit and tie takes a selfie in front of a branded backdrop that reads \"GREAT MOMENTS FOR EVERYONE\" and features a logo, in what appears to be an indoor event or commercial setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in formal attire poses for a selfie in front of a branded backdrop at an event."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a suit takes a selfie in front of a branded event backdrop and red-carpet area inside a brightly lit indoor venue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit stands indoors under bright lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit takes a selfie in front of a branded backdrop with repeating logos and text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a formal suit and tie takes a selfie at an indoor event, standing before a branded backdrop with gold logos."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A two-part image shows a coastal promenade with people, palm trees, and buildings at sunset or sunrise, alongside a close-up of a coffee cup and water bottle on a table."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic waterfront promenade with people walking, palm trees, and a table featuring a coffee cup and a water bottle."
+        },
+        "gpt-5.4": {
+          "summary": "A two-photo collage shows a palm-lined seaside promenade with people walking at sunset and an outdoor table with a water bottle and coffee cup beside a city street."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene evening scene at a waterfront promenade lined with palm trees under warm sunset hues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A split image showing a seaside promenade at sunset and a close-up of a water bottle and coffee cup on a table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split image showing a seaside promenade at sunset with pedestrians and palm trees, alongside a close-up of a water bottle and coffee cup on a table."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a dark suit and tie takes a mirror selfie with a red phone in what appears to be an indoor hallway."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in formal attire poses for a mirror selfie in a modern setting."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in a dark suit and tie holding a red phone in a modern indoor hallway or restroom area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit takes a mirror selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit takes a mirror selfie with a red phone in a modern hallway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard wearing a dark suit and tie takes a full-body mirror selfie in a modern hallway using a red smartphone."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man takes a selfie in a crowded outdoor area with a city skyline visible in the background under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A crowded outdoor setting with people socializing and enjoying a scenic view."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie at a busy outdoor viewpoint shows a crowd on a cobblestone terrace with trees, a lamppost, and a dramatic cloudy sky over the city."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A selfie taken at a busy outdoor location under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man takes a selfie on a crowded outdoor overlook with a cityscape in the background under cloudy skies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard takes a selfie on a crowded, paved overlook with a hazy city view in the background."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An autumnal scene shows a road with cars and buildings nestled at the base of large mountains, with a foreground of green grass scattered with fallen leaves."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a grassy area with fallen leaves, overlooking a road and mountains in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A grassy hillside with fallen autumn leaves overlooks a curving road, buildings, and a mountain range under a blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a road winding through [ORGANIZATION] under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grassy field scattered with autumn leaves overlooks a winding road with cars, residential buildings, and distant mountains under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a winding road and residential buildings nestled in a valley with mountains in the background, framed by a grassy foreground scattered with autumn leaves."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene autumn scene features a narrow canal reflecting bare trees, with fallen leaves on the water and a small bridge in the background, while people walk on a path to the left."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene park scene featuring a reflective waterway bordered by trees and a bridge."
+        },
+        "gpt-5.4": {
+          "summary": "A narrow canal in a park reflects bare trees and fallen autumn leaves, with a small arched footbridge ahead and a few people on the side path."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene park scene featuring a reflective stream surrounded by autumn foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene autumn park scene with a canal reflecting bare trees, viewed from behind a green railing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a canal in a park during autumn, featuring tall trees with bare branches reflected in the water and people walking on a path."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A fluffy grey and white cat wearing a purple harness is sitting inside a transparent bubble pet carrier, looking out."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat is seen inside a transparent backpack with a bubble window, showcasing its fur and harness."
+        },
+        "gpt-5.4": {
+          "summary": "A fluffy gray-and-white cat wearing a harness sits inside a transparent pet backpack on a wooden table indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat in a transparent backpack designed like an astronaut helmet."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy gray-and-white cat wearing a purple harness sits inside a transparent astronaut-style pet carrier on a wooden surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A fluffy grey and white cat wearing a purple harness sits inside a transparent, bubble-style pet carrier backpack resting on a wooden surface."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cup of foam sits on a wooden table in a rainy outdoor setting with palm trees and parked cars in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A hot drink sits on a wet wooden table overlooking a rainy palm-lined street with parked cars and a tall building in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A rainy day scene featuring a cup of coffee in front of parked cars under palm trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A frothy drink sits on a wooden table outdoors during rain, with parked cars and palm trees in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hot beverage on a wooden table overlooking a wet, paved promenade with parked cars and palm trees under an overcast sky."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An anthropomorphic white rabbit, dressed in a blue jacket and white cravat, stands in a green garden setting with bushes in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cartoonish rabbit in a blue coat stands near a [PERSON] in a grassy area."
+        },
+        "gpt-5.4": {
+          "summary": "A white rabbit dressed in a blue coat is walking through a hedge-lined garden in a whimsical, storybook-style scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A rabbit character dressed in a blue jacket stands outdoors near bushes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A costumed rabbit in a blue jacket stands on grass beside bushes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A CGI rabbit wearing a blue jacket and tie stands in a grassy garden next to a [PERSON]."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant image of clear blue-green ocean water gently lapping against a rocky coastline under natural light."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts clear turquoise water over rocky seabed with visible seaweed and a rocky shoreline."
+        },
+        "gpt-5.4": {
+          "summary": "Clear turquoise seawater ripples over submerged rocks beside a rocky shoreline and flat coastal rock shelf."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene coastal scene featuring clear turquoise waters meeting rocky shores."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Clear turquoise ocean water laps against rocky shores with visible submerged rocks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of clear turquoise coastal water flowing over submerged rocks and a flat stone platform, framed by concrete structures in the foreground."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A paper cup with a beverage sits on a wooden table, overlooking a sunny street lined with palm trees, parked cars, and distant buildings."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black cup sits on a wooden table with palm trees and vehicles in the background under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small coffee cup sits on a wooden table facing a sunny palm-lined street with parked cars, a scooter, and a tall building in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cup of coffee sits on a wooden table in an outdoor urban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black paper cup sits on a wooden table outdoors, with palm trees, parked cars, and a building in the background under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a small coffee cup on a wooden table at an outdoor cafe, with palm trees and parked cars visible in the background."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A coffee cup rests on a wooden table in the foreground, with a decorated Christmas tree and a [LOCATION] figure visible in the background of a public lobby."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a festive scene with a Christmas tree and a [LOCATION] figure, alongside a coffee cup on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "A small coffee cup sits on a table in front of a decorated Christmas tree and a [LOCATION] figure inside a theater or lobby area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive scene featuring a Christmas tree adorned with ornaments in front of [LOCATION] figurine inside what appears to be an indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coffee cup sits on a wooden table in front of a decorated Christmas tree with a [LOCATION] figure nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a coffee cup on a wooden table in a lobby, with a decorated Christmas tree and a [ORGANIZATION] figure standing nearby."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A partially consumed drink in a [ORGANIZATION] cup sits on a table, overlooking a scenic bay with large rock formations and clear blue water under a bright sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A coffee cup sits on a table with a scenic view of cliffs and the ocean in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A paper coffee cup sits on a table by a large window overlooking bright blue sea and large rocky coastal cliffs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a rocky island from an outdoor café table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nearly empty [ORGANIZATION] coffee cup sits on a dark wooden table overlooking a scenic coastal cliff and turquoise sea."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A half-empty [ORGANIZATION] cup sits on a dark wooden table in the foreground, overlooking a scenic coastal view featuring large limestone cliffs and turquoise water."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person sits on a grassy cliff overlooking a rocky coastline with a large sea stack, calm water, distant city buildings, and mountains under a dramatic cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a rocky coastline under a cloudy sky at sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic cloudy sky hangs over a coastal scene with rocky cliffs, calm water, distant mountains, and a few buildings along the shore."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic coastal scene under a cloudy sky at sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coastal scene at dusk with dramatic clouds, layered cliffs, and a distant cityscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A coastal landscape featuring a large rock formation in the water, with a city skyline and mountains visible under a dramatic cloudy sky."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cup of coffee sits on a textured surface in the foreground, with a street scene featuring palm trees, parked cars, and the sea in the background under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A coffee cup is placed on a table with palm trees and a street view in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A small coffee cup sits on an outdoor café table beside a street lined with palm trees, parked cars, and a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cup of coffee sits in a public space surrounded by palm trees under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nearly empty coffee cup sits on a table outdoors, with palm trees and parked cars visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a coffee cup on an outdoor table overlooking a street lined with palm trees and parked cars."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A buffet-style spread features multiple platters of roasted whole chickens served on beds of rice, accompanied by large rectangular dishes of fresh salad with feta cheese, cucumbers, tomatoes, and onions, all arranged on a black tablecloth."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a table set with grilled chicken, rice, salad, and a sauce in a pitcher."
+        },
+        "gpt-5.4": {
+          "summary": "A dining table is set with platters of whole roasted chickens on rice, side salads with cucumber and cheese, and pitchers of gravy or sauce."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A table set with roasted chickens served over rice accompanied by a Greek salad."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A table displays multiple servings of roasted whole chickens on brown rice alongside large salads and pitchers of gravy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A long table covered with a black cloth displays multiple large platters of roasted chicken served over rice, alongside fresh salads and pitchers of gravy."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A decorated Christmas tree and a [LOCATION] figure are surrounded by numerous shopping bags and gifts, set in what appears to be a cinema lobby."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a decorated Christmas tree surrounded by various gift bags and a [LOCATION] figure."
+        },
+        "gpt-5.4": {
+          "summary": "A decorated Christmas tree with gifts and shopping bags underneath stands indoors beside a [LOCATION] figure in what looks like a cinema or mall hallway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive Christmas tree decorated with ornaments sits in a lobby adorned by shopping bags from various brands."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A decorated Christmas tree surrounded by shopping bags stands next to a [LOCATION] statue in a lobby with movie posters."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A decorated Christmas tree and a [LOCATION] figure stand next to a pile of shopping bags on a patterned carpet in what appears to be a cinema lobby."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A festive chocolate Yule log cake, decorated with miniature holiday figures and umbrellas, is displayed on a golden tray in a lounge setting with a Christmas tree in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a decorative chocolate cake designed to resemble a log, adorned with festive elements."
+        },
+        "gpt-5.4": {
+          "summary": "A large decorated chocolate yule log cake sits on a tray in a modern lounge with Christmas decorations in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive chocolate yule log decorated with holiday-themed ornaments in a modern lounge."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A decorated chocolate log cake with festive ornaments sits on a reflective surface in a lounge with a Christmas tree in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A festive chocolate Yule log cake decorated with miniature umbrellas, snowmen, and a poinsettia sits on a display counter in a lounge setting with a Christmas tree in the background."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image shows a stack of purple and gold Cadbury chocolate gift boxes, specifically \"[ORGANIZATION]\" and \"Cadbury Dairy Milk Miniatures,\" featuring \"Merry Christmas\" and snowflake designs."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several boxes of [ORGANIZATION], prominently displaying a 'Merry Christmas' message."
+        },
+        "gpt-5.4": {
+          "summary": "A stack of [ORGANIZATION] chocolate gift boxes with purple holiday packaging and a large 'Merry Christmas' design is displayed indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Stack of Cadbury Dairy Milk Miniatures boxes decorated in purple Christmas-themed packaging."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stack of purple [ORGANIZATION] Christmas chocolate boxes with festive snowflake and star designs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stack of purple and gold Cadbury Dairy Milk Miniatures boxes featuring 'Merry Christmas' holiday branding."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant market stall displays a wide variety of fresh fruits and vegetables, including oranges, apples, avocados, coconuts, and leafy greens, with a person visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant display of various fruits at a market stall, showcasing a colorful assortment of produce."
+        },
+        "gpt-5.4": {
+          "summary": "A street market fruit stand displays stacked crates of citrus, avocados, coconuts, apples, pomegranates, and leafy greens against a stone wall and staircase."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant market stall displaying a variety of fresh fruits including oranges, apples, pomegranates, avocados, pineapples, coconuts, corn cobs, and leafy greens."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant outdoor market stall displays various fruits and vegetables in wooden and plastic crates, with price signs in Arabic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant outdoor fruit stand displays a colorful abundance of produce, including oranges, apples, avocados, and pineapples, arranged in wooden crates against a stone wall."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime scene captures a harbor densely packed with various boats, featuring illuminated structures resembling Christmas trees and colorful lighthouses in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a marina at night filled with various boats, illuminated by festive lights and colored lighthouses in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime [LOCATION] scene shows many docked boats under a dark sky, with festive lights and red and green harbor beacons in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene night scene at a marina filled with boats under illuminated decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime harbor filled with boats, decorated with Christmas lights and illuminated lighthouses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night view of a crowded harbor filled with docked boats, featuring festive Christmas light decorations and illuminated lighthouses in the background."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A festive night scene features an old stone building with arched windows, decorated market stalls, palm trees, and numerous blue string lights."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a beautifully lit outdoor plaza at night, featuring a decorated wooden structure and palm trees."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime outdoor square features a stone building, palm trees, a small canopy-covered kiosk, and festive blue holiday lights along a fence."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive night scene decorated with blue lights in front of a stone building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime view of a decorated outdoor area with festive lights, palm trees, and a stone building."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night scene of a stone plaza featuring a wooden market stall and palm trees, framed by an iron fence decorated with blue Christmas lights."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a beautifully decorated stone building at night, adorned with red decorations and fairy lights."
+        },
+        "gpt-5.4": {
+          "summary": "A stone building at night is decorated with a giant red bow, hanging red ornaments, and dense white string lights in a festive display."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive night scene decorated with red ornaments and lights in front of a stone building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime view of a stone building decorated with red lanterns, fairy lights, and a large red bow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stone building facade at night is elaborately decorated with a large red velvet bow, hanging fairy lights, and numerous red paper lanterns."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A coffee cup rests on a dark wooden table, overlooking a scenic coastal view with large rock formations in clear blue water under a bright sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A coffee cup sits on a table with a scenic view of rocky cliffs and the ocean in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A paper coffee cup sits on a table in front of a large window overlooking bright blue sea and rocky coastal cliffs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a rocky island from an outdoor café table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nearly empty [ORGANIZATION] coffee cup sits on a dark wooden table overlooking a scenic coastal view with cliffs and turquoise water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A half-empty [ORGANIZATION] cup sits on a dark wooden table in the foreground, overlooking a scenic coastal view featuring large limestone cliffs and turquoise water."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man takes a mirror selfie in a traditionally furnished room featuring a large wooden cabinet, a chandelier, and framed graduation photos."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in front of a mirror, showcasing a well-furnished room with a chandelier and various personal items."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie in a home dining/living room with a chandelier, dark wooden cabinet, and framed portraits on the wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man takes a mirror selfie in an ornate room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a room with ornate furniture, a chandelier, and graduation photos on the wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard takes a mirror selfie in a living room featuring traditional wooden furniture, a crystal chandelier, and graduation photos on the wall."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An illuminated outdoor nativity scene features statues of [ORGANIZATION], shepherds, wise men, angels, and animals, set amidst trees with festive lights."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a nativity scene with statues of [PERSON], [PERSON], baby [PERSON], and other figures in a decorated outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "An illuminated outdoor nativity scene with statues of [PERSON], [PERSON], baby [PERSON], animals, and decorative star lights is set among trees and greenery at night."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nativity scene featuring figurines of [PERSON], [PERSON], baby [PERSON] in a manger surrounded by animals under decorative trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime outdoor nativity scene with illuminated statues of figures around a central baby in a manger, surrounded by trees and animals."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An outdoor nativity scene featuring figurines of [ORGANIZATION], shepherds, and animals illuminated by green lights at night behind a black metal fence."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing sunglasses and a puffer vest takes a selfie outdoors, overlooking a coastal city with cliffs and the sea under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie by the coast with a scenic background of cliffs and buildings under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person in sunglasses and an orange puffer vest on a seaside promenade with cliffs, high-rise buildings, calm water, and a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing sunglasses and a vest takes a selfie against an ocean backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard and sunglasses takes a selfie on a coastal overlook with city buildings and cliffs in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man wearing sunglasses and an orange vest takes a selfie on a coastal promenade with cliffs, the sea, and high-rise buildings in the background under a cloudy sky."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a vast, rugged landscape, likely mountains, illuminated by a bright band of light on the horizon during dawn or dusk."
+        },
+        "gpt-4o-mini": {
+          "summary": "Aerial view of snow-covered mountains with a faint sunset glow on the horizon."
+        },
+        "gpt-5.4": {
+          "summary": "A moody aerial view shows [LOCATION] and a fjord or coastline under a dramatic sunset horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a mountainous landscape at dusk from an airplane window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of a snowy mountain range at twilight with distant lights visible below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An aerial view of a snow-covered mountain range at twilight, featuring a bright horizon line and scattered city lights in the valleys."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An espresso and a red vase with white flowers sit on a cafe table at night, overlooking a bustling city street with illuminated buildings and passing cars."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cozy café scene at night featuring a cup of espresso and decorative flowers on a table."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime outdoor café table with an espresso, mugs, and white flowers overlooks a city street lined with lit buildings and passing cars."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy café scene at night featuring a cup of espresso."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime café table set with coffee, a vase of white flowers, and a view of a European street."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a cafe table set with coffee and flowers, overlooking a busy city street at night."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with a beard takes a selfie outdoors on a rooftop or balcony, overlooking a city skyline with the Eiffel Tower visible in the background under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie with a view of [LOCATION], including [LOCATION] in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie on a rooftop or terrace shows a city skyline with [LOCATION] in the distance under dramatic cloudy sky at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A selfie taken from a high vantage point overlooking [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard takes a selfie on a rooftop overlooking [LOCATION], with [LOCATION] visible in the background under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man in a dark sweater takes a selfie on a balcony with [LOCATION] and Parisian rooftops visible in the background under a cloudy sky."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A panoramic view of a city or town at dusk or dawn, featuring residential buildings, roads, and trees under a cloudy sky with a bright horizon."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a cityscape at sunset, featuring buildings, trees, and a road."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view of a hillside neighborhood with trees, apartment buildings, and a road beneath a dramatic cloudy sky at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene urban landscape at sunset with a mix of residential buildings, trees, and open sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic urban view at sunset with clouds, trees, buildings, and a road."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a city at sunset featuring residential buildings, trees with autumn foliage, and a road in the foreground."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of clear turquoise ocean water next to a rocky shore under a bright blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a clear blue ocean with visible rocky formations and calm water."
+        },
+        "gpt-5.4": {
+          "summary": "Clear turquoise ocean water stretches to the horizon beside a rocky shoreline under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene coastal scene featuring clear turquoise waters meeting a rocky shoreline under a bright blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Clear turquoise ocean water laps against rocky shores under a blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic coastal view featuring clear turquoise water, a rocky shoreline with tide pools, and a calm blue horizon under a bright sky."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, overhead view of clear, shallow water revealing rocks and pebbles on the bottom, with sunlight creating shimmering patterns on the surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows clear water with visible rocks and pebbles beneath the surface."
+        },
+        "gpt-5.4": {
+          "summary": "Clear shallow water ripples over large rocks and pebbles, creating bright reflections on a rocky shoreline or seabed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of clear water over rocks reflecting sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Clear water ripples over sunlit rocks and pebbles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of clear, turquoise water rippling over a bed of submerged rocks and pebbles."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A blue bicycle is parked next to a wooden surface with a partially consumed cup of coffee, set against an urban background featuring palm trees, cars, and buildings under a clear sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a bicycle parked next to a coffee cup on a wooden table, with palm trees and cars in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bicycle is parked beside an outdoor table with a small coffee cup, with palm trees and parked cars along a sunny street in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bicycle parked near a wooden bench holding an espresso cup in front of palm trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coffee cup sits on a wooden table next to a blue bicycle, with palm trees and parked cars in the background under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blue mountain bike is parked on a paved promenade next to a wooden table holding a small coffee cup, with palm trees and cars in the background."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A two-panel meme shows an anime character getting a haircut above the text 'Just a little bit please', followed by a real cat wearing a salon cape with a serious expression."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image humorously depicts a lion character in a barber's chair asking for a small haircut."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel meme shows a white cat in a barber chair asking for \"Just a little bit please,\" followed by the cat appearing with a very short haircut."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat in a barber's chair requests 'Just a little bit please'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A two-panel meme showing a lion-headed character pleading for a haircut, followed by a white cat looking resigned."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A two-panel meme showing an anthropomorphic lion character with long hair in a salon chair, followed by a white cat with a similar expression and cape, illustrating a humorous contrast between expectation and reality."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic coastal view features a large rock formation in the ocean, with cliffs covered in green grass, urban buildings in the background, and a bright blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of the ocean with a rocky outcrop and city buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny coastal view shows waves below grassy cliffs, a large offshore rock, and buildings along the shoreline."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic coastal view featuring a rocky outcrop in the sea under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coastal view showing cliffs, ocean waves, and city buildings under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic coastal view featuring a grassy cliffside, ocean waves, and high-rise buildings along the shoreline under a bright sun."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat stands on a paved sidewalk next to a road lined with palm trees, while a water bottle, coffee cup, and a 'Fitness' snack packet rest on a wooden surface in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat walks past a table with a water bottle, a coffee cup, and a snack in a sunny outdoor setting with palm trees."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat stands on a sidewalk beside an outdoor table with a water bottle and paper cup, with palm trees and a road in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat stands near a water bottle in an outdoor plaza."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat walks past a table with a water bottle, coffee cup, and snack packet on a paved outdoor area with palm trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat walks on a paved promenade near palm trees, viewed from a table with a water bottle, coffee cup, and biscuit packet."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A job posting for a part-time, on-site technical role in [LOCATION], detailing qualifications, responsibilities, and a salary of $400 per month."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a job listing for a part-time technical position in [LOCATION], requiring a master's degree and offering a salary of $400 per month."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a job posting lists an on-site office-based technical role in [LOCATION] with part-time hours, salary details, qualifications, and responsibilities, with some items circled in red."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Job listing details a part-time technical role requiring web development skills."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A job posting for a technical role with highlighted requirements and responsibilities."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital job posting for a part-time technical role in [LOCATION] requiring a Master's degree and web development skills."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white bowl filled with vibrant red pomegranate seeds rests on a white crocheted lace tablecloth."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up view of a bowl filled with pomegranate seeds on a lace tablecloth."
+        },
+        "gpt-5.4": {
+          "summary": "A white bowl filled with pomegranate seeds sits on a lace-patterned tablecloth."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bowl filled with pomegranate seeds placed on a lace tablecloth."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white bowl filled with fresh pomegranate seeds sits on a lace tablecloth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white bowl filled with fresh pomegranate seeds sits on a white lace tablecloth."
+        }
+      }
     }
   }
 }

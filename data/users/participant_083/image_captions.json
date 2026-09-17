@@ -1,62 +1,931 @@
 {
   "user_id": "participant_083",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "competitive gaming",
-        "photography",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: competitive gaming; photography; video games."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] squad setup with player ratings and positions on a football field."
+        },
+        "gpt-5.4": {
+          "summary": "A football video game [ORGANIZATION] squad screen shows a 4-3-1-2 lineup with player cards, chemistry details, and [ORGANIZATION] selected on the right panel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] squad setup in a football video game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football squad manager screen showing player cards arranged in a 4-3-1-2 formation with detailed stats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] squad screen displaying a 4-3-1-2 formation with high-rated [ORGANIZATION] players and full chemistry."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "competitive gaming",
-        "crafts and design",
-        "spectator sports",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: city exploration; competitive gaming; crafts and design; spectator sports; video games."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a stylish outfit with green hair poses in front of a mirror, holding a Poké Ball."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a hotel room showing a person in a cosplay-style outfit with green hair, black gloves, suspenders, and a [ORGANIZATION] prop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a formal outfit takes a mirror selfie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a cosplay outfit with green hair and glasses takes a mirror selfie in a hotel room, holding a Poké Ball."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with green hair and glasses wearing a formal costume with suspenders and black gloves poses in a hotel room mirror while holding a smartphone and a red-and-white ball."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "competitive gaming",
-        "outdoor activities",
-        "spectator sports",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: city exploration; competitive gaming; outdoor activities; spectator sports; video games."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A promotional banner for 'AJAX TRAINING SIMULATION SYSTEMS' features a military armored vehicle with a soldier, set against a sky background with a starry overlay, and includes the [ORGANIZATION] logo."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a promotional display for the AJAX training simulation systems, showcasing a military vehicle with a starry background."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional display board for [ORGANIZATION] AJAX vehicle shows an armored platform under the title 'AJAX' with the phrase '[ORGANIZATION].'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A military display featuring an [ORGANIZATION] armored vehicle under a banner promoting training simulation systems."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional poster for [ORGANIZATION] AJAX training simulation systems, featuring a tank with soldiers and a starry sky background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vertical display banner for [ORGANIZATION] AJAX training simulation systems, featuring a soldier in an armored vehicle against a digital backdrop."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "competitive gaming",
-        "spectator sports",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: competitive gaming; spectator sports; video games."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an esports scoreboard for the [LOCATION] Defiant team in a match, showing player names and scores."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] tweet shows an in-game scoreboard for [LOCATION] Defiant on the Push mode with player names and hero portraits."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot from an [ORGANIZATION] esports match showing [PERSON] lineup against another team."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scoreboard from an [ORGANIZATION] esports match shows [ORGANIZATION] leading 2-0, with player names and 0% win rates displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] broadcast showing the [LOCATION] Defiant team lineup with a score of 2-1 on the Push map."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "competitive gaming",
-        "dining",
-        "spectator sports",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: city exploration; competitive gaming; dining; spectator sports; video games."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a competitive gaming interface for role selection in a multiplayer game, showing options for [ORGANIZATION], Damage, Support, and All roles."
+        },
+        "gpt-5.4": {
+          "summary": "A competitive game role-selection screen shows Tank, Damage, Support, and All options with [ORGANIZATION] selected and a READY button below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A game interface showing a role selection screen in competitive mode."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A competitive multiplayer game's role selection screen showing options for [ORGANIZATION], Damage, Support, and All roles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the competitive role selection screen from a video game, showing [ORGANIZATION] role selected with a queue time of under one minute."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "competitive gaming",
-        "spectator sports",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: city exploration; competitive gaming; spectator sports; video games."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a humorous tweet imagining an alternative game called 'freakbox' instead of '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media post joking about [PERSON] and [PERSON], quoting an [ORGANIZATION] post about an adults-only [PERSON] party pack announcement."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous tweet imagining a parody of [ORGANIZATION] party games."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet humorously imagines a risqué version of [PERSON] with 'freakbox' and 'freaklash' instead of the original titles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post screenshot showing a user's humorous reply to an [ORGANIZATION] announcement about an adult-themed [ORGANIZATION] party pack."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Twitter post discussing banned [ORGANIZATION] forms and user comments recommending help for account issues."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an X/Twitter post thread showing multiple reply comments, several of which promote [ORGANIZATION] account-recovery or cyber-expert services."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Twitter thread discussing account recovery services."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter thread discussing banned [ORGANIZATION] and user comments recommending cyber experts on [ORGANIZATION] for account recovery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter thread discussing the permanent banning of [ORGANIZATION] forms and Star Turtle, with multiple users recommending [PERSON] accounts for account recovery services."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media post displays a news article about a trans-identified male confirmed as [ORGANIZATION], accompanied by an"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a certificate confirming [PERSON] as [ORGANIZATION] International Master in chess, alongside a blurred photo of the individual."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a social media post criticizing a quoted post about a trans-identified FIDE player being confirmed as [ORGANIZATION], with an embedded certificate image and a portrait of the player."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tweet discussing a trans-identified male chess master's achievement."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tweet discussing a chess title awarded to a trans-identified male, shown with a FIDE certificate and a person's portrait."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media post displays a split image featuring a FIDE chess certificate for '[PERSON], [ORGANIZATION]' alongside a portrait of the individual against an orange background."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A chat conversation screenshot shows one user asking if they should go"
+        },
+        "gpt-4o-mini": {
+          "summary": "A conversation on Discord where one user contemplates going live for the first time while playing [PERSON], and another user encourages them."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed chat screenshot shows one user asking, \"hmm should i go live and first time Pokerogue?\" and another replying \"yes\" and \"yes.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Discord chat conversation discussing a live stream involving 'Pokerogue'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter conversation where one user asks if they should go live and play Pokerogue, and another user responds affirmatively."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Discord chat screenshot shows user [ORGANIZATION] asking if they should go live to play [ORGANIZATION] for the first time, with user [ORGANIZATION] replying affirmatively."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of a Discord message from '[LOCATION]' announcing a giveaway for [ORGANIZATION] Account [ORGANIZATION], detailing its end date, host, and number of entries/winners."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a giveaway announcement for a [ORGANIZATION] account hosted by a user named [ACCOUNT]"
+        },
+        "gpt-5.4": {
+          "summary": "A Discord screenshot shows a [LOCATION] post advertising a [ORGANIZATION] Account [ORGANIZATION] giveaway with end date, host, and entry details."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Discord message from [LOCATION] announcing a Bronze Valorant Account [ORGANIZATION] giveaway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bot notification announces a [ORGANIZATION] account giveaway ending in 3 days."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Discord screenshot displays a giveaway announcement by [ORGANIZATION] Account [ORGANIZATION] hosted by user [PERSON]"
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a mystical scene with a shadowy figure in the background, surrounded by colorful, glowing graffiti-like art on the walls."
+        },
+        "gpt-5.4": {
+          "summary": "A dark interior with glowing graffiti-like murals on pillars has a hand-drawn yellow circle highlighting a faint central wall image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A mystical scene featuring colorful projections against a dark backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit, atmospheric scene with glowing murals on pillars and a yellow circle highlighting a faint, ghostly figure in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark, atmospheric scene featuring a faint, ghostly figure circled in yellow amidst colorful graffiti on pillars."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character from [PERSON], [PERSON], depicted in a dramatic pose with intricate armor in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized animated close-up shows an armored character wearing a gold face mask and ornate shoulder armor in a dark, dramatic setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up portrait of a armored figure in gold and red tones against a blurred background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a character in ornate golden armor and helmet, set against a blurred background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a dark-skinned character wearing an ornate golden mask and armor with glowing white eyes against a blurred industrial background."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a group of figures in a misty, illuminated setting, with intricate designs and a large, abstract structure in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic [ORGANIZATION]fantasy scene shows a giant illuminated statue head with glowing eyes and silhouetted figures standing in a foggy neon-lit street."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large statue of a menacing figure looms over silhouetted figures within an ornate, dark environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Silhouetted figures stand before a massive, glowing statue with red eyes and ornate patterns in a dimly lit, industrial setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A massive, ominous statue of a woman with glowing red eyes and green liquid dripping from her mouth stands in a dimly lit, industrial setting while several small figures in top hats gather below."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Pikachu character with a language selection prompt for English and Spanish."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] graphic appears above a \"SELECT LANGUAGE\" menu with large buttons for English and [ORGANIZATION] on a plain light background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Pikachu character above a language selection interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A language selection screen featuring Pikachu, with options for English and [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital language selection screen featuring the character [PERSON] above buttons for English and [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man resembling [PERSON], wearing a white lab coat, crouches in front of a metal fence, with the text '[PERSON]"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a white shirt with the text '[ORGANIZATION] prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A blond man in a white lab coat leans forward in front of a metal fence, with large bold text overlaid reading \"BORIS UNLEASHED.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a lab coat sits behind bars under bold '[ORGANIZATION] text."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a white coat is shown behind text reading '[ORGANIZATION] with a cartoonish font."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring a man in a white coat with the text '[ORGANIZATION] overlaid in bold, colorful fonts."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a standings table for [ORGANIZATION] in a sports tournament, showing teams and their points."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed [ORGANIZATION] standings table shows [LOCATION], [LOCATION], [LOCATION], and [LOCATION] all tied on 4 points after 3 matches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A table showing Group E standings in a sports competition."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed table showing the standings for Group E in a sports tournament, with four tied teams."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital scoreboard displays the standings for Group E of a tournament, showing [LOCATION], [LOCATION], [LOCATION], and [LOCATION] tied with identical records."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character in a dramatic pose, showcasing a futuristic and stylized design."
+        },
+        "gpt-5.4": {
+          "summary": "A dark fantasy-style illustration shows an armored masked warrior seated on a throne-like chair, holding a helmet in one hand."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a fantasy setting holding an object."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A masked warrior in ornate armor holds a weapon, standing in a dramatic, fiery setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A masked character in white and red attire holds a large blade while seated within a dark, circular frame."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a dark-themed social media interface showing several trending"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays trending political hashtags and topics related to elections in the [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot shows a social media trending list with [LOCATION] politics and election-related hashtags."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "#ExitPoll trending topics related to [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter interface showing trending political hashtags related to the [LOCATION] general election."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media trending topics list focused on [LOCATION] politics and the 2024 General Election."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a video game loading screen featuring two stylized characters, a female warrior and a large golden golem"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases a character from the game '[PERSON]', featuring a vibrant, animated style with a focus on action and gameplay mechanics."
+        },
+        "gpt-5.4": {
+          "summary": "A game launcher/install screen for 2XKO Alpha Lab shows stylized fighting-game artwork with a character and a large glowing mask-like figure beside download progress text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A promotional screenshot of a game called '2XKO Alpha Lab' featuring an animated character in action."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game installation screen for '2XKO ALPHA LAB' showing a character and robot companion with download progress."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of [ORGANIZATION] game launcher showing the installation progress for '2XKO Alpha Lab' alongside promotional artwork of a female character and her robotic companion."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a player pick screen from a football video game featuring three player cards with varying ratings."
+        },
+        "gpt-5.4": {
+          "summary": "A football video game player-pick screen shows three card choices, including [PERSON], [LOCATION], and a highlighted 94-rated [ORGANIZATION] card."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three rare gold player cards are displayed in a video game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game screen showing three player cards from a 'Player Pick' selection, with one highlighted as rare gold."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game interface displaying three football player cards—[LOCATION], [LOCATION], and [PERSON]—under the heading 'Player Pick'."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features various [ORGANIZATION] characters with a label indicating 'Depiction of honesty'."
+        },
+        "gpt-5.4": {
+          "summary": "A dark meme-like graphic shows the text \"Depiction of honesty\" beside a row of Pokémon character icons, with the rightmost figure highlighted by a yellow circle."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sequence of stylized characters labeled 'Depiction of honesty' alongside a highlighted figure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A row of [ORGANIZATION] characters under the text 'Depiction of honesty', with one highlighted by a yellow oval."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme image displays a row of six Pokémon characters with the text 'Depiction of honesty' on the left, and the final character, [ORGANIZATION], is circled in yellow."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a ticket purchasing interface indicating that no tickets are currently available."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of the [ORGANIZATION] ticketing website shows a pop-up saying no tickets are currently available, with a seating map dimmed in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ticketing website shows a message indicating no tickets are currently available."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pop-up message on a ticket-selling website indicates no tickets are available."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [ORGANIZATION] ticketing website displaying a pop-up error message stating that no tickets are currently available."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long hair is seated at a table, using a gaming device and taking notes in a crowded event setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing glasses and earphones sits at a crowded indoor gaming event, taking notes beside a [ORGANIZATION] setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses sits focused while writing in a notebook during what appears to be an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses and a [ORGANIZATION]-themed hoodie writes at a table with gaming equipment during a convention."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young woman with glasses and a light blue sweatshirt sits at a red table in a crowded hall, writing on paper while using a [ORGANIZATION] console."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] squad layout featuring player cards and their ratings."
+        },
+        "gpt-5.4": {
+          "summary": "A football video game squad-building screen shows a 4-5-1 lineup of player cards on a pitch with an 85 rating and full 33/33 chemistry."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer team lineup in a video game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer team formation screen showing player cards with ratings and positions on a virtual pitch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a football video game interface displaying a female player squad in a 4-5-1 formation with perfect chemistry."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a detailed breakdown of various [ORGANIZATION], including their abilities, items, and movesets."
+        },
+        "gpt-5.4": {
+          "summary": "A black-background graphic shows a competitive [ORGANIZATION] team list with six character sprites and detailed movesets, abilities, items, EVs, and [PERSON] types."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of [ORGANIZATION] profiles showcasing their abilities, types, levels, EVs (Effort Values), natures, movesets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] battle team setup showing six Pokémon with their stats, abilities, movesets, and items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-background graphic displaying a competitive [ORGANIZATION] team lineup featuring six creatures with detailed stats, held items, and movesets."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful background with a playful text overlay stating 'This [PERSON] is fruity'."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of an X/Twitter profile for “[ACCOUNT]” featuring a colorful cartoon banner that says “This [PERSON] is fruity” and a gaming/esports-focused bio."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile of a young esports student promoting their gaming activities."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media profile for '[ACCOUNT]' featuring a [PERSON]-themed banner, gaming roles, and esports affiliations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Twitter profile page for a user named [ACCOUNT] featuring a banner with the text 'This [PERSON] is fruity' and an animated character, alongside a bio highlighting esports and gaming activities."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a registration list for upcoming [ORGANIZATION] tournaments with dates and player counts."
+        },
+        "gpt-5.4": {
+          "summary": "A webpage screenshot shows two 2025 Pokémon VGC tournament registrations with dates and registered player counts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "List of tournament registrations including dates, times, locations (Europe/London GMT), event names like '[ORGANIZATION] and number of registered players."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A webpage showing tournament registrations with dates, times, and player counts for [ORGANIZATION] VGC events."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a user's registration dashboard displaying two upcoming [ORGANIZATION] tournament entries in 2025."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a lineup of [ORGANIZATION] characters along with their abilities, items, and [PERSON] types."
+        },
+        "gpt-5.4": {
+          "summary": "A black-background graphic shows a [ORGANIZATION] team lineup with character sprites, held items, abilities, [PERSON] types, and move sets listed in white text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of [ORGANIZATION] characters along with their abilities listed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Six Pokémon with their stats and moves listed against a black background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a competitive [ORGANIZATION] team lineup featuring [ORGANIZATION], [PERSON], Incineroar, [PERSON], and [LOCATION] with their held items, abilities, [PERSON], and move sets displayed against a black background."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a booking confirmation for [ORGANIZATION] at ExCeL London 2025."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a confirmed booking page for [ORGANIZATION] at ExCeL London 2025, with personal details partially obscured and a party size of 1 person."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Confirmation of a booking made by [ORGANIZATION] at ExCeL [LOCATION] in February."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A booking confirmation for [ORGANIZATION] at ExCeL London 2025, showing personal details with redactions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital booking confirmation screenshot for [ORGANIZATION] at ExCeL London 2025, displaying a checkmark icon and event details."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a suspended account notification for the game [ORGANIZATION], indicating a temporary ban due to rule violations."
+        },
+        "gpt-5.4": {
+          "summary": "A Windows desktop screenshot shows the Riot client open to [ORGANIZATION] with a pop-up stating the account is temporarily suspended."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] account has been temporarily suspended due to using prohibited third-party tools."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] game client displays [ORGANIZATION] popup indicating account suspension due to third-party tool usage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a computer desktop displaying a 'TEMPORARILY SUSPENDED' notification from the game [PERSON], citing prohibited third-party tools."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long brown hair and glasses takes a selfie inside a train or bus, making a peace sign."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long, wavy hair is making a peace sign while seated in a train."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie shows a person wearing glasses and a white sweater inside a train, making a small peace sign next to blue seats under bright overhead lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a selfie in an airplane cabin."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses and long hair makes a peace sign while seated inside a train or bus."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long wavy hair and glasses poses for a selfie on public transit, making a peace sign while seated next to blue upholstered seats."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view from a train window, focusing on the seat and the landscape outside."
+        },
+        "gpt-5.4": {
+          "summary": "View from an airplane window showing the seatback and a blurry outdoor scene with leafless trees and grass below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "View from a train window showing bare trees outside."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from inside a train showing bare trees and a yellow field passing by outside the window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a moving train window showing the back of a grey seat and bare trees outside on an overcast day."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A character stands on a street next to a small green creature with a leaf on its head."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized game scene shows a trainer standing on a city street and looking down at a small green Chikorita under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a green jacket interacts playfully with an animated creature outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character in a hat stands beside a green Pokémon on a city street under a blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A 3D animated character wearing a hat and green vest stands on a city street facing a small, light-green creature with a large leaf."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weekly schedule with activities planned for each day."
+        },
+        "gpt-5.4": {
+          "summary": "A simple weekly schedule table lists each day of the week with notes like \"[ORGANIZATION],\" \"Day off,\" and \"Maybe.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weekly schedule indicating days off and uncertain plans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A schedule table showing days of the week with corresponding activities or statuses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital weekly schedule table listing days of the week alongside availability status such as '[ORGANIZATION]', 'Day off', and 'Maybe'."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collection of various [ORGANIZATION] plush toys is displayed on a table covered with a branded banner, set against a dark backdrop with vertical red and orange lights."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of plush toys displayed in front of a colorful esports varsity flag."
+        },
+        "gpt-5.4": {
+          "summary": "A row of Pokémon plush toys is displayed on a desk draped with a transgender pride flag in an esports-style setup with red vertical lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A display of plush toys arranged in a row under red lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A row of Pokémon plush toys sits on a table draped with an 'ESPORTS VARSITY' banner, set against vertical red lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A row of Pokémon plush toys is displayed on a table draped with an [ORGANIZATION] banner featuring the bi pride flag colors, set against a dark background with vertical red light bars."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long hair is sitting at a desk with a computer monitor displaying a rainy cityscape, while a sign in the background indicates no food or drink is allowed in the room."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie at a computer desk shows a gaming setup with a monitor, webcam, keyboard lighting, and a wall poster about bottled water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in front of a computer setup displaying a rainy cityscape game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses poses in front of a gaming setup displaying a rainy city scene, with a wall poster stating 'NO FOOD OR DRINK IN SPECIALISED ROOM' behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long hair and glasses poses for a selfie at a gaming desk setup featuring a monitor, keyboard, and mousepad."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing headphones and a pink shirt, sitting in front of a computer."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a message saying \"greatly appreciated\" above several repeated images of a woman wearing glasses and headphones, with text at the bottom about stickers being funny."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones appears in a video chat interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a Twitter thread showing two photos of a person wearing headphones, with accompanying text comments."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation featuring a young woman with long hair and glasses wearing headphones, accompanied by the text 'greatly appreciated' and 'stickers too cuz i just think its funny.'"
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A simple graphic displays three names, '[PERSON]', '[PERSON]', and '[PERSON]', with a red oval drawn around them on a white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays three names: [PERSON], [PERSON], and [PERSON], with a red highlight around [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A simple white image shows the words \"[PERSON],\" \"[PERSON],\" and \"[PERSON]\" in black text with a thick red hand-drawn oval over the left side."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red circle highlights '[PERSON]' among three names."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red outline drawn around three names: [PERSON], [PERSON], and [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white background displays three names—[PERSON], [PERSON], and [PERSON]—in black text, with a red hand-drawn oval circling the first two."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person with a headband in a bathroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person in a tiled shower with swim goggles on their forehead and a showerhead visible above."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a swim cap in what appears to be an indoor shower."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with swim goggles on their head stands in a tiled shower stall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless person with dark hair and a gold chain stands in a tiled shower wearing blue swim goggles on their forehead."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long hair, glasses, and a headset with a microphone takes a selfie in what appears to be a studio setting, with a large screen displaying '[ORGANIZATION] and 'TRACKED MEDIA' in the background"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long hair wearing headphones is in front of a screen displaying '[ORGANIZATION] and 'CRACKED MEDIA'."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie-style photo shows a person wearing a broadcast headset in front of a blue esports event screen in a studio-like booth."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones in front of a screen displaying '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long hair and glasses wearing a headset and microphone in front of a screen displaying '[ORGANIZATION] and 'CRACKED MEDIA'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long hair and glasses wearing a headset stands in front of a blue screen displaying '[ORGANIZATION] and 'CRACKED MEDIA'."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION] console displaying a game interface, flanked by two plush toys and a game controller on a red table."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] showing a [ORGANIZATION] team/box screen sits on a red table between [ORGANIZATION] and [ORGANIZATION] plush toys, with a controller and cables around it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] displaying a [ORGANIZATION] game setup alongside plush toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] displaying a [ORGANIZATION] battle team setup, flanked by two plush [ORGANIZATION] toys on a red table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] console displaying a [ORGANIZATION] team management screen is set up on a red table alongside plush toys of the characters [ORGANIZATION] and [ORGANIZATION], a controller, and event materials."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long hair, glasses, and a headset with a microphone looks surprised at the camera, with an esports event logo for 'NSE VALORANT SPRING' visible"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing headphones is in front of a backdrop featuring the '[ORGANIZATION]' logo and event branding."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie shows a person wearing a broadcast headset and glasses in front of an NSE VALORANT SPRING esports event display."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones in front of a 'NSE VALORANT SPRING' backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long hair and glasses wears a headset microphone while reacting in front of a 'NSE VALORANT SPRING' event backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with long hair and glasses wearing a gaming headset, standing in front of an NSE Valorant Spring event banner."
+        }
+      }
     }
   }
 }

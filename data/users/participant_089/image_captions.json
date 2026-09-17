@@ -1,67 +1,2625 @@
 {
   "user_id": "participant_089",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "nature visits",
-        "outdoor activities",
-        "water sports"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; nature visits; outdoor activities; water sports."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An illustration depicts a soldier with wide, intense eyes and a helmet, set against a chaotic battlefield background with mountains, smoke, and a tank."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a soldier in a war-torn landscape with smoke and military vehicles in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic war-themed illustration shows a soot-covered soldier in a helmet staring forward, with a tank, smoke, and rocky mountains in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soldier in a war-torn landscape with smoke billowing behind him."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up portrait of a soldier in a helmet, set against a battlefield with smoke, mountains, and military vehicles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital illustration depicts a soldier with wide eyes and a dirty face in the foreground, set against a chaotic battlefield background featuring smoke, mountains, and military vehicles."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "music",
-        "nature visits",
-        "water sports"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; music; nature visits; water sports."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three ducks fly low over the breaking waves of an ocean or sea under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three ducks are flying over a beach with crashing waves in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Three dark seabirds fly low over a choppy beach shoreline under a gray, overcast sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three ducks fly over a dynamic ocean scene under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three ducks fly low over a turbulent beach with crashing waves under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three ducks are captured in flight over a turbulent ocean with large crashing waves under an overcast sky."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "music",
-        "nature observation",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: music; nature observation; nature visits; outdoor activities; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming interface showing recently played tracks by the artist [PERSON] and one by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a music app page titled “[PERSON]’s recently played,” listing several recently played songs, mostly by [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music app showing recently played tracks by [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing '[PERSON]'s recently played' tracks, mostly by the artist [PERSON], with one entry by [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a [ORGANIZATION] profile named '[PERSON]' displaying a list of recently played songs, predominantly by the artist [PERSON]."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "music",
-        "nature visits",
-        "outdoor activities",
-        "water sports"
-      ],
-      "summary": "Generalized visual topics: cats; music; nature visits; outdoor activities; water sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character expressing discomfort about being crowded by fans at an airport."
+        },
+        "gpt-5.4": {
+          "summary": "An [PERSON] story screenshot shows a side-eye monkey puppet meme with text describing an uncomfortable airport crowd and asking people not to chase them to their car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring a character expressing frustration over being surrounded by fans upon arrival."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meme image of a monkey with text describing an unwanted celebrity encounter at an airport."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media story featuring the '[ORGANIZATION] meme with overlaid text describing an uncomfortable encounter with fans at an airport."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "music",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; music; nature visits; outdoor activities; photography."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses with a relaxed demeanor against a plain background, wearing casual clothing."
+        },
+        "gpt-5.4": {
+          "summary": "A studio-style fashion portrait shows a person with wet dark hair posing in a fitted beige T-shirt, dark cargo-style bottoms, and a long black garment draped over one shoulder against a plain blue backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses confidently in a casual outfit against a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with wet hair poses in a beige crop top, dark pants, and a draped black coat against a plain gray background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark, wet-look hair poses in a studio setting wearing a beige t-shirt, dark cargo pants, and a black jacket draped over one shoulder."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "music",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; music; nature visits; outdoor activities; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait features a person with dark, wet-looking hair partially covering their face, intense eye makeup, and a direct gaze."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person with dark hair, partially obscured."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up fashion-style portrait of a face with dark hair falling across it, dramatic eye makeup, and a moody editorial look."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person's face with tousled hair framing their eyes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up portrait of a person with dark, windswept hair partially obscuring their face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a person with dark hair and intense eyes, featuring strands of hair falling across their face."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A brown bird with patterned feathers and orange legs stands among dry leaves, twigs, and green foliage in a natural, outdoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bird camouflaged among foliage and ground cover in a natural setting."
+        },
+        "gpt-5.4": {
+          "summary": "A brown patterned bird with red legs stands on the ground among wet grass, twigs, and fallen branches in a bushy outdoor area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bird pecks through vegetation in a natural forested area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown bird with orange legs stands among green foliage and fallen branches in a natural outdoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A speckled brown bird with red legs stands on the ground amidst grass, twigs, and fallen branches in a natural setting."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a sink positioned at an open doorway, with water running from the tap and a street view in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous meme shows a bathroom sink placed outside a front doorway with overlaid text about “letting that sink in.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous meme showing a sink overflowing into an alleyway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white pedestal sink is visible outside a doorway with its tap open, overlaid with humorous text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white pedestal sink is placed on a sidewalk outside a building, with text overlaid that reads 'I Let That Sink In And It Took Everything' and 'the tap is open'."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an indoor swimming pool with lanes marked by colored buoys and a scoreboard in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A large indoor lap swimming pool is shown from the deck, with lane lines, blue-and-white flags, and a scoreboard in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large indoor swimming pool equipped with lanes marked by blue and white dividers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An empty indoor swimming pool with multiple lanes, blue and white lane dividers, and a 'NO DIVING' sign on the deck."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of an empty indoor swimming pool with blue and white lane markers, overhead flags, and a scoreboard in the background."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [LOCATION]'s Solitaire bird with a caption indicating it as 'YOUR BIRD OF THE DAY!'"
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a photo of a small gray bird labeled as \"Townsend's Solitaire\" with the heading \"YOUR BIRD OF THE DAY!\" and a month timeline beneath it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bird identified as [LOCATION]'s Solitaire featured in a 'Bird of the Day' post."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gray bird identified as [LOCATION]'s Solitaire perches on a rock, with text declaring it 'YOUR BIRD OF THE DAY!' and a calendar showing March highlighted."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displays a photograph of a [LOCATION]'s Solitaire bird alongside text identifying it as the 'Bird of the Day' with a seasonal activity timeline."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays white text on a blue background,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a playful text about being 'half amazing and half Asian' with a pun on 'Am-Asian'."
+        },
+        "gpt-5.4": {
+          "summary": "A blue text-based meme shows a joke reading, \"I'm half amazing and half Asian... you could say I'm Am-Asian.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous self-declaration of being 'half amazing' and half Asian."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "White text on a blue background displays humorous self-deprecating phrases about being half Asian."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blue background image featuring white text that presents a pun about being half Asian and half amazing."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Black-billed [ORGANIZATION] with a caption highlighting it as 'Your Bird of the Day.'"
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a bird-identification app or website shows a message about no local birds found and highlights a Black-billed Magpie as the bird of the day with a small bird photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Black-billed [ORGANIZATION] featured as 'Your Bird of the Day' in a bird identification app."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Black-billed [ORGANIZATION] is featured as 'Your Bird of the Day' in a bird-watching app interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a bird identification app displaying a Black-billed Magpie as the 'Bird of the Day' after reporting no local matches."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a digital interface showing 'Best suggestions' with a picture of a [ORGANIZATION] bird in grass, next to the text '[ORGANIZATION] and a spectrogram above."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION] bird with a suggestion label."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a bird-identification app shows a grayscale sound spectrogram and a best-match suggestion for [ORGANIZATION] with a small bird photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Image shows a bird identified as '[ORGANIZATION] in an app interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bird identification app interface showing '[ORGANIZATION] as the best suggestion with a thumbnail image and checkmark."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile app interface displaying a 'Best suggestions' section featuring a photo and name of a [LOCATION] bird."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A landscape view features a body of water with dry reeds in the foreground, a row of buildings across the water,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a calm water body surrounded by dry grass and a row of buildings in the background under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet pond bordered by dry grass sits in front of apartment buildings with mountains in the background under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a lake surrounded by dry grasses under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calm body of water bordered by dry grass, with apartment buildings and snow-capped mountains in the background under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A landscape view featuring a calm body of water bordered by dry grass in the foreground, with a row of modern apartment buildings and distant mountains under an overcast sky."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a list of five different bird species, each with an accompanying image and its name, indicating a bird identification or checklist interface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of bird species with accompanying images and checkmarks indicating selection."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a bird-identification checklist with thumbnail photos and bird species names marked with check icons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A list of bird species including [PERSON], Red-winged [LOCATION], [ORGANIZATION], and [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A list of bird species with photos and checkmarks indicating identification or selection."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface displays a checklist of five bird species with corresponding photos and status indicators."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a pigeon with reddish-brown and white feathers preening or resting on sandy ground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bird is preening itself while sitting on the ground."
+        },
+        "gpt-5.4": {
+          "summary": "A brown-and-white pigeon is resting and preening on sandy ground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pigeon preening its feathers while standing on a sandy ground."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pigeon with brown and white feathers is preening itself on sandy ground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a brown and white pigeon resting on sandy ground with its head tucked into its back feathers."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a brown and purple pigeon standing on sandy ground, with another pigeon partially visible in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a brown pigeon standing on a sandy surface with another pigeon partially visible in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a brown pigeon standing on sandy ground, with another pigeon blurred in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a pigeon standing on sandy ground."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A brown pigeon stands on sandy ground with another pigeon partially visible in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a brown and white pigeon standing on sandy ground with another grey pigeon partially visible in the foreground."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three small ducks are seen floating on a rippled body of water."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three ducks are swimming in a calm body of water."
+        },
+        "gpt-5.4": {
+          "summary": "Three small dark waterbirds with white cheek patches are floating on rippling gray water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three ducks swimming in a calm body of water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three ducks float calmly on rippling water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three ducks swim in rippling water, with two displaying distinct black and white head markings."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A blurry image captures two birds on a body of water, with one flying low above the surface and another floating in the"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two birds, one flying and one swimming, over a body of water."
+        },
+        "gpt-5.4": {
+          "summary": "A small waterbird flies low over rippled water while another bird floats nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two birds are seen in a water body; one appears to be flying while another swims."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bird flies low over water while another bird floats nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two birds are captured on a body of water, with one swimming and another flying low over the surface."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small bird is perched among a tangle of dry twigs and reeds."
+        },
+        "gpt-5.4": {
+          "summary": "A small brown bird is perched among dense dry reeds in a natural marsh-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Small bird perched among reeds in a natural environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown bird perched among dry reeds in a natural setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small brown and white bird is perched amidst a dense tangle of dry, light-colored reeds or twigs."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small bird is perched among dry reeds in a natural setting."
+        },
+        "gpt-5.4": {
+          "summary": "A small brown songbird is perched among dense dry reeds in a marsh-like natural setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small bird perched among tall reeds in a natural environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown bird perches among dry reeds in a natural setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small brown and white bird is perched on a dry reed amidst a dense thicket of similar vegetation."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, brown and white patterned bird is perched among numerous dry, vertical plant stems in a natural outdoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small bird is perched among tall, dry grasses."
+        },
+        "gpt-5.4": {
+          "summary": "A small brown-and-streaked bird is perched among dense reed stalks in a marsh-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small bird perched among reeds in a natural environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small brown bird with streaked plumage perches among tall, dry reeds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small brown and white speckled bird is perched among a dense tangle of dry, vertical reeds."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two [LOCATION] geese stand on a sandy, rocky"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two geese are walking along a sandy shore with ducks swimming in the water behind them."
+        },
+        "gpt-5.4": {
+          "summary": "Two [LOCATION] geese stand on a rocky lakeshore while several ducks and other waterbirds float in the water nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two [LOCATION] geese stand near a rocky shoreline where other birds are swimming in calm water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two [LOCATION] geese stand on a dirt shore beside a body of water with other birds swimming."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two [LOCATION] geese stand on a sandy shore in the foreground while numerous ducks and coots swim in the water behind them."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person standing on a dirt path near a body of water, with geese in the foreground and ducks in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person standing on a rocky lakeshore with a camera lens is facing two [LOCATION] geese nearby while many ducks and geese float in the water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two geese stand near a person holding binoculars by a lakeside."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view of two [LOCATION] geese standing on a dirt shore near water, with the photographer's shadow and camera lens visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a photographer standing on a sandy shore with two [LOCATION] geese, holding a large telephoto lens while numerous other waterfowl swim in the background."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in front of a mirror, wearing a floral sweatshirt and patterned shorts."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie of a person indoors showing a casual outfit with a floral-and-bird sweatshirt, patterned shorts, hiking shoes, a crossbody bag, and a peace sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing an outfit featuring floral prints."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a floral sweatshirt, distressed shorts, and hiking boots."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie wearing a grey sweatshirt with a hummingbird print, patterned shorts, and hiking boots while making a hand gesture."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] interface featuring the song '[ORGANIZATION] by [ORGANIZATION], with a colorful background and a stylized graphic."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] playback screen shows the song \"THE PARTY SONG\" by [ORGANIZATION] with horned-helmet album art labeled \"HYPERYOUTH.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Music player interface showing '[ORGANIZATION] by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing 'THE PARTY SONG' by [ORGANIZATION] playing in a queue with a stylized 'HYPER YOUTH' graphic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile music player interface displaying the song '[ORGANIZATION] by [ORGANIZATION] from the album '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two mallard ducks, one male and one female, swim in a shallow, clear stream surrounded by dry, sparse vegetation and brush."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two ducks are swimming in a shallow stream surrounded by dry vegetation."
+        },
+        "gpt-5.4": {
+          "summary": "Two ducks swim in a shallow creek bordered by dry grasses and brush in a natural outdoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two ducks swimming in a shallow stream surrounded by dry vegetation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two ducks swim in a shallow stream surrounded by dry, brushy vegetation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male and female [LOCATION] swim together in a shallow, clear stream surrounded by dry grasses and sagebrush."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming profile highlighting top artists and tracks played."
+        },
+        "gpt-5.4": {
+          "summary": "A music listening stats graphic shows top artists, most-played tracks, and monthly totals from [ORGANIZATION] for March 2026."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music app screenshot showing top artists and songs played in March 2026."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music listening summary showing top artists and frequently played tracks for March 2026."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital music summary graphic displaying top artists and repeat tracks with play counts for March 2026."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat interface where a user humorously invites [PERSON] to collaborate on a reel, highlighting a mix of casual language and a playful tone."
+        },
+        "gpt-5.4": {
+          "summary": "An Instagram Story screenshot shows a humorous [ORGANIZATION]/chat screen with the verified account “joebiden,” including a reel collaboration invite, meme-style text overlays, and a band-related message."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous interaction between a band member and [PERSON] discussing their chance in music."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media screenshot showing a humorous chat between a user and [PERSON]'s verified account, where the user invites him to collaborate on a reel featuring explicit content."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a humorous Instagram DM conversation where a user jokingly invites [PERSON] to collaborate on a reel featuring profanity, followed by a self-deprecating message claiming the band is family-friendly."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a black t-shirt with a graphic design, paired with jeans and black shoes."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a dorm-style room showing a casual outfit with a black graphic band T-shirt, jeans, and black shoes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a black t-shirt featuring 'MAGAZINE' in red letters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a black band t-shirt and jeans in a room with patterned rug and desk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black [PERSON] t-shirt and jeans takes a full-body mirror selfie in a room with a patterned rug."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals wearing distinctive outfits, with a music player interface displaying the song 'Devil Next Door' by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music-player screen shows the song \"DEVIL NEXT DOOR\" by [ORGANIZATION] with colorful album art of two people in pastel outfits."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player interface showing a song by [ORGANIZATION] titled 'Devil Next Door'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Music player screen showing the song 'DEVIL NEXT DOOR' by [ORGANIZATION], with album art featuring two individuals and a cartoon sun."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile music player interface displays the album art for 'Devil Next Door' by [ORGANIZATION], featuring two individuals with distinct hair colors and stylized graphics."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tree with a wooden ladder and a scenic outdoor background, accompanied by a humorous text about protein intake and affection."
+        },
+        "gpt-5.4": {
+          "summary": "A rural outdoor scene with a large tree and ladder/tree stand is overlaid with a humorous text meme about protein and growing muscle tissue in the heart."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous meme comparing protein intake to emotional intensity."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A ladder leans against a tree in a rural landscape under a clear blue sky, overlaid with a poetic text about protein and heart muscle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands on a wooden ladder attached to a large tree in an outdoor setting, overlaid with yellow text expressing a romantic sentiment about thinking of someone."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a social media post discussing perceptions of being called 'weird' by someone from [LOCATION], alongside an advertisement for [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot of an X/Twitter feed in dark mode shows a tweet about being from [PERSON] and 'weird,' an [ORGANIZATION] ad, and a reply tweet referencing the same joke."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Advertisement promoting [ORGANIZATION] continuous AI pentesting service."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter feed showing a user's joke about being from [LOCATION] and called 'weird,' followed by an [ORGANIZATION] ad with Matrix-style code visuals."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter feed featuring a conversation about being from [LOCATION] and an advertisement for [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses in a stylish black outfit with a leather jacket and hat in front of sheer curtains."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in front of tall curtains wearing a black leather-style outfit, cap, and boots with long red hair visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black leather outfit poses against curtains."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair poses in a black leather outfit and beret against draped curtains."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with red hair poses in a full black leather outfit including a jacket, dress, and boots while wearing a black cap."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with vibrant red hair, wearing a black cap, black satin top"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long red hair is seated in a chair, wearing a black cap and a black satin outfit, with a relaxed posture."
+        },
+        "gpt-5.4": {
+          "summary": "A person with red hair wearing a black cap, leather jacket, and black satin outfit reclines in a blue chair indoors, creating a moody fashion-style scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black hat and leather jacket sits in an outdoor chair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair and a black cap sits in a blue chair, partially covering their face with one hand."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with red hair wearing a black cap, leather jacket, and lace top sits on a blue chair while covering their face."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] interface showing a playlist titled '[ORGANIZATION]' with various song titles and artists."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a [ORGANIZATION] playlist titled \"[ORGANIZATION]\" with a dark-themed track list and [ORGANIZATION] \"Frost Park\" currently playing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] playlist titled '[ORGANIZATION]' featuring various tracks by different artists."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app shows a playlist titled '[ORGANIZATION]' with '[LOCATION] by [ORGANIZATION] currently playing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a [ORGANIZATION] playlist titled '[ORGANIZATION]' currently playing the song '[LOCATION] by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large moth is perched on a window screen with a blurred background of a building."
+        },
+        "gpt-5.4": {
+          "summary": "A large dark moth is resting on a window screen with sunlight and a brick building visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A moth perched behind a window screen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A moth is silhouetted against light, resting on a window screen with a brick wall visible behind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, dark moth rests on a window screen with a brick wall visible in the background."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A moth is perched on a window screen with a clear blue sky and buildings visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A dark moth hangs on a window screen against a bright blue sky, with trees and nearby buildings visible outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Silhouette of a moth resting against window screen under clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A moth is silhouetted against a bright blue sky while resting on a window screen, with buildings and trees visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark moth rests on the top frame of a window screen, silhouetted against a bright blue sky and blurred urban background."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot captures a dark butterfly with orange and white markings on its wings, resting on a green, textured plant."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a butterfly perched on a plant."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up macro photo shows a dark butterfly with small orange markings resting on a green leafy plant."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a butterfly resting on green foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a dark-winged butterfly with orange markings perched on green foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a small, dark butterfly with orange spots and white-edged wings perched on a green plant."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals dressed in dark clothing pose in a rocky outdoor setting, captured in black and white."
+        },
+        "gpt-5.4": {
+          "summary": "Black-and-white photo of two people in dark hoodies posing among large desert rocks under a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in dark clothing pose outdoors against a rocky landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two individuals in hoodies stand in a rocky, desert-like landscape under a dramatic sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two individuals in dark streetwear and face coverings pose in a rocky desert landscape under dramatic lighting. The image is presented in black and white with a carousel indicator."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts two individuals exploring a rocky landscape in black and white."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic black-and-white photo shows two people standing among large desert boulders under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are hiking through a rocky desert landscape under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two figures stand atop large boulders in a stark, rocky landscape under a dramatic cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph captures two silhouetted figures standing on large boulders in a rugged, rocky landscape under a dramatic cloudy sky."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features vibrant green ferns growing by the edge of a dark stream or pond, surrounded by grass and fallen leaves."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features lush green ferns growing near a small body of water."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of bright green fern fronds beside a small dark stream or pool in a grassy natural setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of lush green ferns in a forested area near a small stream."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of vibrant green fern fronds growing beside a small stream in a natural setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of vibrant green fern fronds growing beside a small, dark stream in a grassy outdoor setting."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A pressed green fern leaf, showing its characteristic fronds and brown sori on the underside, is mounted on a light-colored background"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a pressed fern leaf displayed on a light background."
+        },
+        "gpt-5.4": {
+          "summary": "A pressed fern frond is taped onto a light background, showing its leaf structure and underside spore patterns."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pressed fern leaf displayed against a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pressed fern leaf with brown spore clusters, mounted on white paper with tape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pressed fern specimen with brown spore clusters is mounted on a white background, secured by small strips of tape."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with red hair is seated in a café, holding a cup of tea or coffee."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up [ORGANIZATION]-story-style selfie shows a person with bright red hair in a black leather jacket sitting indoors with a cup of a hot drink."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person with red hair wearing a black leather jacket sits in front of a mug."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with bright red hair wearing a black leather jacket sits at a table with a mug, captured in a selfie-style video frame."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with bright red hair and a black leather jacket sitting in a cafe with a cup of coffee."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Pied-billed [LOCATION], displayed prominently with a user interface for bird identification."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot of the Merlin bird-identification app showing a photo of a Pied-billed [LOCATION] floating on water as the featured bird of the day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a Pied-billed [LOCATION] displayed as 'Your Bird of the Day' in an app interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a Pied-billed [LOCATION] on water, displayed as 'Your Bird of the Day' in the [PERSON] app."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot from [LOCATION] displaying a Pied-billed [LOCATION] as the 'Bird of the Day' with options for sound and photo identification."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a humorous text overlay discussing gender fluidity in response to a comment about appearance."
+        },
+        "gpt-5.4": {
+          "summary": "A meme shows large white text about being called a girl and being genderfluid above a cropped person's face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme discussing genderfluidity in response to a comment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meme image with white text on a black background, showing a person's face partially visible below the text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring white text on a black background over a partially visible face, expressing acceptance of being called feminine while identifying as genderfluid."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows a dense cluster of small-leaved"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a plant with yellow flowers and green foliage."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of sunlit dry brush with thin stems and small yellow wildflowers outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a plant with yellow flowers in an arid environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of sunlit, yellow-flowered shrubs with a warm, natural background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a dense, yellow-flowering shrub with fine foliage illuminated by warm sunlight."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows several"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of yellow flowers on a green plant."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit close-up shows small yellow wildflowers and dry stems against a softly blurred natural background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of vibrant yellow flowers in a natural outdoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of bright yellow wildflowers on a plant with blurred background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of small yellow wildflowers with green buds and stems, set against a blurred natural background."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A pair of birds are seen interacting on the water's surface."
+        },
+        "gpt-5.4": {
+          "summary": "A duck is standing and preening in shallow water with its reflection visible on the calm surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two birds standing in shallow water near a body of calm blue-green liquid."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bird stands in shallow water, reflected in the surface below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bird with white and brown plumage stands in shallow water, flapping its wings while casting a clear reflection on the surface."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bird stands on the water while another bird is in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A wading bird stands in shallow water with a clear reflection, with another blurred bird in the background in a calm wetland scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two birds standing in shallow water near a shore."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bird stands in shallow water with another bird reflected nearby, while a third bird is visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-winged stilt bird stands in shallow water with its reflection visible, while another bird is present in the background."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two avocets are standing in"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two birds wading in shallow water, with several seagulls in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two ducks stand and flap in shallow water, with two gulls in the background on a calm wetland."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two birds are interacting in shallow water near other seagulls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two birds stand in shallow water with reflections, while other birds are visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pair of avocets with long, upturned bills stand in shallow water while seagulls rest nearby."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bird wades through shallow water while several seagulls are visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A group of waterbirds stands in shallow wetland water, with one bird in focus in the foreground and several gull-like birds behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of birds wading in shallow water near a grassy shoreline."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several birds, including a prominent avocet, stand in shallow water with reflections visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of wading birds, including a prominent avocet with a long upturned bill, stands in shallow water near a grassy shoreline."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bright yellow bird with a black cap is perched on a bare tree branch against a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small yellow bird perched on a branch against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small yellow bird is perched on the bare branches of a white-barked tree against a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small bird perched among bare tree branches against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow bird perches on bare tree branches against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small yellow bird with black wings perches on a bare tree branch against a clear blue sky."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bright yellow bird with black markings is perched on a bare tree branch against a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A yellow bird perched on a branch against a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small yellow bird is perched on a bare tree branch against a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A yellow bird perched among bare branches against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow bird perches on bare branches against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small yellow bird with black wings and a white tail perches on a bare tree branch against a clear blue sky."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small yellow, black, and white bird is perched on a bare tree branch with reddish-brown buds against a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A small yellow bird perched on a branch against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A small yellow bird is perched on bare tree branches against a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A yellow bird perched among bare branches against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow bird perches on bare tree branches against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small yellow and black bird perches on a budding tree branch against a clear blue sky."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with wavy hair is taking a selfie while looking down a wooded path."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person on a dirt trail beneath dense leafless, frost-covered branches in bright daylight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in an outdoor path surrounded by bare trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with blonde hair takes a selfie while walking on a dirt path through bare trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with blonde hair takes a selfie on a dirt trail surrounded by dense, leafless trees."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dark bird perched on a branch against a pale sky."
+        },
+        "gpt-5.4": {
+          "summary": "A dark bird, likely a crow or [LOCATION], is perched on bare tree branches against a pale sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bird perched among bare tree branches against a pale sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-feathered bird perches on a bare tree branch against a pale sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark bird with iridescent blue plumage perches on a bare tree branch against a pale sky."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification from [ORGANIZATION] with the message 'STOP BEING SHY'."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows an [ORGANIZATION] notification banner over the home screen with the message “STOP BEING SHY.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT] [ACCOUNT] STOP BEING SHY notification from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone notification shows an [ORGANIZATION] story from '[ACCOUNT] [ACCOUNT]' with the text 'STOP BEING SHY'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] home screen displaying a prominent [ORGANIZATION] notification from user [ACCOUNT] with the message 'STOP BEING SHY'."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features clusters of small white flowers with green stems amidst a backdrop of tall green and golden grasses."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cluster of white flowers amidst green grass."
+        },
+        "gpt-5.4": {
+          "summary": "Clusters of small white wildflowers are growing among tall green grass in warm natural light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "White flowers in a grassy field under bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "White star-shaped flowers bloom on slender stems amidst tall green grass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cluster of small white wildflowers with six petals blooms amidst tall green grass and seed heads in a sunlit meadow."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital interface displays a grade of 45.5 points out of 50, with options for submission and feedback."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a grade report showing a score of 45.5 points out of 50."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an online grade page shows a score of 45.5 points out of 50 with a submission and feedback link."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Grade card showing a score of 45.5 out of 50 points."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A digital grade display showing 45.5 points out of 50."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital grade card displays a score of 45.5 points out of 50 within a circular progress indicator."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] interface featuring an album titled '[ORGANIZATION] by underscores, with a colorful, artistic cover and a currently playing track."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot of [ORGANIZATION] showing the album page for \"U\" by underscores with abstract cover art and the track \"Tell Me (U Want It)\" playing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover art featuring a stylized figure surrounded by trees in an abstract style."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing the album '[ORGANIZATION] by underscores, currently playing the track 'Tell Me (U Want It)'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the [ORGANIZATION] app displaying the album '[ORGANIZATION] by underscores, currently playing the track 'Tell Me (U Want It)'."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing red shoes and dark pants stands on an escalator next to a silver suitcase, with a large quote about romance and products overlaid on the bottom of the image."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person descends an escalator with a suitcase, accompanied by a quote about their views on romance."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of someone riding an escalator beside a silver rolling suitcase, overlaid with a large orange quote about romance and products."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing red shoes stands next to a suitcase on an escalator."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in red sneakers stands beside a silver suitcase on an escalator, overlaid with a quote about romantic feelings toward products."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a person's legs and red sneakers standing on an escalator next to a silver suitcase with a large white smiley face logo."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A gray and white poodle dog with a fluffy coat sits on a wooden floor, looking directly at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A poodle sitting on a wooden floor, looking directly at the camera."
+        },
+        "gpt-5.4": {
+          "summary": "A gray-and-white poodle stands indoors on a hardwood floor, looking up at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fluffy white dog stands attentively indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fluffy gray-and-white poodle sits attentively on a wooden floor indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, high-angle shot of a white and grey poodle sitting attentively on a polished wooden floor indoors."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of various bird species with checkmarks indicating verified entries."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a scrolling bird-identification checklist with thumbnail bird photos and species names, including [LOCATION], Bushtit, Great Horned Owl, Acorn Woodpecker, Northern Flicker, and American Goldfinch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A list of bird species including Great Horned Owl."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A list of bird species with corresponding images and checkmarks indicating identification status."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface displays a vertical list of bird species, each accompanied by a thumbnail photo and its name."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A narrow dirt path winds through a dense, green forest with an overhead canopy of leaves and branches, creating a natural tunnel effect."
+        },
+        "gpt-4o-mini": {
+          "summary": "A narrow dirt path winding through a dense, green forest with overhanging branches."
+        },
+        "gpt-5.4": {
+          "summary": "A narrow dirt trail winds through a dense, leafy wooded area with overhanging branches and scattered rocks."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dirt path winds through a lush forested area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A narrow dirt path winds through a dense, leafy forest with dappled sunlight filtering through the canopy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A narrow dirt hiking trail winds through a dense, green forest with an overhanging canopy of trees."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A human hand is placed on the ground next to two mushrooms,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand is positioned next to two mushrooms on the ground, surrounded by leaves and grass."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is held next to two tan mushrooms growing among dry leaves, twigs, and patches of grass on the ground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand gestures towards two mushrooms growing in a leaf-covered ground."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand is placed beside two mushrooms on a bed of dry leaves and grass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand placed on the ground next to two mushrooms, one intact and one overturned to reveal its gills, amidst dry leaves and grass."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a large, light-colored mushroom"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a large mushroom growing amidst fallen leaves and grass."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a large pale mushroom growing among dry leaves and grass in an outdoor natural setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large mushroom growing in a leaf-covered forest floor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a light-colored mushroom growing among dry leaves in a grassy outdoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-angle shot of a large, overturned mushroom with a white stem and fluted cap growing among dry leaves in a grassy area."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a potted tree in a backyard setting next to a wooden fence."
+        },
+        "gpt-5.4": {
+          "summary": "A tall potted tree is staked beside a wooden fence in a residential backyard or side yard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A potted tree in a backyard next to wooden fencing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young potted tree with a support stake stands in a backyard next to a wooden fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young tree supported by stakes sits in a large pot within a backyard corner next to a wooden fence and stucco wall."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene sunset illuminates a natural landscape with silhouetted trees, a dirt path winding through a grassy field, and a warm orange glow on the horizon."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset scene with trees and a grassy path."
+        },
+        "gpt-5.4": {
+          "summary": "A narrow dirt path runs through a grassy field toward silhouetted trees and a bright sunset on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sunset over a grassy path lined by trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dirt path winds through a grassy field toward silhouetted trees at sunset, with the sun glowing orange behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A serene landscape photograph captures a bright sunset glowing through the silhouette of large trees along a grassy path."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A calico cat rubs its head against a person's leg while being petted, on a wooden floor."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is petting a calico cat while sitting on a wooden floor."
+        },
+        "gpt-5.4": {
+          "summary": "A calico cat is being petted by a seated person on a wooden floor indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person pets a calico cat indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person pets a calico cat resting on their leg indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand petting a calico cat on a wooden floor."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A calico cat with white, orange, and black fur is being petted on the head by a human hand, standing on a light wooden floor indoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is petting a calico cat in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A blurred close-up shows a calico cat standing on a wooden table indoors while a hand pets its back near the tail."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person pets a calico cat indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand pets a calico cat standing on a wooden floor indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, motion-blurred photo shows a hand petting the head of a calico cat standing on a wooden floor."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bird is perched on a tree trunk, partially obscured by foliage."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry photo shows a bird standing among branches and foliage in a wooded area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Bird in flight amidst dense foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurred bird perched on a tree trunk amidst dense foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blurry, zoomed-in photograph of a bird with grey and reddish-brown plumage perched on a tree branch amidst dense foliage."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a pin of a pileated woodpecker attached to a card from [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a [ORGANIZATION] wildlife pin card featuring a pileated woodpecker enamel pin on a tree trunk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] wildlife pin featuring a Pileated Woodpecker."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION] pin featuring a pileated woodpecker on a tree trunk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a [ORGANIZATION] enamel pin featuring a Pileated Woodpecker on a tree trunk, part of [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a colorful LEGO cactus arrangement in a well-lit room."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a LEGO-style potted cactus and flower model in a softly lit indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a LEGO cactus plant in front of an indoor background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a LEGO cactus model with pink flowers in a light blue pot, set against a teal wall with framed art and a guitar."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a completed LEGO cactus set featuring two green plants with pink and yellow flowers in a light blue pot."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features text discussing the immaturity of flirting and a claim about identifying birds by sound."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous meme with a laughing emoji, blue background, and large white text joking about flirting by saying you can identify birds by sound."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme discussing maturity in flirting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meme image displays a text message about mature flirting, contrasted with a humorous caption about bird identification."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring a blue text bubble with white text about flirting and direct communication, overlaid with a caption at the bottom."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a plant with vibrant purple leaves and small, bright purple flowers with yellow centers, set against a blurred outdoor background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a purple flowering plant with green leaves."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a purple trailing plant with small bright violet flowers in an outdoor garden or patio setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a plant with purple leaves and small pink flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a plant with purple leaves and small purple flowers blooming."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a purple-leafed plant with small, vibrant violet flowers blooming in an outdoor setting."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant orange and blue Bird of Paradise flower stands prominently in a pot next to a sparkling blue swimming pool on a sunny day, with a wooden fence and trees in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a vibrant orange bird of paradise flower in a garden setting near a pool."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a bright orange bird-of-paradise flower in a potted plant on a sunny patio beside a backyard swimming pool."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant bird of paradise flower in a garden near a pool."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant orange bird of paradise flower blooms beside a swimming pool under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant orange Bird of Paradise flower in a pot is positioned on a patio next to a swimming pool with a wooden fence and trees in the background."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene outdoor scene features a pond surrounded by tall green grasses and rolling hills under a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene landscape featuring a pond surrounded by lush greenery and a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A calm outdoor landscape shows a grassy wetland pond reflecting a blue sky, with a few houses and trees in the distance and a bright halo-like arc overhead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a pond surrounded by lush [ORGANIZATION] under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene landscape featuring a grassy wetland with a calm pond reflecting the sky, surrounded by rolling hills and residential houses under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A serene landscape featuring a calm pond surrounded by tall green grass and reeds, with rolling hills and residential houses visible in the background under a bright blue sky."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bright, sunny landscape features a wide green field with tall grass in the foreground, leading to a line of trees under a clear blue sky with the sun shining prominently."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bright sun shines over a lush green field with trees in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bright sun shines over a grassy open field bordered by trees under a wide blue sky with thin clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a sunlit sky over lush green fields."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright sun shines over a grassy field with scattered trees under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bright sun shines over a lush green meadow with scattered trees under a blue sky."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of various bird species with corresponding checkmarks and icons indicating their status."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a bird identification or checklist page with thumbnail photos of birds and species names, some marked with check icons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A list of bird species including [PERSON], Western Kingbird, [ORGANIZATION] among others."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A list of bird species with photos and checkmarks indicating selections."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface displays a vertical list of bird species with thumbnail photos and names, some marked with checkmarks or sun icons."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a brown, black, and white butterfly perched on a cluster of small light purple flowers amidst green foliage."
+        },
+        "gpt-4o-mini": {
+          "summary": "A butterfly is perched on a pink flower in a green setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a black, white, and orange butterfly perched on small light-purple wildflowers amid green grass and plants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A butterfly perches delicately on a pink flower amidst lush green foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black and white butterfly with orange markings rests on a cluster of small purple flowers amidst green grass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a black, white, and orange butterfly perched on small purple wildflowers amidst green grass."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black, white, and orange butterfly is perched on a cluster of small light purple flowers amidst a vibrant green grassy background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A butterfly is perched on a cluster of small purple flowers in a grassy setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black butterfly with white and orange markings rests on small purple wildflowers among green grass and plants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A butterfly perches delicately among small purple flowers in a lush green field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black, white, and orange butterfly perches on a purple flower amid green grass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a black butterfly with white and orange markings resting on small purple flowers amidst green grass."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a hand with two rings gently touching green leaves on a branch, set against a blurred natural background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand is gently touching green leaves on a branch in a natural setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up outdoor photo shows a hand touching small green leaves on a sunlit tree branch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand gently touches a leafy branch in an outdoor natural environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand with rings gently holds a branch of green leaves against a blurred natural background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand wearing two rings gently touching the green leaves and branches of a tree in bright sunlight."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant green-leafed tree stands prominently in a sunlit grassy field under a clear blue sky with sparse white clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A lush green tree stands in a grassy field under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A leafy green tree stands in tall grass under a bright blue sky with light wispy clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A solitary tree stands in a grassy field under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A leafy tree stands prominently in a grassy field under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, leafy tree stands in a grassy field under a blue sky with light clouds."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text post expressing strong opposition to Nazi bands and the local music scene's complicity in supporting them."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of an [ORGANIZATION] story by a band account posting a long anti-Nazi message about local punk bands, venues, and the [LOCATION] scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post criticizing Nazi bands in [LOCATION] and expressing frustration over local music scene participation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post from 'chudson.band' condemning Nazi bands in [LOCATION] and expressing refusal to collaborate with or perform at venues that host them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] story from the account 'chudson.band' containing a multi-paragraph text post denouncing Nazi bands and white supremacy within the [LOCATION] music scene."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two field guides, one about mushrooms and another about plants of [LOCATION], are displayed on a textured surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two field guidebooks on mushrooms and plants, with a focus on [LOCATION] flora."
+        },
+        "gpt-5.4": {
+          "summary": "Two nature field guides are lying on a bed, including books about identifying mushrooms and plants of [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two field guides focused on mushrooms and plants of [LOCATION] are displayed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two field guide books about mushrooms and plants of [LOCATION] are displayed on a gray fabric surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two nature field guides, one on mushrooms and another on plants of [LOCATION], are resting on a light gray quilted surface."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person holding a camera while standing on a gravel path surrounded by trees."
+        },
+        "gpt-5.4": {
+          "summary": "A partial person carrying a camera stands on a sunlit gravel path winding through a wooded area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person walking along a gravel path in a forested area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holding a camera walks along a gravel path through a sun-dappled forest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a grey t-shirt and carrying a camera stands on a gravel path in a wooded area."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a delicate white bell-shaped flower and several buds on a slender stem, set against a blurred background of green grass and distant trees under a bright sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a delicate white flower growing in a grassy field with trees in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a delicate white wildflower with small hanging buds in a grassy meadow, with trees softly blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a white flower in a grassy field under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white bell-shaped flower blooms on a slender stem in a sunlit grassy field with trees in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a white, bell-shaped wildflower with green buds growing on a grassy hillside under bright sunlight."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a delicate flower surrounded by green grass and small purple blooms."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a pale purple wildflower blooming among green grass and small pink ground flowers in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a delicate purple iris flower in green grass."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a light purple iris flower blooming amidst green grass and small pink wildflowers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a single pale purple and yellow iris flower blooming amidst lush green grass and small wildflowers in bright sunlight."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several white flowers amidst lush green grass and foliage."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up nature photo shows several pale purple wildflowers blooming among tall green grass and dense foliage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene field of white flowers amidst green foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "White and pale purple irises bloom among tall green grasses in a natural field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of pale purple iris flowers blooming amidst tall green grass and foliage in a natural setting."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a delicate light purple and white wildflower with ruffled petals, set against a soft, blurred green background of foliage."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a delicate purple flower surrounded by green foliage."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a pale purple iris-like wildflower against a soft green grassy background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a delicate purple flower in lush green surroundings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a delicate purple and white iris flower standing in a blurred green field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a delicate, pale purple wildflower with ruffled petals standing against a soft-focus green background."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a dragonfly perched on a green blade of grass."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a blue damselfly perched on a thin green reed in a soft-focus grassy wetland setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dragonfly perched delicately among tall grasses in a natural outdoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue dragonfly perches on a green blade of grass in a blurred natural setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a blue damselfly perched on a green blade of grass against a blurred natural background."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black bird with iridescent"
+        },
+        "gpt-4o-mini": {
+          "summary": "A black bird is perched on a branch, singing against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A glossy black bird perches on a thin tree branch with its beak open against a bright blue sky and fresh green leaves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black bird perched in a tree against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black bird with iridescent feathers perches on a tree branch against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black bird with iridescent plumage perches on a tree branch against a clear blue sky, its beak open as if calling."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, spiky horned lizard rests in a person's open hands, with a blurred outdoor, arid landscape in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a small lizard in their hands, surrounded by a natural outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person is holding a small spiky lizard in their hands outdoors in a dry, scrubby landscape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a small spiny lizard in their hand outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a small horned lizard in their cupped hands against a dry, brushy outdoor background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a person's hands gently holding a spiny horned lizard in an outdoor, arid setting."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two distinct human shadows with raised arms are cast across a vibrant green grassy hillside,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a grassy area with trees in the background and shadows of two figures on the ground."
+        },
+        "gpt-5.4": {
+          "summary": "A bright green grassy clearing bordered by trees sits under a cloudy sky, with two long human shadows visible on the grass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A grassy field under a cloudy sky with two silhouetted figures casting shadows."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] under an overcast sky, showing the distinct shadow of two people jumping."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A grassy hillside with mixed evergreen and deciduous trees under a cloudy sky, featuring the distinct shadow of a person making a hand gesture on the ground."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A calico cat with a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A calico cat is resting against a person's leg on a stone patio."
+        },
+        "gpt-5.4": {
+          "summary": "A calico cat wearing a collar is rubbing against a person's legs on a sunlit paved patio."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A calico cat lounging comfortably between a person's legs outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calico cat wearing a collar rests its head on a person's knee outdoors on a paved surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A calico cat wearing a collar affectionately rubs its head against a person's leg while sitting on a paved patio."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of ducks, predominantly [ORGANIZATION], and one American Coot are swimming on calm, rippled water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of ducks swimming in a calm body of water, accompanied by a single coot."
+        },
+        "gpt-5.4": {
+          "summary": "Several ducks and a dark waterbird are floating on rippled water in a calm outdoor scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of ducks swimming in rippling water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several ducks with distinct plumage float calmly on rippling water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of ducks and a coot swim together in rippling water."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification about a bird observation being saved, featuring a bird with a distinctive red and black plumage."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile app screenshot shows a bird observation confirmation popup over a photo of a woodpecker perched on a branch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bird observation app confirms finding a Bird of the Day."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app confirmation popup shows a user successfully identified a bird, with the message 'You found your Bird of the Day!'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface displays a confirmation message that a bird observation has been saved, featuring a photo of a woodpecker."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a blooming succulent plant with pink and yellow flowers in a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A succulent plant with pink flowers is displayed on a windowsill alongside a candle and books."
+        },
+        "gpt-5.4": {
+          "summary": "A flowering succulent in a blue-green ceramic pot sits on a windowsill above a candle jar, lit by warm indoor light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A succulent plant in a teal pot sits atop a candle jar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A succulent plant with pink flowers sits in a teal ceramic pot atop a candle jar on a windowsill."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A potted succulent with pink flowers sits on a cork lid atop a candle jar near a window."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a '[LOCATION] [LOCATION]' t-shirt with a shark graphic is holding a calico cat that is looking upwards."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting with two cats, one of which is resting on their lap."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a graphic T-shirt sits on a bed cuddling a calico cat in their lap."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a '[LOCATION] shirt holds their calico cat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a '[LOCATION], [LOCATION]' t-shirt holds a calico cat on their lap while sitting on a bed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a grey t-shirt with a fish graphic sits on a bed holding a calico cat in their lap."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a brown and orange butterfly with spotted wings resting on a cluster of small purple flowers amidst green foliage."
+        },
+        "gpt-4o-mini": {
+          "summary": "A butterfly is perched on a purple flower in a natural setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a butterfly perched on a purple wildflower against a soft green natural background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A butterfly perches delicately on a purple flower amidst green foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A butterfly with patterned wings perches on a cluster of purple flowers against a blurred green background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a butterfly with mottled brown, orange, and white wings perched on purple wildflowers against a blurred green background."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a brown and orange butterfly with its wings spread, perched on a stem with small purple flowers, against a soft green background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A butterfly with orange and black patterns is perched on purple flowers in a green setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up nature photo shows an orange-and-brown butterfly resting on purple wildflowers against a blurred green background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A butterfly perches delicately among vibrant purple flowers in a lush green environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A butterfly with orange and brown wings rests on a cluster of purple flowers against a blurred green background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of an orange and black butterfly with white spots resting on a cluster of purple flowers against a blurred green background."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cluster of ferns in a grassy area, with a small purple flower in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up nature photo shows a patch of ferns and grasses in a field, with a small purple wildflower at the left edge."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a green fern plant amidst tall grass in an outdoor natural environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fern plant with green fronds and dried brown parts grows in a grassy field, accompanied by a small purple flower."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a green fern plant with brown, dried fronds growing in tall grass alongside a single purple flower."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A city street scene featuring a bare tree, pedestrians, and parked cars amidst tall buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A downtown city street lined with tall office buildings shows pedestrians, cars including a yellow taxi, and many birds perched on a leafless tree and scattered on the sidewalk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cityscape scene featuring a tree with birds perched atop it amidst tall buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A city street lined with tall buildings, featuring a bare tree with birds perched on its branches and pigeons on the ground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle street view of a city canyon featuring tall skyscrapers, pedestrians on the sidewalk, and numerous pigeons gathered around a leafless tree."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A light-colored pigeon stands"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person extends their hand towards a pigeon on the ground."
+        },
+        "gpt-5.4": {
+          "summary": "A light-colored pigeon stands on a sunlit stone pavement while a hand reaches toward it, with strong shadows cast across the ground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person extends their hand towards a pigeon walking across paved ground."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand is extended toward a pigeon standing on a paved sidewalk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand reaching out towards a white and tan pigeon standing on a paved sidewalk."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two dark grey pigeons are perched closely together on a textured stone ledge, with a background of ornate stone architecture."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two pigeons are perched on a stone ledge in an urban setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two pigeons are perched close together on a weathered stone ledge of a large building facade."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two pigeons perched closely together atop a stone railing in front of an ornate architectural backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two pigeons are perched and preening on a weathered stone architectural ledge."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two pigeons are perched together on a weathered stone ledge in front of an ornate architectural structure."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A low-angle shot captures the intricate Gothic architecture of a grand cathedral with two towering spires against a cloudy sky, flanked by modern"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the ornate facade of a Gothic-style church with tall spires against a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "An upward view of a large Gothic-style cathedral facade with twin spires, framed by modern city skyscrapers under a bright sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A grand Gothic cathedral facade under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle view of a Gothic cathedral with two tall spires against a partly cloudy sky, framed by modern skyscrapers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a grand Gothic Revival cathedral with twin spires and intricate stone tracery, set against a cloudy sky."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dimly lit interior with ornate architecture and candlelight, featuring a mural on the wall."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit ornate interior shows tall wood-paneled walls, arched architecture, candle-style wall lamps, and a large painted mural."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dimly lit interior of a grand building featuring ornate columns, candles in chandeliers, and religious artwork."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit grand interior with ornate columns, glowing candelabras, and a large mural on the wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit interior of a grand, ornate hall featuring tall fluted columns, large candelabras with electric candles, and a mural on the left wall."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a green plant stem with several small, round clusters of reddish-green flowers or buds against a blurred green background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a flowering plant with small red and green buds against a blurred green background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a slender wild plant with small red and pale clustered flower heads against a blurred grassy background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a plant with small red flowers in an outdoor grassy field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a plant with small red and green flower clusters against a blurred green background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a slender green plant stem featuring small, clustered flower heads in shades of red and pale green against a blurred grassy background."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand adorned with rings gently holds a cluster of small wildflowers with red and green blossoms against a blurred green outdoor background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand is holding a small flowering plant in a grassy setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a hand with rings behind small red-and-green wildflower heads in a sunlit grassy field."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holding a small plant in an outdoor grassy area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a flowering plant with small red buds against a blurred green grass background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand wearing two rings gently holding a delicate plant with small red and green flower clusters against a blurred grassy background."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several small flowering plants with red and green buds in a grassy field."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows small reddish wildflower heads on thin stems in a grassy meadow with a blurred green background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of small red flowers in a grassy field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of slender-stemmed plants with small red and green flower clusters in a sunlit grassy field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of delicate wildflowers with reddish-purple seed heads growing on thin green stems against a blurred grassy background."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A European starling with iridescent black feathers, a yellow beak, and orange legs stands on a gray paved surface next to white plastic chair legs."
+        },
+        "gpt-4o-mini": {
+          "summary": "A starling stands on a paved surface near a white chair."
+        },
+        "gpt-5.4": {
+          "summary": "A dark speckled bird stands on a paved patio between the legs of white outdoor chairs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A starling perched between white plastic chairs outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A starling stands on gray pavement beneath a white plastic chair."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A starling with iridescent plumage and a yellow beak stands on a paved patio between white plastic chairs."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A brown bird with a long beak stands on a bed of fallen leaves, partially obscured by a black metal fence"
+        },
+        "gpt-4o-mini": {
+          "summary": "A bird is partially visible behind a black fence, surrounded by [ORGANIZATION] and fallen leaves."
+        },
+        "gpt-5.4": {
+          "summary": "A small brown bird with a long beak is sitting on leaf litter beneath bushes behind a black metal fence."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bird perched among leaves behind a metal fence."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bird with a long beak and brown plumage is seen through ornate black iron bars, surrounded by green foliage and dry leaves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A brown bird with a long beak sits on the ground among dry leaves, viewed through the bars of a black metal fence."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person's feet standing between two bicycles, with shadows and a textured ground visible."
+        },
+        "gpt-5.4": {
+          "summary": "A top-down view shows someone standing between two parked share bikes in bright sunlight, with pedals, wheels, and shadows visible on the pavement."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands between two bicycles casting a shadow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view of someone standing next to a blue bicycle with their shadow cast on pavement."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person perspective shot of a person standing between two docked blue and white rental bicycles on a sunny sidewalk."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The Statue of Liberty stands prominently on its pedestal,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features [LOCATION] standing prominently against a clear sky."
+        },
+        "gpt-5.4": {
+          "summary": "A distant daytime photo shows the Statue of Liberty on its pedestal across the water under a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A clear view of [ORGANIZATION] against a hazy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "The Statue of Liberty stands tall on its pedestal beside water, with people visible around its base."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A full-length view of [ORGANIZATION] standing on its pedestal and base, surrounded by water with a hazy sky background."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a cluster of small purple and blue wildflowers on a stem, set against a softly blurred background of vibrant green grass."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a purple flower amidst green grass."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a small purple wildflower blooming among tall green grass in a sunlit field."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a purple flower amidst green grass in soft focus."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a purple flower blooming in a field of green grass under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a purple wildflower, likely a lupine, blooming amidst tall green grass in a sunlit field."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand is holding a green plant with pods in a grassy field."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a green seed pod on a wild plant among tall grass and narrow-leaf foliage outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand gently touches a green pod in an open field of grassy plants."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand gently holds a green lupine pod amidst tall grass and purple flowers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand holding the seed pods of a lupine plant amidst tall green grass and foliage."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dense patch of green foliage with small purple flowers."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit close-up shows dense green wild plants with small purple flower spikes growing outdoors in a grassy area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A lush field of purple wildflowers under bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A field of green plants with purple flowers under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a dense patch of green lupine plants with small purple flowers growing in bright sunlight."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of various bird species with their names, some marked with a check."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a bird-identification list with photos and names of several bird species, including [ORGANIZATION], [ORGANIZATION], and verified entries like [ORGANIZATION] and American [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "List of bird species including [ORGANIZATION], [ORGANIZATION], etc., each accompanied by an image."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A list of bird species with photos and checkmarks indicating selections."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface displays a vertical list of common North American bird species with thumbnail photos and names, where several entries are marked with blue checkmarks."
+        }
+      }
     }
   }
 }

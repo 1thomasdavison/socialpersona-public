@@ -35,41 +35,43 @@ evaluation setup and results.
 
 ## Public dataset
 
-This repository includes a **100-user subset**. To protect participants' privacy,
-the public data underwent strict de-identification: identifying details and
-original media were removed, and posts, captions, and interest labels were
-generalized. These changes reduce the available detail, so evaluation results
-on the public version will differ from those reported in the paper.
+The `targeted-deidentified-v2` release contains **100 users**,
+**17,511 posts**, **85,488 image descriptions** for 14,248 image entries, and
+**2,836 interest annotations** across seven domains.
 
-Each participant has four ordered timeline summaries, an interest profile across
-seven domains, and six user-level visual topic summaries. The release contains
-400 timeline summaries, 600 visual summaries, and 1,841 generalized interest
-entries. It supports exploring the data format and evaluation pipeline.
+De-identification replaces identifying words and selected private details while
+preserving individual records and specific interests. Games, works, public
+artists, brands and teams remain where they describe interests. The same rules
+apply to post text, image descriptions and interest labels. Existing masked
+names are not guessed or restored.
 
 ```text
 data/
   users/participant_001/
-    posts.jsonl          # Four timeline topic summaries
-    gold_profile.json    # Generalized interest annotations and evidence links
-    image_captions.json  # User-level visual topics from six caption models
-  vocabulary.json       # Topic vocabulary
-  privacy_audit.json    # Aggregate privacy-processing statistics
-  manifest.json         # Public data checksums
+    posts.jsonl          # Individual posts with relative days
+    gold_profile.json    # Specific interest labels and local evidence links
+    image_captions.json  # Individual descriptions from six caption models
+  privacy_audit.json     # Aggregate transformation statistics
+  manifest.json          # Data checksums
 src/user_profile_pipeline/
 scripts/
 tests/
 configs/*.example
 ```
 
-Timeline phases preserve coarse order; dates and durations have been removed.
-Visual summaries aggregate topics at the user level. Generalized interest labels
-retain their source categories and have not undergone a separate human review.
-See the [data guide](data/README.md) for field definitions and
-[privacy documentation](PRIVACY.md) for the processing procedure.
+Dates become relative days; source IDs, original images, contact details and
+media fingerprints are excluded. Evidence IDs and row indices are rebuilt
+consistently. Captions retain their image-level grouping; the earlier export did
+not preserve a reliable caption-to-post association, so they remain separate
+from the timeline input in the offline example.
 
-For controlled research access to the full benchmark, contact
-**qkzhang@ir.hit.edu.cn**. When reporting experiments with the public subset,
-identify the data version as `privacy-derived-v1`.
+This version retains substantially more detail than the four-summary
+`privacy-derived-v1` release. Processing still changes the inputs, so new
+experiments should report their own results and the data version. The paper's
+reported scores come from the controlled benchmark.
+
+See the [data guide](data/README.md) and [privacy treatment](PRIVACY.md).
+For controlled research access, contact **qkzhang@ir.hit.edu.cn**.
 
 ## Quick start
 
@@ -91,6 +93,7 @@ python -B -m user_profile_pipeline.benchmark.profile_eval \
   --data-test-root data/users \
   --output-dir results/public_smoke \
   --models mock_oracle \
+  --max-posts 0 \
   --anchor-match-model exact_match \
   --visual-mode wo_text_image \
   --profile-input-mode text_only \
@@ -99,12 +102,20 @@ python -B -m user_profile_pipeline.benchmark.profile_eval \
 
 In PowerShell, put the evaluation command on one line or use backticks for line
 continuation. This check runs locally without API calls. `mock_oracle` copies
+reference evidence from the full timeline; `--max-posts 0` keeps all posts so
+those evidence indices remain valid. It copies
 reference labels into predictions, and `exact_match` scores normalized label
 matches. The resulting scores check the pipeline; model comparisons require
 predictions from the models being evaluated. Outputs are saved under
 `results/public_smoke/`.
 
 ## Evaluation code
+
+Current profile extraction and scoring use `uncapped_interest_tags_v1`: supported
+interest tags have no count limit in Direct, Hierarchical, or Extractive. Direct
+uses one shared prompt; the other methods retain their own inputs and schemas.
+Predictions and metrics record `profile_eval_protocol_version`, and resuming a run
+requires the current version. The paper's existing scores predate this code revision.
 
 The profiling code implements three methods: **direct** inference from a timeline,
 **hierarchical** summarization followed by aggregation, and **extractive** evidence
@@ -152,7 +163,7 @@ that checkout during this check.
 ## License and contact
 
 Code is released under the [MIT License](LICENSE). Author-created annotations
-and the generalized public data are licensed under
+and the de-identified public data are licensed under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 The dataset is intended for aggregate research. Please respect participants'

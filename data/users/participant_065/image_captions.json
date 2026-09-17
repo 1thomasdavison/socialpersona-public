@@ -1,67 +1,3043 @@
 {
   "user_id": "participant_065",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "nature visits",
-        "outdoor activities",
-        "photography",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; nature visits; outdoor activities; photography; walking and hiking."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A quiet street scene with a view of a road lined by trees and streetlights during dusk."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet tree-lined residential road at dusk is shown with lit streetlights, power lines, houses, and a blue-green railing beside a narrow canal."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quiet street scene during dusk with a sidewalk lined by colorful railings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A quiet street at dusk with illuminated streetlights, overhead power lines, and a small canal bordered by a blue and green railing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A quiet residential street at dusk with a lit streetlamp, overhead power lines, and a canal bordered by a blue and green railing."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "city exploration",
-        "dining",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; city exploration; dining; walking and hiking."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performance event featuring a dance group in traditional attire on stage with a live band."
+        },
+        "gpt-5.4": {
+          "summary": "A group performs a choreographed tambourine dance in an indoor gymnasium while a live band plays on stage and spectators watch from the sides and bleachers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of performers in purple sashes are dancing while a band plays music during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of performers in white and purple outfits dance with hand drums on a blue mat during an indoor cultural event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young dancers in white and purple uniforms performs a choreographed routine with hand props on an indoor gymnasium floor while a live band plays on stage."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "dining",
-        "nature visits",
-        "outdoor activities",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: dining; nature visits; outdoor activities; photography; reading."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals in matching white shirts and purple sashes poses together in a large indoor space, likely after an event."
+        },
+        "gpt-5.4": {
+          "summary": "A large group in matching white shirts poses in an indoor gymnasium, with some wearing purple sashes and others holding tambourines in front of a photo display wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of young people in matching white shirts pose together indoors under a purple-lit ceiling."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of young people in matching white shirts and purple sashes pose for a photo indoors, holding hand drums and making peace signs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of young people wearing matching white t-shirts and purple sashes pose for a photo inside a gymnasium, with some holding hand drums."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "dining",
-        "outdoor activities",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; dining; outdoor activities; reading."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals in matching outfits poses together in a gymnasium, with a display board in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A large group in matching white shirts poses for a photo inside a blue-lit gym or event hall, with some holding tambourines in front of display boards covered with pictures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Group of young people posing together in a gymnasium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of young people in matching white shirts and purple sashes pose for a photo indoors, holding small hand drums and making peace signs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of young people in matching white shirts and purple sashes pose for a photo inside an indoor arena, with some holding tambourines."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "dining",
-        "outdoor activities",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dining; outdoor activities; photography; reading."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collection of colorful accessories and tags arranged on a black bag, with a patterned background."
+        },
+        "gpt-5.4": {
+          "summary": "A black tote bag is displayed with purple event items including a luggage tag, keychain, beaded bracelet, wristband, and an \"EST 1999\" [ORGANIZATION] plate on whale-patterned fabric."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of items including a tote bag, keychains, stickers, and wristbands featuring '[PERSON]' branding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of purple-themed religious merchandise and a license plate-style tag from [ORGANIZATION] are arranged on a black tote bag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of purple and white event merchandise, including a wristband, keychain, stickers, and a license plate, is displayed on a black tote bag with whale patterns."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "baking and desserts",
-        "dining",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dining; nature visits; outdoor activities; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A first-person perspective shot shows a person's legs in light blue jeans and white sneakers standing on a dark asphalt surface with bold yellow diagonal stripes, alongside a fallen yellow leaf and a black bag."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person's foot is stepping on a yellow-striped pavement with a leaf nearby."
+        },
+        "gpt-5.4": {
+          "summary": "Top-down view of someone in light jeans and white sneakers walking over bold yellow road markings on dark pavement beside a fallen leaf."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing jeans and sneakers stands near a yellow arrow painted on asphalt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view of someone walking on a road marked with bold yellow and black diagonal stripes, with a fallen leaf near their foot."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a person wearing light blue jeans and white sneakers standing on asphalt marked with yellow diagonal stripes, next to a black bag."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop screen displaying a scene from a show where a character is asking for their opinion, with a calendar and stationery in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit desk setup shows a laptop playing a subtitled drama scene, with a November wall calendar and stationery nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displays a scene from an Asian drama series."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displays a dramatic scene from a show with subtitles, placed on a desk next to a calendar and craft supplies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A laptop displays a scene from a Korean drama with subtitles, set on a desk next to a November calendar and stationery."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collection of several Christmas gifts wrapped in festive paper featuring [LOCATION], polar bears, Christmas trees, and other holiday motifs."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several Christmas-themed wrapped gifts arranged on a couch."
+        },
+        "gpt-5.4": {
+          "summary": "Several wrapped Christmas presents with festive blue and purple paper are arranged on a bed or couch indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of wrapped gifts featuring Christmas-themed designs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several Christmas-themed gift bags with polar bears, [LOCATION], and holiday motifs are arranged on a patterned surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of five Christmas gifts wrapped in festive paper featuring [LOCATION], polar bears, and trees, arranged on a dark patterned surface."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a brown top is captured in a low-angle shot, with their arm and a digital watch prominent in the foreground,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person taking a selfie in front of a 'Happy New Year 2023' decoration with balloons."
+        },
+        "gpt-5.4": {
+          "summary": "A low-angle indoor selfie shows a person in a brown outfit beneath white-and-gold balloons and a \"Happy New Year 2025\" wall decoration."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a selfie in front of New Year decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses in front of a wall decorated with balloons and a 'HAPPY NEW YEAR 2025' banner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a brown dress poses for a selfie in front of a wall decorated with gold and white balloons and a 'Happy New Year 2025' banner."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person stands on a balcony or observation deck overlooking a scenic landscape of mountains and water under a twilight sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a balcony at dusk, wearing a light sweater and a skirt, with a scenic view in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses on a metal-railed balcony at dusk with a blue sky and distant mountain landscape in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands by a railing against a clear blue sky during twilight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses on a metal-railed overlook at dusk, with a vast blue sky and distant hills in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person stands on a balcony with a metal railing, posing against a backdrop of a deep blue [PERSON] and distant hills."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person stands on a balcony, looking out at a scenic view of mountains and water under a blue twilight sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a balcony overlooking a scenic view during twilight."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands on a balcony railing at dusk, facing a wide blue sky and distant water-and-hills view."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands by a railing overlooking an expansive view of hills under twilight skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long dark hair stands on a metal-railed balcony at dusk, gazing out over a hazy landscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair stands on a balcony at dusk, looking out over a hazy landscape of hills and water."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a selfie on a brown couch in front of a wall decorated with"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person taking a selfie in front of a 'Happy New Year 2025' decoration with balloons."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses for a low-angle selfie indoors in front of brown-and-white balloons and a wall banner reading Happy New Year 2025."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie in front of New Year's decorations celebrating 'Happy New Year' and the year 2023."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses for a selfie in front of a 'Happy New Year 2025' banner decorated with brown and white balloons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a brown dress poses playfully on a couch while covering their face, set against a wall decorated with brown and white balloons and a 'Happy New Year 2025' banner."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A family of five, including two adults and three"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people, including a child, are celebrating New Year 2025 in a cozy indoor setting decorated with balloons."
+        },
+        "gpt-5.4": {
+          "summary": "A group of four adults and a child pose on a couch indoors beneath balloons and a \"Happy New Year 2025\" banner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A family celebrates New Year's Eve in a cozy living room decorated with balloons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A family poses for a photo indoors during a New Year celebration, with balloons and a \"HAPPY NEW YEAR 2025\" banner in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five people, including a young child holding a toy microphone, pose for a photo on a couch in front of 'Happy New Year 2025' decorations."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people posing for a photo with a scenic view in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A group selfie at a scenic mountain viewpoint shows several people posing in front of a lake with small islands under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people posing together in front of a scenic view."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A family group poses cheerfully on a scenic overlook with mountains and water in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five people, including a child, pose for a selfie on an outdoor viewing deck with a scenic coastal landscape in the background."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people posing together in a mirrored elevator."
+        },
+        "gpt-5.4": {
+          "summary": "A group poses for a mirror selfie inside a wood-paneled elevator, with one person holding a child."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people posing inside an elevator."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A family group takes a selfie inside an elevator with mirrored walls, reflected in the glass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five people, including a man holding a young child, pose for a mirror selfie inside an elevator with mirrored walls and wood paneling."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A multi-generational family is seated on a couch, smiling for a photo in a room decorated with balloons and a \"Happy New Year 2024\" banner."
+        },
+        "gpt-4o-mini": {
+          "summary": "A family poses together in a living room decorated for New Year's celebration."
+        },
+        "gpt-5.4": {
+          "summary": "A group poses in a living room for a New Year celebration photo with white and gold balloons, a banner, and large year numbers on the wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A family celebrates New Year's Eve together in a cozy living room decorated with balloons."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A family poses for a photo indoors under a 'HAPPY NEW YEAR 202' banner decorated with balloons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A multi-generational family poses for a group photo on a sofa in a living room decorated with balloons and banners celebrating the New Year."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A panoramic view from a high vantage point showcases a large lake with multiple islands, including a prominent"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic view of a lake surrounded by [LOCATION] and mountains under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wide scenic view shows a lake with volcanic islands and surrounding green hills beneath dramatic cloudy skies, with power lines crossing the top of the frame."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a lake surrounded by hills under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic view of a volcanic island surrounded by water under a cloudy sky, with power lines visible in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape view of a large lake with volcanic islands and lush green hills under a cloudy sky, framed by overhead power lines."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five people poses together outdoors with a scenic view in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A group of five, including a child, pose on a balcony viewpoint overlooking forested hills and a lake beneath dramatic cloudy skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A family of five poses together outdoors overlooking a scenic view."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A family group poses for a photo on a scenic overlook with a cloudy sky and distant water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five people, including a man holding a young child, pose for a photo on an outdoor viewing deck with a scenic backdrop of a lake and forested hills."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of hands with visible stamps on their wrists and fists, indicating a shared experience or event."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people, including a child, are making a circle of fist bumps outdoors with event stamps visible on their hands."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four individuals hold hands in a circle with '[PERSON]' written on their wrists."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several people's fists are clasped together, showing temporary tattoos reading '[ORGANIZATION]' on their knuckles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people join their fists in a circle, displaying temporary tattoos on their hands that read '[ORGANIZATION]'."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young child wearing sunglasses playfully poses next to a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A child stands next to a life-sized elephant statue in a grassy area with trees and a fence in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A child wearing sunglasses poses on grass beside a large elephant statue in a leafy outdoor park or zoo area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A child poses in front of an elephant statue outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A child wearing sunglasses poses playfully in front of a large elephant statue in a grassy outdoor area."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young child wearing sunglasses and a blue shirt poses playfully in front of a large elephant statue in a grassy outdoor area."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals pose together on a rooftop with a scenic view in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Three women pose together on a balcony overlook with mountain and lake scenery under a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three women pose together outdoors against a scenic backdrop of mountains under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three women pose together on a balcony overlooking a scenic landscape under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three women pose together on an outdoor viewing deck with a scenic backdrop of mountains and water under a cloudy sky."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person stands on an observation deck, smiling at the camera, with a panoramic view"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a rooftop with a scenic view of mountains and water in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses on a lookout balcony with metal railings overlooking a lake and forested mountains beneath a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses by a railing overlooking lush greenery under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses cheerfully on a metal-railed overlook with a scenic view of hills and water under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman poses on a viewing deck with a scenic background of mountains and water under a cloudy sky."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person stands on an outdoor observation deck, posing with a scenic view of a large body of water,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a balcony overlooking a scenic landscape with mountains and a body of water under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses on a metal-railed viewpoint overlooking a lake and forested mountains beneath a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses by a railing overlooking lush greenery under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses on a metal-railed overlook with a scenic view of water and distant mountains under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman poses on a high-altitude viewing deck with a scenic backdrop of a lake and forested mountains under a cloudy sky."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dimly lit room with a window draped in sheer curtains, a bed with a pink blanket, and various items on a table."
+        },
+        "gpt-5.4": {
+          "summary": "A dim indoor room shows a window with pink sheer curtains, a rack of clothes hangers, a ring light on a small stool, and a desk or bed area with pink cartoon bedding."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small room featuring a window covered by sheer curtains, an ironing board in front of it, and various items scattered around."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit room with a window covered by sheer curtains, a ring light on a stand, and a desk with crafting supplies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit bedroom corner featuring a window with sheer curtains, a clothing rack, and a desk setup with a ring light and pink bedding."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a street scene with power lines and trees under a partly cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet outdoor street scene shows utility poles and power lines beneath a cloudy blue sky, with tall trees silhouetted along the roadside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Overhead power lines against a cloudy sky with trees in silhouette."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle shot of utility poles and wires against a partly cloudy sky, framed by tree branches and foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of utility poles and overhead wires silhouetted against a cloudy sky, with trees framing the scene."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows a worn yellow and black striped hazard pattern on a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up view of a yellow and black striped surface, likely a warning or caution area."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up, slightly blurry view of yellow diagonal road or walkway hazard stripes on dark pavement, with part of a dark coat at the edge."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a yellow and black striped surface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of worn yellow and black diagonal stripes painted on a concrete floor, viewed from above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, angled view of a concrete surface painted with diagonal yellow and black hazard stripes."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people is sitting at a table in a food court, enjoying snacks and drinks."
+        },
+        "gpt-5.4": {
+          "summary": "A group of six people smile for a selfie while sitting at blue tables with food and drinks in a busy warehouse-style store food court."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people enjoying a meal together in an indoor food court."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people smiling for a selfie while eating at blue tables inside a large food court."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of six people are seated at blue tables in a warehouse-style food court, posing for a selfie with fast food trays."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a cozy bedroom corner with a shelf, a calendar, and a fan."
+        },
+        "gpt-5.4": {
+          "summary": "A cozy bedroom/study corner shows a desk with stationery and a clip-on fan, plus a wall shelf, photo board, floral moon decoration, and a January 2025 calendar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy room setup featuring a desk with stationery, calendar, photos pinned above it, and a shelf holding items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cozy bedroom corner with a bed, desk, and wall decorations including a January 2025 calendar and photos."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A personal bedroom corner featuring a desk with stationery, a wall-mounted shelf holding a camera, and a calendar displaying January 2025."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person's foot in a flip-flop is seen walking on a street while holding a paper bag."
+        },
+        "gpt-5.4": {
+          "summary": "A motion-blurred first-person street view shows someone walking in flip-flops and jeans while carrying a brown paper shopping bag beside a curb."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing jeans and flip-flops walks along a street holding an 'ETRO' branded bag."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view of someone walking on a paved road while carrying a paper bag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person perspective of a person walking on asphalt wearing jeans and flip-flops while carrying a brown paper bag."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are posing for a selfie, with their faces obscured."
+        },
+        "gpt-5.4": {
+          "summary": "A casual indoor selfie shows three friends in matching blue shirts posing closely together and smiling at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals taking a selfie indoors in casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three young women in matching school uniforms pose playfully for a selfie indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle selfie of three young women posing closely together indoors, wearing matching blue polo shirts and lanyards."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a wall with a calendar, a bulletin board filled with photos, and decorative elements."
+        },
+        "gpt-5.4": {
+          "summary": "A room wall is decorated with clipped photo strips, a pink flower garland, a January calendar, and a small shelf holding a Canon item."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Wall display featuring photos of a group in various settings alongside other items like a calendar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wall display featuring a calendar, photos clipped to a board, and a handmade flower decoration."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wall display featuring a corkboard with group photos, a floral crescent moon decoration, and a calendar showing January."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a calculator, a pen, and a notepad with handwritten notes and calculations."
+        },
+        "gpt-5.4": {
+          "summary": "A large calculator sits on accounting handouts and handwritten ledger paper beside a pencil, pen, and a small yellow wrapped candy."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A desk setup includes a calculator, pen, pencil, candy wrapper, paper notes, and an open textbook."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calculator, pencil, and candy rest on handwritten accounting notes beside a printed partnership operations worksheet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of study materials including a [LOCATION] calculator, a pencil, a pen, and a yellow [ORGANIZATION] chip resting on handwritten accounting notes."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a black dress and a light sweater in a cluttered room."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in a black outfit with a light cardigan and sneakers standing in a small room with books on a wall shelf and bags stacked to the side."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in an indoor room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a small room, wearing a black dress and cardigan, with bags and books visible nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a bedroom, wearing a black dress and cream cardigan while holding a phone."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a cluttered room while wearing a black outfit."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in a black outfit with an ID lanyard standing in a small indoor room with shelves, bags, and other belongings around them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a mirror selfie in an indoor room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a cluttered room, wearing a black outfit and holding a phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black jumpsuit and sneakers takes a full-body mirror selfie in a cluttered room, holding a phone with a zebra-pattern case."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a cluttered room, wearing a black outfit and sneakers."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in a dark outfit with a lanyard and sneakers standing in a small bedroom with books, bags, and a chair nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a mirror selfie in front of an arched white-framed mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a black outfit, surrounded by bags and personal items in a cluttered room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black outfit and an [ORGANIZATION] badge takes a full-body mirror selfie in a room with visible clutter."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a black dress and a light sweater in a cluttered room."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a small room shows a person wearing a dark dress, light cardigan, sneakers, and a lanyard, with books and bags visible around the space."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of an arched white-framed mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a room with books, bags, and a plaid blanket visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a full-body mirror selfie in a bedroom, wearing a black dress and cream cardigan while holding a smartphone."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A red and white circular sign for a food establishment named \"CUSI-NAH!\" featuring a chef's hat, spoon, and fork, is mounted on a red pole amidst trees and utility wires under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a restaurant sign for 'Cusi-Mahi' surrounded by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A red roadside restaurant sign with spoon-and-fork graphics reading \"cusi-NAH!\" hangs on a pole among trees and overhead utility wires."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A restaurant sign reading '[ORGANIZATION]!' featuring a spoon, fork, knife graphic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red and white circular restaurant sign with the text '[ORGANIZATION]!' hangs from a pole surrounded by trees and power lines."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red and white circular restaurant sign featuring a chef's hat, spoon, and fork hangs from a pole against a backdrop of green trees and an overcast sky."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a classroom schedule on a whiteboard alongside a framed inspirational quote and a bookshelf with awards."
+        },
+        "gpt-5.4": {
+          "summary": "A tidy office or study room features a whiteboard with a Bible reading schedule, a framed religious quote, and a bookshelf displaying trophies and certificates."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A whiteboard schedule listing Bible study times in a classroom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A whiteboard displays a schedule for Bible reading sessions with assigned chapters and names, mounted on a wall above a wooden bookshelf."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A classroom or meeting room features a whiteboard displaying a daily schedule of Bible study sessions covering [ORGANIZATION] and Exodus, alongside a framed religious quote and a wooden cabinet with awards."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an announcement of contestants for a talent competition titled 'Golden Warriors: Pool of Talents'."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot-style announcement message lists finalists for a \"Golden Warriors: Pool of Talents\" singing category, with one contestant name filled in."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Announcement of final contestants in [ORGANIZATION] singing category."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A formal announcement lists contestants for 'Golden Warriors: Pool of Talents' under the 'Singing' category."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital announcement graphic lists the final contestants for a singing competition called 'Golden Warriors: Pool of Talents'."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a computer screen displaying a design template for crochet and prints with decorative elements."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop screen shows a [PERSON]-style design editor open to a pink craft pricelist template with pages labeled for crochet flowers and prints crafts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digital design workspace showing a crochet flowers template."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop screen shows a graphic design app editing a price list template with crochet-themed graphics and text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A laptop screen displays a graphic design software interface, likely [PERSON], where a user is editing a document titled 'Copy of [ORGANIZATION]'s [ORGANIZATION] featuring pink and purple craft-themed elements."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop screen displaying various design templates related to crochet and prints."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop in a dim room displays a design editor with slides for crochet flower product and price list templates."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displaying a product list of crochet flowers and prints."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop screen displays a digital product pricing template for handmade items like crochet flowers and prints."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A laptop screen in a dimly lit room displays a [ORGANIZATION] presentation for a business named '[LOCATION]'s Creations' featuring crochet flowers and printed bouquets."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit street scene at night featuring a building and surrounding greenery."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet nighttime scene shows a modern building entrance and empty driveway lit by bright streetlights, with trees lining the sidewalk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime scene of a building entrance illuminated by [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime view of a modern building entrance illuminated by streetlights, with bamboo trees lining the pathway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night view of a modern building entrance with a covered driveway, illuminated by bright streetlights and surrounded by bamboo."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with long hair wearing a black top and a lanyard, shown in a grid format."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white four-panel selfie collage shows a person indoors making slight smile and pout expressions while wearing a lanyard and necklace."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young woman wearing a lanyard labeled '[ORGANIZATION] poses in different expressions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white collage of four selfies showing a person wearing a lanyard with visible text, posing with different expressions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white collage of four selfies showing a young woman with long dark hair making different facial expressions while wearing an event lanyard."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a [ORGANIZATION] with a stylish bag and a wooden table in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person seated indoors holds a blended iced coffee drink with a straw beside a wooden table and a checkered bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holding a [ORGANIZATION] cup in front of an office chair."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION] with a straw, resting near a checkered bag and wooden table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a [ORGANIZATION] next to a checkered bag and a cardboard box."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a building adorned with vibrant red flowers and various commercial signs against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A street-side building covered with bright pink flowering vines sits beneath a blue sky, surrounded by utility poles, wires, and storefront signs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Signboards of a general merchandise store named [ORGANIZATION] are adorned with vibrant red flowers against clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A building facade with multiple business signs partially obscured by red flowering vines, set against a blue sky and tangled overhead power lines."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street-level view of a building facade covered in vibrant red bougainvillea flowers, featuring multiple commercial signs for paint and construction supplies against a clear blue sky."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a rectangular, individually wrapped ice cream sandwich with a light-colored filling and a yellow layer, against a blurred background of a wooden floor and furniture."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a packaged dessert, possibly an ice cream sandwich, in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a rectangular wrapped ice cream sandwich or frozen dessert indoors on a wooden floor near a desk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a layered dessert bar wrapped in plastic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a partially eaten ice cream sandwich with a visible yellow filling against a wooden floor background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a rectangular, partially unwrapped ice cream sandwich with visible layers of cookies and white filling against an indoor background."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person holds a waffle cone filled with scoops of pink and yellow ice cream, with a blurred outdoor background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a colorful ice cream cone with pink and yellow scoops."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a hand holding a waffle cone with a chocolate-coated top and pink-and-yellow ice cream against a blurred outdoor street background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a chocolate ice cream cone topped with pink and yellow scoops."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a hand holding an ice cream cone with alternating pink and yellow scoops inside a chocolate-coated waffle cone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, first-person view of a hand holding a waffle cone filled with pink and yellow scoops of ice cream."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a white and rose gold personal care device"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a white and rose gold handheld device, possibly a hair dryer or styling tool, on a blue table."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a white and rose-gold hair dryer with a small digital temperature display while seated at a blue table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a white hairdryer against a blue table background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a white and rose-gold handheld fan displaying '9°' on its digital screen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a white and rose-gold handheld fan with a digital display showing '9°' against a background of a blue table and black surface."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of food featuring fried chicken, rice, spaghetti with sauce and cheese, and a slice of pizza, accompanied by two glasses of iced tea."
+        },
+        "gpt-5.4": {
+          "summary": "A restaurant table shows combo plates with rice, fried chicken, spaghetti, a slice of pizza, gravy, and two iced drinks."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal featuring fried chicken, spaghetti bolognese topped with cheese, a slice of pepperoni pizza, rice, and two glasses of soda."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plate of mixed food including fried chicken, spaghetti, pizza, rice, and sauce, accompanied by two glasses of iced tea."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle shot of a buffet plate featuring fried chicken, spaghetti bolognese, rice, and pizza alongside two glasses of iced tea."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a display of various coffee drinks on a wooden shelf in front of a green wall with the 'Coffee Bunny' logo."
+        },
+        "gpt-5.4": {
+          "summary": "A large \"Coffee Bunny\" cafe sign is mounted on a leafy green wall above five cold coffee drinks lined up on a wooden shelf by a window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A display of various coffee drinks from [PERSON] in a cozy café setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five iced coffee drinks are displayed on a wooden shelf beneath a 'Coffee Bunny' sign mounted on a green artificial foliage wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Five iced coffee beverages are lined up on a wooden shelf in front of a green leaf wall featuring a circular '[PERSON] sign."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a partially blurred view of a yellow striped line on a dark surface."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry close-up photo shows bright yellow zigzag road markings on dark pavement beside a dark vehicle or wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a yellow painted arrow pointing left."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurry close-up of yellow and black striped pavement markings at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A motion-blurred, low-light photograph of yellow and black diagonal hazard stripes painted on a dark floor or curb."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman holds a supportive poster featuring photos of other women and text, while standing in an"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holds a poster supporting a participant named 'Princess Earth' at an event, surrounded by a group of people."
+        },
+        "gpt-5.4": {
+          "summary": "A person at an indoor event holds a printed cheer poster with photos and supportive text while others sit around in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a poster promoting 'Our Golden Voice' during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman holds up a poster cheering for 'Princess Earth' at an event, with others seated nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman stands indoors holding a handmade poster featuring a group photo and text supporting 'Princess Earth' while others sit in the background."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is painting colorful flowers on a canvas while seated at a table filled with art supplies."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits at a table painting colorful flowers on paper with acrylic supplies, while a mirror behind reflects several others in the room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person is painting a floral design while referencing sketches."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person is focused on painting colorful flowers on a large canvas at a cluttered art table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young woman is focused on painting colorful flowers on a canvas in an art studio, with other people visible in the mirror reflection behind her."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit street at night with streetlights illuminating the path and surrounding greenery."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet curved roadway at night is lit by bright streetlights, with hedges, trees, and a gated foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime street scene illuminated by a bright light pole."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime street scene illuminated by bright streetlights, showing a road curving toward a house with trees and hedges."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A quiet, paved road at night illuminated by bright streetlights, flanked by hedges and trees with a building visible in the background."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an assortment of acrylic paint tubes, a palette with mixed colors, and paintbrushes on a wooden surface."
+        },
+        "gpt-5.4": {
+          "summary": "A tabletop painting setup shows acrylic paint tubes, paintbrushes, and a foil plate used as a palette with mixed colors on a wooden surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A palette of mixed paint colors sits atop a wooden surface surrounded by tubes of acrylic paints."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A paint palette with mixed colors sits on a wooden table surrounded by acrylic paint tubes and brushes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of an art setup on a wooden slat table, featuring two open boxes of acrylic paint tubes, a foil plate used as a palette with mixed colors, and various paintbrushes."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a study setup with accounting practice materials, a calculator, a smartphone, and a pencil on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "A study desk setup shows accounting practice papers, a calculator, a smartphone, and a pencil on a wooden table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A study setup featuring a practice set in introductory accounting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A desk setup with accounting practice papers, a calculator, pencil, and phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a wooden desk with accounting study materials, including a practice set document, calculator, pencil, and papers."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people enjoying a meal at a fast-food restaurant, with food and drinks on the table."
+        },
+        "gpt-5.4": {
+          "summary": "A group of friends pose at a fast-food restaurant table with meals and drinks, smiling for a casual hangout photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of friends enjoys a meal together in a fast-food restaurant."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of friends poses cheerfully for a selfie at a fast-food restaurant, surrounded by food and drinks on a long table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young people are gathered around a long table in a Jollibee fast-food restaurant, posing for a selfie with plates of spaghetti and fried chicken."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of students is studying together at a table filled with papers and study materials."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people study accounting worksheets around a dining table with calculators, pencils, and phones in a home dining room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of students collaborates around a table studying accounting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of students is studying accounting together around a cluttered table with books, calculators, and pencils."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young people are gathered around a wooden table studying accounting materials, with calculators and papers spread out in a home setting."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cluttered desk with a jar of colorful decorative balls, a pencil, and some paperwork."
+        },
+        "gpt-5.4": {
+          "summary": "A cluttered desk holds paperwork, pencils, a laptop, and a tipped clear container spilling colorful foil-wrapped chocolates as a hand reaches nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Desk scene featuring a spilled jar of colorful chocolates next to stationery items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A desk scene with a spilled jar of colorful foil-wrapped candies, pencils, an eraser, and paperwork."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cluttered wooden desk features a spilled bottle of colorful foil-wrapped candies, stationery items like pencils and an eraser, and a medical receipt from a diagnostic clinic."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people enjoying a meal together at a dining table."
+        },
+        "gpt-5.4": {
+          "summary": "A group of friends smile and pose with peace signs around a dining table during a casual meal at home."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of friends are enjoying a meal together in an indoor dining area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of friends poses cheerfully around a dining table filled with food and drinks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of young adults is gathered around a wooden dining table for a meal, posing playfully for the camera with food and drinks visible."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful painting of a flower vase with various blooms set against a window backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful floral still-life painting on canvas shows a vase of mixed flowers beside a window, resting on a bamboo bench."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant painting of a vase filled with colorful flowers displayed outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful floral painting on canvas, depicting a vase of assorted flowers near a window, rests on a wooden slatted surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A colorful acrylic painting of a mixed flower bouquet in a grey vase resting on a wooden surface."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a waffle cone filled with alternating scoops of green and yellow ice cream against a blurry outdoor background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a cone of green and yellow ice cream against a blurred outdoor background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a waffle cone filled with sliced green-and-cream ice cream or frozen dessert outdoors on a sunlit path."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a waffle cone filled with green ice cream."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds an ice cream cone with alternating green and white scoops outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a waffle cone with swirled green and pale yellow soft-serve ice cream outdoors."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a study setup with accounting materials, including a practice set and handwritten notes."
+        },
+        "gpt-5.4": {
+          "summary": "A desk is covered with accounting study materials, including a practice set booklet, handwritten ledger paper, pens, and clipped documents."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Study materials including a practice set in introductory accounting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A desk setup showing accounting practice materials, including handwritten entries on graph paper and a titled document for 'Introductory Accounting'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of accounting study materials, including a practice set document and a yellow ledger with handwritten financial entries."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows several hands holding ice cream cones with a price list in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Several hands hold soft-serve ice cream cones with chocolate drizzle in front of a dessert stall menu under a red canopy."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "People are receiving green ice cream cones topped with chocolate sauce from a vendor under red lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Multiple hands hold soft-serve ice cream cones with chocolate drizzle in front of a pricing menu at an outdoor stall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Multiple hands hold up soft-serve ice cream cones with green swirls and chocolate drizzle in front of a pink menu board displaying prices."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals poses together, showcasing their artwork at an event."
+        },
+        "gpt-5.4": {
+          "summary": "Six people pose in a covered indoor venue holding three colorful paintings, including floral and ocean-themed artworks."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of students proudly display their artwork in a school hallway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of young people pose indoors holding colorful paintings and art supplies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of six young adults poses indoors holding colorful paintings, including floral and abstract designs, at what appears to be an art exhibition or campus event."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are seated together in a vehicle, appearing to take a selfie."
+        },
+        "gpt-5.4": {
+          "summary": "Three smiling people pose for a selfie while seated inside a bus with yellow curtains."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three young women smile inside a vehicle with yellow curtains."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three young women smile for a selfie inside a bus with yellow curtains, wearing school uniforms and lanyards."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three smiling young women wearing lanyards and casual clothing sit together inside a vehicle with yellow curtains."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of students is studying together at a table filled with papers and a calculator in a home setting."
+        },
+        "gpt-5.4": {
+          "summary": "A small group is gathered around a table indoors, working on accounting practice papers with calculators, notebooks, and a phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of individuals are studying together in a cozy room filled with books and notes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several people are seated around a table working on accounting practice sets in a room with framed photos on the wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of students is gathered in a room, studying accounting materials and using calculators at a table."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collection of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a collection of crocheted flowers and craft materials arranged on a patterned bedspread."
+        },
+        "gpt-5.4": {
+          "summary": "A bed is covered with handmade crocheted flower pieces and craft materials, including stems, petals, and yarn accessories in pink, white, yellow, and purple."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of crocheted items laid out on a patterned fabric."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of colorful crocheted flowers and fabric pieces arranged on a bed with a whale-patterned cover."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of colorful crocheted flower petals and stems is arranged on a dark bedsheet featuring a whale pattern."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three bouquets of colorful crocheted flowers, wrapped in paper and tied with ribbons, are displayed outdoors on a white"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several bouquets of crocheted flowers displayed on a plastic chair."
+        },
+        "gpt-5.4": {
+          "summary": "Three pastel-wrapped crochet flower bouquets are displayed on a white plastic chair in an outdoor porch setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three crocheted flower bouquets wrapped in tissue paper are displayed outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three bouquets of crocheted flowers in pastel colors are arranged on a white plastic chair outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three colorful crocheted flower bouquets wrapped in paper and ribbons are displayed on a white plastic chair outdoors."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows several printed pages of notes related to finals review, focusing on various topics such as ethics and identification."
+        },
+        "gpt-5.4": {
+          "summary": "Three highlighted finals reviewer sheets for [ORGANIZATION], and AH are laid on top of a laptop keyboard in a dim study setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Study materials titled 'Finals Reviewer' are placed over a laptop keyboard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three printed finals review sheets with highlighted terms are laid on a laptop keyboard."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three printed study guides titled 'SSP Finals Reviewer', 'Ethics Finals Reviewer', and 'AH Finals Reviewer' are fanned out on a black laptop keyboard."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a bag containing light blue yarn, with a plant and a pathway visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a plastic bag containing several light blue skeins of yarn outdoors near a walkway and potted plants."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a wrapped bundle of milk cotton yarn."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a plastic-wrapped skein of light blue yarn labeled 'MILK COTTON' outdoors near potted plants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a plastic bag containing skeins of light blue yarn labeled 'MILK COTTON' against an outdoor background with plants."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a brown dress and a white cardigan in a cluttered room."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie of a person indoors wearing a long brown dress, white cardigan, and white sneakers in a bedroom or storage-like space."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in an indoor room filled with books and bags."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a brown dress and cream cardigan in a cluttered room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie wearing a brown ribbed dress, cream cardigan, and white sneakers in a cluttered room."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features colorful gift bags filled with crocheted flowers on a porch."
+        },
+        "gpt-5.4": {
+          "summary": "Several wrapped handmade crochet bouquets in pink and purple are arranged in large red gift bags on a porch or balcony."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Handcrafted crochet flower bouquets in pink paper bags displayed outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Crocheted flower bouquets in paper bags sit on a stone bench outdoors near plastic chairs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two large orange gift bags and a smaller wrapped bouquet containing colorful crocheted flowers sit on an outdoor stone ledge."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a laptop screen displaying video editing software with a timeline, media assets, and a preview of a '[ACCOUNT]'"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop screen displaying video editing software with a project titled '[ACCOUNT]'."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop screen shows a video-editing project titled \"[ACCOUNT]\" with a long timeline, media assets, and export controls visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop screen displaying a video editing software interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop screen shows a video editing software interface with a timeline, media assets, and a preview of a '[ACCOUNT]' logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a laptop screen displaying video editing software with a timeline and project files for a vlog titled '[ACCOUNT]'."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long dark hair stands on a balcony, looking out at a vast lake with islands and distant land under a cloudy sky, with decorative lights visible on the railing."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long hair stands by a glass railing overlooking a scenic view of water and islands under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A person seen from behind stands at a glass-railed viewpoint overlooking a lake with small islands under dramatic cloudy skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands overlooking a scenic view of islands under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long dark hair stands on a balcony overlooking a vast body of water under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair stands on a balcony overlooking a coastal landscape with islands and hills under a cloudy evening sky."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Six young people are posing for a group photo outdoors"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of six individuals poses together outdoors against a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "Six people pose together at an outdoor viewpoint at dusk under a dramatic cloudy sky, several making peace signs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Six friends pose together outdoors against a twilight sky backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Six friends pose together outdoors at dusk, smiling and making peace signs against a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of six young adults poses for a photo on an outdoor terrace against a dramatic blue [PERSON]."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of six people poses joyfully with their arms raised against a scenic backdrop featuring a lookout tower and cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A group of friends stands on a grassy hillside with arms raised, posing toward a cloudy sunset sky beside a tall zipline or observation tower."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people raise their arms in a scenic outdoor location under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people posing with raised arms and phones against a scenic backdrop featuring a tall tower and cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people pose with raised arms on a grassy hillside next to a tall white observation tower, overlooking a mountainous landscape under a cloudy sky."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of six people poses for a selfie outdoors, with a grassy area and a gazebo in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A group of five people pose for a casual selfie on a grassy hill near an outdoor pavilion and seating area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Group of friends taking a selfie in an outdoor park."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of five friends poses for a selfie on a grassy hillside with picnic tables and other people in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five young adults poses for a selfie on a grassy hill with picnic tables and other visitors in the background."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Six young people are posing for a photo outdoors, making various hand gestures against a cloudy sky with a distant view of water and land."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of six individuals poses together outdoors, making playful gestures against a scenic backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "Six people pose playfully at an outdoor viewpoint under a dramatic cloudy evening sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of six people posing together outdoors against a dramatic sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Six friends pose cheerfully on a balcony overlooking water under a cloudy twilight sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of six young adults poses for a photo on an outdoor viewing deck against a cloudy evening sky."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop displaying a spreadsheet related to expenses."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] laptop on a desk displays a [ORGANIZATION] expense spreadsheet in an indoor workspace."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop displaying a [ORGANIZATION] document titled '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop displays a [ORGANIZATION] expense tracker with dated transactions and amounts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a black [ORGANIZATION] laptop displaying a [ORGANIZATION] expense tracker titled '[ORGANIZATION] on a wooden desk."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is walking on a paved surface with yellow markings, holding a floral-patterned wallet and a shopping bag from \"[ORGANIZATION].\""
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a wallet and a shopping bag while walking on a yellow-striped pavement."
+        },
+        "gpt-5.4": {
+          "summary": "A person walks on a paved surface with bold yellow markings while holding a floral wallet and a [ORGANIZATION] shopping bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a shopping bag from [ORGANIZATION] while walking."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a floral-patterned wallet and [ORGANIZATION] supermarket bag over a yellow-painted sidewalk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a cream-colored wallet with floral embroidery and a brown paper shopping bag from [ORGANIZATION], while standing on pavement marked with yellow lines."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals pose together in front of a mirror in a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "Three people in white tops and lanyards pose for a mirror selfie in a bright indoor hallway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three young women take a selfie in front of a mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three young women pose cheerfully for a mirror selfie in what looks like a school or institutional hallway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three smiling young women wearing lanyards and casual clothing pose for a mirror selfie in an indoor hallway."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is seen embracing while overlooking a scenic view, suggesting a moment of intimacy."
+        },
+        "gpt-5.4": {
+          "summary": "A collage of story-reply screenshots surrounds a photo of a couple hugging from behind at a scenic overlook above a lake under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A series of comments reacting humorously to a couple's photo in front of scenic views."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple embraces while looking out over a scenic landscape, with multiple social media replies reacting to the photo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of social media story replies featuring a couple embracing on a scenic overlook, with comments in Tagalog discussing the relationship."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large group of young adults, mostly women, are smiling and posing for a group photo indoors, with decorative"
+        },
+        "gpt-4o-mini": {
+          "summary": "A large group of people posing together in a social setting with colorful decorations in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A large group of young adults pose together indoors in a decorated event or studio space with colorful paper flowers and soft purple lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people posing together in a colorful indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large group of young people poses together indoors under colorful lighting, with some wearing casual clothing and others in themed attire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large group of young adults poses for a group photo in an indoor venue with purple ambient lighting and floral decorations."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a meal with fried chicken, fries, and drinks topped with whipped cream."
+        },
+        "gpt-5.4": {
+          "summary": "A tray of [ORGANIZATION] fast food is shown on a table, including fried chicken, fries, wrapped burgers, gravy cups, and two soda floats topped with soft serve and chocolate syrup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal from [ORGANIZATION] featuring fried chicken, fries, drinks topped with whipped cream."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meal from [ORGANIZATION] featuring fried chicken, french fries, and chocolate milkshakes on a tray."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a Jollibee fast-food meal on a tray, featuring two chicken meals with fries and chocolate drinks topped with whipped cream."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a black textured bag adorned with a bright yellow crocheted bow keychain, a silver flower-"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a black bag adorned with a yellow knitted bow and a pearl-like accessory."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a black textured handbag decorated with a bright yellow knitted bow charm, metal key rings, and pearl-like beads."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black bag adorned with a yellow crocheted bow keychain."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a black textured bag adorned with a yellow crocheted bow keychain and pearl beads."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a black textured bag featuring a bright yellow crocheted bow keychain, pearl charms, and a metal flower charm."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a decorative backdrop with large, colorful paper flowers and the text 'TEKA LANG MUNA'."
+        },
+        "gpt-5.4": {
+          "summary": "A floral decorative display with large pink letters spelling “TEKA LANG MUNA” stands indoors under dim lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A decorative backdrop featuring large paper flowers around a sign reading 'TEKA LANG MUNA'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A decorated backdrop with large pink letters spelling 'TEKA LANG MUNA' surrounded by paper flowers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A decorative backdrop featuring large pink and orange paper flowers framing the text 'TEKA LANG MUNA' on a mustard-yellow background, illuminated by a floor spotlight in a dark setting."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of friends is gathered around a table in a casual setting, likely enjoying a meal or conversation."
+        },
+        "gpt-5.4": {
+          "summary": "Five friends smile for a selfie around a table at a casual outdoor food stall or eatery."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of young people are gathered around a table under an outdoor tent."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of friends smiles for a selfie at an outdoor eatery under a blue canopy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of five smiling young adults poses for a selfie at an outdoor food stall under a blue tarp."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a group of people seated in a conference room attending a presentation related to revenue or taxation."
+        },
+        "gpt-5.4": {
+          "summary": "People are seated in a meeting room attending a presentation with a speaker at a podium in front of [ORGANIZATION] backdrop and projector screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A presentation session in a conference room featuring an audience listening attentively."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An audience attends a presentation in a government office, with a projector screen displaying tax-related information."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An audience attends a presentation in a conference room featuring [ORGANIZATION] logo and a slide about tax registration."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital user interface displays a 'Deleting' progress bar with '98/2230' items processed and a '[ORGANIZATION]' option."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a progress bar indicating a deletion process on a digital interface."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screen shows a deletion progress dialog with a progress bar, the count 98/2230, and a [ORGANIZATION] button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Progress bar showing a deletion process in progress."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A system interface showing a deletion progress bar with 98 out of 2230 items processed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A minimal user interface screenshot showing a 'Deleting' status with a progress bar, character count, and a cancel button."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a room with a green wall and a window in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person with short hair winking and smiling, wearing a striped shirt and a necklace near a window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a striped shirt smiles in front of an open window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with short dark hair smiles while wearing a striped shirt with 'boop' text and a heart [PERSON], standing indoors near a window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with short dark hair wearing a striped shirt and heart necklace, set against a green wall near a window."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot displays a plate of food featuring shredded meat, a fried egg, and garlic rice, with a spoon and fork placed beside it on a wooden table."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of food consisting of rice, beef, and a fried egg."
+        },
+        "gpt-5.4": {
+          "summary": "A plated meal of white rice topped with garlic bits, shredded meat, and a fried egg sits on a wooden table with spoon and fork."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of rice topped with garlic, a fried egg, and shredded meat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plate of rice, fried egg, and meat served on a colorful patterned plate with utensils."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A plate of food featuring rice topped with fried garlic, shredded meat, and a fried egg sits on a wooden table next to cutlery and a smartphone."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a table with a [ORGANIZATION]'s meal including fried chicken, fries, a drink, and a handbag."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]’s meal with fried chicken, rice, fries, and an iced drink is set on a small restaurant table, with a black bag in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION]'s meal including chicken nuggets, fries, rice, a drink in yellow-striped cup, and a black bag."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION]'s meal with fried chicken, fries, and a drink sits on a wooden table next to a black bag with a yellow bow charm."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION]'s meal featuring fried chicken, rice, fries, and a drink sits on a table next to a black bag with a yellow keychain."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a certificate of appreciation for a worship team and a book titled 'Moments of Grace' in a church setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a church sanctuary holds a certificate of appreciation for a praise and worship team along with a wrapped book gift during an event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a certificate of appreciation from [ORGANIZATION] and [ORGANIZATION] during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds an appreciation certificate for 'Anabu Praise and [ORGANIZATION] alongside a gift bag labeled 'Moments of Grace' at a church event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person holds a Certificate of Appreciation for the '[ORGANIZATION]' and a book titled 'MOMENTS OF GRACE' inside a church sanctuary."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a church interior with a congregation seated, featuring a stage with a cross and colorful lighting."
+        },
+        "gpt-5.4": {
+          "summary": "A congregation sits in wooden pews facing a church stage with a large illuminated cross, musical instruments, and purple-blue event lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A church service in progress with a congregation seated facing an altar adorned by purple lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An audience seated in wooden pews watches a worship service under purple lighting, with a large cross and \"CELEBRATING NEW HEART\" displayed at the front."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from the back of a church sanctuary showing an audience seated in wooden pews facing a stage with a large cross and purple lighting."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a restroom, wearing a white peplum top."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a restroom or fitting-room area showing a person in a white puff-sleeve top or dress holding a phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of an elevator."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a restroom, wearing glasses and a white patterned dress."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a white patterned top takes a mirror selfie in what appears to be a public restroom."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a certificate of appreciation and a book titled 'Moments of Grace'."
+        },
+        "gpt-5.4": {
+          "summary": "A person is holding a certificate of appreciation for a praise and worship team alongside a book titled \"Moments of Grace.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a certificate of appreciation alongside 'Moments of [ORGANIZATION]' book."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a certificate of appreciation for a worship team and a book titled 'Moments of Grace'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a Certificate of Appreciation for the '[ORGANIZATION]' alongside a book titled 'Moments of Grace'."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person's hand holds a white mug filled with scoops of chocolate ice cream and a spoon, set against a blurry background of patterned"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a cup of chocolate ice cream with a spoon, set against a cluttered background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a metal mug filled with chocolate ice cream and a spoon in a casual indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a hand holding an ice cream cup filled with chocolate-flavored dessert."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a mug filled with chocolate ice cream, viewed from above against a messy bed background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a white mug filled with chocolate ice cream and a spoon, set against a background of patterned bedding and scattered items."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two crocheted characters, one resembling [ORGANIZATION] and the other [PERSON], are lying side-by-side"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two crocheted plush toys resembling Hello Kitty and a black character, resting on a black blanket."
+        },
+        "gpt-5.4": {
+          "summary": "Two handmade crocheted Sanrio-style cat plush cushions or pillows, resembling [ORGANIZATION] and [PERSON], are displayed on a bed against a plain wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two crocheted cat figures wearing matching outfits are posed together."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two crocheted plushies of [ORGANIZATION] and [PERSON] rest on a white surface against a textured wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two crocheted amigurumi figures, Hello Kitty and [PERSON], are resting together on a white surface under a black knitted blanket with colorful stripes."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black and white cat is lounging on a pile of folded clothes and towels."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cat is sleeping sprawled across folded blankets and clothes on a bed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white cat lounging comfortably under a blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white cat sleeps sprawled on its back atop a grey blanket next to folded clothes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white cat is sleeping on its back in a relaxed pose on a pile of grey blankets next to a folded white t-shirt."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white cat with prominent white whiskers is sleeping peacefully on a person's shoulder, who is smiling gently."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is resting with a black and white cat sleeping on their chest."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie shows a person lying down while cuddling a sleeping black-and-white cat on their chest."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a black-and-white cat close-up."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while holding a black-and-white cat resting on their chest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person in a white t-shirt holding a sleeping black and white cat."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a modern building with a parking area, illuminated by streetlights during twilight."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet roadway beside a modern building at dusk shows a car, a lit streetlamp, and tall bamboo under a pink-blue evening sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A street scene during dusk featuring a modern building entrance under soft lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A street scene at dusk with a modern building, bamboo trees, and a lit streetlamp."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street scene at dusk featuring a modern building, a silver car, and a lit streetlamp next to tall bamboo."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot displays several black crocheted pieces, some featuring red and beige mushroom-like designs, laid out"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows several crocheted pieces in black, red, and beige, arranged on a light-colored surface."
+        },
+        "gpt-5.4": {
+          "summary": "Several black crocheted granny squares and joined panels with red-and-beige semicircle motifs are laid out on a table as a work-in-progress craft project."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A crocheted item featuring a pattern of [ORGANIZATION] in progress."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Handmade black crocheted items with red and beige heart patterns rest on a white tray."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of handmade black crochet items, including a long strip and square motifs featuring pink and beige patterns, resting on a white surface."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features several crocheted hats, including a yellow spiral hat and black hats with mushroom designs."
+        },
+        "gpt-5.4": {
+          "summary": "Handmade crocheted items, including a black mushroom-patterned piece and a yellow spiral hat, are laid out on a craft mat in front of a laptop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Handcrafted crochet hats featuring mushroom designs are displayed next to a laptop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three crocheted hats — one black with red-and-white mushroom patterns, one yellow striped, and one dark brown — are arranged on a cutting mat next to a laptop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of handmade crocheted items, including black beanies with red mushroom patterns and a yellow beanie, resting on a cutting mat in front of a laptop."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand holding a small crocheted doll dressed in black and yellow, alongside a colorful crocheted structure resembling a beehive."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a small crocheted doll in a black-and-yellow outfit beside a ruler, with other crochet pieces and a flower-decorated yellow hat/bag in a plastic [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a crocheted bee doll next to a ruler showing its size."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a small crocheted bee doll next to a ruler, with another similar doll and a yellow crocheted beehive in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a small crocheted doll next to a ruler for scale, with larger matching crochet items in the background."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a purple top and a white skirt in a room with various items in the background."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a bedroom showing a handmade-looking purple crochet top with a long white skirt, with a colorful crocheted hat draped over the mirror."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a purple top and white skirt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a purple crochet top and white skirt, with a colorful crocheted hat hanging above the mirror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a bedroom, wearing a purple crochet top and white skirt with a colorful crocheted hat hanging on the mirror."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie wearing a purple top and a white skirt."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a bedroom showing a person wearing a purple crochet-style crop top and a long white skirt, with books visible on a shelf behind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a purple crop top and white skirt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a purple crochet top and white tiered skirt, obscuring their face with a phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie wearing a purple knit crop top and a long white skirt in a bedroom setting."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in front of a mirror, wearing a purple top and a white skirt."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a bedroom showing a purple crocheted crop top paired with a long white skirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in front of an ornate white-framed mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a purple crocheted top and white tiered skirt, with a colorful crocheted hat hanging above the mirror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a bedroom, wearing a purple knit crop top and a long white skirt."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person taking a mirror selfie, wearing a purple crochet top and white skirt."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie showing a person wearing a purple crocheted bralette, white skirt, and layered necklaces indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a purple knitted crop top in front of a mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a purple crocheted crop top and white skirt, holding a phone with a clear case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mirror selfie of a person wearing a purple crochet crop top and white skirt, holding a phone with stickers that obscures their face."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person taking a mirror selfie while wearing a purple top and a white skirt in a room with various items in the background."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a bedroom showing a purple crocheted [ORGANIZATION], long white skirt, and a colorful crocheted hat hanging over the mirror."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a purple top and white skirt."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a purple crocheted top and white tiered skirt, with a colorful crocheted hat hanging above the mirror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a bedroom, wearing a purple crochet top and white skirt with a colorful crocheted hat hanging on the mirror."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A child wearing dinosaur-patterned pajamas is sleeping peacefully on a bed next to a [LOCATION] pillow and a baby bottle."
+        },
+        "gpt-4o-mini": {
+          "summary": "A child in dinosaur-patterned pajamas is lying on a bed with a yellow pillow featuring a cartoon character."
+        },
+        "gpt-5.4": {
+          "summary": "A sleeping child in dinosaur-print pajamas lies sprawled on a bed beside a bottle, toy car, striped pillow, and a [ORGANIZATION] pillow."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A child in dinosaur-patterned pajamas sleeping peacefully under a blanket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young child sleeps peacefully on a bed with patterned sheets, wearing dinosaur-themed pajamas and resting near a [ORGANIZATION] pillow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young child sleeps on a bed wearing dinosaur-patterned pajamas, surrounded by a [ORGANIZATION] pillow and a striped cushion."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three small potted artificial flowers on a desk with a laptop displaying a [ORGANIZATION] search page in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A cozy craft desk setup shows three colorful handmade potted flowers in front of a laptop, with a cutting mat, pens, and a wall calendar in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A desk setup featuring crocheted flower pots in front of a laptop displaying [ORGANIZATION] images."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A desk setup with three crocheted flower pots in front of a laptop displaying [ORGANIZATION], framed by a mirror reflection."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A photo of a desk setup featuring three crocheted flower pots in blue, purple, and pink placed in front of an open laptop displaying the [ORGANIZATION] homepage."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A black modified car is parked in a lot surrounded by palm trees and buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A black modified sedan is parked in an outdoor lot beside palm trees and utility poles on a sunny day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black [ORGANIZATION] Corolla parked in a sunny urban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black modified sedan parked in a lot under palm trees on a sunny day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A modified black sedan with wide fender flares and custom wheels is parked in a lot under palm trees."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person's hand resting on a white surface, with a close-up of their wristwatch and colorful keychain accessories."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a person’s arm with a black watch beside a light-colored surface, with a black bag and crocheted keychain accessories in the foreground on a tiled floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a watch and carrying crochet items sits near an open door."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person's arm rests against a white wall, with a black watch and a yellow crocheted keychain visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a person wearing a black textured top and light blue jeans, holding a white surface while displaying yellow crocheted keychains on their lap."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A decorative welcome sign with flowers at [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A flower-decorated mirror welcome sign for [LOCATION] is set up outdoors on the grass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A floral arrangement in front of a mirror displaying 'Welcome #MOONRIVER RESORT'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A decorative mirror with floral arrangements displays a welcome message for Moonriver Resort."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white-framed mirror decorated with pastel artificial flowers stands on a grassy outdoor area, reflecting a person and trees."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of young people posing playfully outdoors, making heart shapes and gestures."
+        },
+        "gpt-5.4": {
+          "summary": "A group of friends pose outdoors in a sunny, tree-filled park, making heart shapes and playful hand signs for the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of young people posing outdoors in a sunny park-like environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of friends poses cheerfully outdoors under trees, making heart and peace gestures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of eight young adults poses outdoors in a sunny, park-like setting with lush greenery, making heart shapes and hand gestures for the camera."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of eight individuals poses together outdoors in a sunny setting, surrounded by [ORGANIZATION] and buildings."
+        },
+        "gpt-5.4": {
+          "summary": "Eight people pose together barefoot outdoors under large trees in front of small cabin-like buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of seven people posing together outdoors under a large tree."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of seven people poses together outdoors under large trees near colorful buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of eight young adults poses for a photo outdoors on a paved area with tropical trees and orange buildings in the background."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman stands outdoors on a sunny day, wearing a light off-the-shoulder top and a white tiered skirt, with trees and a building visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands outdoors wearing a casual outfit, with a blurred background of [ORGANIZATION] and a building."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses outdoors in a sunny yard or garden area, wearing a light off-shoulder top and white skirt with trees and a fence in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses outdoors in a sunny garden-like environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses outdoors in a light-colored outfit near trees and a fence under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a pink top and white skirt poses outdoors on a sunny day with trees and a building in the background."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of friends is gathered around a table filled with food and drinks, enjoying a sunny day."
+        },
+        "gpt-5.4": {
+          "summary": "A group of people pose around a picnic table with snacks and drinks under a covered outdoor shelter, making peace signs and a thumbs-up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people enjoying a casual gathering under an outdoor shelter."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of friends poses cheerfully around a table laden with snacks under a covered outdoor structure."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of seven young adults poses for a selfie at an outdoor picnic table laden with snacks and drinks."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A motion-blurred, first-person perspective shot shows a foot wearing a flip-flop walking on an"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a foot in flip-flops walking on a pavement marked with yellow stripes."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry downward photo shows a person in flip-flops and light pants walking across yellow-painted road markings at night."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing flip-flops walks along a yellow-painted road."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurry point-of-view shot of a barefoot person walking on pavement with yellow diagonal stripes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a bare foot in a flip-flop walking on asphalt with yellow road markings."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a white shirt with 'Dodgers' and '[LOCATION]' printed on it."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in an oversized Dodgers T-shirt and shorts, with a colorful crocheted bucket hat hanging above the mirror indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a white 'Dodgers' t-shirt, with a colorful crocheted hat hanging nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie wearing a white Dodgers t-shirt and black shorts, with a colorful crocheted item hanging above the mirror."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a bright, full moon with visible craters and markings against a dark, clear night sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a full moon against a black sky."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo of the bright moon against a dark night sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a full moon against a dark sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up photograph of a bright, detailed full moon against a black night sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a full moon with visible craters and [PERSON], glowing yellow against a pitch-black night sky."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying down with a black cat resting on their head and shoulders."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person wearing glasses relaxes indoors with a black cat draped across their head and shoulders."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses smiles while a black cat rests its head on their shoulder."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing glasses smiles while lying down with a black cat resting on their head and chest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing glasses lies down with a black cat resting on their shoulder and chest."
+        }
+      }
+    },
+    "image_00124": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cluttered surface covered with various receipts, a wallet, and a watch."
+        },
+        "gpt-5.4": {
+          "summary": "A cluttered surface is covered with receipts, invoices, and other paperwork alongside a stapler, a wristwatch, a wallet, and an umbrella."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cluttered surface filled with receipts, a stapler, sunglasses, and other miscellaneous items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cluttered surface covered with receipts, invoices, and a stapler."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cluttered bedspread covered in a large pile of paper receipts, invoices, and personal items like a wallet and watch."
+        }
+      }
+    },
+    "image_00125": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cluttered workspace with a tablet displaying a score of a game, surrounded by various crafting materials."
+        },
+        "gpt-5.4": {
+          "summary": "A cluttered crafting workspace with yarn, scissors, and stitch markers sits beside a tablet showing a Japanese volleyball scoreboard video."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Crafting setup includes yarns, scissors, a wallet, and an [ORGANIZATION] displaying sports commentary."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crafting setup with yellow yarn, scissors, and knitting tools beside a tablet playing a volleyball match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tablet displays a basketball game scoreboard while surrounded by yellow yarn, scissors, and various crafting supplies on a dark patterned surface."
+        }
+      }
+    },
+    "image_00126": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a beautifully arranged gift bouquet containing various beauty products and decorative elements."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a pink bouquet-style gift arrangement filled with beauty and makeup products outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bouquet of makeup products wrapped in pink paper being held outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a pink-wrapped bouquet filled with makeup products and a '[ORGANIZATION] card, set outdoors near greenery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a bouquet of makeup products wrapped in pink paper and tied with a bright pink ribbon, set against an outdoor background with [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00127": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A first-person perspective shot shows a person's legs and feet in flip-flops and distressed denim shorts, walking on a paved surface with alternating yellow and grey stripes."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person's legs and feet walking on a pavement marked with yellow stripes."
+        },
+        "gpt-5.4": {
+          "summary": "A downward, slightly blurred POV shot shows someone in flip-flops and frayed denim shorts walking across worn yellow road markings on asphalt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing flip-flops stands between yellow road markings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view of someone walking on a road with faded yellow stripes, wearing flip-flops and denim shorts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a person's legs and feet wearing denim shorts and flip-flops, standing on asphalt with faded yellow diagonal stripes."
+        }
+      }
+    },
+    "image_00128": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a yellow crocheted bee-shaped coin purse surrounded by smaller colorful crocheted bee figures,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a yellow crocheted coin purse shaped like a bee, surrounded by small crocheted bee figures."
+        },
+        "gpt-5.4": {
+          "summary": "A yellow crocheted coin purse with a cute face and metal clasp sits on a laptop keyboard surrounded by small colorful crocheted charms."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Crocheted smiley face coin purse surrounded by colorful crocheted balls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow crocheted bee-shaped coin purse sits on a laptop keyboard surrounded by smaller crocheted bee charms."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a handmade yellow crochet bee coin purse resting on a laptop keyboard, surrounded by several smaller colorful crocheted bees."
+        }
+      }
+    },
+    "image_00129": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic pathway in a park with people enjoying the outdoors under a partly cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A curved paved walkway runs through an open park-like shopping area with scattered people, young trees, streetlights, and a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wide paved pathway lined with trees under a partly cloudy sky in an urban park area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A paved pathway winds through a park under a partly cloudy sky, with people relaxing and walking."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paved walkway winds through a modern outdoor park with scattered visitors, young trees, and street lamps under a cloudy blue sky."
+        }
+      }
+    },
+    "image_00130": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of food next to a tablet displaying a [LOCATION] video call with multiple participants."
+        },
+        "gpt-5.4": {
+          "summary": "A tablet showing a [LOCATION] gallery call sits on a table next to a plate of rice and soup-like food."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meal of rice and soup served alongside a tablet displaying an online meeting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tablet displaying a [LOCATION] meeting sits beside a plate of rice and sauce on a dark table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tablet displaying a Zoom meeting with multiple participants sits on a table next to a plate of food featuring rice and soup."
+        }
+      }
+    },
+    "image_00131": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a detailed sales invoice with various grocery items and their prices."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a long grocery store sales invoice listing food items and prices, with some parts circled in pen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Receipt from [ORGANIZATION] showing a detailed list of purchased items including prices and discounts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a retail sales invoice held in someone's hand, listing purchased items and totaling to 3,503.56."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a long retail sales invoice from [ORGANIZATION] in the [LOCATION], dated [DATE], listing various grocery items and a total due of 3,503.56."
+        }
+      }
+    },
+    "image_00132": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white handbag adorned with a flower clip rests on a person's lap, who is wearing denim shorts, inside what appears to be a vehicle."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a white handbag with a decorative flower, resting on a person's lap in a vehicle."
+        },
+        "gpt-5.4": {
+          "summary": "A white handbag with a flower-shaped accessory rests on someone’s lap in a car, with denim shorts and dark car seats visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A white handbag adorned with a flower accessory sits in someone's lap while traveling."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white tote bag with a floral accessory rests on someone's lap inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white tote bag with a flower clip rests on a person's lap inside a vehicle."
+        }
+      }
+    },
+    "image_00133": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A tablet displaying a team chat interface is placed on a stone surface next to a pair of glasses, with a cluttered outdoor setting in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A tablet showing a chat with class-related Zoom links and a pair of eyeglasses sit on a wooden table in an outdoor home courtyard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tablet displaying a team chat interface sits atop an outdoor table next to eyeglasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tablet displaying a work chat with links sits on a stone ledge next to a pair of glasses, outdoors near a building and plants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tablet displaying a team chat with course links sits on an outdoor ledge next to a pair of eyeglasses, with a residential yard in the background."
+        }
+      }
+    },
+    "image_00134": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while a child rides a bicycle in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A casual indoor selfie shows one person winking in the foreground while another person in pajamas sits on a small orange bicycle near hanging laundry."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman takes a selfie in front of her child playing outside."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman takes a selfie indoors with a child riding a small bicycle in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman takes a selfie while winking, with a young child in pajamas riding a bicycle in the background of a home setting."
+        }
+      }
+    },
+    "image_00135": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a casual setting while a child plays on a bicycle in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A casual indoor selfie shows one person in the foreground while another sits on a small orange bicycle near a window and hanging clothes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young woman takes a selfie in front of her child playing near bicycles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie indoors while a child sits on a bicycle in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A selfie of a young woman in a blue t-shirt with a child on a bicycle in the background."
+        }
+      }
+    },
+    "image_00136": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a tablet displaying a chat interface alongside a pair of glasses on a stone table in an outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A tablet showing a team chat with Zoom links and a pair of eyeglasses sit on a stone table in an outdoor yard beside a simple house."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tablet displaying a messaging app sits next to glasses in an outdoor patio area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tablet displaying a team chat with Zoom links rests on a stone ledge next to eyeglasses in an outdoor courtyard setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tablet displaying a team chat with academic course links rests on an outdoor concrete ledge next to a pair of eyeglasses."
+        }
+      }
+    },
+    "image_00137": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts the interior of a church setting, featuring a cross, floral arrangements, and a presentation screen."
+        },
+        "gpt-5.4": {
+          "summary": "Interior of a church sanctuary with a large cross, altar flowers, pews, microphones, and a projector screen set up for a program or service."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A church service in progress showing a presentation slide titled 'PROGRAM PLAN EY2025'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A church interior during a presentation, with a speaker at a podium and a projector screen displaying 'PROGRAM PI EY 2025'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from the pews of a church sanctuary during an event, featuring a woman presenting at a projector screen and another person reading in the foreground."
+        }
+      }
+    },
+    "image_00138": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a list of financial terminology related to FM-Bingo, including terms like 'Stock', '[ORGANIZATION], and 'Investment'."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a printed page titled \"Terminology of FM-Bingo\" listing finance and investment terms such as stock, bond, [ORGANIZATION], and forex."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A list of financial terms titled '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a printed list titled '[ORGANIZATION] listing financial terms numbered 1 to 24."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a printed document listing 24 financial terms under the heading 'Terminology of FM-Bingo'."
+        }
+      }
     }
   }
 }

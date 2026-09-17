@@ -1,6 +1,6 @@
 {
   "user_id": "participant_062",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
@@ -8,47 +8,65 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "fitness",
+          "label": "gym workout",
           "evidence_post_indices": [
-            1,
-            3
+            8,
+            28
           ],
           "evidence_post_ids": [
-            "participant_062_phase_2",
-            "participant_062_phase_4"
+            "participant_062_post_0009",
+            "participant_062_post_0029"
           ]
         },
         {
-          "label": "walking and hiking",
+          "label": "fitness routine",
           "evidence_post_indices": [
-            2,
-            3
+            8,
+            28
           ],
           "evidence_post_ids": [
-            "participant_062_phase_3",
-            "participant_062_phase_4"
+            "participant_062_post_0009",
+            "participant_062_post_0029"
+          ]
+        },
+        {
+          "label": "walking",
+          "evidence_post_indices": [
+            8,
+            12
+          ],
+          "evidence_post_ids": [
+            "participant_062_post_0009",
+            "participant_062_post_0013"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "fitness",
+          "label": "volleyball",
           "evidence_post_indices": [
-            1
+            8
           ],
           "evidence_post_ids": [
-            "participant_062_phase_2"
+            "participant_062_post_0009"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "weightlifting",
           "evidence_post_indices": [
-            1,
-            3
+            28
           ],
           "evidence_post_ids": [
-            "participant_062_phase_2",
-            "participant_062_phase_4"
+            "participant_062_post_0029"
+          ]
+        },
+        {
+          "label": "strength training",
+          "evidence_post_indices": [
+            28
+          ],
+          "evidence_post_ids": [
+            "participant_062_post_0029"
           ]
         }
       ]
@@ -58,66 +76,106 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "read",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            13,
+            16,
+            20,
+            27,
+            29,
+            32,
+            36,
+            38,
+            41
           ],
           "evidence_post_ids": [
-            "participant_062_phase_1",
-            "participant_062_phase_2",
-            "participant_062_phase_3"
+            "participant_062_post_0014",
+            "participant_062_post_0017",
+            "participant_062_post_0021",
+            "participant_062_post_0028",
+            "participant_062_post_0030",
+            "participant_062_post_0033",
+            "participant_062_post_0037",
+            "participant_062_post_0039",
+            "participant_062_post_0042"
           ]
         },
         {
-          "label": "reading",
+          "label": "philosophy book",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            13,
+            16,
+            29,
+            32,
+            38
           ],
           "evidence_post_ids": [
-            "participant_062_phase_1",
-            "participant_062_phase_2",
-            "participant_062_phase_3"
+            "participant_062_post_0014",
+            "participant_062_post_0017",
+            "participant_062_post_0030",
+            "participant_062_post_0033",
+            "participant_062_post_0039"
+          ]
+        },
+        {
+          "label": "book",
+          "evidence_post_indices": [
+            20,
+            35,
+            45
+          ],
+          "evidence_post_ids": [
+            "participant_062_post_0021",
+            "participant_062_post_0036",
+            "participant_062_post_0046"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "live performances",
+          "label": "theater",
           "evidence_post_indices": [
             1,
-            3
+            29
           ],
           "evidence_post_ids": [
-            "participant_062_phase_2",
-            "participant_062_phase_4"
+            "participant_062_post_0002",
+            "participant_062_post_0030"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "literature",
           "evidence_post_indices": [
-            0,
-            1
+            10,
+            35
           ],
           "evidence_post_ids": [
-            "participant_062_phase_1",
-            "participant_062_phase_2"
+            "participant_062_post_0011",
+            "participant_062_post_0036"
           ]
         },
         {
-          "label": "reading",
+          "label": "poetry",
           "evidence_post_indices": [
-            0,
-            2
+            27,
+            42
           ],
           "evidence_post_ids": [
-            "participant_062_phase_1",
-            "participant_062_phase_3"
+            "participant_062_post_0028",
+            "participant_062_post_0043"
+          ]
+        },
+        {
+          "label": "philosophy",
+          "evidence_post_indices": [
+            36,
+            45
+          ],
+          "evidence_post_ids": [
+            "participant_062_post_0037",
+            "participant_062_post_0046"
           ]
         }
       ]
@@ -134,37 +192,46 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "dining",
+          "label": "dining out",
           "evidence_post_indices": [
-            0,
-            1,
-            3
+            7,
+            33,
+            39
           ],
           "evidence_post_ids": [
-            "participant_062_phase_1",
-            "participant_062_phase_2",
-            "participant_062_phase_4"
+            "participant_062_post_0008",
+            "participant_062_post_0034",
+            "participant_062_post_0040"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "baking and desserts",
+          "label": "baking",
           "evidence_post_indices": [
-            1
+            22
           ],
           "evidence_post_ids": [
-            "participant_062_phase_2"
+            "participant_062_post_0023"
           ]
         },
         {
-          "label": "savory food",
+          "label": "chicken noodle",
           "evidence_post_indices": [
-            3
+            7
           ],
           "evidence_post_ids": [
-            "participant_062_phase_4"
+            "participant_062_post_0008"
+          ]
+        },
+        {
+          "label": "chocolate cookies",
+          "evidence_post_indices": [
+            22
+          ],
+          "evidence_post_ids": [
+            "participant_062_post_0023"
           ]
         }
       ]
@@ -174,51 +241,73 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "city exploration",
+          "label": "city walks",
           "evidence_post_indices": [
-            0,
-            1,
-            3
+            24,
+            31,
+            32,
+            46
           ],
           "evidence_post_ids": [
-            "participant_062_phase_1",
-            "participant_062_phase_2",
-            "participant_062_phase_4"
+            "participant_062_post_0025",
+            "participant_062_post_0032",
+            "participant_062_post_0033",
+            "participant_062_post_0047"
+          ]
+        },
+        {
+          "label": "city exploration",
+          "evidence_post_indices": [
+            1,
+            33,
+            41
+          ],
+          "evidence_post_ids": [
+            "participant_062_post_0002",
+            "participant_062_post_0034",
+            "participant_062_post_0042"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "city exploration",
+          "label": "urban exploration",
           "evidence_post_indices": [
-            1,
-            2
+            18,
+            31
           ],
           "evidence_post_ids": [
-            "participant_062_phase_2",
-            "participant_062_phase_3"
+            "participant_062_post_0019",
+            "participant_062_post_0032"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "city exploration",
+          "label": "mount damavand",
           "evidence_post_indices": [
-            2
+            34
           ],
           "evidence_post_ids": [
-            "participant_062_phase_3"
+            "participant_062_post_0035"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "city appreciation",
           "evidence_post_indices": [
-            1,
-            3
+            18
           ],
           "evidence_post_ids": [
-            "participant_062_phase_2",
-            "participant_062_phase_4"
+            "participant_062_post_0019"
+          ]
+        },
+        {
+          "label": "weekend getaway",
+          "evidence_post_indices": [
+            0
+          ],
+          "evidence_post_ids": [
+            "participant_062_post_0001"
           ]
         }
       ]
@@ -235,62 +324,75 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "cats",
+          "label": "cat",
           "evidence_post_indices": [
             0,
-            1,
-            2,
-            3
+            4,
+            15,
+            25,
+            31,
+            45
           ],
           "evidence_post_ids": [
-            "participant_062_phase_1",
-            "participant_062_phase_2",
-            "participant_062_phase_3",
-            "participant_062_phase_4"
+            "participant_062_post_0001",
+            "participant_062_post_0005",
+            "participant_062_post_0016",
+            "participant_062_post_0026",
+            "participant_062_post_0032",
+            "participant_062_post_0046"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "cats",
+          "label": "cat ownership",
           "evidence_post_indices": [
-            3
+            0,
+            9
           ],
           "evidence_post_ids": [
-            "participant_062_phase_4"
+            "participant_062_post_0001",
+            "participant_062_post_0010"
           ]
         },
         {
-          "label": "pet care",
+          "label": "pet ownership",
           "evidence_post_indices": [
-            1,
-            3
+            4,
+            31
           ],
           "evidence_post_ids": [
-            "participant_062_phase_2",
-            "participant_062_phase_4"
+            "participant_062_post_0005",
+            "participant_062_post_0032"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "cats",
+          "label": "orange tabby cat",
           "evidence_post_indices": [
-            3
+            9
           ],
           "evidence_post_ids": [
-            "participant_062_phase_4"
+            "participant_062_post_0010"
           ]
         },
         {
-          "label": "pet care",
+          "label": "pet companionship",
           "evidence_post_indices": [
-            1,
-            3
+            25
           ],
           "evidence_post_ids": [
-            "participant_062_phase_2",
-            "participant_062_phase_4"
+            "participant_062_post_0026"
+          ]
+        },
+        {
+          "label": "pet interaction",
+          "evidence_post_indices": [
+            9
+          ],
+          "evidence_post_ids": [
+            "participant_062_post_0010"
           ]
         }
       ]

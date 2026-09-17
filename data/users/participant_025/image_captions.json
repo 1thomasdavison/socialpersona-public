@@ -1,67 +1,2471 @@
 {
   "user_id": "participant_025",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "dining",
-        "nature visits",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; dining; nature visits; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple stands on a rooftop platform, holding hands, with a distinctive white and blue domed building behind them and a city skyline under a blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple stands together on a rooftop with a blue-domed structure in the background during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose on a rooftop platform in front of a blue-domed church tower with a city and mountains in the background at dusk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses together in front of a blue-domed building under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose together on a rooftop overlooking a cityscape with a prominent blue-domed building under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose together on a metal platform in front of a large white and blue domed building with a city view in the background."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "dining",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dining; nature visits; outdoor activities; photography."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple enjoys a meal at a restaurant with a scenic outdoor view."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie shows two people dining at a table with drinks and plates of food inside a glass-walled restaurant overlooking a green garden and hillside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people enjoy a meal outdoors in front of scenic green hills."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie at an outdoor dining table with food, set against a scenic green hillside view."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman smile for a selfie at an outdoor restaurant table filled with food, set against a backdrop of green hills and trees."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; nature visits; outdoor activities; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together at a celebration with a table of assorted pastries and drinks in a decorated setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dressed-up couple poses indoors beside party food, champagne flutes, balloons, flowers, and a celebratory graduation-themed balloon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose in front of a celebratory table set with pastries, drinks, balloons, and flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses behind a table laden with pastries and drinks, beside a graduation-themed balloon that reads 'Go Change The World!'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and woman pose for a photo at an indoor celebration featuring a dessert table, balloons, and a bouquet of flowers."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "dining",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dining; nature visits; outdoor activities; photography."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple embraces on a glass observation deck, overlooking a sprawling city and distant mountains under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is embracing on a glass platform with a cityscape view under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling people pose hugging on a glass observation platform above a sprawling city, with mountains and dramatic dark clouds in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses together atop a glass observation deck overlooking an expansive cityscape under cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple embraces on a glass observation deck overlooking a sprawling city under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses for a photo on a glass observation deck overlooking a sprawling city and mountains under cloudy skies."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "dining",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; dining; nature visits; outdoor activities; photography."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A joyful graduate in a blue cap and gown holds two diplomas while a person in a blue plaid suit"
+        },
+        "gpt-4o-mini": {
+          "summary": "A graduate in a blue gown celebrates with a companion while holding her diploma outdoors."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a blue graduation cap and gown smiles while holding an open diploma folder as another person in a blue suit kisses their cheek on a lawn at night."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A graduate in a blue gown celebrates graduation alongside an adult male outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graduate in a blue cap and gown holds two diplomas while being kissed on the cheek by a man in a matching blue suit, posing outdoors at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling graduate in a blue gown and cap poses with an arm raised while a man in a matching blue suit kisses her cheek, both holding a diploma on a grassy lawn at night."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "baking and desserts",
-        "city exploration",
-        "dining",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; city exploration; dining; outdoor activities; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple stands on a glass platform overlooking a cityscape with cloudy skies."
+        },
+        "gpt-5.4": {
+          "summary": "Two people smile and hold hands on a glass observation deck overlooking a large city and mountains beneath dramatic storm clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses joyfully atop a glass observation deck overlooking an expansive cityscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple holds hands on a glass observation deck overlooking a sprawling city under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple stands on a glass observation deck wearing protective shoe covers, overlooking a sprawling city and mountains under cloudy skies."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A selfie shows"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are taking a selfie in a park-like setting, with one person making a peace sign."
+        },
+        "gpt-5.4": {
+          "summary": "A tilted outdoor selfie shows two smiling people on a paved walkway near statues and trees, with one raising a peace sign under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people taking a selfie in front of statues under cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile and pose for a selfie outdoors near statues and trees under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple takes a tilted selfie in an outdoor plaza featuring stone monuments and trees under a cloudy sky."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two tickets featuring photos of individuals holding signs are displayed in front of a concert stage."
+        },
+        "gpt-5.4": {
+          "summary": "Two hands hold two photo-booth strips showing a couple posing at a nighttime event venue with a large stage and screen in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Hands holding photo strips in front of a concert stage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Hands hold two photo strips from a 'MANÁ' concert at [ORGANIZATION] on [DATE], with a nighttime stadium stage in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pair of hands holds two photo booth strips featuring a couple in front of a concert stage backdrop at night."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple takes a selfie in front of a large monument under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling couple takes a selfie outdoors in front of the [ORGANIZATION] del Mundo monument under a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie in front of the Equator monument under cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie in front of a large monument under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple takes a selfie in front of the [ORGANIZATION] del Mundo monument under a cloudy sky."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple takes a selfie in front of a grand"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses for a selfie in front of a large, ornate church under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling two-person selfie in front of a large Gothic-style stone cathedral with a clock tower under dark, cloudy skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie in front of an ornate cathedral under cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple smiles for a selfie in front of a large Gothic cathedral under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple takes a selfie in front of a large, ornate Gothic-style cathedral under an overcast sky."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple sits on the ground in front of a large monument under a blue sky with clouds."
+        },
+        "gpt-5.4": {
+          "summary": "Two people sit posing on a paved walkway in front of a tall stone monument topped with a large dark globe under a blue, cloud-filled sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses in front of a monument under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile while sitting in front of a large monument topped with a globe under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple sits on the ground straddling a yellow line at the base of a large stone monument topped with a globe under a blue sky."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together on a viewpoint overlooking a city under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "Two people smile and pose at a scenic overlook with a sprawling city below and dramatic storm clouds overhead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses together against a backdrop of an overcast cityscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile together on a balcony overlooking a sprawling city under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple stands on a scenic overlook with a metal railing, posing against a backdrop of a densely populated city valley under heavy grey clouds."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two photo strips being held up in front of a concert stage."
+        },
+        "gpt-5.4": {
+          "summary": "Hands hold two MANÁ-themed photo booth strips in front of a nighttime concert stage and stadium seating."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds photo strips from a concert event featuring [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Hands hold two photo strips from a concert at [ORGANIZATION] on [DATE], with a large stage visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person holds two photo booth strips featuring a couple in front of a large concert stage at night."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple takes a selfie in a sunny park with green grass, trees, and distant buildings."
+        },
+        "gpt-4o-mini": {
+          "summary": "A selfie of two individuals in a park on a sunny day, surrounded by [ORGANIZATION] and buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people smile for a selfie in a sunny green park with large trees, blue sky, and distant city buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie in an open park under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie in a sunny park with green grass and trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple takes a selfie in a sunny park with green grass, trees, and city buildings visible in the background."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of various moments, including a selfie, a family member, event tickets, a scenic view, and a dining experience."
+        },
+        "gpt-5.4": {
+          "summary": "A multi-photo collage shows mirror and couple selfies, a person seated at a dining table, photobooth strips, a large historic building, and a restaurant scene with Spanish recap text overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage of six photos showcasing various activities including fitness, family moments, travel, and dining."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of six personal photos showing self-portraits, family moments, travel memories, and dining scenes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media collage featuring six photos of a young woman, an older woman, and a couple in various settings including home, outdoors, and a restaurant."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two hands, one wearing a gold ring, reaching towards a clear blue sky above a body of water."
+        },
+        "gpt-5.4": {
+          "summary": "Two hands wearing rings are held up together against a bright blue sky with sunlight and a faint ocean horizon in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two hands holding each other against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two hands clasped together against a bright blue sky, both wearing rings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two hands, each wearing a ring, are held up against a bright blue sky with the sun shining in the corner."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A couple shares a kiss while standing inside a large, illuminated heart-shaped structure at night, with city lights visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is kissing while standing inside a large illuminated heart structure at night."
+        },
+        "gpt-5.4": {
+          "summary": "A couple kisses while standing inside a large illuminated heart-shaped structure at night."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple kisses under a large illuminated heart structure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple kisses inside a large, illuminated heart-shaped structure at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A couple stands inside a large, illuminated heart-shaped structure at night, sharing a kiss against a dark sky with city lights visible below."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A couple stands on a rooftop platform, holding hands and looking at each other, with a large domed building and a city skyline backed by mountains visible under a twilight sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is embracing on a rooftop with a scenic view of a city and a prominent blue dome in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose closely on a rooftop viewing platform beside a blue-domed historic church, with a cityscape and cloudy evening sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple stands close together in front of a blue-domed structure against a scenic cityscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple stands close together on a rooftop platform, gazing at each other against the backdrop of a blue-domed cathedral and a sprawling cityscape under a twilight sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A couple stands on a rooftop terrace holding hands and looking at each other, with a large white and blue domed church and a cityscape in the background during twilight."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collage of four outdoor selfies shows a smiling man and woman posing together under a cloudy sky with trees and distant hills."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals taking selfies in a park-like setting with trees and a building in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A four-photo collage shows two people smiling in outdoor selfies near trees, a mountain, and a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes multiple selfies outdoors under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of four selfies showing a smiling couple outdoors under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A four-panel collage of a smiling couple taking outdoor selfies against a blue sky with clouds and trees."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a Happy Meal box and colorful toys in a living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person indoors holds a [ORGANIZATION] box with two colorful toy figures while wearing playful novelty glasses."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a [ORGANIZATION] box in front of their face while wearing playful glasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing McDonald's-themed glasses holds up a red Happy Meal box with toy figures inside in a living room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing McDonald's-themed glasses holds up a red Happy Meal box containing two small character figurines in a living room setting."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a movie ticket for '[ORGANIZATION] scheduled for [DATE]."
+        },
+        "gpt-5.4": {
+          "summary": "A digital movie ticket screenshot for '[ORGANIZATION] showing cinema details, date/time, two general seats, and a 'VER CÓDIGO' button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Movie ticket stub for 'IntensaMente' showing details of a [DATE] screening."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie ticket for '[ORGANIZATION] at [ORGANIZATION] on [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital ticket for the movie '[ORGANIZATION] (Inside Out 2) at [LOCATION] on [DATE]."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features colorful plastic figurines of animated characters displayed on a shelf."
+        },
+        "gpt-5.4": {
+          "summary": "Four translucent cartoon figurines resembling Inside Out characters are displayed on a wooden shelf in purple stands."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four translucent figurines of animated characters are displayed in a row."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four colorful translucent figurines of animated emotion characters are displayed on a wooden shelf."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four translucent, colorful character figurines are displayed on purple bases against a wooden shelf background."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young couple is seated at a wooden table, with"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is seated at a table, engaged in signing documents, with family members in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A formally dressed pair sits at a table during a document-signing moment, with several other people seated and standing in a plain indoor room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple in formal attire signs a document while seated around an office table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a pink suit signs documents at a wooden table while a woman in a green dress smiles beside him, with several adults observing in an office setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A formally dressed couple sits at a wooden table where the man signs documents while several older adults observe in an office setting."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is celebrating a significant event while holding a certificate in an indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dressed-up couple poses indoors holding a certificate at what appears to be a formal civil ceremony, with the woman making a humorous disgusted face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple celebrates a formal event by holding an official document."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a pink suit and a woman in a green dress stand together holding a document in an office setting, with other people observing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A formally dressed couple stands indoors holding a certificate, with the woman making a playful face while the man smiles broadly."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling man and woman, dressed in formal attire, take a selfie together, both making peace signs."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses for a selfie, both making peace signs with their fingers in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two formally dressed people smile for an indoor selfie while both making peace signs in a plain room with chairs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a casual indoor setting making peace signs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses for a selfie in a clinic, both making peace signs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple dressed in formal attire poses for a selfie, both making peace signs with their hands."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two people, one smiling at the camera and the other looking towards a clear blue ocean, are enjoying a sunny day outdoors, both wearing straw hats."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple wearing hats poses for a selfie by a scenic beach with clear water and greenery in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie of two people in sun hats by clear turquoise water under tree shade at a tropical seaside spot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people are enjoying a sunny day by the beach wearing hats."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people wearing straw hats pose for a selfie against a backdrop of turquoise water and greenery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple wearing straw hats poses for a selfie against a backdrop of turquoise water and green foliage."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text emphasizing the importance of communication for mental well-being and emotional responsibility."
+        },
+        "gpt-5.4": {
+          "summary": "A minimalist white quote image in Spanish about the importance of talking for clarity, healing, and peace of mind, attributed to [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Poetic Spanish verses emphasizing communication's benefits by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white background displays Spanish text about the benefits of speaking, attributed to [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A minimalist text graphic featuring a Spanish quote by [PERSON] emphasizing the importance of communication for mental peace and relationships."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon illustration of two people on opposite sides of a gap, holding a rope, with a quote about love."
+        },
+        "gpt-5.4": {
+          "summary": "A hand-drawn cartoon shows two people sitting on opposite edges of a gap with a Spanish quote about love choosing not to cause harm."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Cartoon of two people holding a rope over water, illustrating love as choosing not to harm despite power."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon depicts two people pulling on opposite ends of a rope tied to a central block, illustrating the Spanish text '[ORGANIZATION] EL PODER PARA HACER DAÑO Y ELEGIR NO HACERLO.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon illustration depicts a man and a woman holding opposite ends of a rope while standing on the edges of two separate cliffs, accompanied by Spanish text defining love as having the power to cause harm but choosing not to."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a motivational quote about self-worth and love."
+        },
+        "gpt-5.4": {
+          "summary": "A dark, minimalist image with centered Spanish quote text in yellow over a dim background with faint shoes visible at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A motivational quote in Spanish displayed against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark background image displays a Spanish motivational quote in yellow text, with the bottom edge showing feet and toes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark, low-light image featuring a Spanish quote in yellow text overlaid on a blurry background with the tips of white shoes visible at the bottom."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a woman in a floral dress posing playfully with a man in a casual shirt, set in a scenic outdoor location."
+        },
+        "gpt-5.4": {
+          "summary": "An Instagram Story screenshot shows a three-photo collage of a waterfront marriage proposal and the couple celebrating afterward."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple celebrates a special moment by a waterfront."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man proposes to a woman by the water, she accepts joyfully, and they smile at each other."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] story showing a three-panel photo sequence of a man proposing to a woman outdoors, followed by their happy reaction and embrace."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a metal sign with a quote about timing and action, set in a modern architectural space."
+        },
+        "gpt-5.4": {
+          "summary": "A metal plaque with a Spanish quote is photographed inside a modern glass-and-stair interior."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A metal plaque displays a Spanish quote in an indoor atrium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A metal plaque with a Spanish quote about timing and action is mounted on a railing overlooking a modern building interior."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a metallic plaque with an inspirational Spanish quote mounted on a railing overlooking a modern multi-level atrium."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple embraces in front of a brightly decorated Christmas tree, surrounded by festive holiday decor."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses affectionately in front of a decorated Christmas tree."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling people pose hugging in front of a decorated Christmas tree in a living room, with one wearing a festive red-and-white holiday headband."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses in front of a decorated Christmas tree indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple embraces in front of a decorated Christmas tree indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple embraces in front of a decorated Christmas tree in a living room setting."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing glasses and a striped shirt is focused on working at a desk with a laptop and an external monitor"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting at a desk, working on a laptop and a monitor in a home office setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits at a home desk working intently on a laptop beside an external monitor showing a spreadsheet."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person working intently in a home office setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a striped shirt adjusts glasses while working on a laptop at a desk with an external monitor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing glasses and a striped shirt sits at a desk working on a laptop connected to an external monitor displaying a spreadsheet."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in a suit holds an award while posing with a woman in a green dress at a social event."
+        },
+        "gpt-5.4": {
+          "summary": "A formally dressed couple smiles on an outdoor covered sports court, with the man holding an award plaque during what appears to be a ceremony or celebration."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together holding an award in a sports court under a tent."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit holding an award poses with a smiling woman in a green dress on an outdoor court."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A formally dressed man and woman pose smiling together on an outdoor sports court, with the man holding a glass award plaque."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A selfie of two individuals sitting at a food court with various dining options in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie of two people seated at a mall food court, with restaurant signs and diners visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie in what appears to be an indoor food court."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people pose for a selfie in a food court with visible restaurant signs like [PERSON]' Donuts and [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman smile for a selfie while seated at an orange table in a brightly lit food court with visible storefronts in the background."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple poses together in a festive Christmas setting, featuring a decorated fireplace mantel and a flocked Christmas tree."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is seated together in a cozy, festive setting with holiday decorations."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in matching green outfits smile and pose together beside a decorated Christmas tree and fireplace in a festive indoor portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple in matching green outfits poses joyfully by a Christmas tree decorated with red ornaments."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple poses happily in front of a decorated Christmas tree and fireplace."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple in matching green outfits poses affectionately in front of a decorated Christmas tree and fireplace."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple sits closely on a white couch, holding hands and looking at each other, in a room decorated with festive red and white holiday accents."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is sitting together on a couch, holding hands in a cozy, festive setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in green outfits smile at each other while sitting on a white couch in a red-and-white holiday-themed living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple in matching green outfits sits closely together on a couch adorned with red decor during what appears to be Christmas season."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple smiles affectionately while sitting close together on a white couch in a festive, red-themed living room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple sits closely together on a white sofa in a room decorated with red curtains, a plush red rug, and Christmas greenery near a fireplace."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple embraces in front of a white fireplace mantel and a decorated Christmas tree, creating a festive and romantic scene."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is embracing in a festive setting decorated with holiday elements."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in green outfits smile and embrace in a holiday-decorated indoor portrait beside a Christmas tree and festive garlands."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple in matching green outfits stands close together against a Christmas-themed backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple in matching green outfits embraces warmly in a festively decorated Christmas setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple embraces in matching green outfits while standing next to a flocked Christmas tree and a decorated fireplace."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple sits on a red rug in a festive Christmas setting, with the woman holding a red gift"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is sitting together in a festive setting, holding a red gift box with a green bow."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in green outfits sit beside a decorated Christmas tree and fireplace, smiling while holding a red wrapped gift."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple shares a joyful moment by a Christmas tree while exchanging gifts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple sits together holding a red gift box, surrounded by Christmas decorations including a tree and fireplace."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple in matching green outfits sits together holding a red gift box in front of a decorated Christmas tree and fireplace."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple poses with their orange cat in front of a festive Christmas tree adorned with gold"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together with a cat in front of a decorated Christmas tree and gifts."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose indoors by a decorated Christmas tree with wrapped gifts, while one holds an orange-and-white cat."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses in front of a Christmas tree holding an orange cat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses indoors beside a decorated Christmas tree, with the woman holding an orange cat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses indoors with an orange and white cat in front of a decorated Christmas tree and wrapped gifts."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man and a woman"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple sits on stairs with a cat, next to a decorated Christmas tree."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose on indoor stairs holding an orange-and-white cat beside a decorated, lit Christmas tree."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses by a Christmas tree holding an orange cat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple sits on stairs beside a decorated Christmas tree, holding an orange cat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple sits on a staircase holding an orange and white cat next to a decorated Christmas tree."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple poses indoors"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together in a well-decorated indoor setting, dressed in formal attire."
+        },
+        "gpt-5.4": {
+          "summary": "Two people dressed up and smiling for a posed indoor photo beside Christmas decorations and hanging stockings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses together in a warmly decorated room during Christmas season."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses indoors near Christmas decorations, including a sign reading 'O Come Let Us Adore Him CHRIST the Lord'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses for a photo indoors next to a cabinet decorated with Christmas stockings and a religious sign."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a bikini and colorful wrap sits on a rock at the beach, enjoying a sunny day."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a bikini, colorful sarong, and sunhat sits on rocks at a beach under a wide blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a colorful outfit enjoys a sunny day by the beach."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a colorful bikini and wrap skirt sits on a rock at a crowded beach under a bright blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman wearing a straw hat and colorful beachwear sits on a rock at a sunny, crowded beach."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple takes a selfie on a sunny beach with blue skies and ocean waves in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple enjoys a sunny day at the beach, smiling and posing for a selfie."
+        },
+        "gpt-5.4": {
+          "summary": "A wide-angle beach selfie shows two smiling people sitting on wet sand beside the shoreline under a bright blue sky with scattered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie together while sitting on a [LOCATION] under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smiling and taking a selfie on a sandy beach under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple takes a selfie on a sandy beach with the ocean and blue sky in the background."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a colorful beach outfit poses on a rock by the shore with a scenic ocean background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a floral bikini top, straw hat, and colorful wrap poses on rocks at a sandy beach with shallow water and a bright blue cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a colorful outfit poses by rocks near the beach under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a colorful beach outfit and straw hat smiles while leaning on a rock at a crowded sandy beach under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman wearing a straw hat and colorful beachwear poses on a large rock at a sunny, crowded beach."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing glasses and a grey t-shirt is playing a red bass guitar outdoors, with a colorful mural in the background and large speakers on either side."
+        },
+        "gpt-4o-mini": {
+          "summary": "A musician is performing on stage with a bass guitar, gesturing while surrounded by audio equipment and a colorful mural in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person with a red bass guitar stands between large speakers at an outdoor stage area, with one hand raised and a colorful mural blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person playing a red bass guitar outdoors under colorful graffiti."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person plays a red bass guitar on an outdoor stage with colorful graffiti in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A musician wearing glasses and a grey t-shirt plays a red bass guitar on an outdoor stage flanked by large speakers."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A couple embraces while posing for a photo on a viewpoint overlooking a city at dusk."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple embraces while posing for a photo against a scenic city backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose in an embrace at a scenic overlook with a cityscape and cloudy sunset sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people are posing together in a scenic overlook during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple poses affectionately on a stone overlook with a cityscape in the background under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses affectionately on a stone overlook with a sprawling cityscape visible in the background under a cloudy sky."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple takes a selfie from a high vantage point overlooking a sprawling city under a partly cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses for a selfie with a cityscape in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling people pose for a selfie at a hilltop lookout with black railings and a wide city view in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie overlooking an urban landscape under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple takes a selfie on a hilltop overlooking a sprawling cityscape under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple takes a selfie from an elevated viewpoint overlooking a densely populated city with colorful buildings under a bright sky."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple embraces while posing for a photo on a scenic overlook with a city skyline in the background at dusk."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses happily together with a cityscape in the background during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling couple poses in an embrace at an overlook with a cityscape in the background during golden-hour light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses affectionately against a scenic city backdrop during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses for a photo on a stone overlook with a cityscape in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses affectionately on a stone overlook with a sprawling cityscape visible in the background during daylight."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple takes a selfie outdoors, with a scenic view of a body of water, a distant city, lush purple flowers, and palm trees under a blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses for a selfie in front of vibrant flowers and a scenic background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling couple takes a selfie at a scenic waterfront overlook with palm trees, bright purple flowers, and a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie by the seaside under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple takes a selfie outdoors near vibrant purple flowers and a palm tree with a waterfront view."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple takes a selfie outdoors with vibrant purple bougainvillea flowers and a coastal view in the background."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in a living room wearing a pink crop top and black pants, with a flower arrangement on a table nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person poses indoors in a pink sleeveless top and black pants beside a blue chair and a small table with a pink flower arrangement."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a cozy living room wearing a pink crop top and black jeans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while standing indoors next to a dark blue couch and a small table with a floral arrangement."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman with dark hair stands indoors wearing a light pink sleeveless top and black jeans, positioned between a [ORGANIZATION] blue sofa and a small wooden table holding a bouquet of flowers."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holding a cup with snacks and a photo inside, wearing a 'Super cute' t-shirt featuring cartoon characters."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in an office holds a clear snack cup decorated with a small photo sticker while wearing a [PERSON] T-shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in an office environment holding a cup of snacks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in an office holds a cup with their photo on it, wearing a [ORGANIZATION] shirt that says 'Super cute'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in an office setting holds a cup of snacks while wearing a white t-shirt featuring The Powerpuff Girls and the text 'Super cute'."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling woman holds a small birthday cake with '28' candles in a lively restaurant setting with other patrons and TVs."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is celebrating their 28th birthday with a cake in a restaurant setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person stands in a busy restaurant holding a small cake topped with \"28\" candles while a soccer match plays on TVs in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person celebrates their birthday in a restaurant holding a cake topped with '28' candles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman smiles while holding a small cake with '28' candles in a restaurant with sports on TV."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman stands in a busy restaurant holding a small chocolate cake topped with '28' candles."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is celebrating a birthday in an office setting, holding a decorated cake with princess figures."
+        },
+        "gpt-5.4": {
+          "summary": "A woman in an office smiles while holding a princess-themed birthday cake, surrounded by pink heart balloons, flowers, and desk decorations."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person celebrates a birthday in an office environment surrounded by balloons featuring [ORGANIZATION] princesses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while holding a birthday cake decorated with cartoon characters in an office setting surrounded by princess-themed balloons and flowers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman stands in a modern office holding a birthday cake decorated with [ORGANIZATION] princesses and the number 28, surrounded by festive balloons and gifts."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant bouquet of roses in a black vase, accompanied by a card from a flower shop, is displayed on a desk in an office setting."
+        },
+        "gpt-5.4": {
+          "summary": "A large bouquet of pale pink roses and bright pink flowers in a black [ORGANIZATION] vase sits on a table indoors, with part of a decorated cake visible beside it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant floral arrangement in a black vase from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful floral arrangement in a black vase with '[ORGANIZATION] branding, displayed on a desk in an office setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant floral arrangement in a black vase sits on a table next to a cake decorated with Disney princess figures."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man and a woman are standing and smiling for a photo indoors, with a staircase and home decor in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together in a well-lit indoor setting, with a staircase visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people smile and pose arm-in-arm indoors near a staircase in a home."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses together indoors near a staircase."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man and woman pose together indoors near a staircase."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose smiling together indoors near a staircase, with the man wearing a striped shirt and jeans and the woman in a white dress."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man and a woman are standing and smiling at the camera indoors, next to a staircase and a TV stand with decorations."
+        },
+        "gpt-4o-mini": {
+          "summary": "A young man and woman pose together in a well-lit indoor setting, standing on a staircase."
+        },
+        "gpt-5.4": {
+          "summary": "Two people smile and pose together indoors near a staircase and TV stand in a casual home setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses together in a home interior near stairs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smiling for a photo indoors near a staircase."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man and woman pose together indoors near a staircase, with the man wearing a striped shirt and jeans and the woman in a white dress and denim jacket."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together in a home setting, with one person wearing a white dress and the other in a striped shirt."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling people pose together indoors beside a staircase, with one standing behind the other in a tiled living room area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses together indoors near a staircase."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses together indoors near a staircase."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses affectionately indoors near a staircase, with the woman in a white dress and the man in a striped shirt."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a car wearing a bucket hat and a t-shirt with the text 'I'm Fine'."
+        },
+        "gpt-5.4": {
+          "summary": "A four-photo selfie collage shows a person in a car wearing a pink bucket hat with cherry embroidery, a white graphic T-shirt, and a seatbelt, making different facial expressions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking selfies in a car wearing different outfits."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes multiple selfies inside a car while wearing a pink and white bucket hat with cherry embroidery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A four-panel collage of a smiling woman wearing a pink bucket hat and white graphic tee, taking selfies inside a car."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling woman in a white shirt and beige pants is seated indoors against a brick wall, with a brown leather couch and a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated in a stylish interior with a brick wall and a brown couch."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a white blouse sits indoors in front of brick walls and brown leather sofas in a lounge-style setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in [LOCATION] sits against brick walls indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while seated on a chair in front of brick walls and brown leather furniture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman in [LOCATION] and beige trousers sits on a stool in front of exposed brick walls and brown leather furniture."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with long hair smiling in a modern indoor setting, captured in four different angles."
+        },
+        "gpt-5.4": {
+          "summary": "A four-panel selfie collage shows a person indoors making slight smile and pout expressions under bright ceiling lights in a modern office-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four close-up selfies of a person in an indoor space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of four selfies showing a person smiling and looking at the camera from a low angle inside a modern building with visible structural beams."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A four-panel collage of a woman with long brown hair taking selfies in a modern indoor setting with high ceilings and industrial lighting. She displays various expressions including smiling, pouting, and looking at the camera."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses for a selfie in front of vibrant purple flowers and a scenic background."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling people pose for a selfie at a scenic waterfront overlook with bright purple flowers, a palm tree, and a blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie against vibrant purple flowers under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses for a selfie outdoors near vibrant purple flowers and a palm tree, with a waterfront view in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple takes a selfie outdoors with vibrant purple bougainvillea flowers and a coastal view in the background."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is giving a piggyback ride to another in front of a large monument under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose playfully in front of a large stone monument topped with a globe under a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people pose joyfully in front of a monument under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose joyfully with arms outstretched in front of a large monument topped with a globe under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses playfully in front of a large stone monument topped with a globe, standing on the equator line under a cloudy blue sky."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A joyful bride in a white gown holding a pink rose bouquet smiles broadly as a groom in a suit whispers to her, set against a backdrop of elegant floral decorations and dessert tables."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple shares a kiss at a wedding, surrounded by floral decorations and elegant decor."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling bride holding pink roses stands with a groom in a suit at an ornate indoor wedding backdrop with floral arrangements and warm lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple in wedding attire shares a tender moment under floral decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A groom kisses a bride on the cheek at an ornate wedding reception decorated with flowers and golden accents."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bride in a white gown holding pink roses smiles as a groom in a dark suit kisses her cheek at an elaborately decorated wedding reception."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple wearing hats poses for a selfie by a serene beach with clear water and greenery in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie of two people in sun hats by a clear turquoise shoreline with trees and a small boat in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people wearing hats are enjoying a sunny day by the beach."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people wearing straw hats pose for a selfie against a backdrop of turquoise water and greenery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man and woman wearing straw hats pose for a selfie against a backdrop of turquoise water and green foliage."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two people, dressed in winter gear, [PERSON] happily next to a small snowman in a snowy, mountainous landscape."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing with a snowman in a snowy mountainous landscape."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in winter clothing pose smiling beside a small snowman in a snowy mountain landscape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people are posing next to a snowman in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people in winter gear pose cheerfully beside a small snowman on a snowy mountain."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two smiling individuals in winter gear pose playfully with a small snowman on a snowy mountain slope."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple poses for a photo on a rocky outcrop overlooking a lush green valley with a winding stream, surrounded by grassy hills and distant mountains under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together on a rocky outcrop with a scenic mountainous landscape in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose on a rocky overlook above a green canyon valley with rolling hills, a small stream, and cloudy mountain scenery."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses joyfully atop a rocky outcrop overlooking lush green valleys under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a photo on a rocky cliff overlooking a green valley with distant mountains under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses on a rocky cliff edge overlooking a deep, green valley with mountains in the background under an overcast sky."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple sits on a heart-shaped wooden structure, giving thumbs up,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together on a heart-shaped bench with a mountainous landscape in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two people sit inside a large heart-shaped viewpoint structure above a mountain valley, smiling and giving thumbs up under cloudy skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple sits inside a heart-shaped structure against a scenic mountain backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile and give thumbs-up while sitting inside a large wooden heart-shaped structure overlooking a mountainous valley."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple sits inside a large wooden heart-shaped frame on an elevated platform, giving thumbs-up gestures against a backdrop of green mountains and cloudy skies."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses for a selfie in a colorful, illuminated outdoor setting with string lights and vibrant murals."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling couple takes a selfie on a colorful walkway beneath warm string lights in a lush garden at dusk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people take a selfie in front of an illuminated tunnel featuring colorful lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie under a glowing string-light archway in a colorful, decorated outdoor space."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple wearing beanies takes a selfie in front of a colorful mural and an illuminated light tunnel at night."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people on a bus, with one person posing for the camera while others are seated and appear relaxed."
+        },
+        "gpt-5.4": {
+          "summary": "A playful selfie inside a bus shows one person leaning toward the camera while another passenger sleeps beside them, with more seated riders in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are seated in a vehicle; one makes playful gestures while another appears relaxed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young man playfully sticks out his tongue while seated next to a sleeping woman on a bus with yellow curtains."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young man makes a playful face while sitting next to a sleeping woman on a bus with yellow curtains and blue seats."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple sits on a wooden bench overlooking a river surrounded by lush green trees and distant hills under a cloudy"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple sits on a wooden bench by a river, surrounded by [ORGANIZATION] under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "Two people sit together on a wooden bridge over a river, with green trees, hills, and a cloudy sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple sits together smiling by a river under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile while sitting on a wooden bench overlooking a river with green hills in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple sits on a wooden bench under a shelter, posing for a photo with a river and green hills in the background."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple takes a selfie outdoors, framed by trees, with a stone wall, grassy area, and distant mountains under a cloudy sky in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple takes a selfie in a scenic outdoor setting with trees and mountains in the background during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling couple takes an outdoor selfie beside large trees and a stone wall, with grassy fields, distant hills, and dramatic cloudy sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie in front of scenic countryside under cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people smile for a selfie outdoors between large trees, with a scenic mountain landscape and cloudy sky in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple takes a selfie outdoors in a rural setting with trees, a stone wall, and mountains under a cloudy sky."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man wearing a cap and a polo shirt smiles at the camera while sitting at a restaurant table"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seated at a table in a restaurant with a plate of food and various condiments."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits smiling at a restaurant table with a meal and drinks in a warm, cozy dining room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person enjoys a meal in an indoor dining area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while seated at a restaurant table with a large steak meal."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man wearing a cap and dark polo shirt sits at a wooden table in a restaurant, ready to eat a steak meal served on a sizzling platter."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals celebrating a 30th birthday with themed decorations and cakes."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose at a colorful 30th birthday party setup with balloon arches, cakes, and retro-themed decorations."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple celebrates a 'Born in the 80s' themed birthday party."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose for a photo at a 30th birthday party decorated with balloons, a cake, and 'Born in the 80s' signage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and woman pose smiling in front of a retro-themed birthday party setup featuring black, neon, and orange balloons, cakes, and large silver '30' number balloons."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person stands smiling in front of a vibrant 30th birthday celebration setup, featuring balloons, a cake,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a birthday celebration setup with a person standing in front of a decorated backdrop, including balloons and cakes, highlighting a '30' theme."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses at a decorated 30th birthday party setup with colorful balloon arches, cakes, a neon Happy Birthday sign, and a 90s-themed backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person celebrates a birthday in front of an elaborate balloon arch featuring 'Happy Birthday' and decorations themed around the number thirty."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses at a colorful 30th birthday party decorated with balloons, a cake, and retro-themed props."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man stands smiling with arms crossed in front of a festive 30th birthday setup featuring balloon arches, a neon sign, and a chocolate cake."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a birthday celebration with two people posing next to a cake and decorative balloons."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose smiling with a birthday cake in front of a colorful balloon arch and an 80s-themed party backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple celebrates a birthday themed 'Born in the 80s' party."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people celebrate a birthday with an '80s-themed party setup featuring balloons, a cake with candles spelling '30', and retro decorations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and woman pose smiling behind a chocolate birthday cake with lit candles at an indoor party decorated with 80s-themed balloons and props."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a birthday celebration with a cake, balloons, and two individuals posing with a boombox."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful 30th birthday party scene shows two people by a cake with lit candles, balloon decorations, and a boombox prop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A birthday celebration featuring a cake with candles shaped like '3' and '0', balloons, and decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people celebrate a birthday with an '80s theme, standing beside a cake with lit candles shaped as '30' and holding a boombox cutout."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose at an indoor 30th birthday party decorated with 80s-themed balloons, a boombox cutout, and a chocolate cake with lit candles."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple stands together in a snowy mountainous landscape, dressed warmly for the cold weather."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in winter jackets and sunglasses pose together on a snowy mountain landscape in cloudy weather."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a snowy mountainous landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose together smiling on a snowy mountain trail."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two smiling individuals pose together in warm winter clothing on a snowy mountain slope under overcast skies."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together by a waterfront on a sunny day."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose together by a waterfront railing on a sunny day, with a river, boats, and distant city buildings in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses together by a waterfront under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple poses happily on a waterfront promenade under clear skies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and woman pose affectionately on a waterfront promenade with a city skyline in the background."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together by a waterfront on a sunny day."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose smiling together on a waterfront promenade under a clear blue sky, with a river and distant city buildings in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses together by a waterfront under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses for a photo on a waterfront promenade under clear skies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose together on a sunny waterfront promenade with a city skyline in the background."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation expressing romantic feelings and the desire for a formal relationship."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] chat in Spanish showing a romantic message conversation with contact icons at the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] message expressing deep feelings of love between two people."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] chat screenshot showing a romantic message from '[PERSON]' with heart and sparkle emojis."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] chat with the contact '[PERSON]' displaying romantic text messages in Spanish dated January 2018."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A newlywed couple shares a kiss during an outdoor wedding ceremony, surrounded by applauding guests and festive string lights among palm trees."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple shares a kiss during their wedding ceremony, surrounded by guests in a beautifully decorated outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A bride and groom kiss during an outdoor wedding ceremony aisle lined with flowers, palm trees, string lights, and applauding guests."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple shares a kiss during their wedding ceremony under palm trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A groom kisses his bride during an outdoor wedding ceremony as guests applaud and watch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bride and groom share a kiss during an outdoor wedding ceremony surrounded by guests, palm trees, and string lights."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple stands close together in front of a decorated Christmas tree, sharing a moment in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose closely and smile at each other indoors in front of a decorated Christmas tree in a living room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses affectionately in front of a decorated Christmas tree."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple embraces and smiles at each other in front of a decorated Christmas tree indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A couple stands embracing and smiling at each other in front of a decorated Christmas tree inside a modern living room."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple wearing hats poses by a serene beach with clear water and greenery in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling selfie of two people in sun hats by a clear turquoise seaside with trees and a small boat in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people wearing hats are enjoying a sunny day by the beach."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling people wearing straw hats pose for a selfie against a backdrop of turquoise water and greenery."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man and woman wearing straw hats pose for a selfie against a backdrop of turquoise water and green foliage."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a serene sunset over the ocean with two figures in the water, accompanied by reflective text about the passage of time."
+        },
+        "gpt-5.4": {
+          "summary": "A pink-purple sunset over the ocean with two silhouetted swimmers and a reflective Spanish text overlay about time passing and growing up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two people swim in a pink-hued ocean during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people swim in ocean waters under a vivid pink and purple sunset sky, overlaid with reflective Spanish text about time passing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant pink and purple sunset over the ocean with two silhouetted heads in the water, overlaid with a reflective Spanish text about time passing."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a handwritten note expressing affection and gratitude for a significant person in the year 2017."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] chat screenshot shows a photo of a hand holding a handwritten Spanish note in front of plants, along with affectionate text messages dated December 2017."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a note saying '[PERSON] 2017 fuiste tú.'"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a handwritten note saying '[PERSON] 2017 fuiste tú.' against [ORGANIZATION], with a timestamp of [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a romantic social media post from December 2017 featuring a hand holding a note with a handwritten message against a leafy background."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation with messages expressing feelings of missing someone and a playful tone about fighting."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] chat in dark mode shows Spanish messages about missing someone and joking about having no one to argue with."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a chat conversation expressing longing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a [ORGANIZATION] chat showing messages in Spanish from [DATE], expressing missing someone and lacking someone to fight with."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] chat with the contact '[PERSON]' showing a humorous exchange in Spanish about missing someone to fight."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is holding hands while dressed formally at night, with city lights in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A slightly blurry nighttime photo shows two formally dressed people smiling and holding hands, with one in a suit and the other in a blue dress."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit and tie stands next to a woman wearing an elegant dress under dim lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit and a woman in a blue dress are holding hands and smiling at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit and a woman in a blue dress hold hands and smile at the camera during an evening event with city lights in the background."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman kisses a man on the cheek while embracing him"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses affectionately against a scenic backdrop during twilight."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up outdoor selfie shows one person kissing another on the cheek with a river and cloudy sunset sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple shares a tender moment against an evening sky backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple poses affectionately outdoors, with a woman kissing a man on the cheek against a cloudy sky and distant cityscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a couple outdoors, where a woman kisses a smiling man on the cheek against a backdrop of water and sky."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a filming setup with a child at a laptop surrounded by crew members and equipment."
+        },
+        "gpt-5.4": {
+          "summary": "Behind-the-scenes image of a filmed desk setup, with a person smiling at a laptop while a crew operates a large camera rig indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a striped shirt sits behind professional filming equipment during what appears to be an interview setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman smiles while working on a laptop during a film shoot, with camera crew and professional equipment around her."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman in a striped shirt sits at a desk with a laptop and mechanical keyboard, surrounded by professional film equipment including an [ORGANIZATION] camera rig and crew members."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a white collared shirt and black skirt takes a mirror selfie with a smartphone, smiling in an indoor setting with a door and tiled floor visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie while wearing a white shirt and black pants."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie indoors shows a person in [LOCATION] and dark pants holding a smartphone in a tidy room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a mirror selfie in an indoor room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie indoors wearing a white patterned blouse and black skirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair takes a mirror selfie indoors, wearing a white patterned button-down shirt and black bottoms while holding a smartphone."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a car wearing a bucket hat and a t-shirt with the text 'I'm Fine'."
+        },
+        "gpt-5.4": {
+          "summary": "A four-photo collage shows a person taking playful selfies inside a car, wearing a pink-and-white cherry bucket hat, a white graphic T-shirt, and a seatbelt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking selfies in a car wearing different outfits."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes multiple selfies inside a car while wearing a pink bucket hat and a white t-shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A four-panel collage of a smiling woman taking selfies in a car while wearing a pink bucket hat and white graphic t-shirt."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman is seated, appearing to engage in a discussion or presentation, with a focus on her hands and the text 'Nuestros programas' visible."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling woman with a lapel mic sits indoors in a softly lit interview/talk setting, with the Spanish caption “Nuestros programas” overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman smiles while presenting information in Spanish."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling woman in a patterned blouse looks toward the side, with overlaid text reading 'Nuestros programas'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman with long dark hair, wearing a patterned blouse and a lavalier microphone, is shown in an indoor setting with [ORGANIZATION] visible through a window behind her."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting on the floor under a desk, appearing to work on something."
+        },
+        "gpt-5.4": {
+          "summary": "A candid office snapshot shows one person sitting under a desk while another leans into the frame beside a rolling chair."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting under a desk appears distressed while another individual leans in close."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits under a desk holding a green object while another person looks down from above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two individuals in office attire are captured in a candid, playful moment, with one person sitting under a desk and the other leaning into the frame upside down."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals poses for a photo in front of banners for [ORGANIZATION] during an event."
+        },
+        "gpt-5.4": {
+          "summary": "A small group poses for a photo at an outdoor campus event in front of [ORGANIZATION] ARGOS banners."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people standing in front of a [ORGANIZATION] banner during an outdoor event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people pose for photos in front of a [ORGANIZATION] banner on an outdoor court."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three individuals pose for a photograph on an outdoor court in front of promotional banners for [ORGANIZATION] while being photographed by another person."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of individuals is gathered on a stage for a photo opportunity, celebrating the 30th anniversary of [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A small group poses on an outdoor stage at a campus-style event with [ORGANIZATION] ARGOS banners and giveaway bags."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people are gathered in front of a building promoting [ORGANIZATION] anniversary."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People on a stage at an outdoor event distribute blue bags in front of banners celebrating '30 [ORGANIZATION] [ORGANIZATION]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of people stands on an outdoor stage holding blue bags in front of purple banners celebrating the 30th anniversary of [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person taking mirror selfies in a casual outfit, showcasing a light pink top and light blue jeans in a well-lit indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A four-photo collage shows a person smiling and taking mirror selfies in a home interior while wearing a pink sleeveless top and light jeans."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking multiple selfies in a mirror while holding an [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes multiple mirror selfies in a home, wearing a pink crop top and jeans."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of four mirror selfies showing a woman with long dark hair wearing a pink tank top and light blue jeans inside a home."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a heartfelt message expressing love and appreciation for shared moments in 2017 and a commitment for the future."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a [ORGANIZATION] chat shows a romantic Spanish message image about wanting someone for 2018, 2019, 2020, and for life, followed by a reply with heart emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A heartfelt message expressing love from '[PERSON]' wishing a continued relationship into future years."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] chat shows a message expressing affection for someone, wishing to spend future years together, with a reply using heart emojis."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] conversation from [DATE], where one user sends a romantic New Year's message to '[PERSON]' and the other responds with agreement."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a light blue shirt is seated at a cafe table with two cups of coffee, a strawberry dessert, and Splenda packets, in a relaxed setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is enjoying a dessert and coffee at a café table."
+        },
+        "gpt-5.4": {
+          "summary": "A blurred café scene shows a person seated at a table with coffee drinks and a strawberry-topped dessert in an indoor mall-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person enjoys a dessert in an elegant café setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while enjoying coffee and dessert at a cafe with marble tabletops."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a light blue shirt sits at a marble table in a cafe, enjoying coffee and a strawberry-topped dessert."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses for a selfie in a clothing store, showcasing their outfits."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie of two smiling people in a bright clothing store, surrounded by racks of neatly displayed apparel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple takes a selfie in front of clothing racks inside a store."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple takes a selfie in a modern clothing store, with racks of apparel and mannequins visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple stands inside a modern clothing store, with the woman holding a smartphone and the man holding a small box."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A couple is smiling and looking at each other affectionately while holding hands at a reflective table in"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is seen sharing an intimate moment at a table in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling couple poses closely together by a glossy table against a warmly lit stone wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple shares a tender moment in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple shares an intimate moment while holding hands at a warmly lit table with stone walls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple stands close together holding hands in a warmly lit indoor setting with stone walls."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together in a stylish outdoor setting, showcasing a cozy atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling couple poses together at a softly lit outdoor patio with stone walls, plants, and a high-top table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a well-lit outdoor area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses together at night in an outdoor setting with stone walls and tropical plants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses together at night in a modern outdoor setting featuring stone walls and a gold wire table."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple poses intimately outdoors at night, with the man standing behind the woman, against a tiled wall with a warm wall lamp and lush green plants."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses closely together in a stylish outdoor setting, with one person seated and the other leaning back against them."
+        },
+        "gpt-5.4": {
+          "summary": "Two smiling people pose together in a warmly lit patio or restaurant corner next to a glass table with a phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a warmly lit outdoor area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses together outdoors at night near a tiled wall and plants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses affectionately in a warmly lit outdoor setting with stone walls and plants, where the man stands behind the woman with his hands on her waist."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man and a woman stand smiling with their arms around each other in what appears to"
+        },
+        "gpt-4o-mini": {
+          "summary": "A man and a woman pose together in an indoor setting, smiling for the camera."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose smiling together in a bright office or lobby area with plants and a reception desk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in a modern office lobby."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and woman smile for a photo indoors near a reception desk with a potted plant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose smiling together in a professional office lobby near a reception desk."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses affectionately on a staircase decorated with festive greenery and ornaments."
+        },
+        "gpt-5.4": {
+          "summary": "Two people smile and pose together on a small platform framed by frosted Christmas garlands, ornaments, and a holiday wreath indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses together in a festive Christmas-themed setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses together on a decorated stage under a festive garland arch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses for a holiday portrait on a tiered platform surrounded by flocked Christmas trees and an ornate garland arch."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple embraces and holds hands in a festive indoor setting decorated with a flocked Christmas tree and garland."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is embracing in a festive setting decorated with Christmas ornaments."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose affectionately indoors beside a decorated Christmas tree and festive garlands, with one kissing the other's cheek."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple shares a tender moment in front of Christmas decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple poses affectionately in a festively decorated Christmas setting with trees and garlands."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A couple poses affectionately in a studio setting decorated with flocked Christmas trees and an archway adorned with festive ornaments."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses together on a staircase decorated with festive greenery and ornaments."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in light outfits smile and pose on steps beneath a frosted Christmas garland arch with ornaments in an indoor holiday setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple sits together in a festive Christmas-themed archway, smiling warmly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple poses together on decorated steps under a festive holiday arch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses affectionately on a tiered platform surrounded by festive, flocked Christmas garlands and ornaments."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is embracing in a festive setting adorned with holiday decorations."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling couple embraces indoors in front of a festive Christmas arch decorated with frosted greenery, pinecones, and ornaments."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple shares a tender moment in front of Christmas decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple shares an intimate moment, smiling and touching foreheads in front of a decorated holiday arch."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple in white tops stands intimately close, touching foreheads in front of a festive Christmas wreath decorated with gold and copper ornaments."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a messaging interface with a conversation containing emojis and a text message expressing admiration."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a messaging app with reaction emojis, a highlighted Spanish message saying someone is respected but fascinating, and menu options like reply, forward, copy, and delete."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a messaging app showing an interaction between two users."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a social media message showing a reply with emojis and options to respond, forward, copy, etc."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile messaging app showing a context menu with options like 'Responder' and '[PERSON]' open over a message bubble containing Spanish text."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man kisses a smiling woman on the cheek while they stand in front of a decorated Christmas tree and festive holiday decor."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple is sharing a kiss in front of a decorated Christmas tree."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose affectionately in front of a decorated Christmas tree indoors, with festive chair decorations on both sides."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses affectionately in front of a decorated Christmas tree."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A couple poses affectionately in front of a decorated Christmas tree indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A couple poses affectionately in front of a decorated Christmas tree, with the man kissing the woman's cheek while she smiles at the camera."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple embraces while posing for a photo in a room decorated with festive Christmas"
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple poses closely together in a festive indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling couple poses hugging indoors, dressed up in semi-formal clothes with festive holiday decorations on nearby chairs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses together in a festive room decorated with holiday-themed items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple embraces warmly in a room decorated with Christmas-themed plush toys on beds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses for a photo in a living room decorated with Christmas-themed pillows and plush toys."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling couple embraces outdoors at night, with green fireworks exploding in the sky above them and a street light illuminating the scene."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple embraces in front of a car while fireworks light up the night sky."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose hugging beside a parked SUV at night while fireworks shoot into the sky overhead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses happily in front of a car under fireworks display."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling couple embraces beside a car under nighttime fireworks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling couple poses for a photo at night in front of a dark SUV while fireworks explode in the sky above them."
+        }
+      }
     }
   }
 }

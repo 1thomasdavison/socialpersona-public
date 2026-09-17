@@ -1,67 +1,4055 @@
 {
   "user_id": "participant_012",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "city exploration",
-        "cruise travel",
-        "cultural visits",
-        "dogs",
-        "nature visits"
-      ],
-      "summary": "Generalized visual topics: city exploration; cruise travel; cultural visits; dogs; nature visits."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An image captured"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view from an airplane window overlooking an airport tarmac with several aircraft and ground vehicles."
+        },
+        "gpt-5.4": {
+          "summary": "View through an airplane window of parked aircraft and service vans on an airport tarmac under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view from an airplane window showing parked aircrafts in a busy airport tarmac."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from an airplane window showing parked aircraft and ground vehicles on a cloudy airport tarmac."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from an airplane window showing several parked aircraft tails and ground service vehicles on a wet tarmac under an overcast sky."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "dogs",
-        "nature visits",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; dogs; nature visits; walking and hiking."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large ship is docked at a pier during twilight, illuminated by surrounding lights."
+        },
+        "gpt-5.4": {
+          "summary": "A large cargo ship is docked at a pier at night, photographed from a low angle against a deep blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The bow of a large cruise ship named '[ORGANIZATION] illuminated under night skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large cruise ship named 'Marella Discovery 2' is docked at night, illuminated against a dark sky with clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle night shot of the massive bow of a dark blue cruise ship named Marella Discovery 2 docked at a pier under a twilight sky."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "dogs",
-        "nature visits",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; dogs; nature visits; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A clear view from an airplane window shows the aircraft's wing against a deep blue sky"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an airplane wing extending over a clear blue sky and clouds."
+        },
+        "gpt-5.4": {
+          "summary": "View from an airplane window showing a large wing over bright blue ocean, sky, and scattered white clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene aerial view of a clear blue sky from an airplane window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from an airplane window showing the wing against a blue sky and scattered clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from an airplane window showing the wing against a deep blue sky and scattered white clouds over the ocean."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "cruise travel",
-        "cultural visits",
-        "dogs",
-        "nature visits"
-      ],
-      "summary": "Generalized visual topics: city exploration; cruise travel; cultural visits; dogs; nature visits."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a TUI-branded box for a [ORGANIZATION] 787-8 scale model on an airplane tray table."
+        },
+        "gpt-5.4": {
+          "summary": "A boxed [ORGANIZATION] Boeing 787-8 collectible model airplane sits on an airplane tray table inside a cabin."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a TUI [ORGANIZATION] 787-8 model airplane box in an aircraft cabin."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A boxed [ORGANIZATION] Boeing 787-8 collectible airplane model sits on an airplane tray table, with a yellow snack bag visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] [ORGANIZATION] 787-8 model airplane box sits on an airplane tray table next to a snack bag."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "dining",
-        "dogs",
-        "nature visits"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; dining; dogs; nature visits."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An expansive view from the bow of a cruise ship shows a vibrant sunset over"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a scenic view from the bow of a ship at sunset, with vibrant clouds and a calm sea."
+        },
+        "gpt-5.4": {
+          "summary": "View from the bow of a large ship approaching a coastal harbor at sunrise or sunset, with golden clouds, calm water, and dark hills in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset view from a ship's bow over calm waters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from the bow of a ship at sunset, with golden clouds reflecting on water near a coastal town."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from the bow of a large ship with a blue deck, looking out over calm water towards a coastal town and hills during a golden sunset."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "dogs",
-        "nature visits",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; dogs; nature visits; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a busy street scene with pedestrians, bicycles, and a directional sign for [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A busy tree-lined city intersection shows pedestrians, parked bicycles and scooters, a red traffic light, and a yellow sign pointing to [ORGANIZATION] parking."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bustling urban street scene featuring a signpost indicating '[ORGANIZATION] in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A busy urban street corner with a yellow directional sign for '[ORGANIZATION], traffic lights, parked scooters and bicycles, and pedestrians under leafy trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A busy Parisian street corner featuring a yellow directional sign for [ORGANIZATION], surrounded by pedestrians, scooters, and bicycles under leafy trees."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a festive outdoor scene with decorated Christmas trees and a large [PERSON] figure lying on the grass."
+        },
+        "gpt-5.4": {
+          "summary": "An outdoor Christmas display on a lawn features red-decorated trees and a [PERSON] cutout, with parked cars and a white tent in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive outdoor display featuring Christmas trees adorned in red ribbons alongside a large [PERSON] cutout."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A festive outdoor scene featuring a large cardboard cutout of The [PERSON] lying on grass, surrounded by decorated Christmas trees and parked cars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Outdoor Christmas display featuring a [PERSON] cutout and decorated trees on a lawn near parked cars."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant red British-style"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bright red post office mailbox in front of a rustic hut made of palm leaves."
+        },
+        "gpt-5.4": {
+          "summary": "A bright red cylindrical post box stands on grass in front of a small palm-frond hut in a park-like outdoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red post box stands in front of a palm-thatched shelter under greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A classic red British postbox stands in a grassy park beside a thatched-roof shelter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red British-style post box with a black base stands in a grassy outdoor area, positioned in front of a rustic shelter made from dried palm fronds."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant night scene features a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant fireworks display illuminates a castle at night, creating a festive atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A brightly lit fairy-tale castle is illuminated during a nighttime fireworks and light show with a crowd watching in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant fireworks display illuminates a castle lit in blue during an evening celebration."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A castle illuminated with blue lights is surrounded by fireworks and smoke under a night sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A nighttime view of a fairytale castle illuminated with blue and gold projections, featuring a '50' logo, while fireworks explode in the sky above a crowd of spectators."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a serene sunset over the ocean, viewed from the bow of a ship."
+        },
+        "gpt-5.4": {
+          "summary": "View from the bow of a large ship facing a bright sunrise or sunset over open water with distant mountains and dramatic clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset view from a ship's bow over calm waters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from the bow of a ship at sunset over calm ocean waters with distant mountains."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from the bow of a large blue ship moving across open water towards a bright sunrise over distant mountains."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An overhead view from the bow of a ship sailing on calm waters towards a bright sunset or sunrise over distant mountains, with golden light reflecting on the water."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the bow of a ship at sunset, with a view of the ocean and distant mountains."
+        },
+        "gpt-5.4": {
+          "summary": "View from the bow of a ship crossing the ocean at sunrise or sunset, with dramatic clouds and a distant coastline on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset view from a ship's bow over calm waters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from the bow of a ship at sunset, with golden light reflecting on the ocean and distant mountains under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from the bow of a blue-hulled ship moving across open water towards a bright sunrise over distant mountains."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset or sunrise illuminates the vast expanse of the ocean, with the sun's reflection creating a shimmering path on the water."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene sunset over the ocean, with the sun reflecting on the water's surface."
+        },
+        "gpt-5.4": {
+          "summary": "A bright golden sun hangs low over the ocean, reflecting across gently rippling water under a few scattered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a calm ocean."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright sun sets over a vast ocean, casting golden light across rippling water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bright sun shines over a vast ocean, casting a golden reflection on the rippling water under a partly cloudy sky."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic seascape features a vast ocean under a sky filled with clouds, through which golden sun rays [ORGANIZATION] and illuminate the water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of the ocean at sunset with rays of sunlight breaking through the clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic seascape shows the sun breaking through thick clouds and casting bright rays over the ocean horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene ocean scene bathed in golden sunlight filtering through clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Sunlight breaks through dramatic clouds over a vast ocean horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dramatic seascape featuring the sun breaking through heavy clouds, casting golden rays and reflections across a rippling ocean surface."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view from the bow of a cruise ship overlooking a vibrant coastal town with turquoise waters and a harbor."
+        },
+        "gpt-5.4": {
+          "summary": "View from the bow of a large ship approaching a tropical harbor with turquoise water, docks, small boats, and a coastal town under cloudy skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view from a ship's bow as it approaches docked in a vibrant coastal town."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view from the bow of a large ship sailing through turquoise waters toward a colorful coastal town."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An aerial view from the bow of a large white and blue ship navigating through turquoise waters towards a coastal town with colorful buildings."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset casts a golden glow over a body of water"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset over a calm body of water, with silhouettes of palm trees and buildings in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic golden sunset shines through large clouds over rippling waterfront water, with silhouetted palm trees and houses along the shore."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a calm body of water reflecting golden hues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Sunset over a calm waterway with silhouetted houses and palm trees under dramatic clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a bright sun setting over a body of water, casting a golden reflection on the ripples with silhouetted palm trees and waterfront houses in the background."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic seascape features dark, stormy clouds"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dramatic sky filled with dark clouds over a calm ocean, with hints of sunlight breaking through the clouds in the distance."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic storm front with towering dark clouds and rain hangs over a calm ocean, with a faint coastline and sunset light on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene ocean scene under a dramatic sky filled with dark clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic seascape under a stormy sky with dark clouds and sunbeams breaking through on the horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dramatic seascape featuring a massive, dark storm cloud formation hovering over the ocean with distant city lights and sunset hues visible on the horizon."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset or sunrise illuminates the sky with golden light and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of the ocean at sunset with rays of sunlight breaking through clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic golden sunrise or sunset over the ocean shows dark clouds along the horizon with bright sun rays spreading through the sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sunset over a calm ocean with dramatic clouds casting golden rays."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Sunlight beams through clouds over a calm ocean at sunrise or sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a golden sunset over the ocean with dramatic sunbeams radiating through dark clouds."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant wide-angle shot captures a sunny tropical beach with turquoise water, white sand, and people enjoying various activities"
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic beach view featuring clear turquoise water, white sand, and people enjoying the sun and swimming."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny tropical beach scene shows turquoise water, white sand, scattered swimmers and sunbathers, and lounge umbrellas under a wide blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene beach scene under a bright blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide sandy beach with turquoise water under a bright blue sky, with people swimming and relaxing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a sunny beach with turquoise water, white sand, and people relaxing under umbrellas against a deep blue sky."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a real estate office named '[ORGANIZATION] with a sign and a nearby laundromat banner."
+        },
+        "gpt-5.4": {
+          "summary": "A storefront for a real estate office displays a large '[ORGANIZATION] sign above the entrance, with a promotional flag outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A storefront of [ORGANIZATION] with a banner advertising [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Exterior of a real estate office named '[ORGANIZATION] with a nearby laundry banner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street-level view of [ORGANIZATION] storefront featuring a large sign, window displays, and an adjacent laundry flag."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark night sky filled with illuminated clouds stretches over a dark horizon"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene night sky with clouds over a dark ocean horizon."
+        },
+        "gpt-5.4": {
+          "summary": "A moody blue-toned night seascape shows scattered glowing clouds above a dark ocean horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene night scene featuring a dark blue sky dotted with fluffy white clouds over calm ocean waters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene night scene over water with illuminated clouds against a deep blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A serene night seascape featuring a deep blue sky with scattered white clouds above a dark, calm horizon."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset or sunrise illuminates the sky with bright orange and yellow hues above a dark blue ocean, with scattered dark clouds overhead."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset over the ocean with colorful clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A vivid ocean sunset shows the sun near the horizon beneath dramatic dark clouds in a glowing yellow-orange sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant sunset over a calm ocean under dynamic clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant sunset over the ocean with dramatic clouds illuminated by golden sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant sunset over a calm ocean with dramatic clouds illuminated in golden and orange hues against a blue sky."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An expansive view of the open ocean under a dramatic sky with dark, heavy clouds on the horizon and lighter, broken clouds overhead."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vast ocean scene under a cloudy sky, with dark clouds looming over the horizon."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view of the open ocean under dramatic dark storm clouds, with a faint wake trailing across the water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vast ocean under a dramatic sky filled with dark clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vast ocean under a dramatic, stormy sky with dark clouds gathering on the horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dramatic seascape featuring a dark, heavy storm cloud bank looming over the horizon of a vast, rippling blue ocean."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a modern cruise ship deck with a pool area, illuminated by colorful lights against a dramatic sky at sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A cruise ship pool deck with lounge chairs and colorful lighting is shown at dusk beneath dramatic dark clouds and a glowing horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cruise ship's pool deck illuminated under a dramatic sky during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cruise ship deck at dusk, featuring a pool, lounge chairs, and a glass-enclosed structure under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A modern cruise ship pool deck at twilight featuring a distinctive circular glass structure, lounge chairs, and vibrant purple and blue ambient lighting against a dramatic cloudy sky."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A view from a ship's deck shows the blue ocean under a partly"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view of the ocean from a deck with a railing and wooden flooring."
+        },
+        "gpt-5.4": {
+          "summary": "A bright ocean view is seen from a deck with wooden flooring and white railings under a blue sky filled with scattered clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view from a ship's deck overlooking calm blue waters under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from a cruise ship deck overlooking the ocean under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a wooden deck with white railings overlooking the open ocean under a bright blue sky with scattered clouds."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A festive [PERSON] figure is displayed in an architectural archway against a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A cream-colored arched tower-like structure stands in front of a building, with a [PERSON] Christmas decoration visible inside and power lines crossing the scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive [PERSON] statue wearing a [LOCATION] hat sits in an arched alcove of a historic building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoonish [PERSON] wearing a [LOCATION] hat is painted on the wall inside an arched gateway of a weathered building under a blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cutout of the [PERSON] wearing a [LOCATION] hat is displayed inside an ornate, cream-colored stone archway outdoors."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant red and black crab is captured walking on light-colored sand with small twigs."
+        },
+        "gpt-4o-mini": {
+          "summary": "A colorful crab is walking on sandy ground."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a bright red-and-orange crab with a dark back walking across sandy ground in strong sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant red crab stands out against a sandy background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red crab with a black carapace stands on light-colored sand under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a vibrant red and orange crab with a dark carapace standing on coarse, light-colored sand under bright sunlight."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the bow of a ship navigating through a calm sea under a dramatic sky with clouds and sunlight reflecting on the water."
+        },
+        "gpt-5.4": {
+          "summary": "The bow of a ship faces a dramatic ocean horizon under thick clouds with sunlight breaking through and reflecting across the water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view from a ship's bow as it sails under a dramatic sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A ship's bow cuts through dark blue ocean waters under a dramatic sky with a bright sun breaking through clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from the bow of a ship moving across open water towards a bright sun breaking through clouds."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot captures a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene seascape with distant mountains and a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic coastal landscape shows steep mountains rising beyond a blue sea under thick, towering clouds and mist."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene seascape featuring distant mountain peaks under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [LOCATION] with two prominent mountain peaks rising from the horizon under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape featuring two prominent conical mountains rising from a misty coastline into a cloudy sky above deep blue ocean waters."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of the open ocean under a dramatic sky with sun rays breaking through clouds at sunset or sunrise."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene ocean scene at sunset, with rays of sunlight breaking through clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic ocean horizon scene shows dark clouds with bright sun rays breaking through over open water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene ocean scene under a dramatic sky with sunbeams piercing through clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Sunlight beams through clouds over a vast ocean at sunrise or sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of the sun breaking through dramatic clouds over a vast, rippling ocean horizon."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vintage gold post box is prominently displayed on a wet street, with a red bus and a musical advertisement in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A weathered gold post box stands on a wet city sidewalk in front of a red double-decker bus and a large \"Cabaret\" advertisement."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vintage post box stands in front of a red double-decker bus advertising 'Cabaret'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden British postbox with graffiti stands on a wet sidewalk in front of a red double-decker bus displaying a 'Cabaret' musical advertisement."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden royal post box with graffiti stands on a wet city sidewalk in front of a red double-decker bus displaying a 'Cabaret' musical advertisement."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the bow of a cruise ship at sunset, with the ocean and distant land visible."
+        },
+        "gpt-5.4": {
+          "summary": "View from the bow of a large ship cruising on open water toward a golden sunset with distant islands on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset view from a ship's bow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "The bow of a ship with a blue deck faces the sun setting over the ocean, with figures in white uniforms walking forward."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view from the deck of a large ship shows crew members in white uniforms walking near heavy machinery as the sun sets over the ocean."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a vibrant rainbow arching over a lush green coastline with scattered buildings and deep blue ocean waters under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a coastal landscape featuring a rainbow over the ocean and lush greenery."
+        },
+        "gpt-5.4": {
+          "summary": "A coastal landscape with green cliffs and blue ocean is shown beneath a bright rainbow and cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic coastal view featuring a rainbow over lush green hills by the sea."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coastal landscape with a rainbow arching over the ocean and green hillsides."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic coastal landscape featuring a vibrant rainbow arching over green hills, blue waters, and scattered buildings under a cloudy sky."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An atmospheric night scene features bright white clouds illuminated against a dark blue sky dotted with stars, above a vast, dark body of water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A night sky filled with clouds and stars above a dark ocean horizon."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic night seascape shows large illuminated clouds and scattered stars above a dark ocean horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene night scene featuring a starry sky over calm waters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic night sky over the ocean, featuring illuminated clouds against a starry backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night seascape featuring a dark ocean horizon beneath a deep blue sky filled with illuminated cumulus clouds and scattered stars."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A stunning sunset over the ocean with rays of sunlight breaking through clouds."
+        },
+        "gpt-5.4": {
+          "summary": "Golden sunlight breaks through dense clouds over the ocean, silhouetting distant islands on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic sunset over a calm sea with sunbeams piercing through clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Sunlight breaks through clouds over a calm ocean with distant landmasses on the horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dramatic seascape featuring golden sun rays breaking through heavy clouds over a distant mountain range and ocean."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A festive scene in [LOCATION] features a welcome sign, a decorated Christmas tree, a flag, palm trees, and a chicken on a sunny day."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a festive scene in [LOCATION] with a decorated Christmas tree, a welcoming sign, and a flag waving in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A tropical roadside welcome scene in [LOCATION] shows a flag, palm trees, a decorated holiday tree, and a chicken crossing the pavement."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Christmas decorations in [LOCATION] under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A festive welcome sign for [LOCATION] features a decorated Christmas tree, waving flag, and palm trees under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A festive welcome sign for [LOCATION] featuring a Christmas tree and the island's flag, with a chicken crossing the street in the foreground."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset illuminates the ocean and distant islands under a partly cloudy sky, casting a golden glow on the water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic sunset over the ocean with islands in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bright golden sunset over the ocean silhouettes low islands beneath a wide blue sky with scattered glowing clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a calm sea with distant islands under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunset over a calm sea with distant islands silhouetted against a blue sky with scattered clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a bright sun setting over the ocean, casting golden light on the water and silhouetting distant islands against a blue sky with scattered clouds."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a coastal bay with boats and lush greenery surrounding it."
+        },
+        "gpt-5.4": {
+          "summary": "A scenic aerial view of a turquoise bay with anchored sailboats, a green hillside dotted with houses, and a small coastal town along the shore."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a coastal area surrounded by lush greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of a tropical bay with sailboats, lush green hills, and coastal houses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic high-angle view of a tropical bay with turquoise water, several anchored sailboats, and lush green hillsides dotted with white buildings."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant tropical scene features lush green palm fronds in the foreground, framing a bright blue ocean with gentle waves and distant islands under a clear sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features palm fronds in the foreground with a serene ocean and distant mountains in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Large palm fronds fill the foreground above a bright blue tropical sea with a mountainous coastline in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene beach scene framed by palm fronds against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Palm fronds frame a view of turquoise ocean and distant mountains under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of green palm fronds framing a bright blue ocean and distant mountains under a clear sky."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image features the trunk and fronds of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a palm tree trunk with the ocean and waves in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A palm tree fills the foreground of a tropical beach scene with blue ocean waves and distant hills in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a palm tree trunk against an ocean backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a weathered palm tree trunk at a beach with ocean waves crashing behind it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a palm tree trunk with fronds against a backdrop of blue ocean waves and distant mountains."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a vibrant coastal landscape featuring lush [LOCATION], a winding road, a [LOCATION], and clear blue ocean under a bright sky with scattered clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases a scenic coastal landscape with lush green hills and a clear blue ocean under a bright sky."
+        },
+        "gpt-5.4": {
+          "summary": "A vivid coastal landscape shows winding roads across lush [LOCATION] beside a sandy beach and bright blue ocean under large clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic coastal road winds through lush green hills towards a serene beach under a bright blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A winding coastal road snakes through lush green hills beside turquoise waters under a bright blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic aerial view of a winding coastal road cutting through lush green hills between two bodies of blue water under a partly cloudy sky."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic beach view with people swimming and lounging under umbrellas."
+        },
+        "gpt-5.4": {
+          "summary": "A wide scenic view of a sandy tropical beach with turquoise water, swimmers, [LOCATION], and a bright blue sky filled with clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene beach scene under a bright blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [LOCATION] scene with turquoise water, footprints on sand, and people swimming under a bright blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a tropical beach with turquoise water, golden sand, and green hills under a bright blue sky."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset or sunrise illuminates the horizon over a vast, dark ocean, with rays of light reflecting on the water and clouds scattered across the sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a sunset over the ocean with clouds in the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A bright sun hangs low over the ocean, casting golden light across rippling water beneath a partly cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a vast ocean under scattered clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright sun sets over a vast ocean, casting golden light across rippling water under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bright sun sets or rises over a vast, rippling ocean, casting golden light across the water and illuminating scattered clouds in a blue sky."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant image captures a sunny tropical beach scene with numerous palm trees, white sand, clear blue water, and people walking and relaxing under a bright blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant beach scene with palm trees and people enjoying the sunny weather."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny tropical beach scene shows palm trees lining the sand with several people walking and relaxing by calm turquoise water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [LOCATION] scene with palm trees and people enjoying a day by the sea."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People relax and walk along a sunny beach lined with palm trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunny tropical beach scene featuring white sand, lush palm trees, and people walking along the shoreline near turquoise water."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a closed entrance to '[ORGANIZATION] with a sign indicating the sale of fishing equipment and fresh fish products."
+        },
+        "gpt-5.4": {
+          "summary": "A weathered storefront with barred double doors displays a sign for [ORGANIZATION] selling fishing equipment, ice, and fresh fish products."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The entrance of [ORGANIZATION], specializing in fishing equipment, ice, fresh fish products."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weathered sign for '[ORGANIZATION] above a rusted, barred door of a closed shop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weathered, light-green storefront with barred double doors and a sign for [ORGANIZATION] visible above."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An overhead view captures the bow of a large white ship"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the bow of a ship with industrial cranes in the background against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "View from the bow of a large ship beside towering port cranes on a calm blue waterfront under a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view from a ship's bridge overlooking dock cranes against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from the bow of a ship docked at a port with large yellow cranes against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view from a ship's deck looking out over the bow towards a harbor with large yellow cranes and blue water under a clear sky."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large white sailing cruise ship named \"Club Med 2\" is prominently"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the luxury cruise ship '[ORGANIZATION] anchored in calm blue waters with another vessel in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A large white five-masted cruise sailing ship, labeled [ORGANIZATION], is docked in calm blue water near a red cargo vessel under a bright cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large white cruise ship named '[ORGANIZATION] sailing in a clear blue sea."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large white cruise ship named '[ORGANIZATION] with multiple masts is docked in blue water under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large white sailing cruise ship named [ORGANIZATION] is shown at sea under a blue sky, with a red cargo vessel visible in the background."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot captures a port filled"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a port area filled with colorful shipping containers under a dramatic, cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "Dark, dramatic storm clouds hang over a city and port area filled with shipping containers and warehouse rooftops."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A panoramic view of a port area under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic, stormy sky looms over a sprawling container port with colorful shipping containers and distant urban buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a shipping port filled with colorful containers under a dramatic, dark storm cloud."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A signpost with multiple directional signs points towards a general hospital, a mall, a street with a cruise terminal"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a directional signpost with multiple arrows indicating nearby locations and their walking times."
+        },
+        "gpt-5.4": {
+          "summary": "A cluster of blue directional signs points to local destinations beside vine-covered stone walls and a tunnel-like walkway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Street signs indicating directions in a historic area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A street signpost with directional arrows points to local landmarks like [ORGANIZATION] and [LOCATION] against a backdrop of stone walls and [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A directional signpost with blue and white arrows points to local landmarks like [ORGANIZATION] and Esplanade Mall, set against a stone wall covered in lush greenery."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view of a highway with traffic signs indicating directions and a highway maintenance vehicle."
+        },
+        "gpt-5.4": {
+          "summary": "A rainy motorway scene shows traffic passing under overhead signs for the [ORGANIZATION] and [ORGANIZATION], with a highway maintenance truck ahead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "View from a car window showing traffic on [LOCATION] highway under rainy conditions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from inside a car on a wet highway with overhead road signs and a maintenance truck ahead."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a vehicle driving on a wet [LOCATION] motorway behind a yellow highway maintenance truck under overcast skies."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two light-colored dogs on leashes"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs are sitting in front of a person who is holding a treat in their hand."
+        },
+        "gpt-5.4": {
+          "summary": "Two leashed dogs stand on a wooden floor while a person offers them a small treat by hand."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are interacting while a person feeds them treats."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two fluffy dogs sit attentively on a wooden floor, looking up at a person offering them treats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle shot shows a person in a white shirt feeding two fluffy, light-colored dogs on a wooden floor. The larger dog wears a black leash and the smaller one a red leash."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a red British post box with visible collection times and nearby vehicles."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up wide-angle street photo shows a bright red British post box on a sidewalk with cars and houses in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red British post box stands in a street corner under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red British postbox stands on a sidewalk beside parked cars under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a traditional red British pillar post box situated on a paved sidewalk with cars and buildings in the background."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime view of a wet road with puddles and streetlights illuminating the scene."
+        },
+        "gpt-5.4": {
+          "summary": "A wet, partially flooded road at night reflects bright streetlights near a bus stop and trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wet road illuminated by streetlights under a dark sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet nighttime street illuminated by streetlights, reflecting light on puddles with fallen leaves along the curb."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wet, flooded road at night reflects the glare of streetlights, with fallen leaves scattered in the water and on the grassy verge."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs are lying on the floor in a cozy indoor setting, possibly a café or restaurant."
+        },
+        "gpt-5.4": {
+          "summary": "Two leashed dogs rest on a wooden floor inside a cozy restaurant or pub with rustic decor and a lit Christmas tree."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are sitting in a cozy indoor space near wooden furniture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two leashed dogs sit on a wooden floor inside a warmly lit establishment, looking toward a grey cabinet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two fluffy dogs on leashes sit attentively on a wooden floor inside a rustic pub or restaurant, facing a grey sideboard cabinet."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [ORGANIZATION]'s breakfast meal, including a wrapped burger, a hash brown, and a [PERSON]-themed coffee cup, is displayed on a tray in a restaurant setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a coffee cup with a [PERSON] design alongside two wrapped food items from [ORGANIZATION] on a tray."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]’s tray holds a wrapped sandwich, a hash brown sleeve, and a hot drink cup featuring The [PERSON] inside a fast-food restaurant."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION]'s meal featuring a [PERSON]-themed cup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION]'s meal featuring a [PERSON]-themed drink cup and wrapped food items on a tray inside a restaurant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION]'s meal tray featuring a [PERSON]-themed coffee cup, a wrapped breakfast sandwich, and a hash brown in the restaurant setting."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs are standing in front of a blue door decorated with festive greenery and ornaments."
+        },
+        "gpt-5.4": {
+          "summary": "Two dogs on leashes stand outside a blue doorway decorated with large green-and-silver holiday garlands and ornaments."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are standing outside a blue door decorated with Christmas garlands."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs on leashes stand before a blue door adorned with Christmas decorations."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two fluffy dogs on leashes stand on a stone patio facing a blue double door adorned with festive Christmas garlands and ornaments."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A decorated Christmas tree featuring plush teddy bears and colorful ornaments."
+        },
+        "gpt-5.4": {
+          "summary": "A decorated indoor Christmas tree is adorned with purple and silver ornaments, warm lights, star decorations, and several teddy bears in blue hoodies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive Christmas tree decorated in purple and silver ornaments adorned with teddy bears."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A decorated Christmas tree adorned with purple and silver ornaments and multiple teddy bears wearing blue hoodies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Christmas tree decorated with purple and silver baubles, white stars, and multiple teddy bears wearing blue hoodies."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A mannequin dressed as [ORGANIZATION] with a green [PERSON]-like mask stands outside a shop, surrounded by various posters and signs."
+        },
+        "gpt-5.4": {
+          "summary": "A [PERSON]-faced mannequin dressed in a red [LOCATION] outfit stands outside a street-side shop with a wall of graphic T-shirts and signs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A mannequin dressed as a [PERSON] in [LOCATION] attire stands outside Panoráma R."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mannequin dressed as the [PERSON] in a [LOCATION] outfit stands on a sidewalk outside a shop with humorous posters."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mannequin wearing a [PERSON] mask and [LOCATION] outfit stands on a city sidewalk in front of a shop covered in stickers."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a beautifully illuminated bridge at night, showcasing its architectural details against a dark sky."
+        },
+        "gpt-5.4": {
+          "summary": "A brightly lit suspension bridge tower and roadway are photographed at night above a river with city lights in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A beautifully lit bridge over a river under night skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand suspension bridge is illuminated at night, spanning a river with city lights reflecting in the water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle night shot of a grand, illuminated stone suspension bridge with warm lights reflecting on the water below."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A night scene features a street sign for bicycle routes, a busy road with parked cars, a river, and an illuminated bridge in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a street sign indicating distances to [LOCATION] híd and Fő utca, set in a nighttime urban environment."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime riverside street scene shows blue bicycle direction signs on a graffiti-marked pole, with parked cars, pedestrians, and an illuminated bridge in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime street scene featuring a signpost indicating directions towards [LOCATION] híd (1.1 km) and Fő utca (80m), set against parked cars along an urban riverside."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime urban scene featuring a bicycle route signpost directing to [LOCATION] híd and Fő utca, with graffiti-covered pole and river views."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night-time street scene featuring blue bicycle route signs pointing towards [LOCATION] híd and Fő utca, with a river and illuminated bridges visible in the background."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large, illuminated moon sculpture hangs over a vibrant urban setting with people walking underneath it."
+        },
+        "gpt-5.4": {
+          "summary": "A giant moon sculpture hangs above a brightly lit pedestrian archway between buildings at night, with a few people walking below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large moon sculpture hangs above a city street illuminated by colorful lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large moon sculpture hangs above a colorful, illuminated alleyway at night with pedestrians walking below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A massive, textured moon sculpture hangs suspended over a city street at night, illuminated by pink and purple lights with pedestrians walking below."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bottle of sparkling wine in an ice bucket alongside several champagne glasses."
+        },
+        "gpt-5.4": {
+          "summary": "A bottle of sparkling wine labeled [ORGANIZATION] sits in an ice bucket beside upside-down stemware and stacked drinking glasses on an indoor counter."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bottle of [ORGANIZATION] sparkling wine in an ice bucket surrounded by empty glasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chilled bottle of [ORGANIZATION] sparkling wine rests in an ice bucket beside stacks of wine and water glasses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bottle of [ORGANIZATION] sparkling wine chills in an ice bucket surrounded by upside-down champagne flutes and stacked water glasses on a white cloth."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view of a European cityscape on an overcast day, featuring the prominent Hungarian Parliament"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a foggy skyline view of [LOCATION], featuring the iconic Hungarian Parliament building."
+        },
+        "gpt-5.4": {
+          "summary": "A hazy urban skyline shows the Hungarian Parliament Building and surrounding rooftops under a gray, wintry sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A foggy cityscape featuring a prominent domed building amidst other historic structures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A misty urban skyline featuring a prominent Gothic cathedral with a dome and spires, viewed from above among modern and historic rooftops."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a European cityscape featuring the Hungarian Parliament Building on an overcast day."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large, detailed replica of the moon hangs suspended in an arch"
+        },
+        "gpt-4o-mini": {
+          "summary": "A large, illuminated replica of the moon hangs above a lively outdoor setting with people gathered below."
+        },
+        "gpt-5.4": {
+          "summary": "A giant moon sculpture is suspended between illuminated buildings over a nighttime pedestrian street with people and a food stand below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large moon sculpture hangs above a bustling street under colorful lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A massive, detailed moon sculpture hangs overhead in a brightly lit urban alleyway at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A massive, detailed moon installation hangs suspended over a city street archway at night, illuminated by red and blue lights with people gathered below."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A high-heeled shoe with a red rose placed on top, set against a nighttime urban backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A weathered blue high-heel sculpture with a red rose on top sits by a riverside at night, with a lit bridge and city lights in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A high-heeled shoe sculpture adorned with a red rose stands against an urban backdrop under night skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weathered high-heeled shoe with a red rose perched on its toe, set against a nighttime cityscape with illuminated buildings and a bridge."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bronze high-heeled shoe sculpture on a riverbank at night, adorned with a red rose, with city lights and a bridge visible in the background."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A brightly lit tram adorned with colorful lights is captured in motion at night, alongside a street with visible lampposts and a river in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A yellow tram covered in festive lights speeds along a riverside street at night, creating bright motion blur against a city bridge backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant streetcar adorned in festive lights glides through a nighttime urban scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A brightly lit tram moves quickly at night, creating streaks of yellow and blue light along a waterfront path."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A motion-blurred view of a yellow tram adorned with festive blue and white lights moving along a city street at night."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tree with multiple wooden directional signs indicating various global locations and a menu for salads and sandwiches."
+        },
+        "gpt-5.4": {
+          "summary": "Outdoor tropical-style restaurant decor with wooden directional signs listing world destinations and a sign advertising salads, sandwiches, beers, and cocktails."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tree adorned with directional signs pointing towards various global destinations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Wooden signs shaped like arrows point to various global cities mounted on a tree trunk, with one sign advertising food and drinks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A decorative tree trunk wrapped in wooden directional signs pointing to various international cities and countries, situated outdoors near a building with a staircase."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a picturesque coastal town with colorful houses, a harbor, and a prominent church on a hill."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny coastal harbor scene shows clustered red-roofed buildings, fishing gear on a pier, a lifeboat station, and a church on the hill above."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A picturesque coastal town with a harbor featuring wooden piers and an orange lifeboat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coastal harbor town with red-roofed buildings, a wooden pier, and [ORGANIZATION] under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic coastal view of [LOCATION], [LOCATION], featuring a harbor with [LOCATION], stacked crab pots on a pier, and historic buildings climbing a hill topped by a castle ruin under a clear blue sky."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a crescent moon with visible craters against a dark blue night sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up view of a crescent moon against a dark sky."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up telescopic photo shows a cratered half moon against a dark blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a crescent moon against a dark blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of a crescent moon against a dark blue sky, showing craters and surface details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a crescent moon against a dark blue sky, showing detailed surface craters and texture."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A decorated red postbox adorned with knitted figures and festive decorations."
+        },
+        "gpt-5.4": {
+          "summary": "A red [ORGANIZATION] postbox on a nighttime street is decorated with a knitted topper featuring small festive figures and mini sweaters."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A decorated [ORGANIZATION] post box adorned with knitted items in a nighttime urban setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red British postbox decorated with knitted Christmas figures and socks, standing on textured pavement at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red [ORGANIZATION] postbox at night is decorated with a knitted cover, miniature Christmas trees, and small figures on top."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A detailed close-up image captures the moon in a gibbous phase, showcasing its craters and [PERSON] against a dark, starless sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of the moon showing its surface details against a black background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo of the moon, showing visible craters and surface details against a black night sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a waxing gibbous moon against a dark sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of the moon against a black background, showing its cratered surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a gibbous moon displaying detailed craters and [PERSON] against a black sky."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime landscape features a bright full moon illuminating the sky above silhouetted trees and a hedge in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bright moon is visible in a night sky, surrounded by trees and clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A bright moon rises over a dark rural landscape with silhouetted trees, a hedge in the foreground, and a few stars visible in the night sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene night scene featuring a full moon rising over silhouetted trees against a dark sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright moon rises over a field at night, framed by silhouetted trees and glowing grass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night landscape featuring a bright full moon rising over a horizon, framed by silhouetted trees and a textured hedge in the foreground."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A moonlit, wet road stretches into the distance, flanked by silhouetted trees under a dark blue night sky with visible stars."
+        },
+        "gpt-4o-mini": {
+          "summary": "A moonlit road stretches into the distance, surrounded by silhouetted trees under a clear night sky."
+        },
+        "gpt-5.4": {
+          "summary": "A moonlit rural road glistens at night beneath a clear starry sky, framed by dark tree silhouettes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Silhouetted trees line a road under moonlight in a serene night scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A moonlit country road stretches into the distance under a starry night sky, framed by bare tree branches."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wet, empty country road stretches into the distance under a bright moon and starry night sky, flanked by silhouetted trees."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [ORGANIZATION] airplane is parked on an airport tarmac at night, with ground service vehicles nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] Cityhopper regional jet is parked on the airport apron at night with stairs and ground service vehicles beside it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] airplane parked at an airport gate during nighttime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] airplane is parked at night on an airport tarmac with ground service vehicles nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] Cityhopper aircraft is parked on an airport tarmac at night, surrounded by ground support vehicles and illuminated by artificial lighting."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image captures an indoor terminal or port area with"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a signpost in a public area with directions to restrooms and lost and found, alongside a jewelry store entrance."
+        },
+        "gpt-5.4": {
+          "summary": "Indoor terminal-style signage points to restrooms, ships, and lost and found above a Colombian Emeralds shop with holiday decorations."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A signpost indicating directions in a public space decorated for Christmas."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A signpost inside a terminal directs travelers to restrooms, ships, and lost and found, with a jewelry store visible below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An indoor terminal scene featuring multilingual directional signs for restrooms and ships, a 'Lost and Found' sign, and a jewelry shop named Colombian Emeralds decorated with Christmas wreaths."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A packaged slice of banana bread from [ORGANIZATION] is displayed on what appears to be an airplane tray table."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a package of banana bread from [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A packaged slice of banana bread in [ORGANIZATION]-branded wrapping sits on an airplane tray table with a napkin and plate behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION]-branded banana bread package sits in a tray."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A partially unwrapped [ORGANIZATION] banana bread snack on an airplane tray table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a [ORGANIZATION] airline snack package containing banana bread, resting on an airplane tray table."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An airplane wing is visible from a window view, flying above a thick layer of clouds under a bright blue sky, with a faint rainbow effect in the clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an airplane wing above the clouds against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "View from an airplane window showing a [ORGANIZATION] wing above bright clouds under a deep blue sky, with a faint rainbow-like light in the cloud layer."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Airplane wing flying above clouds under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from an airplane window showing the wing of a [ORGANIZATION] aircraft above clouds under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from an airplane window showing the blue wing of a [ORGANIZATION] aircraft flying above a thick layer of white clouds against a clear blue sky."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a canal in [LOCATION] featuring historic buildings and a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit canal scene with a bridge, boats, bicycles, and historic brick buildings with church towers under a dark cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A picturesque canal scene in a historic European city under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A canal scene with historic brick buildings, a bridge, and boats under a dramatic cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a canal in [LOCATION] featuring historic brick buildings, a bridge with bicycles, and the prominent dome of [LOCATION] under dramatic lighting."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant night scene depicts a bustling city canal lined with"
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant night scene of a canal in [LOCATION], lined with illuminated buildings and people walking along the waterfront."
+        },
+        "gpt-5.4": {
+          "summary": "A brightly lit nighttime canal scene shows narrow historic buildings, streetlamps, bicycles, and crowds lining both sides of the water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant night scene of a canal lined by illuminated buildings in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime view of a lively canal in a European city, with illuminated buildings and pedestrians along the waterfront."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant night scene of a canal lined with historic buildings, streetlights, and crowds of people in an urban European setting."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bright red postbox surrounded by [ORGANIZATION] and colorful buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A bright red cylindrical post box stands among potted tropical plants on a colorful street with shops in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant red postbox stands amidst potted plants in a colorful urban street scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant red vintage-style postbox stands amidst lush potted plants on a colorful street."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vintage red pillar post box stands outdoors surrounded by potted tropical plants, with a street scene and storefronts visible in the background."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a city canal lined with historic buildings and modern structures, under a bright blue sky with numerous birds flying, and reflections visible on the water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of colorful buildings along a canal with birds flying overhead."
+        },
+        "gpt-5.4": {
+          "summary": "A canal-side cityscape with colorful row houses, a modern opera building, boats, and birds flying over reflective water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene canal scene in [LOCATION] featuring colorful houses reflecting off calm water under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A canal scene with colorful buildings, flying birds, and a modern opera house under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a canal lined with traditional Dutch-style buildings and modern architecture, featuring reflections in the water and a flock of birds flying against a blue sky."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime view of a canal in a city, featuring illuminated buildings and reflections in the water."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime city canal scene shows illuminated historic buildings, a bridge, and bright reflections shimmering on the water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene night scene of a canal reflecting illuminated buildings in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime cityscape featuring a canal with reflections of illuminated historic buildings and festive lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night view of a historic canal-side city with illuminated buildings and festive lights reflecting on the water."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an airplane wing viewed through a rain-splattered window at night, with airport lights visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Nighttime view from an airplane window showing a snow-dusted wing, raindrops on the glass, and airport lights in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of an airplane wing from inside a window covered in raindrops."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime view from inside an airplane showing raindrops on the window with a wing and airport lights visible outside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from an airplane window at night showing a snow-covered wing and tarmac with raindrops on the glass."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a colorful duck standing on green grass."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a colorful duck standing on bright green grass outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [LOCATION] stands in a grassy area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A male mallard duck with iridescent green head and white collar stands in vibrant green grass."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a male mallard duck with iridescent green head feathers and brown body plumage standing in bright green grass."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs are standing on a wooden floor inside a restaurant, with tables and chairs visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two leashed dogs stand on a wooden floor inside a dimly lit restaurant or pub with set tables and nautical-style rope decor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are sitting in a cozy indoor space near wooden tables."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs on leashes sit together on a wooden bench inside a dimly lit restaurant with rustic decor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever and a poodle stand on leashes inside a dimly lit pub with wooden floors and nautical decor."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs, one golden retriever and one small dog in a red sweater, are standing in a restaurant setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two leashed dogs, one wearing a red sweater, stand on a wooden floor inside a dimly lit pub or cafe with tables and chairs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are sitting in a cozy café environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two leashed dogs stand on a wooden floor inside a dimly lit restaurant."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two dogs, one large and fluffy with light fur and another smaller dog in a red sweater, stand on leashes inside a dimly lit restaurant or pub with wooden floors."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a drink served in a bar, featuring a '[ORGANIZATION] tap handle in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A frothy hot drink in a clear glass mug sits on a saucer at a pub bar, with a \"Rock On\" tap badge and liquor bottles in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pint of beer sits ready behind a bar tap labeled '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A frothy beer in a glass mug sits on a bar counter under a '[ORGANIZATION] tap handle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A glass mug of creamy, light-brown beer sits on a ceramic saucer at a bar counter, positioned directly beneath a '[ORGANIZATION] branded tap handle."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime scene featuring a tree silhouetted against a bright moon and a deep blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A bright moon shines over leafless trees and shrubs in a deep blue night sky dotted with a few stars."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A night scene featuring a tree illuminated by moonlight against a dark blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bare tree silhouetted against a deep blue night sky with a bright moon and faint stars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tall, leafless tree stands illuminated against a deep blue night sky with the bright moon shining above."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a directional signpost indicating distances to various locations in a vibrant urban setting."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny street scene shows directional signs to beaches and Mainstreet in front of colorful [LOCATION] storefronts and a parked car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Directional signs point towards beaches in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A street signpost directs travelers to nearby beaches and [ORGANIZATION] under a bright blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street scene in [LOCATION] featuring a directional signpost pointing to [LOCATION] and Mainstreet, with colorful bird murals on a building facade in the background."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An old stone church with a prominent tower stands under a cloudy sky, surrounded by bare tree branches and gravestones, creating a dark and atmospheric scene."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dark, atmospheric image of a stone church tower surrounded by bare trees and gravestones."
+        },
+        "gpt-5.4": {
+          "summary": "A lit old stone church stands at night beneath tangled leafless branches, with gravestones visible in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dimly lit church surrounded by bare trees under a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stone church tower stands under a cloudy sky, framed by bare tree branches at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stone church with a tower is illuminated at night within a graveyard, framed by the dark silhouette of bare tree branches against a cloudy sky."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a red British-style post box with a black base, located in a setting that includes a display of alcoholic beverages in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bright red British-style post box display stands indoors beside a glass shelf stocked with liquor bottles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red postbox labeled '[ORGANIZATION] stands in a retail environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red British-style postbox stands indoors next to a liquor display case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red British-style post box with the royal cypher 'ER' stands on a black base in an indoor setting, likely a duty-free shop, next to a display of liquor bottles."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A duck with brown and black patterned feathers is resting on calm blue water, with its reflection clearly visible below."
+        },
+        "gpt-4o-mini": {
+          "summary": "A duck is peacefully floating on calm water, reflecting its image."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a duck resting on calm blue water with a clear reflection beneath it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A duck resting its head in a calm body of water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A duck floats peacefully on calm blue water, its reflection clearly visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mottled brown duck rests on calm blue water with its head tucked into its back feathers, creating a clear reflection below."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a tranquil pond surrounded by ducks, with a pub and cars in the background reflecting in the water."
+        },
+        "gpt-5.4": {
+          "summary": "A duck-filled pond in a town park reflects a row of older buildings, including a pub called The [ORGANIZATION], on a bright winter day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene park scene featuring ducks by a pond in front of The Hamblotonian pub."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Ducks gather in a shallow pond and on grass near a pub named 'The Hambletonian' under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large flock of ducks occupies a partially frozen pond in front of a cream-colored building named 'The Hambletonian' on a bright, cold day."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A directional signpost stands in a park-like setting with a light dusting of snow on the grass and a paved path, pointing towards various local attractions and towns."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a directional signpost with various local attractions and locations in a snowy park setting."
+        },
+        "gpt-5.4": {
+          "summary": "A directional signpost in a lightly snow-dusted town square points to local attractions in [LOCATION], with bare trees, a path, and nearby buildings in view."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A snowy street scene featuring a directional signpost in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A directional signpost in a snowy urban park points to local landmarks including a church, museum, and town center."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A directional signpost in a snowy park points to local landmarks in [LOCATION]."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A foggy night scene featuring illuminated street lamps and silhouetted trees along a winding road."
+        },
+        "gpt-5.4": {
+          "summary": "A foggy nighttime road lined with bare trees is illuminated by streetlights, creating dramatic beams through the mist."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A misty night scene illuminated by [ORGANIZATION] dramatic rays through bare tree branches."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A misty night scene with streetlights casting beams through bare tree branches on a winding road."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A misty, atmospheric night scene of a wet road curving through trees illuminated by glowing streetlights."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A frigatebird with dark wings and a white chest soars against a clear, vibrant blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bird with large wings is soaring against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A dark seabird with long narrow wings and a forked tail is gliding against a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bird in flight against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bird with black wings and white chest soars against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A frigatebird with black wings and a white chest soars against a clear blue sky."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vintage red post office mailbox with the letters 'E R' and the words '[ORGANIZATION] displayed prominently."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a vintage red wall-mounted post box labeled \"POST OFFICE\" against a white wall with yellow trim."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vintage red post office mailbox mounted against a white wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weathered red British post office mailbox mounted on a white wall, featuring '[ORGANIZATION] and 'E R' with a crown."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vintage red metal post box mounted on a white wall, featuring the royal cypher 'E R' and crown emblem."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bus designed to resemble a cat, complete with large eyes and ears."
+        },
+        "gpt-5.4": {
+          "summary": "A bright yellow tour bus in [LOCATION] is decorated like a cartoon cat face, with cat ears on top and \"Happy CAT Tours\" branding across the windshield."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A brightly painted bus featuring a cat face design promoting 'Happy CAT Tours' in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow tour bus painted to resemble a cartoon cat with large eyes, ears, and a smiling mouth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow tour bus customized with a large cat face design, featuring ears on the roof and painted eyes and whiskers on the front."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A foggy night scene featuring a winding road illuminated by streetlights and silhouetted trees."
+        },
+        "gpt-5.4": {
+          "summary": "A wet, curving road at night is lit by streetlights whose beams cut through fog beneath large leafless trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A misty night scene illuminated by [LOCATION] through bare tree branches."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A misty night scene on a wet road illuminated by streetlights, with bare tree branches silhouetted against the sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A misty, atmospheric night scene of a wet road winding through bare trees illuminated by glowing streetlights."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A stone bridge with arches reflected in a calm river under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A stone arch viaduct spans a calm river, with leafless trees and strong reflections under a gray overcast sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a stone bridge reflected in calm water under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stone arch bridge spans a calm river, with its reflection mirrored perfectly in the water under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A multi-arched stone railway viaduct spans a calm river under an overcast sky, with its reflection visible in the water."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit street at night with reflections in a puddle and streetlights illuminating the scene."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet residential street at night is wet from rain, with bright streetlights reflecting in a large roadside puddle."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime street scene illuminated by a bright lamppost reflecting off wet pavement."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet nighttime street scene illuminated by streetlights, with reflections in puddles and bare trees lining the road."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wet, flooded residential street at night illuminated by bright streetlights reflecting on the water's surface."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A winding"
+        },
+        "gpt-4o-mini": {
+          "summary": "A winding, wet road stretches through a foggy landscape with sparse trees and fields."
+        },
+        "gpt-5.4": {
+          "summary": "A wet winding country road runs through hedged fields under a gray, misty sky with bare trees lining the sides."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A curving rural road under a misty sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet, winding rural road curves through a misty landscape with bare trees and hedgerows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wet, winding country road curves through a misty rural landscape with bare trees and green fields under an overcast sky."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a directional road sign with various destinations and distances in a rural setting."
+        },
+        "gpt-5.4": {
+          "summary": "A roadside directional signpost at a rural Dutch intersection points toward nearby towns under a bright cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A road signpost indicating directions in a rural area near [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A roadside signpost in a rural area points to multiple Dutch destinations including [LOCATION], [LOCATION], and [PERSON] under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tall blue road signpost at a rural intersection points towards various Dutch towns and cities, set against a backdrop of green fields and a cloudy sky."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a graffiti-covered mailbox beside a canal in an urban setting."
+        },
+        "gpt-5.4": {
+          "summary": "A sticker- and graffiti-covered red Dutch mailbox stands beside a canal in an urban street scene with brick buildings in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant orange postbox covered in graffiti stands by a canal-side walkway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graffiti-covered orange mailbox stands on a cobblestone path beside a canal, with buildings and trees in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bright orange public mailbox covered in stickers and graffiti stands on a brick sidewalk next to a canal, with traditional buildings visible across the water."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of ladybugs is clustered on a textured surface."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows four red ladybugs clustered on the edge of a rough concrete or stone surface outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Four ladybugs are resting together on a textured surface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four red ladybugs with black spots are clustered on a rough, textured concrete surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of four red ladybugs with black spots clustered together on a rough, textured concrete surface."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image captures a detailed crescent moon, showcasing its craters against a dark blue night sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up view of a crescent moon against a dark blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a detailed crescent moon with visible craters against a dark blue night sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a crescent moon against a dark blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of a crescent moon against a dark blue sky, showing surface craters and texture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a crescent moon displaying detailed surface craters against a dark blue sky."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Three red ladybugs with black spots are resting on a textured, light-colored, granular surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features three ladybugs on a textured surface."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows three red ladybugs with black spots clustered together on a rough stone surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three ladybugs resting together on a gravel surface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three ladybugs with red shells and black spots are clustered together on a speckled granite surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of three red ladybugs with black spots resting on a rough, pebbled stone surface."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two musicians perform on stage in a black and white image, with one singing into a microphone and the other playing an electric guitar, against a backdrop of a drum kit."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two musicians perform on stage, one singing into a microphone and the other playing guitar."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white concert photo shows two rock musicians performing closely on stage, with one singing and the other playing guitar in front of a drum kit."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two musicians perform energetically during a live concert."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two musicians perform energetically on stage, one singing into a microphone and the other playing guitar."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph captures two male musicians performing on stage, with one singing into a microphone and the other playing an electric guitar."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs, one large and one small, are standing in a cozy indoor setting, likely a pub or restaurant."
+        },
+        "gpt-5.4": {
+          "summary": "Two leashed dogs are standing inside a cozy rustic pub or cafe with wooden floors, bar stools, and dining tables."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are being walked inside a cozy pub-like establishment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs on leashes walk through a cozy, wood-floored pub or restaurant with exposed beams and bar stools."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two dogs on leashes stand inside a rustic pub or restaurant with wooden floors and furniture."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white photograph captures a winding road at night, illuminated by streetlights through a thick fog, with bare tree branches [PERSON]"
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit, winding road surrounded by trees and illuminated by streetlights in a foggy night setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white photo shows an empty wet road at night, lined with bare trees and streetlights shining through fog."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white night scene of a quiet street illuminated by lampposts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white night scene of a foggy road illuminated by streetlights with bare tree branches silhouetted against the sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white photograph of a wet, winding road at night illuminated by streetlights shining through bare tree branches."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a busy street corner in an urban area with directional signs and cyclists."
+        },
+        "gpt-5.4": {
+          "summary": "An urban [LOCATION] street scene shows cyclists passing beneath red-and-white directional signs pointing to destinations like [ORGANIZATION], [LOCATION]-Noord, and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Urban street scene featuring directional signs in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A street scene in [LOCATION] with directional signs pointing to local destinations, cyclists passing by, and historic buildings in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street scene in [LOCATION] featuring a prominent directional signpost pointing to various city districts and two cyclists riding on a brick-paved path."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two dogs, one wearing a grey coat, stand in an indoor"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs are standing at a set of double doors, looking inside a well-lit room."
+        },
+        "gpt-5.4": {
+          "summary": "Two leashed dogs, one wearing a coat, stand in a narrow hallway facing glass-paneled double doors with warm indoor light beyond."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs wearing coats stand in a hallway facing an open door."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs on leashes stand in a hallway, looking through a pair of glass-paneled doors into a warmly lit interior."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two fluffy dogs on leashes stand in a carpeted hallway facing closed white double doors with glass panes. One dog wears a blue coat."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bright red mailbox with a white"
+        },
+        "gpt-4o-mini": {
+          "summary": "A red mailbox is positioned in an airport setting with travelers in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bright red freestanding mailbox stands inside a modern airport or transit terminal near a queue of travelers and directional signs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red postbox stands in a busy terminal area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red public mailbox stands in a busy airport terminal with travelers and signage in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red post box stands in the foreground of a busy airport terminal with travelers and luggage visible in the background."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a sign in [LOCATION] prohibiting public urination, with a fine of €140."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime [LOCATION] canal scene features a prominent municipal sign on a bridge warning that public urination is prohibited and fined."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime canal scene in [LOCATION] featuring a sign prohibiting urination."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime canal-side sign in [LOCATION] warns against public defecation with a fine of €140."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A nighttime photo of a municipal sign in [LOCATION] prohibiting public urination with a €140 fine, set against a backdrop of a canal and illuminated buildings."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A winding road surrounded by fields and trees under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wet winding country road curves through green fields beneath a bright blue sky with wispy clouds and leafless trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene rural road curves through a landscape of green fields under a blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A winding rural road curves through green fields under a partly cloudy blue sky, bordered by bare trees and hedgerows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wet, winding country road curves through green fields under a blue sky with scattered clouds, flanked by bare trees and hedges."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A moody, atmospheric image depicts a wet, dark road winding through silhouetted trees under a cloudy sky"
+        },
+        "gpt-4o-mini": {
+          "summary": "A dark, moody landscape featuring a wet road lined with leafless trees under a cloudy sky with a faint sun."
+        },
+        "gpt-5.4": {
+          "summary": "A dark, wet country road runs beneath a cloudy sky with a bright moon or sun glowing through the clouds and silhouetted leafless trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dark road under a cloudy sky illuminated by moonlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A moonlit country road framed by silhouetted trees under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark, atmospheric shot of a wet country road at night or dusk with the moon glowing through heavy clouds and silhouetted trees lining the path."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two dogs, one wearing a red sweater with a bone emblem, are standing patiently by a light-colored door with windows, looking towards the outside."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs are standing in front of a closed door, one wearing a red sweater."
+        },
+        "gpt-5.4": {
+          "summary": "Two leashed dogs stand at an indoor double door, with one small dog in a red sweater looking back at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs wearing leashes stand in front of a closed door."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs, one in a red sweater and the other on a leash, stand indoors looking up at a light-blue door with glass panes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two dogs on leashes stand in a hallway facing closed double doors with glass panes, one wearing a red sweater and the other looking up at the door handle."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two iconic red telephone boxes and a red post box on a cobblestone street."
+        },
+        "gpt-5.4": {
+          "summary": "Bright red British telephone boxes and pillar post boxes stand on a wet town sidewalk beside a cobblestone street with parked cars and small buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Red British telephone boxes in a quaint town square."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two red British postboxes stand beside a classic red telephone box on a cobblestone street."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street scene featuring iconic red British post boxes and telephone booths on a paved sidewalk with cars and buildings in the background."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A golden retriever dog is peacefully sleeping or resting curled up on a fluffy, light-colored dog bed indoors, next to a white piece of furniture with a decorative grate."
+        },
+        "gpt-4o-mini": {
+          "summary": "A golden retriever is peacefully sleeping on a fluffy dog bed in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A light-colored golden retriever is curled up asleep on a fluffy dog bed indoors in front of a white radiator cover."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A golden retriever dog lounging comfortably in a plush pet bed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever sleeps curled up in a fluffy, round dog bed placed on a wooden floor under a white cabinet with decorative vents."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever is curled up asleep in a fluffy, round pet bed on a grey wood floor."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a road signpost indicating directions to various locations in the [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A roadside directional signpost stands by a bridge over water in a rural area under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A road sign indicating directions in a rural area near [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A roadside signpost near a bridge over water directs travelers to Dutch towns and highways under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cluster of blue Dutch road signs indicating directions to [LOCATION], [LOCATION], and [PERSON] stands beside a canal bridge under a clear sky."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit, wet road at night with streetlights illuminating the scene."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet residential road at night is lit by streetlights, with wet pavement reflecting the light after rain."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wet road illuminated by streetlights under a dark sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet nighttime street illuminated by streetlights, reflecting light on puddles with trees and houses in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wet, empty road curves through a residential area at night, illuminated by bright streetlights reflecting off the slick asphalt."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A red British post box stands in a parking area with trees and houses in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bright red British post box stands in the middle of a parking lot with cars, leafless trees, and suburban houses in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red [ORGANIZATION] post box stands in a parking lot surrounded by cars."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red British postbox stands in a parking lot surrounded by cars and bare trees under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red [ORGANIZATION] post box stands in a paved parking lot surrounded by parked cars and residential houses under an overcast sky."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit road at dusk, lined with trees and streetlights, reflecting on wet pavement."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet wet road lined with bare trees and hedges is lit by streetlights at dusk or night, with reflections shimmering on the pavement."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quiet street illuminated by a bright lamppost under twilight skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet road at dusk illuminated by streetlights, framed by bare trees and dark foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wet, empty road at twilight illuminated by a bright streetlamp casting long shadows through bare tree branches."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs, one wearing a coat, are standing in front of a set of double doors, seemingly waiting to go outside."
+        },
+        "gpt-5.4": {
+          "summary": "Two leashed dogs stand in a hallway facing a set of glass-paneled double doors, with one small dog looking back at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are standing in a hallway looking towards an open door."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs on leashes stand in a hallway, looking up at a pair of light-colored double doors with glass panes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two dogs on leashes, a golden retriever and a smaller poodle-type dog in a sweater, stand in a hallway facing closed double doors with glass panes."
+        }
+      }
+    },
+    "image_00124": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A view from an airplane window"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a rainy airport scene viewed through a wet airplane window."
+        },
+        "gpt-5.4": {
+          "summary": "View from an airplane window showing raindrops on the glass, a jet engine, and a rainy airport tarmac with ground service vehicles and lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view from inside a vehicle through rain-streaked glass."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A rainy view from inside an airplane showing a wet runway and ground vehicles outside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view through a rain-streaked window onto an airport tarmac where ground support vehicles are parked under dim, overcast lighting."
+        }
+      }
+    },
+    "image_00125": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures snow-capped mountain peaks emerging through a dense layer of clouds under"
+        },
+        "gpt-4o-mini": {
+          "summary": "Aerial view of snow-capped mountains partially obscured by clouds under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Aerial view of snow-covered mountain peaks protruding through a dense blanket of clouds under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A breathtaking aerial view of snow-capped mountains surrounded by dense clouds under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of snow-capped mountains rising above a vast sea of clouds under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An aerial view of snow-capped mountain peaks rising above a dense layer of clouds under a clear blue sky."
+        }
+      }
+    },
+    "image_00126": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an airplane wing and engine above a mountainous landscape under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "View from an airplane window showing the wing and engine above a rugged mountain landscape under a textured cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view from an airplane window showing a mountainous landscape below."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from an airplane window showing a wing and engine over rugged, arid mountains under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An aerial view from an airplane window showing the wing and engine flying over a rugged, arid mountain range under a partly cloudy sky."
+        }
+      }
+    },
+    "image_00127": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view of a swimming pool with palm trees and people enjoying the sun."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny resort pool scene with palm trees, lounge umbrellas, swimmers, and feet visible in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Relaxing by a poolside under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A first-person view of bare feet relaxing on tiled poolside under a bright blue sky, overlooking a bustling resort pool with palm trees and buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of feet resting on a tiled pool deck overlooking a large resort swimming pool with swimmers, palm trees, and lounge umbrellas under a bright blue sky."
+        }
+      }
+    },
+    "image_00128": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a newspaper article discussing '[ORGANIZATION] as a potential condition."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a newspaper health article about pathological demand avoidance, with a large headline and a brain illustration."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A newspaper article headline discusses [ORGANIZATION] as a genuine condition."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A newspaper article titled 'Hate doing what you're told? It could be a sign you have [ORGANIZATION] rests on a textured surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a newspaper article in [ORGANIZATION] section discussing [ORGANIZATION] ([ORGANIZATION]) as a distinct condition from autism."
+        }
+      }
+    },
+    "image_00129": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset or sunrise illuminates a tropical beach scene with numerous palm trees, green grass, and beach umbrellas by the ocean."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a sunset view through palm trees in a lush green setting near a beach."
+        },
+        "gpt-5.4": {
+          "summary": "Sunlight sets low behind tall palm trees on a manicured seaside resort lawn with beach umbrellas and lounge chairs in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene framed by palm trees in a grassy area near an ocean."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Sunset view through palm trees at a beach resort with lounge chairs and grassy foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a resort lawn with tall palm trees silhouetted against a bright sunrise or sunset near the beach."
+        }
+      }
+    },
+    "image_00130": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A crescent moon and an airplane with a contrail are visible"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a crescent moon in the sky with an airplane leaving a contrail above it."
+        },
+        "gpt-5.4": {
+          "summary": "A small airplane leaves glowing contrails across a hazy dusk sky above a thin crescent moon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A crescent moon and a contrail from an airplane are captured against a clear sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crescent moon is visible in the twilight sky alongside an airplane leaving a contrail."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crescent moon and an airplane leaving a contrail are visible against a purple twilight sky."
+        }
+      }
+    },
+    "image_00131": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a street sign indicating directions to various locations in a residential area."
+        },
+        "gpt-5.4": {
+          "summary": "Directional road signs in French stand at a quiet street corner with a crosswalk, houses, and a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Street signs indicating directions in French near a residential area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A roadside signpost directs travelers to [LOCATION], [ORGANIZATION], Le Gosier, and [ORGANIZATION] under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A roadside view of directional signs for [PERSON], [ORGANIZATION], [ORGANIZATION], and [ORGANIZATION] under a cloudy sky."
+        }
+      }
+    },
+    "image_00132": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A translucent blue jellyfish with visible internal structures floats in dark blue water filled with sparkling particles."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a translucent jellyfish floating in water, illuminated by blue tones."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up blue-toned underwater photo shows a translucent jellyfish floating in the water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a translucent jellyfish in blue-toned water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A translucent jellyfish with radial tentacles floats in blue water, viewed from above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, top-down view of a translucent jellyfish floating in blue water with visible radial canals and central oral arms."
+        }
+      }
+    },
+    "image_00133": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sunset view over mountains and palm trees, creating a warm and serene atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A warm orange sunset glows over layered mountain silhouettes, with low buildings and palm trees in the dark foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene over a cityscape surrounded by palm trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunset over a mountain range with silhouetted buildings and palm trees in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bright sun sets over a silhouette of palm trees, buildings, and distant mountains under an orange sky."
+        }
+      }
+    },
+    "image_00134": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A red mailbox covered in stickers stands in a park with fallen leaves, against a backdrop of a menu board."
+        },
+        "gpt-5.4": {
+          "summary": "A bright red sticker-covered street mailbox stands in front of a café wall with handwritten menu boards, with fallen leaves scattered on the ground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red postbox adorned with stickers stands in front of a restaurant menu board."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red public utility box covered in stickers and graffiti stands on a grassy patch with fallen leaves, in front of a building with restaurant chalkboards."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vintage red mailbox covered in stickers and graffiti stands on a black pedestal in front of a restaurant with chalkboard menus."
+        }
+      }
+    },
+    "image_00135": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A silhouette of a bird flies low over calm water with the sun glowing in a golden sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A silhouette of a bird flying over a calm sea during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A golden sunset over calm water with a bird silhouetted low above the surface near a distant shoreline."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a calm body of water featuring silhouettes against golden hues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bird silhouetted against a golden sunset over calm water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bird flies low over a shimmering body of water during a golden sunset with a distant shoreline."
+        }
+      }
+    },
+    "image_00136": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two dark-colored marine animals, possibly dolphins or pilot whales, are seen swimming and breaking the surface of the deep blue ocean, creating white splashes."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two dolphins swimming in the ocean, creating splashes in the water."
+        },
+        "gpt-5.4": {
+          "summary": "Two dolphins are surfacing side by side in choppy blue ocean water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dolphins are swimming in a vast blue ocean."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dolphins leap partially out of deep blue ocean water, creating splashes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two dolphins are captured swimming side-by-side in deep blue ocean water, creating white splashes as they move."
+        }
+      }
+    },
+    "image_00137": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows the sun as"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bright orange sun against a muted background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows the bright orange sun against a hazy sky, with a few small dark spots visible on its surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a bright sun against an orange sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of the sun with visible sunspots against a hazy orange sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a bright yellow-orange sun with visible dark spots against a hazy sky."
+        }
+      }
+    },
+    "image_00138": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vintage yellow taxi cab is parked in front of a building with palm trees in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A bright yellow vintage taxi is parked on a sunny palm-lined street in front of storefronts and pedestrians."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vintage [ORGANIZATION] taxi parked in front of a building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vintage yellow taxi from '[ORGANIZATION] is parked on a sunny street lined with palm trees and retro-style buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vintage yellow taxi from the '[ORGANIZATION] is parked on a sunny street lined with palm trees and retro-style buildings."
+        }
+      }
+    },
+    "image_00139": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person walks alongside a camel in a sandy desert environment."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] photo from atop a camel showing a person in white clothing leading another camel across a sandy desert."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in traditional attire walks alongside a camel through sandy terrain."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white robe walks beside a camel across a sandy terrain, viewed from behind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a white thobe walks across sandy terrain leading a camel, viewed from the perspective of another rider."
+        }
+      }
+    },
+    "image_00140": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene landscape image captures the sun rising or setting behind a range of mountains, casting golden rays across the sky and silhouetting the peaks."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of mountains with a golden sunrise illuminating the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic golden sunrise or sunset glows behind a jagged mountain ridge, casting rays through the clouds over a rocky landscape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a mountain range with rays of light piercing through clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Sunlight breaks through clouds behind a mountain range at sunrise or sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A landscape photograph showing a bright, golden sunburst rising or setting behind a silhouetted mountain range in an arid environment."
+        }
+      }
+    },
+    "image_00141": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene image captures the silhouette of several palm trees against a vibrant orange and yellow sky with the sun low over the ocean."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset view over the ocean framed by palm trees."
+        },
+        "gpt-5.4": {
+          "summary": "Silhouetted palm trees stand by the ocean against a warm golden sunset sky with the sun low on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Silhouettes of palm trees against a golden sunset over water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Silhouetted palm trees frame a sunset over the ocean."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Silhouettes of palm trees frame a bright sun setting over the ocean against a golden sky."
+        }
+      }
+    },
+    "image_00142": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two ducks swimming in a body of water, one with a vibrant green head and the other with a brown and speckled appearance."
+        },
+        "gpt-5.4": {
+          "summary": "Two mallard ducks, a colorful male and a brown female, are swimming on calm water in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two ducks swimming in a calm body of water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A male and female [LOCATION] swim together in rippling water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male mallard with an iridescent green head and a female mallard swim together in rippling water."
+        }
+      }
+    },
+    "image_00143": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a decorated camel with a colorful saddle in a beach setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a camel wearing colorful decorative textiles and tassels stands on a beach with water and a pier in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A camel adorned in colorful decorations stands near a body of water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a decorated camel on a beach with water and a pier in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a camel adorned with colorful, tasseled traditional gear stands on a beach with the ocean and a pier in the background."
+        }
+      }
+    },
+    "image_00144": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant orange and yellow sunset or sunrise illuminates the sky above a silhouetted city skyline with birds flying."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sunset with a large sun partially obscured by clouds, set against a golden sky."
+        },
+        "gpt-5.4": {
+          "summary": "A large orange sun hangs low over silhouetted rooftops with a few birds flying across the sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene over a silhouette of rooftops."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large sun sets over a city skyline, casting an orange glow with birds flying overhead."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, bright sun sets behind a silhouette of rooftops and satellite dishes under an orange sky with a few birds in flight."
+        }
+      }
+    },
+    "image_00145": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A picturesque landscape photo captures a sunset or sunrise over a body of water, with a textured"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset over a rocky shoreline with a colorful sky and calm water."
+        },
+        "gpt-5.4": {
+          "summary": "A wide-angle coastal landscape shows a calm sea at sunset with dramatic textured clouds and rocky shoreline in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a rocky shoreline under a dramatic sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle shot of a textured rocky shoreline at sunset, with the sun setting on the horizon and a dramatic cloud-filled sky above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape photograph captures a golden sunset over a calm body of water, with textured rocky formations in the foreground and a sky filled with rippled clouds."
+        }
+      }
+    },
+    "image_00146": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vintage white car is seen driving on a palm-lined road with a billboard in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Viewed from inside a vehicle, a white vintage Volkswagen Beetle drives down a wide palm-lined street with other traffic and a large event billboard on the left."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vintage white Volkswagen Beetle driving down a palm-lined road."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white vintage Volkswagen Beetle drives down a palm-lined road from inside a vehicle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from inside a vehicle driving on a palm-lined road behind a vintage white Volkswagen Beetle, with a large billboard for the 'ZAMMA' music festival visible on the left."
+        }
+      }
+    },
+    "image_00147": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a decorative blue double door adorned with lights and [ORGANIZATION], set against a rustic background."
+        },
+        "gpt-5.4": {
+          "summary": "A weathered blue double door outlined with string lights stands against a woven reed wall at night, creating a decorative rustic scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A rustic blue door adorned with LED lights against a straw wall backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weathered blue double door with decorative metal grilles is illuminated by LED lights at night, set against a thatched wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weathered blue double door with decorative iron grilles stands illuminated by warm LED lights against a woven reed wall at night."
+        }
+      }
+    },
+    "image_00148": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a street signpost in a canal-side setting, indicating various directions in a quaint town."
+        },
+        "gpt-5.4": {
+          "summary": "A canal-side street scene with Dutch directional signs, bare winter trees, a lamppost, and historic brick houses with light snow on the ground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a canal in [LOCATION] featuring directional signs pointing towards various attractions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snowy canal-side street scene with directional signs pointing to local landmarks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street scene in a Dutch town featuring directional signs for local landmarks like [PERSON] and [LOCATION] alongside a canal with snow-dusted cobblestones."
+        }
+      }
+    },
+    "image_00149": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a red [ORGANIZATION] post box situated in an airport terminal."
+        },
+        "gpt-5.4": {
+          "summary": "A bright red [ORGANIZATION] post box stands inside a modern airport terminal with travel ads and check-in areas in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red [ORGANIZATION] postbox in an airport terminal."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A classic red [ORGANIZATION] postbox stands in a modern airport terminal, with [ORGANIZATION] travel ads visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red [ORGANIZATION] post box stands in the foreground of a spacious, modern airport terminal with travel advertisements visible in the background."
+        }
+      }
+    },
+    "image_00150": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs are standing in front of a set of double doors, looking inside a room."
+        },
+        "gpt-5.4": {
+          "summary": "Two leashed dogs, one wearing a red sweater, stand in a narrow hallway facing glass-paneled double doors with a warmly lit interior beyond."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are standing in a hallway looking towards an open door."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs on leashes stand at the threshold of a light-blue door, looking into a warmly lit interior."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two dogs on leashes stand in a hallway facing closed double doors with glass panes that reveal a lit interior."
+        }
+      }
+    },
+    "image_00151": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a glass of pale ale in a bar setting with colorful bottles in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A foamy drink in a glass mug sits on a pub bar in front of a [PERSON] Yardbird Pale Ale tap and shelves of bottles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pint of [ORGANIZATION] sits ready behind a bar counter."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A frothy pale ale in a glass mug sits on a bar mat beside a [PERSON] Yardbird Pale Ale tap handle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a pint glass filled with pale ale sitting on a red bar mat next to a beer tap handle in a pub setting."
+        }
+      }
+    },
+    "image_00152": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A detailed close-up image of a half-moon, showcasing its cratered surface against the dark expanse of space."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a crescent moon against a black background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up telescopic photo shows a partially illuminated [PERSON] with visible craters against a black night sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a waxing crescent moon against a dark sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of a crescent moon against a dark sky, showing detailed craters and surface texture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a half-illuminated moon against a black sky, showing detailed craters and surface textures."
+        }
+      }
+    },
+    "image_00153": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a street signpost with directional arrows in a scenic area featuring traditional green houses and a wet cobblestone path."
+        },
+        "gpt-5.4": {
+          "summary": "A village street with traditional green houses and patches of snow is centered on a tourist direction sign pointing to local attractions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A street scene in a quaint village featuring directional signs pointing towards various landmarks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A directional signpost in a snowy, cobblestoned European town with traditional wooden houses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A directional signpost stands on a wet brick path in a Dutch village featuring traditional green wooden houses and patches of snow under a cloudy sky."
+        }
+      }
+    },
+    "image_00154": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a red postal box with advertisements on it, situated near a tram."
+        },
+        "gpt-5.4": {
+          "summary": "A red PostNL mailbox with light graffiti, Dutch collection information, and app ads stands on a sidewalk in front of a blue-and-white tram or train."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red PostNL mailbox stands in front of a tram station."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red PostNL mailbox with graffiti stands on a sidewalk beside a blue tram."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red PostNL mailbox stands on a wet sidewalk with a blue and white tram visible in the background."
+        }
+      }
+    },
+    "image_00155": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of the moon against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up telescopic photo of the moon against a black night sky, showing craters and surface markings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a full moon against a dark sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up photograph of the moon against a dark background, showing its craters and surface texture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, high-resolution photograph of the moon against a black sky, highlighting its cratered surface and [PERSON]."
+        }
+      }
+    },
+    "image_00156": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, eye-level shot of a duck's head and upper body, featuring its brown and black patterned feathers, reddish-brown eyes, and a dark bill with orange and white markings, set against a blurred blue background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a duck with detailed feathers and a focused expression."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up wildlife photo shows a mottled brown duck facing the camera with blue water blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a duck's head against a blurred water background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up portrait of a duck with mottled brown feathers and a wet beak, set against a blurred blue water background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a female mallard duck with mottled brown and tan feathers, set against a blurred blue water background."
+        }
+      }
+    },
+    "image_00157": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up image of a colorful butterfly resting on the ground."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a colorful butterfly with eye-like wing spots resting on sunlit dirt or bark."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a colorful butterfly resting on soil."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A brightly colored butterfly with orange wings and blue eye spots rests on textured ground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a Peacock butterfly with vibrant orange wings and distinct blue eye-spots resting on textured soil."
+        }
+      }
+    },
+    "image_00158": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A historic stone church with a prominent tower and arched windows stands in a sunny churchyard with gravestones, bare trees, and"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a stone church with a tower, surrounded by gravestones and trees under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A stone church with a square tower stands beside gravestones and a path under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stone church surrounded by a cemetery under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stone church with a tower stands under a clear blue sky, surrounded by a graveyard and bare trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stone church with a square tower and graveyard stands under a clear blue sky on a sunny day."
+        }
+      }
+    },
+    "image_00159": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tall stone tower against a clear blue sky, surrounded by trees and gravestones."
+        },
+        "gpt-5.4": {
+          "summary": "A tall old stone church tower with a Gothic-style window stands in a churchyard under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stone tower stands tall against a clear blue sky in an open grassy area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle shot of a tall stone church tower against a clear blue sky, surrounded by grass and trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a tall, historic stone church tower with crenellations and Gothic windows set against a clear blue sky."
+        }
+      }
+    },
+    "image_00160": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two dogs sitting on a wooden floor, one with a curly coat and the other with a straight coat."
+        },
+        "gpt-5.4": {
+          "summary": "Two leashed dogs, a curly brown dog and a light golden retriever, look up from a wooden floor indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are sitting indoors; a curly-haired dog holds red leash in its mouth while another golden-colored dog looks directly ahead."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs—one curly-haired and one golden retriever—look up from a wooden floor while on leashes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle shot captures two dogs, a golden doodle and a golden retriever, standing on a wooden floor while looking up at the camera with leashes attached."
+        }
+      }
+    },
+    "image_00161": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a roundabout with directional signs in a rural setting under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wet roundabout under heavy clouds features blue Dutch direction signs for [LOCATION], [LOCATION], [LOCATION], and [LOCATION] in [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A roundabout signpost indicating directions in a rural area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A road junction with directional signs under a cloudy sky, showing light snow on the ground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view of a Dutch roundabout with blue directional signs pointing to local towns like [PERSON] and [PERSON] under an overcast sky."
+        }
+      }
+    },
+    "image_00162": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A historic stone church with a prominent tower is brightly illuminated at night, standing in a grassy church"
+        },
+        "gpt-4o-mini": {
+          "summary": "A stone church illuminated at night, showcasing its architectural features against a dark sky."
+        },
+        "gpt-5.4": {
+          "summary": "A stone church with a square tower is brightly lit at night against a dark sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stone church illuminated against a dark night sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stone church with a tower is illuminated at night against a dark sky, with a bench and gravestones in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stone church with a crenellated tower is illuminated at night against a dark blue sky, surrounded by a grassy graveyard."
+        }
+      }
+    },
+    "image_00163": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a red postal mailbox with advertisements on it, situated near a tram."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] street mailbox with some graffiti stands on a sidewalk in front of a blue-and-white public transit vehicle, with pickup information and app ads on the front."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red PostNL mailbox covered in graffiti stands near a tram."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red PostNL mailbox with graffiti stands on a sidewalk near a blue tram."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red PostNL mailbox stands on a wet sidewalk with a blue tram visible in the background."
+        }
+      }
+    },
+    "image_00164": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a winding road leading uphill towards a vibrant orange sunset, framed by silhouetted trees and a street lamp."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset view over a winding road framed by silhouetted trees."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet road lined with bare trees leads toward a low orange sun at sunset, with dark silhouettes and reflections on the pavement."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene along a quiet road lined by bare trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A road framed by bare trees leads toward a setting sun glowing orange in the sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paved road leads uphill towards a bright, setting sun framed by the silhouettes of bare trees and a street lamp."
+        }
+      }
+    },
+    "image_00165": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a colorful mallard duck standing in shallow, murky water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A colorful mallard duck stands on a wet surface with a reflective sheen."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a male mallard duck standing on wet, icy ground outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A male mallard duck stands in icy water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A male mallard duck stands on icy water, displaying vibrant green head feathers and orange feet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male mallard duck with a green head and yellow beak stands in shallow, icy water."
+        }
+      }
+    },
+    "image_00166": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two dogs on leashes walk towards the entrance of a blue building with a 'WELCOME' sign above its double doors."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs are walking towards a blue building with a 'WELCOME' sign."
+        },
+        "gpt-5.4": {
+          "summary": "Two dogs on leashes are walking up a path toward the blue entrance of a pub-like building with large planters outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are being walked towards a blue building labeled 'WELCOME'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs on leashes walk toward the entrance of a blue building with a 'WELCOME' sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two dogs on leashes walk along a paved path towards the blue entrance of a building marked 'WELCOME'."
+        }
+      }
+    },
+    "image_00167": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark silhouette of an airplane flies across a clear blue sky, leaving a prominent white contrail behind it."
+        },
+        "gpt-4o-mini": {
+          "summary": "An aircraft is flying in the sky, leaving behind contrails."
+        },
+        "gpt-5.4": {
+          "summary": "A jet aircraft flies across a clear blue sky, leaving two long white contrails behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A jet aircraft leaves a contrail against clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A jet aircraft flies across a clear blue sky, leaving a long white contrail behind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark aircraft flies across a clear blue sky, leaving a long white contrail behind it."
+        }
+      }
+    },
+    "image_00168": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a directional sign at night indicating routes to [ORGANIZATION] and [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Nighttime street scene with road signs in Arabic and English pointing to [ORGANIZATION], Sheikh [PERSON]., and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Directional signs indicating [ORGANIZATION], Sheikh [PERSON]., and [LOCATION] in a nighttime urban environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime street sign in [LOCATION] directs traffic to [ORGANIZATION], Sheikh [PERSON]., and [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vertical stack of bilingual road signs in [LOCATION] at night directs traffic to [ORGANIZATION], Sheikh [PERSON], and the airport."
+        }
+      }
+    },
+    "image_00169": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A red mailbox with various stickers is positioned beside a blue car on a city street."
+        },
+        "gpt-5.4": {
+          "summary": "A bright red public mailbox with stickers stands on a sidewalk beside parked cars in a city street lined with trees and historic buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red mailbox stands in a city street near parked cars."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weathered red mailbox on a black metal stand stands beside a blue car on a city sidewalk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vintage red mailbox mounted on a black metal stand stands on a city sidewalk next to parked cars and bare trees."
+        }
+      }
+    },
+    "image_00170": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a coastal view featuring a rocky cliff with ruins and a small town along the shoreline under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic coastal harbor scene shows calm water, a stone pier, rugged cliffs, and a hillside village with church ruins under heavy cloudy skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A coastal view featuring a stone wall extending into calm waters under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A coastal scene with a stone pier in the foreground, leading to a cliffside village and historic ruins under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A coastal town with historic ruins on a cliff overlooks a harbor under an overcast sky."
+        }
+      }
+    },
+    "image_00171": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant rainbow arches across a cloudy sky over a green field with distant houses, viewed from behind a wooden fence."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant rainbow arcs over a rural landscape with houses and a wooden fence in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A bright double rainbow arcs over a rural field with farm buildings, a wooden fence, and a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant rainbow arches over a rural landscape under an ominous sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant rainbow arcs over rural houses under a cloudy sky, viewed through a wooden fence."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant rainbow arches across a dark, cloudy sky over a rural landscape featuring green fields, farm buildings, and a wooden fence in the foreground."
+        }
+      }
+    },
+    "image_00172": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene view of a wet, winding road at twilight or dawn, flanked by silhouetted bare trees against a sky transitioning from deep blue to soft orange and pink."
+        },
+        "gpt-4o-mini": {
+          "summary": "A tranquil rural road at dusk, lined with silhouetted trees against a colorful sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wet country road curves into the distance beneath silhouetted leafless trees against a blue and orange dusk sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene along a quiet road lined by bare trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet rural road stretches into the distance under a twilight sky, framed by silhouetted bare trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wet, empty country road stretches into the distance under a twilight sky with silhouetted trees lining the sides."
+        }
+      }
+    },
+    "image_00173": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene landscape features a vibrant green field in the foreground, transitioning into a dense fog that obscures a line of bare trees and distant structures under a pale sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A misty landscape featuring a grassy field and silhouetted trees in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A foggy grassy field with leafless trees and bare branches is shown under a pale sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene misty landscape featuring a grassy field bordered by leafless trees under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A misty morning landscape with a frost-covered field and bare trees under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A misty landscape featuring a green field and bare trees shrouded in fog under an overcast sky."
+        }
+      }
+    },
+    "image_00174": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime urban scene features a prominent street signpost directing to local attractions"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a directional signpost with various tourist destinations in [LOCATION], illuminated at night."
+        },
+        "gpt-5.4": {
+          "summary": "Nighttime cityscape showing a directional signpost by the river with the illuminated [LOCATION] and a lion statue in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime scene featuring a signpost indicating directions towards [ORGANIZATION], [ORGANIZATION], [PERSON] in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A night scene showing a directional signpost near a river with a lit suspension bridge in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night view of a directional signpost pointing to [ORGANIZATION] and [LOCATION] in [LOCATION], with the illuminated bridge and river visible in the background."
+        }
+      }
+    },
+    "image_00175": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A quiet, winding road lined with trees and daffodils, captured during twilight."
+        },
+        "gpt-5.4": {
+          "summary": "A wet, curving village road at blue hour is lined with bare trees, houses with lit windows, and a strip of yellow flowers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene early morning scene along a quiet road lined with daffodils."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A quiet rural road at dusk, framed by bare trees and illuminated by house lights, with yellow daffodils lining the roadside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A quiet, wet country road at twilight lined with yellow daffodils and bare trees, leading towards illuminated brick houses."
+        }
+      }
+    },
+    "image_00176": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant red, ornate mailbox stands on"
+        },
+        "gpt-4o-mini": {
+          "summary": "A vintage red mailbox stands on a cobblestone street in front of a decorative building."
+        },
+        "gpt-5.4": {
+          "summary": "A bright red decorative post box stands on a cobblestone street in front of an ornate white building."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red vintage-style mailbox labeled '[PERSON]' stands in front of a white building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red vintage-style postbox stands on ornate black pedestals in front of a white Gothic building with arched windows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vintage red post box stands on a black metal stand in front of a white building with Gothic-style windows. The scene is set on a paved street with fallen autumn leaves scattered around the base."
+        }
+      }
+    },
+    "image_00177": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A winding, wet road with white dashed lines disappears into thick fog, flanked by bare trees and hedges in a rural setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A foggy rural road lined with trees and hedges, creating a mysterious atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A foggy rural road curves into the distance between hedges and leafless trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A foggy rural road flanked by bare trees under a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A misty rural road curves ahead, flanked by hedge rows and bare trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wet, two-lane country road curves into dense fog with bare trees and hedges lining the sides."
+        }
+      }
+    },
+    "image_00178": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a sunset over a residential neighborhood, featuring well-maintained gardens and houses."
+        },
+        "gpt-5.4": {
+          "summary": "A suburban neighborhood street is seen at sunset beneath a dramatic sky filled with textured clouds and contrails."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene suburban street scene during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A residential street at sunset, featuring brick houses, manicured hedges, parked cars, and a dramatic sky with orange and blue hues."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a suburban street at sunset, featuring brick houses, manicured gardens, and parked cars under a dramatic sky."
+        }
+      }
+    },
+    "image_00179": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two light-colored dogs, one larger and one smaller, stand on a wooden floor near a dark doorway, both wearing leashes."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two dogs are standing by a door, looking out with leashes attached."
+        },
+        "gpt-5.4": {
+          "summary": "Two leashed dogs, one large and one small, stand indoors by a doorway on a wooden floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two dogs are standing near a door in an indoor wooden-floored area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two dogs on leashes stand near a dark wooden door on a hardwood floor."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two light-colored dogs, one a Golden Retriever and the other a smaller poodle mix, stand on leashes indoors near a dark wooden door."
+        }
+      }
+    },
+    "image_00180": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A Golden Retriever dog is peacefully resting on a fluffy dog bed indoors, with a small grey plush toy beside it."
+        },
+        "gpt-4o-mini": {
+          "summary": "A golden retriever is sleeping on a cozy bed next to a blue stuffed toy."
+        },
+        "gpt-5.4": {
+          "summary": "A golden retriever lies relaxed on a fluffy dog bed indoors with a small gray plush toy tucked by its front legs."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A golden retriever rests comfortably in a pet bed holding a plush toy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A golden retriever rests its head on a grey dog bed, holding a grey plush toy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A golden retriever rests on a plush grey dog bed with a small blue stuffed toy."
+        }
+      }
+    },
+    "image_00181": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A detailed shot of a half moon, showing its craters and texture, set against a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a clear view of a half moon against a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a cratered half moon against a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a waxing crescent moon against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of a crescent moon against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a half-illuminated moon with visible craters and surface details set against a clear blue sky."
+        }
+      }
+    },
+    "image_00182": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A detailed close-up of a half-moon, showcasing its cratered surface against a dark night sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up view of a crescent moon against a black background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up photo of a half-illuminated moon with visible craters against a black night sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a waxing crescent moon against a dark sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of a crescent moon against a black sky, showing detailed craters and surface texture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a half-illuminated moon against a black sky, highlighting its cratered surface and texture."
+        }
+      }
+    },
+    "image_00183": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene view of a winding road at dawn or dusk, flanked by silhouetted bare trees and distant houses under"
+        },
+        "gpt-4o-mini": {
+          "summary": "A winding road is framed by bare trees against a colorful sunset sky."
+        },
+        "gpt-5.4": {
+          "summary": "A quiet tree-lined road curves through a village at dusk, with dark silhouettes against a blue-to-orange sunset sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunrise over a quiet road lined by bare trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A winding road framed by bare trees at sunset, with a gradient sky from orange to blue."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A silhouetted country road curves toward a vibrant sunset sky framed by bare trees and distant houses."
+        }
+      }
+    },
+    "image_00184": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a directional signpost with multiple arrows indicating nearby attractions and locations."
+        },
+        "gpt-5.4": {
+          "summary": "A street sign points toward [ORGANIZATION], [ORGANIZATION], and [PERSON] beside dense greenery, a wooden fence, and an ornate lamppost."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A street signpost indicating directions towards [ORGANIZATION], [ORGANIZATION], and [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A directional signpost pointing to local landmarks like '[PERSON]' and '[ORGANIZATION], partially obscured by [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A green directional signpost pointing to '[PERSON]', '[ORGANIZATION], and '[PERSON]' stands amidst dense evergreen foliage next to a decorative lamppost."
+        }
+      }
     }
   }
 }

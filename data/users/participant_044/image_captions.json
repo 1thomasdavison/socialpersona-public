@@ -1,65 +1,2141 @@
 {
   "user_id": "participant_044",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "film and television",
-        "music",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; music; visual art."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming app interface showing a list of top albums for the week."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a music stats app page listing the user's top albums for this week in a grid of album covers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a music streaming app displaying top albums from 'this week'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing the top albums of the week, with album covers and stream counts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music streaming app's 'Top Albums' chart for the current week, displaying album covers and stream counts."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "crafts and design",
-        "film and television",
-        "live performances",
-        "music",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: crafts and design; film and television; live performances; music; spectator sports."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a movie interface for '[ORGANIZATION],' directed by [PERSON], featuring a scene with two characters in a lush green setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a movie page for '[ORGANIZATION] with poster art, director info, runtime, synopsis text, and a ratings chart."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A movie poster showing two characters in a garden-like setting discussing '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie poster for '[ORGANIZATION] (2025) shows two characters in a tense outdoor scene, with app interface elements including a trailer button and ratings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a movie streaming app displaying the film '[ORGANIZATION] by [PERSON], featuring a scene with an older man and a younger woman against a leafy background."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "film and television",
-        "music",
-        "photography",
-        "reading",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; music; photography; reading; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A movie poster for 'School of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scene from the movie '[ORGANIZATION] featuring a band performing in a classroom setting with students watching."
+        },
+        "gpt-5.4": {
+          "summary": "A movie poster for \"School of Rock\" shows a classroom rock-band performance led by a guitarist in front of seated students, with film credits below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A classroom scene from '[ORGANIZATION] featuring a teacher playing guitar while students watch."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie poster for '[ORGANIZATION] (2003) showing a band playing in a classroom with students watching."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional poster for the 2003 film '[ORGANIZATION] showing a man and children playing rock instruments in a classroom."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "film and television",
-        "live performances",
-        "music",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; live performances; music; spectator sports; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface showing a song titled '[PERSON]' by [PERSON], along with a queue of other songs."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song \"Recorrerte\" by [PERSON] playing, with a visible queue of other tracks by [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player interface showing a playlist of songs by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing a playlist with songs by [PERSON], featuring a recurring thumbnail of a child in a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile music player interface displaying a queue of songs by the artist [PERSON], with the current track '[PERSON]' playing."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "film and television",
-        "music",
-        "photography",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; music; photography; spectator sports; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smartphone screen displays a music player interface, showing the album art"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song 'Pearls' by [PERSON] from the album '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows [PERSON]’s song “Pearls” with the black-and-white “Love Deluxe” album cover in a dark interface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Listening to 'Pearls' by [PERSON] from \"Love Deluxe\" album."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing the song 'Pearls' by [PERSON] from the album '[ORGANIZATION], with a black-and-white cover image of a woman."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying the song 'Pearls' by [PERSON] from the album '[ORGANIZATION]."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "film and television",
-        "live performances",
-        "music",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: film and television; live performances; music; spectator sports; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays song lyrics from the track 'Standby' by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows the song \"Standby\" by [ORGANIZATION] playing with large Spanish lyrics displayed on a dark music-player screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Spanish-language song lyric displayed in a music app interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing lyrics in Spanish for a song titled 'Standby' by [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile music player interface displaying lyrics for the song 'Standby' by the band [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A performer stands on a dimly lit stage with large screens and wooden props, addressing an audience, some of whom are holding up phones."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer stands on stage in front of a wooden structure with graffiti, amidst a crowd and stage lights."
+        },
+        "gpt-5.4": {
+          "summary": "A performer stands on a brightly lit stage with wooden set panels, a branch-like prop, and audience members holding up phones to record."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person speaking behind a wooden structure in front of an audience."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands on a stage with wooden structures and graffiti-like text, under bright lights, while an audience member films them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A performer in a green sweater stands on a stage with wooden set pieces and a large screen displaying the audience."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant album cover for '[PERSON]!' by [PERSON], depicting two figures on a boat with an American flag in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A music-player screenshot shows [PERSON]!\" album art with two people posing on a sailboat against the ocean, with an American flag and comic-style graphics."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stylized poster featuring a couple in front of an American flag against a sunset backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and woman pose dramatically on a boat with an American flag, overlaid with comic-book style text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional image for [PERSON] album '[PERSON]!' featuring the artist and a male companion on a boat with an American flag."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming app interface showing the user's top genres and artists over the past four weeks."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a music listening stats app on the Top Genres page for the past 4 weeks, listing genres like Hip-hop/rap, Alternative, and Pop with album-art collages and stream counts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music streaming app displaying top genres over past four weeks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing top genres over the past four weeks, with album art and streaming stats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile music streaming app displaying the 'Top Genres' list for the past four weeks, featuring album art and stream counts."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cat wearing a green frog hat, with text overlay that includes song details and a playful expression."
+        },
+        "gpt-5.4": {
+          "summary": "A phone music player screen shows a Yung Beef track while displaying meme-style album art of a kitten wearing a green frog hat with text underneath."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cute kitten wearing a frog hat in front of an album cover by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A kitten wearing a green frog hat is shown on a phone screen playing music by [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player interface showing the song 'A.D.R.O.M.I.C.F.M.S.' by [PERSON], featuring album art of a kitten in a green frog hat."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An anime-style image shows a person with dark hair looking up at a vibrant, colorful comet streaking across a starry night sky with clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A character gazes at a starry sky with colorful shooting stars."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style scene shows a person looking up at a starry night sky with a bright comet streaking across the clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person gazes upward as a colorful shooting star streaks across the night sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person gazes upward at a vibrant, colorful meteor streaking across a starry night sky with scattered clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime-style character with dark hair stands in the foreground looking up at a starry night sky where two bright, colorful streaks of light descend through scattered clouds."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital screen displays 'Recent Activity' featuring four movie posters: 'Love Actually', 'The Shop Around the Corner', 'Die Hard', and 'Home Alone', each with star ratings."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a collection of movie posters representing recent activity, including titles like 'Love Actually' and 'Die Hard'."
+        },
+        "gpt-5.4": {
+          "summary": "A dark app screen shows a \"Recent Activity\" row with four movie posters—Love Actually, The Shop Around the Corner, Die Hard, and Home Alone—each with star ratings beneath."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Recent movie ratings displayed in a digital interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie recommendation interface showing four films with their posters and ratings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a 'Recent Activity' section displaying four movie posters: Love Actually, The Shop Around the Corner, Die Hard, and Home Alone."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming summary for a user named [PERSON], highlighting their listening statistics and top tracks for December 2025."
+        },
+        "gpt-5.4": {
+          "summary": "A stats.fm music listening recap graphic for December 2025 shows listening minutes, streams, top tracks, top artists, and a danceable score."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Monthly music listening stats from [PERSON] in December 2025."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music listening summary for [ORGANIZATION] December 2025, showing top tracks, artists, and a 'danceable' score."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-themed [ORGANIZATION]-style infographic for user '[LOCATION] [ACCOUNT]' displaying December 2025 listening statistics, top artists including [PERSON] and [PERSON], and top tracks."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming app interface showcasing a list of top albums with various album covers and streaming statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a music stats app listing top albums for 1–[DATE] in a grid of album covers with listening minutes and stream counts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a music streaming app displaying top albums from December."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing top albums of December, with album covers and stream counts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music streaming app's 'Top Albums' list for December, featuring album covers from artists like [PERSON], [PERSON], and [PERSON]."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming app interface showing the top artists and their streaming minutes for a specific time period."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a music stats app displaying the user's top artists for 1–[DATE], with names like [PERSON], [PERSON], [PERSON], [PERSON], [ORGANIZATION], and [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Top artists chart from a music streaming app showing popular tracks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing top artists for December, ranked by listening time and streams."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Spotify 'Top Artists' list for December, featuring artists like [PERSON], [PERSON], and [PERSON]."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays the text \"1 this year\" in a light gray font against a dark gray background, likely from a digital interface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contains a dark background with minimal visible text."
+        },
+        "gpt-5.4": {
+          "summary": "A dark interface screenshot shows the text \"1 this year.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A minimalist design featuring a statistic '1 this year' against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Minimalist text overlay reading '1 this year' on a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A minimalist image displaying the text '1 this year' in light gray font against a dark background."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming summary for December 2025, highlighting top artists, songs, and albums."
+        },
+        "gpt-5.4": {
+          "summary": "An [ORGANIZATION] card for December 2025 lists 7,196 listening minutes and ranked top artists, songs, and albums, including [PERSON], [PERSON], and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] showing top artists, songs, albums from December 2025."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[ORGANIZATION] for December 2025 showing top artists, songs, and albums with a portrait of [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] summary for December 2025 displaying top artists, songs, and albums alongside corresponding album art."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screen displays a 'Year in Film' summary from [LOCATION], showing statistics like films logged, reviewed, and hours watched, along with 'Most Watched Actor' Leonardo DiCaprio and 'Most Watched Director' [PERSON]."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays film statistics for a user named [LOCATION], highlighting their film logging and reviewing activities for the year 2025."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a Letterboxd 2025 film stats page with watch totals and highlighted most-watched actor and director."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[LOCATION]'s film statistics from [PERSON] showing his viewing habits in a given year."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [PERSON] film stats page for '[LOCATION]'s 2025 in Film' showing logged films, reviews, and hours watched, with [PERSON] and [PERSON] as most-watched actor and director."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a Letterboxd 'Year in Film' statistics page for the user [ORGANIZATION], highlighting 259 films logged and identifying [PERSON] and [PERSON] as top favorites."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays film watching statistics for the week and day in 2025, highlighting a peak on Friday."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a film-tracking app stats page with weekly and weekday viewing charts for 2025, highlighting 10 films in Week 52 and Friday with 44 films."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A mobile app screen displaying film viewing statistics from a specific week in December."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app stats screen showing film-watching trends for 2025, highlighting Friday as the most watched day with 44 films."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displaying film viewing statistics for the year 2025, highlighting that Week 52 was the most watched week and Friday was the most watched day."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals holding up notepads with drawings and text in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dark blue-lit two-panel scene shows two people wearing headsets and holding up notebook pages, one with a stick-figure drawing and the other with handwritten text reading \"Movie Friends?\"."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals hold notebooks; one shows a drawing of two people in love while another displays 'Movie Friday?'"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people in a dark blue-lit room hold up handwritten notes; one shows a childlike drawing, the other asks 'Movie Friday?'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image shows two individuals in a dark, blue-lit room communicating via handwritten notes; the top person displays a drawing of stick figures while the bottom person holds a note asking 'Movie Friday?'."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming app interface showing the top tracks of the week."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a music stats app page listing top tracks for this week with album covers, song titles, and stream counts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a music streaming app displaying top tracks from various artists."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing 'Top this week' tracks with album art and stream counts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Spotify 'Top Tracks' playlist for the week, featuring album art from artists like Prince, [PERSON], [PERSON], and [PERSON]."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the album cover of 'The Man Who Can't Be Moved' by The Script, featuring a surreal illustration of a woman in a yellow dress standing on a giant hand above a cityscape."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows The Script song \"The Man Who Can't Be Moved\" with surreal album art of a large hand above rooftops."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover of 'The Script' featuring a surreal scene where two figures are held aloft by balloons above an urban landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing The Script's song 'The Man Who Can't Be Moved' playing, with album art featuring a couple on a giant hand above a cityscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile music player displaying the album art and song title 'The Man Who Can't Be Moved' by The Script."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with a beard and a light-colored shirt stands outdoors in front of a large white house with columns and a porch, under a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in front of a large, white colonial-style house on a sunny day."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a white shirt stands outdoors in front of a large white columned house on a sunny day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man stands in front of a large white house under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man stands outdoors in front of a large white house with columns and balconies under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard and light-colored shirt stands in the foreground with his hands in his pockets, set against a backdrop of a large white plantation-style house on a sunny day."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smartphone lock screen displays the album art for 'The Very Best of Ben E. King' with 'Stand By Me' currently playing, alongside the time, date, and phone status."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song 'Stand By Me' by [PERSON] on a pink background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone lock screen shows music playing: “Stand By Me” by [PERSON], with the album art for “The Very Best of Ben E. King.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player screen showing 'Stand By Me' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen shows a music player actively playing 'Stand By Me' by [PERSON], with the album cover 'the very best of [PERSON] visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone lock screen displaying the music player interface for [PERSON] song 'Stand By Me' from the album 'The Very Best of Ben E. King'."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a movie interface for 'The [PERSON],' featuring a woman and details about the film."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile app screen shows the film page for \"The [PERSON]\" with a large character image, poster art, trailer button, ratings, and a watchlist note."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Movie poster of 'The [PERSON]' showing a woman in an attic-like room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie profile for 'The [PERSON]' (2025) showing a promotional image, trailer button, runtime, synopsis, and user rating."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displaying the movie details page for 'The [PERSON]', featuring a synopsis, director credit, and user ratings."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a user’s recent activity featuring movie posters for 'The Amazing Spider-Man 2' and 'The Amazing Spider-Man', alongside a person wearing a shirt with '500 Days of Summer'."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed 'Recent Activity' screen shows three movie-related items: two Spider-Man posters and a person wearing a '(500) Days of Summer' T-shirt, with star ratings and interface icons below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Recent movie selections include 'The Amazing Spider-Man' movies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A user interface showing recent activity with movie posters for 'The Amazing Spider-Man 2' and 'The Amazing Spider-Man', and a person wearing a '(500) Days of Summer' t-shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a 'Recent Activity' section displaying movie posters for The Amazing Spider-Man 2, (500) Days of Summer, and The Amazing Spider-Man with star ratings."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful and whimsical illustration with various cartoon-like characters and elements, alongside a music player interface displaying a song titled 'Para Vosotros, [ORGANIZATION]' by [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the track \"PARA VOSOTROS, [ORGANIZATION]\" by [PERSON] with surreal illustrated album art featuring whimsical creatures and carnival-like drawings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful illustration featuring various whimsical characters in a fantastical landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing a song with a colorful, surreal artwork featuring cartoonish characters and objects."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying the album art and track 'PARA VOSOTROS, EXTRA' by [PERSON]."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an artistic representation related to the song 'Te Quiero Mi Cascabel' by [PERSON], showcasing various colorful and whimsical characters."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song \"TE QUIERO MI CASCABEL.\" by [PERSON] with surreal illustrated album art and playback controls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful illustration featuring various whimsical characters against a cosmic backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing a song with a colorful, surreal artwork featuring cartoonish characters and objects."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying the album art and track '[ORGANIZATION] by [PERSON]."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays lyrics from a song titled 'JE T'AIME À MOURIR' by [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a music player displaying the song \"JE T'AIME À MOURIR\" by [PERSON] with large Spanish lyrics on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Spanish poem expressing feelings of love and loss."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a mobile music app displaying lyrics in Spanish from a song by '[PERSON] with the title 'JE T'AIME À MOURIR'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying lyrics from the song '[LOCATION] cristalizada' by [PERSON], featuring Spanish text about past relationships and indifference."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features song lyrics displayed over a background of a person with a tattoo on their back, suggesting themes of love and longing."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song \"love of your life\" by [PERSON] with large on-screen lyrics in a dark, moody interface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Lyrics from a song titled 'love of your life' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen displaying lyrics from a song titled 'love of your life' by [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player interface displaying lyrics for the song 'love of your life' by [PERSON]."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two women with long hair, one wearing sunglasses, against a backdrop of water, while a music player displays the song '[PERSON]' by [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song \"[PERSON]\" by [PERSON] with cover art of two people wearing sunglasses close together outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are shown in a close-up shot near water during daylight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing a song titled '[PERSON]' by [PERSON], with an album art image of two people near water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile music player interface displays a photo of two women with blonde hair and sunglasses, currently playing the song '[PERSON]' by [PERSON]."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A whimsical white rabbit in a blue coat is pointing at a pocket watch."
+        },
+        "gpt-5.4": {
+          "summary": "A surreal illustration shows a white rabbit in a blue coat holding and pointing at a pocket watch against a dark red background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Illustration of a rabbit holding an ornate pocket watch."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white rabbit in a blue jacket holds a pocket watch and points at its face against a red background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital painting of a white rabbit with large brown eyes wearing a blue coat and holding a gold pocket watch against a dark red background."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song 'Heavenly' by [ORGANIZATION], with a black and white underwater scene of two figures swimming."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song \"Heavenly\" by [ORGANIZATION] with monochrome underwater album art of two swimmers holding hands."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white underwater scene featuring two figures in a dynamic pose."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white underwater photo of two nude figures connected by hand, overlaid with the text 'CIGARETTES AFTER [ORGANIZATION]', displayed as album art for the song 'Heavenly' by the same artist."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile music player displaying the song 'Heavenly' by [ORGANIZATION] with its black-and-white underwater album art."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the album cover of 'Blonde' by [PERSON], featuring a person with green hair partially obscured."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows [ORGANIZATION] open to [LOCATION] album Blonde, with the album art, play/shuffle buttons, and tracks including '[ORGANIZATION],' 'Ivy,' and 'Pink + White.'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover of 'Blonde' by [PERSON] displayed in a music app."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing [PERSON] album 'Blonde' with the track '[ORGANIZATION]' currently playing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music streaming app displaying the album 'Blonde' by [PERSON] with the track '[ORGANIZATION]' currently playing."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two young men in football jerseys are smiling and posing together, celebrating a recent achievement."
+        },
+        "gpt-5.4": {
+          "summary": "An [PERSON] story screenshot shows two people in [LOCATION] jerseys smiling and giving thumbs-up indoors, with celebratory Spanish text over the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in [LOCATION] [PERSON] celebrate a victory."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two smiling men in [LOCATION] [LOCATION] [PERSON] for a selfie with celebratory text overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two smiling men wearing red and blue striped sports jerseys pose together in a selfie, with one giving a thumbs-up gesture."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two football players celebrate together, showing excitement and camaraderie after a match."
+        },
+        "gpt-5.4": {
+          "summary": "An [PERSON] story screenshot shows two [ORGANIZATION] players in team jerseys celebrating on the field in a stadium after a match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two soccer players in [LOCATION] celebrate together after a match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two football players in [ORGANIZATION] jerseys celebrate enthusiastically on a stadium field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two male football players in [ORGANIZATION] kits celebrate on a pitch with stadium lights and crowds visible in the background."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the album cover for 'Stay Here 4 Life' by [ORGANIZATION], featuring colorful, cartoonish artwork."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen is showing [ORGANIZATION] “STAY HERE 4 LIFE” with colorful illustrated album art."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover art featuring A$AP Rocky's collaboration 'Don't Be a [PERSON]' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing [ORGANIZATION]STAY HERE 4 LIFE' with a stylized album cover featuring cartoonish characters and the text 'DON'T BE DUMB'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying the song 'STAY HERE 4 LIFE' by A$AP Rocky from the album 'Don't Be Dumb', featuring [PERSON] artwork."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals posing on a boat with an American flag in the background, while a music player displays the song '[ORGANIZATION] by [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone lock screen shows music playing by [PERSON] over a stylized photo of a man and woman posing on a sailboat with comic-style text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A couple poses dramatically in front of an American flag aboard a boat during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface shows [PERSON] song '[ORGANIZATION] playing, with an album cover featuring two people on a boat under a comic-style speech bubble."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile phone screen displaying the music player interface for [PERSON] song '[ORGANIZATION] with its album artwork featuring two people on a boat."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an album cover for '[ORGANIZATION]' by [ORGANIZATION], illustrated in a colorful, cartoonish style with a prominent 'DON'T BE DUMB' message."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] story shows [ORGANIZATION] playing A$AP Rocky’s “PLAYA” over illustrated album art with cartoonish figures and a red prohibition symbol."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stylized album cover featuring A$AP Rocky's artwork alongside a 'Don't Be Dumb' message."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing [ORGANIZATION]PLAYA E' with a stylized album art featuring cartoonish characters and the text 'DON'T BE DUMP'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player interface displaying the album art for [ORGANIZATION]Don't Be Dumb' featuring [PERSON], with the song 'Playa' currently playing."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with curly hair"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a woman and a child embracing in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit close-up shows an adult holding a child closely, creating a somber and protective cinematic scene indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman comforts a young boy in an intimate embrace under dim lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with a distressed expression embraces a crying child in a dimly lit, blue-toned setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman and a young boy embrace in a dimly lit, blue-toned setting with warm light illuminating their faces."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An older, blood-stained man in overalls hands a human skull to a young person in a red sweater, with a fire"
+        },
+        "gpt-4o-mini": {
+          "summary": "A young boy and a muscular man are engaged in a tense exchange involving a skull in a desolate outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A grim cinematic scene shows a muddy man in dark overalls handing a skull to a boy beside a fire in an open field under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young boy in a red sweater interacts closely with an older man holding out his hand near a campfire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young boy and a bloodied man exchange a human skull outdoors near a fire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young boy in a red sweater reaches for a human skull held by a bloodied, muscular man in an outdoor setting with burning debris and wooden stakes."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person holding a sports jersey, showcasing a colorful design."
+        },
+        "gpt-5.4": {
+          "summary": "An [PERSON] story screenshot shows a close-up of a soccer player in a red-and-blue jersey kissing the club badge during a match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a soccer player in action wearing [LOCATION]'s jersey."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a soccer player in a blue and [LOCATION] with a [ORGANIZATION] logo, making a gesture with his fingers near his mouth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up screenshot of an [ORGANIZATION] story featuring a male athlete in a blue and [LOCATION] with a [ORGANIZATION] logo, making a gesture near his mouth."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man, resembling [PERSON], smiles broadly while wearing a harness in what appears to be a cockpit or control room,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a dark setting, possibly a spacecraft, with a motivational quote about aiming higher and breaking barriers."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a smiling man in a spacecraft-like seat with an inspirational quote about aiming higher and reaching for the stars."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a space suit smiles while seated inside what appears to be an astronaut training facility."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man in a futuristic cockpit setting with an inspirational quote overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile interface displaying a smiling man in a futuristic setting with an inspirational quote about exploration and discovery."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming app interface showcasing a user's top tracks and albums."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a music stats app displaying top tracks for 2026 with album covers and songs like \"Nights,\" \"Purple Rain,\" and \"Cinnamon Girl.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a music app displaying top tracks from various artists."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing a 'Top 2026' tracks list with album covers and stream counts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music streaming app displaying a 'Top 2026' tracks playlist featuring album art from artists like [PERSON], Prince, and [PERSON]."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming app interface showcasing a list of top artists along with their streaming minutes."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a music stats app on the 'Top 2026' Artists page with ranked favorite artists and listening minutes/streams in a dark interface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a music app displaying top artists from various genres."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing the 'Top Artists 2026' list with circular artist portraits and stream counts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Spotify 'Top Artists' list for the year 2026, featuring artists like [PERSON], Prince, and [PERSON], The Creator."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming app interface showcasing various album covers and their streaming statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a music streaming app’s 'Top 2026' albums page with a grid of favorite albums and listening stats."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a music app displaying top albums from various artists."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing top albums of 2026 with album covers and stream counts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music streaming app displaying the 'Top Albums' list for the year 2026, featuring classic and modern albums like 'Blonde', '[ORGANIZATION], and 'channel ORANGE'."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a collection of recent activity featuring movie covers, including '[PERSON], '[ORGANIZATION], '[PERSON]', and 'Sorry, Baby'."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed screen shows a 'Recent Activity' section with four movie posters or title cards: [PERSON], [ORGANIZATION], [PERSON], and Sorry, [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Recent movie ratings displayed in a digital interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A user interface showing recent movie activity with four film posters and star ratings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a 'Recent Activity' section displaying four movie posters with user ratings: [PERSON], [ORGANIZATION], [PERSON]., and Sorry, [PERSON]."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a promotional interface for the film '[PERSON],' featuring a scene from the movie and details about its director and runtime."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a movie app page for \"Wuthering Heights\" with a dark period-drama still, poster art, trailer button, and watchlist status."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Movie poster of '[PERSON] showing a grand interior scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie profile for '[PERSON] (2026) directed by [ORGANIZATION], showing a lavish interior scene and a classic poster."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app interface displays the movie details for '[PERSON] directed by [ORGANIZATION], featuring a dark, atmospheric background image and a poster of two characters embracing."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person giving a speech at an award ceremony, emphasizing a message of humanity and identity."
+        },
+        "gpt-5.4": {
+          "summary": "A formal stage photo shows a man in a tuxedo speaking at a microphone while holding an award, overlaid with a quoted statement and explanatory caption text about an acceptance speech."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON] accepts an award in a tuxedo while holding his trophy."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a tuxedo holding an award and speaking into a microphone, with overlaid text quoting him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a black velvet tuxedo stands at a microphone holding an award, with overlaid text quoting his speech about identity and nationality."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals posing together, one holding a hat that reads 'MAKE PUERTO RICO GREAT AGAIN'."
+        },
+        "gpt-5.4": {
+          "summary": "Two men pose smiling in front of [LOCATION] flags and a blue curtain, with one holding a white cap reading \"MAKE PUERTO RICO GREAT AGAIN\" while the other wears a red \"MAKE AMERICA GREAT AGAIN\" hat and flashy accessories."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose together in front of American flags; one holds a hat reading 'MAKE PUERTO RICO GREAT AGAIN'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men pose together in front of American flags, one holding a white cap that reads 'MAKE PUERTO RICO GREAT AGAIN'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose for a photo in front of American flags, with one holding a white cap and the other wearing a graphic sweatshirt and jewelry."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a large audience applauding at a formal event, with a speaker on stage in a tuxedo."
+        },
+        "gpt-5.4": {
+          "summary": "A collage shows a formal awards ceremony in a grand theater, with a tuxedoed person onstage facing a large standing ovation from the audience."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A formal event in a grand theater with an audience applauding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a tuxedo stands on stage addressing a large, applauding audience in an ornate theater."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a tuxedo stands on stage holding an award while a large audience applauds in a grand theater."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song 'Secondhand' by [PERSON], with a figure in a space suit interacting with a sound mixer."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed music player screen shows the song \"Secondhand\" by [PERSON] with monochrome cover art of a person standing on audio equipment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a space suit stands behind audio equipment during playback of 'Secondhand' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white music player interface shows 'Secondhand' by [PERSON], with an album cover featuring a person in a jumpsuit standing on audio equipment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying the song 'Secondhand' by [PERSON] with album art featuring an astronaut on a console."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music replay summary for January 2026, highlighting top artists, songs, and albums."
+        },
+        "gpt-5.4": {
+          "summary": "An [ORGANIZATION] graphic shows January 2026 listening stats with top artists, songs, and albums alongside artist and album artwork."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] report from January 2026 highlighting top artists, songs, albums listened."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[ORGANIZATION] for January 2026, showing top artists, songs, and albums with featured artist [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] summary for January 2026 displaying top artists, songs, and albums alongside corresponding album art."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a woman adorned in traditional attire with intricate henna designs on her hands, set against a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "A phone music-player screenshot shows album art of a woman in ornate traditional attire displaying intricate henna-covered hands, with the track \"GC-1\" playing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in traditional Indian bridal attire adorned with mehndi designs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing a song playing with an album art image of a woman in traditional Indian attire with hennaed hands."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying an album cover featuring a woman in traditional Indian attire with henna, playing the track 'GC-1' by [ORGANIZATION], [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of music tracks with their titles and a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed music track list screen shows numbered song titles from 7 to 11 with explicit-content markers and menu dots."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A list of contact names in a digital interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A list of stylized names or labels displayed on a dark background with numbered entries."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music streaming app's top chart list showing song titles ranked from 7 to 11 in dark mode."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming interface showing various songs and their details."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a dark-mode music search/results screen with songs by [PERSON] and [PERSON], with “Stand By Me (2012 Remaster)” currently selected/playing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music streaming app interface showing a playlist of songs by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] mobile screen showing a 'For you' music feed with multiple 'Stand By Me' tracks by [PERSON] and other artists, with 'Stand By Me (2012 Remaster)' currently playing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile music app interface displaying a search results list with songs by [PERSON] and [PERSON], where 'Stand By Me (2012 Remaster)' is currently playing."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer is on stage in front of a crowd illuminated by phone lights during a concert."
+        },
+        "gpt-5.4": {
+          "summary": "A large concert screen shows a hooded performer onstage before a crowd holding up phone lights, with another phone visible in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A concert scene projected onto a screen showing an artist performing in front of a crowd holding lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person films a concert performer on a large screen, with the crowd holding up lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large concert screen displays a performer in a tiger-print hoodie on stage, with a crowd holding up lights behind them."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A phone screen displays a music player interface with album art depicting a painting of a white lamb in a grassy field,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a goat in a grassy landscape with a flipped car in the background, suggesting a surreal or humorous scene."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the track \"[ORGANIZATION]\" by [PERSON] with painted cover art of a goat standing in front of an overturned smoking car in a field."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A lamb stands in a grassy field near an overturned car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A painting shows a black-and-white goat standing in front of an overturned car in a field, displayed on a music player screen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying an album cover featuring a goat standing in front of a crashed car, with the song 'Bon Calso' by [ORGANIZATION] currently playing."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a music player displaying the song 'Omega' by [ORGANIZATION], with two individuals on a roller coaster in the background."
+        },
+        "gpt-5.4": {
+          "summary": "An [ORGANIZATION] lock screen screenshot shows music playing—\"Omega (feat. [PERSON])\" by [ORGANIZATION]—with the album art featuring two people on a roller coaster."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player screen showing a track by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen shows a music player playing 'Omega (feat. [PERSON])' by [LOCATION], with an album art featuring two smiling people on a ride."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a smartphone music player displaying the song 'Omega' by [ORGANIZATION], with album art showing two people laughing on a roller coaster."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a diary entry listing various movies with ratings and release years."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode mobile diary app screen shows a February 2026 log of watched films and media entries with poster thumbnails, star ratings, and heart icons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Movie diary entries from February 2026 showing various films rated."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app diary showing a user's movie ratings and viewing history from February 2026."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile movie tracking app diary showing a list of films watched in February 2026 with star ratings and cover art."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming interface featuring the album '[ORGANIZATION]' by [PERSON], with a list of track titles."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode smartphone screenshot shows an [ORGANIZATION] page for [PERSON]’s “[ORGANIZATION],” with album art, play/shuffle buttons, and part of the track list visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover of '[ORGANIZATION]' by [PERSON] displayed in a music app interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing [PERSON] album '[ORGANIZATION]' with the song 'strangers.' currently playing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music streaming app displaying the album '[ORGANIZATION]' by [PERSON], featuring a dark profile portrait and a tracklist."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface showing the song 'butterflies.' by [PERSON], with a blurred background featuring a person's hand and a tattoo."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen is shown playing the song “butterflies.” by [PERSON], with close-up album art and a connected [ORGANIZATION] speaker."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person's face in silhouette against light, playing music by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen shows a music player app with the song 'butterflies.' by [PERSON] playing, featuring an album art image of a person's profile."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a smartphone music player displaying the song 'butterflies.' by [PERSON] with album art showing a man's profile."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person playing a large musical instrument while standing on a dirt surface with a red backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song \"D'amor traficante\" by [PERSON] with cover art of a person carrying a large sculptural instrument-like backpack."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person performing a dramatic pose in front of red fabric backdrop holding musical instruments."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person carries an elaborate musical instrument rig against a red backdrop while music plays on a smartphone interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying the song 'D'amor traficante' by [PERSON], featuring album art of a person carrying a large, complex musical instrument rig against a red backdrop."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a selection of recent movie activities with ratings and covers for four films."
+        },
+        "gpt-5.4": {
+          "summary": "A dark app interface shows a 'Recent Activity' row of four movie posters with star ratings beneath them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Recent movie viewing history displayed in a digital interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A user interface showing recent movie activity with four film posters and ratings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a 'Recent Activity' list displaying four movie posters with star ratings: 'Blade Runner', 'All About My Mother', 'The Children's Hour', and 'Project X'."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a music album cover titled '[ORGANIZATION]' with a vibrant design and artist names listed."
+        },
+        "gpt-5.4": {
+          "summary": "A music player screenshot shows the album art and track title \"FLAITEERA\" with artist names listed beneath it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover art featuring a stylized cityscape background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Album art for '[ORGANIZATION]' by [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], featuring stylized portraits against a red-tinted city skyline."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music streaming interface displaying the song '[ORGANIZATION]' by [ORGANIZATION] [ORGANIZATION] with an album cover featuring three men against a city skyline."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a movie poster or album cover titled 'No Other Choice' featuring"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand holding a pot with a blue design against a vibrant blue sky and [ORGANIZATION], accompanied by the text 'No Other Choice'."
+        },
+        "gpt-5.4": {
+          "summary": "A Letterboxd-style post shows the movie poster for \"No Other Choice\" with a five-star rating on a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A movie poster titled 'No Other Choice' featuring a hand holding an object amidst trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie poster for 'No Other Choice' shows a person holding a bucket under a tree with red peppers, set against a blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Letterboxd review card for the film 'No Other Choice' featuring a surreal poster image of a man pouring water from a large vase onto a bonsai tree against a blue sky, rated five stars."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song 'Cats' by [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows [PERSON]’s song \"Cats\" with cat artwork featuring one amber eye and one blue eye."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A detailed drawing of a cat's face in front of green curtains while playing 'Cats' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized illustration of a cat with heterochromatic eyes is displayed behind a music player interface showing [PERSON]'s song 'Cats'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying the song 'Cats' by [PERSON], featuring an artwork of a white cat with heterochromia and a drawn-on mustache."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a colorful sign while wearing a fluffy white garment and a blue scarf with printed images."
+        },
+        "gpt-5.4": {
+          "summary": "An Instagram Story screenshot shows a person at a stadium wearing oversized sunglasses, a fluffy coat, and a blue scarf while holding a small round sign with a striped jersey and the number 10."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing sunglasses holds a lollipop in front of their face while dressed warmly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing sunglasses and a furry white coat holds up a [ORGANIZATION]-themed fan sign at a nighttime stadium event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing large sunglasses and a blue jacket with white fur trim holds up a small [LOCATION] [LOCATION] jersey cutout at a stadium event."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in a red and white striped [LOCATION] walks past two players lying on the ground during a match."
+        },
+        "gpt-5.4": {
+          "summary": "An [ORGANIZATION] post screenshot shows a soccer player in a red-and-white striped kit smiling on the field while two opposing players lie on the pitch behind him in a stadium match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a red striped jersey celebrates while lying players are seen behind him."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a red-and-white striped [LOCATION] celebrates on the field while opponents lie motionless nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A football player in a red and white striped [PERSON] celebrates on the pitch while opponents lie on the ground, with social media engagement metrics visible below."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A player in a black and white image gestures enthusiastically on the field, surrounded by teammates and officials."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white [PERSON] story shows a footballer on the pitch pointing upward after a match, with a Spanish message ending in support for [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player gestures while standing on a field during an evening session."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white photo of a soccer player on a field pointing upward, with text thanking fans and expressing loyalty to [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white screenshot of an [ORGANIZATION] story by [PERSON] showing a football player on a pitch pointing upwards, with overlaid text thanking fans."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a live concert event featuring '[PERSON]' in [LOCATION] on [DATE]."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white promotional poster announces a Ye live show in [LOCATION], [LOCATION] on [DATE], with venue details and a minimalist landscape image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Announcement of a live performance in [LOCATION] by YE."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white promotional poster for a live music event in [LOCATION], [LOCATION], featuring a lone figure walking on a vast plain."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white promotional graphic announcing a live concert by YE in [LOCATION] on [DATE]."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a concert event for '[PERSON]' in [LOCATION] on [DATE], featuring a countdown timer."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows an event webpage with a black-and-white poster announcing “YE LIVE IN [LOCATION]” in [LOCATION], plus a countdown timer."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional countdown timer for a concert in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white event poster for 'YE LIVE IN [LOCATION]' with a countdown timer and venue details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a concert landing page announcing a live performance by [PERSON] in [LOCATION] on [DATE]."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of music tracks with titles and additional information."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode music app screenshot shows a track list with songs including \"Little Love Lullaby (letter2charlotte york)\" and \"issalove marant.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a music app interface showing song titles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed music playlist interface showing song titles and artist names."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a dark-mode music playlist interface displaying three track titles with associated metadata and icons."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a leopard-print hooded cape is holding a cigarette while partially obscuring their face."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music-player screenshot shows the track \"issalove marant\" by \"superreservao\" with cover art of a person in a fur-pattern hood smoking against a plain background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a fur-lined hooded garment covers their face while smoking."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a leopard-print hooded jacket smokes while wearing a black shirt, with visible tattoos and a beaded bracelet."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying an album cover of a person in a fur coat smoking, with the song 'superreservao' by issalove marant."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a 10th anniversary screening of the animated film 'Your Name' at [ORGANIZATION], featuring two characters against a vibrant sky."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows a cinema app page for the animated film 'Your Name' 10th anniversary at [ORGANIZATION], with show dates and movie details."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Movie poster of 'Your Name' showing two characters in school uniforms against a bright sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie ticket booking screen for the anime film 'Your Name' (10th Anniversary) showing screening dates and a purchase button."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the [ORGANIZATION] cinema website displaying the 10th-anniversary screening schedule for the animated film 'Your Name'."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays two movie posters for 'Dog Day Afternoon' and 'Taxi Driver' along with a recent activity section."
+        },
+        "gpt-5.4": {
+          "summary": "A dark app screen labeled \"RECENT ACTIVITY\" shows two movie posters, \"Dog Day Afternoon\" and \"Taxi Driver,\" each with a visible star rating."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Movie posters of 'Dog Day Afternoon' and '[ORGANIZATION], both rated half-star."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two movie posters displayed side by side: 'Dog Day Afternoon' and '[ORGANIZATION], each with a half-star rating below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a movie tracking interface displaying posters for 'Dog Day Afternoon' and '[ORGANIZATION], each rated with four and a half stars."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the album cover of 'Disintegration' by The Cure, featuring the song 'Pictures of You' playing on a music app."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen is showing the song \"Pictures of You\" by The Cure with the album art for \"Disintegration.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player screen showing 'Pictures of You' by The Cure playing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing The Cure's song 'Pictures of You' playing with the album cover for 'Disintegration'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone screenshot showing the music player interface playing 'Pictures of You' by The Cure from the album 'Disintegration'."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song '[PERSON]' by [PERSON], with a blurred figure holding a yellow flower."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song \"Cancionera\" by [PERSON] with dark, artistic album artwork of a person in red holding a yellow flower."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a red outfit holding flowers against their face during motion blur."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing the song '[PERSON]' by [PERSON], with an album art image of a person holding a yellow flower over their head."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player interface showing the song '[PERSON]' by [PERSON] playing on [PERSON]."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming summary for a user named [PERSON], highlighting top tracks and artists for the week."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed stats.fm music recap graphic for 1–[DATE] shows listening minutes, stream count, top tracks, top artists, and an 'energetic' listening vibe."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] listening report showing top tracks by The Cure among others."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music listening summary for [PERSON] from [DATE], showing top tracks, artists, and an energetic mood score."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-themed [ORGANIZATION]-style graphic displaying music listening statistics for the user '[LOCATION] [ACCOUNT]' from [DATE], including top tracks and artists."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image promotes a live concert event titled 'YE LIVE IN [ORGANIZATION]' scheduled for [DATE]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a Spanish presale page announcing YE live in [LOCATION] on [DATE] at [LOCATION] with a countdown timer."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Announcement of a live event in [LOCATION] scheduled for [DATE]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white promotional poster for a live event by YE in [LOCATION], [LOCATION], with countdown timer and ticket pre-sale details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile webpage announcing the presale for a single concert by artist YE in [LOCATION] on [DATE]."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smartphone screen displays a music player interface featuring the album art for '[PERSON]' by [ORGANIZATION], showing a person in a white garment"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a white outfit with a head covering, alongside a music player displaying the song 'Reliquia' by [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen is showing the song \"Reliquia\" by [ORGANIZATION] with soft blue-toned album art of a person in a white outfit and head covering."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a nun's habit against a blue sky backdrop during playback of '[PERSON]' by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing a song titled '[PERSON]' by [ORGANIZATION], with an album cover of a person in white nun-like attire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player interface displaying the song '[PERSON]' by [ORGANIZATION], featuring album art of a woman in a white habit against a blue background."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a group of individuals engaged in a discussion while viewing a film titled 'The Voice of Hind Rajab'."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a movie app page for the film “The Voice of Hind Rajab,” with a dramatic still of several people gathered around a phone and watchlist/rating details below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Movie poster of '[ORGANIZATION] showing a group in distress."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie poster for '[ORGANIZATION] showing a tense scene with people gathered around a man holding a phone, overlaid with app interface elements."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a movie streaming app displaying the film '[ORGANIZATION] with its synopsis, cast, and ratings."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a movie interface for '[PERSON],' directed by [PERSON], featuring a brief synopsis and user ratings."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile app screen shows the film page for [PERSON] with its poster, director, trailer button, rating, and watchlist status."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A movie poster of '[PERSON]' featuring a man in distress."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie poster for 'Trainspotting' (1996) shows a man in a leather jacket screaming while leaning against a wall, with film details and a watchlist notification below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of the movie page for '[PERSON]' (1996) on a streaming or database app, featuring a character screaming and a user rating of 4.2 stars."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media post announces '[PERSON], The Creator's' [LOCATION]26 tour dates, listing various cities and corresponding dates in March."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a concert tour schedule for [PERSON], The Creator in [LOCATION] for March 2026."
+        },
+        "gpt-5.4": {
+          "summary": "An [ORGANIZATION] story screenshot shares [PERSON], The Creator’s [LOCATION] tour poster with [LOCATION] dates in March."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON], The Creator's [LOCATION] tour dates in '26 are listed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red-and-white poster announces [PERSON], The Creator's [LOCATION]26 tour with dates and venues across multiple countries."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media story screenshot displaying a red and white tour schedule for [PERSON], The Creator's [LOCATION]26 tour."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a camera and appears to be taking a photo."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white portrait shows a bearded man holding a small camera in front of curtains, posed like a mirror or self-portrait photograph."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man taking a photo in black-and-white attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard holds a vintage camera up to his face, looking directly at the viewer in a black-and-white portrait."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white portrait of a bearded man holding a rangefinder camera up to his eye, set against a draped curtain background."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white portrait shows a man in a suit gesturing with both hands, looking directly at the viewer with an expressive face."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in a suit is gesturing with his hands, conveying a sense of emphasis or explanation."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white portrait shows a man in a suit facing the camera with both hands raised in a shrug-like gesture against a soft studio background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit gestures expressively against an abstract background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white portrait of a man in a suit gesturing with both hands while seated."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white portrait of a man in a suit gesturing with both hands raised, displaying an expressive facial expression."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white portrait shows a man with disheveled hair, wearing a suit and white shirt with a ribbon pinned to his lapel"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with a blurred face stands with arms crossed in front of an oval frame."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white portrait shows a man standing with arms crossed, a cigarette in his mouth, in front of an oval doorway or mirror frame."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit stands against an ornate background holding his arms crossed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white portrait of a man with tousled hair, arms crossed, and a cigarette in his mouth, standing before an arched window."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white portrait of a man with tousled hair, arms crossed and a cigarette in his mouth, wearing a dark suit with a ribbon pinned to the lapel."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a ranked list of movie posters with the title '2025 ranked'."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed mobile app screen shows a list titled \"2025 ranked\" with numbered movie posters in a grid and basic engagement stats."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A movie ranking list titled '2025 ranked' featuring various film posters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile screen showing a ranked list of 12 movie posters for the year 2025, curated by a user named [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displays a user's ranked list of upcoming or anticipated movies for the year 2025."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a movie interface for 'Project Hail Mary,' featuring details about the film and its ratings."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a movie/watchlist app page for the sci-fi film \"Project Hail Mary,\" with promotional artwork, rating info, and watchlist status."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Movie poster of 'Project Hail Mary' showing a science teacher in distress."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A movie profile page for 'Project Hail Mary' showing a poster, director info, runtime, and user watchlist status."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a movie streaming app displaying the details page for the film 'Project Hail Mary' featuring actor [PERSON]."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song 'REACHING4U' by pluko, with a prominent 'EDM' label."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen is showing the track \"REACHING4U\" by pluko with grayscale album art featuring large \"EDM\" text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player interface showing an EDM track by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing an EDM track titled 'REACHING4U' by '[PERSON]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile music player displaying the track 'REACHING4U' by pluko with an album cover featuring the text 'EDM'."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dark, obscured figure wearing a hood and mask, creating a mysterious atmosphere."
+        },
+        "gpt-5.4": {
+          "summary": "A dark, stylized close-up shows a masked character with blue eyes and goggles in an Instagram Story screenshot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing tactical gear in dim lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with intense blue eyes is shown wearing a dark tactical mask and goggles against a black background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a character with glowing blue eyes wearing dark, textured goggles and a fabric face mask against a black background."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person walking a dog in a grassy area with a cityscape in the background, accompanied by music playback details."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song \"Bucle\" by marquitos with cover art of a person walking a dog on a grassy hill above a city."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person walking a dog in an urban park during daytime."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks a dog on grass with a white child silhouette beside them, set against a city skyline."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player showing the song 'Bucle' by marquitos, featuring album art of a man walking a dog in an urban park."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person walking a dog in a city park, with a stylized overlay of a child figure."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a music streaming app shows the album page for 'Alma De Cántaro' by marquitos, with cover art of a person walking a dog outdoors and a tracklist below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person walking a dog in an urban park under overcast skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing the album '[ORGANIZATION] by marquitos, featuring an album cover with a man, a dog, and a child silhouette."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile music streaming app displaying the album '[ORGANIZATION] by marquitos, featuring cover art of a man walking a dog with a city skyline in the background."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is making a peace sign while wearing a [LOCATION] cap and a graphic t-shirt."
+        },
+        "gpt-5.4": {
+          "summary": "An Instagram Story screenshot shows a close-up selfie of a person making a peace sign while wearing [ORGANIZATION]-branded cap and shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [ORGANIZATION] cap and shirt making peace signs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing [PERSON] gear makes a peace sign while looking down."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing [ORGANIZATION] branded apparel, including a cap and sweatshirt, poses with a peace sign gesture."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a basketball jersey with a unique hairstyle, accompanied by a music player interface displaying a song titled '[ORGANIZATION]' by 'Dead Calm'."
+        },
+        "gpt-5.4": {
+          "summary": "A phone music-player screen shows the song \"Slump\" by [PERSON] with album art of a basketball player in a white [LOCATION] looking downward."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [ORGANIZATION] jersey listens to music."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen shows a music player with a photo of a basketball player in a [LOCATION], playing a track titled 'Slump' by [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying the song 'Slump' by [PERSON], featuring an album cover of basketball player [PERSON] in a [ORGANIZATION] jersey."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a [ORGANIZATION] jersey with a distinctive hairstyle, while a music player interface displays a song titled 'Chance' by widowdusk."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song “Chance (feat. widowdusk)” by [PERSON] playing, with cover art of a basketball player in a [ORGANIZATION] jersey."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [ORGANIZATION] jersey listens to music."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing a song playing with an album art image of a basketball player in a [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying an image of basketball player [PERSON] in a [ORGANIZATION] with leopard-print hair, playing the track 'Chance' by [PERSON]."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an album cover for 'Son Of Spergy' by [PERSON], featuring a blurred portrait against a red background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows the [ORGANIZATION] page for [PERSON] album “Son Of Spergy,” with album art, playback controls, and a visible track list."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music album cover featuring [PERSON] 'Son Of Spergy'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen showing [PERSON] album 'Son Of Spergy' with tracklist and playback controls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a music streaming app displaying the album 'Son Of Spergy' by [PERSON] with a vintage portrait and tracklist."
+        }
+      }
     }
   }
 }

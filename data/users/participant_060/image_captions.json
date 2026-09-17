@@ -1,67 +1,3769 @@
 {
   "user_id": "participant_060",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "live performances",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; live performances; nature visits; outdoor activities."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a sunrise comparison chart showing different sunrise times for various dates under daylight saving and standard time."
+        },
+        "gpt-5.4": {
+          "summary": "A local TV weather graphic from [ORGANIZATION] compares sunrise times on several dates under daylight saving time versus standard time against a colorful sunrise background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather forecast showing sunrise times in daylight saving time versus standard time."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather graphic comparing sunrise times under daylight saving time and standard time across different dates."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather graphic from [ORGANIZATION] displays a sunrise comparison chart showing specific times for today and key seasonal dates under both Daylight Saving Time and [ORGANIZATION]."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "film and television",
-        "nature observation",
-        "nature visits"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; film and television; nature observation; nature visits."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital graphic from '[ORGANIZATION] displays a sunset time comparison chart,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a sunset comparison chart showing sunset times for different dates under daylight saving and standard time."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic from [ORGANIZATION] compares sunset times on several dates under daylight saving time versus standard time."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather forecast showing sunset times in daylight saving time versus standard time."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather graphic from [LOCATION] showing a sunset comparison across different dates and time zones."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather graphic from [ORGANIZATION] displays a sunset comparison chart showing daylight saving and standard time variations across specific dates."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "nature observation",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; nature observation; nature visits; outdoor activities."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating storm risk levels across various regions."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic shows tomorrow's storm risk across the central [LOCATION], with a large low-pressure system near [LOCATION] and a moderate-risk zone centered around [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing storm risk levels across a region."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing storm risk levels across the [LOCATION] with color-coded zones and labeled cities."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays a high storm risk area in red and orange covering [LOCATION], with a low-pressure system centered near [LOCATION]."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "coffee and tea",
-        "nature visits",
-        "outdoor activities",
-        "travel"
-      ],
-      "summary": "Generalized visual topics: city exploration; coffee and tea; nature visits; outdoor activities; travel."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A weather map displays future wind gust forecasts across various cities, indicated by numbers and arrows, with a color-coded legend for wind speeds."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating future wind gusts across various locations."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic shows an [LOCATION]-region future wind gust forecast map for Friday at 3:00 PM, with many locations labeled around 36–57 mph."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing wind gusts across various locations in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing future wind gust forecasts for multiple cities in the [LOCATION] region."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays predicted future wind gust speeds across the region for Friday at 3:00 PM."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "nature observation",
-        "nature visits",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; nature observation; nature visits; spectator sports."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map showing dewpoint temperatures across various locations."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic shows an Ozarks First dewpoint forecast map for Friday 8:00 PM, with a sharp humidity boundary across [LOCATION], [LOCATION], [LOCATION], and nearby areas."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing dewpoint temperatures across various locations in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing dewpoint temperatures across the [LOCATION] region at 8:00 PM Friday."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather map graphic from [ORGANIZATION] displays [ORGANIZATION] temperatures across the region for Friday at 8:00 PM, showing a sharp contrast between cooler air to the west and warmer, more humid conditions to the east."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "film and television",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; film and television; nature visits; outdoor activities; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating tornado risk levels across various regions."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather map from [LOCATION] shows tomorrow's tornado risk across [LOCATION] and northern [LOCATION], with elevated and moderate threat areas highlighted."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather map showing tornado risk levels in various regions of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing tornado risk levels for the [LOCATION] region tomorrow, with 'Elevated' and 'Moderate' zones highlighted."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays tornado risk levels for the following day, highlighting areas in [LOCATION] and [LOCATION] with elevated and moderate risk zones."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark, cloudy sky hangs over a scene"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dark, stormy scene with emergency lights and people near damaged structures."
+        },
+        "gpt-5.4": {
+          "summary": "Dark, dramatic storm clouds hang over a debris-strewn outdoor scene with emergency vehicle lights and a few silhouetted people."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people gather under a dramatic stormy sky in an open field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Silhouetted figures stand near debris under a dark, stormy sky with emergency lights flashing in the distance."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark, stormy scene depicts emergency vehicles with flashing red lights responding to a large structure that appears to have collapsed or been destroyed."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene marina at dawn with boats docked and a calm water surface reflecting the pastel sky."
+        },
+        "gpt-5.4": {
+          "summary": "A calm marina with many empty docks and pontoon boats sits on a glassy lake under a pastel sunset sky, with a [ORGANIZATION] logo overlaid in the top right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene marina scene during twilight with docked boats under a pink sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene marina at dusk with numerous docks and pontoon boats, featuring a Menards logo in the corner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a marina at dusk featuring numerous empty docks and pontoon boats on calm water under a pink and purple sky."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sunset scene featuring a colorful sky with silhouetted trees and flags in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A wide sunset sky glows orange near the horizon above silhouetted trees, poles, and several flags on tall flagpoles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sunset scene featuring a clear sky transitioning from orange near the horizon to blue above. Flags are displayed in silhouette against the backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunset sky with orange and blue hues, framed by bare tree branches and three flags on poles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunset landscape featuring a gradient sky with wispy clouds, silhouetted tree branches in the upper right, and three flags on poles near the horizon."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a satellite view of a region marked with the label 'DUST'."
+        },
+        "gpt-5.4": {
+          "summary": "A satellite weather map shows a large dust plume outlined in yellow stretching across the central [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Satellite map highlighting a dust storm in central [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A satellite map highlights a large dust storm over a geographic region with blue state borders and a yellow outline."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A satellite weather map displays a large dust storm system over the central [LOCATION], highlighted by a yellow outline and labeled with text."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds up a very dirty cabin air filter"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a hand holding a dirty cabin air filter in the interior of a car, with the dashboard partially disassembled."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a used cabin air filter in front of an open car glovebox area, showing the interior panel removed for maintenance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a dirty air filter in front of an open car glove compartment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a dirty car cabin air filter in front of an open dashboard compartment."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a dirty, rectangular cabin air filter removed from the open glove compartment of a car with brown leather trim."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An outdoor scene featuring string lights hanging from a dark wooden structure against a heavily overcast sky, with apartment buildings visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cloudy sky above a residential area with string lights visible in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "String lights hang beneath a dark wooden patio roof above apartment buildings under a cloudy, overcast sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cloudy sky over a residential area viewed from under an outdoor structure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "String lights hang under a wooden roof against a cloudy sky, with apartment buildings visible below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from under a wooden pergola with string lights, looking out over apartment buildings against a cloudy sky."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling man holds two large pieces of hail while standing on a paved path with a 'Storm Tracker' vehicle parked behind"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holding two large hailstones stands in front of a storm tracker vehicle in a residential area."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands on a wet driveway holding large hailstones in front of a blue \"Storm Tracker\" weather SUV in a wooded residential area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds hailstones in front of a branded storm tracker vehicle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man holds two large hailstones in front of a blue 'Storm Tracker' vehicle outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a black shirt stands on a driveway holding two large hailstones, with a blue 'Storm Tracker' vehicle equipped with weather sensors parked behind him."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding two pieces of hail, one larger and one smaller, with a blurred figure in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a hand holding two smooth [LOCATION] finds, including one small piece with a clear spiral pattern, on sandy ground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds two hailstones of different sizes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds two large, white hailstones with visible internal layers and texture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand holding two large, white hailstones, one displaying distinct concentric rings and the other showing surface cracks."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A long highway"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic sunset view along a highway with trees lining the roadside."
+        },
+        "gpt-5.4": {
+          "summary": "A road stretches ahead through trees under a wide pastel sunset sky, viewed from inside a moving car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset view from a highway under an expansive sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A road stretching toward a sunset horizon, viewed from inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a moving vehicle on a highway during sunset, featuring a gradient sky and silhouetted trees."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A weather map displays a flood watch for numerous counties in the [LOCATION] region, indicating a forecast from Thursday to Saturday."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating a flood watch for several regions."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic shows a flood watch map across many [LOCATION] counties for Thursday through Saturday."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather map showing a flood watch in various counties of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing a flood watch for multiple counties in the [LOCATION] region from Thursday to Saturday."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather map graphic from [ORGANIZATION] displays [LOCATION] in effect for Thursday through Saturday across numerous counties in the region."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A colorful"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating expected rainfall amounts across various locations."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic from [ORGANIZATION] shows projected rain totals through Sunday across the [LOCATION] and nearby areas on a color-coded regional map."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing rainfall amounts through Sunday in various locations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing projected rainfall amounts across the [LOCATION] region through Sunday."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays projected rainfall totals across the region through Sunday at 12:00 PM, with color-coded zones indicating precipitation intensity."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset casts warm colors across the sky above an industrial landscape with buildings and roads."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset over a cityscape with scattered clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A wide sunset view shows the sun low on the horizon above an industrial area, with colorful clouds filling the sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a suburban landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of a sunset over a suburban landscape with industrial buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant sunset with orange and yellow hues over a silhouetted industrial town."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An image featuring a Bible verse about the resurrection, displayed in large, distressed orange and red text against a warm, textured background that resembles a rock or cave opening."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a religious quote emphasizing resurrection, set against a warm, textured background."
+        },
+        "gpt-5.4": {
+          "summary": "A warm-toned religious graphic displays a Bible verse about the resurrection with large stylized text over a textured rock-like background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A religious poster quoting [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graphic with bold text declaring 'He is not here; FOR HE IS RISEN. AS HE SAID' over a textured orange background, citing [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic featuring a religious quote from [PERSON] set against a textured, warm-toned background resembling stone or parchment."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A flooded road with water covering the pavement and warning signs indicating danger."
+        },
+        "gpt-5.4": {
+          "summary": "A rural road is partially submerged by fast-moving floodwater near striped roadside markers and trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Flooding has submerged a road near yellow warning signs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A flooded road with rushing water, downed trees, and warning signs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paved road is completely submerged by fast-moving, muddy floodwater with debris and yellow warning signs visible."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a vibrant sunset over a sprawling town or industrial area, with the bright orange sun low on the horizon and colorful clouds streaking across the sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset over a landscape with buildings and trees in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view shows a bright sunset over a low industrial townscape beneath colorful streaked clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A panoramic view of a sunset over an industrial area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A panoramic sunset over a suburban landscape with buildings and trees silhouetted against a vibrant orange and blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a sunset over an industrial or commercial area with flat terrain and scattered buildings."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide"
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset over a landscape with trees and a winding road, featuring the logo of [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A wide landscape view shows a vivid sunset with dramatic purple and orange clouds over a dark horizon, branded with the Downstream Casino Resort logo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stunning sunset over a landscape featuring Downstream Casino Resort branding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of a vibrant sunset over a wooded landscape with a resort logo in the corner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic aerial view of a vibrant sunset over a forested landscape with a winding road, featuring the Downstream Casino Resort logo in the corner."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two potted plants, one with vibrant red geraniums on a metal stand and another with yellow flowers in a striped pot, are displayed on a wooden balcony floor against a brick wall and metal railing."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two potted plants on a balcony, one with red flowers and the other with yellow flowers."
+        },
+        "gpt-5.4": {
+          "summary": "Two potted flowering plants, one with red blooms and one with yellow-orange blooms, sit on a small balcony beside a brick wall and railing."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two potted plants are displayed against a brick wall; one contains red flowers while another has yellow blooms."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two potted plants with red and yellow flowers sit on a wooden balcony against a brick wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two potted plants, one with red geraniums on a metal stand and another with yellow flowers in a blue ceramic pot, sit on a wooden balcony deck against a brick wall."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A balcony planter box filled with white,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a balcony planter filled with colorful flowers, including white, purple, and red blooms."
+        },
+        "gpt-5.4": {
+          "summary": "A balcony railing is lined with flower boxes of white, purple, and red blooms overlooking an apartment courtyard and parking area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A balcony planter box filled with colorful flowers overlooking a residential street."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful flower arrangement in a long planter on a wooden balcony railing, overlooking a grassy yard and parked cars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a long balcony planter box filled with blooming red, white, and purple flowers overlooking a residential complex."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a vibrant sunset or sunrise over a landscape featuring illuminated roads and buildings, with a resort logo in the upper right corner."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic sunset view over a landscape with a winding road and distant lights."
+        },
+        "gpt-5.4": {
+          "summary": "A wide landscape view shows a colorful sunset sky over a dark horizon with a few lights below and a Downstream Casino Resort logo in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene over a landscape featuring Downstream Casino Resort branding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic sunset over a landscape with illuminated roads and distant lights, branded with 'DOWNSTREAM CASINO RESORT'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic aerial view of a vibrant sunset over a dark, tree-covered landscape with distant lights and a road."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image shows a wide view of a dark, overcast sky with heavy clouds above a line of green trees, suggesting impending rain or a stormy day."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a cloudy sky over a green landscape."
+        },
+        "gpt-5.4": {
+          "summary": "Dark storm clouds and a visible rain shaft hang over a tree-lined landscape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cloudy sky over a forested area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic sky filled with dark, heavy clouds looms over a dense treeline."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A landscape view of a dense green tree line beneath a heavy, overcast sky filled with dark grey storm clouds."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map for the [LOCATION] region, showing temperatures and conditions for various locations."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather map shows today’s [LOCATION] forecast with temperatures from the mid-60s to mid-70s, mixed sun-and-cloud conditions, and [ORGANIZATION] winds at 5–10 mph."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather forecast map showing temperatures across various locations in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather forecast map for the [LOCATION] region showing temperatures and conditions for multiple cities today."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map for the [LOCATION] region displays current temperatures and partly cloudy conditions for various cities."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map for the [LOCATION] region, indicating temperatures and conditions for various locations."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather forecast map for the [LOCATION] shows tomorrow's temperatures in the low to mid 70s with mostly partly cloudy conditions and southeast winds of 10–15 mph."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing temperatures in degrees [PERSON] across various locations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather forecast map for tomorrow showing temperatures and wind conditions across multiple cities in the [LOCATION] region."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map for the [LOCATION] region displays tomorrow's temperatures and partly cloudy conditions across various cities."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a weather forecast map for the [LOCATION] region, showing temperatures and conditions for various cities on Wednesday."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map for Wednesday, showing temperatures and conditions across various locations."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather forecast graphic for Wednesday shows scattered clouds across the [LOCATION] with temperatures mostly in the mid-60s to low-70s and [ORGANIZATION] winds at 10–15 mph."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing temperatures in degrees [PERSON] across various locations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather forecast map for Wednesday showing temperatures and scattered clouds across the [LOCATION] region."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map for Wednesday in the [LOCATION] region displays temperatures and partly cloudy conditions across various cities."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a rain outlook forecast map for various locations with expected rainfall amounts."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic shows a Friday 9:00 AM rain outlook map for the [LOCATION] region with predicted rainfall totals by city."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather map showing rain outlooks in various locations across a region."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing rain forecast amounts for various locations in the [LOCATION] region."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays the projected rain outlook for Friday at 9:00 AM, showing precipitation totals across various cities in [LOCATION] and [LOCATION]."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a weather radar map showing a low-pressure system moving across the central [LOCATION], indicating showers at times"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather radar map showing precipitation patterns across the central [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic shows a satellite/radar map with a low-pressure system and scattered rain moving toward the [LOCATION], labeled \"Showers at Times.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather radar map showing a weather system moving across parts of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather radar map showing precipitation patterns across the central [LOCATION] with a low-pressure system moving eastward."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast graphic from [ORGANIZATION] displays a satellite and radar map showing precipitation patterns across the central [LOCATION] at 3:51 AM."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map showing rain and storm patterns across the [LOCATION] region."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather futurecast radar map shows widespread rain and scattered heavier thunderstorms across the [LOCATION] region for Wednesday at 5:00 PM."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing precipitation patterns in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather radar map showing precipitation forecasts for the [LOCATION] region at 5:00 PM on Wednesday."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather radar map from '[ORGANIZATION] displays a Futurecast for Wednesday at 5:00 PM, showing scattered precipitation across the [LOCATION] region with varying intensity levels."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weekend weather forecast with conditions for Saturday and Sunday."
+        },
+        "gpt-5.4": {
+          "summary": "A local TV weather graphic shows the weekend forecast, with Saturday showers east and 71°F, and Sunday partly cloudy and 74°F over an aerial city backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing showers in eastern areas Saturday night followed by partly cloudy conditions Sunday."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather forecast graphic for Saturday and Sunday, overlaid on an aerial view of a city with a river."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television weather forecast graphic displays the weekend outlook for the [LOCATION], featuring a river and cityscape background."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view of a city square"
+        },
+        "gpt-4o-mini": {
+          "summary": "A foggy urban park scene with trees and buildings in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A foggy downtown plaza with trees and a central sculpture is seen from above, with surrounding buildings and a [ORGANIZATION] truck on the street."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A foggy urban plaza surrounded by trees and buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A foggy urban plaza with trees, buildings, and a visible '[ORGANIZATION]' truck."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a foggy urban plaza with green trees, brick paving, and surrounding buildings."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A weather map displays visibility forecasts for various cities across the [LOCATION] region and surrounding states, indicating current conditions at 6:27 AM."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating visibility levels across various locations."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic from [ORGANIZATION] shows a morning visibility forecast map with fog and low-visibility readings across the [LOCATION] and nearby cities."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather map showing visibility forecasts across various locations in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing visibility measurements across various cities in the [LOCATION] region at 6:27 AM."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather map graphic from '[ORGANIZATION] displays visibility conditions across the [LOCATION] region at 6:27 AM, highlighting areas of zero visibility in central [LOCATION]."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in front of a television screen displaying the logo '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a suit stands in a TV studio beside a screen displaying [ORGANIZATION] logo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A news anchor stands in front of a 'Ozarks First' backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit and glasses stands smiling in front of a TV screen displaying '[ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit and glasses stands smiling in a news studio next to a screen displaying [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a large, irregularly shaped piece of hail against a blurred background of green grass and dirt."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a large piece of hail against a background of grass and gravel."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a large irregular white hailstone outdoors over a grassy area in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Hand holding a large hailstone in an outdoor grassy area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a large, irregularly shaped piece of hail against a blurred background of grass and ground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand holding a large, irregularly shaped piece of hail against a blurred background of green grass and pavement."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person's hand holds several large pieces of hail against a blurred green grassy background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding three pieces of hail against a backdrop of green grass."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding three large white hailstones outdoors over wet green grass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds three hailstones against a backdrop of green grass."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds three large, round hailstones against a blurred green grass background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hand holding three large, irregular hailstones against a blurred background of green grass."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic landscape view features a large expanse of dark, stormy clouds over green rolling hills and distant trees, with a glimpse of a building on the right."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dramatic sky filled with dark clouds looms over a green landscape with trees and a distant building."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic storm cloud formation hangs over a green rural hillside with trees and a small house in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a grassy hillside under an expansive sky filled with dramatic clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic sky with dark storm clouds looms over a green rolling hillside with trees and a distant house."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rural landscape featuring a grassy hill and dense green trees under a dramatic sky filled with heavy, dark storm clouds."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant red potted geranium plant"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features vibrant red geranium flowers in a pot on a balcony with a brick wall in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit potted plant with bright red geranium-like flowers sits on a balcony or porch beside a brick wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant red geranium plant in a hanging pot against brick wall backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A potted plant with bright red flowers sits on a balcony railing beside a brick wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A potted plant with vibrant red geraniums sits on a black metal stand on a wooden balcony next to a brick wall."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a potted"
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant cluster of yellow and orange flowers in a pot, set against a sunny balcony background."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit potted flowering plant with bright orange and yellow blooms sits on a balcony with a parking lot blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Brightly colored flowers in a pot placed outdoors near railings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A potted plant with orange and yellow flowers blooms on a balcony overlooking a street."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a potted Lantana plant with vibrant yellow, orange, and pink flowers sitting on a balcony railing."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant display of purple flowers in a planter, with a blurred background showing a parking lot."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit close-up shows a planter filled with bright purple flowers and a few white blooms outdoors above a parking lot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant display of purple flowers in a hanging basket under bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of vibrant purple flowers in a planter, with a white flower and blurred parking lot background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a hanging planter filled with vibrant purple verbena flowers and a single white petunia, set against an out-of-focus parking lot background."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime aerial view of a city illuminated by streetlights and a dramatic lightning strike in the dark sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime cityscape illuminated by numerous lights, with a lightning strike visible in the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime city skyline is lit by bright lightning flashing through clouds above the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime cityscape illuminated by lightning in a dramatic sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime cityscape illuminated by streetlights with a bright lightning bolt illuminating the sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A nighttime cityscape illuminated by streetlights and buildings, featuring a prominent lightning strike in the upper left sky."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime aerial view captures a city illuminated by numerous lights, with a prominent lightning bolt striking across the dark, cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime cityscape illuminated by lights with a lightning strike visible in the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime cityscape is lit by a lightning strike beneath dark storm clouds above scattered building lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime cityscape illuminated by lightning strikes in a dramatic sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime cityscape illuminated by lightning striking above the urban area."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A nighttime view of a city skyline illuminated by streetlights and buildings, with a prominent lightning bolt striking in the stormy sky above."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime aerial view captures a city illuminated by numerous lights, with a prominent lightning strike visible in the dark, cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A nighttime cityscape illuminated by numerous lights with a lightning strike in the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime cityscape is lit by bright urban lights while a lightning bolt flashes across a dark stormy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime cityscape illuminated by lightning strikes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime cityscape illuminated by streetlights and a bright lightning strike in the sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A nighttime view of a city skyline illuminated by streetlights and buildings, with a prominent lightning bolt striking in the dark sky above."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a suit and an American flag"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a suit with an American flag tie poses in front of a green screen and a television displaying a cityscape."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a suit and American flag tie takes a selfie in front of a green screen in a studio or weather/news set."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man in a suit wearing an American flag tie stands before green screen equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit and American flag tie smiles for a selfie in front of a green screen, with a TV displaying a news graphic in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit and American flag tie smiles for a selfie in front of a green screen, with a television monitor visible in the background studio setting."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An outdoor scene features a hazy sky with the sun visible, overlooking a curved"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hazy landscape featuring a sun and a faint moon in the sky, with a road and greenery in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A hazy sky with the sun over a quiet roadside scene, with trees, utility poles, and a building in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hazy sky over a road lined with trees during what appears to be sunrise."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hazy sky with a bright sun and a small white dot above it, viewed from a roadside path near trees and a building."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hazy landscape featuring a pale sun and moon in the sky above a curving road, sidewalk, and distant industrial building."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person in an office setting pointing at a TV screen displaying a women's college softball game between [LOCATION] and [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person at a multi-monitor desk points up at a TV showing an [ORGANIZATION] broadcast of [ORGANIZATION] softball game between [LOCATION] and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person points upwards while watching a softball game being broadcasted."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles and points upward in front of a TV screen showing a women's college baseball game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing glasses smiles and points upward at a large monitor displaying [ORGANIZATION] softball game between [LOCATION] and [LOCATION]."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather map indicating storm activity and smoke from wildfires across [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A weather map graphic of the central and eastern [LOCATION] showing a storm system, wildfire areas, and smoke plumes with large arrows and labels."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Satellite map showing smoke from wildfires spreading across parts of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map shows wildfires in the north and smoke drifting south across the central [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather map graphic illustrating the movement of smoke from wildfires in the northern [LOCATION] and [LOCATION] southward across the [LOCATION] and [LOCATION], driven by a storm system."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A meme image shows a soldier in a jungle setting, looking up in heavy rain while holding a rifle, with text overlay describing a prolonged rain event."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a soldier in a rain-soaked environment, holding a rifle and looking upwards, with a humorous caption about continuous rain."
+        },
+        "gpt-5.4": {
+          "summary": "A meme image shows a person in military gear holding a rifle in heavy rain among tall swamp grass, with large caption text about rain lasting four months."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in camouflage holding a rifle humorously captions his struggle through relentless rain."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soldier in muddy gear holds a rifle while looking upward, with overlaid text describing relentless rain."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A soldier in a muddy field looks upward with an expression of exasperation while holding a rifle, overlaid with text describing a four-month rainstorm."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a vibrant sunset over a sprawling industrial or suburban landscape with numerous buildings and green spaces."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sunset over a landscape featuring industrial buildings and [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view shows the sun low on the horizon over an industrial and semi-rural area at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over an industrial area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of a sunset over an industrial landscape with buildings and roads."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a sunset over an industrial park with warehouses and roads silhouetted against a gradient sky."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two men are engaged in conversation in what appears to be a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A formal interaction between two men in a library setting, with a woman seated in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a suit and tie talks with a man in a striped sweater in a bright indoor room with tables, chairs, and another seated person in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men are engaged in conversation inside a library-like space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men are engaged in conversation indoors, with a third person seated in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An older man in a suit and a younger man in casual wear are shaking hands indoors, with a woman seated at a table in the background."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals in formal attire pose in a television studio with weather maps displayed in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Three men in suits pose in a TV weather studio with cameras and lights in the foreground and severe storm radar maps on screens behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three men in suits stand together behind a weather map display during what appears to be a news broadcast."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three men in suits stand smiling in a news studio with weather maps displayed behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three men in business suits pose for a photo inside a television news studio with weather radar maps displayed on screens behind them."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in a sweatshirt is pushing a wheelbarrow with two children in a pumpkin patch."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a white [ORGANIZATION] sweatshirt stands in a pumpkin patch with two small children sitting in a wheelbarrow."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man pushes two young children in a wheelbarrow through pumpkin patches."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man pushes a wheelbarrow with two young children through a pumpkin patch on a cloudy day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing a [ORGANIZATION] sweatshirt pushes two young children in a wheelbarrow through a pumpkin patch."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are seated in a stadium filled with fans, likely at a sports event."
+        },
+        "gpt-5.4": {
+          "summary": "Two people take a selfie from the stands at a crowded nighttime stadium event, with many spectators wearing purple."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men in a stadium wearing purple attire are smiling while sitting among other spectators."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men smile for a selfie at a crowded nighttime sports stadium, surrounded by spectators in purple attire."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men pose for a selfie in stadium bleachers at night, with a large crowd and scoreboard visible in the background."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a serene marina at dusk or dawn, featuring numerous boat docks, a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene lakeside view at sunset, featuring docks and boats reflected in the calm water."
+        },
+        "gpt-5.4": {
+          "summary": "A calm lakeside [LOCATION] with docks and boats sits under a pink-and-purple sunset sky, with a Menards logo overlay in the top-right corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene over a marina filled with docks and boats."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene marina at dusk with pink and purple skies reflected on calm water, surrounded by docks and boats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a marina at dusk with pink and purple skies reflecting on calm water, featuring docks, boats, and a Menards logo in the corner."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man wearing a hat,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a pressure washer while standing on a cart in a parking lot with a building in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in work gloves and a sun hat poses with a pressure washer beside a utility cart in a parking lot near a small shed on a bright day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a hat uses a pressure washer outdoors near a portable building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a hat and work gloves holds a pressure washer nozzle while standing beside a wet plastic cart in a parking lot."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing a hat and work gloves poses with a pressure washer in a paved parking lot next to a utility cart, while another person works near a blue [PERSON] in the background."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Five men wearing matching gray t-shirts with a logo are standing together and smiling in what appears to be a storage or"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five men in matching gray shirts pose together in an indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "Five people in matching gray '[ORGANIZATION] T-shirts pose together indoors in a warehouse or back-room setting with large cooler doors behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Five men in matching '[ORGANIZATION] t-shirts pose together inside a warehouse-like facility."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five men in matching gray shirts pose for a photo inside an industrial-style room with safety signs on the doors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Five men wearing matching grey t-shirts with [ORGANIZATION] logo pose for a group photo inside an industrial facility near large metal doors."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three individuals are cleaning the interior of a truck while one is handling a trash can."
+        },
+        "gpt-5.4": {
+          "summary": "Three people are cleaning out the back of a box truck with brooms while another person holds a large trash [PERSON] in a sunny parking lot beside a brick building."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three individuals are cleaning a moving truck bed outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people clean the interior of a trailer with brooms while one person handles a large trash [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three individuals are cleaning the interior of a large open truck trailer, with two sweeping the wooden floor and one managing a trash [PERSON] at the rear ramp."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is using a ladder to install or adjust lighting fixtures in a commercial space."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands on a ladder in a warehouse-like industrial space, working on wiring for a long overhead light fixture near exposed ductwork and beams."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man stands on a ladder in an industrial space fixing overhead lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands on a ladder in a warehouse, installing or repairing a fluorescent light fixture on the ceiling."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man stands on a stepladder in a warehouse or commercial kitchen, installing a long fluorescent light fixture near exposed ceiling beams and ductwork."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small fish, likely a sunfish or bluegill, is shown caught on a fishing lure, held above a body of water with"
+        },
+        "gpt-4o-mini": {
+          "summary": "A fish is being held up by a fishing lure above a calm body of water."
+        },
+        "gpt-5.4": {
+          "summary": "A small sunfish is hooked on a white spinnerbait and held above a calm pond with grassy banks and trees in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small fish caught in a pond hanging from fishing line."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A caught fish hangs from a fishing lure above a calm body of water with trees in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A freshly caught sunfish hangs from a fishing lure against the backdrop of a calm pond."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a suit and tie smiles and points towards a large screen displaying \"OZARKS FIRST YBREAK\" in what appears to be a TV"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a suit points to a screen displaying the text 'OZARKS FIRST DAYBREAK'."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person in a suit takes a studio selfie and points at an orange striped tie in front of an \"OZARKS FIRST DAYBREAK\" news backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit points towards 'Ozarks First Daybreak' signage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit and glasses smiles while pointing at his tie in front of a blue TV studio backdrop with 'OZARKS FIRST' text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man in a blue suit and glasses poses for a selfie while pointing at a large screen displaying [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two bald eagles are perched on the bare branches of a tree against a vibrant blue sky, with some green foliage visible on the right."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two eagles perched on bare branches against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Two bald eagles are perched on the branches of a tall, partly leafless tree against a vivid blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two bald eagles perched in a tree against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two bald eagles perch on bare and leafy tree branches against a vivid blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two bald eagles are perched on the branches of a large tree against a vivid blue sky."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot captures a vibrant sunset or sunrise sky with hues of orange, red, and blue over a dark, silhouetted landscape, featuring the \""
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset view over a landscape with a casino logo in the corner."
+        },
+        "gpt-5.4": {
+          "summary": "A wide sunset landscape shows vivid orange and blue sky gradients over a dark horizon with scattered lights, with a Downstream Casino Resort logo in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stunning sunset over a cityscape viewed from an elevated position."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant sunset over a distant landscape with the 'DOWNSTREAM CASINO RESORT' logo in the top right."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic sunset view over a dark landscape with the logo for Downstream Casino Resort in the top right corner."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic aerial view of a marina at dusk or dawn"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene view of a [LOCATION] at sunset, featuring boats and docks reflected in calm water."
+        },
+        "gpt-5.4": {
+          "summary": "A calm lakeside [LOCATION] with docks and boats is shown under a pink-and-blue sky, with a Menards logo in the top-right corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene marina scene during twilight hours."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tranquil marina at dusk with docked boats, illuminated piers, and a colorful sky reflected in calm water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a marina at dusk with calm water, numerous docks, and boats under a purple and pink sky."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark bird is perched on a rustic wooden dock over"
+        },
+        "gpt-4o-mini": {
+          "summary": "A bird is perched on a wooden structure near a calm body of water surrounded by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark bird is perched on a small wooden dock beside a calm pond, with grassy banks, trees, and a white boat nearby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bird perches on a weathered dock by calm waters surrounded by lush greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark bird perches on a weathered wooden dock beside calm water, with lush greenery and a small stand holding bowls in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark bird stands on a weathered wooden dock extending into a green pond, with lush vegetation and an overturned boat in the background."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bald eagle stands on a grassy lawn next to a dark body of water under natural lighting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bald eagle is standing on a grassy area near a body of water."
+        },
+        "gpt-5.4": {
+          "summary": "A bald eagle stands on a grassy bank beside a pond in a calm outdoor scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bald eagle stands in a grassy area near water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bald eagle stands alone on a grassy field near a body of water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald eagle stands on a grassy lawn near the edge of a body of water."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A flooded road is partially submerged and blocked by a large pile of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a pile of debris blocking a flooded road with a warning sign nearby."
+        },
+        "gpt-5.4": {
+          "summary": "A small rural road by a wooded creek is partially flooded, with driftwood and debris piled against roadside markers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A flooded road blocked by fallen trees in a wooded area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A fallen tree and debris block a flooded road beside a yellow-and-black warning sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flooded road is blocked by a large accumulation of fallen tree branches and debris, with a yellow and black striped warning sign partially submerged."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a graduated cylinder with liquid, marked with measurement lines from 1 to 6."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows an outdoor rain gauge or measuring tube with water filled to around the 5-inch mark in a white holder."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a measuring device showing inches from zero."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a weather rain gauge showing water level at the 4-mark."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a rain gauge with water levels reaching just above the 4-inch mark, set against a blurred green background."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands by a [LOCATION], wearing a blue shirt and a cap, with lush greenery in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in sunglasses takes a selfie on a bridge above a shallow creek surrounded by dense green trees on a sunny day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man wearing a cap and sunglasses stands by a railing overlooking a river surrounded by lush greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blue shirt and cap smiles while standing on a bridge overlooking a flowing stream surrounded by green trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling man wearing sunglasses and a cap stands on a bridge railing overlooking a shallow, rocky stream surrounded by dense green trees."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A clear, shallow stream with a rocky bed flows through a lush green forest on a sunny day, with sunlight dappling the water."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene stream flowing through a lush, green forest."
+        },
+        "gpt-5.4": {
+          "summary": "A clear shallow [LOCATION] flows through a densely wooded area, with sunlight reflecting off the rocky water and gravel bank."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene stream flows through a lush forested area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A clear, shallow stream flows over rocks in a sun-dappled forest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A clear, shallow stream flows over a rocky bed through a dense, sunlit forest."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide-angle view of a bright blue sky filled with various white clouds, stretching over a green field with distant trees and what appear to be hay bales."
+        },
+        "gpt-4o-mini": {
+          "summary": "A wide view of a blue sky filled with fluffy clouds over a grassy field."
+        },
+        "gpt-5.4": {
+          "summary": "A wide rural landscape shows a green field under a dramatic blue sky filled with large white clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a vast sky filled with fluffy clouds over an open field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide landscape photo showing a bright blue sky filled with fluffy white clouds over a green field with distant trees and structures."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide rural landscape featuring a green field with cylindrical hay bales under a vast blue sky filled with scattered white clouds."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot of a green field dotted with numerous round hay bales under a bright blue sky with scattered white clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a field with several round hay bales under a clear blue sky with scattered clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A sunny rural field with round hay bales scattered across cut grass under a bright blue sky with fluffy clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene rural landscape featuring hay bales under a bright blue sky dotted with fluffy clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide green field with scattered hay bales under a bright blue sky with fluffy white clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rural landscape featuring several large round hay bales scattered across a green field under a bright blue sky with white clouds."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather map indicating temperatures during a historic heat wave on [DATE], across various locations in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic titled \"Historic Heat Wave\" shows a [LOCATION]/Ozarks map with extreme temperatures from [DATE] for cities including [LOCATION], [LOCATION], [LOCATION], [LOCATION], [LOCATION], and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather map showing temperatures during a historic heat wave in July 1954."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing historic heat wave temperatures across the [LOCATION] region on [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather map graphic from [ORGANIZATION] displays a historic heat wave on [DATE], showing temperatures reaching up to 118 degrees in [LOCATION]."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A winding road with double yellow lines leads through a green, rural landscape featuring a house in the distance under a dramatic cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A winding road leads towards a house surrounded by [ORGANIZATION] and a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A curving rural road leads past grassy fields toward a house under dramatic large clouds and a dark blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic rural road curves through a lush green landscape under dramatic clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A winding rural road curves through green fields under a dramatic cloudy sky, with a house visible in the distance."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paved country road curves through a green field towards a house and tree line under a dramatic sky filled with large cumulus clouds."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene landscape view of a sunset sky with soft orange and blue hues over a dark forest"
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic sunset view over a forested area with a clear sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view of a pastel sunset sky with wispy clouds above a dark tree line, grassy field, and wooden fence."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sunset over a forested landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene sunset over a tree-lined horizon with soft orange and blue skies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a sunset over a dense forest with a wooden fence and grassy field in the foreground."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark mug and a brown book rest on"
+        },
+        "gpt-4o-mini": {
+          "summary": "A coffee cup sits on a table with a scenic view of mountains and trees in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A black mug sits on a patio table beside a notebook, overlooking pine trees and distant mountains under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene outdoor scene featuring a coffee mug and notebook set against a backdrop of forested mountains under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black mug and a book rest on a wooden table on a balcony overlooking a forested mountain range under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black mug and a brown leather-bound book rest on an outdoor wooden table, overlooking a scenic mountain landscape with evergreen trees under a clear blue sky."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An outdoor patio table and chairs are covered in a thick"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a table covered with hailstones, indicating recent hail precipitation."
+        },
+        "gpt-5.4": {
+          "summary": "A patio table and nearby chair are covered in a thick layer of hail or sleet during a storm on an outdoor balcony."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a hail-covered outdoor table under overcast skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A patio table is covered in a layer of hailstones during a storm."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a dark outdoor patio table covered in a thick layer of hailstones during an active storm."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset with a red sun dipping below the horizon illuminates the sky over a dark landscape, featuring the 'Downstream Casino Resort' logo in the"
+        },
+        "gpt-4o-mini": {
+          "summary": "A sunset view with vibrant colors over a landscape, featuring the logo of [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A wide scenic sunset or sunrise shows the sun on the horizon beneath a colorful cloud-filled sky, with a Downstream Casino Resort logo in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene over a landscape featuring Downstream Casino Resort branding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunset over a landscape with the 'DOWNSTREAM CASINO RESORT' logo in the top right."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic sunset over a dark landscape with a road and distant structures, featuring the logo for Downstream Casino Resort in the top right corner."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image captures a dramatic sky"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dramatic sky with colorful clouds illuminated by sunlight, alongside a silhouetted tree."
+        },
+        "gpt-5.4": {
+          "summary": "Dramatic sunlit clouds with a small rainbow-like iridescent patch appear above the silhouette of a tree."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic sky scene featuring a colorful iridescent cloud formation over silhouetted trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic sky scene featuring a large cloud with a colorful halo effect, framed by the silhouette of a tree."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dramatic sky scene featuring a large cumulus cloud with a vivid iridescent rainbow sheen and sunbeams, silhouetted by tree branches in the foreground."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast highlighting the last day with a temperature of 100 degrees or hotter, noting it has been 726 days since then."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic for [LOCATION] says it has been 726 days since the last 100-degree day, with the previous one on [DATE]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing days since last temperature of 100°F in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather graphic from [ORGANIZATION] reports that it has been 726 days since the last 100° or hotter day in [LOCATION], occurring on [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather graphic from [ORGANIZATION] in [LOCATION] displays that it has been 726 days since the last 100-degree day, which occurred on [DATE]."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map for the [LOCATION] region, showing temperatures and conditions for various cities."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather forecast map for the [LOCATION] shows hot upper-90s temperatures across towns like [LOCATION], [LOCATION], [LOCATION], and [ORGANIZATION] with mostly partly cloudy icons and [ORGANIZATION] winds at 5–10 mph."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather forecast map showing temperatures in degrees [PERSON] across various locations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Weather map showing today's temperatures across the [LOCATION] region with locations and degrees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map for the [LOCATION] region displays high temperatures in the mid-to-upper 90s across various cities."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather app showing a heat advisory for [LOCATION], [LOCATION], with a current temperature of 100°F."
+        },
+        "gpt-5.4": {
+          "summary": "A weather app screenshot for [LOCATION], [LOCATION] shows 100°F conditions, a heat advisory until Monday 8pm, and a local radar map."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather app displaying a heat advisory in [LOCATION], [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather app screen showing a heat advisory and 100°F temperature for [LOCATION], [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile weather app screenshot for [LOCATION], [LOCATION] showing a temperature of 100 degrees with [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A weather map displays a temperature outlook for [LOCATION], showing areas predicted to be cool, warm, or near average from [DATE]"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a temperature outlook map for [LOCATION] from [DATE] to [DATE], indicating cool and warm regions."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic shows a [LOCATION] temperature outlook for 8/26–9/01, with cooler-than-normal conditions across much of the [LOCATION] and [LOCATION] and warmer-than-normal conditions in the [LOCATION] and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing temperature outlook from [DATE] through [DATE]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing temperature outlooks across the [LOCATION] from [DATE] to [DATE], with 'COOL' in the [LOCATION] and 'WARM' in the [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather map graphic from [ORGANIZATION] displays a temperature outlook for [LOCATION] covering the dates [DATE] to [DATE], highlighting cool conditions in the [LOCATION] and warm conditions in the [LOCATION]."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital weather map of [LOCATION] displays temperature forecasts and weather patterns, including a 'heat dome' and areas marked 'cool' and '80"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating temperature changes and weather patterns across [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather forecast map shows a heat dome shifting southwest with cooler air and a front moving across the central and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing a heat dome breaking over parts of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map shows a heat dome breaking over the [LOCATION], with cooler temperatures moving into the [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from '[ORGANIZATION] displays a heat dome moving southwest across [LOCATION], with high temperatures in the west and cooler air pushing south."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a vibrant marina filled with numerous high-performance"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a marina filled with various boats at sunset, with calm water reflecting the colors of the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wide [LOCATION] scene at dusk shows many docked speedboats and yachts on calm water, with a Menards logo in the upper right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Boats docked in a marina during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A marina at dusk filled with numerous boats docked at piers, with a helicopter hovering above and a Menards logo in the corner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a marina at dusk featuring numerous speedboats docked along piers with green accent lighting and a helicopter hovering nearby."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene landscape photo captures a sunset or sunrise over a calm body of water, with a dark treeline silhouetted against the colorful sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset over a calm lake, reflecting the colorful sky."
+        },
+        "gpt-5.4": {
+          "summary": "A calm lake reflects a colorful sunset sky with silhouetted tree-lined shores in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a calm lake reflecting colorful hues in the sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calm lake reflects a colorful sunset sky with silhouetted trees along the horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A serene landscape photograph capturing a sunset or sunrise over a calm lake with silhouetted tree-lined shores and colorful sky reflections on the water."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather report indicating a temperature of 47° at [LOCATION] [LOCATION], noted as the coldest morning since [DATE]."
+        },
+        "gpt-5.4": {
+          "summary": "A weather graphic over a misty lakeside sunrise highlights [LOCATION] of the [LOCATION] at 47° as the coldest morning since [DATE], with several [LOCATION] city temperatures listed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing [LOCATION] the [LOCATION] temperature as coldest morning since [DATE]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather graphic showing [LOCATION] the [LOCATION] at 47°F, the coldest morning since [DATE], with temperatures for nearby cities."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather graphic displays a temperature of 47 degrees for [LOCATION] [LOCATION], noting it as the coldest morning since [DATE] against a backdrop of a misty lake at dawn."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather map showing rainfall totals across various locations in the [LOCATION] region over the past 24 hours."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic maps past-24-hour rainfall totals across the [LOCATION] region, with the heaviest amounts near [LOCATION] and lighter totals across [LOCATION] and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather map showing rainfall totals in inches across various locations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing rainfall totals over the past 24 hours across the [LOCATION] region, with color-coded precipitation levels and labeled cities."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather map graphic from [ORGANIZATION] displays rainfall totals over the past 24 hours across [LOCATION] and [LOCATION], highlighting heavy precipitation in the southwest."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A weather map"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a drought monitor map indicating varying drought conditions across several regions in the [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic from [ORGANIZATION] shows an [DATE] drought monitor map of the [LOCATION] with dry to severe conditions highlighted across [LOCATION] and northern [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A drought monitor map showing various regions in [LOCATION] categorized by severity levels."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing drought conditions across the [LOCATION] region as of [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather map graphic from [ORGANIZATION] dated [DATE], displaying a drought monitor for the region with color-coded severity levels."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a coffee mug with a 'Boomer Sooner' design next to a decorative stone with the 'OU' logo."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] mug with [ORGANIZATION]-themed graphics sits on a countertop beside a concrete block painted with a large red OU logo in a living room setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] mug featuring [ORGANIZATION] imagery sits next to a stone coaster displaying 'OU'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] mug with [LOCATION]-themed artwork sits next to a concrete block with a red 'OU' logo on a kitchen counter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white [ORGANIZATION] mug featuring [ORGANIZATION] graphics sits on a countertop next to a concrete block painted with the crimson 'OU' logo."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic sunset view with colorful clouds over a landscape, featuring a road and trees."
+        },
+        "gpt-5.4": {
+          "summary": "A wide landscape view shows a dramatic sunset with orange light beneath dark clouds, with the Downstream Casino Resort logo in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sunset scene over a landscape under the branding of Downstream Casino Resort."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic sunset over a landscape with clouds illuminated in orange and purple hues, featuring the 'Downstream Casino Resort' logo in the upper right."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic sunset over a dark, tree-lined landscape with a visible road and distant structures. A logo for 'Downstream Casino Resort' is overlaid in the top right corner."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image captures a vibrant sunset or sunrise sky with a dramatic display of altocumulus clouds, illuminated with orange and pink hues against a deep blue background, with a faint silhouette of trees and a pole at the bottom."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset sky filled with colorful clouds transitioning from blue to orange."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic sunset sky fills the image with orange light near the horizon and dense textured clouds overhead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant sunset sky filled with dramatic clouds transitioning from orange near the horizon to deep blue above."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic sky at sunset with clouds illuminated in orange and purple against a deep blue background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant sunset sky filled with textured clouds illuminated in orange and pink hues against a deep blue background, with silhouetted trees at the bottom."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset with orange and blue clouds illuminates a sports field featuring a red running track, a grassy area, and a parking lot filled with cars."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset over a track field with parked cars in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic sunset sky with dark textured clouds hangs over an outdoor running track and grassy field."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tranquil sunset scene over a sports field featuring track lanes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant sunset over a red running track with parked cars in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant sunset with orange and purple clouds illuminates an empty outdoor running track and grassy field."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset with a silhouetted pole and dark foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic red-orange sunset with the sun low behind layered clouds and dark silhouettes of trees and a pole in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene featuring a large sun partially obscured by clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant red sunset with a silhouetted utility pole and distant horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant sunset with a large orange sun setting behind silhouetted trees and a tall pole against a cloudy sky."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset with orange and yellow hues partially obscured by clouds and a silhouette of a pole in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic orange-red sunset with layered clouds is seen above dark silhouettes and a utility pole with wires."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant sunset scene featuring a glowing sun partially obscured by clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic sunset with fiery orange and yellow hues, silhouetted clouds, and a utility pole in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant sunset with a bright yellow and orange sky, featuring the sun partially obscured by clouds above a dark silhouette of trees and a utility pole."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot from a road captures a dramatic, dark, and cloudy sky looming"
+        },
+        "gpt-4o-mini": {
+          "summary": "A dramatic sky filled with dark clouds over a green landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic layered storm cloud formation hangs over flat green farmland beside a roadside, with a tall communications tower in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wide shot of a rural landscape under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A roadside view of a dramatic, cloudy sky over a green field with distant storm clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a moving vehicle captures a dramatic, dark storm cloud formation looming over flat green fields and a highway."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic, dark shelf cloud looms over a green rural landscape with fields and trees, viewed from"
+        },
+        "gpt-4o-mini": {
+          "summary": "A dramatic view of dark, rolling storm clouds over a green landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic shelf cloud from a severe storm stretches over open fields beside a highway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic storm cloud looms over a rural landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic, low-hanging storm cloud formation looms over a rural landscape viewed from a roadside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A massive, dark supercell storm cloud dominates the horizon over a flat rural landscape with green fields and trees, viewed from a roadside."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot of a highway stretching into the distance under a dramatic, dark, and stormy sky, with green fields and trees lining the"
+        },
+        "gpt-4o-mini": {
+          "summary": "A dramatic sky filled with dark, ominous clouds over a highway."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic storm cloud formation towers over a highway with a semi-truck, grassy shoulder, and trees in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic storm cloud formation looms over a highway under an expansive sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A highway stretches beneath dramatic, swirling storm clouds with a truck visible on the right."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dramatic view of a massive storm front approaching over a highway with vehicles and green fields."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A highway scene features several trucks driving under a vast, dark, and ominous storm cloud formation."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dramatic sky filled with dark clouds looms over a highway with trucks traveling."
+        },
+        "gpt-5.4": {
+          "summary": "A highway with several trucks driving under dramatic dark storm clouds over a tree-lined landscape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A highway under a dramatic sky filled with dark clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A highway scene with trucks under a dramatic, stormy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a highway showing semi-trucks driving beneath a massive, dark storm cloud formation."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a cityscape and green fields under a dark, stormy sky with multiple lightning strikes illuminating the clouds and distant horizon."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dramatic sky filled with dark clouds and visible lightning strikes over a city landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A wide city-edge landscape under dark storm clouds shows multiple visible lightning strikes over the distant horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic storm scene over a cityscape featuring lightning strikes in the distance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A storm with lightning flashes over a cityscape and open fields from an elevated viewpoint."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a city skyline and green fields under dark storm clouds with visible lightning strikes in the distance."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a distant city and green"
+        },
+        "gpt-4o-mini": {
+          "summary": "A dramatic view of a stormy sky with lightning striking in the distance over a city landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A distant cityscape and open fields sit under dark storm clouds, with visible lightning striking on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wide view of a cityscape under an overcast sky with dark clouds gathering."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A distant lightning strike illuminates a stormy sky over a cityscape and open fields."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a city skyline and sports fields under dark storm clouds with visible lightning strikes in the distance."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic aerial view captures a lightning strike illuminating a distant city skyline under a dark, stormy sky, with green fields and urban development in the"
+        },
+        "gpt-4o-mini": {
+          "summary": "A dramatic view of a city skyline under dark storm clouds with lightning striking in the distance."
+        },
+        "gpt-5.4": {
+          "summary": "A distant lightning strike appears beneath dark storm clouds over a cityscape with open fields and sports grounds in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic lightning strike over a cityscape under an ominous sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A lightning strike illuminates a stormy sky over a cityscape with fields and buildings below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A distant lightning strike illuminates a dark, stormy sky over a sprawling cityscape and green fields."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An outdoor shot looking up at a canopy of trees with a mix of brown, dried leaves and vibrant green foliage against a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view of trees with dry leaves against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A view looking up at trees with many brown, dried leaves mixed with green foliage under a clear bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a forest canopy under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Trees with brown, dry leaves contrast against a bright blue sky and patches of green foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle view of a forest canopy featuring trees with brown, dried leaves set against a clear blue sky."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a large hurricane swirling over the ocean, captured from space."
+        },
+        "gpt-5.4": {
+          "summary": "A satellite view shows a massive swirling hurricane over the ocean with [LOCATION]’s curved horizon and black space above."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A satellite view of a large hurricane over [LOCATION]'s surface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A satellite view of a massive hurricane over [LOCATION]'s curved horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A satellite view of a massive hurricane with a distinct eye over the deep blue ocean, captured from space."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A satellite image captures the swirling clouds and dark, clear eye of a powerful hurricane or typhoon."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a close-up view of a swirling storm system, likely a hurricane, showcasing a well-defined eye surrounded by dense clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic close-up satellite view shows the eye of a powerful cyclone or hurricane surrounded by dense spiral clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A satellite view of a hurricane's eye surrounded by swirling clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of a hurricane's eye, showing swirling clouds and a dark central eye over ocean."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A satellite view of a massive hurricane with a distinct eye and swirling cloud patterns over the ocean."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a body of water densely covered with green lily pads or [ORGANIZATION] leaves, backed by"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene landscape featuring a body of water covered with lily pads, surrounded by lush greenery and a blue sky with clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A wide nature landscape shows a blue sky with sweeping clouds above a tree-lined wetland filled with broad green aquatic leaves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a field of green plants under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A low-angle view of a pond covered in lily pads under a partly cloudy sky, framed by tree branches."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape view of a pond covered in lily pads, framed by trees and set against a backdrop of a forested hill and cloudy blue sky."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a wooden bridge extending over a calm body of water, surrounded by lush greenery."
+        },
+        "gpt-5.4": {
+          "summary": "A wooden boardwalk extends over calm green water beside a densely wooded hillside under a blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene wooden bridge spans a calm pond surrounded by lush [ORGANIZATION] under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden boardwalk extends over calm water toward a forested hillside under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wooden boardwalk bridge extends over calm green water towards a dense forest under a blue sky."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene natural landscape"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene view of a calm river surrounded by lush greenery and a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A calm, tree-lined [LOCATION] or pond reflects a blue sky with light clouds in a lush natural setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a calm pond surrounded by lush [ORGANIZATION] under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calm river surrounded by dense trees under a partly cloudy blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A calm river flows through a dense forest with green and yellow foliage under a blue sky, reflecting in the water which is covered with aquatic plants."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene natural landscape features a calm body of water reflecting a partly cloudy sky, bordered by lush green trees and foliage on a gentle slope."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene landscape featuring a calm river bordered by trees under a partly cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A calm tree-lined river or pond reflects the sky beneath dramatic wispy clouds in a natural wooded setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a calm river surrounded by lush [ORGANIZATION] under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calm river bordered by dense trees under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A serene landscape view of a calm river bordered by dense green trees under a blue sky with wispy white clouds."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a road under a dramatic sky filled with purple and blue clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A rural two-lane road runs under a dramatic blanket of dark, textured storm clouds with fields, trees, power lines, and roadside signs along the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a road under dramatic purple clouds during twilight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A road stretches under a dramatic, textured purple and blue sky at dusk or dawn."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rural two-lane road stretches into the distance beneath a dramatic sky filled with textured purple and blue clouds at twilight."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic landscape features a dirt road leading into the distance, flanked by green fields with grazing cattle and trees, all under a sky filled with dark, ominous mammatus clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dramatic sky filled with dark, swirling clouds over a rural landscape with grazing cattle."
+        },
+        "gpt-5.4": {
+          "summary": "Dramatic dark storm clouds loom over a rural pasture with trees, grazing cattle, and a dirt road."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene rural landscape under a dramatic sky filled with dark clouds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic sky filled with dark, textured clouds looms over a rural landscape with a dirt road and grazing cows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dramatic landscape featuring a dark, textured storm cloud formation over a rural scene with grazing cattle and a dirt road."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot captures a vibrant rainbow arching over a commercial"
+        },
+        "gpt-4o-mini": {
+          "summary": "A rainbow arcs over a cloudy sky, with a parking lot and buildings visible below."
+        },
+        "gpt-5.4": {
+          "summary": "A bright rainbow arcs across a cloudy sky above a wet parking lot and roadside buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant rainbow arches over a suburban landscape under an evening sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A rainbow arcs over a wet parking lot near a building with '[ORGANIZATION] and '[ORGANIZATION] 49' signs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view captures a large, vibrant rainbow arching over a wet parking lot and commercial area under a cloudy sky."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A weather map displays a severe storm risk forecast for Saturday across the central and [LOCATION], highlighting areas like [LOCATION], [LOCATION], and parts of surrounding states."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating areas at risk for severe storms on Saturday."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic shows a Saturday severe storm risk forecast map with a slight-risk area stretching from [LOCATION] and [LOCATION] through [LOCATION] toward [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing severe storm risk in parts of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Weather map showing a severe storm risk forecast for Saturday across the central [LOCATION], highlighting areas like [LOCATION] and [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays a 'Slight' risk for severe storms across the [LOCATION] on Saturday, highlighting areas around [LOCATION] and [LOCATION]."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A weather map displays a severe storm risk forecast for Saturday afternoon across the"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating a severe storm risk for Saturday afternoon in specific areas."
+        },
+        "gpt-5.4": {
+          "summary": "A local TV weather graphic shows a Saturday severe storm risk map for the [LOCATION], highlighting a broad slight-risk area and noting afternoon storms with all hazards possible and winds favored."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map highlighting severe storm risk in [LOCATION] region."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing severe storm risk levels across parts of [LOCATION] and [LOCATION] for Saturday afternoon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast graphic from [ORGANIZATION] displays a severe storm risk map for Saturday afternoon, highlighting wind as the primary threat across [LOCATION]."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A weather forecast graphic from '[ORGANIZATION] displays storm hazards for Saturday, indicating high winds as the main concern."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast chart indicating storm hazards for Saturday, highlighting high winds as the main concern."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather forecast graphic from [ORGANIZATION] shows Saturday storm hazards, highlighting high winds as the main threat with hail possible, low tornado risk, and flooding not expected."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing storm hazards including tornadoes (low), large hail (golf ball size) moderate, high winds expected between 60-70 MPH as a major hazard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather forecast graphic detailing storm hazards for Saturday, emphasizing high winds as the main threat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast graphic from [ORGANIZATION] displays Saturday storm hazards, highlighting high winds as the primary risk with a moderate-to-high probability."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map showing storm activity across the [LOCATION] region."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather forecast graphic shows a radar map of storms and instability across the [LOCATION] on Saturday morning, highlighting a line of heavy rain and thunderstorms near [LOCATION] and [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather forecast map showing storm patterns in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Weather radar map showing storm activity over the [LOCATION] region with intensity levels and a forecast note."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays a radar view of storm activity across the region at 8:30 AM on Saturday."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating areas of instability and potential storm development."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather forecast map for the [LOCATION] shows future storm instability and rain bands across southwest [LOCATION] and northern [LOCATION] for Saturday at 5:30 PM."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing storm patterns in [LOCATION] region."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing forecasted storm activity across the [LOCATION] region with color-coded precipitation intensity."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays a Futurecast for Saturday at 5:30 PM, highlighting storm instability and precipitation intensity across the region."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset over a lake with a winding bridge and silhouetted landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A bridge stretches over calm water beneath a vivid orange-red sunset, with dark hills silhouetted in the background and a dealership logo in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stunning sunset over a bridge reflecting vibrant orange hues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bridge spans a body of water under a vibrant orange and red sunset sky, with a dealership logo visible in the corner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant orange and yellow sunset reflects on a calm body of water, with a long bridge extending into the distance against a silhouetted hill."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A clear stream flows over rocks in a sunlit, lush green forest."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene stream flowing over rocks in a lush, green forest setting."
+        },
+        "gpt-5.4": {
+          "summary": "A clear rocky creek flows through a wooded forest area with sunlight filtering through the trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene forest stream flows over rocks under a canopy of trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Clear water flows over rocks in a sunlit forest stream."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a clear, shallow stream flowing over rocks in a dense forest with sunlight filtering through the trees."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene outdoor scene features a small waterfall in a stream surrounded by trees with autumn"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene natural setting with a small waterfall flowing into a calm stream surrounded by autumn foliage."
+        },
+        "gpt-5.4": {
+          "summary": "A wooded [LOCATION] scene shows a small waterfall over a low ledge beneath tall trees with early autumn foliage and a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene forest scene featuring a small waterfall cascading over rocks into still water surrounded by autumn foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small waterfall cascades over concrete blocks in a forested stream under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tranquil forest stream flows over a concrete weir under a canopy of autumn trees against a clear blue sky."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a winding road surrounded by vibrant autumn foliage in various shades of orange, yellow, and green."
+        },
+        "gpt-5.4": {
+          "summary": "A curving rural road runs past a wooded hillside filled with colorful autumn foliage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a road curving through autumn foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A winding road curves through a forest displaying vibrant autumn foliage with orange and green trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A paved road curves through a rural landscape with a forested hillside displaying vibrant autumn foliage in shades of orange, yellow, and green."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a cemetery with vibrant autumn trees and a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Large trees with orange-red autumn foliage stand over a cemetery with gravestones beside a gravel road under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene autumn scene in a cemetery under vibrant fall foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Autumn-colored trees stand in a cemetery under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a cemetery during autumn, featuring large trees with vibrant orange and red foliage against a clear blue sky."
+        }
+      }
+    },
+    "image_00124": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cemetery is depicted with numerous gravestones scattered across a grassy,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a cemetery with vibrant red trees and gravestones under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Vibrant red autumn trees tower over a cemetery filled with gravestones under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cemetery scene under a vibrant autumn sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cemetery under a blue sky, featuring vibrant red autumn trees and scattered gravestones."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cemetery landscape featuring vibrant red and orange autumn trees under a blue sky with scattered clouds, surrounded by numerous headstones."
+        }
+      }
+    },
+    "image_00125": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A gray gravestone adorned with artificial flowers stands in a grassy cemetery under a large tree with vibrant yellow and orange autumn leaves, with sunlight filtering through the branches."
+        },
+        "gpt-4o-mini": {
+          "summary": "A gravestone marked '[PERSON]' surrounded by colorful autumn foliage and flowers."
+        },
+        "gpt-5.4": {
+          "summary": "A gray gravestone reading \"[PERSON]\" sits in a sunny cemetery beneath a large tree with orange-yellow autumn leaves, flanked by flower arrangements."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A gravestone labeled '[ORGANIZATION]' adorned with flowers under autumn foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gravestone marked '[PERSON]' stands in a cemetery under autumn trees with floral tributes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A gray granite headstone engraved with the surname '[PERSON]' is situated in a cemetery, flanked by vases of artificial flowers and set against a backdrop of trees displaying vibrant yellow autumn foliage."
+        }
+      }
+    },
+    "image_00126": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a cemetery with colorful autumn trees and gravestones."
+        },
+        "gpt-5.4": {
+          "summary": "Bright autumn trees with orange and red foliage stand over a cemetery filled with gravestones under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cemetery scene during autumn with colorful trees and gravestones."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cemetery under bright blue skies, framed by large trees with vibrant orange and red autumn leaves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cemetery scene featuring rows of headstones under large trees with vibrant orange and yellow autumn foliage against a clear blue sky."
+        }
+      }
+    },
+    "image_00127": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A full moon or setting sun illuminates a cloudy twilight sky above a dark silhouette of trees and a field."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene night scene featuring a rising moon amidst a cloudy sky and silhouetted trees."
+        },
+        "gpt-5.4": {
+          "summary": "A bright moon hangs low over a tree-lined landscape at dusk or night, with wispy clouds and a few visible stars in the sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene over a forested area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A twilight scene with a bright sun setting behind silhouetted trees under a starry sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bright celestial body, likely the moon, rises or sets behind a dark treeline under a twilight sky with visible stars and wispy clouds."
+        }
+      }
+    },
+    "image_00128": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A narrow natural rock gorge with steep, textured walls covered in some vegetation, leading down to a body of clear, blue"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene, narrow canyon with steep rock walls and a vibrant blue pool of water at the bottom."
+        },
+        "gpt-5.4": {
+          "summary": "A narrow rocky gorge or cave opening contains vivid blue water beneath tall cliff walls with a few plants growing from the stone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a narrow canyon with turquoise water reflecting sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A narrow canyon with steep rock walls and a calm turquoise pool at the bottom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A narrow, deep rock gorge with steep stratified walls and a pool of calm turquoise water at the bottom."
+        }
+      }
+    },
+    "image_00129": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A natural scene featuring trees with bright yellow autumn leaves growing among dark rock formations under a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a scenic view of autumn foliage with vibrant yellow leaves against a rocky backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "Sunlit autumn trees with bright yellow leaves stand among layered rock formations under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene autumn scene featuring golden leaves against a backdrop of rocky terrain under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Autumn trees with golden leaves grow among layered grey rocks under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunlit forest scene featuring trees with vibrant yellow autumn leaves growing among large, layered rock formations under a clear blue sky."
+        }
+      }
+    },
+    "image_00130": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large, bright yellow moon is visible in the sky with a flock of birds flying across it."
+        },
+        "gpt-5.4": {
+          "summary": "A large golden sun or moon hangs low over a tree-lined horizon with several birds flying across the sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large yellow moon rises over a forested landscape as birds fly in formation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large, glowing yellow moon rises over a forested hillside, with birds flying in formation across the sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, bright yellow moon dominates the sky above a tree line with autumn foliage, while several flocks of birds fly in formation across the scene."
+        }
+      }
+    },
+    "image_00131": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map showing temperatures across various locations in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic from [ORGANIZATION] shows a temperature map across northern [LOCATION] with many city labels and cold readings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather forecast map showing temperatures across [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing temperatures across [LOCATION] with color-coded regions and labeled cities."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast graphic from '[ORGANIZATION] displays current temperatures across [LOCATION], highlighting cold conditions in northern regions."
+        }
+      }
+    },
+    "image_00132": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A snow-covered patio with a picnic table and railing, overlooking a winter landscape with evergreen trees and falling snow."
+        },
+        "gpt-4o-mini": {
+          "summary": "A snowy outdoor scene featuring a picnic table covered in snow, surrounded by trees."
+        },
+        "gpt-5.4": {
+          "summary": "A snow-covered patio with a round picnic table and benches sits beside a white fence and evergreen trees during active snowfall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A snow-covered patio featuring a round table surrounded by benches under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snow-covered outdoor picnic table and benches on a deck surrounded by evergreen trees during a snowfall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A snow-covered outdoor deck with picnic tables and a white railing overlooks a snowy landscape with evergreen trees during an active snowfall."
+        }
+      }
+    },
+    "image_00133": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An expansive view of a large body of water, likely a lake or wide river, surrounded by hills covered in autumn foliage under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene lake surrounded by autumn foliage under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A calm lake surrounds a wooded peninsula under a partly cloudy sky with sun rays breaking through."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a lake surrounded by autumn-colored trees under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide river bordered by forested hills displaying autumn foliage under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape view of a wide river or lake bordered by forested hills with autumn foliage under a cloudy sky."
+        }
+      }
+    },
+    "image_00134": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A weather map displays today's low temperatures across the [LOCATION] region, showing"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map showing low temperatures for various locations."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic shows forecast low temperatures across the [LOCATION] region, with [LOCATION] at 19° and a stated [LOCATION] average of 38°."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing temperatures in various locations within a region."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing overnight low temperatures across the [LOCATION] region."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays current low temperatures across various cities in the region, with a [LOCATION] average of 38 degrees."
+        }
+      }
+    },
+    "image_00135": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vibrant [ORGANIZATION] borealis lighting up the night sky above a small building in a rural setting."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime rural landscape shows a small lit building beneath a vivid red and green aurora filling the starry sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime scene featuring a [LOCATION] borealis over silhouetted trees and buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small house under a night sky dominated by a vivid red aurora with faint stars and a tall light pole nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night landscape featuring a vivid [LOCATION] glowing over a silhouetted rural horizon with a single illuminated building."
+        }
+      }
+    },
+    "image_00136": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A night sky displays a vibrant [PERSON] with prominent red and green hues over a dark, silhouetted landscape."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vibrant display of the aurora borealis with striking red and green colors in the night sky."
+        },
+        "gpt-5.4": {
+          "summary": "A dark rural landscape sits beneath a vivid red and green aurora-like night sky with a bright vertical light beam."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant red light illuminates a dark sky over an urban landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A night sky illuminated by vibrant red and green lights, possibly from an [LOCATION] or artificial source, over a dark landscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night landscape featuring a vibrant red and green [ORGANIZATION] borealis illuminating the sky above a dark silhouette of trees and utility poles."
+        }
+      }
+    },
+    "image_00137": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An American flag waves on a flagpole against a dramatic, vibrant red night sky, with dark silhouettes of"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an American flag waving against a striking red sky, with a windmill and decorative lights visible in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime yard scene shows an American flag in front of a house beneath a vivid red, starry sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime scene featuring an American flag waving against a red sky backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An American flag flies at night against a vivid red sky with visible stars above a rural property."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An American flag waves on a pole in front of rural buildings under a vivid red night sky filled with stars."
+        }
+      }
+    },
+    "image_00138": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A night sky displays a vibrant red aurora with several bright, [ORGANIZATION] objects and silhouetted trees"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vibrant night sky with a red aurora and several bright objects, possibly stars or satellites, visible in the upper section."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime outdoor sky glows vivid red and purple above trees and rooftops, with stars visible and a dark building edge in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A night sky illuminated by a [ORGANIZATION] over trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A night sky with a red aurora and several glowing objects flying in formation above trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night sky displays a vivid red aurora with four distinct lights in formation above silhouetted trees."
+        }
+      }
+    },
+    "image_00139": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic night scene features a vibrant red sky with scattered stars above a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a night sky illuminated by a red glow, with silhouettes of trees in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A starry night sky glows vivid red-pink above a dark line of tall trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Silhouetted trees against a vibrant pink sky dotted with stars."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A night sky with a vivid red aurora and stars above a line of evergreen trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night landscape featuring a dense line of green trees silhouetted against a vivid, glowing red and purple sky filled with stars."
+        }
+      }
+    },
+    "image_00140": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a sky filled with numerous small, textured clouds, creating a patterned effect."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a textured sky filled with fluffy, cloud-like formations."
+        },
+        "gpt-5.4": {
+          "summary": "A sky filled with dense, textured cloud formations is shown in a close-up upward view."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a textured surface resembling clouds in shades of blue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of a textured, cloud-like pattern in shades of blue and white."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a textured surface resembling cracked earth or dried mud with a blue-grey color palette."
+        }
+      }
+    },
+    "image_00141": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a road at sunset, featuring a vibrant orange sky and a textured, mackerel-like cloud formation."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a sunset with dramatic clouds over a rural road."
+        },
+        "gpt-5.4": {
+          "summary": "A rural road stretches under a dramatic, densely clouded sunset sky with orange light near the horizon and a route marker sign by the roadside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a road under an expansive sky filled with dramatic clouds during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A road stretches under a dramatic sky filled with textured clouds during sunrise or sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a rural road at sunset, featuring a dramatic sky filled with textured clouds and a vibrant orange horizon."
+        }
+      }
+    },
+    "image_00142": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A picturesque sunset or sunrise over a calm lake, featuring a marina with boats docked and a fuel pump on a wooden pier, with a credit union logo in the top right corner."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset over a calm lake with a boat dock and a fuel pump in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A calm lake marina with a dock and covered boats sits under a vivid pink-orange sunset sky, with a [ORGANIZATION] credit union logo in the top corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene over a calm lake with boats docked in the background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene sunset over a lake with a dock, boat shelter, and fuel pump in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic sunset over a calm lake with a boat dock and fuel pump in the foreground, featuring a [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00143": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are taking a selfie at a crowded football stadium during a game."
+        },
+        "gpt-5.4": {
+          "summary": "Two people in [LOCATION] Sooners gear pose for a selfie in a packed football stadium during a game."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals wearing [ORGANIZATION] gear pose in a crowded stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in [ORGANIZATION] gear pose for a selfie at a packed football stadium."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men wearing crimson [ORGANIZATION] apparel pose for a selfie in the stands of a crowded football stadium."
+        }
+      }
+    },
+    "image_00144": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people wearing team apparel is seated in a stadium, likely at a sporting event."
+        },
+        "gpt-5.4": {
+          "summary": "A group selfie at a crowded stadium shows fans in red [LOCATION] gear bundled up for a sporting event."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people wearing winter clothing are seated in a stadium during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three smiling people wearing team apparel pose for a selfie at a crowded stadium event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of three smiling fans wearing crimson and red apparel, including an OU hat and a [ORGANIZATION] 66 beanie, pose for a selfie in the stands of a crowded outdoor stadium."
+        }
+      }
+    },
+    "image_00145": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A freight train with multiple cars is seen on tracks in a snowy landscape with bare trees and houses in the background under an overcast sky"
+        },
+        "gpt-4o-mini": {
+          "summary": "A freight train is stopped on snowy tracks with trees and houses in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A freight train with a hopper car and flatcar passes through a snowy residential area with leafless trees and houses."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A snowy landscape featuring a train car labeled 'CITX' in an industrial area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snowy scene featuring a freight train with a white boxcar and flatcars passing near residential houses under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A freight train with a white hopper car and yellow flatcars travels along snow-covered tracks in a residential area under an overcast sky."
+        }
+      }
+    },
+    "image_00146": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating snow potential in the [LOCATION] region."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather map from [LOCATION] shows this evening's snow potential across the [LOCATION], with most areas expecting a dusting to up to 1 inch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather map showing snow potential in various regions of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map from [LOCATION] shows snow potential across regions with varying amounts indicated."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays snow potential for the evening, indicating up to 1 inch of accumulation in northern areas and dusting amounts further south."
+        }
+      }
+    },
+    "image_00147": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a snowy park scene featuring a decorated Christmas tree and surrounding buildings."
+        },
+        "gpt-5.4": {
+          "summary": "An elevated view shows a lightly snow-dusted downtown plaza with a large decorated Christmas tree, bare trees, surrounding buildings, and nearby streets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A snowy urban plaza featuring a large decorated Christmas tree in front of buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An aerial view of a snow-dusted urban plaza featuring a decorated Christmas tree surrounded by benches and bare trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a snow-dusted town square featuring a large decorated Christmas tree, surrounded by urban buildings and bare trees."
+        }
+      }
+    },
+    "image_00148": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wooden ruler is shown measuring approximately 1.5 inches of fresh snow."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a ruler measuring the depth of snow on the ground."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a wooden ruler standing in fresh snow to measure the snow depth, with a long shadow cast across the surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a ruler measuring snow depth."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wooden ruler stands upright in snow, measuring its depth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wooden ruler is inserted vertically into a layer of white snow to measure its depth."
+        }
+      }
+    },
+    "image_00149": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a weather forecast map highlighting wind chill temperatures with several people pointing at the map."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic shows a wind chill map with several people in the foreground reacting excitedly in front of the forecast."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather forecast graphic showing wind chill temperatures across various locations in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people celebrate in front of a weather map showing wind chill temperatures across the [LOCATION] region."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of enthusiastic people pose in front of a weather map displaying extremely low wind chill temperatures for the [LOCATION] region."
+        }
+      }
+    },
+    "image_00150": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bald eagle is perched on a bare tree branch overlooking a rocky stream in a wooded area during autumn or winter."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene landscape featuring a creek surrounded by bare trees and an eagle perched on a branch."
+        },
+        "gpt-5.4": {
+          "summary": "A small creek runs through a leafless wooded area in late autumn or winter, with an eagle perched on a branch to the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene forest scene featuring a small stream surrounded by bare trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bald eagle perches on a bare tree branch overlooking a shallow stream in a leafless forest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald eagle perches on a branch overlooking a shallow, rocky stream flowing through a dense forest of bare trees during late autumn or winter."
+        }
+      }
+    },
+    "image_00151": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bald eagle is perched on a bare tree branch in a wooded area with dry foliage, suggesting a natural, outdoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A bald eagle is perched on a branch in a wooded area during late autumn."
+        },
+        "gpt-5.4": {
+          "summary": "A bald eagle is perched on a curved tree branch in a leafless woodland area with dry underbrush."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bald eagle perches in a leafless forest during autumn."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bald eagle perches on a bare tree branch in a leafless forest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald eagle is perched on a thick tree branch in a dense, leafless forest during late autumn or winter."
+        }
+      }
+    },
+    "image_00152": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a countdown to various holidays with colorful text and festive icons."
+        },
+        "gpt-5.4": {
+          "summary": "A TV-style countdown graphic from [ORGANIZATION] lists the days remaining until Christmas, New Year's Day, [PERSON]'s Day, and spring over a blurred holiday-light background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Holiday countdown forecast displayed in a festive design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A holiday countdown graphic from [LOCATION] showing days until Christmas, New Year's Day, [PERSON]'s Day, and Spring."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather broadcast graphic from [ORGANIZATION] displays a countdown to upcoming holidays and seasons, including Christmas, New Year's Day, [PERSON]'s Day, and Spring."
+        }
+      }
+    },
+    "image_00153": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather report showing a temperature of 9°F with clear skies and various weather metrics."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of the [ORGANIZATION] weather page shows clear nighttime conditions in [LOCATION], [LOCATION] with a temperature of 9° and other forecast details."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing a temperature of -9°F in [LOCATION], [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather app screen showing a cold night with a temperature of 9° and clear skies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile weather app screenshot from [LOCATION] showing a clear night with a temperature of 9 degrees in [LOCATION], [LOCATION]."
+        }
+      }
+    },
+    "image_00154": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a white, delicate-looking plant or frost formation on the ground amidst fallen leaves and grass."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a delicate white ice formation curling around a plant stem among dry leaves and grass on a sunlit forest floor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a white, frost-covered object lying amidst autumn leaves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A delicate, frost-covered flower-like ice formation rests among dry leaves and grass in a natural setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a delicate, white ice flower encasing a plant stem on the ground amidst dry leaves and grass."
+        }
+      }
+    },
+    "image_00155": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a handwritten weather forecast table with various meteorological data for multiple days."
+        },
+        "gpt-5.4": {
+          "summary": "A handwritten multi-day weather forecast worksheet with temperatures, wind, sky cover, and notes is laid out on a dark desk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A handwritten weather forecast chart detailing daily temperature predictions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A handwritten weather forecast chart on paper, detailing daily temperature, wind, and notes for days 1 through 8."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A handwritten weather forecast chart on a desk sheet detailing daily temperature, wind, and sky conditions for the upcoming week."
+        }
+      }
+    },
+    "image_00156": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast for the warmest Christmas temperatures recorded in [LOCATION], featuring a cartoon [LOCATION] and a thermometer graphic."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather graphic from [ORGANIZATION] lists [LOCATION]’s warmest Christmas Day temperatures, with a thermometer background and a cartoon [LOCATION] beside a sunglasses-wearing sun."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather forecast graphic showing historical warmest Christmas temperatures in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather graphic lists the warmest Christmas temperatures in [LOCATION], [LOCATION], featuring a cartoon [LOCATION] and a sun wearing sunglasses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather graphic from [ORGANIZATION] displays the ten warmest Christmas days recorded in [LOCATION], featuring a list of temperatures and years alongside festive [LOCATION] and thermometer imagery."
+        }
+      }
+    },
+    "image_00157": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a gas station sign displaying fuel prices for unleaded, diesel, and ethanol-free gasoline."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] gas station price sign is shown outdoors against a blue sky with power lines, displaying fuel types and prices."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Gas prices displayed by a [ORGANIZATION] gas station sign."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] gas station sign displays fuel prices under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] gas station sign displays fuel prices against a blue sky with power lines."
+        }
+      }
+    },
+    "image_00158": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic sky with vibrant red and orange clouds during sunrise or sunset, silhouetting bare trees and a '"
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset with red and orange hues illuminating the sky, featuring silhouetted trees in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A vivid red-orange sunset fills the sky with layered clouds above silhouetted trees and a few roadside elements."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant sunset scene featuring a colorful sky transitioning from orange to pink hues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant red and orange sunrise or sunset with scattered clouds, silhouetted trees, and a stop sign in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant sunset or sunrise featuring a dramatic red and orange sky with textured clouds, silhouetted against bare trees and street infrastructure."
+        }
+      }
+    },
+    "image_00159": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset or sunrise illuminates the sky with orange and pink clouds above a dark treeline and hills."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset with colorful clouds and silhouetted trees in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A vivid sunset fills the sky with pink and orange streaked clouds above silhouetted leafless trees and a dark wooded horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant sunset scene over a forested area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant sunset with orange and pink clouds over a silhouette of bare trees and distant hills."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant sunset with orange and pink clouds illuminates the sky above a silhouette of bare trees and a distant treeline."
+        }
+      }
+    },
+    "image_00160": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A figure resembling [LOCATION] is reading a travel brochure for a warm Christmas in [LOCATION], set in a cozy, festive environment."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] figure sits in a cozy holiday room reading a large tropical-themed poster advertising “Christmas in [LOCATION].”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[LOCATION] reads a travel poster promoting 'Warm Christmas in [LOCATION]'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[LOCATION] reads a newspaper ad promoting a tropical Christmas getaway in [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "[PERSON] sits at a wooden desk in a cozy, festive room reading a travel brochure advertising a warm Christmas getaway in [LOCATION]."
+        }
+      }
+    },
+    "image_00161": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a chart of the top 10 air temperature drops in [LOCATION] over a 12-hour period from 1948 to 2025."
+        },
+        "gpt-5.4": {
+          "summary": "A weather infographic ranks [LOCATION]’s top 10 largest air temperature drops over exactly 12 hours using blue bar charts and matching line traces."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[SGF] [LOCATION]'s [ORGANIZATION] Over a 12-Hour Period (1948–2025)"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bar chart showing the top 10 air temperature drops in [LOCATION] over 12-hour periods from 1948 to 2025, with corresponding line graphs for each event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bar chart and line graph displaying the top 10 air temperature drops in [LOCATION] ([ORGANIZATION]) over a 12-hour period between 1948 and 2025."
+        }
+      }
+    },
+    "image_00162": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An atmospheric sky with orange and pink clouds at sunrise or sunset, viewed above the dark silhouettes of building rooftops and bare trees."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset view with colorful skies above silhouetted buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A wide view of a pastel sunset sky with thin clouds above silhouetted apartment rooftops and bare trees."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a row of apartment buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Silhouetted apartment buildings against a twilight sky with orange and blue hues."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a sunset sky with orange and blue hues above the silhouettes of residential buildings and bare trees."
+        }
+      }
+    },
+    "image_00163": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling man in glasses, a white shirt, red tie, and gray vest takes a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a grassy area with trees and a building in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person takes an outdoor selfie in a grassy area with leafless trees, industrial buildings, and a satellite dish in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Man taking a selfie in an open field during late afternoon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in glasses and a vest smiles for a selfie outdoors in a grassy field with bare trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing glasses, a white shirt, red tie, and grey vest takes a selfie in an outdoor field with bare trees and industrial buildings in the background."
+        }
+      }
+    },
+    "image_00164": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A view from a vehicle shows a winding asphalt road with double yellow lines, flanked by bare trees and some green foliage under a bright"
+        },
+        "gpt-4o-mini": {
+          "summary": "A winding road surrounded by trees under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A rural two-lane road curves through leafless trees under a vivid blue sky with wispy, streaked clouds, viewed from inside a vehicle."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a winding road under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic view from a car driving down a winding road under a vibrant blue sky with wispy clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a vehicle driving down a winding rural road lined with bare trees and grass under a bright blue sky with wispy clouds."
+        }
+      }
+    },
+    "image_00165": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset over a calm lake with a dock and a fuel pump in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A calm lake at sunset is viewed from a dock with a [LOCATION] boat slip and a fuel pump in the foreground, with a \"[ORGANIZATION] credit union\" logo in the top-right corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a calm lake with reflections in the water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene sunset over a lake with a boat dock and fuel pump in the foreground, featuring a '[ORGANIZATION] credit union' logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A serene sunset over a calm lake with a boat dock and fuel pump in the foreground, featuring a [ORGANIZATION] logo."
+        }
+      }
+    },
+    "image_00166": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating potential snowfall amounts across various regions."
+        },
+        "gpt-5.4": {
+          "summary": "A local TV weather graphic shows weekend snow potential across the [LOCATION] with color-coded accumulation zones from a dusting up to 4–6 inches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather forecast map showing snow potential across various regions in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather forecast map showing snow potential for the [LOCATION] region with color-coded snowfall amounts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays projected snow accumulation for the weekend across various regions, with color-coded zones indicating amounts ranging from a dusting to 4-6 inches."
+        }
+      }
+    },
+    "image_00167": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A weather forecast map indicating snow predictions and storm tracks for the weekend."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather forecast graphic shows a weekend map of the central [LOCATION] with colder temperatures and snow across the [LOCATION] and nearby states."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing snowfall scenarios in the [LOCATION] region."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather forecast map showing snow coverage predictions for the [LOCATION] region over the weekend."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from '[ORGANIZATION] displays a winter storm scenario for the [LOCATION] region, highlighting areas of snow and colder temperatures across states like [LOCATION], [LOCATION], and [LOCATION]."
+        }
+      }
+    },
+    "image_00168": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating snow predictions and temperatures for a specific region."
+        },
+        "gpt-5.4": {
+          "summary": "A TV weather forecast graphic shows a weekend map of the [LOCATION] and surrounding states with a colder system and snow scenario extending across [LOCATION], [LOCATION], and nearby areas."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast map showing snowfall scenarios in parts of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Weather map showing a forecast for snow and cold temperatures across the [LOCATION] region."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast map from [ORGANIZATION] displays a 'Colder with Snow' scenario for the weekend, highlighting a southerly storm track affecting cities like [LOCATION] and [LOCATION]."
+        }
+      }
+    },
+    "image_00169": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a snow-covered urban landscape under a vibrant orange and yellow sky during sunrise"
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a snowy landscape at sunrise, showcasing a gradient sky from orange to blue."
+        },
+        "gpt-5.4": {
+          "summary": "A wide winter cityscape shows snow-covered buildings and roads beneath a vivid orange-to-blue sunrise or sunset sky, with a real estate team logo in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sunset over a snowy industrial area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of a snow-covered urban landscape at sunset, with a real estate team logo in the corner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An aerial view of a snow-covered industrial and commercial area at sunset, featuring a gradient sky from orange to blue."
+        }
+      }
+    },
+    "image_00170": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A snowy road stretches into the distance under a vibrant orange and blue sky during sunrise or sunset, flanked by bare trees and evergreens."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene winter landscape featuring a snowy road and a sunset in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A snowy rural road stretches into a winter sunset with bare trees and dark evergreens lining the sides."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene winter sunset over a snow-covered road lined by bare trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snowy road at sunset with bare trees and footprints leading toward the glowing horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A snowy road curves through a winter landscape at sunset, flanked by bare trees and evergreens with visible tire tracks in the snow."
+        }
+      }
+    },
+    "image_00171": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast map indicating precipitation levels across [LOCATION] for a specified period."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] weather map shows forecast precipitation totals across [LOCATION], with the heaviest rainfall band stretching from [LOCATION] through [LOCATION] and strong totals in [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A weather map showing precipitation forecast over a large portion of [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather map showing precipitation forecast across [LOCATION] with color-coded intensity levels."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] weather forecast map displays a significant precipitation event across the central and [LOCATION], with intense accumulation levels shown in red and purple."
+        }
+      }
     }
   }
 }

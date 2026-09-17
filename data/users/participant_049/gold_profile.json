@@ -1,6 +1,6 @@
 {
   "user_id": "participant_049",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
@@ -9,14 +9,14 @@
         {
           "label": "fitness",
           "evidence_post_indices": [
-            0,
-            1,
-            3
+            4,
+            159,
+            179
           ],
           "evidence_post_ids": [
-            "participant_049_phase_1",
-            "participant_049_phase_2",
-            "participant_049_phase_4"
+            "participant_049_post_0005",
+            "participant_049_post_0160",
+            "participant_049_post_0180"
           ]
         }
       ],
@@ -24,43 +24,52 @@
         {
           "label": "nature observation",
           "evidence_post_indices": [
-            0,
-            2
+            56,
+            167
           ],
           "evidence_post_ids": [
-            "participant_049_phase_1",
-            "participant_049_phase_3"
+            "participant_049_post_0057",
+            "participant_049_post_0168"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "bodybuilding",
           "evidence_post_indices": [
-            0,
-            3
+            4,
+            182
           ],
           "evidence_post_ids": [
-            "participant_049_phase_1",
-            "participant_049_phase_4"
+            "participant_049_post_0005",
+            "participant_049_post_0183"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "spectator sports",
+          "label": "snowboarding",
           "evidence_post_indices": [
-            2
+            60
           ],
           "evidence_post_ids": [
-            "participant_049_phase_3"
+            "participant_049_post_0061"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "winter sport",
           "evidence_post_indices": [
-            2
+            60
           ],
           "evidence_post_ids": [
-            "participant_049_phase_3"
+            "participant_049_post_0061"
+          ]
+        },
+        {
+          "label": "bird watching",
+          "evidence_post_indices": [
+            56
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0057"
           ]
         }
       ]
@@ -70,42 +79,108 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "movy",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            52,
+            75,
+            84,
+            99,
+            104,
+            126,
+            143,
+            148,
+            189
           ],
           "evidence_post_ids": [
-            "participant_049_phase_1",
-            "participant_049_phase_2",
-            "participant_049_phase_3",
-            "participant_049_phase_4"
+            "participant_049_post_0053",
+            "participant_049_post_0076",
+            "participant_049_post_0085",
+            "participant_049_post_0100",
+            "participant_049_post_0105",
+            "participant_049_post_0127",
+            "participant_049_post_0144",
+            "participant_049_post_0149",
+            "participant_049_post_0190"
+          ]
+        },
+        {
+          "label": "celebrity culture",
+          "evidence_post_indices": [
+            22,
+            35,
+            48,
+            91,
+            99
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0023",
+            "participant_049_post_0036",
+            "participant_049_post_0049",
+            "participant_049_post_0092",
+            "participant_049_post_0100"
+          ]
+        },
+        {
+          "label": "movies",
+          "evidence_post_indices": [
+            7,
+            121,
+            132
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0008",
+            "participant_049_post_0122",
+            "participant_049_post_0133"
+          ]
+        },
+        {
+          "label": "celebrity new",
+          "evidence_post_indices": [
+            23,
+            150,
+            188
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0024",
+            "participant_049_post_0151",
+            "participant_049_post_0189"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "paul schrader",
           "evidence_post_indices": [
-            1,
-            2
+            61,
+            70
           ],
           "evidence_post_ids": [
-            "participant_049_phase_2",
-            "participant_049_phase_3"
+            "participant_049_post_0062",
+            "participant_049_post_0071"
           ]
         },
         {
-          "label": "film and television",
+          "label": "woody allen",
           "evidence_post_indices": [
-            0,
-            2
+            91,
+            99
           ],
           "evidence_post_ids": [
-            "participant_049_phase_1",
-            "participant_049_phase_3"
+            "participant_049_post_0092",
+            "participant_049_post_0100"
+          ]
+        },
+        {
+          "label": "tv shows",
+          "evidence_post_indices": [
+            69,
+            137,
+            174
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0070",
+            "participant_049_post_0138",
+            "participant_049_post_0175"
           ]
         }
       ],
@@ -113,19 +188,30 @@
         {
           "label": "comedy",
           "evidence_post_indices": [
-            0
+            140,
+            160
           ],
           "evidence_post_ids": [
-            "participant_049_phase_1"
+            "participant_049_post_0141",
+            "participant_049_post_0161"
           ]
         },
         {
-          "label": "entertainment interests",
+          "label": "alan partridge",
           "evidence_post_indices": [
-            2
+            69
           ],
           "evidence_post_ids": [
-            "participant_049_phase_3"
+            "participant_049_post_0070"
+          ]
+        },
+        {
+          "label": "ernie hudson",
+          "evidence_post_indices": [
+            68
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0069"
           ]
         }
       ]
@@ -143,31 +229,71 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "food drink interests",
+          "label": "bar",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            71,
+            88,
+            178
           ],
           "evidence_post_ids": [
-            "participant_049_phase_1",
-            "participant_049_phase_2",
-            "participant_049_phase_3"
+            "participant_049_post_0072",
+            "participant_049_post_0089",
+            "participant_049_post_0179"
+          ]
+        },
+        {
+          "label": "bagel",
+          "evidence_post_indices": [
+            145,
+            146,
+            147
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0146",
+            "participant_049_post_0147",
+            "participant_049_post_0148"
+          ]
+        },
+        {
+          "label": "alcohol consumption",
+          "evidence_post_indices": [
+            92,
+            158,
+            162
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0093",
+            "participant_049_post_0159",
+            "participant_049_post_0163"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "food drink interests",
+          "label": "sandwiche",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            73
           ],
           "evidence_post_ids": [
-            "participant_049_phase_1",
-            "participant_049_phase_3",
-            "participant_049_phase_4"
+            "participant_049_post_0074"
+          ]
+        },
+        {
+          "label": "bagel shop",
+          "evidence_post_indices": [
+            146
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0147"
+          ]
+        },
+        {
+          "label": "bar and nightlife",
+          "evidence_post_indices": [
+            43
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0044"
           ]
         }
       ]
@@ -180,41 +306,41 @@
         {
           "label": "travel",
           "evidence_post_indices": [
-            1,
-            2
+            88,
+            159
           ],
           "evidence_post_ids": [
-            "participant_049_phase_2",
-            "participant_049_phase_3"
+            "participant_049_post_0089",
+            "participant_049_post_0160"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "city exploration",
+          "label": "air travel",
           "evidence_post_indices": [
-            3
+            42
           ],
           "evidence_post_ids": [
-            "participant_049_phase_4"
+            "participant_049_post_0043"
           ]
         },
         {
-          "label": "travel",
+          "label": "city walks",
           "evidence_post_indices": [
-            3
+            25
           ],
           "evidence_post_ids": [
-            "participant_049_phase_4"
+            "participant_049_post_0026"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "exploring local area 1",
           "evidence_post_indices": [
-            3
+            25
           ],
           "evidence_post_ids": [
-            "participant_049_phase_4"
+            "participant_049_post_0026"
           ]
         }
       ]
@@ -231,14 +357,29 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "cats",
+          "label": "cat",
           "evidence_post_indices": [
-            2,
-            3
+            3,
+            53,
+            56
           ],
           "evidence_post_ids": [
-            "participant_049_phase_3",
-            "participant_049_phase_4"
+            "participant_049_post_0004",
+            "participant_049_post_0054",
+            "participant_049_post_0057"
+          ]
+        },
+        {
+          "label": "cat ownership",
+          "evidence_post_indices": [
+            3,
+            53,
+            56
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0004",
+            "participant_049_post_0054",
+            "participant_049_post_0057"
           ]
         }
       ],
@@ -247,12 +388,19 @@
         {
           "label": "pet care",
           "evidence_post_indices": [
-            2,
+            72
+          ],
+          "evidence_post_ids": [
+            "participant_049_post_0073"
+          ]
+        },
+        {
+          "label": "pet birthday",
+          "evidence_post_indices": [
             3
           ],
           "evidence_post_ids": [
-            "participant_049_phase_3",
-            "participant_049_phase_4"
+            "participant_049_post_0004"
           ]
         }
       ]

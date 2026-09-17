@@ -1,67 +1,3373 @@
 {
   "user_id": "participant_061",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "fitness",
-        "photography",
-        "reading",
-        "spectator sports",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: fitness; photography; reading; spectator sports; walking and hiking."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is kneeling outdoors, holding a white sign that promotes football content with text and icons."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person kneeling holds a sign promoting daily football content, including takes, stats, and debates."
+        },
+        "gpt-5.4": {
+          "summary": "A kneeling person outdoors holds a sign promoting football content, including takes, stats, reactions, and game debates."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a sign promoting football-related content."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person kneels outdoors holding a sign welcoming newcomers to football content."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man kneels on a wet tiled surface holding a sign that promotes daily football content, including stats and debates."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "fitness",
-        "live performances",
-        "spectator sports",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; fitness; live performances; spectator sports; walking and hiking."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up of a male"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a football player in a [LOCATION], with a scoreboard indicating a 1-1 draw between [ORGANIZATION] and [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up sports graphic shows a [ORGANIZATION] player shouting next to a [ORGANIZATION] scoreline of [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football player in a [LOCATION] jersey celebrates after scoring against [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football player in a [LOCATION] shouts intensely during a match, with a graphic overlay showing a 1-1 draw between [ORGANIZATION] and [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up profile of a male football player in a blue kit shouting, with an overlay graphic showing a 1-1 match result between [ORGANIZATION] and [ORGANIZATION]."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "film and television",
-        "fitness",
-        "photography",
-        "running",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: film and television; fitness; photography; running; spectator sports."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two shirtless individuals pose together in a fitness setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two shirtless people pose smiling in a home gym, with one giving a thumbs-up amid workout equipment and a TV in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in workout attire pose together indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two shirtless men posing together in a gym, one giving a thumbs-up."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two shirtless men, one adult and one younger male, pose smiling together in a well-equipped home gym with wooden floors and exercise equipment visible in the background."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "fitness",
-        "spectator sports",
-        "video games",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; fitness; spectator sports; video games; walking and hiking."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two soccer players from [ORGANIZATION] celebrate a goal on the field."
+        },
+        "gpt-5.4": {
+          "summary": "Two [ORGANIZATION] players on a soccer field raise their hands for a celebratory high-five in a stadium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two soccer players in [LOCATION] celebrate a goal."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two soccer players in [ORGANIZATION] jerseys celebrate with high-fives on a stadium field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two soccer players in [ORGANIZATION] kits celebrate on a grass field with stadium stands visible in the background."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "fitness",
-        "photography",
-        "spectator sports",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; fitness; photography; spectator sports; walking and hiking."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person kneels outdoors, holding a white sign that advertises football content including takes, stats, reactions, and big game debates."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person kneeling and holding a sign promoting daily football content, including takes, stats, and debates."
+        },
+        "gpt-5.4": {
+          "summary": "A man kneels outdoors holding a sign promoting football takes, stats, and game debates."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a sign promoting football-related content."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man kneels outdoors holding a sign that welcomes newcomers to daily football content."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man kneels on a wet tiled surface holding a sign that promotes football content, including stats and debates."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "fitness",
-        "live performances",
-        "spectator sports",
-        "visual art",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: fitness; live performances; spectator sports; visual art; walking and hiking."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait shows a person with short, curly hair and a fade haircut, wearing"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a dark hoodie, with their face obscured."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up portrait of a person in a dark zip-up sports jacket against a blurred stadium-like background, with a serious expression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a person wearing a dark blue jacket against an out-of-focus background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of a sweaty man in a dark blue zip-up hoodie looking upward with a focused expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a sweating man with short curly hair wearing a dark blue zip-up hoodie, looking upward with a focused expression."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling person wearing a purple and gold sports jersey with an [ORGANIZATION] logo and \"Vikings\" text is posing for a studio portrait."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a purple [ORGANIZATION] jersey with the 'Vikings' logo."
+        },
+        "gpt-5.4": {
+          "summary": "A posed studio-style portrait shows a smiling football player wearing a purple [ORGANIZATION] jersey against a plain gray background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [ORGANIZATION] NFL jersey smiles in front of a neutral background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling football player in a purple [ORGANIZATION] jersey poses for a studio portrait."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A studio headshot of a smiling male athlete wearing a purple [ORGANIZATION] football jersey against a gray background."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a football player in a jersey with the name '[PERSON] and the years '2000-2026' displayed prominently."
+        },
+        "gpt-5.4": {
+          "summary": "A memorial-style graphic shows a football player in a white [ORGANIZATION] jersey with the text \"Rondale Moore\" and \"2000-2026.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Image of a football player in uniform with tribute text reading '[PERSON] and years '2000-2026'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up portrait of a football player in [LOCATION] with '[PERSON] and '2000-2026' text overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of football player [PERSON] wearing a white [LOCATION] 49ers jersey with the [ORGANIZATION] logo visible."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] football league table with team rankings, games played, goal difference, and points."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed football standings table shows [LOCATION] in 1st place with 61 points, followed closely by [ORGANIZATION] on 60."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football league table showing top teams in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed football league table showing top teams and their points, goals difference, and played matches."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a sports league table showing the top 11 teams, led by [LOCATION] with 61 points."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A meme featuring a list of football match results where [ORGANIZATION] lost or drew, captioned '[ORGANIZATION] without penalty', with a player wearing 'MBAPPE 9' on a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image humorously depicts [ORGANIZATION] match results without penalties, showing a series of losses."
+        },
+        "gpt-5.4": {
+          "summary": "A football meme overlays a pitch image with the caption \"Real Madrid without penalty\" and a list of match scorelines showing [ORGANIZATION] losses and draws."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme comparing [ORGANIZATION] performance without penalties against other teams."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football meme showing a player walking away while a list highlights [ORGANIZATION] losses without penalty."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring a football player in [LOCATION] with the number 9 on a pitch, overlaid with a list of match scores showing [ORGANIZATION] losing or drawing against various teams."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male basketball player in a yellow '[LOCATION]' jersey with the number '0' is shown reacting intensely with an open mouth and raised hand during a game."
+        },
+        "gpt-4o-mini": {
+          "summary": "A basketball player in a yellow [LOCATION] jersey is gesturing during a game."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a basketball player in a yellow [LOCATION] jersey reacting with a surprised or shouting expression during a game."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A basketball player in an [LOCATION] jersey appears animated during a game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A basketball player in a yellow [LOCATION] jersey shouts with an expressive face during a game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male basketball player in a yellow [LOCATION] jersey with the number 0 is captured mid-shout during a game."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young person wearing an [LOCATION] national football team jersey stands outdoors on a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a dark sports jersey with a crest, likely during a training session."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a soccer player in a dark [LOCATION] standing on an outdoor field with a blurred goalpost in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young man in a dark blue sports jersey stands outdoors during what appears to be soccer practice."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young male soccer player in an [LOCATION] training kit looks off-camera during a rainy outdoor session."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a young male athlete wearing a dark blue [LOCATION] national team training jersey with the Three Lions crest and [ORGANIZATION] logo visible."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The [ORGANIZATION] club crest, featuring a crown and intertwined letters, is prominently displayed on a yellow background with 'THE [ORGANIZATION]' text at the bottom."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the logo of [ORGANIZATION] on a yellow background."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] club [ORGANIZATION] is centered on a plain yellow background, with a black bottom border repeating the phrase \"THE [ORGANIZATION].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The logo of [ORGANIZATION] CF displayed prominently against a yellow background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "The [ORGANIZATION] football club crest centered on a yellow background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The [ORGANIZATION] football club crest is centered on a yellow background with a repeating 'THE [ORGANIZATION]' banner at the bottom."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male soccer player in a red and [LOCATION] with '[LOCATION] FLY BETTER' visible on it, stands on a field with his hands on his head and mouth open, appearing to react emotionally during a game."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in a [LOCATION] appears frustrated, holding his head in a moment of disappointment during a match."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a red [LOCATION] holds his head with his mouth open on the field, showing a shocked or frustrated reaction during a match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] adjusts his hair during play."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a red [LOCATION] reacts emotionally with hands on head during a match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a red [LOCATION] with hands on his head, displaying an expression of shock or disbelief during a match."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a list of recent phone call logs with several Mexican phone numbers and timestamps."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows the iPhone Phone app's Recents tab with multiple recent calls labeled from [LOCATION], with several numbers partially obscured."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Recent call log from [LOCATION] showing multiple missed calls."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen showing recent calls from [LOCATION], with obscured phone numbers and timestamps."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a smartphone's call log showing multiple missed calls from [LOCATION] with red phone numbers and whiteed-out digits."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a gym, wearing athletic clothing."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in workout clothes standing in a gym studio with a yoga mat and exercise equipment in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a mirror selfie in an indoor gym."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym wearing athletic wear and holding a phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black Under Armour shirt and grey sweatpants takes a mirror selfie in a gym, covering their face with one hand while holding a phone."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A tense moment during a football match with players and fans clashing near the goalpost."
+        },
+        "gpt-5.4": {
+          "summary": "A chaotic football match scene shows players, staff, and spectators crowding around the goal area during a confrontation, with a TV scoreboard showing [ORGANIZATION] Manchester United at 78:06."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Players from two soccer teams are involved in a physical altercation near the goalpost during an intense match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Football players and staff from two teams are engaged in a heated confrontation near a goal during a match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tense confrontation unfolds on a football pitch between players in blue and red kits, security personnel, and spectators near the goal."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A muscular man in black underwear poses against a dark background, holding a massage gun."
+        },
+        "gpt-4o-mini": {
+          "summary": "A muscular man is sitting against a dark background, holding a massage gun."
+        },
+        "gpt-5.4": {
+          "summary": "A shirtless muscular man in black [PERSON] underwear poses indoors while holding a handheld massage gun in a dark, studio-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual in black underwear holding a dumbbell poses confidently."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular shirtless man sits against a dark background, holding a massage gun and wearing black underwear with '[PERSON]' branding."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless, muscular man with a watch on his wrist sits against a dark background holding a massage gun while wearing black underwear with visible branding."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays notifications related to monetization on a social media platform."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone notification center screen shows X-related notifications, including a monetization eligibility message about creator revenue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Notifications from [ORGANIZATION] thanking a creator."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone notification center showing two alerts from '[ORGANIZATION] thanking the user for creating on X and offering creator revenue eligibility."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile notification center displaying two alerts regarding [ORGANIZATION] and creator revenue eligibility."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of football players celebrating a qualification achievement."
+        },
+        "gpt-5.4": {
+          "summary": "A group of [ORGANIZATION] players in red-and-white striped kits celebrate together in a huddle, with a large \"QUALIFIED\" graphic over the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of soccer players celebrate their qualification in a stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Football players in red-and-white striped jerseys celebrate together, with the word 'QUALIFIED' prominently displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of soccer players in red and white striped jerseys celebrate together on a pitch with the word 'QUALIFIED' overlaid at the bottom."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie in what appears to be a gym, wearing a black Under Armour shirt and grey sweatpants."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a gym setting, wearing athletic clothing."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in black athletic wear and gray sweatpants standing in a gym with workout machines and exercise balls behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in an indoor gym."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym wearing athletic clothes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black Under Armour shirt and grey sweatpants takes a mirror selfie in a gym, with exercise equipment visible in the background."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a social media account analytics dashboard with various metrics like impressions, engagements, likes, and replies, presented with graphs and numerical data on a dark background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays account analytics with various engagement metrics and statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode mobile screenshot shows an account analytics dashboard with bar charts and engagement metrics such as impressions, likes, replies, and profile visits."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Account analytics showing engagement metrics over time."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed mobile screen displaying account analytics with metrics like impressions, engagements, and follower counts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a social media account analytics dashboard displaying performance metrics like impressions, engagement, and follower growth over time."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on the sidelines of a sports event, dressed in casual attire."
+        },
+        "gpt-5.4": {
+          "summary": "A man in dark casual clothing stands on the sideline of a sports field with a blurred stadium crowd in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a black jacket stands on what appears to be a sports field during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in black jacket and grey pants stands on a green sports field with spectators blurred in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a black jacket and grey cargo pants stands on a green football pitch with a blurred stadium crowd in the background."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A graphic displays the [ORGANIZATION] [ORGANIZATION] prominently against a solid blue background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the logo of [ORGANIZATION] on a blue background."
+        },
+        "gpt-5.4": {
+          "summary": "The image shows the [ORGANIZATION] club [ORGANIZATION] centered on a blue background with a branded strip along the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The [ORGANIZATION] logo against a blue background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of the [ORGANIZATION] crest on a blue background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The [ORGANIZATION] football club crest is centered on a blue background with a repeating 'THE [ORGANIZATION]' banner at the bottom."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a betting interface showing a saved parlay bet with various soccer matches and odds."
+        },
+        "gpt-5.4": {
+          "summary": "Screenshot of a mobile sports betting app showing a saved 4-leg soccer parlay with picks including [ORGANIZATION], [LOCATION], [LOCATION], and over 2.5 goals."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a betting app showing open bets including sports events like [LOCATION] vs [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile screen showing a saved 4-leg sports parlay bet with odds and match details."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displays a saved '4 leg parlay' sports bet involving football matches between [LOCATION], [LOCATION], [LOCATION], [LOCATION], and [LOCATION] [PERSON]"
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is watching multiple football matches displayed on four screens, featuring [ORGANIZATION] matchups."
+        },
+        "gpt-5.4": {
+          "summary": "A person seen from behind sits in a home theater facing four screens showing [ORGANIZATION] matchups and team logos."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person watches a multi-screen setup displaying [ORGANIZATION] match schedules."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person views four [ORGANIZATION] football match schedules displayed on a large wall-mounted screen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person viewed from behind sits in a home theater watching four screens displaying [ORGANIZATION] football match fixtures."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays account analytics with various engagement metrics and statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of social media account analytics showing charts and performance metrics like impressions, engagement, likes, and replies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Account analytics showing engagement metrics over time."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile screen displaying account analytics with graphs and metrics like impressions, engagements, and followers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a social media account analytics dashboard displaying performance metrics such as impressions, engagement rate, and follower counts over time."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male soccer player with light brown hair is shown from the chest up, wearing a blue and red striped jersey with sponsor logos and a captain's armband, looking intently to his right."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player wearing a [LOCATION] stands on the field."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up action-style photo shows a football player in an [LOCATION] [LOCATION] jersey wearing a captain's armband against a dark stadium background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] [LOCATION] stands against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A male soccer player in a [LOCATION] with captain's armband looks off-camera during a night game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a blue and red striped [ORGANIZATION] jersey with a captain's armband stands on a field at night."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An animated character with a beard and beanie makes a peace sign, with a text bubble overlaid that reads \"Me and following back.\""
+        },
+        "gpt-4o-mini": {
+          "summary": "An animated character is making a peace sign gesture with the caption 'Me and following back'."
+        },
+        "gpt-5.4": {
+          "summary": "An anime-style close-up shows a bearded character gesturing with his hand, overlaid with the meme text \"Me and following back.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Cartoon character making a peace sign gesture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An animated man with a beard and blue headwrap makes a peace sign while text overlay reads 'Me and following back'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An animated character with a beard and blue beanie holds up two fingers while a text overlay reads 'Me and following back'."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two distinct scenes: a couple posing together at a table and a man sitting in a courtroom setting."
+        },
+        "gpt-5.4": {
+          "summary": "A collage shows a smiling selfie of two people in white clothing beside courtroom photos of a man in a [ORGANIZATION] suit seated at a table, with another person circled behind glass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collage showing a man in traditional attire smiling closely with another person wearing white headscarf (top left), followed by two scenes of him seated formally during what appears to be an official proceeding."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage showing a smiling couple together and the same man in separate courtroom scenes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage featuring a smiling couple in casual attire alongside images of a man in a suit seated at a table marked '[ORGANIZATION] in what appears to be a courtroom setting."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital graphic displays a football tournament bracket, featuring various club logos and a central image of [ORGANIZATION] trophy, indicating the 'Road to Budapest 26'."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the bracket for [ORGANIZATION], featuring various football clubs and the trophy in the center."
+        },
+        "gpt-5.4": {
+          "summary": "A blue graphic shows a [ORGANIZATION] knockout bracket titled \"Road to Budapest 26\" with multiple European football club logos surrounding a trophy in the center."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] round of sixteen bracket titled 'Road To Budapest' featuring teams like [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] knockout bracket graphic titled 'Road to Budapest 26', showing team matchups leading to the final."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic displaying [ORGANIZATION] bracket featuring team logos and the trophy, set against a blue background with the text [LOCATION]."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two soccer players in blue and red striped jerseys are captured mid-air, celebrating enthusiastically on a stadium field with a large crowd in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two football players celebrate a goal in a stadium filled with fans."
+        },
+        "gpt-5.4": {
+          "summary": "Two [ORGANIZATION] players leap and celebrate enthusiastically on the soccer field in a packed stadium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two soccer players celebrate a goal in front of an enthusiastic crowd."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two soccer players in blue and red striped jerseys celebrate a goal by jumping together in a stadium filled with fans."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two soccer players in blue and red striped jerseys celebrate a goal by jumping together on the field with a stadium crowd in the background."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two soccer players in [ORGANIZATION] jerseys celebrate a goal"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two football players celebrate a goal with a hand gesture in a stadium setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two [ORGANIZATION] football players in striped kits raise their arms together in a celebratory moment on the pitch, with a small stat graphic in the corner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two soccer players in [LOCATION] celebrate a goal."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two soccer players in [ORGANIZATION] jerseys celebrate with a high-five gesture on a stadium field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two soccer players in [ORGANIZATION] kits celebrate on a stadium pitch while raising their hands."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a football jersey is making a hand gesture while posing."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a blue-and-red striped jersey poses with crossed arms and hand signs on the field in a stylized close-up sports photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a sports jersey clapping hands."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a striped jersey claps his hands while wearing a wristband."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player with curly hair stands on a field wearing a blue and red striped jersey, clapping his hands while sporting a white bandage on his left wrist."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scoreboard of recent [LOCATION] match results alongside a person in formal attire standing in a stadium."
+        },
+        "gpt-5.4": {
+          "summary": "A football graphic shows [LOCATION] recent match results beside a coach standing at Old [PERSON], with mostly wins highlighted in green."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a black suit stands beside match results showing [LOCATION] performance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a black coat stands beside a graphic displaying [LOCATION] recent match results."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a black suit stands on a red carpet next to a graphic displaying seven football match results featuring [LOCATION]."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows a person with very voluminous,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with voluminous curly hair, partially obscured face, and wearing a red shirt."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie/video screenshot of a person indoors with very voluminous curly hair, glasses, light facial hair, and a red shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a curly wig and glasses in front of a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a large curly wig and glasses smiles at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with voluminous curly hair, glasses, and facial stubble wearing a red shirt."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses in a stylish outfit featuring a fitted top, patterned skirt, and high-heeled boots in a reflective setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in a dark mirrored space wearing a fitted top, patterned mini skirt, knee-high heeled boots, and a small shoulder bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a stylish outfit posing indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses in a stylish outfit featuring a [PERSON]-patterned mini skirt, olive green top, and black knee-high boots, carrying a [PERSON] handbag against a dark mirrored background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a dark, reflective room poses in profile wearing an olive green top, patterned mini skirt, and black knee-high boots while carrying a designer handbag."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a soccer player in a pink jersey celebrating, with a graphic displaying his total career goals."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional soccer graphic shows a player in a pink kit mid-action on the field with large text highlighting 898 career goals and team-by-team totals."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player celebrates a goal in front of an [LOCATION] stadium backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a pink jersey celebrates with '898 CAREER GOALS' displayed prominently, broken down by club logos and goal counts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A soccer player in a pink uniform celebrates on the field with an overlay graphic displaying '898 CAREER GOALS' and statistics for four teams."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of the golden FIFA World Cup trophy"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the FIFA World Cup trophy prominently displayed against a blurred background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of the gold FIFA World Cup trophy displayed on a white pedestal against a dark blurred background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a golden FIFA World Cup trophy against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of the FIFA World Cup trophy, golden and detailed, displayed on a pedestal with 'Original Trophy' text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of the golden FIFA World Cup trophy resting on a white display stand against a dark background."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A graphic displays a football match between [LOCATION] and [ORGANIZATION], showing an aggregate"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a match schedule between [LOCATION] and [ORGANIZATION] with a score aggregate of 0-4."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed football match graphic shows [ORGANIZATION] vs [ORGANIZATION] scheduled for tomorrow at 21:00 with aggregate score [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A match prediction showing [ORGANIZATION] vs. [ORGANIZATION] scheduled for tomorrow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football match graphic showing [PERSON] vs. [ORGANIZATION] with an aggregate score of 0-4 and kickoff at 21:00 tomorrow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displays a football match schedule between [LOCATION] and [ORGANIZATION] set for tomorrow at 21:00, with an aggregate score of 0-4."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a black suit and tie, appearing to be in a sports setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows a man in a black suit and tie at a blurred stadium or sports venue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a dark suit appears contemplative against an out-of-focus stadium backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with curly hair and a beard, wearing a dark suit and tie, looks intently forward against a blurred stadium background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a man with curly hair and a beard wearing a black suit, shirt, and tie against a blurred blue background."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a soccer team formation with player names arranged on a green background."
+        },
+        "gpt-5.4": {
+          "summary": "A green soccer lineup graphic shows [ORGANIZATION] player icons arranged on a pitch with names including [PERSON], [PERSON], and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A team lineup featuring players from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green background displays a football team formation with player headshots and names."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displays a football team lineup on a green background, featuring circular headshots of players with the [ORGANIZATION] crest and their names."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smartphone screen displays social media notifications, showing new followers and likes on a reply."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a notification screen from a social media app showing recent followers and likes."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows the Snapchat Notifications page with recent follow and like alerts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Notifications screen showing recent interactions from users."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Snapchat notifications screen showing new followers and likes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile phone's Snapchat notifications screen showing recent followers and likes from a user named [ACCOUNT]."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hooded figure representing [ORGANIZATION], with a scoreboard indicating a match against [ORGANIZATION] at 8:00 PM."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic football match graphic shows a hooded [LOCATION] figure above several player portraits with a [LOCATION] vs [ORGANIZATION] promo and a 0–4 aggregate score."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring a [ORGANIZATION] coach looking serious above players from both teams in anticipation of an upcoming match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sports graphic showing a coach and players ready for a football match with the text 'Revenge time' and scoreline '[ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sports graphic featuring [ORGANIZATION] manager [PERSON] and a lineup of players, promoting an upcoming match against [ORGANIZATION] with the caption 'Revenge time'."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a soccer team formation with player names arranged on a green background."
+        },
+        "gpt-5.4": {
+          "summary": "A green soccer lineup graphic shows Atlético-style player headshots arranged by position with names such as Álvarez, [PERSON], and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A team lineup featuring players from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green-background graphic showing a football team lineup with player headshots and names."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displays a football team lineup on a green background, featuring circular headshots of players with the [ORGANIZATION] crest and their names."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the confirmed lineups for [ORGANIZATION] in a 4-3-3 formation."
+        },
+        "gpt-5.4": {
+          "summary": "A Sofascore graphic shows [ORGANIZATION]’s confirmed starting lineup in a 4-3-3 formation with player headshots and names on a pitch diagram."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer lineup of [ORGANIZATION]'s confirmed team formation in a 4-3-3 setup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer lineup graphic for [ORGANIZATION] showing player photos and names in a 4-3-3 formation."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic displaying the confirmed 4-3-3 starting lineup for [ORGANIZATION], featuring player headshots and names on a dark background."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile screen displays a social media account'"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays account analytics with various metrics related to social media engagement and performance."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode mobile screenshot shows a social media account analytics dashboard with bar charts and metrics for impressions, engagement, replies, likes, and shares."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Account analytics showing engagement metrics over a week."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed mobile analytics dashboard showing declining social media metrics over recent days."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a social media account analytics dashboard displaying performance metrics like impressions, engagement rate, and follower counts over a week in late February to early March."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two football players from [ORGANIZATION] celebrating a goal during a match against [ORGANIZATION], with a score of 3-0 displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer match graphic shows two [ORGANIZATION] players high-fiving on the pitch with a 3–0 scoreline against [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two [ORGANIZATION] players celebrate a goal during their match against [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two [ORGANIZATION] soccer players celebrate a goal during a match against [ORGANIZATION], with the score displayed as 3-0."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two [ORGANIZATION] football players, [PERSON] and [PERSON], celebrate on the pitch during a match against [ORGANIZATION] which ended with a 3-0 scoreline."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a person with dark skin crying, with tears streaming down their face and one hand near their forehead."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a person with a tear rolling down their cheek, expressing deep emotion."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a crying child with a tear on the cheek and a hand resting on the forehead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person crying while resting their head in their hand."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a young person crying, with one hand resting on their head."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a young child with short hair lying down, visibly crying with a tear running down their cheek while resting a hand on their forehead."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a blue and red soccer jersey with '[PERSON] and '10' on the back walks through a blue-walled tunnel."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a [LOCATION] football jersey with the name '[ORGANIZATION] and the number '10' is walking down a corridor."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a blue-and-red FC [LOCATION] with number 10 walks through a blue stadium tunnel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] walks through an indoor corridor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player wearing a [LOCATION] with the name '[PERSON] and number '10' walks down a blue tunnel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A soccer player wearing a blue and red striped jersey with the name '[PERSON] and number '10' on the back is walking down a blue tunnel."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a black athletic outfit is performing on a sports field, with spectators in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a black kit with a red chest logo is running during a match, with spectators blurred in the stadium background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] runs during a match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a [LOCATION] with a red [ORGANIZATION] logo runs during a match, with spectators visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a black kit with a red [ORGANIZATION] logo runs on the pitch during a match."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player wearing a [LOCATION] walks on the field during a match."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a red-and-blue [PERSON] kit is standing on the field during a match with a blurred stadium crowd behind him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] [LOCATION] walks across what appears to be an empty stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a [LOCATION] with [ORGANIZATION] and Ambilight logos stands on a field during a match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player with dreadlocks stands on a pitch wearing the red and blue home kit of [LOCATION], featuring a [ORGANIZATION] logo and Ambilight sponsor text."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in a [LOCATION] celebrates while holding a ball."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in an [LOCATION] [LOCATION] holds a ball and raises a clenched fist during a match, with a blurred stadium crowd in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] celebrates while holding an official match ball."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a [LOCATION] celebrates while holding a match ball."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a blue and red striped jersey celebrates with a raised fist while holding a match ball."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in a yellow jersey with a [ORGANIZATION] logo and a captain's armband stands in a rain-soaked environment."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up action portrait shows a soccer player in an [LOCATION] away kit wearing a captain’s armband on a rainy pitch."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] stands confidently during what appears to be an evening match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A male soccer player in a light yellow [LOCATION] [LOCATION] stands with hands on hips during a rainy match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a cream-colored [ORGANIZATION] away [LOCATION] stands on a field with rain visible in the background."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two football players embrace after a match, with the final score displayed as [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A football match graphic shows two Arsenal players celebrating with the final score [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two soccer players celebrate a goal scored by [PERSON] in [ORGANIZATION]'s victory over [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two football players celebrate a goal in an Arsenal kit, with match result and scorer details overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two football players in Arsenal kits celebrate a match victory with the final score displayed as [ORGANIZATION] 0 - 1 Arsenal."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a football match result between [LOCATION] and [ORGANIZATION], ending in a 2-2 draw."
+        },
+        "gpt-5.4": {
+          "summary": "A match graphic shows a [LOCATION] player celebrating with the full-time score [LOCATION] 2–2 [ORGANIZATION] on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player celebrates a goal in front of [LOCATION] logo."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [LOCATION] football player celebrates during a 2-2 draw against [ORGANIZATION], with match details and scorer names displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [LOCATION] football player in a light blue kit celebrates on the pitch during a match that ended in a 2-2 draw against [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "An elephant wearing an [LOCATION] relaxes on a tree branch during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A football meme shows Arsenal leading a league table above a stylized image of an elephant in an Arsenal shirt relaxing on a tree branch at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon elephant in an [LOCATION] lounges on a tree branch against a sunset backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An elephant wearing an Arsenal football jersey lounges in a tree against a sunset backdrop, above a [ORGANIZATION] table showing [ORGANIZATION] leading [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital illustration of an elephant wearing a [ORGANIZATION] football jersey relaxing on a tree branch at sunset, overlaid with a [ORGANIZATION] table showing Arsenal in first place."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with very voluminous, curly brown hair and glasses, wearing a red shirt, is looking directly at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with voluminous, curly hair, partially obscured face, and wearing a red shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person with very large curly hair, glasses, and a red shirt, with phone status icons visible at the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a curly wig and glasses poses in front of a plain wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a large curly wig and glasses smiles at the camera indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with voluminous curly brown hair, glasses, and facial stubble wearing a red shirt."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Three football players in [ORGANIZATION] kits pose dramatically on the pitch under a full moon."
+        },
+        "gpt-5.4": {
+          "summary": "Three [ORGANIZATION] players in home kits pose dramatically on a soccer field at night in a crowded stadium, with the central player highlighted under the moon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] stands confidently during pre-game activities."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three soccer players in [ORGANIZATION] jerseys stand on a stadium field under dramatic lighting with a moon overhead."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A composite image featuring three instances of a male soccer player in a blue and red FC [LOCATION] kit posing on a stadium pitch at night."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tattoo of the word 'RISK' represented with block letters."
+        },
+        "gpt-5.4": {
+          "summary": "A minimalist black tattoo on skin shows rounded letter blocks arranged to spell “RISK,” with “C” and “H” stacked above the last two letters."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A drawing of [ORGANIZATION] tiles spelling out 'RISK' against a textured background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tattoo of the word 'RISK' formed by dice-like blocks on skin."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a tattoo on skin featuring the word 'RISK' spelled out using [ORGANIZATION]-like letter tiles, with the letters C and H stacked vertically above [PERSON]"
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A sports league table showing [ORGANIZATION] standings is displayed above an image of an elephant wearing an [LOCATION], relaxing on a tree branch during a sunset over a savanna."
+        },
+        "gpt-4o-mini": {
+          "summary": "An elephant wearing an [LOCATION] relaxes on a tree branch during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous football meme shows Arsenal leading the table above [LOCATION], with a relaxed elephant in an Arsenal shirt lounging in a tree at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A digitally edited elephant wearing an Arsenal jersey lounges in a tree during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An elephant wearing an Arsenal football jersey lounges in a tree as a sunset backdrop, above a league table showing [ORGANIZATION] leading [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital illustration of an elephant wearing an Arsenal football jersey relaxing on a tree branch at sunset, overlaid with a [ORGANIZATION] table showing Arsenal in first place."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of basketball players in white and green uniforms celebrating on the court."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] player in a white uniform pumps his fist on the court during an [ORGANIZATION] game, with teammates and the basket visible behind him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A basketball player in a [ORGANIZATION] jersey celebrates during an [ORGANIZATION] game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[ORGANIZATION] basketball players celebrate during a game, with player #0 prominently featured."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A basketball player in a white [ORGANIZATION] jersey with the number 0 celebrates on the court while teammates stand nearby during a game."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "[PERSON]"
+        },
+        "gpt-4o-mini": {
+          "summary": "A handshake between a man in a suit and a man in a suit with a red tie, with a group of people in formal attire in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Two suited men shake hands beside a presidential podium while a group of formally dressed men stand behind them applauding."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man shakes hands with another in front of a podium bearing [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit shakes hands with another man at a podium bearing the Seal of the President of [LOCATION], while others in suits watch and applaud."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit shakes hands with [PERSON] at a podium bearing [ORGANIZATION], while a group of men in suits applauds in the background."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two men are walking through a formal indoor setting, one in a suit with a red tie and the other in a dark suit with a badge."
+        },
+        "gpt-5.4": {
+          "summary": "Two men in dark suits walk through an ornate indoor hallway with a red carpet, one carrying a folder and the other wearing a blazer with a sports-style crest."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men in formal attire walk down a hallway."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in suits walk down a red-carpeted hallway, one holding a folder and the other wearing a jacket with an emblem."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digitally manipulated image showing [PERSON] and [PERSON] walking together in a formal hallway."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a basketball player in a [LOCATION] jersey alongside a list of all-time leaders in field goals made in the regular season."
+        },
+        "gpt-5.4": {
+          "summary": "A sports graphic shows [PERSON] in a [LOCATION] beside an [ORGANIZATION] all-time regular season field goals made leaderboard with him ranked first."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A graphic ranking [PERSON] as first in all-time regular season field goals made."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A basketball player in a [LOCATION] smiles beside a leaderboard showing all-time regular season field goals made, with [PERSON] ranked first."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic displays a smiling [PERSON] in a yellow [LOCATION] alongside an 'All-Time Leaders Regular Season' list for Field Goals Made, where he is ranked first."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A soccer player in a red and white uniform with the number 14 is celebrating on a green field, pointing upwards, with teammates and a blurred stadium crowd in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of football players in red and white uniforms celebrating on the field."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] player in a red-and-white kit celebrates while running on the soccer field, with teammates and a crowded stadium behind him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a red [LOCATION] jersey celebrates after scoring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a red and white striped [PERSON] celebrates on a field with teammates, surrounded by spectators."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a red and white striped [LOCATION] with the number 14 celebrates on a green pitch while teammates run behind him."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a male basketball player in a white and green Celtics jersey with the number 0, looking intently to the side during a game."
+        },
+        "gpt-4o-mini": {
+          "summary": "A basketball player wearing a [ORGANIZATION] jersey is in action on the court."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a basketball player in a white [ORGANIZATION] jersey during a game, looking off to the side on the court."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A basketball player in a [ORGANIZATION] jersey appears focused during gameplay."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A basketball player in a white [ORGANIZATION] jersey with green trim looks intently to the side during a game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a male basketball player wearing a white [ORGANIZATION] jersey with green trim during a game."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two side-by-side photos of a man in a suit walking with another individual in a casual outfit, both in different settings."
+        },
+        "gpt-5.4": {
+          "summary": "A side-by-side composite shows an older man in a dark suit and red tie walking indoors with two different men in separate formal hallway scenes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two men in suits walk side by side indoors; one laughs while walking."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Split image showing two men walking in formal settings, one laughing and the other with a serious expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split image showing [PERSON] walking with [PERSON] on the left and [PERSON] on the right in formal indoor settings."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A composite image featuring a smiling football player in a [ORGANIZATION] uniform alongside the [ORGANIZATION] logo and a news announcement about a trade."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a football player in a black jersey with a breaking news graphic about a trade involving the Ravens and [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A sports news graphic shows a football player in a [ORGANIZATION]98 uniform beside the [ORGANIZATION] logo with a breaking headline about trading for [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football player in a [LOCATION] smiles next to an [ORGANIZATION] logo of [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling football player in an [ORGANIZATION] uniform is featured alongside a breaking news graphic about the [ORGANIZATION] trading for [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split graphic features a smiling football player in an [ORGANIZATION] uniform on the left and the [ORGANIZATION] logo with text announcing a trade on the right."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A basketball player in a green '[ORGANIZATION] jersey celebrates on the court with fans cheering in the background, under the text '[ORGANIZATION]."
+        },
+        "gpt-4o-mini": {
+          "summary": "A [ORGANIZATION] player celebrates a victory with fans cheering in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] player in a green #0 jersey raises one arm on the court while the crowd celebrates beneath a large \"[ORGANIZATION] WIN\" graphic."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A basketball player in a [ORGANIZATION] jersey celebrates as fans cheer during an [ORGANIZATION] game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] basketball player celebrates a victory on the court with fans cheering behind him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A basketball player in a green [ORGANIZATION] jersey celebrates on the court with fans cheering in the background."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital display shows [PERSON] net worth as 725.7 billion USD in 2026, alongside a portrait of him in a tuxedo"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a financial summary indicating a net worth of 725.7 billion USD for the year 2026."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a dark-mode search result about [PERSON] net worth with a large figure, year, and a portrait photo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot showing [PERSON] net worth of $725.7 billion USD in 2026."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A digital display showing [PERSON] net worth as 725.7 billion USD in 2026, sourced from [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital card displays a projected net worth of 725.7 billion USD for [PERSON] in the year 2026, accompanied by his portrait and a source citation from [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a football lineup for a match between [ORGANIZATION] and [ORGANIZATION], featuring player names and a coach."
+        },
+        "gpt-5.4": {
+          "summary": "A football lineup graphic shows a player in an [ORGANIZATION] kit with 'ALINEACIÓ' text and the match listing for [ORGANIZATION] vs [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football player in a [LOCATION] stands confidently against an athletic club logo background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football player in a [LOCATION] stands in front of a stadium crowd, with team lineup text and logos below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic for a football match between [ORGANIZATION] and [ORGANIZATION], featuring a digital rendering of [PERSON] in the [LOCATION] kit."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a pink sports jacket with a logo, likely related to a soccer team, is shown in a close-up."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up portrait of a smiling soccer player wearing a pink [LOCATION] training top in a stadium setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A smiling individual wearing a pink sports jacket with '[ORGANIZATION] [LOCATION]' logo."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling man in a pink and black athletic jacket with a club crest."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a smiling man wearing a pink and black athletic jacket with the Inter Miami CF logo."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie in a gym, showing various exercise equipment and other gym-goers in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a gym mirror, surrounded by gym equipment and other gym-goers."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a gym shows a person standing in front of weight machines and racks in a brightly lit workout area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a gym, surrounded by exercise equipment and other patrons."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a black jacket and grey sweatpants takes a mirror selfie inside a gym, with various exercise equipment and other patrons visible in the background."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays account analytics with various metrics related to posts and engagement over a specified date range."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode smartphone screenshot shows an account analytics dashboard with a posts/replies bar chart and engagement metrics."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Account analytics showing engagement metrics over a week."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed mobile app screen showing account analytics with metrics like impressions, engagements, and follower count."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a social media account analytics dashboard displaying performance metrics such as impressions, engagement rate, and follower counts over a week in March."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young child dressed in a white lab coat"
+        },
+        "gpt-4o-mini": {
+          "summary": "A child dressed in a nurse's uniform with a stethoscope, standing in a casual setting."
+        },
+        "gpt-5.4": {
+          "summary": "A young child in a nurse costume with a stethoscope is posing indoors with a skeptical or unimpressed expression."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Child dressed as a nurse wearing medical scrubs and stethoscope."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young child dressed as a nurse with a white uniform, stethoscope, and cap featuring a red cross, looking serious."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A young child dressed in a white nurse's uniform with a red cross hat and stethoscope, displaying a skeptical or unimpressed facial expression."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An animated character with a beard and blue beanie makes a peace sign gesture, with a text bubble overlay reading \"Me and following back.\""
+        },
+        "gpt-4o-mini": {
+          "summary": "An animated character is making a peace sign gesture with the caption 'Me and following back'."
+        },
+        "gpt-5.4": {
+          "summary": "An illustrated meme-style image shows a bearded character in a blue cap pointing at the viewer and making a peace sign, with overlaid text about following back."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character making a peace sign gesture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An animated man wearing a blue cap makes a peace sign while text reads 'Me and following back'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An animated character with a beard and blue beanie holds up two fingers while a text overlay reads 'Me and following back'."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cartoon character with a skeptical expression gestures towards the text \"Follow and grow\" and a blue verified badge, set against a dark background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person gesturing with outstretched hands, accompanied by the text 'Follow and grow' and a blue checkmark icon."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon-style shrugging character gestures toward the text \"Follow and grow\" beside a blue verification checkmark on a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Cartoon character with arms outstretched against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon character gestures invitingly beside the text 'Follow and grow' with a blue checkmark icon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon character gestures towards the text 'Follow and grow' accompanied by a blue verification checkmark icon."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A view of the [ORGANIZATION] MAN clothing store entrance in a shopping mall, featuring a brightly lit sign, mannequins, and racks of clothing."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the entrance of a clothing store named '[PERSON]' with displayed apparel and a mannequin."
+        },
+        "gpt-5.4": {
+          "summary": "A [PERSON] clothing store entrance in a shopping mall is shown with neatly displayed menswear and a mannequin inside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view of a [LOCATION] clothing store entrance in an indoor shopping mall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A modern [LOCATION] men's clothing store entrance with a mannequin wearing a leather jacket and racks of apparel visible inside."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A brightly lit retail storefront for a men's clothing store named '[PERSON]' featuring mannequins and racks of apparel inside."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a laptop, a watch, AirPods, and a wallet arranged on a gray bedspread."
+        },
+        "gpt-5.4": {
+          "summary": "A laptop, metal wristwatch, card holder, and white wireless earbud case are laid out on a gray bedspread."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A laptop displaying a car wallpaper sits next to an [ORGANIZATION], AirPods case, wallet, and phone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A laptop with a car wallpaper sits open on a gray bedspread, accompanied by a watch, wallet, and [PERSON] case."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A top-down view of a laptop, [LOCATION], and wireless earbuds arranged on a grey comforter."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a football player in a [ORGANIZATION] uniform with a 'Breaking News' banner from [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up sports graphic shows a smiling [ORGANIZATION] player in a [ORGANIZATION] uniform with a large [ORGANIZATION] '[ORGANIZATION] banner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football player in a [ORGANIZATION] uniform smiles under an [ORGANIZATION] Breaking News banner."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling [ORGANIZATION] football player in [LOCATION] with red stripes and 'ny' logo, wearing a black headband with the [ORGANIZATION] logo, against a blurred stadium background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling male American football player in a white [ORGANIZATION] uniform with the number 14, overlaid with an [ORGANIZATION] '[ORGANIZATION] graphic."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a football player in a Jaguars uniform with a 'BREAKING NEWS' banner at the bottom."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up [ORGANIZATION]-style graphic shows a football player in a [LOCATION] uniform with a large \"BREAKING NEWS\" banner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football player in a [LOCATION] uniform stands ready during an ESPN Breaking News broadcast."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football player in a [LOCATION] uniform with the number 1, overlaid with a 'BREAKING NEWS' [ORGANIZATION] graphic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of an American football player in a white [LOCATION] uniform with the number 1, overlaid with a 'BREAKING NEWS' graphic from [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lounging on a bed while watching a video on a laptop, featuring a speaker in traditional attire."
+        },
+        "gpt-5.4": {
+          "summary": "A person in [ORGANIZATION] is relaxing on a bed while watching a religious talk on a laptop, with a patterned card holder beside them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person lying in bed watching a religious video."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person lounges on a bed watching a religious speaker on a laptop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of someone in [ORGANIZATION] lying on a bed, watching a religious lecture by a bearded speaker on an HP laptop."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a light pink [ORGANIZATION] jersey with a [ORGANIZATION] logo."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a football player in an [LOCATION] pink training top on a dark, blurred stadium background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] training [LOCATION] looks off into the distance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A male soccer player in a pink training jacket with [ORGANIZATION] and [ORGANIZATION] logos looks off-camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male athlete in a peach-colored training top featuring the [ORGANIZATION] [ORGANIZATION] and [ORGANIZATION] logo stands on a field with a focused expression."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image features a bearded man in a light blue and white striped sports jersey looking upwards, with a quote overlaid on the left side."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a soccer player in an [LOCATION] jersey with a quote about a significant moment in a match."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up sports edit shows a footballer in an [LOCATION] looking upward, with a large overlaid quote and a smaller caption mentioning [PERSON] before a penalty."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of [PERSON] in a soccer jersey with an inspirational quote."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of [PERSON] in an [LOCATION] looking upward with a quote overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of [PERSON] in an [LOCATION] looking upward, overlaid with a quote attributed to him before a penalty kick."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player gestures while a betting odds list for the [ORGANIZATION] d'Or winner is displayed beside him."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a cream kit poses during a match beside a betting graphic listing [ORGANIZATION] winner odds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football player in a beige jersey claps his hands during what appears to be an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a beige jersey with a [ORGANIZATION] logo stands with hands clasped near his chest, next to a betting odds board for the [ORGANIZATION] d'Or winner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male football player in a beige kit with a [ORGANIZATION] logo stands on a pitch while an overlay displays betting odds for the [ORGANIZATION] d'Or winner."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the schedule for [ORGANIZATION] 16 first legs on a Tuesday, featuring match times and team logos."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] graphic lists Tuesday Round of 16 first-leg football fixtures with club logos and kickoff times."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A schedule of [ORGANIZATION] matches featuring teams like [PERSON] vs [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] match schedule graphic for Tuesday, listing four fixtures with team logos and kickoff times."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic displaying the Tuesday Round of 16 first-leg football match schedule featuring [PERSON] vs [LOCATION], [LOCATION] vs [LOCATION], [ORGANIZATION] vs [ORGANIZATION], and [LOCATION] vs [LOCATION]."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a football lineup for a match between [ORGANIZATION] and [LOCATION], featuring player names and match details."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional football lineup graphic shows a celebrating [ORGANIZATION] player in an orange kit with match details and the starting [ORGANIZATION] for a game against [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] celebrates under stadium lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football player in an [LOCATION] celebrates triumphantly on a stadium field, with a poster announcing the starting lineup for a [ORGANIZATION] match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic displaying the starting lineup for a [ORGANIZATION] match between [LOCATION] and [ORGANIZATION], featuring player [PERSON] celebrating in an orange kit."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two football players celebrate a victory after a match where [PERSON] defeated [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A football match graphic shows two [ORGANIZATION] players celebrating with a full-time score of 1-0 against [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two soccer players celebrate a goal scored by [LOCATION] against [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two football players in [LOCATION] jerseys celebrate a goal scored against [LOCATION] during a [ORGANIZATION] match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two [LOCATION] football players celebrate a victory in red and orange kits, with an overlay showing a final score of 1-0 against [LOCATION]."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a soccer match score between [LOCATION] and [LOCATION], highlighting key players and their respective goals."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized football match graphic shows two players in close action with a 1–1 scoreline between [LOCATION] and [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer match moment featuring players from [LOCATION] (orange) and [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two soccer players in action during a match, with one wearing an [LOCATION] and a face mask, and the other in a black-and-white striped [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sports graphic showing a football match between [LOCATION] and [ORGANIZATION] ending in an 11-1 draw, with one player wearing a mask."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait shows a man with light-colored hair and a beard,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a maroon sports jacket, likely in a sports context."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up portrait of a person with bleached short hair wearing a maroon zip-up sports jacket, with a blurred stadium-like background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person wearing a maroon sports jacket."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a man with bleached hair wearing a maroon zip-up jacket, looking upward with a focused expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a male athlete with bleached blonde hair wearing a maroon zip-up jacket, captured in a stadium setting."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male soccer"
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of soccer players in [LOCATION] celebrating on the field."
+        },
+        "gpt-5.4": {
+          "summary": "Two [ORGANIZATION] soccer players in white kits stand on the field during a match, with the captain's armband visible and a stadium crowd blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] celebrates during a match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in [LOCATION] with the name 'VALVERDE' and number '8' clenches his fist while standing on a field with teammates."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A soccer player in a white [ORGANIZATION] jersey with the name [PERSON] and number 8 on the back celebrates on the field while teammates stand nearby."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a party hat is preparing to celebrate with a birthday cake that has lit candles."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a dim red-lit room lights candles on a decorated birthday cake placed on a wooden table."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person lighting candles on a birthday cake labeled 'Leveling Up!'"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blue party hat blows out candles on a cake that reads 'Leveling up!' while standing under red lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a blue party hat leans over a birthday cake with lit candles while lighting another candle in a room illuminated by red ambient light."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a lighter in front of a birthday cake with lit candles, celebrating a special occasion."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands behind a birthday cake with lit candles, holding a lighter in a red-lit indoor room with a motivational money poster on the wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person lighting candles on a birthday cake labeled 'Leveling Up!'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person lights a candle on a birthday cake with \"Leveling up!\" written on it, while standing in front of a wall chart titled \"The Road to a Million Dollars.\""
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a party hat lights candles on a birthday cake with 'Leveling up!' written in icing, set against a wall featuring a financial goal chart."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of soccer players in [LOCATION] celebrating on the field during a match."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a [ORGANIZATION] kit looks back on the field during a match, with teammates and a blurred stadium crowd behind him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] celebrates during a match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a white [ORGANIZATION] jersey with the number 8 and name '[PERSON]' raises his fist in celebration during a match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A soccer player wearing a [LOCATION] with the name 'VALVERDE' and number '8' celebrates on a field while teammates stand nearby in a stadium filled with spectators."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the results of various football matches in a tournament format."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows football match scores for a Round of 16 leg, listing clubs like [LOCATION], [LOCATION], [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], and [LOCATION], with several scores circled in red."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer match scoreboard showing results of Round of 16 Leg 1 matches."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scoreboard showing football match results from the Round of 16, Leg 1 of 2, with some scores circled in red."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital scoreboard displays the results of Round of 16 matches, highlighting specific scores with red circles."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two male soccer players in dark blue and red striped uniforms are celebrating on a green field in a stadium at night, with one player raising his fist in excitement."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two soccer players celebrate a goal on the field."
+        },
+        "gpt-5.4": {
+          "summary": "Two [ORGANIZATION] soccer players in dark kits celebrate together while running in front of the goal during a match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two soccer players celebrate a goal in front of their team's flag."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two football players in [LOCATION] jerseys celebrate joyfully near a goal net on a stadium field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two soccer players in [LOCATION] jerseys celebrate a goal on the field with arms around each other."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two male soccer players in [ORGANIZATION] are celebrating intensely on a field, with one player hugging the other from behind."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two football players in [ORGANIZATION] in celebration."
+        },
+        "gpt-5.4": {
+          "summary": "Two soccer players in blue [PERSON] kits celebrate intensely on the field, shouting with arms around each other."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two soccer players celebrate enthusiastically in a stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two football players in blue jerseys celebrate enthusiastically during a match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two male soccer players in [ORGANIZATION] celebrate intensely on a pitch with stadium lights and advertising boards in the background."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in a [LOCATION] is pulling up his shirt during a match."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a white [ORGANIZATION] kit stands on the field kissing the team shirt during a match, with a blurred stadium crowd behind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] adjusts his collar during gameplay."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a white Real [LOCATION] jersey and shorts with the number 7 is seen biting his shirt while standing on a field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a white [ORGANIZATION] kit with the number 7 on his shorts is shown from the side, lifting his jersey to his face while standing on a pitch."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile phone screen displays a dark-themed '[ORGANIZATION] dashboard, showing various metrics and charts related to social media activity."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an account analytics dashboard with various engagement metrics and statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows an account analytics dashboard with bar charts for posts and replies plus metrics such as impressions, engagement, likes, and profile visits."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Account analytics showing engagement metrics over a week."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile screen displaying account analytics with charts and metrics like impressions, engagement rate, and follower count."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile social media account analytics dashboard displaying engagement metrics, follower counts, and activity charts for early March."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a soccer match scene with players from two teams in action, highlighting a player celebrating a moment on the field."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel soccer image shows a late-match attacking moment in [ORGANIZATION] vs [ORGANIZATION] and then a [ORGANIZATION] player celebrating on the field in front of the crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer match in progress showing a player celebrating after scoring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player celebrates after scoring a goal during a match, with the top panel showing the play and the bottom panel showing his joyful reaction."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image showing a football match between [ORGANIZATION] and [ORGANIZATION] with a player in a dark [LOCATION] celebrating on the pitch."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A graphic displays the 'Team of the Week' for a football competition, featuring headshots of eleven male players with their names and club logos arranged in a football formation on a blue background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a 'Team of the Week' graphic featuring various football players arranged in a formation."
+        },
+        "gpt-5.4": {
+          "summary": "A blue [ORGANIZATION]Team of the Week' graphic shows a soccer lineup with player headshots, club badges, and names."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A graphic showcasing [ORGANIZATION] the Week featuring players from various clubs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] the Week' graphic displaying eleven football players in a formation with their names and club crests."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic displaying [ORGANIZATION] featuring headshots and names of eleven football players arranged in a formation on a blue background."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A basketball player in a blue [LOCATION] Thunder jersey sits on the bench, wearing pink sneakers and a headband."
+        },
+        "gpt-5.4": {
+          "summary": "A basketball player in a blue Thunder uniform lounges across the bench courtside under dramatic lighting during an [ORGANIZATION] game."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A basketball player in a [LOCATION] sits on the bench during an [ORGANIZATION] game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A basketball player in an [LOCATION] Thunder jersey sits casually on a bench with 'GET THE App' branding visible behind him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A basketball player wearing a blue [LOCATION] Thunder jersey and pink sneakers sits on the bench with his arms spread wide."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a white basketball jersey with blue and gold accents poses with a basketball against a plain white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A basketball player in a Golden State Warriors jersey poses with a basketball."
+        },
+        "gpt-5.4": {
+          "summary": "A studio portrait shows a basketball player in a Golden State Warriors #30 jersey holding a [ORGANIZATION] basketball against a plain white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A basketball player in a Golden State Warriors jersey poses confidently holding an official [PERSON] game ball."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A basketball player in a Golden State Warriors jersey holds a [ORGANIZATION] basketball against a white background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male basketball player in a Golden State Warriors jersey poses with a [ORGANIZATION] basketball against a white background."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic portrait features a young man in a blue and [ORGANIZATION] with the [ORGANIZATION] crest, looking seriously at the camera, with a quote attributed to '[PERSON]' and a date above him."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a [LOCATION] expresses commitment to the team with a quote."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic portrait shows a football player in an [LOCATION] [LOCATION] holding the club crest, with a quote above about defending [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Portrait of a young man in [LOCATION] jersey against dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young soccer player in a [LOCATION] stares intensely against a dark background, with a motivational quote overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A studio portrait of a male football player in an [LOCATION] [LOCATION] against a dark background, accompanied by a quote about returning to defend the club."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player celebrates after a match where [ORGANIZATION] defeated [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A football player in an Arsenal kit celebrates with both arms raised over a match graphic showing [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player celebrates after scoring a goal in an Arsenal vs. [ORGANIZATION] match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football player in an [LOCATION] celebrates with arms raised after a 2-0 win over [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male football player in a [ORGANIZATION] jersey celebrates with raised arms, overlaid with a graphic showing a final score of 2-0 against [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male soccer player with a beard and tattoos is shown from the chest up, wearing a light blue and white striped jersey with the number 10, looking intently forward on a blurred stadium background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in an [LOCATION] is in action on the field."
+        },
+        "gpt-5.4": {
+          "summary": "A football player in an [LOCATION] number [LOCATION] is on the field during a match with a blurred stadium crowd in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in an [LOCATION] national team jersey during a match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in an [LOCATION] national team jersey with the number 10, standing on a field during a match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a light blue and white striped [LOCATION] with the number 10 is captured mid-game on a stadium field."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two male football players, one in an [LOCATION] and one in a [LOCATION], stand on opposite sides of a display case containing a trophy, with the word \"CANCELLED\" prominently displayed at the bottom"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two football players stand facing each other in front of a trophy display, with the word 'CANCELLED' prominently featured."
+        },
+        "gpt-5.4": {
+          "summary": "Two football players in [LOCATION] and [LOCATION] kits stand on either side of a trophy in a glass display case, with a large \"CANCELLED\" overlay at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two soccer players in [LOCATION] and [LOCATION] jerseys stand before a trophy labeled '[ORGANIZATION]', with large text reading \"CANCELLED\"."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two football players in national team kits stand on either side of a trophy displayed in a glass case, with the word 'CANCELLED' prominently overlaid at the bottom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two football players in national team kits stand smiling on either side of a silver trophy displayed in a glass case, with the word 'CANCELLED' overlaid at the bottom."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in a [LOCATION] is kissing the team logo on his shirt during a match."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a blue-and-maroon [ORGANIZATION] kit kisses the club badge on his jersey during a match in a stadium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] appears contemplative during gameplay."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a blue and red striped jersey holds his shirt to his mouth while standing on a field with blurred spectators in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player with braided hair and tattoos kisses the chest of his blue and red striped jersey while standing on a stadium pitch."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male soccer player in a blue and striped [PERSON] holds a yellow soccer ball and makes a fist on a stadium field."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in a colorful jersey holds a ball and poses with a fist raised in celebration on the field."
+        },
+        "gpt-5.4": {
+          "summary": "A football player in a [LOCATION] warm-up top stands on the pitch holding a yellow match ball and raising a fist in a stadium."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Soccer player in a [LOCATION] celebrating while holding a soccer ball."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a [LOCATION] training kit holds a yellow ball and raises a fist on a stadium field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a blue and red striped [ORGANIZATION] training kit poses on a stadium pitch holding a yellow match ball."
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person takes a mirror selfie while wearing a [LOCATION] [LOCATION] with [ORGANIZATION] and [ORGANIZATION] logos."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while wearing a [LOCATION] football jersey and showing a fist pump gesture."
+        },
+        "gpt-5.4": {
+          "summary": "[ORGANIZATION] selfie in a bathroom showing a person wearing an [ORGANIZATION] soccer [PERSON] and raising a fist while holding a phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a selfie in front of [LOCATION] jersey."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a [LOCATION] soccer jersey with a [ORGANIZATION] logo over the chest, holding a phone and raising a fist."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie wearing an [ORGANIZATION] football jersey featuring the [ORGANIZATION] logo and [ORGANIZATION] swoosh."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a mirror while wearing a [LOCATION] football jersey with the name '[ORGANIZATION] and the number '11'."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie in a bathroom shows the back of a person wearing a [LOCATION] soccer jersey with '[ORGANIZATION] and the number 11."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a [LOCATION] [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a bathroom wearing a custom football jersey with '[ORGANIZATION] and the number '11'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a bathroom wearing a blue and red soccer jersey with the name '[ORGANIZATION] and number '11' on the back."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie while wearing a [LOCATION] football jersey and showing a fist pump."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a mirror selfie in a bathroom while raising a fist and wearing an [ORGANIZATION] soccer [PERSON] with a yellow [ORGANIZATION] logo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a selfie wearing [ORGANIZATION] jersey while holding their phone."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie in a mirror while wearing a [LOCATION] football jersey with a [ORGANIZATION] logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie wearing a red and blue [LOCATION] [LOCATION] featuring a [ORGANIZATION] logo, holding a smartphone with one hand and flexing the other."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the second-leg fixtures for [ORGANIZATION], including matchups and aggregate scores."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] graphic lists Round of 16 second-leg football fixtures and aggregate scores for teams including [LOCATION], [PERSON], [LOCATION], [LOCATION], [LOCATION], [LOCATION], [LOCATION], and [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] of 16 second-leg fixtures list."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] of 16 second-leg fixtures poster listing matchups and aggregate scores."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic displaying [ORGANIZATION] of 16 second-leg fixtures with team logos, match days, and aggregate scores."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of celebrating soccer players holds a trophy amidst a cheering crowd in a festive street setting."
+        },
+        "gpt-5.4": {
+          "summary": "A crowd in red and green celebrates in a narrow street with flags and a person holding up a trophy-like cup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people in [LOCATION] celebrates a victory amidst cheering crowds."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pixelated image shows a person in a red sports jersey holding a trophy while surrounded by cheering fans in a street celebration."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pixelated image shows a crowd celebrating in a narrow street, with one person holding a trophy and others wearing red and green sports jerseys."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contains a formal announcement regarding the forfeiture of a football match by [ORGANIZATION] in the CAF Africa Cup of Nations."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a written statement saying the [ORGANIZATION] declared [LOCATION] to have forfeited the AFCON Morocco 2025 final, with a 3–0 result awarded to [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A statement from [ORGANIZATION] regarding [LOCATION]'s forfeit of [ORGANIZATION] final match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A text announcement declares [LOCATION]'s national football team forfeited in the TotalEnergies CAF Africa Cup of Nations Morocco 2025, with the result recorded as 3-0 for [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A text announcement stating that the [ORGANIZATION] declared [ORGANIZATION] forfeited in the AFCON 2025 Final, awarding a 3-0 victory to [LOCATION]."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player celebrates a goal in a packed stadium with fans waving flags."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a [LOCATION]-style kit celebrates a goal in front of cheering fans and photographers under bright stadium lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player celebrates a goal in front of an enthusiastic crowd."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a red and blue striped [LOCATION] to fans after scoring a goal in a brightly lit stadium."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A soccer player in a red and blue striped [PERSON] celebrates on the pitch at night, raising his arm to a cheering crowd under bright stadium lights. The scoreboard indicates a [ORGANIZATION] match with a score of 4-2."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "This is a placeholder summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a live score update of a football match between [LOCATION] and [LOCATION], with [ORGANIZATION] leading 7-2."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows a live football match scoreboard with [LOCATION] leading [LOCATION] 7–2 in the 73rd minute, aggregate 8–3."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a football match score between [LOCATION] ([ORGANIZATION]) vs [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer match scoreboard showing [LOCATION] defeating [LOCATION] 7-2 in the second leg, with an aggregate score of 8-3."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displays a live football match score between [LOCATION] and [LOCATION], showing a 7-2 lead for [LOCATION] at the 73rd minute."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is pointing to the [ORGANIZATION] logo on their jersey."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a person indoors pinching the chest of a blue-and-maroon [ORGANIZATION] soccer [LOCATION], with the club crest and part of the yellow [ORGANIZATION] sponsor logo visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [LOCATION] [LOCATION] holding it open."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person is holding up a [LOCATION] football jersey, showing off the club crest and [ORGANIZATION] sponsor logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a person wearing a blue and red FC [LOCATION], pointing to the team crest while a large yellow [ORGANIZATION] logo is visible on the chest."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two football players in [ORGANIZATION] jerseys celebrate on a field with a crowd in the background, overlaid with a graphic displaying a 7-2 match score and player goal details."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts two football players celebrating a victory with a scoreline of 7-2 in a match between [ORGANIZATION] and [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Two [ORGANIZATION] players celebrate on the pitch in front of a crowd, overlaid with a match graphic showing [LOCATION] beating [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two soccer players from [ORGANIZATION] celebrate a goal in front of an enthusiastic crowd."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two football players in [ORGANIZATION] jerseys celebrate with a high-five on a pitch after a match, with scoreboard graphics overlaying the image."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two [ORGANIZATION] football players celebrate on a pitch while an overlay displays the final score of 7-2 against [LOCATION] with goal scorers listed."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in a [LOCATION] holds a 'Player of the Match' trophy in front of a [ORGANIZATION] backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in an [LOCATION] [LOCATION] poses with a Player of the Match trophy in front of a [ORGANIZATION] interview backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football player in a [LOCATION] holds an award labeled 'Player of the Match'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a [LOCATION] holds a 'Player of the Match' trophy against a [ORGANIZATION] backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a blue and red FC [LOCATION] poses holding a silver 'Player of the Match' trophy against a [ORGANIZATION] backdrop."
+        }
+      }
+    },
+    "image_00122": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital graphic displays a football tournament bracket for the quarter-finals, featuring various club logos and leading to a final in [LOCATION], with [ORGANIZATION] trophy at the center."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the quarter-final matchups for a football tournament, featuring various teams and a trophy in the center."
+        },
+        "gpt-5.4": {
+          "summary": "A blue [ORGANIZATION] quarter-finals bracket graphic shows the trophy in the center and club crests including [ORGANIZATION], [LOCATION], [ORGANIZATION], [LOCATION], [LOCATION], [ORGANIZATION], [LOCATION], and [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] quarter-finals bracket featuring teams like [LOCATION] (PSG), [ORGANIZATION], [LOCATION], [ORGANIZATION] etc."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] quarter-final bracket graphic showing eight teams competing for the trophy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic displaying [ORGANIZATION] quarter-final bracket featuring eight major European football clubs with the trophy centered and text indicating 'Road to Budapest 26'."
+        }
+      }
+    },
+    "image_00123": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A soccer player in a pink uniform celebrates with raised arms on the field."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a pink kit stands on the field with both arms raised in celebration during a match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a pink uniform celebrates enthusiastically."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a pink uniform celebrates with both fists raised on a field at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a pink uniform celebrates on the field with both arms raised."
+        }
+      }
+    },
+    "image_00124": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a basketball player in a [ORGANIZATION] uniform, with a medical update regarding his health condition."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] basketball player stands on court beneath a medical update graphic about [PERSON] being diagnosed with a left lung pneumothorax."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] guard [PERSON] in a medical update post."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A basketball player in a [ORGANIZATION] jersey stands with hands on hips, overlaid with a medical update about his injury."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A basketball player in a blue [LOCATION] Pistons jersey stands on the court with hands on hips, overlaid with a medical update text box."
+        }
+      }
+    },
+    "image_00125": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of football players from [ORGANIZATION] celebrating together on the field after a match."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer team in matching blue-and-maroon kits stands arm-in-arm on the field in a packed stadium under bright lights, appearing to celebrate after a match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Soccer players in [LOCATION] jerseys celebrate together after a match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer team poses together on a lit field at night, smiling and linking arms."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A professional soccer team stands in a line on a stadium pitch at night, posing for a group photo under bright floodlights with spectators in the background."
+        }
+      }
+    },
+    "image_00126": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A player in a [LOCATION] holds a 'Player of the Match' trophy in front of a [ORGANIZATION] backdrop."
+        },
+        "gpt-5.4": {
+          "summary": "A football player in an [LOCATION] [LOCATION] poses with a Player of the Match trophy in front of a [ORGANIZATION] backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] holds an award labeled 'Player of the Match'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a [LOCATION] holds a 'Player of the Match' trophy against a [ORGANIZATION] backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a blue and red FC [LOCATION] poses holding a silver 'Player of the Match' trophy against a [ORGANIZATION] backdrop."
+        }
+      }
+    },
+    "image_00127": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a 'Team of the Week' graphic featuring various football players arranged in a formation."
+        },
+        "gpt-5.4": {
+          "summary": "A blue [ORGANIZATION]Team of the Week' football graphic shows a lineup of selected players with their club badges."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A graphic showcasing [ORGANIZATION] the Week featuring football players in a grid format."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] the Week' graphic displaying eleven football players in a formation with club logos and names."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic displaying [ORGANIZATION] featuring headshots of eleven football players arranged in a formation on a blue background."
+        }
+      }
+    },
+    "image_00128": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image compares two football players, each having scored 900 goals, with their respective games played displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A split-image sports graphic compares two soccer players with the stat of 900 goals, showing one at 1,142 games and the other at 1,236 games."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A comparison of two football players' goal-scoring records."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A split image comparing two soccer players' goal statistics, each having scored 900 goals."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen graphic compares the career goal statistics of two male soccer players, highlighting that one reached 900 goals in fewer games than the other."
+        }
+      }
+    },
+    "image_00129": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a ranking of football wingers based on goals and assists in all competitions this season."
+        },
+        "gpt-5.4": {
+          "summary": "A football stats graphic ranks wingers by total goal contributions this season, led by [PERSON] with 41, followed by [PERSON] and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ranking of top wing players by goals per appearance in all competitions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A leaderboard graphic showing top wing players by goals and assists this season, with player photos, stats, and club crests."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An infographic ranking the top six wingers by goal contributions (G/A) this season, featuring players like [PERSON] and [PERSON] alongside their club logos."
+        }
+      }
+    },
+    "image_00130": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the top Argentine football scorers of all time, featuring their names and goal counts."
+        },
+        "gpt-5.4": {
+          "summary": "A purple football infographic lists the all-time top Argentine scorers, led by [PERSON] with 900 goals, alongside player portraits and [LOCATION] flags."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A ranking of [LOCATION]'s top all-time goal scorers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graphic ranking [LOCATION]'s top all-time scorers with player photos, names, and goal counts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An infographic displaying the top five all-time goal scorers for [LOCATION], led by [PERSON] with 900 goals."
+        }
+      }
+    },
+    "image_00131": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with obscured facial details, alongside football match scores involving [LOCATION] and [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a man wearing glasses is paired with a football graphic showing [ORGANIZATION] losing 5-2 to [ORGANIZATION], 0-1 to [LOCATION], 0-3 to [ORGANIZATION], and 3-0 to [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man wearing glasses stands in front of a scoreboard showing football match results."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in glasses and a hoodie looks forward, with four football match scorelines displayed beside him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a man wearing glasses and a black hoodie, with an overlay of four football match scores involving [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00132": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A soccer player in a blue and pink striped [PERSON] celebrates a goal in a stadium, with a graphic overlay showing a 1-0 score and team logos."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player celebrates a goal during a match, with the final score displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A football match graphic shows a [LOCATION] player celebrating in a stadium with the full-time score [LOCATION]-0 Rayo Vallecano."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player celebrates a goal in front of cheering fans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player celebrates scoring a goal in a stadium, with match result and player info overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A soccer player in a blue and pink [ORGANIZATION] jersey celebrates on the pitch with a crowd in the background, overlaid with match result graphics."
+        }
+      }
+    },
+    "image_00133": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two football players in Tottenham Hotspur kits are engaged in conversation on the field."
+        },
+        "gpt-5.4": {
+          "summary": "Two Tottenham Hotspur players in white kits are shown beside a graphic listing recent match results, with several losses highlighted in red."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two Tottenham Hotspur players are shown in a football stadium during an away match."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two Tottenham Hotspur football players stand beside a graphic displaying recent match results against other [ORGANIZATION] teams."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two Tottenham Hotspur football players stand on a pitch next to a graphic overlay listing recent match scores and results."
+        }
+      }
+    },
+    "image_00134": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bald man with a beard, wearing a blue turtleneck and patterned trousers, jumps and cheers enthusiastically on a football field with a large crowd in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is energetically celebrating on a sports field, surrounded by a cheering crowd."
+        },
+        "gpt-5.4": {
+          "summary": "A man on the sideline of a soccer stadium jumps and pumps his fist in an animated celebration, with a blurred crowd behind him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man celebrates enthusiastically in a stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bald man with a beard jumps joyfully on a soccer field, arms raised, in front of a blurred crowd."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald man in a blue sweater and patterned trousers is captured mid-jump celebrating on a green football pitch with a stadium crowd in the background."
+        }
+      }
+    },
+    "image_00135": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bald"
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in a blue sweater and patterned pants is celebrating with clenched fists in a sports setting."
+        },
+        "gpt-5.4": {
+          "summary": "A bearded man in a blue turtleneck stands at a stadium sideline, shouting with clenched fists in an intense celebratory moment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a blue sweater celebrates enthusiastically."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bald man with a beard in a blue turtleneck celebrates passionately on a sports field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald man with a grey beard, wearing a blue turtleneck and tweed trousers, is captured in profile shouting passionately on a football pitch while clenching his fists."
+        }
+      }
+    },
+    "image_00136": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player celebrates after a match, with the final score displayed as [ORGANIZATION] 3 - 2 [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A celebratory soccer match graphic shows a [ORGANIZATION] player with the final score [ORGANIZATION] 3–2 [ORGANIZATION] and listed scorers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player celebrates a victory in front of [ORGANIZATION] logo."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football player celebrates in a [LOCATION] as a graphic displays [ORGANIZATION] defeating [ORGANIZATION] 3-2."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A football player in a white [ORGANIZATION] jersey celebrates with a clenched fist, overlaid with match statistics showing a 3-2 victory against [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00137": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An image featuring a smiling [PERSON] in"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a ranking of football players based on the most free-kick goals scored, featuring [PERSON] at the top."
+        },
+        "gpt-5.4": {
+          "summary": "A sports graphic shows [PERSON] in an [LOCATION] jersey with a ranking of the most free-kick goals of all time, listing [ORGANIZATION] first and [LOCATION] second."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football player celebrates while a leaderboard of free-kick goals by all-time greats appears in front."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A graphic showing [PERSON] celebrating while ranked second for most free-kick goals of all time."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic displaying the top five all-time free-kick goal scorers, featuring a background image of [PERSON] in an [LOCATION]."
+        }
+      }
+    },
+    "image_00138": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young man wearing headphones and a purple and black [PERSON] jacket with a [ORGANIZATION] logo looks to the side in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a pink athletic jacket with headphones is standing in a modern indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing over-ear headphones and a purple [ORGANIZATION] training jacket stands indoors in a close-up portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a [ORGANIZATION] jacket and headphones stands outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a maroon [ORGANIZATION] jacket with the number 10 and [PERSON] logo, along with over-ear headphones, looks off to the side."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing a maroon and black Real Madrid Adidas jacket with the number 10 and large over-ear headphones stands against a blurred white background."
+        }
+      }
+    },
+    "image_00139": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile application screen displays a list of open sports bets, predominantly featuring [ORGANIZATION] player prop bets for various players to achieve a 'double double' in upcoming games."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a betting interface showing various basketball player bets for double doubles in upcoming games."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile sportsbook app screen shows open [ORGANIZATION] bets and same-game parlays focused on players to record double-doubles."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a sports betting app showing open same-game parlay bets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile app screen showing open sports betting parlays on [ORGANIZATION] games, each targeting specific players to record a double-double."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displaying a list of open Same Game Parlay bets on [ORGANIZATION] basketball games, featuring player props for double doubles."
+        }
+      }
+    },
+    "image_00140": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image features a man with dreadlocks and a beard, wearing a basketball jersey, with '[ORGANIZATION]"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a basketball player in a jersey with a breaking news alert from [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up [ORGANIZATION]-style graphic shows a basketball player in an [LOCATION] Thunder jersey with a 'Breaking News' banner overlay."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A basketball player in a black jersey with '[ORGANIZATION] from [PERSON] displayed below."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a sweaty basketball player in a dark jersey with visible logos, overlaid with a 'BREAKING NEWS' banner."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a male basketball player in a [LOCATION] with visible sweat, overlaid with an [ORGANIZATION] '[ORGANIZATION] graphic attributed to [PERSON]."
+        }
+      }
+    },
+    "image_00141": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young male soccer player in a blue and red striped jersey with a [ORGANIZATION] logo and [ORGANIZATION] crest points to"
+        },
+        "gpt-4o-mini": {
+          "summary": "A football player in a [LOCATION] is celebrating by pointing to the team logo on his shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in an [LOCATION] [LOCATION] and black gloves poses on the field, gesturing toward the club crest after a match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a [LOCATION] [LOCATION] making hand gestures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a [LOCATION] gestures with his gloved hands while on a field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in a blue and red FC [LOCATION] points to the club crest while wearing black gloves on a stadium field."
+        }
+      }
+    },
+    "image_00142": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with a beard, wearing a black long-sleeved shirt with sports logos"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a black [ORGANIZATION] sweatshirt with a [ORGANIZATION] logo is seen in a sports setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a basketball coach or staff member in black [ORGANIZATION] apparel standing courtside during a game."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a black [ORGANIZATION] sweatshirt stands during what appears to be an [ORGANIZATION] game."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a black [ORGANIZATION] Houston Rockets coaching sweatshirt stands focused during a basketball game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard wearing a black [ORGANIZATION] pullover featuring the [ORGANIZATION] logo and an [ORGANIZATION] patch stands on a basketball court sideline."
+        }
+      }
+    },
+    "image_00143": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays an account analytics dashboard with various engagement metrics and statistics."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows an X/Twitter Account Analytics dashboard with activity graphs and metrics like impressions, engagements, likes, replies, and verified followers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Account analytics showing engagement metrics over time."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile screen showing account analytics with metrics like impressions, engagements, and follower count."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile screenshot of a social media account analytics dashboard displaying performance metrics such as impressions, engagement rate, and follower counts over time."
+        }
+      }
+    },
+    "image_00144": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is waving with both hands raised, wearing a sports jacket and a training vest."
+        },
+        "gpt-5.4": {
+          "summary": "A bearded man in sportswear raises both hands in a stadium-like setting, appearing to acknowledge a crowd."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black jacket waves both hands in front of them against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard raises both hands in a gesture of acknowledgment or celebration against a dark background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bearded man in a black jacket and orange training bib raises both hands with palms open against a dark background."
+        }
+      }
+    },
+    "image_00145": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a betting slip for multiple basketball games with player performance predictions."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a sports betting app shows a 23-leg Same Game Parlay+ with [ORGANIZATION] player prop selections across several matchups."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sports betting app displaying a 'Same Game Parlay' bet including multiple [ORGANIZATION] player predictions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sports betting interface displaying multiple Same Game Parlay wagers with player-specific point and assist projections for upcoming [ORGANIZATION] games."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile sports betting interface displaying a 23-leg Same Game Parlay+ slip with player prop bets for multiple [ORGANIZATION] games."
+        }
+      }
+    },
+    "image_00146": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image features a male basketball player in a blue and yellow '[ORGANIZATION] jersey with a white headband, set against a blurred arena background, overlaid with 'BREAKING NEWS' text."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a basketball player in a Golden State Warriors jersey with a breaking news banner."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up [ORGANIZATION] graphic shows a basketball player in a [LOCATION] jersey on the court with a large breaking news banner."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A basketball player in a Golden State Warriors jersey appears alongside '[ORGANIZATION] from [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A basketball player in a Golden State Warriors jersey looks intensely at the camera during a game, with 'BREAKING NEWS' text overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a Golden State Warriors basketball player [PERSON] number 4, overlaid with an [ORGANIZATION] '[ORGANIZATION] graphic attributed to [PERSON]."
+        }
+      }
+    },
+    "image_00147": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile phone screen displays an open sports betting application showing multiple [ORGANIZATION] player prop bets for various players to achieve a 'double double'."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a betting interface showing various basketball player bets for double doubles in upcoming games."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile sportsbook screenshot shows open [ORGANIZATION] bets, including same game parlays and multiple player props for recording a double double."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a sports betting app showing open bets involving [ORGANIZATION] players."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile screen showing open sports betting slips for [ORGANIZATION] games, each targeting players to record a double-double."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displays a 'My [ORGANIZATION]' page listing multiple [ORGANIZATION] basketball player prop bets, including Same Game Parlays and individual double-double wagers."
+        }
+      }
+    },
+    "image_00148": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the logo of [LOCATION], a prominent football club."
+        },
+        "gpt-5.4": {
+          "summary": "The image shows the Paris Saint-Germain (PSG) football club logo centered on a dark blue background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The logo of [LOCATION] football club."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "The official logo of [LOCATION] football club, featuring a red [LOCATION] silhouette and [ORGANIZATION] on a blue circular background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The official logo of the Paris Saint-Germain football club is displayed against a dark blue background."
+        }
+      }
+    },
+    "image_00149": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the logo of [ORGANIZATION], a French football club."
+        },
+        "gpt-5.4": {
+          "summary": "A red background features [ORGANIZATION] football club crest in red, yellow, white, and black."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The logo of [ORGANIZATION] featuring a shield design in red and yellow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red background featuring the crest of [ORGANIZATION], which includes a shield with '[ORGANIZATION]' and a lighthouse."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The official crest of the French football club [ORGANIZATION] is displayed against a solid red background."
+        }
+      }
+    },
+    "image_00150": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital graphic displays [ORGANIZATION] Play-off bracket with national flags, centered around a golden FIFA World Cup trophy."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the [ORGANIZATION] play-off bracket for [ORGANIZATION] alongside a trophy."
+        },
+        "gpt-5.4": {
+          "summary": "A football graphic shows [ORGANIZATION] play-off bracket around the World Cup trophy, using national flags for the matchups."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A visual representation of [ORGANIZATION] Play-off matches leading into a FIFA World Cup tournament."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tournament bracket for [ORGANIZATION] Play-Offs centered around the FIFA World Cup trophy, featuring national flags."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A graphic displaying the [ORGANIZATION] Play-off bracket for the 2026 World Cup, featuring national flags and the trophy."
+        }
+      }
+    },
+    "image_00151": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A soccer player in training gear is balancing a soccer ball on his foot on a grassy field."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in [LOCATION] training gear smiles on a practice field with one foot resting on a ball."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in a light [ORGANIZATION] on grass."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in [LOCATION]'s training kit balances a ball on his foot while smiling on a grass field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player in an [LOCATION] training kit stands on a grass field with one foot resting on a soccer ball, smiling while looking to the side."
+        }
+      }
+    },
+    "image_00152": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A male soccer player in a white and maroon uniform with the number 21 is celebrating on a green field in a stadium, raising his right fist."
+        },
+        "gpt-4o-mini": {
+          "summary": "A soccer player in a white and [LOCATION] celebrates with a raised fist on the field."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer player in a white number [LOCATION] and maroon shorts raises a fist in celebration on the field with stadium spectators and a flag in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player celebrates a goal in front of cheering fans."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer player in a white and maroon uniform celebrates on a green field with one fist raised."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male soccer player wearing a [LOCATION] with the number 21 and maroon shorts celebrates on a green field while raising his fist, with spectators and a large flag visible in the background."
+        }
+      }
+    },
+    "image_00153": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a black and blue sports jersey with the Brazilian national football team's emblem."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up portrait of a football player wearing a [LOCATION] national team jersey in a stadium setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Brazilian football player wearing a jersey featuring '[PERSON]' ([ORGANIZATION]) emblem."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a male soccer player in a [LOCATION] national team jersey, looking upward with a focused expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a male soccer player wearing a dark blue [LOCATION] national team jersey with the [PERSON] crest and [LOCATION] logo, looking upward with a focused expression."
+        }
+      }
     }
   }
 }

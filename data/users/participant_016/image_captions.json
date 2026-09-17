@@ -1,67 +1,1833 @@
 {
   "user_id": "participant_016",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "city exploration",
-        "dogs",
-        "nature visits",
-        "photography",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; dogs; nature visits; photography; visual art."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A notice warning about the spraying of non-toxic dye at a [ORGANIZATION] event, advising attendees on potential effects."
+        },
+        "gpt-5.4": {
+          "summary": "A printed warning notice taped to a textured wall explains that [PERSON] sprays non-toxic dyed water onto audience members near the pit."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A warning notice taped onto a wall regarding [PERSON]'s audience spray."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A warning sign taped to a textured surface alerts attendees about potential dye spray during an event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A printed notice taped to a textured wall warns concertgoers that the band [PERSON] sprays non-toxic food-grade dye into the audience, which may temporarily discolor hair, clothing, and contact lenses."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "dining",
-        "dogs",
-        "fitness",
-        "nature visits",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: dining; dogs; fitness; nature visits; reading."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a person in a dark, eerie bathroom setting with a distressed appearance and a dirty toilet."
+        },
+        "gpt-5.4": {
+          "summary": "A person in sunglasses poses in a grimy, cracked-tile bathroom set with a stained toilet, exposed pipes, a wall clock, and eerie teal lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a dark room stands beside an old toilet chain-linked to pipes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in sunglasses stands in a dilapidated, green-tinted bathroom next to a broken toilet with a heart drawn on the tank."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a black dress and sunglasses poses inside a grimy, green-lit bathroom exhibit featuring a dirty toilet, chains, and peeling tiles."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "dining",
-        "film and television",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: city exploration; dining; film and television; photography; reading."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with blonde hair in a bun is seen from behind, applying makeup to her face while looking into a mirror, with a subtitle overlaid on the image."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is applying makeup while looking in a mirror, reflecting on personal challenges."
+        },
+        "gpt-5.4": {
+          "summary": "A person with blonde hair looks into a mirror while applying makeup indoors, with a subtitle visible at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "- The only thing that I have holding me back right now"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with blonde hair in a bun looks at her reflection while applying makeup, with a subtitle overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with blonde hair in an updo looks at her reflection in a mirror while applying makeup, wearing dark pajamas."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "dining",
-        "reading",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; dining; reading; walking and hiking."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A blonde woman in a pink top is speaking directly, with a subtitle visible at the bottom of the screen, in an indoor setting with decorative elements."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman with long blonde hair speaks about self-respect and dignity in a well-decorated indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person with long blonde hair in a pink sleeveless top speaks in an interview-style indoor scene with a subtitle on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a pink dress speaks about self-respect and dignity."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a pink top speaks in a studio setting, with subtitles reading 'is that I have self-respect and dignity.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blonde woman in a pink top speaks during an interview with subtitles reading 'is that I have self-respect and dignity.'"
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "dogs",
-        "film and television",
-        "photography",
-        "reading",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: dogs; film and television; photography; reading; spectator sports."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman is seen in a mirror reflection, curling her hair with a curling iron, with text overlayed on the image."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is curling their hair in front of a mirror, expressing gratitude for someone named [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A woman is curling her hair in front of a mirror indoors, with subtitle text visible on the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Woman styling her hair in front of a mirror."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman looks at her reflection in a mirror while using a hair curling iron."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with highlighted hair is curling her hair using a hot tool while looking into a mirror, with the subtitle 'Thank God for [PERSON],' visible at the bottom."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "dining",
-        "dogs",
-        "photography",
-        "reading",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: dining; dogs; photography; reading; spectator sports."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A blonde woman in a pink top"
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman with long, wavy hair is seated in a decorated room, speaking about being unburdened by anchors."
+        },
+        "gpt-5.4": {
+          "summary": "A person with long blond hair in a pink sleeveless top sits in an indoor interview-style setting with decorative bottles and flowers in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a pink dress sits against an ornate backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with blonde hair in a pink top looks upward thoughtfully in a staged, colorful setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blonde woman in a pink top sits with a serious expression in a dimly lit room decorated with purple drapes and barware, while subtitles display the text 'who is unburdened by those anchors.'"
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two women wearing headphones are engaged in a conversation at a podcast setup."
+        },
+        "gpt-5.4": {
+          "summary": "Two people wearing headphones sit at microphones in a podcast-style studio setup, with one person gesturing while speaking."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are engaged in a podcast recording session."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women wearing headphones sit at a table with microphones, appearing to record or broadcast."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two women wearing headphones and casual clothing are seated at a table with professional microphones, appearing to record a podcast or video interview."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are taking a selfie in a dimly lit setting, with one holding a cup and displaying a geometric tattoo on their arm."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows two people in dim lighting, with one holding a small cup and the other extending an arm with a geometric spiderweb-style tattoo."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are posing together indoors; one holds a cup."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women in a close selfie, one holding a cup and the other looking at the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of two young women indoors, one holding a white cup while the other looks at the camera with winged eyeliner and a geometric tattoo visible on her arm."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a traffic scene with two cars, focusing on a silver [ORGANIZATION] TLX with a personalized license plate reading '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A photo taken from inside a car at an intersection shows traffic ahead, including an [ORGANIZATION] with a novelty-looking plate and a nearby [LOCATION] street sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A traffic scene featuring a car with an [LOCATION] license plate reading '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from inside a car showing traffic on [PERSON] with a silver [ORGANIZATION] TLX in front, displaying a custom license plate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from inside a car showing the rear of a silver [ORGANIZATION] TLX with an [LOCATION] vanity license plate reading '[ORGANIZATION] in traffic under a clear blue sky."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and tan dachshund dog stands on small wooden stilts in a grassy outdoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dachshund is seen using a set of makeshift legs to stand upright on a grassy area."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-tan dachshund stands on dry grass outdoors while supported by a simple white mobility frame."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dachshund stands in a wooden frame designed as an exercise aid."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-tan dachshund stands on a small wooden agility hurdle in a grassy outdoor area."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and tan dachshund stands on a wooden platform with its paws elevated, set against a grassy outdoor background."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A couple dressed in oversized suits with [ORGANIZATION] badges poses in a living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose indoors in suits with visible [ORGANIZATION]-style badge IDs, giving a costume or roleplay vibe in a living room setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals dressed as [ORGANIZATION] agents pose indoors in a casual home environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people dressed as [ORGANIZATION] agents pose indoors, wearing suits and ID badges."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose indoors wearing business attire and [ORGANIZATION] identification badges, suggesting a costume or roleplay theme."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with red hair and piercings is taking a selfie inside a car, giving a thumbs up."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is giving a thumbs-up gesture while seated in a car."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie in a car of a person with winged eyeliner and facial piercings giving a thumbs-up while wearing a zip-up jacket."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person giving a thumbs-up while sitting in what appears to be an interior vehicle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair and makeup gives a thumbs-up while sitting inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with reddish hair and winged eyeliner sitting in a car, wearing a blue jacket and giving a thumbs-up."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful sign advertising gator jerky, hot boiled peanuts, and t-shirts, with storage containers in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A bright yellow roadside sign advertising gator jerky, hot boiled peanuts, and T-shirts stands near a parking area under a blue sky, partly blocked by stacked plastic bins."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A roadside sign advertises gator jerky, hot boiled peanuts, and t-shirts."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright yellow roadside sign advertises '[ORGANIZATION], 'HOT BOILED P-NUTS', and 'T-SHIRTS 3/$12' against a blue sky with clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A roadside scene featuring a large yellow sign advertising [PERSON], Hot Boiled P-Nuts, and T-Shirts next to stacked concrete barriers under a blue sky."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands near a historical stone fortification under a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A large historic stone [LOCATION] with a corner [PERSON] stands under dramatic cloudy skies while a visitor reads an information sign in the courtyard."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person reading an informational sign in front of a historic stone wall under cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands at an informational kiosk in front of a large, weathered stone fortress wall under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a floral dress stands reading an informational sign in front of the massive, weathered stone walls of a historic [LOCATION] under a cloudy sky."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two people, a woman and a man, take a selfie outdoors at night, with a 'Pick-up' sign and street visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A selfie of two individuals standing in front of a wall with a partially visible text, one wearing a graphic t-shirt."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime sidewalk selfie shows two people looking up at the camera with serious expressions, next to a wall reading about pick-up orders, while one wears a graphic [LOCATION] T-shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are posing together in an urban nighttime setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose for a selfie at night on a sidewalk near a 'Pick-up Drop-off' sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle selfie of a man and woman standing on a sidewalk at night, both making exaggerated angry or intense facial expressions."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A colorful mascot holds a sign with the text 'WE WILL WE WILL ROCK YOU' during a sports event at [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A large arena scoreboard at [LOCATION] shows a green team mascot on a basketball court holding a sign that reads \"WE WILL WE WILL ROCK YOU.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful mascot holds a sign saying 'WE WILL WE WILL ROCK YOU' in front of an arena backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green mascot in a basketball arena holds a sign reading 'WE WILL WE WILL ROCK YOU' on a large screen."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A green dragon mascot stands on a basketball court holding a sign that reads 'WE WILL WE WILL ROCK YOU' while displayed on the arena's large video screen."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman in a black outfit stands in the foreground while a man appears in the background, with another person partially visible."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose indoors in a warmly lit room with rustic doors and lounge seating, with one person standing in front and another behind."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a black top and ripped jeans stands indoors near two other individuals."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in black ripped jeans and boots stands indoors while a man stands behind her and another person sits nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blonde woman in a black off-shoulder top and ripped jeans poses for a photo while a man stands behind her in an indoor setting."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman in a black long-sleeved mini dress and black lace-up high heels stands indoors, holding a patterned handbag."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman in a fitted black dress stands in front of an ornate wooden counter."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses indoors in a fitted black long-sleeve mini dress with lace-up heels, holding a handbag beside ornate wooden decor."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a black dress stands indoors holding a [ORGANIZATION] bag."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a black fitted dress and high-heeled sandals stands indoors near an ornate wooden counter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with long blonde hair stands indoors wearing a black mini dress, strappy heels, and holding a patterned handbag near an ornate wooden counter."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of three people and a dog pose in front of a floral backdrop at an event."
+        },
+        "gpt-5.4": {
+          "summary": "Three formally dressed people pose with a large dog in front of a flower-covered arch at a stylish event venue."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Three people in formal attire pose under a floral archway with confetti scattered around."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Three people and a dog pose together in front of a large floral arch under an awning."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Three formally dressed adults and a dog pose smiling in front of an elaborate floral archway at an outdoor event."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark, messy hair and a direct gaze looks up at the camera, wearing dark clothing and a ring, against a soft, light-colored background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with tousled hair is seated on a sandy surface, holding a ring and appearing contemplative."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait shows a person with tousled dark hair and black clothing crouching on a [LOCATION], looking directly at the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black outfit crouches near sand, holding an object."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with tousled hair wearing a black hooded outfit sits on sand, looking directly at the camera with hands clasped."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with dark hair and a black outfit crouches on sand, looking directly at the camera with an intense expression."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman with short brown hair, wearing a cream cable-knit sweater, smiles while holding a white mug indoors, with a bookshelf and abstract art in the"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a cozy sweater holds a cup while sitting in a well-decorated room."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a person with short brown hair in a white knit sweater, smiling indoors while holding a white mug."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a cozy white sweater holding a mug indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a white cable-knit sweater holds a mug while standing indoors near a bookshelf."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with short brown hair wearing a cream cable-knit sweater holds a white mug while smiling in an indoor setting with bookshelves and abstract art in the background."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a dark suit and tie walks through shallow ocean water with a cigarette in his mouth, with large waves breaking behind him."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a suit walks along the shore with waves crashing in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a dark suit is walking through shallow ocean surf with large waves breaking behind him."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit walks along the beach near crashing waves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a dark suit stands in shallow ocean water with waves crashing behind him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a dark suit and tie stands on a beach with waves crashing behind him, holding a cigarette."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A tabby and white cat sits on a block wall, looking back at the camera,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A cat is perched on top of a brick wall, overlooking the surroundings during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A tabby-and-white cat sits on top of a brick wall beside a garage in warm evening light, with trees and utility wires in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cat sits atop a brick wall near a garage door under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tabby cat sits atop a brick wall next to a garage door, looking toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tabby and white cat sits perched on top of a brown block wall next to a garage door, looking towards the camera against a backdrop of trees and power lines."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a collection of movie posters with titles and ratings in a 'Recent Activity' section."
+        },
+        "gpt-5.4": {
+          "summary": "A dark interface labeled \"RECENT ACTIVITY\" shows four movie posters in a row with star ratings beneath them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Recent movie selections displayed in a digital interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A user's recent activity showing four movie posters with ratings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a streaming service's 'Recent Activity' section displaying four movie posters with user ratings."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a block of white text on a black background, quoting an individual named [ORGANIZATION] discussing filming experiences, including interactions with [PERSON]"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a quote reflecting on experiences during film shooting, mentioning various individuals and personal anecdotes."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a text passage on a black background discussing a film shoot and mentioning [PERSON], [PERSON], and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A quote discussing a film shoot in [ORGANIZATION] involving [PERSON] interest in [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black background displays white text quoting [ORGANIZATION]'s recollection of filming experiences with actors [PERSON] and [PERSON] in [LOCATION] and [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black background with white text displaying a quote about filming experiences in [LOCATION] and [LOCATION], mentioning actors [ORGANIZATION], [PERSON], [PERSON], and [PERSON]."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman looks out a window adorned with a festive wreath and lights, appearing contemplative in a dimly lit setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is peering through a window decorated with festive garlands and lights."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit close-up shows a person seen through a window framed with festive garland and small green lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a festive headpiece looks out of an ornately decorated window."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person looks out a window decorated with green Christmas lights at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair peers through a white window frame decorated with green Christmas lights and tinsel, wearing a yellow collared shirt in a dimly lit setting."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A humorous sign advertising expired cocktail sodas for 99 cents, featuring a biohazard symbol and a note about a person named [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous orange store sign on a refrigerator advertises expired cocktail sodas for 99 cents with a biohazard symbol."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sign advertising expired cocktail sodas priced at $0.99."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand-written sign advertises expired cocktail sodas for 99 cents with a biohazard symbol and a humorous safety claim."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A humorous orange sign on a glass door advertises expired cocktail sodas for 99 cents, featuring a biohazard symbol and a joke about someone named [PERSON] surviving the taste test."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Image caption unavailable because caption pre-generation failed or was skipped."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a phone displaying text that reads 'Watches Reels loudly' against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a smartphone in the dark while editing a story-style post with large red text that reads \"Watches Reels loudly.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A phone screen displaying a message 'Watches Reels loudly' in red neon lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a smartphone displaying a social media app with the text 'Watches Reels loudly' typed in bright orange."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a smartphone in a dark environment, displaying an [ORGANIZATION] story creation interface with the text 'Watches Reels loudly' overlaid on the screen."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands at a concession stand with popcorn and drinks, in front of a large mural."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses beside a large monochrome wall mural in an indoor snack counter area with popcorn, drinks, and red flowers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person posing in front of a large mural featuring an artistic portrait."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses in front of a large mural of a man with their hand near their face, near a counter with drinks and snacks."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a cap poses with a thumbs-up gesture in front of a large mural depicting [PERSON], standing near a counter with popcorn and drinks."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in the foreground near a gas station at night."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit nighttime street scene shows a person standing on a sidewalk near utility poles with a brightly lit gas station across the road."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in front of a gas station at night."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands on a sidewalk at night near a lit gas station, with arms crossed and looking toward the camera."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with dark hair stands in profile at night near a utility pole, with a brightly lit gas station visible in the background."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person dressed as [ORGANIZATION] and another person are posing cheerfully for a photo in front of a festive Christmas backdrop with disco balls"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses with [ORGANIZATION] in a festive setting decorated with Christmas ornaments and gifts."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses smiling with someone dressed as [ORGANIZATION] in front of a red Christmas-themed backdrop with ornaments, gift boxes, and disco balls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses joyfully next to a [LOCATION] figure in front of festive Christmas decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses happily with a [LOCATION] figure in a festive, decorated photo booth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling woman in a graphic t-shirt poses with a person dressed as [ORGANIZATION] at an indoor Christmas photo booth decorated with red ornaments and disco balls."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Four individuals, three in robes and one in a white shirt, are playing pool inside a white tent."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a group of individuals, some in traditional attire, playing [LOCATION] in a tented setting."
+        },
+        "gpt-5.4": {
+          "summary": "Several people stand around a pool table inside a tent while one person leans in to take a shot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of individuals are gathered around a pool table in an indoor tented area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a white shirt leans over a pool table, preparing to shoot, while three others in maroon and orange robes watch inside a tent."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a white shirt plays pool on a green table while three monks in maroon and yellow robes watch inside a tent."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with dark hair, wearing a dark top and light skirt, stands in a dimly lit indoor"
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman stands in a dimly lit room, appearing distressed or frightened."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands in a dim indoor hallway under a harsh spotlight, creating a dramatic, cinematic scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Woman in a dimly lit hallway holding her hands near face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman stands in a dimly lit hallway, illuminated by a spotlight, with hands clasped near her neck and an expression of shock or fear."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with dark hair stands in a dimly lit doorway wearing a black top and grey skirt, holding her hands to her neck with an expression of shock or fear."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a suit and round glasses crouches intently on what appears to be a basketball court, with blurred spectators in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in a suit is crouching on a basketball court, observing the game."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a suit and glasses is crouching courtside on a basketball court, appearing focused during a game."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a suit crouches on what appears to be an indoor sports court."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit and glasses crouches on a basketball court, focused on the game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a grey suit and glasses crouches on a basketball court with an intense expression, surrounded by blurred spectators."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman carrying a small dog and a man wrapped in a white towel walk along a wooden dock with boats moored in the water."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman carrying a dog walks along a dock while a man in a towel walks in the opposite direction."
+        },
+        "gpt-5.4": {
+          "summary": "On a marina dock, one person in a bright rain jacket carries a black-and-white dog wrapped in towels while another walks behind wrapped in a white towel near moored boats."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman walks along a dock carrying her dog wrapped in towels while another person strolls nearby."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a yellow jacket carries a dog on a wooden dock, while a man wrapped in a towel walks behind her."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a yellow raincoat carries a black and white dog on a wooden dock while a man wrapped in a towel walks behind her."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man carrying a paddle and a bag walks along a boardwalk while a woman holds a dog."
+        },
+        "gpt-5.4": {
+          "summary": "Two people walk along a wooden boardwalk carrying a dog, towels, and a paddle, giving a casual beach-day feel."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals walk along a wooden boardwalk carrying items; one holds a dog."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man and woman walk on a wooden boardwalk, carrying gear and a dog."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman walk along a wooden boardwalk, with the man carrying a paddle and the woman holding a dog."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with long brown hair, wearing a black tank top and shorts, sits on a patterned mat with her legs bent and feet together, looking directly at the camera in an indoor setting with large windows."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting in a yoga pose on a patterned mat in an industrial setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black outfit sits on a large painted sheet in an industrial-style room, doing a butterfly stretch and facing the camera."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman sits cross-legged in a dimly lit room wearing athletic attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman sits cross-legged on a patterned rug in a sunlit, rustic indoor space."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a black tank top and sneakers sits cross-legged on a patterned rug inside a sunlit, industrial-style room."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with her hair tied up is performing a shoulder exercise with dumbbells in a gym, with racks of weights visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is exercising with dumbbells in a gym setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a gym performs a dumbbell upright row in front of a mirror and rack of weights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person exercising in a gym using dumbbells."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with blonde hair in a bun is lifting dumbbells in a gym, wearing a black tank top with the word 'CRUNCH' on it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with blonde hair in a ponytail performs dumbbell lateral raises while wearing a black tank top with the 'CRUNCH' logo inside a gym."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in athletic wear is performing a leg raise exercise on a mat, with a small dumbbell nearby and abstract art panels featuring crescent moon designs in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is performing an exercise on a mat with their legs raised, set against an abstract background."
+        },
+        "gpt-5.4": {
+          "summary": "A person lies on a mat doing a vertical leg-raise exercise beside a dumbbell in front of abstract moon-phase artwork."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person performing a leg stretch exercise in front of an artistic wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person performs a leg raise exercise on a mat against an abstract wall with [ORGANIZATION] patterns."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person is performing a leg-lift exercise on a mat in front of an art installation featuring moon phases."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with her hair pulled back is sitting cross-legged in a yoga or meditation pose, wearing a lime green tank top and black pants, against a plain white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a yoga pose, seated cross-legged with hands in a meditative gesture."
+        },
+        "gpt-5.4": {
+          "summary": "A studio-style portrait shows a person sitting cross-legged in a yoga meditation pose, wearing a yellow tank top and black pants against a plain white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman practices yoga in a lotus pose against a plain white background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits cross-legged in a meditative pose against a plain white background, wearing a yellow tank top and black pants."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a yellow tank top and black pants sits cross-legged on a white background with hands resting in a meditative mudra pose."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman is holding a canister while seated at a desk in an office setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person sits behind an office reception desk eating from a small yogurt cup while blurred figures are in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in an office environment eating from a container while interacting with someone behind her."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman at a reception desk eats from a small container while facing a person across the counter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman sits behind an office reception desk eating yogurt from a container while looking down."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with curly hair and large sunglasses holds a handgun in a dimly lit, ornate room with modern art."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holding a gun in a lavishly decorated room with a chandelier and artwork in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in dark clothing and oversized sunglasses points a handgun in a dim, stylish interior with ornate decor and colorful wall art."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in sunglasses holding a gun indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with curly hair and dark sunglasses holds a handgun in an ornate, dimly lit room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with curly hair and dark sunglasses holds a handgun in an ornate room featuring gold trim, a mirror, and colorful wall art."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman with long hair is sitting on a bed, wearing a yellow t-shirt with a beach graphic, while engaged in conversation."
+        },
+        "gpt-5.4": {
+          "summary": "A TV screen shows a woman in a yellow graphic T-shirt sitting on a bed in a softly lit bedroom, with subtitles visible and holiday lights along the bottom of the screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a yellow shirt sits indoors near Christmas lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a yellow shirt with a sailboat graphic is shown on a TV screen, with subtitles reading 'so our wedd gonna be a lit'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A side-profile shot of a woman with dark hair wearing a yellow graphic t-shirt, captured from a television screen displaying subtitles about a wedding."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a black and white shirt and a party hat with the word 'Happy' on it."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands against a plain wall wearing glittery novelty glasses shaped like “2014” and a party hat, giving a casual New Year’s celebration vibe."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a hat labeled 'HAPPY' and glasses with the year '2034'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wears a white hat with 'HAPPY' and glittery '2014' glasses, posing indoors in a baseball-style shirt."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a white and black baseball tee and a hat holds up red glittery glasses shaped like the year '2014' over their eyes."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a chat message from a user named '[PERSON]' expressing confusion about something, alongside a link to the song 'Frosty The Snowman' on [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a [ORGANIZATION] link preview for “Frosty The Snowman” above a message reading “tf they saying” with crying-face emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat message showing a link to 'Frosty The Snowman' music from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A chat screen shows a message from '[PERSON]' with crying emojis and the text 'tf they saying', responding to a [ORGANIZATION] link for 'Frosty The Snowman'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a messaging app conversation where a user named [PERSON] reacts with confusion to a shared [ORGANIZATION] link for the song 'Frosty The Snowman'."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person dressed as [PERSON] holds [ORGANIZATION], wrapped like a baby, in a nativity scene setting with hay in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person dressed in a blue robe holds a wrapped cat in a rustic setting with straw."
+        },
+        "gpt-5.4": {
+          "summary": "A woman in a nativity-style costume sits in a straw-filled stable holding a wrapped cat like a baby."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person dressed as [PERSON] holding a cat in front of hay bales."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a [PERSON]-like costume holds a wrapped cat resembling [ORGANIZATION] in a rustic stable setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person dressed in a blue robe and white head covering poses as [PERSON], holding a cat wrapped in a blanket within a nativity scene setting."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a black t-shirt with a graphic of animated characters celebrating Christmas."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a person wearing a black holiday-themed Beavis and Butt-Head graphic T-shirt with a Christmas wreath design."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a 'XMAS ROCKS!' t-shirt featuring cartoon characters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wears a black T-shirt featuring cartoon characters Beavis and Butt-Head inside a Christmas wreath with the text 'XMAS ROCKS!'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person is wearing a black vintage-style t-shirt featuring the animated characters Beavis and Butt-Head inside a Christmas wreath with the text 'XMAS ROCKS!'."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A young woman with a surprised expression is visible on a video call screen, with partial text from the call"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is visible in a video call interface with a message addressed to '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a computer screen shows a video call or camera preview with a person making a wide-eyed expression in a bright living room, alongside [ORGANIZATION] interface text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person appears surprised during a video call in an indoor room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a surprised expression is shown on a video call screen, with [ORGANIZATION] elements indicating background filters and a greeting message."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photo of a computer screen displaying a video call interface where a woman with wide eyes appears to be reacting to a [ORGANIZATION] waiting message."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a person wearing a blue"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is wearing a blue t-shirt with the text 'I GOT WHIPPED IN [LOCATION]'."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a bright blue shirt with large white slogan text reading \"I GOT WHIPPED IN TUCSON.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a blue shirt reading 'I GOT WHIPPED IN [LOCATION]'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a blue T-shirt with the text 'I GOT WHIPPED IN [LOCATION]' displayed prominently."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a person wearing a blue t-shirt with the white text 'I GOT WHIPPED IN [LOCATION]' printed on it."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a black shirt with decorative stitching is seated at a table, partially obscured by a blindfold."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing a dark embroidered shirt sits indoors with a black blindfold covering their eyes in a dimly lit room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a blindfolded bandana smiles slightly in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a dark blindfold smiles while seated in a dimly lit room with wooden paneling."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man wearing a dark blindfold and a black shirt with white embroidery smiles while seated in a dimly lit indoor setting."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A warm-toned, slightly blurry photo shows two individuals, one with green hair, posing indoors with a witch hat visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are posing for a photo, with one playfully making a gesture behind the other."
+        },
+        "gpt-5.4": {
+          "summary": "A warm-toned indoor selfie shows two people facing the camera, with one having green hair and a hand in the background making a playful bunny-ears gesture."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[LOCATION] takes a selfie of two individuals in casual attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose indoors, one with green hair and a hand on their head, under warm lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of two young women, one with green hair and a witch hat prop on her head, set against an indoor background."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of four young people are posing in a dark cemetery at night, with one boy holding a purple cross-shaped object and three girls standing together."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of four individuals poses in a cemetery at night, with one person sitting beside a purple cross."
+        },
+        "gpt-5.4": {
+          "summary": "A dark, flash-lit nighttime photo shows several youths posing among gravestones in a cemetery, with one crouching behind a cross-shaped marker."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of children pose in a graveyard-themed area under artificial lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Four young people pose at night in a cemetery, one holding a purple cross-shaped prop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Four young people pose at night in a graveyard setting, with one person kneeling behind a purple prop tombstone while three others stand together in the background."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two young women are squatting on the ground, facing each other with closed eyes and soft smiles, holding hands in a black and white, low-light setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are squatting and reaching out to touch each other's hands in a dimly lit outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A grainy black-and-white nighttime photo shows two people crouching outdoors and gently holding each other’s hands with eyes closed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are holding hands in a dimly lit outdoor environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people crouch facing each other outdoors at night, touching hands in a black-and-white photo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white photo shows two young women crouching outdoors at night, holding hands with their eyes closed in a moment of connection."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person performs a backbend with one leg raised on a wooden pier overlooking the ocean with mountains and a distant coastline."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is performing a handstand on a pier with a scenic ocean view in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A social-media post shows a person doing a backbend with one leg extended upward on a wooden pier above the ocean, with mountains and a beach in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person performs a handstand on a pier overlooking water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person performs a handstand yoga pose on a wooden pier overlooking the ocean under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person performs a handstand on a wooden pier with the ocean and mountains in the background."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a pink water lily on a calm water surface."
+        },
+        "gpt-5.4": {
+          "summary": "An [ORGANIZATION] lock screen displays a close-up wallpaper of a pink water lily floating on dark water with lily pads in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a pink water lily floating in calm waters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An [ORGANIZATION] lock screen showing a pink water lily on water with time and date displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] lock screen displaying a pink water lily wallpaper with the time and date."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman in a black swimsuit sits on a [LOCATION], holding a small silver object to her mouth, with beach chairs and an umbrella visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting on the beach in a black swimsuit, appearing to meditate or relax."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black one-piece swimsuit sits on the sand at a beach, using a vape or e-cigarette, with striped lounge chairs and a red numbered flag behind them."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a black swimsuit sits cross-legged under an umbrella while smoking."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a black swimsuit sits on a beach, smoking a cigarette near striped lounge chairs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a black one-piece swimsuit sits on a [LOCATION] smoking a cigarette, with red-and-white striped lounge chairs and a numbered flag visible in the background."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with reddish-brown hair is shown"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is making a playful gesture with their hands while sitting near water."
+        },
+        "gpt-5.4": {
+          "summary": "A woman in a white top sits by the water on a boat or dock, gesturing with both hands as if explaining something."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Woman making a gesture near water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a white shirt gestures with both hands while standing near water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a white top stands on a boat, gesturing with both hands while wearing a visible event badge."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A silver car with a personalized '[ORGANIZATION]' license plate is"
+        },
+        "gpt-4o-mini": {
+          "summary": "A silver car with a custom license plate reading '[PERSON]' is parked on a city street."
+        },
+        "gpt-5.4": {
+          "summary": "Rear view of a silver [ORGANIZATION] sedan in city traffic, featuring a vanity license plate that reads \"[PERSON]\" on a palm-lined street."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The rear of a silver [ORGANIZATION] Accord parked in an urban area during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Rear view of a silver [ORGANIZATION] Accord on a city street with a custom license plate reading '[PERSON]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rear view of a silver [ORGANIZATION] Accord driving on a city street with buildings and trees in the background."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a car's rear license plate with a [LOCATION] state design."
+        },
+        "gpt-5.4": {
+          "summary": "Nighttime close-up of the rear of a white [ORGANIZATION] hatchback with a [LOCATION] vanity license plate that appears to read \"[ORGANIZATION].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a [LOCATION] license plate in front of an SUV."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of the rear of a silver [ORGANIZATION] car showing a [LOCATION] license plate with the text '[ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-light photo of the rear of a white [ORGANIZATION] vehicle featuring a [LOCATION] vanity license plate."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with long brown hair and large glasses sits indoors, looking intently to the side, with a 'bravo' logo visible in"
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman with long hair is seated at a table in a restaurant, wearing a black top and a statement necklace, while a server is visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A woman wearing large glasses and a statement necklace sits indoors at what appears to be a restaurant or social gathering."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman wearing glasses sits in a restaurant-like environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with glasses and bold lipstick sits indoors, looking off-camera with a serious expression."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with long brown hair, large black-rimmed glasses, and bright pink lipstick sits indoors looking off-camera with a serious expression."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person sharing an update about their no-sugar challenge, expressing humor and surprise about their relationship status."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie screenshot of an [ORGANIZATION] story shows a person holding a phone with humorous text about a day-3 no-sugar update."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON] shares a humorous update during her no-sugar challenge."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie while overlaying text about their third day of no-sugar diet and accidental cheating."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A blonde woman takes a mirror selfie while holding a smartphone, overlaid with text updates about her third day of quitting sugar and the challenges she is facing."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is interacting with a beverage dispenser at a Wawa convenience store."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a convenience store looks at a red [ORGANIZATION] soda machine beneath Wawa drink signage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person interacts with a Wawa freestyle soda machine in what appears to be an indoor convenience store."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands beside a red Coca-Cola Freestyle soda machine inside a Wawa store, looking at the drink options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a camouflage cap and graphic t-shirt stands next to a red [ORGANIZATION] machine inside a Wawa convenience store, appearing to contemplate their drink selection."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the cover of 'Love Signs' by [PERSON], showcasing a vibrant red design with hearts and a lion illustration."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of the red cover of [PERSON] book \"Love Signs,\" featuring astrology-themed artwork and a used bookstore sticker."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Book cover of '[PERSON] Love Signs' featuring a heart symbol."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red book cover for '[PERSON] Love Signs' featuring a heart with a starburst and a lion holding a lamb."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of the red paperback book cover for '[PERSON] Love Signs' featuring a heart and zodiac symbols."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up selfie shows two individuals with serious expressions standing outdoors at night, with a 'Pick-up' sign and street visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A selfie of two individuals standing outdoors at night, with one wearing a graphic t-shirt featuring a character and the other partially visible."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime selfie shows two people on a city sidewalk making serious expressions, with one wearing an [LOCATION] graphic T-shirt and a wall behind them reading part of a slogan."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are posing together in an urban nighttime environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose for a selfie at night on a sidewalk near a 'Pick-up Drop-off' sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose with serious expressions on a sidewalk at night, where the man wears an [ORGANIZATION] t-shirt."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A selfie shows two people, a woman making an exaggerated"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals are standing together, one gesturing while wearing graphic t-shirts in a bright outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A playful selfie shows two people on an outdoor walkway or escalator area, making exaggerated expressions, with one shirt displaying readable text and [ORGANIZATION] signage in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are taking a selfie in an outdoor area near [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose playfully on an escalator at a Universal Resort location."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man and a woman pose playfully on an outdoor escalator, both wearing black t-shirts with graphic designs."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dark hair and nose piercings takes a selfie indoors, wearing a black t-shirt with partially visible text."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a black shirt with the text 'REAL MEN' while sitting in a dimly lit environment."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person with hoop earrings and nose rings wearing a black graphic T-shirt in front of curtains under warm, low lighting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black shirt with 'REAL MEN' printed in bold letters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a nose piercing and hoop earrings wears a black shirt with partial text visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with brown hair and facial piercings wearing a black graphic t-shirt against a curtain backdrop."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot of a crowded race track grandstand under a bright blue sky, with a blimp visible in the distance."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a crowded grandstand at a racing event under a clear blue sky with a blimp flying overhead."
+        },
+        "gpt-5.4": {
+          "summary": "A large crowd fills the grandstands at a racing venue under a bright blue sky, with a blimp flying above the building marked \"WORLD CENTER OF RACING.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large crowd gathers under a clear sky outside '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowded racetrack grandstand under a blue sky, with a blimp flying overhead and \"WORLD CENTER OF RACING\" displayed on the building."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a packed racetrack grandstand under a blue sky, featuring the 'World Center of Racing' building and an airship flying overhead."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals seated, with one identified as D Duchovny and the other as [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white printed page shows two portrait photos of young men seated indoors, with labels underneath including [ORGANIZATION] and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white yearbook photo featuring two individuals seated side by side."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two black-and-white photos show young men in different poses, labeled with names."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white printed page displaying two vintage photographs of young men, labeled 'D [ORGANIZATION]' and '[PERSON]."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, profile view of a person lying on a patterned pillow, looking upwards, featuring dramatic winged eyeliner and a nose ring."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is lying on a bed with floral-patterned pillows, partially obscured by hair."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up side-profile photo of a person lying on patterned bedding, featuring winged eyeliner, a nose ring, and small hoop earrings in a relaxed indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person lying down in a bed covered by floral-patterned sheets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with makeup and piercings lies on a floral-patterned pillow indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up profile shot of a person with reddish-brown hair lying on floral bedding, featuring winged eyeliner and facial piercings."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting on a blue chair, leaning forward while using a device in a cozy living room setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person curls up on a blue armchair in a cozy living room with colorful furniture, a DVD shelf, and a vintage movie poster on the wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sitting in a blue armchair indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person is curled up asleep in a blue armchair in a living room with movie posters and bookshelves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a striped shirt and denim shorts is curled up face-down on a blue armchair in a living room with mid-century modern furniture. The background features a bookshelf filled with media, a '[PERSON], Kill! Kill!' poster, and a glass coffee table holding sunglasses and magazines."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with blonde hair is sitting on a red couch in a living room, holding a red and white bottle, and smiling at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting on a red couch in a cozy living room, holding a drink."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person poses on the arm of a red couch in a cozy living room, holding a bottle of red drink near a floor lamp."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person sits casually in a cozy living room holding a drink."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits smiling on a red couch in a warmly lit room with white brick walls and two windows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person sits on the arm of a red sofa in a living room with white brick walls, holding a bottle of mouthwash."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman in a black latex outfit sits on a couch, expressing surprise or concern with the caption 'Oh, dear God.'"
+        },
+        "gpt-5.4": {
+          "summary": "A woman in a glossy black fashion outfit and small hat sits on a tufted couch in a library-like room, with a subtitle visible on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a black outfit sits confidently against an ornate background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a black latex outfit and hat sits on a tan couch with a sarcastic expression, overlaid text reads 'Oh, dear God.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with blonde hair wearing a black latex outfit and hat sits on a tan sofa with a smug expression, accompanied by the caption 'Oh, dear God.'"
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with their eyes closed is sitting in a car at night, wearing a seatbelt and a black shirt with some text."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a person in a car, wearing a black shirt with partially visible text."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up selfie of a person with eyes closed sitting in a car at night, wearing a seatbelt and a black graphic shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black shirt with white lettering takes a selfie in an indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with closed eyes and a nose ring sits inside a car, wearing a black shirt with partial white text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with reddish-brown hair and closed eyes sitting in the driver's seat of a car at night, wearing a black graphic t-shirt."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the interior of a fast-food restaurant with a counter and menu display."
+        },
+        "gpt-5.4": {
+          "summary": "An empty fast-food restaurant interior shows the ordering counter, menu boards, promotional posters, and a small seating area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fast-food restaurant interior featuring a counter display of menu items."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Interior of a fast-food restaurant showing the counter, menu boards, and seating area."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An interior view of a fast-food restaurant featuring a service counter, menu boards, and dining tables."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a [PERSON]'s restaurant sign with promotional text."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION]’s fast-food restaurant storefront is shown with large exterior signage and window ads, with parked cars visible outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The exterior of a [PERSON]'s restaurant featuring its logo and promotional signs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Exterior of a [PERSON]'s restaurant with signage advertising '[ORGANIZATION] and promotions like '99¢ Crispy Chicken Sandwich' and 'open 'til 1 am'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] restaurant exterior featuring red signage, a logo with the mascot, and window advertisements for a 99-cent burger and late-night hours."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A doctor in scrubs is speaking to colleagues in a hospital setting."
+        },
+        "gpt-5.4": {
+          "summary": "A man in black medical scrubs with a stethoscope stands in a hospital hallway, with staff, patient rooms, and a whiteboard visible in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A medical professional in scrubs stands near a patient board while another person speaks."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A doctor in scrubs stands in a hospital hallway, looking surprised, with a whiteboard listing patients behind him."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A male doctor in black scrubs stands in a hospital corridor looking surprised, with a whiteboard listing patient names and room numbers visible to his right."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the rear of a silver [ORGANIZATION] Sonata with an [LOCATION] license plate reading '[IDENTIFIER]'."
+        },
+        "gpt-5.4": {
+          "summary": "The image shows the rear of a silver [ORGANIZATION] Sonata with an [LOCATION] plate stopped near a burger restaurant building and a stop sign."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "The rear of a [ORGANIZATION] car displaying an [LOCATION] license plate reading '[IDENTIFIER]'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "The rear of a silver [ORGANIZATION] Sonata with an [LOCATION] license plate is parked in front of a 'COMPLETE CAR CARE' building."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up rear view of a silver [ORGANIZATION] Sonata Limited with an [LOCATION] license plate reading '[IDENTIFIER]' parked in front of a commercial building."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a black t-shirt with the phrase 'YOU DIED' printed in red."
+        },
+        "gpt-5.4": {
+          "summary": "A black T-shirt laid out on a bedspread has large red text across the chest reading \"YOU DIED.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black t-shirt laid flat displaying bold red letters reading 'YOU DIED'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black T-shirt with red text reading 'YOU DIED' is laid flat on a wrinkled peach-colored fabric surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black t-shirt with the red text 'YOU DIED' is laid flat on a peach-colored fabric surface."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is shown putting in eye drops while sitting in a car."
+        },
+        "gpt-5.4": {
+          "summary": "A man sitting in a car holds eye drops while a [ORGANIZATION]-style overlay reads \"My [PRIVATE_TEXT] dad putting in eye drops.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a car holding an eye dropper bottle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a mustache sits in a car holding an eye drop bottle, with text overlay describing him as 'My [PRIVATE_TEXT] dad putting in eye drops'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a mustache sits in a car wearing a pink shirt and silver chain, holding an eye drop bottle while tears stream down his face."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a display of various items, prominently showcasing a magic trick set called 'Chinese Linking Rings'."
+        },
+        "gpt-5.4": {
+          "summary": "A tabletop display of vintage collectibles centers on a magic prop package for [ORGANIZATION], surrounded by assorted figurines, a [LOCATION]-themed item, and small trinkets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A display of vintage magic props including Chinese Linking Rings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vintage magic trick box for 'Chinese Linking Rings' sits on a table surrounded by assorted collectibles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a table at a flea market or antique shop featuring a boxed set of Chinese Linking Rings and various other vintage trinkets."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand holding a booklet titled '[ORGANIZATION] amidst various eclectic items."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a vintage-looking [ORGANIZATION] instruction booklet in front of a crowded display of figurines, toys, and collectible curios."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a book titled '[ORGANIZATION] surrounded by eclectic figurines."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a booklet titled '[ORGANIZATION] surrounded by various figurines and collectibles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a vintage booklet titled '[ORGANIZATION] in front of a cluttered display of eclectic figurines and collectibles."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases a cluttered display of various vintage and quirky items, including toys, collectibles, and memorabilia."
+        },
+        "gpt-5.4": {
+          "summary": "A crowded antique/curio shop display shows assorted vintage collectibles including an old folding camera, lace-up boots, a blonde doll, tiki mug, toys, mugs, and novelty items."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cluttered display of vintage items including a doll, antique camera, fire extinguisher canister labeled 'Ranger,' and various collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cluttered display of vintage and retro collectibles including dolls, cameras, toys, and branded merchandise."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cluttered display of vintage collectibles, including a doll, an old camera, and various figurines, arranged on shelves at what appears to be a flea market or antique shop."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A booth displays an eclectic collection of vintage"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a display of vintage funeral home memorabilia, including a sign, photographs, and various artifacts."
+        },
+        "gpt-5.4": {
+          "summary": "A vendor display of vintage funeral and medical curios features a large '[ORGANIZATION] sign, framed documents, anatomical specimens, and oddities at an indoor market or convention booth."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A display of vintage items including a sign reading '[ORGANIZATION] surrounded by eclectic memorabilia."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vintage funeral home sign displays among antique items including taxidermy, framed certificates, and medical artifacts."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A display of macabre and antique items at a market stall, featuring taxidermy, preserved organs, religious statuary, and vintage medical bottles."
+        }
+      }
     }
   }
 }

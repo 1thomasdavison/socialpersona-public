@@ -1,67 +1,2669 @@
 {
   "user_id": "participant_086",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; nature visits; outdoor activities; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white and grey kite flies high in a clear blue sky, with a crescent moon visible below it."
+        },
+        "gpt-4o-mini": {
+          "summary": "A kite is flying in a clear blue sky with a crescent moon visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A small kite-like flying object is visible in a pale blue sky above a faint crescent moon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A kite soars in a clear blue sky near a crescent moon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A kite flies against a pale blue sky, positioned above a crescent moon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white and grey kite flies in a pale blue sky alongside a faint crescent moon."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "cats",
-        "city exploration",
-        "dogs",
-        "nature visits"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; cats; city exploration; dogs; nature visits."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white kite flies high in a clear blue sky, with a faint crescent moon visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a kite flying in a clear blue sky with a crescent moon visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A small translucent kite or plastic object is floating in a pale blue sky with a faint crescent moon below it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A kite soars in a clear blue sky near a crescent moon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white kite and a crescent moon are visible against a pale blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white kite flies in a pale blue sky with a faint crescent moon visible below it."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "dogs",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; dogs; nature visits; outdoor activities; photography."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial"
+        },
+        "gpt-4o-mini": {
+          "summary": "An aerial view of a parking lot filled with cars, accompanied by a reflective text overlay."
+        },
+        "gpt-5.4": {
+          "summary": "An aerial cinematic shot shows a large car dealership lot filled with parked vehicles beside a road, with subtitle text overlaid at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A bird's-eye view of a parking lot filled with cars during autumn."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An aerial view of a parking lot filled with cars, adjacent to a building with a 'SALE' sign, under warm lighting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An aerial view of a car dealership parking lot filled with rows of vehicles, featuring autumn foliage and a subtitle asking about life goals."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "dining",
-        "nature observation",
-        "nature visits",
-        "outdoor activities"
-      ],
-      "summary": "Generalized visual topics: cats; dining; nature observation; nature visits; outdoor activities."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, top-down view shows a person's hands styling"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a person's hair being styled or manipulated, with hands visible in the frame."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of hands styling and sectioning dark hair, likely braiding it indoors against a plain wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person getting their hair styled by another individual."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of hands braiding or styling dark hair with white strands against a textured wall background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a person applying white hair dye to dark brown hair, with hands actively working the product into sections."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "nature visits",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; nature visits; photography; reading."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A soldier sits at a table with a rifle and a cup of tea, overlooking a mountainous landscape shrouded in fog."
+        },
+        "gpt-5.4": {
+          "summary": "A mountain overlook scene shows a rifle leaning against a small table with a glass mug and kettle, with a foggy valley and scattered buildings below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in military attire sits by a table overlooking mist-covered mountains."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in camouflage sits on a hillside overlooking a valley with mist, next to a rifle and a mug."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in camouflage sits on a hillside overlooking a [LOCATION] town, with an AK-style rifle and tea set resting on a small table beside them."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "nature visits",
-        "outdoor activities",
-        "photography",
-        "reading"
-      ],
-      "summary": "Generalized visual topics: city exploration; nature visits; outdoor activities; photography; reading."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts two cartoon figures in a bed, with a YouTube live stream notification about [LOCATION]'s Republic Day in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon-style image shows two people lying on a bed and watching a YouTube live stream about [LOCATION]'s Republic Day parade on a wall screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character lounging in a bikini while watching an online broadcast of [LOCATION]'s Republic Day parade."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon woman lies on a bed watching a [PERSON] livestream of [LOCATION]'s Republic Day parade scheduled for [DATE]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon illustration of a couple in bed watching a [ORGANIZATION] stream on a wall screen that displays a live broadcast of [LOCATION]'s Republic Day Parade."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tweet discussing the dangers of blindly adopting ideologies and includes a reply about political extremism in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of an X/Twitter post by [ORGANIZATION] showing a philosophical quote above an embedded political post about [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] discusses adopting ideologies as automata versus growth."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter post by [PERSON] ([ACCOUNT]) quoting a philosophical statement about blind adoption leading to stagnation, followed by a retweet from '[ORGANIZATION] claiming right-wing extremists in [LOCATION] are American agents."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post by user [PERSON] ([ACCOUNT]) criticizing blind adherence to dogma, displayed as a reply to a quote about right-wing extremists in [LOCATION]."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person salutes in front of the Indian flag waving in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person is saluting a large Indian flag flying on a tall pole outdoors against a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person saluting in front of an Indian flag under a clear sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person salutes the Indian national flag waving atop a pole against a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a blue shirt is seen from behind, saluting the Indian national flag flying on a tall pole against a clear sky."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a decorated religious space with floral garlands and a central altar."
+        },
+        "gpt-5.4": {
+          "summary": "An indoor Sikh shrine area is decorated with colorful hanging flower garlands, a silver canopy-covered platform, bouquets, and patterned carpets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A decorated Sikh temple interior featuring a golden shrine adorned with flowers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A decorated indoor religious shrine with hanging floral garlands, a central golden altar, and patterned rugs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An indoor view of a decorated Sikh shrine featuring a central canopy-covered platform, colorful hanging flower garlands, and floral arrangements on patterned rugs."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A very blurry image shows a person wearing a green hat and a green jacket, smiling against a white background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a green military-style jacket and a wide-brimmed hat, but the face is obscured."
+        },
+        "gpt-5.4": {
+          "summary": "A motion-blurred portrait shows a smiling person in a green wide-brim hat and matching jacket against a plain light background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Blurred photo of a person wearing an olive green hat and jacket against a plain background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurred image of a person in a green uniform and hat, smiling against a plain background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A heavily motion-blurred image of a smiling person wearing a green hat and matching uniform against a plain white background."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A full moon with visible craters is centered against a clear, deep blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a clear view of the moon against a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows the moon against a clear blue-gray sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A clear night sky featuring a full moon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A full moon is centered in a clear, deep blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A full moon is centered against a clear, solid blue sky."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A minimalist image features a small, [LOCATION] visible against a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a small white object in a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A minimal photo shows the moon alone in a clear blue daytime sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A clear night sky featuring a small moon against deep blue hues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pale moon hangs alone in a gradient twilight sky, with a faint vertical line visible at the bottom edge."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small, bright moon is centered in a vast, grainy blue sky with a thin vertical pole visible at the bottom left."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large flock of birds is captured mid-flight against a clear blue sky with faint white clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A flock of birds is flying in a blue sky with scattered clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A large flock of birds is flying together against a blue, lightly clouded sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A flock of birds flying in a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A flock of birds flies against a blue sky with scattered clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large flock of birds flies in a scattered formation against a blue sky with light clouds."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large flock of birds is captured in flight against a clear blue sky with scattered white clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A flock of birds is flying in a clear blue sky with scattered clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A flock of birds is flying together against a mostly blue, lightly clouded sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A flock of birds flying in a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A flock of birds flies in formation against a partly cloudy blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A flock of birds flies in formation against a blue sky with scattered white clouds."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant green and yellow feather is held in a hand, with a blurred background showing a ground surface and part of a shoe."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a vibrant green and yellow feather held in a person's hand."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a bright green-and-yellow feather being held outdoors, with rocky ground blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a vibrant green-and-yellow feather held against an outdoor backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a vibrant green and yellow bird feather held in hand against a blurred outdoor background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a vibrant yellow and green feather held by a hand, with a blurred outdoor background."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant red sun or moon is visible in a cloudy, reddish sky above a building with a yellow flag and power lines."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a sunset with a large, pink sun partially obscured by a building and a flag."
+        },
+        "gpt-5.4": {
+          "summary": "A large red sun hangs low beside a dark rooftop with a flagpole against a hazy pink evening sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sunset scene featuring a flag waving atop a building against an orange-hued sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A reddish sun sets behind a roof with a tattered flag waving above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large, reddish sun sets behind the silhouette of a building roof and a flagpole against a hazy pink sky."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a vibrant pink rose against"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a vibrant pink rose against a colorful background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a vivid pink rose in front of a blurred floral background with an inspirational text overlay."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a vibrant red rose against an artistic background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a vibrant red rose in front of an abstract painted background with overlaid text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a vibrant pink rose in front of a colorful mural background."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a vibrant bouquet of red and white flowers against a colorful mural background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a wrapped bouquet of bright red roses with a few white flowers against a tiled floor and colorful mural background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Hand holding a bouquet of red roses and white flowers wrapped in clear plastic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a bouquet of red and white roses wrapped in clear cellophane against a patterned background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a large bouquet of red roses and white carnations wrapped in clear cellophane against a painted mural background."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot captures a bright blue sky with wispy cirrus clouds stretching over green fields and distant buildings under a clear horizon."
+        },
+        "gpt-4o-mini": {
+          "summary": "A clear blue sky with wispy clouds over a green field and distant buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A wide landscape photo shows dramatic wispy clouds across a blue sky above green fields and a small cluster of buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a clear blue sky dotted with wispy clouds over an open field bordered by buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide shot of a green field under a vast blue sky with wispy clouds, distant buildings visible on the horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide landscape view featuring a vast blue sky with wispy clouds above a green field and distant buildings."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark SUV with a spare tire decorated with yellow and white flowers is parked outdoors under"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a parked vehicle with a floral arrangement on the spare tire, set against a clear blue sky and a tall pole in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A black off-road vehicle with flowers near its rear is parked outdoors beside a very tall pole under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view from inside a vehicle showing flowers placed near its rear tire against a backdrop of clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vehicle with flowers on its hood is parked near a tall yellow flagpole under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black SUV with a [ORGANIZATION] spare tire is parked outdoors near a tall yellow flagpole and palm trees under a clear blue sky, with fresh flowers placed on its rear bumper."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a hoe is shown in a lush green field with a water channel running through it."
+        },
+        "gpt-5.4": {
+          "summary": "A person’s hand holds a tool beside an irrigation channel running through a lush green field under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person uses a hoe in an irrigation ditch between rice fields under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person's hand holds a wooden tool while standing in a muddy irrigation channel between rows of green crops under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a wooden tool over an irrigation canal in a lush green field with buildings in the distance."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a metal cup filled with a frothy, light brown beverage, with a blurred background of a narrow stream or canal bordered by green grass and some yellow flowers, and a bare foot visible on the grass."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a cup of light-colored beverage near a stream surrounded by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a metal cup of milky tea beside a narrow sunlit stream, with grass and a bare foot visible in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a metal bowl filled with liquid near a riverbank."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a metal bowl of frothy milk beside a stream in a grassy outdoor setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a metal cup of milky tea near a stream in a grassy outdoor setting."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A tractor with custom speakers is parked next to an irrigation system actively pumping water into a brick-lined channel in a sunny, rural agricultural setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a tractor with a water pump in a field, with water flowing from a brick structure into a canal."
+        },
+        "gpt-5.4": {
+          "summary": "A tractor with large mounted speakers is parked beside a brick-lined irrigation channel pumping water into farmland under a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tractor is spraying water into a irrigation system in an agricultural field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A tractor with a mounted speaker system is positioned near a brick-lined irrigation channel under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tractor equipped with a large speaker system is pumping water into brick-lined irrigation channels in a sunny agricultural field."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A clear shadow of a person holding a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a shadow of a person standing over murky water with some debris and grass visible."
+        },
+        "gpt-5.4": {
+          "summary": "A person’s shadow is cast across shallow muddy water outdoors, with bits of grass and debris along the edges."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shadow of a person standing in muddy water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person's shadow is cast on the surface of murky water, surrounded by grass and debris."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle shot captures the shadow of a person standing in shallow, murky water with ripples and scattered debris."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide-angle shot captures a vast blue sky with wispy white clouds"
+        },
+        "gpt-4o-mini": {
+          "summary": "A clear blue sky with wispy clouds above a green field and distant buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A wide outdoor landscape shows a vivid blue sky with wispy clouds above green fields, scattered buildings, and several solar panels."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a clear blue sky with wispy clouds over an open field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide shot of a bright blue sky with wispy clouds over a rural landscape featuring green fields, trees, and solar panels."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide landscape view featuring a vast blue sky with wispy clouds above green agricultural fields, scattered trees, and solar panels near distant buildings."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene landscape photo captures a colorful sunset or sunrise sky with scattered clouds over a silhouette of communication towers and distant buildings."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a sunset with a gradient sky and silhouettes of communication towers and buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A calm sunset sky with pink and blue clouds hangs over a low-rise neighborhood with cell towers and a power line in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene over a rural landscape featuring通信 towers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A twilight sky with pink and blue hues, featuring silhouetted communication towers and buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A twilight landscape featuring a gradient sky of orange and purple with scattered clouds, silhouetted communication towers, and a distant urban skyline."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a landscape featuring vast green agricultural fields, a long canal, and a densely populated village or town under a clear sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a panoramic view of lush green fields and a nearby village."
+        },
+        "gpt-5.4": {
+          "summary": "An aerial view shows bright green farm fields beside a small town, with a long rectangular water basin and roads under a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "An aerial view of a rural landscape featuring green fields, roads, buildings, and power lines under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of lush green agricultural fields next to a small town under a clear sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An aerial view of a rural landscape featuring vibrant green agricultural fields, a long rectangular water reservoir, and an adjacent settlement under a clear sky."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a"
+        },
+        "gpt-4o-mini": {
+          "summary": "An aerial view of a vibrant agricultural landscape featuring green fields and a structured layout of crops."
+        },
+        "gpt-5.4": {
+          "summary": "A tilted aerial view shows bright green agricultural fields divided by dirt roads, with long white-covered crop rows, a small building, and a rectangular water pond."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Aerial view of a large agricultural structure surrounded by green fields."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of lush green agricultural fields with a long greenhouse structure and adjacent water channel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An aerial view of agricultural land featuring vibrant green fields, a rectangular water reservoir, and a large structure with parallel white rows."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A heart-shaped orange lollipop lies on a concrete surface, swarmed by numerous ants, with a body of water visible in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A heart-shaped lollipop is surrounded by numerous ants on a concrete surface near water."
+        },
+        "gpt-5.4": {
+          "summary": "A heart-shaped orange lollipop lies on a concrete surface while numerous ants swarm over it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Ants are gathered around a heart-shaped lollipop placed near water."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Ants swarm over a heart-shaped orange lollipop resting on concrete near water."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A heart-shaped orange lollipop on a white stick lies on a concrete surface, swarmed by numerous black ants."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a hand holding a piece of meat while another hand holds a knife, set against a natural ground background."
+        },
+        "gpt-5.4": {
+          "summary": "A split-screen close-up shows a curved blade and hands handling a small bloody object outdoors on dry ground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person's arm holding an object near dry grass."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A split image showing a close-up of a blade on dry ground and hands holding a bloody object."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image showing a close-up of a curved blade on the left and two hands, one wearing a silver bracelet, holding an object over dry ground on the right."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a silhouette of a building with domes and a tall pole against a hazy background."
+        },
+        "gpt-5.4": {
+          "summary": "A hazy sky backlights power lines and a tall pole above rooftops, with a domed building partially visible between dark brick walls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A silhouette of a building featuring domed structures against an orange-hued sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Silhouette of a mosque dome and minaret against a hazy, peach-colored sky framed by brick walls and overhead wires."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A silhouette of a tall flagpole and ornate domed architecture against a hazy, warm-toned sky."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A military jet is flying in a cloudy sky, partially obscured by tree branches."
+        },
+        "gpt-5.4": {
+          "summary": "A small airplane silhouette is flying across a cloudy blue sky, with a few tree branches visible at the bottom edge."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small airplane soars through a clear blue sky above some branches."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A distant airplane flies across a pale blue sky, framed by the silhouette of tree branches at the bottom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A distant silhouette of a fighter jet flies across a cloudy blue sky, framed by the dark branches of plants in the foreground."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A blurry silhouette of a jet aircraft is seen flying against a light blue, slightly cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a military aircraft flying in a cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry dark fish-shaped silhouette appears alone against a pale cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A fighter jet flying in a clear sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-colored fighter jet flies against a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A distant, dark silhouette of a fighter jet flying against a cloudy sky."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A high-contrast image shows a spider on its intricate web, illuminated against a dark, possibly night sky background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a spider web illuminated against a dark background, showcasing intricate patterns."
+        },
+        "gpt-5.4": {
+          "summary": "A high-contrast black-and-white close-up shows a spider web with a bright spider at the bottom center against a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A spider web illuminated against a dark background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A spider sits at the center of a detailed, illuminated web against a black background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-contrast, black-and-white close-up of a spider resting at the center of its intricate web against a dark background."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a tool is seen in a lush green rice field with water channels and distant buildings under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A person’s hand holds a wooden tool beside an irrigation canal running through a lush green field under a clear blue sky, with buildings in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holding a hoe in front of green fields under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person's hand holds a wooden tool along a water-filled irrigation ditch in a vibrant green rice field under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a hand holding a wooden tool over an irrigation ditch in a lush green field with buildings in the distance."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a hand holding a lump of brown, granular food, with a blurred background featuring a person, a bicycle, and a dog in a sunny outdoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a piece of brown, crumbly food with a person and a dog in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a brown crumbly snack outdoors, with a blurred person beside a bicycle and a dog in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a hand holding what appears to be fried food in an outdoor market scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a textured brown food item outdoors, with a blurred person and dog in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a hand holding a brown, textured food item with a blurred outdoor background featuring a person and a bicycle."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a piece of food while a person on a bicycle and a dog are visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a small portion of food in the foreground, with a blurred outdoor rural scene behind featuring a person by a bicycle and a dog."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a hand holding food in an outdoor public space."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a small portion of textured food outdoors, with a person and bicycle in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a hand holding a portion of food, with a street vendor and bicycle in the background."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a vibrant yellow mustard flower against a backdrop of a green field and a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a yellow flower against a clear blue sky and green field background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a small yellow wildflower in front of a green field under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a yellow flower against a clear blue sky in an open field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a yellow flowering plant against a clear blue sky over a green field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a sprig of yellow flowers against a backdrop of a green field and clear blue sky."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person carrying a blue container on their shoulder is partially covered by a dark towel in a green field under a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a green field is wrapped in a dark towel over their head while holding up a bright blue insulated water jug under a dramatic cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a towel over their head carries a blue water container in an open field under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person outdoors in a field, covering their head with a towel and holding a blue thermos."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wrapped in a dark towel holds a blue water jug while standing in a green field under a cloudy sky."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "An individual in traditional attire is seen bending down to interact with small black objects on a sandy ground."
+        },
+        "gpt-5.4": {
+          "summary": "A person in loose clothing bends over in a dusty courtyard near a small hole and several dark round objects on the ground, with a covered car and brick walls in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person playing a game of marbles in an outdoor rural area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands near small black balls on dusty ground, with a covered vehicle and trees in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in traditional attire plays a street game with black balls on a dirt ground, aiming for a hole."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a person's ear adorned with a small yellow flower against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of the side of a person’s face and ear with a small yellow flower tucked by the hair against a vivid blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person's ear adorned with yellow flowers against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a person's ear with a yellow flower resting on it against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up side profile of a person with short dark hair and stubble, featuring a small yellow flower tucked behind their ear against a clear blue sky."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset or"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene sunset over a rural landscape with fields and a few trees."
+        },
+        "gpt-5.4": {
+          "summary": "A warm sunset over open rural fields with dramatic wispy clouds and a silhouetted tree on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a rural landscape featuring fields and scattered trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A serene sunset over a rural field with scattered trees and soft clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape photograph capturing a bright sun setting over a flat green field with silhouetted trees and distant structures under a cloudy sky."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view from the front of a vehicle, capturing a sunset along a rural road with a person seated in the driver's seat."
+        },
+        "gpt-5.4": {
+          "summary": "View from inside a bus or similar vehicle shows a rural road at sunset, with the driver area in silhouette and fields and trees along the roadside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset view from inside a vehicle traveling through rural [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person views a sunset over a rural road from inside a vehicle, with Devanagari script visible above the windshield."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from inside a vehicle traveling down a rural road at sunrise, with a passenger visible in the foreground and a bright orange sky ahead."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset or sunrise illuminates a cloudy sky with hues of orange, red, and yellow over a dark, silhouetted landscape featuring fields, trees, and distant structures."
+        },
+        "gpt-4o-mini": {
+          "summary": "A vibrant sunset with colorful clouds over a rural landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A vivid sunset glows red and orange beneath a cloudy sky over a flat rural landscape with silhouetted trees and rooftops."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a rural landscape under cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic sunset over a rural landscape with clouds illuminated in orange and red hues."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vibrant sunset with orange and yellow hues illuminates a cloudy sky above a silhouetted rural landscape featuring fields, trees, and rooftops."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a serene landscape at sunset, featuring fields, buildings, and communication towers against a colorful sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wide landscape photo shows green fields, low buildings, and two telecom towers under a colorful sunset sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene over a rural landscape featuring fields, buildings, trees, and communication towers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A rural landscape at sunrise or sunset with green fields, distant buildings, and communication towers against a colorful sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide landscape view of green fields and a distant town skyline under a sunset sky with scattered clouds and two tall communication towers."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A view of a sunset along a rural road, seen from inside a vehicle."
+        },
+        "gpt-5.4": {
+          "summary": "View from inside a vehicle of a tree-lined road at sunset, with a few cars ahead and the sun low on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view from inside a vehicle showing cars driving down an empty road during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from inside a vehicle at dusk, showing a road with cars and trees silhouetted against an orange sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from inside a vehicle driving down a rural road at sunset, with silhouetted trees and other cars visible on the horizon."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character in a military uniform delivering a line from a drama series."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional drama clip shows a woman in a decorated military-style uniform speaking indoors, with Story TV branding and Hindi subtitle text on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a military uniform speaks during an episode of '[PERSON] from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a military uniform with medals and insignia is shown in a promotional still for a TV drama."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female character in a military uniform with gold epaulets and ribbons stands against a backdrop featuring the Indian flag, promoting the drama series '[PERSON]."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene landscape features a bright sun low in the sky over a green field with a bird in flight and distant trees."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene landscape featuring a sunset over a green field with a solitary tree and a bird in flight."
+        },
+        "gpt-5.4": {
+          "summary": "A wide rural landscape shows a low sun over green fields, dramatic wispy clouds, a lone tree, and a bird flying near the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene rural landscape featuring a bright sun in the sky over green fields."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide landscape photo showing a bright sun, wispy clouds, a solitary tree, and a bird flying over green fields."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape featuring a bright sun low on the horizon over a green field with scattered trees and a bird in flight."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant sunset"
+        },
+        "gpt-4o-mini": {
+          "summary": "A sunset view over a rural landscape with fields and buildings in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A vivid sunset glows beneath layered clouds over a rural landscape with low buildings in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset over a rural landscape featuring rooftops."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A rural sunset with orange and pink clouds over fields and rooftops."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunset view over a rural landscape featuring brick buildings and green fields under a cloudy sky."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is raising a finger while partially obscured in a dimly lit setting."
+        },
+        "gpt-5.4": {
+          "summary": "A grainy low-light close-up shows part of a bearded person in dark clothing raising one finger against a plain wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person making a peace sign gesture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a beard raises one finger in a close-up shot with a muted, grainy aesthetic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-light selfie of a bearded person in a dark hoodie pointing their index finger upward against a plain wall."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image features two individuals in military helmets and camouflage gear inside a vehicle, with overlaid text conveying a quote about patriotism."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two soldiers in a military vehicle discussing patriotism, with text quotes expressing their views on displaying patriotic symbols."
+        },
+        "gpt-5.4": {
+          "summary": "A two-panel meme-style image shows helmeted soldiers inside a military vehicle with a patriotic quote overlaid in white text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A military scene featuring soldiers in a vehicle discussing patriotism."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two soldiers in military gear are shown inside a vehicle, with overlaid text quoting one soldier expressing disdain for displaying patriotic flags on cars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A two-panel meme featuring soldiers in a vehicle with overlaid text expressing a sentiment about patriotism."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A crescent moon is visible in a gradient sky"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene twilight sky with a crescent moon and a gradient of colors from orange to purple."
+        },
+        "gpt-5.4": {
+          "summary": "A crescent moon hangs in a clear twilight sky above dark silhouettes of trees and low buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene featuring a crescent moon in an orange-hued sky over silhouetted trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crescent moon hangs in a twilight sky transitioning from orange to purple above silhouetted trees and distant lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A vertical landscape photo capturing a crescent moon in a gradient twilight sky above silhouetted trees and distant lights."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A crescent moon is visible in a gradient twilight sky, transitioning from dark blue to warm orange, above a silhouetted horizon"
+        },
+        "gpt-4o-mini": {
+          "summary": "A crescent moon is visible in a twilight sky with gradient colors."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] hangs in a clear twilight sky above dark tree silhouettes on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene night sky featuring a crescent moon against an orange-hued horizon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crescent moon hangs in a twilight sky above silhouetted trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crescent moon hangs in a gradient twilight sky above the dark silhouette of a tree line."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene twilight sky features a crescent moon above a dark silhouette of a landscape with distant lights and a communication tower."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene twilight scene featuring a crescent moon in a gradient sky."
+        },
+        "gpt-5.4": {
+          "summary": "A crescent moon hangs in a twilight sky above a dark rural-looking skyline with trees, a few lights, and a tall tower on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene twilight scene featuring a crescent moon in an orange-hued sky above silhouetted trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crescent moon hangs in the twilight sky above a silhouette of trees and a tall tower."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A twilight landscape featuring a crescent moon in the sky above silhouetted trees and buildings, with a tall communication tower on the right."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A crescent moon is visible in a twilight sky above a dark silhouette of trees and distant lights."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene twilight sky with a crescent moon visible."
+        },
+        "gpt-5.4": {
+          "summary": "A small crescent moon hangs in a clear twilight sky above dark tree silhouettes on the horizon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene night sky featuring a crescent moon against soft twilight hues."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crescent moon hangs in a twilight sky above silhouetted trees and distant lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crescent moon hangs in a twilight sky with a gradient from blue to orange above dark tree silhouettes."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two green parrots with red beaks are perched on the bare branches of a tree against a light sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two green parrots are perched on a tree branch amidst dry leaves."
+        },
+        "gpt-5.4": {
+          "summary": "Two green parakeets are perched on a rough tree trunk amid tangled dry vines and branches."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two green parrots perched in a tree amidst dry branches."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two green parrots perch on a thick, vine-covered tree trunk with bare branches."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two green parrots are perched on the thick, textured branches of a large tree with dry vines and sparse foliage."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A silhouette of a person petting a dog is captured against a bright, clear sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A silhouette of a person interacting with a dog against a light background."
+        },
+        "gpt-5.4": {
+          "summary": "A high-contrast silhouette shows a person standing outdoors with a dog looking up at their hand against a bright empty sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Silhouette of a person standing next to an animal against bright background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A silhouette of a person standing beside a dog against a bright, hazy background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-contrast silhouette of a person standing on a hilltop with a dog, set against a bright sky and distant cityscape."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a plaid blazer and tie takes a mirror selfie, with outdoor foliage and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a checked blazer and tie is taking a selfie in front of a mirror with a background of [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person wearing a plaid blazer, shirt, tie, and dark trousers, standing by a wooden-framed mirror with palm trees and a wall in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in formal attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a plaid suit and tie, framed by a wooden door with [ORGANIZATION] visible behind."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a beige plaid suit and patterned tie takes a mirror selfie with his smartphone, framed by a wooden door with [ORGANIZATION] visible behind him."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long dark hair, wearing a camouflage jacket, is"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a camouflage jacket stands with their back to the camera, gazing at a serene landscape during twilight."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a camouflage jacket is seen from behind looking over a wide rural field under a soft pastel sunset sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a camouflage jacket gazes out over an expansive rural landscape during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long hair wearing a camouflage jacket stands with their back to the camera, gazing across an open field at sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair wearing a camouflage jacket stands in the foreground looking out over a vast, dry field at sunset. The sky is clear with soft pink and blue hues."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long hair wearing a camouflage jacket is seen from behind, gazing at a rural landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A back-facing portrait shows a person with long dark hair in a camouflage jacket looking out over a dry rural field with trees under a hazy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a camouflage jacket looks out over an open field."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with long dark hair, seen from behind wearing a camouflage jacket, looks out over a rural landscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair and a camouflage jacket is seen from behind, looking out over a rural landscape of dry fields and distant trees."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a character contemplating between two buttons labeled with humorous choices."
+        },
+        "gpt-5.4": {
+          "summary": "A two-button meme shows a hand hesitating between buttons labeled about talking with a 'baddie' and monitoring the situation, followed by a sweating cartoon character."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme showing a character choosing between 'Talks with my [PERSON]' and 'Monitoring the situation,' leading to an anxious reaction."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon depicts a hand pressing a button labeled 'Monitoring the situation' while another button reads 'Talks with my [PERSON]', followed by a stressed character sweating."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A two-panel meme showing a hand pressing a red button labeled 'Talks with my [PERSON]' while another panel depicts a sweating, anxious man wiping his forehead."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A rural landscape features a bare tree, a utility pole with power lines, a vibrant"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a barren tree beside a field with green crops and a dog in a rural setting under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A rural farm scene shows a leafless tree beside power lines and a green field under a bright blue sky, with part of an animal visible in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A rural landscape featuring a tree under power lines against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A rural scene with a leafless tree, power lines, and green fields under a bright blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rural landscape featuring a leafless tree, green crops, and utility lines under a bright blue sky."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a cluster of small, bright yellow flowers on a green plant, likely fennel, against a soft, blurred green background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a cluster of yellow flowers against a green background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a yellow umbel-shaped wildflower blooming outdoors against a soft green background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of vibrant yellow flowers in a natural outdoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a bright yellow flowering plant with delicate blooms and green stems against a blurred natural background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a yellow flowering plant, likely fennel or dill, with delicate stems and feathery green foliage in the background."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a cluster of small white flowers with yellow centers, surrounded by green foliage in a natural outdoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cluster of small white flowers surrounded by green foliage."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a cluster of small pale pink-white four-petaled flowers and buds against green foliage outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of white flowers in a lush green garden."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of white flowers with yellow centers growing on a green stem among foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a cluster of small white flowers with yellow centers growing on green stems against a blurred natural background."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows fingers gently holding a small plant"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a person's hand holding a small plant with vibrant purple flowers and green leaves."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a hand holding a small wildflower stem with bright blue-purple blossoms and green leaves outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a small plant featuring vibrant blue flowers against an out-of-focus green background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a small plant with two vibrant blue flowers against a blurred natural background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a hand holding a small plant with vibrant blue flowers and green leaves against a blurred natural background."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a vibrant red poppy flower blooming in a terracotta pot."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a vibrant red poppy flower in a pot with green foliage in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a bright red poppy-like flower blooming in a small garden pot with a blurred outdoor background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a vibrant red poppy flower in bloom."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a vibrant red poppy flower blooming in a terracotta pot."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a vibrant red poppy flower in full bloom, planted in a terracotta pot with green foliage and buds visible in the background."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a [ORGANIZATION] 5 Star chocolate bar in its golden wrapper against a bright orange background, with a slogan below it."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION] 5 Star chocolate bar with a bright orange background."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional graphic shows a [ORGANIZATION] 5 Star chocolate bar on a bright yellow background with the slogan beneath it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] 5 Star chocolate bar advertisement against a yellow background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] 5 Star chocolate bar wrapper centered on a vibrant yellow background with the slogan '[ORGANIZATION]. Do Nothing.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] 5 Star chocolate bar is displayed against a yellow background with the slogan '[ORGANIZATION]. Do Nothing.'"
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows handwritten notes on social skills and their impact on character and morality."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a lined notebook page with handwritten notes about social skills and national character, with some text blacked out."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Handwritten notes discussing national character and moral effects."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Handwritten notes on lined paper discuss '[ORGANIZATION], 'National Character', and 'National moral effects you Nation'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of handwritten notes on lined paper discussing social skills and national character, with a 'Hero' logo visible in the corner."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows the entrance of a military selection center labeled '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "An outdoor entrance arch labeled \"SELECTION CENTRE EAST\" stands over a gated compound with trees and smaller signs visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Entrance of [LOCATION] building."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An archway entrance to a government facility labeled 'SELECTION CENTRE EAST' with emblems and a mask-required sign."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle shot of a white archway entrance labeled 'SELECTION CENTRE EAST' featuring military insignia and a mask mandate sign."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person lounges on a ledge, observing a large group of people engaged in various activities on an open field."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a humorous tweet about school subjects fighting over strategic planning is paired with a photo of a person reclining and watching a large crowd spread across an open field."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person lounging while others engage in a large-scale game of marbles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person lounges and smokes while observing a large crowd playing cricket in an open field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a blue turban and white clothing lies on a brick wall smoking, overlooking a large open field where numerous people are playing cricket. The image is overlaid with text describing the humorous scenario of academic subjects fighting each other."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide-angle landscape photo captures a vibrant blue sky with wispy white clouds over green fields, distant buildings, and solar panels."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a clear blue sky with wispy clouds above a rural landscape featuring solar panels and distant buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A wide outdoor landscape shows a vivid blue sky with wispy clouds above green fields and a small rural settlement."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a clear blue sky dotted with wispy clouds over green fields."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vast blue sky with wispy clouds overlooks a green field with solar panels and distant buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide landscape view featuring a vibrant blue sky with wispy clouds above green fields, scattered trees, and distant buildings. A small solar panel array is visible in the foreground."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a clear sky with a bright sun and scattered clouds, framed by trees in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A wide outdoor sky photo shows the sun low behind dramatic clouds above silhouettes of trees and rooftops."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sky scene featuring a bright sun partially obscured by clouds over silhouetted trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright sky with wispy clouds and silhouetted trees under a setting or rising sun."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bright sun shines in a blue sky with wispy white clouds above silhouetted tree tops."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot captures a bright blue sky filled with wispy white clouds, stretching above a distant horizon line featuring buildings and several communication towers."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a clear blue sky with wispy clouds and several communication towers in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A wide outdoor scene shows a vivid blue sky with streaky clouds above a low urban skyline and several communication towers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A clear blue sky with wispy clouds over a cityscape featuring tall communication towers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wide shot of a bright blue sky with wispy clouds above a distant treeline and communication towers."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle view of a bright blue sky filled with wispy cirrus clouds above a distant urban skyline featuring several communication towers."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a green sign commemorating an individual named [PERSON], located at a specific address."
+        },
+        "gpt-5.4": {
+          "summary": "A green roadside signboard in [LOCATION] points left to the [PERSON] [PERSON] Jagjit [LOCATION] memorial building at [LOCATION], with a portrait at the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A green signboard directing towards a location named 'Gajal [PERSON] [LOCATION] [PERSON] located in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green directional sign in [LOCATION] with a portrait and text indicating an address for '[PERSON] [LOCATION]' with an arrow pointing left."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A green directional sign in [LOCATION] points to the '[PERSON] Jagjit [LOCATION] [PERSON] ([LOCATION] Singh Memorial Building) with a portrait of the singer and an arrow indicating the direction."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a white shirt, dark vest, and striped tie stands in front of a chalkboard with the word \"DOUBLETHINK\" written on it, gesturing with his hands as if explaining something."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in formal attire is gesturing while standing in front of a chalkboard with the word '[ORGANIZATION]' written on it."
+        },
+        "gpt-5.4": {
+          "summary": "A man in formal attire gestures while standing in front of a chalkboard with “[ORGANIZATION]” written on it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a vest stands by a chalkboard labeled '[PERSON]'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in formal attire stands before a chalkboard with '[ORGANIZATION]' written on it, gesturing as if teaching or explaining."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a vest and tie stands before a chalkboard with the word '[ORGANIZATION]' written on it, holding a piece of chalk."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with curly hair and a beard is seen in profile in a dark setting, holding a device emitting bright light and smoke,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seen in profile, speaking passionately in a dimly lit setting with a flame in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A dark, dramatic scene shows a person speaking in profile beside a bright burst of flame or sparks, with subtitles on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A silhouette of a person in front of intense light, possibly from an explosion."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in silhouette is shown beside a bright fire, with subtitles reading 'The more scandalous the accusation,' against a dark, textured background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person is shown in silhouette against a bright burst of fire and sparks, with subtitles reading 'The more scandalous the accusation,'."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with a beard is seen in profile, illuminated by a bright, fiery light source in a dark, dramatic setting with visible particles in the air."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a person holding a flame in a dark setting, with visible sparks in the air."
+        },
+        "gpt-5.4": {
+          "summary": "A person in profile is shown in dramatic firelight beside a large flame in a dark outdoor scene, with subtitle text on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A silhouette of a person standing in front of intense light, possibly fire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A silhouetted figure stands beside a bright flame in a dark, snowy setting with subtitles reading 'the greater their appetite for it.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in profile is silhouetted against a bright burst of fire and sparks, with the subtitle 'the greater their appetite for it.' visible at the bottom."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cricket match scene featuring players from [LOCATION] and [LOCATION] in action."
+        },
+        "gpt-5.4": {
+          "summary": "A televised cricket match shows players from [LOCATION] and [LOCATION] on the pitch during live play."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cricket match in progress showing a batsman preparing his stance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cricket player in a black [LOCATION] uniform celebrates after hitting the ball, with a bowler and umpire visible on the field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cricket match in progress featuring a [LOCATION] batsman playing a shot against an Indian bowler on a green field."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a white collared shirt and black cardigan is holding a tabby cat outdoors"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a cat in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a white shirt and dark cardigan is holding a tabby cat outdoors near green bushes in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holding a cat outdoors near greenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds a tabby cat outdoors against a backdrop of [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a white collared shirt and black cardigan holds a tabby cat outdoors near greenery."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, slightly blurry image shows an adorable orange tabby kitten looking directly at the camera, held or standing on a concrete surface outdoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a cat's face with a blurred background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows an orange tabby kitten approaching the camera outdoors on a sunlit concrete surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a curious cat looking directly into the camera."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a small, fluffy orange kitten looking directly at the camera outdoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, low-angle shot of a small ginger kitten with large eyes looking directly at the camera outdoors."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of people celebrate at night, with one person wearing an Indian flag as a cape while fireworks erupt in the background."
+        },
+        "gpt-5.4": {
+          "summary": "People stand on a street at night watching fireworks, with one person draped in the Indian flag in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people celebrate outdoors under fireworks while holding an Indian flag."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "People at night watch fireworks with one person draped in an Indian flag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person draped in an Indian flag stands on a street at night watching fireworks explode above a crowd."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A yellow truck with a unique front design and loaded with bags is parked on a road."
+        },
+        "gpt-5.4": {
+          "summary": "A yellow cargo truck carrying large sacks is parked or moving on a paved roadside near utility poles and low buildings under a clear sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A yellow truck carrying large sacks drives along a road under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow truck loaded with sacks drives on a road under power lines, with a building and utility pole in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A yellow road sweeper truck with a green cargo bed drives on an asphalt road under a clear sky, carrying sacks on its roof and displaying Hindi text on the front bumper."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A green truck loaded with bricks is parked under a concrete overpass in a busy urban setting."
+        },
+        "gpt-5.4": {
+          "summary": "A bright green cargo truck loaded with bricks is driving under a concrete overpass on a sunny urban road."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A green truck carrying bricks drives under a bridge in an urban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A green truck carrying bricks drives under an overpass on a sunny day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bright green cargo truck loaded with bricks is driving on a paved road beneath a concrete overpass in an urban setting."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hazy sunrise or sunset casts a warm glow over a foggy landscape, silhouetting distant buildings and a lone tree"
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunrise is visible through a foggy landscape, with silhouettes of trees and buildings."
+        },
+        "gpt-5.4": {
+          "summary": "A hazy orange sun hangs over a foggy urban skyline with silhouetted trees and buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sunset through dense fog over a silhouette of buildings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hazy sunrise casts an orange glow over silhouetted buildings and trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hazy, orange-tinted sunrise or sunset over a silhouetted urban landscape with buildings and trees."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a striped shirt and suspenders is seated, using a headset in an office setting."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a striped dress shirt, tie, and suspenders sits indoors with headphones on and his eyes closed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a striped shirt wearing headphones appears tired."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a striped shirt, tie, and suspenders wears headphones with eyes closed in an office-like setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a striped shirt and suspenders sits with eyes closed wearing headphones, appearing to be listening intently or resting."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a nameplate displaying the name '[ORGANIZATION] in both English and another script."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a nameplate mounted on a wood-textured surface with the name written in [LOCATION] and English."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nameplate displaying '[ORGANIZATION] in both English and Hindi script."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nameplate displays '[LOCATION] सिंह' and '[ORGANIZATION] in [LOCATION] and English."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up black-and-white photo of a rectangular nameplate attached to a ribbed fabric surface, displaying text in both [LOCATION] and English."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a popular meme format featuring two contrasting facial expressions of a cartoon character, one happy and in"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contrasts two figures, one cartoonish and one historical, with captions indicating knowledge disparity."
+        },
+        "gpt-5.4": {
+          "summary": "A split-panel meme shows a normal smiling Mr. [PERSON] on the left and a dark, eerie black-and-white version on the right with contrasting captions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme contrasting 'Those who don't know' (cartoon character) versus 'Those who know' (black-and-white portrait)."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Split image comparing a cartoon character with a dark, shadowed portrait, each labeled with text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen meme contrasting a brightly lit, smiling animated character on the left with a dark, shadowed version of the same face on the right. The image uses text to humorously distinguish between those who are unaware and those who possess specific knowledge."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling man, identifiable as [PERSON], sits at a desk with a taco bowl, giving"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is sitting at a desk holding a large taco in a bowl, with a city view in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a suit sits at an office desk, smiling and giving a thumbs-up over a taco salad beneath meme text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a suit sits behind an oversized taco labeled 'ONE BIG BEAUTIFUL TACO'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a suit smiles while seated at a desk, holding a fork over a large taco and giving a thumbs-up."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a suit sits at a desk giving a thumbs-up next to a large taco bowl, with overlaid text reading 'ONE BIG BEAUTIFUL TACO'."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A man in ornate clothing speaks to a group, emphasizing the negative impact of panic."
+        },
+        "gpt-5.4": {
+          "summary": "A bald man in ornate dark clothing looks to the side in a dim, dramatic medieval-style scene, with a subtitle on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a dark, ornate outfit delivers a quote emphasizing composure."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bald man in ornate dark clothing delivers a line about panic while seated in a dimly lit room."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bald man in ornate dark clothing looks sideways with a smug expression while seated in a dimly lit room, accompanied by the subtitle 'Panic is an ugly thing, gentlemen.'"
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dimly lit scene featuring a character in a lavish outfit speaking about the consequences of ambition."
+        },
+        "gpt-5.4": {
+          "summary": "A person in ornate clothing stands in a dim, candlelit interior with another figure in the background and a subtitle on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in ornate attire speaks solemnly near a lit candle arrangement."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in ornate clothing looks down solemnly in a dimly lit room with candles and another figure in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in ornate historical clothing stands in a dimly lit room with candles, looking serious while another figure is visible in the background."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a golden-brown samosa, broken open to reveal its savory potato and pea filling, served in a black fluted bowl."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of flaky pastries filled with a mixture of vegetables, served in a black dish."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows several fried triangular pastries with a visible vegetable filling served in a black plate."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a plate filled with samosas."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a golden-brown, flaky samosa with visible filling, served on a black scalloped plate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of golden-brown, triangular savory pastries with a visible vegetable filling served on a black fluted plate."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant red sun is visible through a hazy, orange-toned sky above the dark silhouettes of buildings, suggesting a sunset or sunrise over a city."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sunset view with a large orange sun partially obscured by clouds, set against a hazy sky and rooftops."
+        },
+        "gpt-5.4": {
+          "summary": "A red sun hangs low in a hazy orange sky above dark silhouettes of city buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sunset scene over a cityscape with buildings silhouetted against an orange sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant orange sun sets behind urban rooftops under a hazy, warm-toned sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hazy, orange sunset is captured over a silhouette of urban rooftops and buildings."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with a dirty face and beard is shown in a close-up, looking towards"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two individuals in a dramatic setting, with a quote about desire displayed prominently."
+        },
+        "gpt-5.4": {
+          "summary": "A dark cinematic scene shows two men in conversation with white subtitle text over the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a dimly lit arena reflects on his desires."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with a beard looks thoughtful as another person speaks nearby, with subtitles reading 'The mind plays shameful tricks when we want something too much.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard and dirt on his face looks at another person in a dimly lit setting with bokeh lights, overlaid with a quote about the mind playing tricks."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cluster of small, round, pinkish fruits among green leaves."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a leafy tree branch with several small round pale orange fruits hanging among green leaves in sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cluster of small pinkish fruits hanging among green leaves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of several pale orange berries nestled among large green leaves under sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a cluster of pale pink, round berries hanging from a branch surrounded by broad green leaves against a blue sky."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with dark hair and a beard, wearing"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person sits in a dimly lit setting, conveying a somber message about life and death."
+        },
+        "gpt-5.4": {
+          "summary": "A dark cinematic still shows a wet, disheveled man sitting in a dim rustic setting with an English subtitle on screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in a dimly lit room speaks solemnly."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a dark, gritty setting delivers a somber monologue with subtitles."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard sits in a dimly lit, rustic setting while delivering a dramatic line displayed as subtitles."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A red delta-wing drone with a rear propeller is captured mid-flight against a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a red drone flying against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A bright red delta-wing aircraft or drone is flying against a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red aircraft soars against a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red triangular drone flies against a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red delta-wing aircraft with visible markings is flying against a clear blue sky."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A small, green potted plant with a visible trunk and dense foliage"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a small potted tree with lush green leaves against a textured gray background."
+        },
+        "gpt-5.4": {
+          "summary": "A small bonsai-like shrub with dense green leaves sits in a shallow pot against a plain textured wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small bonsai tree in a pot against an outdoor wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A small potted bonsai tree with dense green foliage sits against a textured gray wall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A small potted bonsai tree with dense green foliage and a gnarled trunk sits in a shallow ceramic pot against a textured gray wall."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a maritime tracking map showing the position of the vessel MSV [ORGANIZATION] near [PERSON], [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A vessel-tracking map of [LOCATION] and [LOCATION] coast shows many ship markers, with a popup for MSV AL NOORE USMANI near [PERSON] bound for [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Marine vessel tracking map showing MSV Al Noore Usmani heading towards [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A maritime tracking map showing vessel MSV AL NOORE USMANI [IN] near [LOCATION], with destination [ORGANIZATION] and last position update 15 hours ago."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a computer screen displaying a maritime tracking map focused on [LOCATION], with a pop-up window detailing the status of the vessel MSV AL NOORE USMANI."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a lively gathering with people dancing and celebrating, accompanied by text reflecting on offline and online concerns."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style image shows a group dance or party scene with large [LOCATION] text about everyday worries offline versus bigger social and political worries online."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Humorous meme contrasting offline vs. online life."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people on a stage with overlaid Hindi text contrasting offline and online life concerns."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring a man dancing in a striped suit on a television stage with a crowd, overlaid with Hindi text contrasting offline personal concerns with online societal worries."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in ornate historical attire with a beard and curly hair is shown in a dimly lit, grand interior, with a subtitle indicating he is speaking about peace."
+        },
+        "gpt-4o-mini": {
+          "summary": "A character in a historical setting expresses a desire for peace."
+        },
+        "gpt-5.4": {
+          "summary": "A man in ornate historical clothing stands in a dim, candlelit interior with guards in the background, shown in a subtitled dramatic scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A man in historical attire speaks earnestly while holding a sword."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in historical attire looks over his shoulder with a serious expression, overlaid with subtitles reading 'I came here with the hope of peace.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with dark curly hair and a beard, dressed in ornate historical clothing, looks back over his shoulder in a dimly lit stone hall while subtitles read 'I came here with the hope of peace.'"
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a gas cylinder on a sandy surface with a cartoon character giving a peace sign in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A worn red gas cylinder sits on dusty ground, with a small cartoon chimp sticker graphic at the bottom of the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous juxtaposition of a gas cylinder against an anthropomorphic monkey in colorful attire."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weathered red gas cylinder with handwritten text and a cartoon monkey in a hat and sunglasses making a peace sign at the bottom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weathered red gas cylinder sits on a concrete surface with a cartoon monkey sticker in the foreground making a peace sign."
+        }
+      }
+    },
+    "image_00102": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two men, one older wearing a turban and one younger, stand outdoors in front of a building with sandy ground, both with their hands near their mouths as if whistling or blowing."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals in traditional attire are posing in front of a building."
+        },
+        "gpt-5.4": {
+          "summary": "Two men in light traditional clothing stand on a sandy area in front of a house, posing with their hands near their faces."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals in traditional attire stand outside a building under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two men in traditional attire stand outdoors near a building, both making hand gestures near their mouths."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two men in traditional South Asian attire stand on a dirt path in front of an unfinished house, both covering their mouths with their hands."
+        }
+      }
+    },
+    "image_00103": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black handgun is partially visible, tucked into the waistband or pocket of a person wearing light-"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up view of a handgun tucked into the waistband of pants."
+        },
+        "gpt-5.4": {
+          "summary": "A top-down close-up shows a black handgun tucked into the waistband of light-colored pants while standing on patterned paving stones."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a black handgun resting in someone's hand."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black handgun is resting on a person's lap, partially covered by clothing."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a black semi-automatic pistol holstered at the waist over beige cargo pants and an olive green shirt, set against a tiled floor."
+        }
+      }
+    },
+    "image_00104": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white, waist-level shot shows a person in a plaid shirt and jeans holding a rifle equipped with a scope, outdoors."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person holding a rifle with a scope in a grassy outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white cropped photo shows a person in a plaid shirt holding a scoped rifle outdoors on grass."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a sniper rifle outdoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a plaid shirt holds a scoped rifle outdoors in black and white."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a plaid shirt holds a scoped rifle outdoors in black and white."
+        }
+      }
+    },
+    "image_00105": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a vibrant red chili pepper growing on a plant with wet green leaves, set against a blurred earthy background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a red chili pepper growing on a plant with green leaves in a garden setting."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a small red chili pepper growing on a leafy plant in a garden with blurred soil in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a red chili pepper growing among green leaves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a bright red chili pepper growing on a plant with wet green leaves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a single bright red chili pepper growing on a green plant with wet leaves, set against a blurred garden background."
+        }
+      }
+    },
+    "image_00106": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A long, sandy dirt road stretches through vibrant green fields under a clear blue sky, with a few trees and distant buildings visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sandy road stretches through a green landscape under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A sandy rural road runs through green farm fields under a wide clear blue sky, with a lone tree and a few distant buildings ahead."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dirt road stretches through a rural landscape under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A straight dirt road stretches through green fields under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunlit dirt road stretches through vibrant green fields under a clear blue sky, with sparse trees and distant buildings on the horizon."
+        }
+      }
+    },
+    "image_00107": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a cloudy sky during sunset or sunrise, with the silhouettes of buildings visible at the bottom."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a sunset with orange hues peeking through a cloudy sky over rooftops."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic sunset sky with dark clouds glowing orange above silhouetted city buildings."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset scene over a cityscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dramatic sunset with orange clouds over silhouetted city rooftops."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A moody sunset or sunrise with a glowing orange horizon beneath heavy grey clouds, viewed over the silhouette of an urban skyline."
+        }
+      }
+    },
+    "image_00108": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a handwritten quote about death as a reward."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a planner page with the handwritten quote \"A Good death is its own Reward.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Handwritten quote 'A Good death is its own Reward' dated May."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Handwritten text on paper reads 'A Good death is its Own Reward.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a handwritten note on a calendar page reading 'A Good death is its own Reward,' with the word 'Reward' circled."
+        }
+      }
+    },
+    "image_00109": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a historical newspaper front page reporting the execution of [ORGANIZATION], [LOCATION], and [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A vintage newspaper front page from [ORGANIZATION] shows the headline about [PERSON], [LOCATION], and [PERSON] being executed, with a portrait of [PERSON] in the center."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Front page of [ORGANIZATION] newspaper reporting [PERSON] execution."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vintage newspaper front page from [DATE], announcing the execution of [ORGANIZATION], [LOCATION], and [LOCATION], with a portrait of [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A historical front page of [ORGANIZATION] newspaper from [DATE], announcing the execution of [ORGANIZATION], [LOCATION], and [LOCATION] with a portrait of [PERSON]."
+        }
+      }
+    },
+    "image_00110": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in military attire stands in a desert landscape, expressing uncertainty about their beliefs after university."
+        },
+        "gpt-5.4": {
+          "summary": "A subtitled film still shows a uniformed man in a desert setting with rocky cliffs, looking serious."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in military attire stands against a desert backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in military-style gear stands in a desert landscape, with a subtitle reading 'After university, I'm not sure what I believe.'"
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in military-style desert gear and a helmet stands against a rocky background with subtitles reading 'After university, \"m not sure what I believe.'"
+        }
+      }
+    },
+    "image_00111": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene twilight sky displays a gradient of deep blue to orange hues with scattered dark clouds and a single bright star or planet visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a twilight sky with clouds and a small bright object visible in the upper part."
+        },
+        "gpt-5.4": {
+          "summary": "A dusky sunset sky with scattered dark clouds, a bright point of light, and a silhouetted city skyline along the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene twilight sky transitioning from orange near the horizon to deep blue above."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A twilight sky with gradient hues and scattered clouds, featuring a faint star above a silhouetted horizon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A twilight cityscape featuring a gradient sky transitioning from orange to deep blue with scattered clouds and a single bright celestial object."
+        }
+      }
+    },
+    "image_00112": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot captures a vibrant sunset or sunrise sky with a gradient of blue, orange, and pink hues, featuring scattered clouds and a silhouetted urban skyline at the bottom."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene sunset with colorful clouds and silhouettes of buildings in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A wide dusk sky with scattered clouds glows orange near the horizon above a dark city skyline, with a bright point of light visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene sunset sky over a cityscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A twilight sky with orange and blue gradients, scattered clouds, and a distant city silhouette."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A twilight cityscape featuring a gradient sky transitioning from orange to blue with scattered clouds and silhouetted buildings."
+        }
+      }
+    },
+    "image_00113": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two boys in a natural setting, one holding a stick while the other observes."
+        },
+        "gpt-5.4": {
+          "summary": "A YouTube-style video screenshot shows children outdoors among trees, with the video titled \"KXIP Anthem\" by [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A video thumbnail showing two individuals in a forested area during an animated sequence."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people in white clothing move energetically outdoors under trees, framed as a video thumbnail for '[PERSON] by [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-resolution video frame shows two individuals in a wooded outdoor setting, overlaid with [ORGANIZATION] interface elements indicating the title '[PERSON] and channel 'PUNJAB KINGS'."
+        }
+      }
+    },
+    "image_00114": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person's face with long hair, partially obscured and blurred."
+        },
+        "gpt-5.4": {
+          "summary": "A blurry black-and-white close-up shows part of a face with one eye visible, hair across the frame, and a high-contrast, candid style."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Blurred black-and-white close-up of a person's face."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blurry black-and-white close-up of a person's face, with motion blur dominating the image."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A heavily motion-blurred, black-and-white close-up of a person's face with one eye visible."
+        }
+      }
+    },
+    "image_00115": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man with a beard and dark hair, wearing a camouflage jacket, holds a handgun and smokes a cigarette against a"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a camouflage jacket holding a firearm."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a camouflage jacket poses indoors holding a handgun with a cigarette in their mouth, in a stylized or edited portrait."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a camouflage jacket holding a gun while smoking."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a camouflage jacket holds a handgun and smokes a cigarette against a floral-patterned backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man with a beard and dark hair, wearing a camouflage jacket, holds a handgun while smoking a cigarette against a floral backdrop."
+        }
+      }
+    },
+    "image_00116": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features several green, unripe tomatoes growing on a vine, partially shaded by large leaves, against a blurred light brown background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of green fruits growing on a plant surrounded by leaves."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of unripe green cherry tomatoes growing on a leafy vine in warm sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a plant with green fruits growing among leaves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of green tomatoes growing on a vine with sunlight filtering through leaves."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a cluster of unripe green tomatoes growing on a vine with dappled sunlight filtering through the leaves."
+        }
+      }
+    },
+    "image_00117": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up of a single grain stalk is held in the foreground against a backdrop of a vast golden field, distant trees, and a blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vast field of wheat with a clear blue sky and a few trees in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A calm rural field with golden grain, scattered trees, and a blue sky is shown in a soft-focus landscape scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene landscape featuring a wheat field under a blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a wheat stalk in a golden field under a blue sky with scattered clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a single wheat stalk stands in focus against a blurred background of a golden field, distant trees, and a blue sky."
+        }
+      }
+    },
+    "image_00118": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a tall, intricately designed temple with a person walking in front of it."
+        },
+        "gpt-5.4": {
+          "summary": "A tall temple-like monument with a narrow spire stands in an open street area, with painted religious murals on the base and a person walking in front."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person walks past a tall temple structure under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks toward a tall, ornate white temple tower under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A tall, white Hindu temple tower (shikhar) stands against a clear blue sky with a person walking in the foreground."
+        }
+      }
+    },
+    "image_00119": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two animated characters in a vibrant urban setting, with the title 'I AM BIRD' prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful cartoon game loading screen shows the title \"I AM BIRD\" over a chaotic city street with uniformed characters, a tank, smoke, and an overturned car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful game title screen featuring characters in a cityscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon-style game title screen showing 'I AM BIRD' with characters running through a city street amid chaos."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional image for the video game '[ORGANIZATION] featuring cartoon characters in a chaotic city setting with tanks and explosions."
+        }
+      }
+    },
+    "image_00120": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a page from a book with text in [LOCATION], discussing the importance of education and knowledge."
+        },
+        "gpt-5.4": {
+          "summary": "An open book page shows a printed [LOCATION] quote with a handwritten [LOCATION] note in blue ink, including the name [PERSON] [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A page from a book featuring [LOCATION] script."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An open book displays a printed [LOCATION] quote attributed to 'ਭਗਤ [ORGANIZATION]', with handwritten [LOCATION] notes below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a book page featuring a printed quote in [LOCATION] attributed to [PERSON], with handwritten notes below it."
+        }
+      }
+    },
+    "image_00121": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot features a cluster of unripe green tomatoes growing on a vine, surrounded by leaves and with blurred soil in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of green tomatoes growing on a plant."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of several unripe green tomatoes growing on the vine in a garden bed."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Unripe green tomatoes growing in a garden."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cluster of green tomatoes growing on a vine with leaves and stems."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a cluster of unripe green tomatoes growing on a vine with visible soil in the background."
+        }
+      }
     }
   }
 }

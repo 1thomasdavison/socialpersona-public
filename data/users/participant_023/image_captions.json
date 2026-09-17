@@ -1,67 +1,1679 @@
 {
   "user_id": "participant_023",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "baking and desserts",
-        "board and card games",
-        "film and television",
-        "nature visits",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; board and card games; film and television; nature visits; video games."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A game interface displays a player's score of 1,227 points, an 'Ultra Ball Rank 4', and details about points gained and win streak."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a game ranking screen showing [ORGANIZATION] 4 with a total of 1,227 points."
+        },
+        "gpt-5.4": {
+          "summary": "A game ranking screen shows an Ultra Ball Rank 4 badge with 1,227 points and progress toward the next rank."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Pokémon Go player's [ORGANIZATION] display showing their current points."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming achievement screen showing a [ORGANIZATION]-themed rank with 1,227 points and a current rank of [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] GO competitive ranking screen showing an Ultra Ball Rank 4 status with 1,227 points."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "baking and desserts",
-        "crafts and design",
-        "film and television",
-        "music",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; crafts and design; film and television; music; video games."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a bag of [PERSON] snack in Tangy 'n' Cheesy flavor."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a yellow [PERSON] crisps packet labeled [ORGANIZATION] flavour with a £1.25 price mark."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A package of [ORGANIZATION]n' Cheesy snacks priced at £1.25."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow bag of [ORGANIZATION]N' Cheesy snack chips with a price tag of £1.25."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a yellow bag of [ORGANIZATION]N' Cheesy snack chips."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "baking and desserts",
-        "film and television",
-        "music",
-        "photography",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; film and television; music; photography; video games."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a wild [PERSON] appearing in a grassy area, celebrating the first catch of the day with a 1-day streak."
+        },
+        "gpt-5.4": {
+          "summary": "A Pokémon GO encounter screen shows a shiny Trapinch in a grassy park with a “First Catch of the Day” 1-day streak notification."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot from [ORGANIZATION] GO showing a Trapinch appearing in an outdoor grassy area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Trapinch Pokémon appears in a grassy field, marked as the first catch of the day with a one-day streak."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from [ORGANIZATION] GO showing a shiny Trapinch appearing in a grassy park setting with a 'First Catch of the Day' streak notification."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "board and card games",
-        "film and television",
-        "live performances",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; board and card games; film and television; live performances; video games."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital image shows a white bird-like creature named Wingull with green"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a Wingull Pokémon in a vibrant outdoor setting with sparkling effects."
+        },
+        "gpt-5.4": {
+          "summary": "A Pokémon GO encounter screen shows a shiny Wingull with sparkles in a grassy park area with trees and city buildings in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Wingull Pokémon in a grassy park environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Wingull Pokémon with a CP of 311 is shown flying over a grassy field with sparkles, set against a backdrop of trees and modern buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from a mobile game showing a white bird-like creature named Wingull with CP 311 in a grassy park setting."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "baking and desserts",
-        "board and card games",
-        "film and television",
-        "live performances",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; board and card games; film and television; live performances; video games."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital screen displays a player's progress in a ranked match, showing '[ORGANIZATION] with 1,440 points and indicating a 'Rank-up battle' is available."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a ranked match status in a gaming interface, showing an Ultra Ball Rank 4 with 1,440 points."
+        },
+        "gpt-5.4": {
+          "summary": "A video game ranked-match screen shows Season A3a progress at [ORGANIZATION] 4 with 1,440 points and a rank-up battle prompt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Pokémon Go ranked match screen showing [ORGANIZATION] 4."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A game interface showing a player's rank progress in a ranked match, with 1,440 points and 10 points needed to advance."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] GO ranked match screen showing an Ultra Ball Rank 4 status with 1,440 points and a progress bar indicating 10 points needed to reach the next rank."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "baking and desserts",
-        "board and card games",
-        "city exploration",
-        "film and television",
-        "video games"
-      ],
-      "summary": "Generalized visual topics: baking and desserts; board and card games; city exploration; film and television; video games."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing glasses and a black top with mesh detail takes a selfie, with a text overlay indicating excitement for '[ORGANIZATION] TONIGHT'."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a black outfit with a visible design, expressing excitement about attending a [LOCATION] event tonight."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror-style indoor selfie shows a person wearing glasses and a black outfit, with overlaid text about seeing [ORGANIZATION] tonight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing glasses and a black top with heart patterns sits indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with glasses and a nose piercing poses indoors, overlaid with text announcing a [ORGANIZATION] concert."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A selfie of a person with glasses and facial piercings wearing a black top, overlaid with text indicating attendance at a Doja Cat event."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a [ORGANIZATION] trading card game scenario with various cards displayed and a message indicating the opponent has conceded."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Pokémon Trading Card Game battle shows cards in play on a [ORGANIZATION]-themed board with the message 'Your opponent conceded.'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] card game interface showing a player's victory over an opponent."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Pokémon Trading Card Game battle screen showing a victorious player after their opponent conceded."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot from [ORGANIZATION] game showing a victory screen with the message 'Your opponent conceded' amidst various digital cards like [ORGANIZATION] and Silally."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital screen displays a 'Ranked up!' notification with a stylized [PERSON] icon, indicating an achievement in a game."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a badge indicating a 'Master Ball Rank' achievement in a game."
+        },
+        "gpt-5.4": {
+          "summary": "A celebratory game-style graphic shows a Master [PERSON] icon with text indicating a rank up to [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A celebratory message 'Ranked up!' indicating a progression in [ORGANIZATION] Master Ball Rank."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A celebratory game notification showing a Master [PERSON] icon with 'Ranked up!' and 'Master Ball Rank' text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital graphic celebrating a 'Master Ball Rank' achievement in a game, featuring the text 'Ranked up!' and a stylized [PERSON] icon."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screen displays '[ORGANIZATION] for a user named '[ACCOUNT]' with a profile picture of an anime-style character, showing their win rate, wins, losses, and points."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming profile with season records, including points, wins, and losses."
+        },
+        "gpt-5.4": {
+          "summary": "A game season records screen shows the profile '[ACCOUNT]' with 1,450 points, a 45.9% win rate, 416 wins, and 484 losses in Season A3a."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] showing a player's performance in Season A3a."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming leaderboard screen showing player '[ACCOUNT]' with 1,450 points, a 45.9% win rate, 416 wins, and 484 losses in Season A3a."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a competitive game's season records page showing the player profile '[ACCOUNT]' with an anime avatar, 1,450 points, and a win/loss record for Season A3a."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image showcases a collection of merchandise related to the video game 'The Last of Us Part II', including a figurine, game discs, and various promotional items."
+        },
+        "gpt-5.4": {
+          "summary": "A collection of The Last of Us Part II merchandise is laid out on a carpet, including an [PERSON] guitar statue, PS4 game case, controller box, art pieces, and accessories."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of 'The Last of Us Part II' memorabilia including a figurine, posters, game cases, and collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of 'The Last of Us Part II' merchandise displayed on a textured surface, including a figurine, game cases, and promotional items."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of physical merchandise and a limited edition PlayStation 4 DualShock controller for the video game The Last of Us Part II."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a golden glider called 'Blitz '[ORGANIZATION]' from a video game interface."
+        },
+        "gpt-5.4": {
+          "summary": "A TV screen shows a video game reward screen featuring a glowing umbrella glider item called the [ORGANIZATION] '[ORGANIZATION], with item icons and equip/claim buttons below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] glider named '[PERSON]' displayed in a game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game inventory screen displays a glowing golden glider named 'BLITZ '[ORGANIZATION]' with options to equip or claim it."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television screen displays a video game inventory menu featuring the 'Blitz '[ORGANIZATION]' glider item, with several character skins and collectibles visible in the row below."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a [ORGANIZATION] trading card game booster bundle featuring various characters from [ORGANIZATION] series."
+        },
+        "gpt-5.4": {
+          "summary": "A Pokémon Trading Card Game Scarlet & Violet: Destined Rivals booster bundle box is shown with colorful character and [ORGANIZATION] artwork on the front."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Pokémon Trading Card Game booster bundle featuring characters from [ORGANIZATION] Destined Rivals."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Pokémon Trading Card Game booster bundle box for [ORGANIZATION] Destined Rivals expansion, featuring character artwork and indicating it includes six booster packs."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of [ORGANIZATION]Scarlet & Violet: Destined Rivals' [ORGANIZATION] box featuring various characters and creatures."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two [ORGANIZATION] trading cards: [ORGANIZATION] Moltres EX and [ORGANIZATION], held in a person's hand."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding two holographic Pokémon trading cards, [ORGANIZATION] Moltres ex and Rabsca ex, indoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds two [ORGANIZATION] cards featuring Moltres EX and [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds two Pokémon Trading Card Game cards: [ORGANIZATION] Moltres EX and [ORGANIZATION], showcasing their artwork and stats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds two Pokémon Trading Card Game cards, [ORGANIZATION] Moltres ex and Rabsca ex, displaying their artwork and attack details."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [ORGANIZATION]"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION] trading card of [LOCATION], showcasing its artwork and attack details."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized stack of [ORGANIZATION] trading cards is shown, featuring a purple Milcery card with dessert-themed artwork."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] card featuring [PERSON], a cream-based creature."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] trading card for [PERSON], showing a cream-based creature with cakes in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a holographic [ORGANIZATION] card featuring the character surrounded by cakes."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a collection of [ORGANIZATION] trading cards featuring various characters and their abilities."
+        },
+        "gpt-5.4": {
+          "summary": "A promotional-style image shows five [ORGANIZATION] trading cards on a light background, including [PERSON], [PERSON], [ORGANIZATION], [ORGANIZATION], and Zapdos ex, with some marked \"NEW.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Five new [ORGANIZATION] cards are displayed against a light blue background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five new [ORGANIZATION] trading cards displayed, featuring [PERSON], [PERSON], [ORGANIZATION], [ORGANIZATION], and [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of five Pokémon Trading Card Game cards, including [PERSON], [PERSON], [ORGANIZATION], [ORGANIZATION], and [PERSON], displayed against a light background with 'NEW' stickers on three of them."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION] trading card of [ORGANIZATION] ex, showcasing its artwork and abilities."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful image showcases a new [ORGANIZATION] ex [ORGANIZATION] card with [ORGANIZATION] in a bright floral forest scene, plus three gold stars below it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful [ORGANIZATION] card featuring [ORGANIZATION] in a vibrant floral background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful [ORGANIZATION] trading card featuring [ORGANIZATION] in a floral setting, marked as 'NEW' with game mechanics visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital Pokémon Trading Card Game card featuring [ORGANIZATION] ex with a colorful floral background and game statistics."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a collection of [ORGANIZATION] trading cards featuring various characters in vibrant designs."
+        },
+        "gpt-5.4": {
+          "summary": "A purple collage labeled \"immersive\" displays several [ORGANIZATION] trading cards, including [ORGANIZATION] ex, [PERSON] ex, Mewtwo ex, [PERSON], [ORGANIZATION] ex, [ORGANIZATION] ex, [ORGANIZATION] ex, and Arceus ex."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of [ORGANIZATION] cards featuring various legendary creatures."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of seven Pokémon Trading Card Game cards featuring EX variants against a purple floral background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital collage displays eight Pokémon Trading Card Game cards, including [ORGANIZATION] ex and [PERSON] ex, arranged on a purple floral background with the word 'immersive' at the top."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a gaming rank status showing [ORGANIZATION] with 1,455 points."
+        },
+        "gpt-5.4": {
+          "summary": "A game ranking results screen shows a Master Ball Rank badge with 1,455 points, highest rank reached, 10 points gained, and 6 win streak points."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Pokémon Go game screen showing [ORGANIZATION] of 1455 points."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gaming achievement screen showing [ORGANIZATION] with 1,455 points and a 3-win streak."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital game interface displaying a 'Master Ball Rank' achievement with 1,455 points and a current win streak of 3."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A stylized female video game character with blue and pink hair, wearing futuristic glasses and a colorful outfit, is displayed against a plain blue background with motivational text about teamwork."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized character in a colorful outfit, promoting teamwork in a gaming context."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful futuristic game-style female character in a visor and metallic jacket poses against a blue background with teamwork advice text at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a colorful outfit adjusts their goggles against a blue background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized video game character with blue hair and purple goggles poses confidently against a blue background, accompanied by text about teamwork."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A female video game character with blue hair and a purple visor poses against a solid blue background, accompanied by an instructional text overlay about teamwork."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful [ORGANIZATION] card of [ORGANIZATION] with a playful design and a pink heart-themed background."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a pink heart-themed background with a colorful [ORGANIZATION] card centered on the screen."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful [ORGANIZATION] card featuring [ORGANIZATION] against a pastel pink background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful [ORGANIZATION] card displayed on a pink background with hearts and pearls."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a digital [ORGANIZATION] trading card from the Pokémon TCG app, set against a pink background with heart decorations."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile game screen displays \"Opening Results\" showing five newly acquired [ORGANIZATION] trading cards, including [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], and [PERSON],"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital card opening result featuring various [ORGANIZATION] cards."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile game results screen shows a pack opening with five [ORGANIZATION] cards, including [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], and [PERSON], with several marked as new."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] card game app displaying opening results of new cards."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A mobile game screen showing 'Opening Results' with five new [ORGANIZATION] cards displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile game screenshot displays five Pokémon Trading Card Game cards, including [ORGANIZATION], [ORGANIZATION], [ORGANIZATION], and [PERSON], revealed as 'Opening Results'."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a 'Birthday Cake Sandwich' from [ORGANIZATION], displayed on a wooden table in a park setting."
+        },
+        "gpt-5.4": {
+          "summary": "A packaged [ORGANIZATION] 'Birthday Cake Sandwich' and a bottled drink sit on a picnic table in an outdoor playground area on a sunny day."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] in a purple package sits outdoors near playground equipment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A packaged [ORGANIZATION] sits on a wooden table outdoors, with a playground and bottle in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a [ORGANIZATION] in purple packaging resting on a wooden picnic table outdoors."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of an online shopping cart displaying two Pokémon Trading Card Game items"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a product listing for [ORGANIZATION] card sleeves and a Pikachu promo card."
+        },
+        "gpt-5.4": {
+          "summary": "A shopping cart page shows Pokémon TCG accessories and a promo card, including [ORGANIZATION] sunset card sleeves and a 2025 Worlds Celebratory Pikachu promo card with stock and pricing details."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A shopping cart item listing featuring Pokémon TCG card sleeves and a promo Pikachu card."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A shopping cart displays two Pokémon TCG items: card sleeves and a promotional Pikachu card, both marked as in stock."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an online shopping cart containing Pokémon TCG accessories and a promotional card."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An anime-style illustration features several young men interacting with multiple babies and toddlers against a cheerful, pastel-colored background with polka dots and stars."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features characters from the anime 'School Babysitters' interacting with babies in a playful and colorful setting."
+        },
+        "gpt-5.4": {
+          "summary": "A pastel anime poster shows several school-uniformed characters holding and playing with babies, with one child on a giraffe toy and the title at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful anime-style poster featuring characters holding babies in a playful scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Anime poster showing several young men holding babies against a pastel background with polka dots and stars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An anime promotional poster featuring a group of young men in school uniforms caring for several babies against a pastel background with polka dots and stars."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a [ORGANIZATION] trading card, sealed in a clear plastic sleeve, being held by a hand."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a [ORGANIZATION] trading card featuring Pikachu with a bright and colorful design."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a [ORGANIZATION] trading card inside a small clear zip-top plastic bag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION] card featuring Pikachu in an action pose."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION] trading card sealed in a clear plastic bag, featuring the 'Scrappy Spark' attack and a 'World Championships 2025' logo."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a Pokémon Trading Card Game Pikachu card inside a protective plastic sleeve."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a [ORGANIZATION]-themed card featuring various characters including [PERSON] and [PERSON], held in a person's hand."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a sealed [ORGANIZATION]-themed card sleeve or small print showing [ORGANIZATION], [ORGANIZATION], and other characters in a flower-filled scene, partly covered by a barcode sticker."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a [ORGANIZATION]-themed sticker featuring [ORGANIZATION] alongside [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a sealed [ORGANIZATION] trading card featuring several [ORGANIZATION] characters in a garden scene."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a sealed plastic package containing a [ORGANIZATION] trading card featuring [ORGANIZATION], [PERSON], [ORGANIZATION], and other characters."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a package of [ORGANIZATION] card sleeves featuring a design with [LOCATION] characters."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a sealed pack of [ORGANIZATION] card sleeves featuring a repeating [LOCATION] pattern on a soft blanket."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a package of [ORGANIZATION] card sleeves featuring Ditto characters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a package of [ORGANIZATION] card sleeves featuring a repeating pattern of [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a sealed package of [ORGANIZATION] card sleeves featuring the character [LOCATION] against a pink textured background."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a package of [ORGANIZATION] featuring colorful cartoon characters on the box."
+        },
+        "gpt-5.4": {
+          "summary": "A Peppa Pig-themed brownie package is placed on a bright blue lunchbox outdoors."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A box of [ORGANIZATION] brownies featuring cartoon characters in a beach scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A blue plastic container holds a Peppa Pig-themed package of 10 brownies with cartoon characters on a beach scene."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a blue plastic container holding [ORGANIZATION] themed brownies, featuring beach-themed character illustrations and nutritional information."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital interface displays a line graph showing a significant price increase"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a price trend graph for a [ORGANIZATION] item, showing a significant price increase over a short period."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed app screenshot shows a holofoil item's sold-listings price chart in pounds with the [ORGANIZATION] tab selected and a sharp recent rise to £51.06."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Graph showing a significant increase in '[ORGANIZATION]' listings from July to August."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A line chart shows a sharp price increase for '[ORGANIZATION]' from £28.60 to £51.06 between July and August."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-mode mobile interface displays a line graph showing a sharp price increase for '[ORGANIZATION]' cards from July to August, with the current value at £51.06."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the album cover for 'Gimme Chocolate!!' by [ORGANIZATION] along with game interface options."
+        },
+        "gpt-5.4": {
+          "summary": "A game reward screen displays the [ORGANIZATION] jam track \"Gimme Chocolate!!\" with album art and equip/claim buttons on a blue interface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] showing a music track from [ORGANIZATION] titled 'Gimme Chocolate!!' in an interactive game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game screen showing a music track selection for 'GIMME CHOCOLATE!!' by [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game interface displaying the album art and track details for 'Gimme Chocolate!!' by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the [ORGANIZATION] interface featuring the movie '[ORGANIZATION] along with related content."
+        },
+        "gpt-5.4": {
+          "summary": "A TV displays the [ORGANIZATION] Prime page for the horror movie \"Ginger Snaps\" with its poster image, rating, and watch options."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] Prime interface displaying '[ORGANIZATION] movie details."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A TV screen displays the [ORGANIZATION] Prime video interface for the movie '[ORGANIZATION], showing its title, rating, genre, and watch options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television screen displays the [ORGANIZATION] Prime Video interface for the 2001 horror film '[ORGANIZATION], showing its synopsis and related movie recommendations."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features the cover art for 'Disney's Activity Centre' based on 'A Bug's Life' for PlayStation."
+        },
+        "gpt-5.4": {
+          "summary": "Cover art for a PAL PlayStation game, [ORGANIZATION] [LOCATION] A Bug's Life, featuring cartoon insect characters against a leafy green background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful PlayStation game cover featuring characters from 'A Bug's Life'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Cover art for [ORGANIZATION] [LOCATION] game featuring characters from A Bug's Life."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The cover art for the PlayStation game '[ORGANIZATION] [LOCATION] A Bug's Life' featuring animated characters [PERSON], Atta, and [PERSON] against a grassy background."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot of a woman with blue eyes"
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a woman speaking with an expressive demeanor."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up of a person speaking on camera in an interview-style shot with subtitles at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a person speaking in an interview-style format."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of a woman speaking with subtitles visible."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a woman with blue eyes and brown hair speaking, captured from a screen with visible subtitles at the bottom."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a live chat interface featuring two women labeled as '[PERSON]' and '[PERSON]', showcasing their appearances and point costs for interaction."
+        },
+        "gpt-5.4": {
+          "summary": "A monitor displays [ORGANIZATION] website with a green-and-blue interface, point buttons, and profile thumbnails of women wearing headsets and revealing outfits."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A computer screen displaying a live chat platform featuring two women in different outfits."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A computer screen displays [ORGANIZATION] website showing two available female chat partners with price tags and labels."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A computer monitor displays [ORGANIZATION] interface featuring two female models, [PERSON] and [PERSON], with a row of anime figurines visible on the desk below."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a live chat session featuring a person speaking to an audience, with various chat messages displayed on the side."
+        },
+        "gpt-5.4": {
+          "summary": "A photographed screen shows a colorful live-chat interface with a woman on webcam, a chat panel full of messages, and a large Send button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A live chat session featuring a host interacting with viewers in an online streaming environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A live-streaming chat interface showing a smiling woman on camera with an active viewer chat and points counter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A photograph of a computer monitor displaying a live webcam chat interface featuring a smiling woman in a black top, with an active English chat log on the right and a game character thumbnail at the bottom."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a blue shirt holds a device while a small animal sits on their arm."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a person in a blue shirt holding a small monkey on their forearm beside a wrist-mounted device and handheld rig."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a blue shirt holds an animal while using what appears to be a camera stabilizer."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a backpack holds a small monkey on their arm while operating a handheld camera rig."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a blue shirt and backpack holds a smartphone mounted on an arm rig while a small marmoset monkey sits on their forearm."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plush toy character with an eye patch alongside a hair styling product and a [LOCATION]-themed item."
+        },
+        "gpt-5.4": {
+          "summary": "A small eyepatch plush doll is placed on a pink blanket beside an &honey hair styling product in [LOCATION] packaging and a [PERSON] prize tag."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plush toy resembling a character from 'The Powerpuff Girls' sits next to various items including hair styling products."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A plush toy resembling a character with an eyepatch sits beside a packaged hair product and a SEGA Cooro tag on a fluffy surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A plush keychain of the character Mojo Jojo from The Powerpuff Girls sits next to a limited edition &honey x [PERSON] makeup stick and a [ORGANIZATION] CoRo tag on a pink fuzzy surface."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with long, dark hair sitting on a couch, with various posters and stickers visible in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person with dark hair and a lip piercing wearing a black lace top, seated in front of a wall covered with band posters and memorabilia."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a lace shirt in front of posters featuring My Chemical Romance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with red hair and a lip piercing sits on a couch in front of a wall decorated with band posters and memorabilia."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark red hair and pale makeup, wearing a black lace top in front of a wall decorated with band posters."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a live music performance with a singer and guitarist on stage."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an old social media post shows a collage of dimly lit concert photos featuring a vocalist singing into a microphone beside guitars on stage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Live performance of a band captured in various angles during an event."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collage of low-resolution concert photos showing a musician singing into a microphone while playing guitar, with stage lights and crowd shots."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collage of low-light concert photos showing a male vocalist singing into a microphone and playing guitar on stage."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a bottle of caramel sauce branded with [PERSON], displayed on a supermarket shelf."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of [ORGANIZATION] caramel sauce bottles on a grocery store shelf, with other condiments and a blurred shopper in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a [ORGANIZATION] caramel sauce bottle in a grocery store aisle."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bottle of [ORGANIZATION] caramel sauce blended with [PERSON] is displayed on a supermarket shelf."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a bottle of [ORGANIZATION] on a supermarket shelf."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two cartoon fish with contrasting facial expressions, accompanied by text comparing two states of being."
+        },
+        "gpt-5.4": {
+          "summary": "A meme shows two side-by-side cartoon fish faces with the text 'why be...' and 'when you can be..', contrasting a frown with a smile and red eyes."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme featuring [PERSON] in two contrasting expressions."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A meme featuring two panels of the character [PERSON], one sad and one smug, with text contrasting 'why be...' and 'when you can be...' above them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A two-panel meme featuring the '[PERSON] character, contrasting a sad expression with a happy one under text prompts."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A video game screen displays a 'Victory [PERSON]' achievement and a new '[PERSON]' glider item with options to equip or claim it."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a congratulatory screen for earning a Victory Royale in a game, featuring a colorful glider named '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A video game reward screen shows a colorful umbrella glider named [ORGANIZATION] after earning a Victory Royale."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A congratulatory screen from a video game showing an achievement of earning a Victory Royale."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game victory screen showing a rainbow-colored glider named '[PERSON]' earned after winning a Victory Royale."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game victory screen displaying a colorful umbrella glider named '[PERSON]' against a blue background."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a brightly lit, transparent gaming controller held in a hand."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a transparent video game controller with colorful [ORGANIZATION] lighting being held in a dim indoor setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a transparent gaming controller illuminated by colorful LED lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a transparent gaming controller with internal glowing [ORGANIZATION] lights and visible mechanical components."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a transparent, custom-modded gaming controller illuminated with vibrant [ORGANIZATION] lighting that reveals internal gears and circuitry."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a vibrant, futuristic concert scene with a large screen displaying the word 'MAIL' and a character in a dramatic pose."
+        },
+        "gpt-5.4": {
+          "summary": "A neon-lit [ORGANIZATION] game or concert-style scene shows a giant screen with a robot skeleton and the red word '[ORGANIZATION]' behind a crowd of characters facing the stage."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer in a dark outfit stands center stage under vibrant red lighting during what appears to be an energetic concert."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A concert scene with a performer on stage facing a large screen displaying a skull graphic and the letters 'ML' against a red-lit backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game scene featuring a character with long braided hair standing before a massive screen displaying a skeletal figure and the letters 'ML'."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a Monopoly-themed dessert cup featuring soft serve, a chocolate top hat and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a whimsical ice cream dessert topped with a chocolate hat and colorful sprinkles, served in a cup labeled '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a small themed soft-serve dessert in a branded cup, decorated with a chocolate top hat and mustache, rainbow sprinkles, and a Monopoly cookie wafer."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Monopoly-themed ice cream treat decorated as a character in top hat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a Monopoly-themed dessert cup with ice cream, a chocolate top hat, mustache, sprinkles, and a branded cookie."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a cup of soft-serve ice cream decorated with chocolate top hat and mustache, cereal rings, and a Monopoly-branded cookie."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a menu board featuring unique ice cream flavors and their allergen information."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful event booth features a large illuminated menu board advertising unusual ice cream flavors tied to [ORGANIZATION] and [ORGANIZATION] branding."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful menu board displaying unique ice cream flavors themed around Monopoly characters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A menu board displays themed ice cream flavors from 'Monopoly Go!' at a 'Dough Fest' event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital menu board at a 'Dough Fest' event displays unique soft-serve ice cream flavors themed around the Monopoly Go! game, such as 'Cash Grab Ketchup & Mayo' and 'Lime Pickle Payday'."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a lively scene outside a venue featuring a large donut-themed entrance and a mural of a person wearing sunglasses."
+        },
+        "gpt-5.4": {
+          "summary": "A city storefront is set up for a donut-themed Monopoly GO! promotional event, with a large pink donut arch, colorful decorations, and people gathered outside."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive outdoor event featuring a large inflatable donut archway promoting 'Monopoly Go! [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An outdoor event at a storefront with a large pink inflatable donut arch and 'MONOPOLY GO! DOUGH FEST' signage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street-level view of a glass-fronted event space featuring a large pink inflatable donut arch and window decals for [ORGANIZATION]! [PERSON]."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a congratulatory message for collecting rewards in a game, featuring various game items and a vibrant design."
+        },
+        "gpt-5.4": {
+          "summary": "A colorful mobile board-game reward screen shows celebratory fireworks and prizes including dice, cards, a figurine, and a green Collect button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A game reward screen displaying various items like dice, cards, a donut in glass dome, and other collectibles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A celebratory game screen showing reward codes with items like dice, time bonuses, and a mystery card."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile game interface displays a 'Reward Codes' pop-up screen featuring various in-game prizes like dice, cards, and a donut snow globe."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character holding a colorful pickaxe called 'Star Wand' against a blue background."
+        },
+        "gpt-5.4": {
+          "summary": "A [ORGANIZATION] locker screen shows a [PERSON]-style character model holding the pink-and-gold Star Wand pickaxe against a blue menu background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character model holding a 'Star Wand' pickaxe in an outfit selection screen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character in a white mask holds a pink star wand in a game's item customization menu."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game character wearing a white mask and dark coveralls holds a pink star-topped pickaxe in a blue menu interface."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character's back bling in a video game, showcasing a heart-shaped design and a pink teddy bear."
+        },
+        "gpt-5.4": {
+          "summary": "A TV screen shows a [ORGANIZATION] cosmetic preview featuring a character wearing the \"Love Litter\" back bling, a broken pink heart backpack with a small pink teddy bear attached."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a video game wearing an item called 'Love Litter', featuring a heart-shaped design."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game character's back view displaying a 'Love Litter' back bling with a heart design and a pink teddy bear."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [ORGANIZATION] item shop displaying a character wearing a black jacket with a large, taped-up heart graphic and a pink teddy bear keychain on their back."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a promotional screen for a 'Ghost Face' item bundle in the game [ORGANIZATION], featuring a character in a ghostly mask and hood."
+        },
+        "gpt-5.4": {
+          "summary": "A TV screen shows the [ORGANIZATION] shop featuring the Fortnitemares Ghost Face bundle with the [PERSON] character on a blue-themed game menu."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A promotional screen displaying a 'Fortnitemares' Ghost Face bundle in [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] in-game screen showcasing the 'Ghost Face' bundle from the 'FortniteMares' event, with a character pointing at the viewer."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television screen displays the [ORGANIZATION] in-game shop featuring the Ghost Face skin from Scream as part of a '[PERSON]' bundle."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A humorous exchange on Twitter between two users discussing pregnancy."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Twitter/X reply exchange shows a post asking \"Then why do you keep getting pregnant\" and a reply from [ORGANIZATION] reading \"Cause I keep fuckin.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT] asks [ACCOUNT] why she keeps getting pregnant; [PERSON] humorously responds by saying 'Cause I keep fuckin'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Twitter thread showing [PERSON] replying to a user with a humorous one-liner about pregnancy."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A Twitter screenshot displays a humorous exchange between user [ACCOUNT] and verified artist [PERSON] regarding pregnancy."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is wearing oversized sunflower-shaped sunglasses and a black shirt with the text 'made in hell'."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a person wearing oversized sunflower-shaped novelty sunglasses and a black graphic T-shirt."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a sunflower-themed mask indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wears yellow sunflower-shaped sunglasses and a black T-shirt with white text, seated indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with brown hair wearing yellow sunflower-shaped sunglasses and a black t-shirt with white gothic text."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A figure in a black and white clown costume with a white mask and unusual daisy-shaped glasses stands in a cluttered store, surrounded by racks of sunglasses and novelty items."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person in a clown-like costume with exaggerated features standing in a store filled with various novelty items."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black-and-white clown costume with flower-shaped glasses stands inside a novelty costume or gift shop beside a rotating sunglasses display."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a costume stands amidst various novelty items like sunglasses and inflatable toys."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white and black costume with a flower-eyed mask stands in a cluttered store filled with Halloween costumes and sunglasses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in a black-and-white clown costume with flower-shaped glasses stands inside a cluttered novelty or costume shop filled with merchandise."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows two people in a car, with a focus on a colorful book titled '[ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "An [ORGANIZATION] cinema promo image shows two people smiling inside a van with a [LOCATION] map, labeled for “Gabby's Dollhouse: The Movie - U.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals are seated in a car interior decorated with colorful items from '[ORGANIZATION],' promoting an [ORGANIZATION] movie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two women smile inside a decorated van, one holding a '[LOCATION] 6' map, with '[ORGANIZATION]' and '[PERSON]'s Dollhouse: The Movie - U' text overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional image for the movie 'Gabby's Dollhouse: The Movie' featuring two characters inside a car, with one holding a map titled '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a hand holding a bag of limited edition [PERSON] flavored gingerbread corn chips."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a limited-edition bag of [ORGANIZATION] flavour corn chips in a close-up product-style shot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person holding a bag of [PERSON] flavor corn chips."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a bag of limited edition [PERSON] flavoured corn chips, with a single chip displayed."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand with a small tattoo holds a bag of limited edition Doritos Gingerbread flavour corn chips."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a light blue shirt with a cartoon dog playing a guitar, alongside visible tattoos on their arm."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a light blue T-shirt featuring [ORGANIZATION] playing a guitar, with part of a tattooed upper arm visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a shirt featuring an illustration of Dalmatian playing guitar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a light blue t-shirt with a cartoon dog playing guitar, showing a tattooed arm."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person wearing a light blue t-shirt featuring the character [PERSON] from Animal Crossing, with visible tattoos on their upper arm."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A pink [PERSON]-branded lip balm tube, labeled 'pink bubblegum' and 'hismile', is displayed on a textured light-colored surface, adorned with digital sparkle and candy stickers"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a pink tube of [PERSON]-themed lip balm labeled 'pink bubblegum'."
+        },
+        "gpt-5.4": {
+          "summary": "A bright pink tube of [PERSON]-themed lip balm in pink bubblegum flavor is photographed on a fluffy fabric surface with sparkle and candy stickers."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A tube of [PERSON] lip balm in pink bubblegum flavor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink [PERSON] lip balm tube labeled 'pink bubblegum' rests on a textured beige surface, accompanied by digital candy and sparkle emojis."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pink [PERSON]-branded lip balm tube in 'pink bubblegum' flavor by hismile rests on a textured beige surface, decorated with digital candy and sparkle stickers."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with red nails and rings is holding a drink and smoking a cigar/joint on a yacht at sunset, with the ocean in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is enjoying a drink and cigar while seated on a boat with a sunset view over the ocean."
+        },
+        "gpt-5.4": {
+          "summary": "A person relaxes on a boat at sunset, holding a drink and a cigar with the ocean in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman enjoys a drink while smoking by the ocean during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman sits on a boat at sunset, holding a drink and smoking a cigar."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman in a green patterned dress sits on a boat deck at sunset, holding an amber drink and smoking a cigar with the ocean in the background."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A minimalist 3D rendering of a white, blob-like cartoon character lying down on a black background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized, cartoon-like cloud shape against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A minimal dark image shows a small white 3D blob-like figure lying flat near the center, with no readable text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A minimalist digital illustration of a white cloud-like figure against a black background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white, stylized cartoon character lies motionless on a black background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white, stylized 3D character resembling [ORGANIZATION] lies face down on a solid black background."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays gaming statistics over the last 7 days, including win percentage, kill/death ratio, and total kills."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-themed gaming stats screen shows performance over the last 7 days, including 69 matches, 14.5% win rate, 4.63 K/D, 10 wins, and 273 kills."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Statistical overview of a player's performance over the last seven days."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed stats dashboard showing performance metrics over the last 7 days in a game."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-mode statistics dashboard displaying gaming performance metrics over the last seven days, including win percentage, kills, and match counts."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a box for a collectible toy set themed around 'Animal Crossing: Happy Room', showcasing various miniature figures and furniture."
+        },
+        "gpt-5.4": {
+          "summary": "A box for [LOCATION]\" miniature collectible set is shown with sample room dioramas, furniture pieces, and character figures."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Box of 'Animal Crossing Happy Room' miniature figures featuring various rooms."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A product box for Re-Ment's Animal Crossing Happy Room miniatures, showing collectible figures and room scenes with Japanese text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "The back of a Re-Ment 'Animal Crossing Happy Room' blind box set displaying miniature diorama figures and furniture."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A stylized figurine of a sleeping character with white hair and black and gold attire rests on a red and"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a decorative figurine with long white hair, resting in a circular display with a red and gold background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a stylized collectible figurine with white hair resting inside a black egg-shaped display against a red and gold decorative backdrop."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a small figurine inside an ornate container."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized figurine with white hair and closed eyes rests inside a transparent spherical container on a red and gold patterned base."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a stylized figurine with white hair and closed eyes, resting inside a clear spherical display case on a red base featuring gold dragon patterns."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cartoon character, resembling a green fish or frog in a purple shirt and blue pants, is depicted crying with large tears on a textured grey background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A cartoon frog character with large eyes and tears, wearing a purple shirt and blue pants, appears sad."
+        },
+        "gpt-5.4": {
+          "summary": "A simple cartoon frog character in a purple shirt stands alone with large teary eyes on a plain gray background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon frog wearing a purple shirt stands against an abstract background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon frog character with large eyes and a tear expresses sadness or distress while standing on a speckled surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-resolution cartoon frog character with large teary eyes and a sad expression stands against a plain, speckled background."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a character outfit from [ORGANIZATION] called 'The Widow,' featuring a wedding dress design."
+        },
+        "gpt-5.4": {
+          "summary": "A TV screen shows [ORGANIZATION] item shop/reward screen featuring a ghostly bride-style outfit called \"The Widow\" against a blue background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] outfit called 'The Widow' displayed in a game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] game screen displaying the 'The Widow' outfit with its associated items and a 'Claim All' button."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television screen displays [ORGANIZATION] featuring 'The Widow' outfit, with a candle and small figurines visible on the shelf below."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a refrigerator filled with [ORGANIZATION] burgers and fries, presented in a humorous or 'cursed' style."
+        },
+        "gpt-5.4": {
+          "summary": "A screen shows a video thumbnail of a refrigerator packed with [ORGANIZATION]’s fries and [PERSON] beside a smiling man, with the title about ranking “cursed” fridges."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A humorous video thumbnail showing a fridge stocked entirely with [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video thumbnail showing a fridge packed with [ORGANIZATION] and fries, next to a smiling man."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] video titled 'I Ranked Your CURSED Fridges!' by the channel [ORGANIZATION], featuring a thumbnail of a refrigerator stocked with [ORGANIZATION]'s food and a smiling man."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character from a video game, showcasing a female avatar in a police-style outfit with a unique backpack accessory."
+        },
+        "gpt-5.4": {
+          "summary": "A photo of a [ORGANIZATION] cosmetic screen shows a tactical character from behind wearing a glowing red backpack, with the [PERSON] item card visible on the left."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character in a blue uniform stands facing away from view while an item card labeled '[PERSON]' indicates it's owned."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game character viewed from behind, displaying a weapon card labeled '[PERSON]' with 'OWNED' status."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game character customization screen displays a female avatar in tactical gear from behind, alongside an inventory card for a skull-themed weapon."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a vape cartridge filled with yellow liquid."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a hand holding a cracked glass vape cartridge filled with yellow oil against a plain background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a vape cartridge labeled '[ORGANIZATION] containing yellow liquid."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a clear vape cartridge filled with golden liquid, labeled '[LOCATION]' and 'NIGHT'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up of a hand holding a glass vape cartridge filled with golden oil, labeled '[LOCATION]' and 'NIGHT'."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A video game character is displayed on a blue screen, showcasing a 'Crown Ball' back bling and"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character from a video game, showcasing a back bling accessory and a basketball."
+        },
+        "gpt-5.4": {
+          "summary": "A video game cosmetic screen shows a character from behind wearing a cartoon-faced backpack, with a basketball item and text for the 'Crown Ball' back bling."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A character model from a video game showcasing an outfit called '[ORGANIZATION] in blue tones."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A video game character viewed from behind displays a basketball-themed back bling item titled '[ORGANIZATION] against a blue background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A video game character stands on a blue background next to an orange basketball accessory labeled '[ORGANIZATION] from the Gaming Legends Series."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows a person's eyes and eyebrows, with the eyes looking to the side, possibly from a digital character or doll."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person's face, focusing on their eyes and eyebrows."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a stylized face with eyes looking sideways and prominent eyebrows against a blue background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of a character's face featuring detailed eyebrows."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Close-up of a digital avatar's face showing stylized eyebrows and eyes with light-colored hair."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up screenshot of a female video game character with white hair and unusually thick, flat eyebrows."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A television screen displays the title screen for 'Resident Evil: [PERSON]' featuring two characters in a rainy, dramatic setting, with purple"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a television screen displaying the title 'Resident Evil: [PERSON]' with a character from the game and a loading message."
+        },
+        "gpt-5.4": {
+          "summary": "A TV in a purple-lit room displays the title screen for [ORGANIZATION], framed with tinsel like a festive gaming setup."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A monitor displaying a 'Resident Evil Requiem' movie poster in front of festive decorations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A TV screen displays the loading screen for 'Resident Evil: [PERSON]', framed by purple lighting and festive tinsel."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A television screen displays the title screen for the video game 'Resident Evil: [PERSON]' featuring characters [PERSON] and [PERSON], framed by purple ambient lighting and tinsel."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character performing the 'Lil' Street Sweeper' emote on a stylized vehicle in a vibrant blue background."
+        },
+        "gpt-5.4": {
+          "summary": "A video game reward screen shows a blonde character riding a small street-sweeper machine emote against a blue background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Character riding a street sweeper emote in an interactive game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A character sits on a street sweeper in a game reward screen, with options to equip or claim the emote."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video game reward screen showing a female character riding a small street sweeper vehicle against a blue background."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A yellow teddy bear with a blue bow is suspended in the air next to a person holding a gun."
+        },
+        "gpt-5.4": {
+          "summary": "A yellow teddy bear with a blue bow and small crown lies on rubble beside a person holding a black handgun in a dark scene."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A yellow teddy bear wearing a bow tie appears in an armory-like environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A yellow teddy bear with a blue bowtie is held up by a gloved hand against a rocky background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A first-person view of a gloved hand holding a large firearm next to a yellow teddy bear with a blue bow tie in a rubble-filled environment."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a small, light brown teddy bear with a blue ribbon around its neck, set against a soft, light-colored background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is holding a small, plush teddy bear with a blue bow."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a small worn teddy bear plush with a blue ribbon in a soft indoor close-up."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a small teddy bear wearing a blue bow tie."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a small, worn teddy bear with a blue bow tie against a soft background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a small, vintage-style brown teddy bear with a blue ribbon against a soft pink background."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two packets of '[ORGANIZATION]' branded bath powder, one green 'Green Herbs' and one red 'Red Herbs', are displayed on a pink textured surface."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features two packets of bath powder labeled 'Green Herbs' and 'Red Herbs' from the brand [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "Two bath powder packets labeled [ORGANIZATION] and Red Herbs with an [ORGANIZATION] logo are displayed side by side on a pink textured surface."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two packets of [ORGANIZATION] bath powder featuring green herbs (25g) and red herbs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two sachets of [ORGANIZATION] brand bath powder, 'Green Herbs' and 'Red Herbs', displayed side-by-side on a pink textured surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two sachets of [ORGANIZATION] brand bath powder, labeled 'Green Herbs' and 'Red Herbs', are displayed side-by-side on a pink textured surface."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful card depicting characters from [ORGANIZATION] in a playful outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A holographic [ORGANIZATION] collectible card lies on a wooden surface, showing [ORGANIZATION]’s characters having a picnic in a colorful cartoon landscape."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful [ORGANIZATION]-themed card featuring cartoon characters in a whimsical landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A holographic collectible card titled '[ORGANIZATION]' depicts cartoon characters picnicking with a train and arches in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A holographic collectible card from the McDonaldland series featuring characters [PERSON], [PERSON], and [PERSON] having a picnic with a train in the background."
+        }
+      }
     }
   }
 }

@@ -1,80 +1,96 @@
 {
   "user_id": "participant_008",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
       "status": "active",
       "long_term_interests": [
         {
-          "label": "nature observation",
+          "label": "outdoor recreation",
           "evidence_post_indices": [
-            0,
-            3
+            6,
+            33,
+            34,
+            36,
+            56,
+            103,
+            109,
+            158,
+            181,
+            182
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_4"
+            "participant_008_post_0007",
+            "participant_008_post_0034",
+            "participant_008_post_0035",
+            "participant_008_post_0037",
+            "participant_008_post_0057",
+            "participant_008_post_0104",
+            "participant_008_post_0110",
+            "participant_008_post_0159",
+            "participant_008_post_0182",
+            "participant_008_post_0183"
           ]
         },
         {
-          "label": "outdoor activities",
+          "label": "hiking",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            6,
+            36,
+            109
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2",
-            "participant_008_phase_3",
-            "participant_008_phase_4"
+            "participant_008_post_0007",
+            "participant_008_post_0037",
+            "participant_008_post_0110"
           ]
         },
         {
-          "label": "walking and hiking",
+          "label": "nature walk",
           "evidence_post_indices": [
-            0,
-            1,
-            3
+            34,
+            181,
+            182
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2",
-            "participant_008_phase_4"
+            "participant_008_post_0035",
+            "participant_008_post_0182",
+            "participant_008_post_0183"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
+          "label": "walk",
+          "evidence_post_indices": [
+            56,
+            158
+          ],
+          "evidence_post_ids": [
+            "participant_008_post_0057",
+            "participant_008_post_0159"
+          ]
+        },
+        {
           "label": "fitness",
           "evidence_post_indices": [
-            2
+            56,
+            73
           ],
           "evidence_post_ids": [
-            "participant_008_phase_3"
+            "participant_008_post_0057",
+            "participant_008_post_0074"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "sumo",
           "evidence_post_indices": [
-            2
+            60
           ],
           "evidence_post_ids": [
-            "participant_008_phase_3"
-          ]
-        },
-        {
-          "label": "walking and hiking",
-          "evidence_post_indices": [
-            0,
-            2
-          ],
-          "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_3"
+            "participant_008_post_0061"
           ]
         }
       ]
@@ -84,58 +100,113 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "poetry",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            18,
+            51,
+            69,
+            110,
+            124,
+            163,
+            166,
+            174
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2",
-            "participant_008_phase_3",
-            "participant_008_phase_4"
+            "participant_008_post_0019",
+            "participant_008_post_0052",
+            "participant_008_post_0070",
+            "participant_008_post_0111",
+            "participant_008_post_0125",
+            "participant_008_post_0164",
+            "participant_008_post_0167",
+            "participant_008_post_0175"
           ]
         },
         {
-          "label": "music",
+          "label": "book",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            51,
+            163,
+            171,
+            174,
+            176
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2",
-            "participant_008_phase_3",
-            "participant_008_phase_4"
+            "participant_008_post_0052",
+            "participant_008_post_0164",
+            "participant_008_post_0172",
+            "participant_008_post_0175",
+            "participant_008_post_0177"
+          ]
+        },
+        {
+          "label": "music lyric",
+          "evidence_post_indices": [
+            24,
+            73,
+            110,
+            172,
+            184
+          ],
+          "evidence_post_ids": [
+            "participant_008_post_0025",
+            "participant_008_post_0074",
+            "participant_008_post_0111",
+            "participant_008_post_0173",
+            "participant_008_post_0185"
           ]
         },
         {
           "label": "reading",
           "evidence_post_indices": [
-            0,
-            2
+            51,
+            70,
+            163,
+            171,
+            176
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_3"
+            "participant_008_post_0052",
+            "participant_008_post_0071",
+            "participant_008_post_0164",
+            "participant_008_post_0172",
+            "participant_008_post_0177"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "dan and phil",
           "evidence_post_indices": [
-            0,
-            3
+            38,
+            169
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_4"
+            "participant_008_post_0039",
+            "participant_008_post_0170"
+          ]
+        },
+        {
+          "label": "pompompurin",
+          "evidence_post_indices": [
+            44,
+            45
+          ],
+          "evidence_post_ids": [
+            "participant_008_post_0045",
+            "participant_008_post_0046"
+          ]
+        },
+        {
+          "label": "danc with the star",
+          "evidence_post_indices": [
+            35,
+            42
+          ],
+          "evidence_post_ids": [
+            "participant_008_post_0036",
+            "participant_008_post_0043"
           ]
         }
       ]
@@ -145,35 +216,50 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "video games",
+          "label": "gaming hardware",
           "evidence_post_indices": [
-            2
+            62,
+            66,
+            79
           ],
           "evidence_post_ids": [
-            "participant_008_phase_3"
+            "participant_008_post_0063",
+            "participant_008_post_0067",
+            "participant_008_post_0080"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "gaming interests",
+          "label": "PC gaming",
           "evidence_post_indices": [
-            0,
-            2
+            62,
+            66
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_3"
+            "participant_008_post_0063",
+            "participant_008_post_0067"
           ]
         },
         {
-          "label": "video games",
+          "label": "pc building",
           "evidence_post_indices": [
-            2
+            62,
+            79
           ],
           "evidence_post_ids": [
-            "participant_008_phase_3"
+            "participant_008_post_0063",
+            "participant_008_post_0080"
+          ]
+        },
+        {
+          "label": "balatro",
+          "evidence_post_indices": [
+            153
+          ],
+          "evidence_post_ids": [
+            "participant_008_post_0154"
           ]
         }
       ]
@@ -190,43 +276,50 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "city exploration",
+          "label": "sightsee",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            36,
+            107,
+            190
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2",
-            "participant_008_phase_3"
+            "participant_008_post_0037",
+            "participant_008_post_0108",
+            "participant_008_post_0191"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "city walks",
           "evidence_post_indices": [
-            0,
-            1,
-            3
+            72,
+            107,
+            189
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2",
-            "participant_008_phase_4"
+            "participant_008_post_0073",
+            "participant_008_post_0108",
+            "participant_008_post_0190"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "travel city exploration interests",
+          "label": "northern light",
           "evidence_post_indices": [
-            0,
-            1
+            190
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2"
+            "participant_008_post_0191"
+          ]
+        },
+        {
+          "label": "nature exploration",
+          "evidence_post_indices": [
+            109
+          ],
+          "evidence_post_ids": [
+            "participant_008_post_0110"
           ]
         }
       ]
@@ -236,81 +329,205 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "photography",
+          "label": "creative makeup",
           "evidence_post_indices": [
             0,
-            1,
-            2,
-            3
+            13,
+            17,
+            31,
+            43,
+            48,
+            50,
+            54,
+            64,
+            65,
+            135,
+            136,
+            137,
+            138,
+            149,
+            151,
+            156,
+            159,
+            161,
+            162,
+            180,
+            185,
+            189,
+            191,
+            192,
+            194
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2",
-            "participant_008_phase_3",
-            "participant_008_phase_4"
+            "participant_008_post_0001",
+            "participant_008_post_0014",
+            "participant_008_post_0018",
+            "participant_008_post_0032",
+            "participant_008_post_0044",
+            "participant_008_post_0049",
+            "participant_008_post_0051",
+            "participant_008_post_0055",
+            "participant_008_post_0065",
+            "participant_008_post_0066",
+            "participant_008_post_0136",
+            "participant_008_post_0137",
+            "participant_008_post_0138",
+            "participant_008_post_0139",
+            "participant_008_post_0150",
+            "participant_008_post_0152",
+            "participant_008_post_0157",
+            "participant_008_post_0160",
+            "participant_008_post_0162",
+            "participant_008_post_0163",
+            "participant_008_post_0181",
+            "participant_008_post_0186",
+            "participant_008_post_0190",
+            "participant_008_post_0192",
+            "participant_008_post_0193",
+            "participant_008_post_0195"
           ]
         },
         {
-          "label": "photography creation interests",
+          "label": "portrait photography",
           "evidence_post_indices": [
             0,
-            1,
-            2,
-            3
+            4,
+            7,
+            20,
+            24,
+            31,
+            54,
+            69,
+            72,
+            81,
+            110,
+            122,
+            124,
+            136,
+            138,
+            151,
+            152,
+            162,
+            185
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2",
-            "participant_008_phase_3",
-            "participant_008_phase_4"
+            "participant_008_post_0001",
+            "participant_008_post_0005",
+            "participant_008_post_0008",
+            "participant_008_post_0021",
+            "participant_008_post_0025",
+            "participant_008_post_0032",
+            "participant_008_post_0055",
+            "participant_008_post_0070",
+            "participant_008_post_0073",
+            "participant_008_post_0082",
+            "participant_008_post_0111",
+            "participant_008_post_0123",
+            "participant_008_post_0125",
+            "participant_008_post_0137",
+            "participant_008_post_0139",
+            "participant_008_post_0152",
+            "participant_008_post_0153",
+            "participant_008_post_0163",
+            "participant_008_post_0186"
           ]
         },
         {
-          "label": "visual art",
+          "label": "makeup artistry",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            9,
+            17,
+            43,
+            48,
+            135,
+            149,
+            161,
+            192,
+            194
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2",
-            "participant_008_phase_3",
-            "participant_008_phase_4"
+            "participant_008_post_0010",
+            "participant_008_post_0018",
+            "participant_008_post_0044",
+            "participant_008_post_0049",
+            "participant_008_post_0136",
+            "participant_008_post_0150",
+            "participant_008_post_0162",
+            "participant_008_post_0193",
+            "participant_008_post_0195"
+          ]
+        },
+        {
+          "label": "makeup art",
+          "evidence_post_indices": [
+            7,
+            13,
+            64,
+            137,
+            159,
+            180,
+            189,
+            191
+          ],
+          "evidence_post_ids": [
+            "participant_008_post_0008",
+            "participant_008_post_0014",
+            "participant_008_post_0065",
+            "participant_008_post_0138",
+            "participant_008_post_0160",
+            "participant_008_post_0181",
+            "participant_008_post_0190",
+            "participant_008_post_0192"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "photography",
+          "label": "photo editing",
           "evidence_post_indices": [
-            3
+            4,
+            6
           ],
           "evidence_post_ids": [
-            "participant_008_phase_4"
+            "participant_008_post_0005",
+            "participant_008_post_0007"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "photography creation interests",
+          "label": "autumn aesthetic",
           "evidence_post_indices": [
-            0,
-            2
+            185,
+            191,
+            192
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_3"
+            "participant_008_post_0186",
+            "participant_008_post_0192",
+            "participant_008_post_0193"
           ]
         },
         {
-          "label": "visual art",
+          "label": "face art",
           "evidence_post_indices": [
-            2
+            50,
+            65
           ],
           "evidence_post_ids": [
-            "participant_008_phase_3"
+            "participant_008_post_0051",
+            "participant_008_post_0066"
+          ]
+        },
+        {
+          "label": "artistic makeup",
+          "evidence_post_indices": [
+            51,
+            179
+          ],
+          "evidence_post_ids": [
+            "participant_008_post_0052",
+            "participant_008_post_0180"
           ]
         }
       ]
@@ -320,54 +537,160 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "cats",
+          "label": "cat ownership",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            8,
+            12,
+            46,
+            49,
+            53,
+            55,
+            59,
+            62,
+            86,
+            90,
+            93,
+            97,
+            101,
+            115,
+            120,
+            121,
+            126,
+            134,
+            139,
+            145,
+            148,
+            149,
+            150,
+            154,
+            162
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2",
-            "participant_008_phase_3",
-            "participant_008_phase_4"
+            "participant_008_post_0009",
+            "participant_008_post_0013",
+            "participant_008_post_0047",
+            "participant_008_post_0050",
+            "participant_008_post_0054",
+            "participant_008_post_0056",
+            "participant_008_post_0060",
+            "participant_008_post_0063",
+            "participant_008_post_0087",
+            "participant_008_post_0091",
+            "participant_008_post_0094",
+            "participant_008_post_0098",
+            "participant_008_post_0102",
+            "participant_008_post_0116",
+            "participant_008_post_0121",
+            "participant_008_post_0122",
+            "participant_008_post_0127",
+            "participant_008_post_0135",
+            "participant_008_post_0140",
+            "participant_008_post_0146",
+            "participant_008_post_0149",
+            "participant_008_post_0150",
+            "participant_008_post_0151",
+            "participant_008_post_0155",
+            "participant_008_post_0163"
+          ]
+        },
+        {
+          "label": "cat",
+          "evidence_post_indices": [
+            8,
+            12,
+            46,
+            49,
+            53,
+            55,
+            59,
+            86,
+            90,
+            93,
+            97,
+            115,
+            120,
+            121,
+            126,
+            133,
+            134,
+            139,
+            145,
+            148,
+            154,
+            158,
+            162,
+            190
+          ],
+          "evidence_post_ids": [
+            "participant_008_post_0009",
+            "participant_008_post_0013",
+            "participant_008_post_0047",
+            "participant_008_post_0050",
+            "participant_008_post_0054",
+            "participant_008_post_0056",
+            "participant_008_post_0060",
+            "participant_008_post_0087",
+            "participant_008_post_0091",
+            "participant_008_post_0094",
+            "participant_008_post_0098",
+            "participant_008_post_0116",
+            "participant_008_post_0121",
+            "participant_008_post_0122",
+            "participant_008_post_0127",
+            "participant_008_post_0134",
+            "participant_008_post_0135",
+            "participant_008_post_0140",
+            "participant_008_post_0146",
+            "participant_008_post_0149",
+            "participant_008_post_0155",
+            "participant_008_post_0159",
+            "participant_008_post_0163",
+            "participant_008_post_0191"
           ]
         },
         {
           "label": "pet care",
           "evidence_post_indices": [
-            0,
-            1,
-            2
+            62,
+            126,
+            149
           ],
           "evidence_post_ids": [
-            "participant_008_phase_1",
-            "participant_008_phase_2",
-            "participant_008_phase_3"
+            "participant_008_post_0063",
+            "participant_008_post_0127",
+            "participant_008_post_0150"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "dogs",
+          "label": "pet celebration",
           "evidence_post_indices": [
-            1
+            97,
+            144
           ],
           "evidence_post_ids": [
-            "participant_008_phase_2"
+            "participant_008_post_0098",
+            "participant_008_post_0145"
           ]
         },
         {
-          "label": "pet care",
+          "label": "dog ownership",
           "evidence_post_indices": [
-            1,
-            2
+            144
           ],
           "evidence_post_ids": [
-            "participant_008_phase_2",
-            "participant_008_phase_3"
+            "participant_008_post_0145"
+          ]
+        },
+        {
+          "label": "pet companionship",
+          "evidence_post_indices": [
+            101
+          ],
+          "evidence_post_ids": [
+            "participant_008_post_0102"
           ]
         }
       ]

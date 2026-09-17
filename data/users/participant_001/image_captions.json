@@ -1,67 +1,689 @@
 {
   "user_id": "participant_001",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "live performances",
-        "music",
-        "photography",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: live performances; music; photography; video games; visual art."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays an [ORGANIZATION]Replay Top Artists 2025' list, featuring a ranked list of musicians and their profile pictures."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming service's top artists list for 2025, featuring notable musicians."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of [ORGANIZATION] shows a 2025 Top Artists list with ranked musicians on a dark gradient background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of [ORGANIZATION] Top Artists list from a hypothetical year (2025), featuring various artists."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[ORGANIZATION] 'Replay' feature displays the Top Artists of 2025 with ranked portraits."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION]Replay' summary displaying the user's top 10 artists for 2025, featuring a list and circular artist portraits against a dark background with colorful gradients."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "film and television",
-        "music",
-        "nature visits",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: cats; film and television; music; nature visits; photography."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital screen"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music streaming service interface showcasing the top albums of 2025."
+        },
+        "gpt-5.4": {
+          "summary": "An [ORGANIZATION] graphic displays a ranked 'Top Albums 2025' list featuring albums by [ORGANIZATION], [PERSON], The [PERSON], BIA, [LOCATION], [ORGANIZATION], [ORGANIZATION] twigs, [ORGANIZATION], [LOCATION], and [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of [ORGANIZATION] Top Albums list from a hypothetical year."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[ORGANIZATION] 'Replay' feature displays the top 10 albums of 2025, with artist names and album titles listed against a gradient background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of [ORGANIZATION] feature displaying a ranked list of the user's top 10 albums for the year 2025."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "cats",
-        "music",
-        "reading",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; music; reading; video games; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dreadlocks and facial piercings takes a sunlit selfie inside a car, smiling at the camera."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long dreadlocks is sitting in a car, wearing glasses and holding their hand up."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie in a car shows a person with long locs, facial piercings, and glasses on their head in bright sunlight."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person taking a selfie in their car while wearing sunglasses."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dreadlocks and glasses on their head smiles while sitting inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dreadlocks and facial piercings sitting inside a car, wearing sunglasses on their head."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "music",
-        "nature visits",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; music; nature visits; video games; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with dreadlocks is seated in a car, appearing to think or ponder."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling close-up selfie taken inside a car with bright sunlight across the face and glasses resting on the head."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person smiling in a car under bright sunlight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dreadlocks and glasses on their head smiles while sitting inside a car."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with dreadlocks and glasses perched on their head poses for a selfie inside a car, resting their chin on their hand."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "music",
-        "photography",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; music; photography; video games; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful animated artwork of a character with a muscular build, surrounded by a vibrant crowd and cosmic elements, while displaying the song 'Love Letter' by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A phone lock screen shows music playing by [ORGANIZATION] over a colorful psychedelic cartoon artwork that reads “THE PARTY NEVER ENDS.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant illustration featuring a character in front of an eclectic crowd under cosmic skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A colorful cartoon illustration of a character with dreadlocks and tattoos, surrounded by a crowd of whimsical creatures, under the text 'THE [ORGANIZATION] NEVER ENDS'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a smartphone lock screen displaying the album art for [ORGANIZATION] '[ORGANIZATION] and the currently playing song 'Love Letter E'."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "music",
-        "nature visits",
-        "video games",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; music; nature visits; video games; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with dreadlocks in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person takes a close-up selfie indoors, showing dreadlocks, facial piercings, and decorative face gems in a bedroom-like room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing dreadlocks smiles in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dreadlocks and facial piercings smiles at the camera indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with dreadlocks, facial piercings, and decorative gems around their eyes poses for a selfie in a bedroom."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with dreadlocks wearing a white sweater, posing in a room with a television in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a person with braided hair, rhinestone eye accents, facial piercings, and a white fuzzy sweater."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a white sweater indoors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with braided hair and decorative face jewelry poses indoors while wearing a white robe."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dreadlocks wearing dramatic makeup, including rhinestone accents and winged eyeliner, while resting their chin on their hand."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dreadlocks and expressive makeup, including glitter and eyeliner, smiles at the camera while wearing a white cardigan and multiple facial piercings."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with dreadlocks is seen in a cozy indoor setting, partially obscured by a blurred effect."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling indoor close-up selfie shows a person with decorative eye makeup, facial piercings, and a white fuzzy cardigan in a softly lit room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a white robe smiles in an indoor room."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dreadlocks and facial jewelry smiles while wearing a white robe indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with dreadlocks and elaborate face jewelry poses for a selfie in a casual indoor setting."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an artistic album cover with floral designs and a central figure on a skull, promoting the song 'Swing' by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone lock screen shows music playing—“Swing” by [ORGANIZATION]—over album art featuring a floral frame and a figure crouching on a flower-covered skull."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player interface showing 'Swing' by [ORGANIZATION] playing."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone screen shows a music player paused on [ORGANIZATION]'s song 'Swing E', with the album art featuring a person sitting atop a floral skull."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] lock screen displaying the music player interface for [ORGANIZATION]'s song 'Swing' with the album art featuring a man on a floral skull."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A gray [PERSON] tote bag with a monogram pattern is prominently"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [PERSON] handbag placed on the passenger seat of a car."
+        },
+        "gpt-5.4": {
+          "summary": "A gray [PERSON] tote bag sits on a car passenger seat with a blurred road and traffic lights visible through the windshield."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A gray [PERSON] tote bag placed in a car's backseat."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A gray [PERSON] tote bag with black handles sits on a car seat, viewed from inside the vehicle with a rainy window background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A gray [PERSON] tote bag with black leather handles and an MK logo charm sits on a car seat, viewed from inside the vehicle."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song 'Don't Hide' by So [PERSON], with a stylized cover art showing three individuals."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen is showing the song \"Don’t hide\" by So [PERSON] with dark, stylized album art reading \"[PERSON] vs [PERSON].\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player interface showing a track by So [PERSON] titled 'Don't hide'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing the song 'Don’t hide' by So [PERSON], with an album cover featuring three artists against a cloudy backdrop."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player interface showing the song 'Don't hide' by So [PERSON] from the album '[PERSON] vs [PERSON]'."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the album cover for 'ATE' by [ORGANIZATION], set against a surreal, pink-hued landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen is showing the song \"ATE\" by [ORGANIZATION] with pink fantasy-style album art and playback controls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A surreal digital artwork featuring a figure in an ethereal bubble amidst multiple moons over a dreamlike landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface shows a song titled 'ATE E' by [ORGANIZATION] with a surreal pink-themed album art featuring a figure in a bubble."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player interface displaying the album art for [ORGANIZATION]'s song 'ATE', featuring a surreal pink fantasy landscape with a figure inside a bubble."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile phone screen displays a music player interface with album art featuring a person in a long black coat standing in dark water with a large horned figure silhouetted against a bright moon in a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a music player interface displaying the song 'Feline' by [ORGANIZATION], [PERSON], and [PERSON], with a dark, atmospheric background."
+        },
+        "gpt-5.4": {
+          "summary": "A phone music player screen is showing the song \"Feline\" by [ORGANIZATION], [ORGANIZATION] with dark fantasy-style cover art."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player interface showing 'Feline' by [ORGANIZATION] featuring [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing the song 'Feline' by [ORGANIZATION], [ORGANIZATION], with an album cover featuring a person in a black coat standing in water under a cloudy sky with a horned silhouette."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile music player displaying the song 'Feline' by [ORGANIZATION], [ORGANIZATION] with its album art featuring a figure in water."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows two hands, one larger and one smaller, positioned on the fretboard of an acoustic or electric guitar, suggesting a lesson or shared musical moment."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand is guiding a child's hand on a guitar fretboard, set against a dark background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a hand pressing the fretboard of a guitar while sitting against a dark textured fabric background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a hand playing chords on an acoustic guitar."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand presses down on strings of a guitar neck against a dark fabric background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a person's hand fretting the neck of a four-string bass guitar against a dark fabric background."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the album cover for 'Pegasus' by [PERSON], featuring a surreal depiction of a winged figure and a unicorn against a cosmic background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone screenshot shows the [ORGANIZATION] page for the album \"Pegasus\" by [PERSON], with fantasy-style cover art and part of the track list visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Album cover of 'Pegasus' by [PERSON] featuring a surreal illustration."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music app screen displaying [ORGANIZATION] album 'Pegasus' with a cosmic artwork featuring a person riding a winged horse."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile music streaming app screenshot displaying the album 'Pegasus' by [ORGANIZATION] with a fantasy-themed cover art featuring a winged horse and a dancer."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person lounging on a green couch, dressed in a leopard print outfit, with a colorful curtain in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone lock screen shows music playing—“Under [PERSON]” by [PERSON]—over album art of a woman reclining on a green couch in a leopard-print dress."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a leopard print dress lounges on a green couch against an orange curtain backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a leopard-print dress lounges on a green couch, overlaid with a music player interface showing 'Under The Moon E' by [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone lock screen displays a wallpaper of a woman in a leopard-print dress reclining on a green sofa, overlaid with a music player widget for the song 'Under The Moon' by [PERSON]."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with curly dark hair and a light-colored shirt smiles at the camera, resting their chin on their hand, with a decorative half-skull mask visible on the wall"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing thoughtfully with their hand on their chin in a dimly lit room."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up indoor selfie shows a smiling person resting their chin on their hand, with window blinds and a decorative mask in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with curly hair poses thoughtfully indoors, hand resting under their chin, with a decorative mask on the wall behind them."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with curly hair resting their chin on their hand, set against an indoor background featuring window blinds and a decorative mask."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with dreadlocks, elaborate eye makeup"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with long, dreadlocked hair, partially obscured face, in a room with a television and a bed."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling indoor selfie shows a person with locs, facial piercings, and decorative eye makeup in a bedroom setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing dreadlocks smiles in a casual indoor setting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dreadlocks and facial piercings smiles at the camera indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with dreadlocks, facial piercings, and decorative gems around their eyes poses for a selfie in a bedroom."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person parachuting against a clear blue sky, wearing a flowing white outfit."
+        },
+        "gpt-5.4": {
+          "summary": "A phone lock screen shows a wallpaper of a person descending by parachute in a flowing white outfit against a blue sky, with music playing from [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a white dress parachutes from an airplane against clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a white dress hangs suspended by a yellow parachute under a tree against a blue sky, overlaid with a music player interface showing 'One More Time' by [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone lock screen displaying a promotional image of [ORGANIZATION] suspended by a yellow parachute against a blue sky, overlaid with a music player widget for the song 'One More Time'."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays lyrics from the song 'The Death Of Me' by Asking [PERSON], conveying themes of pain and emotional turmoil."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows a dark music player lyrics screen for Asking [PERSON]’s song “The Death Of Me.”"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Lyrics from 'The Death Of Me' by Asking [PERSON] express intense emotions of pain, rage, and emotional turmoil."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen displaying lyrics from Asking [PERSON]'s song 'The Death Of Me'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile music player interface displays lyrics for the song 'The Death Of Me' by Asking [PERSON]."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the album cover of 'From Under [ORGANIZATION] by Fall Out Boy, featuring a group of people facing a snowy landscape."
+        },
+        "gpt-5.4": {
+          "summary": "A music player screenshot shows a Fall Out Boy song playing with the 'From Under [ORGANIZATION] album art and playback controls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player interface showing Fall Out Boy's 'Nobody Puts Baby In The Corner' playing in [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing Fall Out Boy's song 'Nobody Puts Baby In the C' playing, with album art depicting silhouetted figures watching a snowy scene framed by red curtains."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying the Fall Out Boy album 'From Under The Cork Tree' with the song 'Nobody Puts Baby In the Corner' currently playing."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with red hair and glasses, wearing a white blazer, covers her mouth with"
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman in a white blazer gestures while speaking, with text overlay suggesting a conversation about something happening off camera."
+        },
+        "gpt-5.4": {
+          "summary": "A seated talk-show guest in a white blazer and glasses covers her mouth with her hand in a reaction shot, with a [ORGANIZATION]-style caption at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a white blazer covers her mouth while seated."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman in a white blazer sits in a chair, covering her mouth with her hand."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A woman with reddish-blonde hair and glasses, wearing a white blazer over a black top, sits in a chair covering her mouth with her hand."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smartphone screenshot displays a music player interface showing the album art for \"THE PARTY NEVER ENDS\" by [ORGANIZATION]"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an animated character with a muscular build, set against a colorful, chaotic background filled with various cartoonish figures, promoting the song '[ORGANIZATION] by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A phone screenshot shows [ORGANIZATION] playing [ORGANIZATION] \"KTM Drip\" with colorful cartoon album art featuring the text \"THE PARTY NEVER ENDS.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant illustration featuring a character in front of an eclectic crowd under cosmic skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing [ORGANIZATION] song '[ORGANIZATION] with a colorful, cartoon-style album art featuring a central character and surreal cosmic background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile music player screenshot displaying the album art for [ORGANIZATION] '[ORGANIZATION] EP, featuring a cartoon illustration of the artist surrounded by colorful characters."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A woman is wearing a dress made entirely of dollar bills, showcasing a unique and extravagant fashion statement."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling person indoors is posing with a large bouquet-like arrangement wrapped in [LOCATION] dollar bills."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person in a dress made of dollar bills embracing another person."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with blonde hair wears a dress made of [LOCATION] dollar bills and smiles while posing indoors."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with short blonde hair is shown wearing a dress constructed entirely from folded [LOCATION] dollar bills."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A phone screen displays a music player interface with an album cover featuring a person with dreadlocks,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring the song 'Ice T' by [ORGANIZATION], with a profile silhouette in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone lock screen displays a music player playing \"Ice T\" by [ORGANIZATION], with warm-toned album art and playback controls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a camouflage jacket viewed from behind against an orange background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing a song by Ice T featuring [ORGANIZATION], with a silhouette of a person in braids against a warm-toned background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a smartphone's lock screen showing the music player interface for the song 'Ice T' by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is holding a white handheld gaming device displaying the title screen for the game '[ORGANIZATION] in a dimly lit indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A handheld gaming device displays the game '[PERSON]: Rhythm & Style' in a cozy indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A handheld gaming console is shown indoors displaying the colorful title screen for the game '[ORGANIZATION].'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A handheld gaming console displays '[ORGANIZATION] game title screen."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white handheld gaming device displays the title screen of '[ORGANIZATION] with a vibrant purple and pink aesthetic."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white handheld gaming console displays the title screen for '[ORGANIZATION] in a dimly lit room."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface showing the song 'Flowers' by [ORGANIZATION] and [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone lock screen shows music playing over dark, stylized album art featuring a close-up portrait with red eyes and face tattoos."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stylized portrait of a person wearing sunglasses amidst abstract blue elements."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing a song titled 'Flowers E' by [ORGANIZATION], with an album cover featuring a person adorned with tattoos and decorative elements."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a smartphone lock screen displaying the music player interface for the song 'Flowers' by [ORGANIZATION], featuring an artistic album cover with a person surrounded by blue liquid and crystals."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with reddish-brown dreadlocks and facial piercings smiles while taking a selfie in what appears to be a bathroom."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person with long, curly hair is taking a selfie in front of a mirror."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling mirror selfie in a bathroom shows a person with long locs, a headband, and nose piercings holding a phone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a mirror selfie in front of shower curtain."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dreadlocks and a headband takes a mirror selfie holding a smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person with reddish-brown dreadlocks and facial piercings takes a mirror selfie in a bathroom."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait shows a person with brown dreadlocks adorned with small rings, a patterned headband, and facial piercings, smiling while looking down and to the left."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with long, curly hair adorned with a headband, partially obscured face, and wearing a sweater."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor portrait of a smiling person with long locs, a patterned headband, and facial piercings against a textured wall."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person with dreadlocks smiles in front of a textured wall."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dreadlocks and facial piercings smiles while wearing a patterned headband against a textured gray background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a smiling person with reddish-brown dreadlocks, wearing a patterned headband, nose jewelry, and gold rings in their hair against a textured grey background."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smartphone screen displays a music player interface with album art featuring a black panther's eyes emerging from dark water under a starry sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring a song titled '[ORGANIZATION] (Sex on Sight)' by [PERSON] and [PERSON], with a striking visual of a tiger's face against a cosmic background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song \"SOS (Sex on Sight)\" by [ORGANIZATION] over dark panther-themed artwork with glowing eyes above water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black panther in water under a starry sky plays music by [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player screen showing '[ORGANIZATION] (Sex on Sight)' by [ORGANIZATION], with a black panther emerging from water under a starry sky as the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player displaying the song '[ORGANIZATION] (Sex on Sight)' by [ORGANIZATION] over an artistic background image of a black panther in water."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music player interface featuring a song titled '[PERSON]!' by [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen is showing the song \"Ciao!\" by [ORGANIZATION] with colorful album art and playback controls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music player interface showing a song by [ORGANIZATION] titled '[PERSON]!'"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone music player screen showing [ORGANIZATION] song 'Ciao!' with a purple-themed interface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile phone screenshot displays a music player interface featuring the song '[PERSON]!' by [ORGANIZATION], with album art showing the artist against a purple and pink background."
+        }
+      }
     }
   }
 }

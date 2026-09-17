@@ -1,68 +1,113 @@
 {
   "user_id": "participant_086",
-  "release_variant": "privacy-derived-v1",
+  "release_variant": "targeted-deidentified-v2",
   "domains": [
     {
       "domain": "sports_outdoor",
       "status": "active",
       "long_term_interests": [
         {
-          "label": "outdoor activities",
+          "label": "cricket",
           "evidence_post_indices": [
-            0,
             1,
-            3
+            12,
+            42,
+            52,
+            55,
+            56,
+            63,
+            99,
+            100
           ],
           "evidence_post_ids": [
-            "participant_086_phase_1",
-            "participant_086_phase_2",
-            "participant_086_phase_4"
+            "participant_086_post_0002",
+            "participant_086_post_0013",
+            "participant_086_post_0043",
+            "participant_086_post_0053",
+            "participant_086_post_0056",
+            "participant_086_post_0057",
+            "participant_086_post_0064",
+            "participant_086_post_0100",
+            "participant_086_post_0101"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "india cricket team",
           "evidence_post_indices": [
-            0,
-            2,
-            3
+            52,
+            55,
+            99
           ],
           "evidence_post_ids": [
-            "participant_086_phase_1",
-            "participant_086_phase_3",
-            "participant_086_phase_4"
+            "participant_086_post_0053",
+            "participant_086_post_0056",
+            "participant_086_post_0100"
+          ]
+        },
+        {
+          "label": "outdoor recreation",
+          "evidence_post_indices": [
+            20,
+            95,
+            131
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0021",
+            "participant_086_post_0096",
+            "participant_086_post_0132"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "spectator sports",
+          "label": "sport fandom",
           "evidence_post_indices": [
-            3
+            1,
+            12
           ],
           "evidence_post_ids": [
-            "participant_086_phase_4"
+            "participant_086_post_0002",
+            "participant_086_post_0013"
           ]
         },
         {
-          "label": "sports outdoor interests",
+          "label": "new zealand cricket team",
           "evidence_post_indices": [
-            2
+            52,
+            56
           ],
           "evidence_post_ids": [
-            "participant_086_phase_3"
+            "participant_086_post_0053",
+            "participant_086_post_0057"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "sports outdoor interests",
+          "label": "indian premier league",
           "evidence_post_indices": [
-            0,
-            2
+            42
           ],
           "evidence_post_ids": [
-            "participant_086_phase_1",
-            "participant_086_phase_3"
+            "participant_086_post_0043"
+          ]
+        },
+        {
+          "label": "kite flying",
+          "evidence_post_indices": [
+            131
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0132"
+          ]
+        },
+        {
+          "label": "punjab king",
+          "evidence_post_indices": [
+            42
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0043"
           ]
         }
       ]
@@ -72,82 +117,110 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "tv shows",
           "evidence_post_indices": [
-            2,
-            3
+            26,
+            35,
+            54,
+            85,
+            89
           ],
           "evidence_post_ids": [
-            "participant_086_phase_3",
-            "participant_086_phase_4"
+            "participant_086_post_0027",
+            "participant_086_post_0036",
+            "participant_086_post_0055",
+            "participant_086_post_0086",
+            "participant_086_post_0090"
           ]
         },
         {
-          "label": "film and television",
+          "label": "historical drama",
           "evidence_post_indices": [
-            1,
-            2,
-            3
+            26,
+            35,
+            37
           ],
           "evidence_post_ids": [
-            "participant_086_phase_2",
-            "participant_086_phase_3",
-            "participant_086_phase_4"
+            "participant_086_post_0027",
+            "participant_086_post_0036",
+            "participant_086_post_0038"
+          ]
+        },
+        {
+          "label": "movy",
+          "evidence_post_indices": [
+            26,
+            44,
+            56
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0027",
+            "participant_086_post_0045",
+            "participant_086_post_0057"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "entertainment interests",
+          "label": "media consumption",
           "evidence_post_indices": [
-            0,
-            2
+            54,
+            126
           ],
           "evidence_post_ids": [
-            "participant_086_phase_1",
-            "participant_086_phase_3"
+            "participant_086_post_0055",
+            "participant_086_post_0127"
           ]
         },
         {
-          "label": "music",
+          "label": "literature",
           "evidence_post_indices": [
-            1,
-            3
+            2,
+            17
           ],
           "evidence_post_ids": [
-            "participant_086_phase_2",
-            "participant_086_phase_4"
+            "participant_086_post_0003",
+            "participant_086_post_0018"
           ]
         },
         {
-          "label": "reading",
+          "label": "music lyric",
           "evidence_post_indices": [
-            3
+            11,
+            80
           ],
           "evidence_post_ids": [
-            "participant_086_phase_4"
+            "participant_086_post_0012",
+            "participant_086_post_0081"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "entertainment interests",
+          "label": "bollywood cinema",
           "evidence_post_indices": [
-            1,
-            2
+            9
           ],
           "evidence_post_ids": [
-            "participant_086_phase_2",
-            "participant_086_phase_3"
+            "participant_086_post_0010"
           ]
         },
         {
-          "label": "film and television",
+          "label": "game of throne",
           "evidence_post_indices": [
-            3
+            40
           ],
           "evidence_post_ids": [
-            "participant_086_phase_4"
+            "participant_086_post_0041"
+          ]
+        },
+        {
+          "label": "generation kill",
+          "evidence_post_indices": [
+            85
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0086"
           ]
         }
       ]
@@ -160,25 +233,52 @@
         {
           "label": "video games",
           "evidence_post_indices": [
-            1,
-            3
+            3,
+            68
           ],
           "evidence_post_ids": [
-            "participant_086_phase_2",
-            "participant_086_phase_4"
+            "participant_086_post_0004",
+            "participant_086_post_0069"
+          ]
+        },
+        {
+          "label": "mobile gaming",
+          "evidence_post_indices": [
+            3,
+            69
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0004",
+            "participant_086_post_0070"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "gaming interests",
+          "label": "call of duty",
           "evidence_post_indices": [
-            1,
+            68
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0069"
+          ]
+        },
+        {
+          "label": "war thunder",
+          "evidence_post_indices": [
+            69
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0070"
+          ]
+        },
+        {
+          "label": "i am bird",
+          "evidence_post_indices": [
             3
           ],
           "evidence_post_ids": [
-            "participant_086_phase_2",
-            "participant_086_phase_4"
+            "participant_086_post_0004"
           ]
         }
       ]
@@ -189,34 +289,45 @@
       "long_term_interests": [],
       "short_term_interests": [
         {
-          "label": "food drink interests",
+          "label": "tomatoe",
           "evidence_post_indices": [
-            3
+            0,
+            7
           ],
           "evidence_post_ids": [
-            "participant_086_phase_4"
+            "participant_086_post_0001",
+            "participant_086_post_0008"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "cooking",
+          "label": "home cooking",
           "evidence_post_indices": [
-            3
+            19,
+            25
           ],
           "evidence_post_ids": [
-            "participant_086_phase_4"
+            "participant_086_post_0020",
+            "participant_086_post_0026"
           ]
         },
         {
-          "label": "food drink interests",
+          "label": "prashad",
           "evidence_post_indices": [
-            1,
-            2
+            98
           ],
           "evidence_post_ids": [
-            "participant_086_phase_2",
-            "participant_086_phase_3"
+            "participant_086_post_0099"
+          ]
+        },
+        {
+          "label": "samosa",
+          "evidence_post_indices": [
+            39
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0040"
           ]
         }
       ]
@@ -228,58 +339,93 @@
         {
           "label": "city exploration",
           "evidence_post_indices": [
-            2
+            38,
+            47,
+            57,
+            64
           ],
           "evidence_post_ids": [
-            "participant_086_phase_3"
+            "participant_086_post_0039",
+            "participant_086_post_0048",
+            "participant_086_post_0058",
+            "participant_086_post_0065"
           ]
         },
         {
-          "label": "travel",
+          "label": "sightseeing",
           "evidence_post_indices": [
-            0,
-            3
+            4,
+            105,
+            109
           ],
           "evidence_post_ids": [
-            "participant_086_phase_1",
-            "participant_086_phase_4"
+            "participant_086_post_0005",
+            "participant_086_post_0106",
+            "participant_086_post_0110"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "nature visits",
+          "label": "religiou site",
           "evidence_post_indices": [
-            1,
-            3
+            4,
+            123
           ],
           "evidence_post_ids": [
-            "participant_086_phase_2",
-            "participant_086_phase_4"
+            "participant_086_post_0005",
+            "participant_086_post_0124"
           ]
         },
         {
-          "label": "travel city exploration interests",
+          "label": "scenic landscape",
           "evidence_post_indices": [
-            0,
-            3
+            20,
+            91
           ],
           "evidence_post_ids": [
-            "participant_086_phase_1",
-            "participant_086_phase_4"
+            "participant_086_post_0021",
+            "participant_086_post_0092"
+          ]
+        },
+        {
+          "label": "landmark",
+          "evidence_post_indices": [
+            4,
+            105
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0005",
+            "participant_086_post_0106"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "travel city exploration interests",
+          "label": "gurdwara",
           "evidence_post_indices": [
-            0,
-            2
+            123
           ],
           "evidence_post_ids": [
-            "participant_086_phase_1",
-            "participant_086_phase_3"
+            "participant_086_post_0124"
+          ]
+        },
+        {
+          "label": "abohar",
+          "evidence_post_indices": [
+            38
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0039"
+          ]
+        },
+        {
+          "label": "aerial view",
+          "evidence_post_indices": [
+            109
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0110"
           ]
         }
       ]
@@ -289,44 +435,90 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "photography",
+          "label": "nature photography",
           "evidence_post_indices": [
-            0,
-            1,
-            2,
-            3
+            21,
+            36,
+            59,
+            71,
+            88,
+            102,
+            121
           ],
           "evidence_post_ids": [
-            "participant_086_phase_1",
-            "participant_086_phase_2",
-            "participant_086_phase_3",
-            "participant_086_phase_4"
+            "participant_086_post_0022",
+            "participant_086_post_0037",
+            "participant_086_post_0060",
+            "participant_086_post_0072",
+            "participant_086_post_0089",
+            "participant_086_post_0103",
+            "participant_086_post_0122"
+          ]
+        },
+        {
+          "label": "landscape photography",
+          "evidence_post_indices": [
+            59,
+            87,
+            88
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0060",
+            "participant_086_post_0088",
+            "participant_086_post_0089"
           ]
         }
       ],
       "short_term_interests": [
         {
-          "label": "photography",
+          "label": "black and white photography",
           "evidence_post_indices": [
-            1,
-            3
+            11,
+            102
           ],
           "evidence_post_ids": [
-            "participant_086_phase_2",
-            "participant_086_phase_4"
+            "participant_086_post_0012",
+            "participant_086_post_0103"
+          ]
+        },
+        {
+          "label": "macro photography",
+          "evidence_post_indices": [
+            21,
+            102
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0022",
+            "participant_086_post_0103"
           ]
         }
       ],
       "negative_interests": [
         {
-          "label": "photography",
+          "label": "cloud photography",
           "evidence_post_indices": [
-            1,
-            2
+            59
           ],
           "evidence_post_ids": [
-            "participant_086_phase_2",
-            "participant_086_phase_3"
+            "participant_086_post_0060"
+          ]
+        },
+        {
+          "label": "sunset photography",
+          "evidence_post_indices": [
+            87
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0088"
+          ]
+        },
+        {
+          "label": "close up photography",
+          "evidence_post_indices": [
+            36
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0037"
           ]
         }
       ]
@@ -336,35 +528,46 @@
       "status": "active",
       "long_term_interests": [
         {
-          "label": "cats",
+          "label": "cat",
           "evidence_post_indices": [
-            0,
-            2
+            50,
+            51,
+            134
           ],
           "evidence_post_ids": [
-            "participant_086_phase_1",
-            "participant_086_phase_3"
+            "participant_086_post_0051",
+            "participant_086_post_0052",
+            "participant_086_post_0135"
           ]
         }
       ],
       "short_term_interests": [],
       "negative_interests": [
         {
-          "label": "cats",
+          "label": "kitten",
           "evidence_post_indices": [
-            2
+            50
           ],
           "evidence_post_ids": [
-            "participant_086_phase_3"
+            "participant_086_post_0051"
           ]
         },
         {
-          "label": "dogs",
+          "label": "dog",
           "evidence_post_indices": [
-            1
+            72
           ],
           "evidence_post_ids": [
-            "participant_086_phase_2"
+            "participant_086_post_0073"
+          ]
+        },
+        {
+          "label": "dog ownership",
+          "evidence_post_indices": [
+            81
+          ],
+          "evidence_post_ids": [
+            "participant_086_post_0082"
           ]
         }
       ]

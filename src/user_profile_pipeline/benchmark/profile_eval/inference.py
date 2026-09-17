@@ -54,11 +54,10 @@ from .normalization import (
     _raise_on_duplicate_ids,
     _temporary_inline_image_settings,
 )
-from .profile_methods import _build_domain_prompt, _build_domain_prompt_neutral, _guess_image_mime
+from .profile_methods import _build_domain_prompt, _guess_image_mime
 from .prompts import (
     BENCHMARK_EVAL_JSON_SCHEMA_HINT,
     BENCHMARK_EVAL_SYSTEM_PROMPT,
-    BENCHMARK_EVAL_SYSTEM_PROMPT_NEUTRAL,
 )
 from .specs import (
     DomainEvalTask,
@@ -146,7 +145,7 @@ class ProviderInferenceMixin:
         selected_urls = bundle.one_image_per_post_urls if one_image_per_post else bundle.image_urls
         selected_limit = self.max_images_when_trim if one_image_per_post else self.max_images
         image_urls = apply_image_limit(selected_urls, selected_limit)
-        user_prompt = _build_domain_prompt(task, context_text) if self.profile_eval_prompt_variant != "neutral" else _build_domain_prompt_neutral(task, context_text)
+        user_prompt = _build_domain_prompt(task, context_text)
         if not spec.multimodal:
             return user_prompt, []
         return user_prompt, image_urls
@@ -184,9 +183,8 @@ class ProviderInferenceMixin:
                 inline_image_max_dim=(lowres_max_dim if lowres_max_dim > 0 else None),
                 inline_reencode=(lowres_max_dim > 0),
             )
-            system_prompt = BENCHMARK_EVAL_SYSTEM_PROMPT if self.profile_eval_prompt_variant != "neutral" else BENCHMARK_EVAL_SYSTEM_PROMPT_NEUTRAL
             parsed = client.chat_json(
-                system_prompt=system_prompt,
+                system_prompt=BENCHMARK_EVAL_SYSTEM_PROMPT,
                 user_prompt=user_prompt,
                 image_urls=image_urls_for_provider or None,
                 json_schema_hint=BENCHMARK_EVAL_JSON_SCHEMA_HINT,
@@ -556,7 +554,7 @@ class ProviderInferenceMixin:
             request_row = build_openai_batch_chat_request(
                 custom_id=task.task_id,
                 model=spec.api_model or spec.name,
-                system_prompt=BENCHMARK_EVAL_SYSTEM_PROMPT if self.profile_eval_prompt_variant != "neutral" else BENCHMARK_EVAL_SYSTEM_PROMPT_NEUTRAL,
+                system_prompt=BENCHMARK_EVAL_SYSTEM_PROMPT,
                 user_prompt=user_prompt,
                 image_urls=image_urls_for_provider or None,
                 temperature=spec.temperature,

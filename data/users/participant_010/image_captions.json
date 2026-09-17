@@ -1,67 +1,1613 @@
 {
   "user_id": "participant_010",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "city exploration",
-        "nature observation",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; nature observation; nature visits; outdoor activities; photography."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a weather forecast for three days with temperatures ranging from -6°C to 21°C."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode weather forecast screenshot shows today, Monday, and Tuesday with icons and temperatures ranging from -6° to 21°."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Weather forecast showing temperatures from -6°C today to a high of 21°C by Tuesday."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weather app interface showing daily temperature forecasts with icons and degree ranges."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weather forecast interface displays a three-day outlook showing temperatures ranging from -6° to 21° with icons for cloudy, sunny, and partly cloudy conditions."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "city exploration",
-        "nature visits",
-        "outdoor activities",
-        "visual art",
-        "walking and hiking"
-      ],
-      "summary": "Generalized visual topics: city exploration; nature visits; outdoor activities; visual art; walking and hiking."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An expansive aerial view captures a dense urban cityscape stretching along the shore of a vast blue body of water"
+        },
+        "gpt-4o-mini": {
+          "summary": "An aerial view of a city skyline along a large body of water, showcasing a mix of high-rise buildings and urban landscape."
+        },
+        "gpt-5.4": {
+          "summary": "An aerial view shows a dense lakeside city skyline and coastline under clear blue skies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Aerial view of a cityscape by a large body of water under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Aerial view of a dense city skyline along a large body of water under clear blue skies."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-altitude aerial photograph captures a dense urban skyline bordering a large body of water under a clear blue sky."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "nature visits",
-        "outdoor activities",
-        "reading",
-        "travel"
-      ],
-      "summary": "Generalized visual topics: city exploration; nature visits; outdoor activities; reading; travel."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a street scene featuring a building with a British pub aesthetic and several parked cars."
+        },
+        "gpt-5.4": {
+          "summary": "A wet downtown street scene shows a Tudor-style [ORGANIZATION] with a red phone booth, parked cars, and tall office buildings behind it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A street scene featuring parked cars in front of a Tudor-style building labeled '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A wet urban street scene with parked cars and a Tudor-style pub named '[ORGANIZATION]' featuring a red telephone booth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street-level view of a Tudor-style pub named [PERSON] with a red telephone booth, parked cars on wet pavement, and tall office buildings in the background."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "city exploration",
-        "cultural visits",
-        "nature visits",
-        "outdoor activities",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; cultural visits; nature visits; outdoor activities; visual art."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A low-angle shot captures a multi-story apartment building at night, with several windows illuminated against a dark sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view of a multi-story apartment building at night, with some illuminated windows and a dark sky above."
+        },
+        "gpt-5.4": {
+          "summary": "An upward nighttime view shows a multi-story apartment building with lit windows beneath a dark sky and roof overhang."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime view of a multi-story apartment building under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime view of a multi-story apartment building under a dark sky, framed by a white overhead structure."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A low-angle night view of a multi-story apartment building with illuminated windows, framed by the white beams of an overhead structure against a dark sky."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "city exploration",
-        "nature observation",
-        "nature visits",
-        "outdoor activities",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; nature observation; nature visits; outdoor activities; visual art."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hazy, orange-tinted sky with a visible sun hangs over a street lined with green trees and"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hazy view of a sunset through smoke, with trees and power lines in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A hazy orange sun hangs over a tree-lined street with power lines, viewed from a building balcony or window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sunset view through a hazy sky over an urban street lined with trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hazy sky with an orange sun viewed from a balcony overlooking trees and a street."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from a balcony shows a hazy, orange-tinted sky with a visible sun over a street lined with green trees and power lines."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "city exploration",
-        "nature observation",
-        "nature visits",
-        "outdoor activities",
-        "photography"
-      ],
-      "summary": "Generalized visual topics: city exploration; nature observation; nature visits; outdoor activities; photography."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An airplane wing is visible against a clear blue sky with a small moon, soaring above a vast expanse of white clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows an airplane wing against a clear blue sky with a visible moon in the background."
+        },
+        "gpt-5.4": {
+          "summary": "View from an airplane window showing a wing above a cloud layer under a clear blue sky with the moon visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view from an airplane window showing a wing against clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A view from an airplane window showing the wing against a clear blue sky with the moon visible above a layer of clouds."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from an airplane window showing the wing extending over a sea of clouds with a clear blue sky and a visible moon."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Two people pose for a photo next to a powerful waterfall, with a town on a hill and lush green trees in the background under a bright blue"
+        },
+        "gpt-4o-mini": {
+          "summary": "Two individuals pose together in front of a waterfall on a sunny day."
+        },
+        "gpt-5.4": {
+          "summary": "Two people pose by a railing beside a wide river and [LOCATION], with lush greenery and a bright blue sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Two individuals pose by a scenic waterfall under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two people pose for a photo at a scenic waterfall viewpoint on a sunny day."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Two people pose for a photo on a viewing platform with a large, powerful waterfall and town in the background under a sunny sky."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands by a railing overlooking a waterfall on a sunny day with fluffy clouds in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses by a wooden railing in front of a wide waterfall and river, with [LOCATION], buildings, and large white clouds under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person posing by a scenic waterfall under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses smiling at a wooden railing with a large waterfall and scenic landscape behind them under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing sunglasses and a striped sweater stands at a wooden railing with [ORGANIZATION] in the background under a blue sky."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a historic building with intricate architecture set against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A sunlit courtyard lawn is framed by historic Gothic-style stone buildings with tall arched windows and a dome under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene view of a historic university quad under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grand historic stone building with Gothic architecture and a central dome stands under a clear blue sky, overlooking a well-manicured green lawn."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunlit courtyard featuring historic stone buildings with Gothic architecture, including pointed spires and arched windows, set against a blue sky."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An image showing sand dunes covered with green grass under a clear blue sky, with a [LOCATION] and a gravel path in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a sandy beach with tall grass and a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A minimalist outdoor scene shows sandy dunes with [LOCATION] grass under a clear deep blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene beach scene under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sandy dune covered in green grass under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunny coastal scene featuring sand dunes covered in grass against a clear blue sky, viewed from a paved surface."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a plate of poached eggs on toast alongside a cup of latte art coffee on a wooden table."
+        },
+        "gpt-5.4": {
+          "summary": "A cafe table scene with a latte art coffee and a plate of toast topped with three poached eggs, garnished with herbs and oil."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cozy café scene featuring a latte art coffee cup next to poached eggs served on toast."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A latte with leaf-patterned foam and a plate of poached eggs on toast sit on a rustic wooden table."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rustic wooden table displays a cup of coffee with leaf-patterned latte art alongside a plate of poached eggs on toast garnished with microgreens."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a piece of cardboard featuring a drawn vase filled with real"
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holds a card featuring a drawing of a vase filled with white daisies against a green background."
+        },
+        "gpt-5.4": {
+          "summary": "A hand holds a brown paper card with a sketched vase topped by real white daisies, creating a mixed-media flower arrangement against a grassy outdoor background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a card featuring pressed daisies in an illustrated vase against a grassy background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a card with a pencil sketch of a vase filled with real daisies against a green grass background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand holds a small cardboard sketch of daisies in a vase against a blurred green grass background."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands in front of a research poster discussing global diversity in the [ORGANIZATION] era."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands smiling beside a scientific conference poster in an indoor academic presentation setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in front of a scientific poster presentation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person smiles while standing in front of a scientific research poster at an academic event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling individual stands in front of a scientific research poster about [ORGANIZATION] fossil diversity at an academic conference."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a conference setting with a presentation titled 'Life and Planet' taking place at [ORGANIZATION] in [LOCATION]."
+        },
+        "gpt-5.4": {
+          "summary": "An audience sits in a lecture hall during a scientific conference talk with a slide titled \"Life and Planet\" projected at the front."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A lecture hall audience listens as a speaker presents in front of an event titled 'Life and Planet'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An audience views a presentation titled 'Life and Planet' at [ORGANIZATION] in [LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An audience sits in a lecture hall facing a presentation screen displaying 'Life and Planet' at an event hosted by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an open book displaying an illustration and a text panel about [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "An open display book in a museum case shows a detailed black-and-white dinosaur-themed illustration, with a nearby placard about [PERSON]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A museum display featuring a book open to an illustration of people in [LOCATION] attire seated around tables."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "An open historical book displays a detailed sketch of prehistoric creatures dining, accompanied by an informational plaque about [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An open vintage book displays a detailed black-and-white cartoon of prehistoric reptiles dining at a table, accompanied by an informational placard about [PERSON] and [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a river reflecting golden light, flowing past a steep, tree-covered bank under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a riverbank with a golden-hued cliff and cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A riverbank scene shows a sunlit sandy cliff lined with trees beneath dramatic dark clouds and warm evening light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene lakeside scene under a dramatic sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A riverbank at dusk with golden light illuminating a sandy cliff lined with trees under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape featuring a wide river flowing past steep, sandy cliffs topped with dense green trees under a cloudy sky."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large crowd gathers at an outdoor event under a crescent moon in the evening sky."
+        },
+        "gpt-5.4": {
+          "summary": "A large outdoor crowd sits on a hillside at dusk beneath a clear sky with a bright crescent moon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large crowd gathered outdoors under a crescent moon during dusk."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large crowd at an outdoor event watches a crescent moon appear in the twilight sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large crowd gathers on a grassy hillside at dusk for an outdoor event, with a crescent moon visible in the sky above the tree line."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large crowd is gathered on a hillside at dusk, holding lit candles or glow sticks."
+        },
+        "gpt-5.4": {
+          "summary": "A large crowd sits on a grassy hillside at dusk for an outdoor concert or event, with many small lights glowing across the audience."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A large outdoor audience seated in a stadium-like setup under twilight skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large crowd sits on a grassy slope at dusk, holding up glowing lights during an outdoor event."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A large crowd sits in folding chairs on a grassy hillside at dusk, illuminated by numerous small lights and the fading sunset."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A crowd enjoys a live performance at dusk with a city skyline in the background."
+        },
+        "gpt-5.4": {
+          "summary": "An outdoor concert crowd watches a brightly lit stage at dusk with a city skyline silhouetted against the sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A concert scene during twilight with a city skyline in the background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A large outdoor concert at dusk with a city skyline in the background and audience members holding up phones."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide shot of a large outdoor concert at dusk with a city skyline in the background."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An elevated view captures a city skyline silhouetted against a vibrant orange and blue [PERSON], with illuminated suburban streets and houses in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A city skyline is silhouetted against a vibrant sunset with a gradient of colors in the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wide city skyline is silhouetted against a vivid orange-and-blue sunset, with dark residential streets in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cityscape during twilight transitioning into night."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A twilight cityscape with a gradient sky transitioning from orange to blue, silhouetting buildings and residential areas below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a city skyline at dusk, featuring a vibrant orange and blue horizon above silhouetted skyscrapers and a dark residential foreground."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A panoramic aerial view captures a city at dusk or dawn, featuring a distant skyline, illuminated roads, and residential buildings under a gradient sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A panoramic view of a city skyline at dusk, showcasing a gradient sky transitioning from blue to orange."
+        },
+        "gpt-5.4": {
+          "summary": "A wide panoramic view shows a city skyline at dusk with glowing roads, dark suburban buildings, and a blue-orange sunset sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A panoramic view of a cityscape during twilight."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A panoramic view of a city skyline at dusk, showing residential areas transitioning into urban lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide-angle panoramic view of a city skyline at twilight, featuring a vibrant orange and blue horizon with illuminated streets and buildings in the foreground."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A blurry night shot captures a faint green aurora in the sky above a distant,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a blurred view of a city skyline at night with green auroras in the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime city skyline with blurred lights sits beneath a dark sky showing faint green [LOCATION] bands and a few visible stars."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A blurred night cityscape under a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime cityscape with blurred lights below and a faint green [ORGANIZATION] borealis visible in the sky above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night-time cityscape with blurred lights and a faint green aurora borealis in the sky."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person on a scooter stands in a dimly lit street under a greenish sky with visible auroras."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime neighborhood street scene shows a person with an electric scooter under a dark sky with faint green aurora-like bands."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person rides a scooter under an [ORGANIZATION] borealis in suburban surroundings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person rides an electric scooter down a street at night under a sky displaying green aurora-like lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person on an electric scooter pauses on a suburban street at night to observe faint green aurora borealis in the sky."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a nighttime cityscape illuminated by streetlights and distant city lights, with a green aurora in the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime cityscape shows green aurora-like lights in the sky above a brightly lit road and distant urban lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Nighttime cityscape featuring a green [ORGANIZATION] borealis over illuminated streets."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A nighttime cityscape viewed from above, featuring illuminated roads and buildings beneath a dark sky with faint green auroras."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night view of a city skyline and illuminated highway with faint green [ORGANIZATION] borealis visible in the dark sky above."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic photograph captures a bright, branching lightning bolt striking the horizon over a dark, misty cityscape and suburban area, viewed from a balcony at night."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dramatic lightning strike illuminates a dark, rainy cityscape at night."
+        },
+        "gpt-5.4": {
+          "summary": "A bright lightning bolt strikes over a city skyline at night, viewed from a balcony above dark residential streets."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic lightning strike illuminates a cityscape under an overcast sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright lightning strike illuminates a stormy night sky over a cityscape viewed from a balcony."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dramatic lightning strike illuminates a stormy sky over a residential area and distant city skyline, viewed from a balcony at night."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bright, jagged lightning bolt illuminates a dark, stormy night sky above a dimly lit cityscape."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a dramatic lightning storm illuminating a dark sky."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime cityscape is lit by a wide branching lightning flash across a dark stormy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic lightning strike illuminates a dark sky over an urban landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright lightning bolt illuminates a dark night sky above a cityscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A wide, horizontal lightning bolt illuminates a dark night sky above a silhouetted cityscape with scattered lights."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dramatic photograph captures a bright lightning bolt illuminating a dark, stormy night sky over a city or landscape."
+        },
+        "gpt-4o-mini": {
+          "summary": "A dramatic lightning strike illuminates a dark sky over a cityscape."
+        },
+        "gpt-5.4": {
+          "summary": "A bright lightning strike forks across a purple night sky above a dark city skyline during a storm."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dramatic lightning strike illuminates a dark landscape."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright lightning bolt illuminates a purple sky over a dark cityscape at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A massive lightning bolt illuminates a purple night sky above a dark, silhouetted cityscape."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a blue climbing helmet holds a rock while standing outdoors against a backdrop of cliffs and a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A selfie shows a person in a blue helmet holding a rock slab with small fossil-like imprints beside a rocky cliff under a bright blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person wearing a climbing helmet holding rock in front of ancient ruins under blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing a blue climbing helmet holds up a rock with a fossil impression against a cliffside under a blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a blue climbing helmet and fleece jacket holds up a rock specimen containing a fossil against a backdrop of a rocky cliff and blue sky."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a blue helmet and fleece jacket stands in front of a rock face, holding and examining a piece of rock, with many broken rock fragments on the ground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person wearing a helmet and holding a rock stands in front of a rocky cliff face."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing a blue safety helmet holds a rock sample while standing in front of a layered rock cliff covered with loose stone fragments."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a blue helmet stands in front of layered rock formations holding what appears to be an artifact."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in climbing gear stands before a rocky cliff, holding a rock sample."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a blue helmet and fleece stands in front of a rocky cliff face, holding a stone sample."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a green shirt and helmet holds a large rock while sitting on a rocky terrain with mountains in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing a climbing helmet kneels on a rocky mountain slope, smiling while holding a large flat gray rock with dramatic peaks in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a helmet holds a rock formation against mountainous terrain."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blue helmet and green shirt kneels outdoors holding a large rock, with mountains and sky in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling person wearing a blue [PERSON] helmet and green t-shirt kneels on a rocky mountain slope holding a large slab of rock with visible fossils."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a blue helmet crouches"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is crouched down on rocky terrain, assembling stones with a mountainous landscape and cloudy sky in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person wearing a blue climbing helmet crouches on a rocky mountain summit with dramatic peaks and a cloud-filled sky in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a helmet crouches amidst rocky terrain under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a blue helmet crouches on a rocky mountain ridge overlooking a vast mountain range under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a blue helmet crouches on a rocky mountain ridge, stacking flat stones against a backdrop of rugged peaks and a cloudy blue sky."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A majestic waterfall cascades down a rocky mountain face, surrounded by dense evergreen forests, with a milky river and a green bridge in the foreground under a partly cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a waterfall cascading down a rocky cliff surrounded by dense evergreen trees and a river in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A tall waterfall drops down a rocky mountain above a pine forest and river under a partly cloudy blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a waterfall cascading down rocky cliffs surrounded by dense evergreen trees under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic view of a waterfall cascading down a rocky cliff surrounded by evergreen trees under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape featuring a tall waterfall cascading down a rocky mountain face into a river, framed by evergreen trees and a blue sky with clouds."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A majestic mountain landscape features rugged, rocky peaks with patches of snow and a small waterfall, towering over a dense evergreen forest under a cloudy sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a mountainous landscape with rugged peaks and a dense forest in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic rocky mountain with a small glacier above dense evergreen forest sits under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A majestic mountain range surrounded by dense forest under a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A rugged mountain range with a glacier and waterfall, framed by dense evergreen forests under a cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rugged mountain peak with a glacier and thin waterfalls rises above a dense evergreen forest under an overcast sky."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An expansive aerial view captures a bright turquoise lake surrounded by dense evergreen forests and distant mountains under a partly cloudy blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a turquoise lake surrounded by mountains and trees under a partly cloudy sky."
+        },
+        "gpt-5.4": {
+          "summary": "A scenic mountain landscape shows a bright turquoise lake below forested slopes under large white clouds and blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene mountain landscape featuring a turquoise lake surrounded by dense forests under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic mountain vista framed by pine trees, showcasing a turquoise lake nestled among forested hills under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape view of a turquoise alpine lake nestled in a valley surrounded by dense evergreen forests and distant mountains under a blue sky with white clouds."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A serene natural landscape features a clear lake reflecting a dense evergreen forest and a blue sky with white clouds, with a hand and dead branches visible in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A serene lake surrounded by tall evergreen trees under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A calm forest lake reflects tall evergreen-covered hills, blue sky, and scattered clouds, with a fallen tree in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene lake surrounded by dense evergreen trees under a clear blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A calm mountain lake reflects a blue sky and dense forest, with a hand reaching toward the water in the foreground."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a calm alpine lake reflecting a dense evergreen forest and blue sky, with a hand visible in the foreground near driftwood."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a bustling street scene with people, outdoor seating, and a prominent mountain backdrop under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A scenic town street with outdoor patios and pedestrians leads toward a large rocky mountain under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vibrant street scene in a mountainous town under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bustling pedestrian street lined with outdoor cafes and shops, set against a backdrop of a towering mountain under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a pedestrianized town street lined with outdoor dining patios and shops, set against the backdrop of a large, rugged mountain under a clear blue sky."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A scenic view of a vibrant turquoise lake with several canoes"
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a turquoise lake surrounded by mountains and clouds."
+        },
+        "gpt-5.4": {
+          "summary": "A turquoise alpine lake stretches toward glacier-covered mountains under clouds, with several small kayaks or canoes on the water."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[LOCATION] enjoy a serene day on turquoise waters surrounded by [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[LOCATION] paddle on a turquoise lake surrounded by towering mountains and glaciers under a partly cloudy sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic view of a turquoise alpine lake with people kayaking, framed by steep mountains and a glacier under a blue sky."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a laptop keyboard with a Geobiology 2025 sticker and a power button."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a laptop keyboard and power button with a colorful \"Geobiology 2025\" sticker on the palm rest."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a laptop keyboard featuring an 'Geobiology' sticker."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a laptop's power button and keyboard, featuring a 'Geobiology 2025' sticker."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a black laptop palm rest featuring a 'Geobiology 2025' sticker and a power button, with the top row of keyboard keys visible below."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A vibrant green [LOCATION] illuminates the night sky above a sprawling city with twinkling lights."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image captures a stunning display of the northern lights ([ORGANIZATION]) illuminating the night sky with green hues above a cityscape."
+        },
+        "gpt-5.4": {
+          "summary": "[PERSON] light bands glow across a dark night sky above a city skyline with scattered lights."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stunning view of [PERSON] illuminating a dark night sky over city lights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A vibrant green aurora illuminates the night sky above a cityscape with scattered lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A night photograph capturing a vibrant green aurora borealis arching over the illuminated skyline of a city."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A panoramic landscape view features a vibrant turquoise lake nestled among dense pine forests and majestic snow-capped mountains under a bright blue sky with wispy clouds."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a turquoise lake surrounded by mountains and dense forests under a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A turquoise mountain lake winds through dense pine forest beneath snow-capped peaks and a bright blue sky with dramatic streaked clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ORGANIZATION] view of a turquoise lake surrounded by snow-capped mountains under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A panoramic view of a turquoise lake nestled between snow-capped mountains and dense evergreen forests under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic high-angle view of a turquoise alpine lake winding through a dense evergreen forest and surrounded by snow-capped mountains under a blue sky."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a hoodie and sunglasses stands on a rocky outcrop overlooking a serene lake with snow-capped mountains and a colorful"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person stands on a rock by a lake surrounded by snow-capped mountains during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands on rocks in front of a turquoise lake and dramatic snow-covered mountain peaks at sunset."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in front of a stunning mountain landscape during sunset."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person stands on rocks overlooking a mountain lake at sunset, wearing a hoodie with '[ORGANIZATION] text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a [ORGANIZATION] blue fleece and sunglasses stands on a rocky outcrop in front of snow-dusted mountains and a turquoise alpine lake during sunset."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a large dark grey rock covered in white fossilized patterns, with a piece of light brown driftwood resting against it, all surrounded by smaller grey and tan pebbles."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a large rock with distinct patterns, surrounded by smaller stones."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up of a large fossil-rich rock on a [LOCATION] or riverbank, with a stick pointing at shell-like patterns embedded in the stone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a rock formation featuring fossilized shells embedded in it."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a rock embedded with white fossilized shells, resting on a pebble beach with a piece of driftwood."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a large, dark grey rock covered in white fossilized coral patterns resting on a bed of smaller stones with a wooden stick pointing to the surface."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a cap and dark jacket walks along the rocky shore of a vibrant blue lake, holding a stick, with large mountains and a clear sky in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is walking along the shore of a turquoise lake with mountains in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person walks along a rocky lakeshore holding a stick, with turquoise water, mountains, and wispy clouds in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands by a serene lake surrounded by mountains under a partly cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks along a shoreline with mountains and a lake in the background under a dramatic sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a cap and dark jacket walks along the rocky shore of a turquoise lake, holding a stick, with large mountains and dramatic clouds in the background."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view shows a residential neighborhood covered in a"
+        },
+        "gpt-4o-mini": {
+          "summary": "A snowy urban landscape is visible, featuring residential houses and a distant city skyline under overcast skies."
+        },
+        "gpt-5.4": {
+          "summary": "A high-angle view shows a lightly snow-covered suburban neighborhood under a gray overcast sky, with a hazy city skyline in the distance."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Snowy suburban landscape under a cloudy sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snowy suburban neighborhood viewed from above, with a distant city skyline obscured by fog and falling snow."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a suburban neighborhood covered in snow with a city skyline faintly visible through the fog in the distance."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a city skyline illuminated against a vibrant orange and blue sunset or sunrise, with a dark residential neighborhood and a street with cars in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A scenic view of a city skyline at sunset, with vibrant orange and blue hues in the sky."
+        },
+        "gpt-5.4": {
+          "summary": "A distant city skyline glows at dusk beyond a dark residential neighborhood under a clear blue-to-orange sunset sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Sunset over a city skyline from suburban homes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A twilight cityscape showing a skyline with illuminated buildings against an orange and blue sky, viewed from above a tree-lined residential area."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A city skyline at dusk with a gradient sky transitioning from orange to blue, viewed over a residential area."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a hazy city skyline in the distance, with a residential neighborhood featuring houses, trees, and a winding road in the foreground under an overcast sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A panoramic view of a city skyline under a cloudy sky, with residential areas in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A hazy city skyline rises in the distance beyond a quiet suburban neighborhood of houses and trees under an overcast sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A panoramic view of a city skyline from an elevated suburban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hazy view of a city skyline seen from above a residential neighborhood with trees and houses."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hazy, elevated view of a suburban neighborhood with residential houses and trees in the foreground leading to a distant city skyline."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a city skyline glowing golden in the distance during sunrise or sunset, with a residential neighborhood featuring bare trees and light-dusted roofs in the foreground."
+        },
+        "gpt-4o-mini": {
+          "summary": "A panoramic view of a city skyline at sunset, with warm light reflecting off the buildings."
+        },
+        "gpt-5.4": {
+          "summary": "An elevated view shows a quiet residential neighborhood in the foreground with a sunlit downtown skyline under dramatic evening clouds."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cityscape during sunset viewed from a suburban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sunset view over a city skyline, with warm light illuminating skyscrapers behind a residential neighborhood."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a city skyline at sunset, with golden light reflecting off skyscrapers above a residential neighborhood."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An aerial view captures a snow-covered residential neighborhood with a hazy city skyline visible in the distance under an overcast sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A foggy winter scene showing a suburban area with snow-covered rooftops and a distant city skyline barely visible."
+        },
+        "gpt-5.4": {
+          "summary": "A foggy winter cityscape shows a residential neighborhood with snow-dusted rooftops and a faint downtown skyline in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A foggy winter scene in a suburban area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snowy suburban neighborhood viewed from above, with a distant city skyline obscured by fog."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A high-angle view of a snow-covered suburban neighborhood with a distant city skyline obscured by heavy fog or falling snow."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A bright, yellowish full moon is visible against a dark, black night sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A clear view of the moon against a dark night sky."
+        },
+        "gpt-5.4": {
+          "summary": "A bright moon is photographed against a nearly all-black night sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A full moon glowing brightly against a dark night sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bright full moon is centered against a dark night sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bright, nearly full moon is centered against a pitch-black night sky."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A picturesque view of a mountain backdrop with a charming street lined with shops and vehicles."
+        },
+        "gpt-5.4": {
+          "summary": "A snowy mountain glowing in warm sunset light rises behind a quiet town street lined with buildings, parked cars, and holiday decorations."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[LOCATION] mountain backdrop over a quaint town street lined with shops."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snowy mountain peak bathed in golden light towers over a quaint town street lined with parked cars and decorated buildings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A street scene in a mountain town during winter, featuring snow-covered buildings and vehicles with a large sunlit mountain peak in the background."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A picturesque street scene in a snow-covered mountain town at"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person walks down a snowy street with a mountain backdrop during sunset."
+        },
+        "gpt-5.4": {
+          "summary": "A snowy town street at dusk leads toward a snow-covered mountain beneath a pink and blue sky, with cars, pedestrians, and holiday lights visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A serene winter evening in a mountain town under a colorful sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person walks down a snowy town street at dusk, framed by a majestic snow-capped mountain under a pink and blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in winter clothing stands on a snowy town street at dusk, looking towards a large snow-capped mountain under a pink and blue sky."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a festive street scene with holiday lights and a snowflake decoration against a mountainous backdrop at dusk."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] town street at dusk is decorated with holiday string lights, glowing snowflake ornaments, and a large wreath above storefronts and passing cars."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A festive street scene decorated with lights in a snowy mountain town."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A snowy town square at dusk decorated with festive lights and snowflake ornaments, with a mountain visible in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A winter evening street scene in a mountain town featuring festive holiday lights, snow-covered buildings, and traffic against a backdrop of snowy peaks."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized snowboarder in a mountainous setting, promoting mental engagement."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized poster-like illustration shows a snowboarder in [LOCATION] with bold text reading 'engage your mental.'"
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Illustration of a snowboarder in action against mountainous backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized illustration of a snowboarder on a snowy mountain slope with bold text reading 'engage your mental'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized illustration of a snowboarder in mid-air against [LOCATION], featuring bold comic-style typography."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot reveals intricate frost patterns covering a surface, showcasing the delicate beauty of ice crystals."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features intricate frost patterns on a window."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows intricate frost and ice crystal patterns covering a window or glass surface against a blurred blue-gray background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of frosty patterns forming intricate designs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up view of intricate frost patterns forming delicate, crystalline designs on a dark surface."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of intricate, feathery frost patterns covering a glass surface against a dark background."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large, silhouetted plant leaf frames a vibrant orange sunset over an urban skyline."
+        },
+        "gpt-4o-mini": {
+          "summary": "A sunset view over a city skyline with a plant leaf in the foreground."
+        },
+        "gpt-5.4": {
+          "summary": "A silhouetted houseplant leaf is framed against a city skyline at sunset, viewed from a high window."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sunset over a cityscape viewed through a window pane."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A silhouette of a large leaf frames a cityscape at sunset."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A sunset view over a city skyline is framed by the silhouette of a large monstera leaf in the foreground."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized hexagonal collage representing various landscapes and themes, with the text '[ORGANIZATION] 1995' at the bottom."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized poster-like graphic shows seven hexagonal illustrations of maps, geology, satellite imagery, energy infrastructure, and city landscapes, with the text '[ORGANIZATION]. 1995' below."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful hexagonal logo featuring various landscapes labeled '[ORGANIZATION] 1995'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A logo composed of six hexagonal illustrations depicting diverse landscapes and technologies, centered around the text '[ORGANIZATION] 1995'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized graphic featuring seven hexagonal illustrations depicting various scientific and industrial themes, including space exploration, energy production, and urban landscapes, arranged around a central emblem with the text '[ORGANIZATION]. 1995' below."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital tournament"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a voting interface for [ORGANIZATION] featuring various universities and their respective scores."
+        },
+        "gpt-5.4": {
+          "summary": "A scenic mountain-background tournament bracket graphic titled \"Rocky Mountain Section Tournament\" shows college matchups, vote counts, and a \"Start Voting\" button."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Voting interface showing a tournament between various universities in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A voting interface for [ORGANIZATION] overlays a scenic mountain landscape with autumn foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital leaderboard for [ORGANIZATION] displays voting results from various universities against a scenic mountain backdrop."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized hexagonal collage representing various landscapes and themes, with '[ORGANIZATION]' and 'Est. 1995' prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A logo-style graphic shows six colorful hexagonal scenes with volcanoes, satellite mapping, geology, energy infrastructure, and city landscapes above the text \"ATLAS Est. 1995\"."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful hexagonal logo featuring various landscapes labeled '[ORGANIZATION] 1995'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized logo composed of six hexagonal panels depicting diverse landscapes and technologies, centered below the text '[ORGANIZATION] 1995'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized graphic featuring seven hexagonal illustrations depicting various scientific and industrial themes, centered around a logo with the text '[ORGANIZATION]. 1995' below."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person presents a slide about fossils and evolution to an audience in a lecture hall."
+        },
+        "gpt-4o-mini": {
+          "summary": "A presentation on fossils and their significance in understanding evolution is being delivered to an audience."
+        },
+        "gpt-5.4": {
+          "summary": "A person presents a classroom slide reading “Fossils can give incredible insight into evolution” to an audience."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A presentation slide discussing fossils' role in understanding evolution."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A presenter addresses an audience in a lecture hall, with a slide displaying the text 'Fossils can give incredible insight into evolution'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A presenter stands in a lecture hall addressing an audience while displaying a slide about fossils and evolution on a large screen."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a classroom setting with students seated and a presentation on geological concepts displayed on a screen."
+        },
+        "gpt-5.4": {
+          "summary": "A lecturer speaks to a packed college classroom while a projected geology slide shows diagrams about post-collisional eduction."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A professor lectures in a classroom using an educational slide."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A speaker presents a geological diagram on [ORGANIZATION] to an audience in a lecture hall."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A professor delivers a geology lecture on [ORGANIZATION] to an audience in a tiered classroom."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a scenic view of mountains and trees with a voting interface for a tournament featuring two universities."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a 'Rocky Mountain Section Tournament' voting bracket is overlaid on a mountain landscape with autumn trees and a lake."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic mountain landscape promoting a tournament vote between two universities."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A voting interface for [ORGANIZATION] overlaid on a scenic mountain landscape with autumn foliage."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a voting interface for [ORGANIZATION] set against a scenic mountain landscape with autumn foliage."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of five individuals poses together in front of a presentation screen at a conference related to geobiology."
+        },
+        "gpt-5.4": {
+          "summary": "Five people with conference badges pose in front of a presentation screen for [ORGANIZATION] in a wood-paneled event room."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of five individuals posing in front of a presentation screen titled '[ORGANIZATION] from [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Five people pose together in front of a presentation screen displaying '[ORGANIZATION] at [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "Five smiling attendees wearing conference badges pose for a group photo in front of a large projection screen displaying the Geobiology 2025 event banner."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A presenter is speaking at a conference with a slide titled 'The Precambrian microfossil record' displayed behind them."
+        },
+        "gpt-5.4": {
+          "summary": "A person is giving a scientific presentation at a podium in a conference room, with a projected slide about the Precambrian microfossil record."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person giving a presentation titled 'The Precambrian microfossil record' in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person presents at a conference, standing at a podium in front of a projection screen displaying a scientific talk slide."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A presenter stands at a podium delivering a scientific lecture on the Precambrian microfossil record in a wood-paneled conference room."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A group of eight people is gathered on a patio with a mountain backdrop, enjoying drinks and socializing."
+        },
+        "gpt-5.4": {
+          "summary": "A group of friends poses on an outdoor patio with drinks, with a dramatic mountain backdrop at dusk."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of people enjoying a gathering outdoors against a mountain backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A group of people poses cheerfully on a rooftop patio with a mountain range in the background during dusk."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A group of nine people poses for a photo on an outdoor patio with a large mountain and town visible in the background."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a white t-shirt, black vest,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person poses next to a Geobiology 2025 poster in a well-lit indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person poses thoughtfully beside a conference-style poster reading “Geobiology 2025” in a warmly lit indoor hallway."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person poses in front of a 'Geobiology' poster from an event scheduled for 2025."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person poses thoughtfully beside a 'Geobiology 2025' event poster in an indoor hallway."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person poses in a hallway next to a poster for the 'Geobiology 2025' conference."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is using a pipette to prepare a sample under a microscope in a laboratory setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a black beanie uses a pipette over a microscope slide at a lab desk in a classroom-like setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a beanie uses pipettes in what appears to be an educational laboratory environment."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a black beanie uses a pipette to dispense liquid onto a microscope slide inside a lab."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black beanie and dark clothing is using a pipette to dispense liquid onto a slide under a microscope in a laboratory setting."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a beanie and outdoor gear is scrambling up a rocky incline in a landscape filled with bare,"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is climbing a rocky surface in a forested area with burnt trees in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A person in outdoor gear scrambles up a large rock in a sparse, fire-scarred forest under a cloudy sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person climbs a rocky slope in an overcast forested area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person climbs a rocky slope in a forest of burnt trees under an overcast sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a beanie and hiking gear climbs over a rocky outcrop in a forest of burnt, leafless trees under an overcast sky."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in an elevator while holding a transparent object."
+        },
+        "gpt-5.4": {
+          "summary": "A person takes a wide-angle selfie inside a gray elevator while wearing a black top, jeans, white sneakers, and clear safety glasses on their head."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person taking a selfie in an elevator."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a selfie inside an elevator while holding a clear case, with safety glasses on their head."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing safety goggles and a dark fleece takes a selfie inside an industrial elevator while holding a clear plastic multi-well plate."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person is actively chopping wood with an axe outdoors in a grassy, natural setting with trees and mountains in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is chopping wood with an axe in a natural outdoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A person outdoors in a grassy mountain campsite area swings an axe to split wood on a stump in warm evening light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person chopping wood in a grassy outdoor area."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person swings an axe at a log in a grassy outdoor setting with trees and mountains in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person is outdoors in a grassy field, swinging an axe to split wood near a stone fire pit with mountains and trees in the background."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person sits on a rocky ledge overlooking a vast mountainous landscape, holding a can of energy drink."
+        },
+        "gpt-5.4": {
+          "summary": "A person in hiking gear sits on a rocky mountain overlook holding a [ORGANIZATION] drink can, with a valley, river, and mountain range in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Person enjoying a [ORGANIZATION] drink in front of mountainous scenery."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person sits on a hillside overlooking mountains and a river, holding up a can of [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person in hiking gear sits on a mountain ridge holding a blue energy drink can, with a scenic view of mountains and a river valley behind them."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A group of mountain goats or [LOCATION] are perched on a steep, rocky cliff under a clear blue sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a rocky cliff with several goats perched on top against a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "Several wild goats or sheep are perched along a steep rocky cliff under a clear deep-blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A group of mountain goats perched atop a rocky cliff under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several goats with curved horns are perched atop a steep, sunlit rock cliff under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A herd of [LOCATION] rests along the ridge of a steep, rocky cliff against a clear blue sky."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up image shows a finger pointing at a textured rock surface with visible layers and variations in color."
+        },
+        "gpt-4o-mini": {
+          "summary": "A close-up of a textured rock surface with a finger pointing at it."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up photo shows a finger pointing at layered rock strata on an outdoor rock face."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a hand pointing towards rock formations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A finger points to layered rock strata under bright sunlight."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up view of a textured rock face with visible stratification and color variations, where a finger points to a specific geological layer."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A wide shot of a majestic mountain range under a clear blue sky, overlooking a winding river through a dense forest from a grassy, rocky hillside."
+        },
+        "gpt-4o-mini": {
+          "summary": "A panoramic view of a mountainous landscape with a clear blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A wide scenic view shows rugged mountains rising above a forested valley with a winding river under a clear blue sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A scenic view of a mountain range under clear blue skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A scenic mountain vista with a river winding through a forested valley under a clear blue sky."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A scenic landscape view from a grassy ridge overlooking a dense forest, a winding river, and rugged mountains under a clear blue sky."
+        }
+      }
     }
   }
 }

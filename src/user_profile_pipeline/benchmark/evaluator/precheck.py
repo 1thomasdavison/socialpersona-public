@@ -2,9 +2,6 @@ from __future__ import annotations
 
 from .schemas import CanonicalAnchor, CanonicalPrediction, PrecheckResult
 
-MAX_LONG_ANCHORS = 3
-MAX_SHORT_ANCHORS = 3
-MAX_ANCHORS = MAX_LONG_ANCHORS + MAX_SHORT_ANCHORS
 MAX_EVIDENCE_PER_ANCHOR = 2
 MAX_SUMMARY_SUPPORT = 4
 
@@ -25,7 +22,7 @@ def _dedupe_int_list(items: list[int], *, limit: int) -> list[int]:
 
 def _clean_prediction(pred: CanonicalPrediction) -> CanonicalPrediction:
     cleaned_anchors: list[CanonicalAnchor] = []
-    for anchor in pred.interest_anchors[:MAX_ANCHORS]:
+    for anchor in pred.interest_anchors:
         cleaned_anchors.append(
             CanonicalAnchor(
                 label=str(anchor.label or "").strip(),
@@ -54,16 +51,6 @@ def validate_prediction(pred: CanonicalPrediction, posts: list[dict]) -> Prechec
     if pred.status not in VALID_STATUS:
         errors.append("invalid_status")
 
-    if len(pred.interest_anchors) > MAX_ANCHORS:
-        errors.append("too_many_anchors")
-
-    long_n = sum(1 for a in pred.interest_anchors if str(getattr(a, "source_bucket", "") or "").strip().lower() == "long")
-    short_n = sum(1 for a in pred.interest_anchors if str(getattr(a, "source_bucket", "") or "").strip().lower() == "short")
-    if long_n > MAX_LONG_ANCHORS:
-        errors.append("too_many_long_anchors")
-    if short_n > MAX_SHORT_ANCHORS:
-        errors.append("too_many_short_anchors")
-
     for i, anchor in enumerate(pred.interest_anchors):
         if not anchor.label.strip():
             errors.append(f"empty_anchor_label[{i}]")
@@ -84,9 +71,6 @@ def validate_prediction(pred: CanonicalPrediction, posts: list[dict]) -> Prechec
 
     hard_fail = (
         "invalid_status" in errors
-        or "too_many_anchors" in errors
-        or "too_many_long_anchors" in errors
-        or "too_many_short_anchors" in errors
         or any(e.startswith("anchor_evidence_oob") for e in errors)
         or any(e.startswith("summary_support_oob") for e in errors)
     )

@@ -1,67 +1,2229 @@
 {
   "user_id": "participant_007",
-  "release_variant": "privacy-derived-v1",
-  "aggregation": "user_level",
-  "model_summaries": {
-    "gemini-2.5-flash": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "music",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; music; spectator sports; visual art."
+  "release_variant": "targeted-deidentified-v2",
+  "post_association": "unavailable",
+  "captions": {
+    "image_00001": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up shot shows a [ORGANIZATION] yogurt cup lid featuring a man in a red shirt, resting on a dark patterned surface next to a spoon."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a yogurt container with a colorful label featuring a child in a red shirt and a spoon beside it."
+        },
+        "gpt-5.4": {
+          "summary": "A [LOCATION] yogurt lid with a soccer-themed design lies on a glossy marble table next to a metal spoon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] yogurt cup wrapper featuring a football player's portrait."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [LOCATION] yogurt cup with Arabic branding and a footballer image sits on a marble surface next to a spoon."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [LOCATION] yogurt cup lid featuring a male soccer player in a [LOCATION], placed on a marble surface next to a spoon."
+        }
+      }
     },
-    "gpt-4o-mini": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "dining",
-        "music",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; dining; music; spectator sports."
+    "image_00002": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile application screen displays the confirmed football lineup for the [LOCATION] team, showing player names, positions, and individual performance ratings in a 4-3-3 formation."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the confirmed lineups for the [LOCATION] national football team in a 4-3-3 formation."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile sports app screen shows the [LOCATION] national football team's confirmed 4-3-3 lineup with player headshots, ratings, and formation on the [ORGANIZATION] tab."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of [LOCATION]'s confirmed soccer lineup against a team in red."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer lineup screen showing [LOCATION]'s confirmed players and ratings for an upcoming match."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A mobile app screenshot displaying the confirmed 4-3-3 lineup and player performance ratings for the [LOCATION] national football team."
+        }
+      }
     },
-    "gpt-5.4": {
-      "topics": [
-        "city exploration",
-        "music",
-        "reading",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: city exploration; music; reading; spectator sports; visual art."
+    "image_00003": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a social media post, likely a retweet, featuring a profile picture and text about friends being tired of hearing 'I miss you'."
+        },
+        "gpt-4o-mini": {
+          "summary": "A retweeted post expressing feelings of missing someone, with a humorous tone about friends being tired of hearing it."
+        },
+        "gpt-5.4": {
+          "summary": "A phone gallery screenshot shows a retweeted tweet in Twitter dark mode with a message about missing someone."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A retweeted tweet expressing feelings of being tired from hearing someone miss them."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A retweeted tweet expressing longing for someone, with a profile picture of a person."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter post by user [PERSON] expressing that their friends are tired of hearing how much they miss someone."
+        }
+      }
     },
-    "qwen2.5-vl-7b-instruct": {
-      "topics": [
-        "cats",
-        "city exploration",
-        "dining",
-        "music",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; city exploration; dining; music; spectator sports."
+    "image_00004": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays two social media posts on a dark background, featuring profile pictures of a person by the sea and a cat, along with short text messages and interaction icons."
+        },
+        "gpt-4o-mini": {
+          "summary": "Two users are engaging in a conversation with greetings and casual remarks."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode social media screenshot shows two short text posts with profile pictures, usernames, and like/view icons."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT] posts '[PERSON] while [ACCOUNT] responds in Arabic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Two social media posts showing user avatars, handles, timestamps, and text captions."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Twitter conversation in [LOCATION] Arabic featuring two users discussing morning greetings and personal well-being."
+        }
+      }
     },
-    "qwen3-vl-8b-instruct": {
-      "topics": [
-        "cats",
-        "music",
-        "photography",
-        "reading",
-        "spectator sports"
-      ],
-      "summary": "Generalized visual topics: cats; music; photography; reading; spectator sports."
+    "image_00005": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a dark-themed screen showing music listening statistics for January 2026, including minutes played, artists played, and tracks played, with a call to action to join 'alrbuds.fm'."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays music listening statistics including minutes played, artists played, and tracks played."
+        },
+        "gpt-5.4": {
+          "summary": "A dark music-stats graphic shows listening activity for January 2026 with totals for minutes, artists, and tracks played plus an airbuds.fm mention."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music listening statistics screen showing time played, artists listened to, tracks played in January 2026."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed music listening summary showing stats for January 2026."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark-themed screenshot from the AirBuds.fm platform displaying listening statistics for January 2026, including 34 minutes played, 7 artists, and 9 tracks."
+        }
+      }
     },
-    "qwen3.5-35b-a3b": {
-      "topics": [
-        "cats",
-        "music",
-        "photography",
-        "spectator sports",
-        "visual art"
-      ],
-      "summary": "Generalized visual topics: cats; music; photography; spectator sports; visual art."
+    "image_00006": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital card, resembling a music streaming interface, displays a song title and artist, along with a block of text, on a dark gray background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a [ORGANIZATION] song titled 'The Devil' by [ORGANIZATION] with lyrics in Arabic."
+        },
+        "gpt-5.4": {
+          "summary": "A minimalist [ORGANIZATION]-style music share card displays the song title \"The Devil\" by [ORGANIZATION] with a large overlaid quote in bold text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] playlist cover featuring a song by The Devil titled '[ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A [ORGANIZATION] music card displaying a song titled 'The Devil' by [LOCATION] with stylized lyrics."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A [ORGANIZATION] music share card displaying lyrics from the song 'The Devil' by [ORGANIZATION] in a stylized, phonetic script."
+        }
+      }
+    },
+    "image_00007": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collage of circular profile pictures displays a variety of subjects including real people, anime and cartoon characters, objects, and [PERSON], arranged on a light green background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a circular arrangement of various profile pictures, including both real and animated characters."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot-like collage shows many circular profile images, including selfies, anime/cartoon avatars, and placeholder icons, arranged around a central profile picture on a plain background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A circular collage of various images featuring people in different settings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A circular arrangement of diverse profile pictures, including photos and anime characters, centered around a person with a red headband."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A circular collage of profile pictures featuring a mix of celebrities, anime characters, and memes arranged around a central image of a person blowing a bubble."
+        }
+      }
+    },
+    "image_00008": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A European goldfinch is perched on a branch with a green background, overlaid with Arabic text discussing desires for money, love, and the elimination of the Moroccan national team."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a colorful bird perched on a branch with Arabic text overlay expressing sentiments about love and exclusion."
+        },
+        "gpt-5.4": {
+          "summary": "A small colorful bird perched on branches is shown with large Arabic meme-style text over a green background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A colorful bird perched on a branch against green foliage."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bird perched on a branch with Arabic text overlaid, conveying a humorous or ironic message."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A European goldfinch perched on a branch with Arabic text overlaid in three lines. The image appears to be a meme or social media post combining nature photography with humorous or satirical commentary."
+        }
+      }
+    },
+    "image_00009": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media feed displays a grid of various posts, predominantly featuring humorous images and videos of cats, alongside other diverse content like a man speaking, an animated character, and a beaded cigarette."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a collage of various cats making funny faces and poses."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an Instagram-style explore page showing mostly close-up cat meme reel thumbnails alongside a few other meme posts."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A grid of cat images in various poses and settings."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A grid of video thumbnails featuring cats in funny poses, a cartoon character, and other quirky visuals."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media profile grid dominated by humorous cat videos and memes, featuring a few human subjects and Arabic text overlays."
+        }
+      }
+    },
+    "image_00010": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black and white diptych shows a person in two emotional states, one with eyes closed and tears, and the other looking down with clasped hands, against a dark background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with a solemn expression, praying or reflecting, with visible tattoos and jewelry."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white split close-up shows an emotional person with clasped hands, tattoos, and a chain necklace against a dark background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A black-and-white split portrait of two individuals making a fist gesture."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black-and-white split image of two men with intense facial expressions, both clasping their hands near their faces."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black-and-white split portrait of a man with tattoos and jewelry, showing contrasting expressions of emotional distress and solemn prayer."
+        }
+      }
+    },
+    "image_00011": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand making a middle finger gesture while holding a blue garment with a white embroidered logo."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is showing a blue shirt with a logo while making a gesture with their hand."
+        },
+        "gpt-5.4": {
+          "summary": "A tilted outdoor photo shows a person in a blue shirt near steps while a hand in the foreground makes a middle-finger gesture."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a blue jacket sits outdoors near stairs."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand gestures while holding a blue sports jersey with an embroidered emblem."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, slightly tilted shot of a person's hand pointing at the white embroidered crest on the sleeve of a blue and black sports jersey."
+        }
+      }
+    },
+    "image_00012": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand reaches for a coin on a white table, with a smartphone nearby, in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand is seen flicking a coin on a table next to a smartphone in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is poised over a coin on a white table indoors, with a smartphone nearby as if during a casual coin trick or game."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand reaches towards a coin placed near a smartphone on a table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand reaches toward a coin resting on a white table next to a smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand is captured in motion over a white table, appearing to spin or flip a coin next to a smartphone."
+        }
+      }
+    },
+    "image_00013": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand is shown reaching towards a bimetallic coin on a white table, with a smartphone lying nearby in an indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand is seen flicking a coin on a table next to a smartphone in a casual indoor setting."
+        },
+        "gpt-5.4": {
+          "summary": "A hand hovers over a coin on a white table beside a smartphone in an indoor casual dining or café setting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand reaches towards a coin placed near a smartphone on a table."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand reaches toward a coin resting on a white table next to a smartphone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hand is reaching for a coin on a white table next to a smartphone in an indoor setting."
+        }
+      }
+    },
+    "image_00014": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a messaging app conversation in Arabic, featuring two messages exchanged and an unread message notification."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a chat conversation discussing an upcoming exam and plans for the next year."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode messaging app screenshot shows an Arabic chat conversation with an unread-message divider and timestamps."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A chat message exchange in Arabic discussing exams."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a chat conversation in Arabic with two messages and an unread indicator."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat conversation in Arabic discussing exam preparation and scheduling, featuring messages from a user and an entity named [PERSON]."
+        }
+      }
+    },
+    "image_00015": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A man in a red and green football jersey stands in front of a large screen displaying a football tactical"
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a red sports jersey is presenting a football strategy on a digital screen displaying a team formation."
+        },
+        "gpt-5.4": {
+          "summary": "A man in a [LOCATION] football jersey stands in front of a screen showing a soccer tactics lineup in a social media video screenshot with Arabic text and app controls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a Moroccan football jersey stands next to an animated soccer field diagram."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man in a red sports jersey gestures while standing before a screen displaying a football tactics board with player avatars."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man in a red [LOCATION] football jersey stands in front of a tactical board displaying a team formation and player photos."
+        }
+      }
+    },
+    "image_00016": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A meme-style image contrasting a distressed 3D figure labeled \"problem\" with a glowing silhouette by the sea labeled \"solution\" with Arabic text."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image contrasts a figure representing a problem with a figure symbolizing a solution, accompanied by Arabic text."
+        },
+        "gpt-5.4": {
+          "summary": "A meme contrasts a sad 3D figure labeled \"problem:\" with a blue seascape showing a glowing person labeled \"solution:\" and overlaid with Arabic text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A meme contrasting a sad figure labeled 'problem:' against an illuminated silhouette of hope in water under cloudy skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A split image contrasts a distressed figure labeled 'problem:' with a glowing figure on a rock labeled 'solution:' under Arabic text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-panel meme contrasting a distressed white 3D figure labeled 'problem' with a glowing silhouette on a rock under a blue sky labeled 'solution'."
+        }
+      }
+    },
+    "image_00017": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up portrait of a young woman with dark, wavy hair, wearing a cream and black textured cardigan, looking directly at the camera with a slightly pouty expression."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person with wavy hair wearing a stylish sweater, partially obscured by a blur."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up selfie-style portrait on a [ORGANIZATION] screen shows a person with short dark hair wearing a textured black-and-white jacket indoors, with the word \"february\" overlaid."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a textured sweater with 'february' written across it."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dark hair wears a white and black textured jacket while looking at the camera, with the word 'february' overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dark wavy hair wearing a white and black tweed jacket, overlaid with the text 'february' on a social media interface."
+        }
+      }
+    },
+    "image_00018": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark rectangular graphic displays a crossed-out eye icon and the word \"Hidden\", indicating a hidden or private status."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is a placeholder indicating that content is hidden."
+        },
+        "gpt-5.4": {
+          "summary": "A dark interface placeholder shows a crossed-out eye icon above the word \"Hidden.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dark-themed interface element labeled 'Hidden' featuring a crossed-eye icon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark interface card with an eye-crossed-out icon and the word 'Hidden'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark [ORGANIZATION] card displaying a crossed-out eye icon and the word 'Hidden' at the bottom."
+        }
+      }
+    },
+    "image_00019": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A woman with her eyes closed and a wide smile is seen at a social event, wearing a sparkly necklace, with other people partially visible around her."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts two individuals in a close, intimate pose, with one person kissing the other's neck."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up party snapshot shows a smiling person in a necklace while another person leans toward their neck with their tongue out, with other people blurred in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A woman in a glamorous outfit sticks her tongue out playfully."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A woman with curly hair and a sparkling necklace smiles broadly while being embraced by a man in a dark jacket."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up image of a smiling woman with glittery makeup and a statement necklace, standing next to a man in a dark suit at what appears to be a formal event."
+        }
+      }
+    },
+    "image_00020": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A promotional graphic features four male football players surrounding a golden trophy, with text indicating the \"CAF Africa Cup of Nations [LOCATION] 25\" and \"eFootball\" branding."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a trophy for the Africa Cup of Nations with several football players in the background."
+        },
+        "gpt-5.4": {
+          "summary": "Promotional football graphic featuring four players around the CAF Africa Cup of Nations trophy against a red background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Promotional poster for the Africa Cup of Nations featuring players in action."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A promotional graphic for the Africa Cup of Nations Morocco 2025 featuring four football players and the tournament trophy against a red background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic for the 2025 Africa Cup of Nations featuring four football players surrounding the tournament trophy against a red and green background."
+        }
+      }
+    },
+    "image_00021": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a long dark fur coat and black boots takes a mirror selfie, obscuring their face with a phone, against a wooden door and tiled floor."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is posing in front of a mirror, wearing a fur coat and knee-high boots."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in a long dark fur-style coat and black boots standing in a wood-paneled indoor space."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie wearing a fur coat in front of wooden doors."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person in a dark fur coat takes a mirror selfie while holding a phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person with long dark hair takes a mirror selfie wearing a dark fur coat and boots while holding a phone to their face."
+        }
+      }
+    },
+    "image_00022": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A large crowd fills the stands of a stadium while numerous individuals are gathered on a red-"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a large crowd of fans celebrating at a football match, likely during the Africa Cup of Nations."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an Arabic social media post shows a packed football stadium crowd beside an orange track at an Africa Cup of Nations event in [LOCATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stadium filled with spectators during an Africa Cup of Nations match in [LOCATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowded stadium scene from the Africa Cup of Nations, with fans waving flags and players on the field."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crowded football stadium during the Africa Cup of Nations in [LOCATION], with fans on the pitch and security personnel present."
+        }
+      }
+    },
+    "image_00023": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a large crowd of fans, predominantly wearing green and white, celebrating at a sports event, likely a football match."
+        },
+        "gpt-5.4": {
+          "summary": "A social-media post screenshot shows Arabic text over a packed football stadium crowd with Algerian flags visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A crowd of Algerian football fans celebrating in a stadium."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A crowded stadium filled with fans waving Algerian flags and wearing green, white, and red."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A crowded stadium scene of Algerian football fans in green and white waving flags, overlaid with Arabic text from a news post about the end of a match."
+        }
+      }
+    },
+    "image_00024": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot of a video player displays a football match in progress on a green field with players, a goal, and advertising, accompanied by navigation tabs and Arabic text."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a soccer match with players in action near the goal."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a video platform shows an Arabic-captioned football clip with players near a goal during a match."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer match moment showing a goalkeeper in action during gameplay."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A soccer match scene showing a player near the goal, with Arabic text overlay and interface elements."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] video showing a football match with Arabic text overlays criticizing refereeing decisions."
+        }
+      }
+    },
+    "image_00025": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A performer with arms raised on a brightly lit stage is overlaid with text featuring a quote attributed to [PERSON] and the [PERSON] logo."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a performer on stage with arms raised, accompanied by lyrics from a song."
+        },
+        "gpt-5.4": {
+          "summary": "A dramatic concert image shows a performer with arms raised on a brightly lit stage, overlaid with a quote and music credit text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A performer raises their arms in a celebratory pose against an orange backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A performer with arms raised on stage under orange lighting, overlaid with lyrics from [PERSON] song '30 Hours'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A concert photo of [LOCATION] performing with arms raised, overlaid with lyrics from his song '30 Hours' about an ex-partner."
+        }
+      }
+    },
+    "image_00026": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a social media post featuring a profile picture, a text update in a foreign language, and engagement metrics including views, likes, and bookmarks."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a social media post asking for help identifying who bookmarks and tweets the user's content."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of an X/Twitter post in Arabic transliteration shows the tweet text, view count, likes, bookmarks, and a red triangle overlay near the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT]'s tweet discussing bookmarks and tweets in Arabic."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-themed social media post with a red triangle icon and non-English text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post by user [ACCOUNT] featuring text in [LOCATION] about organizing bookmarks and tweets, with a red triangle graphic obscuring part of the interface."
+        }
+      }
+    },
+    "image_00027": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a digital interface showing football match results for the Africa Cup of Nations Quarter-Finals and the Spanish Super Cup Final."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays the results of recent football matches, including the Africa Cup of Nations and the Super Cup Final."
+        },
+        "gpt-5.4": {
+          "summary": "A sports results screen shows finished football scores for [LOCATION] vs [LOCATION], [LOCATION] vs [LOCATION], and [ORGANIZATION] vs [ORGANIZATION] across African and Spanish competitions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Scores from recent football matches including Africa Cup of Nations quarter-finals."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sports results screen showing three completed football matches with scores and team logos."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a sports results page displaying finished scores for the Africa Cup of Nations and the Spanish Super Cup Final."
+        }
+      }
+    },
+    "image_00028": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A pixelated portrait of a man with a beard is centered, surrounded by smaller pixelated images of various animals and objects, with Arabic and English text overlays."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a central figure surrounded by various artistic illustrations and text in Arabic."
+        },
+        "gpt-5.4": {
+          "summary": "Album-style artwork showing a bearded man’s portrait centered within a pixel-grid collage, with Arabic title text and small illustrated side panels."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A pixelated portrait of a person surrounded by various animal images in an artistic frame."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pixelated portrait of a man surrounded by circular illustrations, with Arabic text overlays and credits at the bottom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pixelated portrait of a bearded man surrounded by small images of animals and objects, with Arabic text overlaid and a Genius footer."
+        }
+      }
+    },
+    "image_00029": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A music streaming interface displays an advertisement featuring a man in a stylish jacket with prominent '[ORGANIZATION] text, indicating a break in music playback."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an advertisement for a music collaboration titled '[ORGANIZATION] by [PERSON] and [PERSON]."
+        },
+        "gpt-5.4": {
+          "summary": "A music-ad screen shows bold album art for “[ORGANIZATION]” by AMINUX with [PERSON] branding and playback controls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Advertisement featuring a man in formal attire surrounded by bold yellow text."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music advertisement for '[ORGANIZATION] by [PERSON], featuring a central male artist and branded with [ORGANIZATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music streaming app displaying an advertisement for the song '[ORGANIZATION] by [ORGANIZATION] and [PERSON], featuring a man in a sparkly jacket against a yellow background."
+        }
+      }
+    },
+    "image_00030": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A glowing, ethereal figure stands on a rocky shore overlooking a calm body of water under a cloudy sky, with Arabic text floating above."
+        },
+        "gpt-4o-mini": {
+          "summary": "A glowing silhouette of a person stands on a rock by the sea under a blue sky."
+        },
+        "gpt-5.4": {
+          "summary": "A glowing human silhouette stands on a rock by a calm body of water under a blue sky, with Arabic text centered above."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A glowing silhouette of a person stands atop a rocky outcrop against an expansive blue sky."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A glowing silhouette of a person stands on a rock facing an ocean under a cloudy sky, with Arabic calligraphy above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A glowing silhouette of a person stands on a rock overlooking a calm sea under a grainy, blue-tinted sky with Arabic calligraphy text floating above."
+        }
+      }
+    },
+    "image_00031": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An abstract image features a glowing wireframe human figure labeled \"Me\" at its center, surrounded by radiating purple lines and various text labels related to music creation."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized figure surrounded by musical elements like lyrics, melody, and rhythm, emphasizing a creative theme."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized purple digital graphic shows a human figure labeled 'Me' surrounded by songwriting-related words like lyrics, melody, rhythm, and vocals."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stylized silhouette of a person surrounded by musical elements like lyrics, melody, rhythm, vocals, rhyme, chorus, arrangement."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized human figure labeled 'Me' at the center of a web of purple lines, surrounded by music-related terms."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital illustration of a pixelated human figure labeled 'Me' at the center, surrounded by radiating purple lines and text labels representing songwriting elements like lyrics, melody, and rhythm."
+        }
+      }
+    },
+    "image_00032": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark rectangular graphic displays a crossed-out eye icon and the word \"Hidden\" at the bottom left."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image is hidden and not visible."
+        },
+        "gpt-5.4": {
+          "summary": "A dark placeholder tile shows a crossed-out eye icon with the word \"Hidden\" at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dark-themed interface element labeled 'Hidden' featuring a circular icon."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark interface card displays a muted icon and the word 'Hidden' at the bottom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dark [ORGANIZATION] card displaying a crossed-out eye icon and the word 'Hidden' at the bottom."
+        }
+      }
+    },
+    "image_00033": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile music player interface displays an album cover featuring a person in a black balaclava and leather jacket, with song details and playback controls visible."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an album cover with a person wearing a black mask and a leather jacket, set against a light-colored background."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone music player screen shows the song \"[PERSON]\" playing from the playlist \"MEHZOZ ANA,\" with dark-toned cover art featuring a masked person in profile."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a black balaclava stands in front of an orange train car."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing a song titled '[PERSON]' by [PERSON], [ORGANIZATION], playing from the '[ORGANIZATION] ANA' playlist."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a music player interface showing the song '[PERSON]' by [PERSON] and [ORGANIZATION] playing from the playlist '[ORGANIZATION] ANA'."
+        }
+      }
+    },
+    "image_00034": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image features three lines of black text on a solid red background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features bold text on a red background."
+        },
+        "gpt-5.4": {
+          "summary": "A simple graphic shows large black text on a solid red background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red background with black text in a non-Latin script."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Bold black text on a red background reads 'Machi [PERSON] tbde lt [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red graphic with three lines of black text in a stylized font, likely representing [ORGANIZATION] (Moroccan Arabic) written in Latin script."
+        }
+      }
+    },
+    "image_00035": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A white rabbit is featured prominently in a natural setting with text overlay expressing emotions."
+        },
+        "gpt-5.4": {
+          "summary": "A white rabbit sitting on hay is overlaid with large Arabic text, with social media like and comment icons visible on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A white rabbit lying in grass accompanied by Arabic text."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white rabbit sits in dry grass with Arabic text overlaid describing its personality traits."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white rabbit sits in hay with overlaid Arabic text describing a person who appears calm externally but is internally explosive, accompanied by social media engagement icons."
+        }
+      }
+    },
+    "image_00036": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A view of an architectural courtyard featuring white buildings with blue accents, palm trees, and blue railings, seen from under an overhang."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a courtyard with palm trees and blue railings in a building."
+        },
+        "gpt-5.4": {
+          "summary": "An open-air building courtyard with white columns, blue railings, and tall palm trees under a bright sky."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A courtyard view of a building featuring blue railings, columns, palm trees, and tiled flooring."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A courtyard view of a building with white walls, blue tiled roofs, and palm trees framed by ornate blue railings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view of a white building courtyard featuring blue railings, tiled roofs, and palm trees."
+        }
+      }
+    },
+    "image_00037": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dimly lit view of an outdoor architectural space featuring corridors, stairs with blue railings, and palm trees, suggesting an evening or early morning scene."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image depicts a dimly lit corridor with palm trees and a staircase in a building."
+        },
+        "gpt-5.4": {
+          "summary": "A dimly lit covered courtyard or hallway shows white columns, blue railings, stairs, and a few palm trees in an open interior space."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A dimly lit indoor corridor leading towards a building entrance."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dimly lit covered walkway with tiled flooring, white pillars, and blue railings leads to an outdoor area with palm trees."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A dimly lit, covered outdoor corridor with tiled flooring and blue railings overlooks a courtyard featuring palm trees and white buildings."
+        }
+      }
+    },
+    "image_00038": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "The image displays a social media interface, likely Telegram, showing multiple video posts from a channel named '[ACCOUNT]' related to 'Stranger Things', each featuring a skull with a crown thumbnail and a call to action to follow the channel."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a video post promoting a channel with a skull logo and a crown, encouraging viewers to follow on social media."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of a Telegram channel showing multiple video posts with a crowned skull logo on a black background and Arabic promotional text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A series of video thumbnails promoting a Telegram channel [ACCOUNT]"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social-media screenshot showing three video thumbnails from a movie channel, each with a crowned skull logo and Arabic text."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a Telegram channel named '[ACCOUNT]' displaying a list of video files, each featuring a skull with a crown and Arabic text promoting the channel."
+        }
+      }
+    },
+    "image_00039": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A split image featuring a mobile screen displaying a football match interface between [LOCATION] and [LOCATION], and a scene of people on a rooftop overlooking a city skyline at night with Arabic subtitles."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a sports event interface featuring [LOCATION] and [LOCATION], with a group of people gathered in the background."
+        },
+        "gpt-5.4": {
+          "summary": "A sports app screen shows a [LOCATION] vs [LOCATION] match listing at 21:00 today, overlaid above a nighttime city view with people sitting in the foreground."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A sports app interface showing a match between [LOCATION] and [LOCATION] scheduled at 21:00 today."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A sports event interface showing [LOCATION] vs. [LOCATION] scheduled for 21:00 today, overlaid on a night scene of people watching a cityscape."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-screen image showing a sports app interface for a [LOCATION] vs. [LOCATION] match at the top, and a group of people watching a city skyline at night with Arabic text overlay at the bottom."
+        }
+      }
+    },
+    "image_00040": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person holds a large red banner with white text \"QUÉ SERÁ SERÁ\" on a sandy shore next to a calm body of water, with mountains and trees in the background under a clear sky."
+        },
+        "gpt-4o-mini": {
+          "summary": "A large red sign with the phrase '[PERSON], [ORGANIZATION]' is displayed by a person near a calm lake surrounded by mountains."
+        },
+        "gpt-5.4": {
+          "summary": "A person stands by a calm lakeshore holding a large red banner that reads \"QUE [PERSON],\" with mountains and trees in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person holds a banner reading 'QUÉ SERÁ [PERSON]' by a lakeside under clear skies."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person holds up a red banner with the text 'QUÉ SERÁ [PERSON]' at a lakeside with mountains in the background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person holds a large red banner with the Spanish phrase 'QUÉ SERÁ [PERSON]' on a [LOCATION] next to a lake, with mountains in the background."
+        }
+      }
+    },
+    "image_00041": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smiling soccer goalkeeper in a [LOCATION] and gloves stands in front of a goal net."
+        },
+        "gpt-4o-mini": {
+          "summary": "A goalkeeper in a [LOCATION] celebrates a save in front of a goal net."
+        },
+        "gpt-5.4": {
+          "summary": "A smiling soccer goalkeeper in a maroon number 1 kit and gloves stands in front of the goal net, with music-style text overlays on the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer goalkeeper celebrates in front of a goal net."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smiling soccer goalkeeper in a maroon uniform stands before a goal net, with overlaid text and credits at the bottom."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smiling male soccer goalkeeper in a [LOCATION] stands in front of a goal net with overlaid text and branding."
+        }
+      }
+    },
+    "image_00042": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark digital interface displays a timeline or progress bar with the text \"Today, 00:00\" and a vertical ellipsis menu icon."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image appears to show a dark interface with a timestamp indicating 'Today, 00:00'."
+        },
+        "gpt-5.4": {
+          "summary": "A dark mobile interface screenshot shows a media progress bar, a timestamp reading \"Today, 00:00,\" and a three-dot menu icon."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A media player interface showing a video timeline at 'Today, 00:00'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark interface showing a timeline marker labeled 'Today, 00:00' with three dots on the right."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a video player interface showing a timestamp of 'Today, 00:00' and a progress bar on a black background."
+        }
+      }
+    },
+    "image_00043": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media post displays a comment about the Egyptian league, featuring English and Arabic text, and interaction options."
+        },
+        "gpt-4o-mini": {
+          "summary": "A comment discussing the Egyptian league with a humorous tone."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-theme social media comment screenshot shows a profile picture, the page name \"Egyptian league out of context,\" Arabic text, and reaction/reply controls."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post discussing an Egyptian league in a humorous context."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media post with Arabic text humorously referencing Egyptian league football, accompanied by a reaction of laughter."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A social media comment screenshot featuring an English headline about the Egyptian league and a longer Arabic text expressing patriotic sentiment, posted by a user with a Rastafarian-themed avatar."
+        }
+      }
+    },
+    "image_00044": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A mobile phone screenshot displays a chat conversation with messages in Arabic and Latin script, overlaid with a football video game interface showing player details for [PERSON]."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a digital card of football player [PERSON] along with a chat conversation."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode chat screenshot shows a shared football mobile game player screen for [PERSON] with Arabic interface text and casual message replies."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a mobile app showing [PERSON] player card in [ORGANIZATION]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of a mobile chat showing a football player profile card and Arabic text messages."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile chat conversation discussing a FIFA Ultimate Team player card for [PERSON], with Arabic text visible in the game interface and informal Tunisian dialect used in the chat bubbles."
+        }
+      }
+    },
+    "image_00045": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, distorted image of a person's eye and part of their face, partially covered by a hand, with text overlayed."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a stylized background with text overlay."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized close-up portrait with a glitch effect shows a person’s eye partially covered by a hand, overlaid with lyric-style text and a Genius credit bar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stylized close-up of a person's face overlaid with glitch effects."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized close-up of a person's face with one eye visible, partially obscured by their hand, overlaid with text identifying the song 'Obsessed' by [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized, high-contrast image of a person's face partially obscured by a hand, featuring the lyric 'She got me obsessed, obsessed' and branding for the song 'Obsessed' by NAJM via Genius."
+        }
+      }
+    },
+    "image_00046": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A stylized map of [LOCATION] is depicted, primarily colored with the green, yellow, and red of the Senegalese flag, with [LOCATION] highlighted in red with a green star."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a map of [LOCATION] colored in the national colors of [LOCATION], highlighting the country with a star symbol."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized map of [LOCATION] displays country borders filled mostly with green, yellow, and red sections on a white background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A stylized map of [LOCATION] divided into regions colored in green, yellow, red, reflecting national flags."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A map of [LOCATION] colored with the vertical stripes and star from [LOCATION]'s flag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized map of the African continent divided into three vertical sections colored green, yellow, and red, featuring a green star in the center."
+        }
+      }
+    },
+    "image_00047": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A red flag-like design features a golden lion rampant within an eight-pointed star, bordered in gold, with Arabic text below."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a flag with a lion emblem and Arabic text on a red background."
+        },
+        "gpt-5.4": {
+          "summary": "A red flag-like graphic with a gold border, a central geometric emblem containing a lion, and Arabic text at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A red flag featuring a golden lion within geometric shapes."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A red flag with a yellow border, featuring a lion inside a geometric star and Arabic script below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A red flag featuring a yellow border, a central emblem with a lion inside an eight-pointed star, and Arabic text at the bottom."
+        }
+      }
+    },
+    "image_00048": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A 3D rendered male figure in a white and black striped [LOCATION], resembling a football player, is shown with a player card featuring the same person and game branding in the background."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person in a striped sports jersey is celebrating while pointing, with a player card of [ORGANIZATION] displayed beside them."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer video game graphic shows a player model with outstretched arms beside an [LOCATION] card for [PERSON] rated 86 at [ORGANIZATION]."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football player in a striped jersey points towards an infographic card featuring [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A 3D-rendered football player in a striped jersey points toward a player card displaying '[PERSON] with a rating of 86."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital rendering of a soccer player in a striped jersey stands with arms outstretched next to a collectible trading card featuring the same player."
+        }
+      }
+    },
+    "image_00049": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white vanity table is shown cluttered with various personal care items, jewelry, and alcoholic beverages including a box of [LOCATION], a bottle of Poliakoff vodka, and a bottle of [ORGANIZATION] wine."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a cluttered vanity table with various alcoholic beverages and personal care items."
+        },
+        "gpt-5.4": {
+          "summary": "A vanity table with a mirror is covered with cosmetics, a handbag, and several alcoholic drinks including [ORGANIZATION], vodka, and rosé wine."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A vanity table displaying various beauty products including alcohol bottles."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cluttered vanity table displays alcohol bottles and beauty products beside a mirror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cluttered white vanity table displays a six-pack of [LOCATION], bottles of [PERSON] vodka and [PERSON] rosé wine, alongside various beauty products, jewelry, and a [ORGANIZATION] bag."
+        }
+      }
+    },
+    "image_00050": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A partial view of a person standing in a marble bathroom next to a vanity with a smartphone displaying two lines of white powder, a glass of dark liquid, and a towel."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a bathroom countertop with a glass, a towel, and a partially visible person."
+        },
+        "gpt-5.4": {
+          "summary": "A marble bathroom vanity with a sink, folded towel, glass with a dark drink, and a smartphone is shown, with part of a person standing by the door."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person stands in a bathroom next to a marble countertop holding an object."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A bathroom vanity with a dark marble countertop holds a smartphone, a glass of dark liquid, and a folded towel, while a person stands nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A bathroom vanity with a green marble countertop features a smartphone, a glass of dark liquid, and a white towel, while a person in brown trousers stands nearby."
+        }
+      }
+    },
+    "image_00051": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person in a black lace top and faux fur jacket takes a mirror selfie in a warmly lit room, showing off their outfit and makeup."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a selfie in a dimly lit bathroom, wearing a stylish outfit with a fur jacket."
+        },
+        "gpt-5.4": {
+          "summary": "A mirror selfie shows a person in a black outfit with hoop earrings and a necklace in a warmly lit bathroom or restroom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person takes a mirror selfie in an elegant black outfit."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person takes a mirror selfie in a dimly lit bathroom, wearing a black outfit with fur sleeves and holding a phone."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person takes a mirror selfie in a dimly lit bathroom, wearing a black dress with lace details and a fuzzy jacket while holding a smartphone."
+        }
+      }
+    },
+    "image_00052": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A collection of makeup products, a bottle of rosé wine, a hair straightener, and two empty glasses are scattered on a tiled floor next to a mirror."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a collection of beauty products, a bottle of wine, and two glasses arranged on a tiled floor."
+        },
+        "gpt-5.4": {
+          "summary": "A tiled floor setup with assorted makeup products, brushes, a hair straightener, two empty glasses, and a bottle of rosé near a mirror."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cluttered vanity table filled with makeup products and a bottle of wine."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A collection of makeup products, brushes, and a bottle of wine are scattered on a tiled floor near a mirror."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of makeup products, a bottle of rosé wine, and hair styling tools are arranged on a tiled floor in front of a mirror."
+        }
+      }
+    },
+    "image_00053": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A view from inside a vehicle looking out at a street with multi-story buildings, some with balconies and shuttered windows."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a view from inside a vehicle, capturing a partially visible building and the street outside."
+        },
+        "gpt-5.4": {
+          "summary": "View from inside a car looking out at a bright urban street with a multi-story building and shuttered ground-floor windows."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A view from inside a vehicle looking out at an urban street scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "View from inside a car looking out at a multi-story building with boarded windows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A view from inside a moving vehicle looking out at a multi-story building with white and brown facades."
+        }
+      }
+    },
+    "image_00054": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital screen displays a football video game's team lineup and player statistics, featuring a Moroccan flag and a \"Collective Strength\" score."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a football team formation with player ratings and a collective strength score."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] squad lineup screen shows player cards arranged on a soccer pitch with ratings, a [LOCATION] flag, and a collective strength of 3181."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A football team lineup in a game interface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football team formation displayed on a pitch with player cards showing positions and ratings, alongside a national flag and collective strength score."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a football video game interface displaying a team formation on a pitch with player cards, alongside a 'Collective Strength' score of 3181 and the [PERSON] logo."
+        }
+      }
+    },
+    "image_00055": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless, muscular person is seen from behind, taking a selfie in a gym, with their face obscured by a red triangle, presented in a black and white style."
+        },
+        "gpt-4o-mini": {
+          "summary": "A shirtless individual poses in a gym, showcasing their muscular back while holding a phone."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white mirror selfie shows a shirtless person flexing their back and arm in a gym, with the face covered by a red inverted triangle overlay."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person in a gym holding weights."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular person takes a mirror selfie in a gym, face obscured by a red triangle."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless, muscular man takes a mirror selfie in a gym, with his face obscured by a red triangle and the image rendered in black and white."
+        }
+      }
+    },
+    "image_00056": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A screenshot displays a social media or messaging app interface with multiple chat messages, profile pictures, and a music lyric reference at the bottom."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a series of social media messages featuring playful and flirtatious interactions among users."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot shows a social media inbox or message requests list with several profile entries and an overlaid music lyric caption at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A series of messages from a dating app showing various users initiating conversations."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A screenshot of social media messages showing users sending links and playful text, with a bottom banner referencing the song '[LOCATION]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media direct message feed showing multiple user interactions, with specific text messages highlighted by white boxes."
+        }
+      }
+    },
+    "image_00057": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An artistic image featuring a man standing between blue and red panels, overlaid with Arabic and English text, resembling album art or a song lyric visual."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person standing between two contrasting colored backgrounds, with text overlay discussing themes of choice and intention."
+        },
+        "gpt-5.4": {
+          "summary": "A moody music-art graphic shows a man standing beside a blue-and-red split box with several Arabic text overlays and artist/title text at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A split-screen image featuring a man in silhouette against contrasting blue and red backgrounds. Arabic text overlays express emotional dialogue."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A stylized poster featuring a man in profile against a blue-lit cube, with Arabic text overlays and the word 'Placebo' at the top."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A man stands in a split blue and red room with overlaid Arabic lyrics from the song '[PERSON] by [ORGANIZATION], branded by Genius."
+        }
+      }
+    },
+    "image_00058": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up, black and white painting depicts a pair of eyes with detailed eyelashes and eyebrows, showcasing visible brushstrokes on a canvas texture."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a pair of expressive eyes with detailed eyelashes and a hint of makeup."
+        },
+        "gpt-5.4": {
+          "summary": "A black-and-white close-up painting shows a pair of detailed eyes with visible brush texture on canvas."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a woman's eyes in an artistic painting style."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up black-and-white oil painting of a person's tearful eyes with visible brushstrokes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A black and white close-up painting of a woman's eyes with visible tears, rendered in an expressive style on textured canvas."
+        }
+      }
+    },
+    "image_00059": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person with long hair, wearing a black face covering and a green top, is shown in a dark setting with stage equipment and lighting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A performer wearing a green outfit and black headscarf is seen on stage, surrounded by lighting and sound equipment."
+        },
+        "gpt-5.4": {
+          "summary": "A person in a face covering and green top poses in a dark, neon-lit stage or backstage area beside audio equipment."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a mask performs at an electronic music event under dim lighting."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with a face covering stands in a dimly lit stage setting with audio equipment and colored lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A person wearing a black face covering and green top stands in a dark, club-like setting with audio equipment and blue lighting."
+        }
+      }
+    },
+    "image_00060": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a phone screen showing media playback of a program titled '[PERSON]'."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone quick settings screen is shown with media playback controls for an audio track and charging status visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A screenshot of a media player showing an episode from '[PERSON]' being played."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone quick settings screen showing media playback for an Arabic song titled '[PERSON]' by [PERSON]."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A smartphone screenshot showing the media player interface playing an episode of a podcast or show titled '[PERSON]' by [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00061": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media post displays a screenshot of a man from a film, smiling slightly in a nighttime city setting, with overlaid comments in Arabic discussing character motivations from the film."
+        },
+        "gpt-4o-mini": {
+          "summary": "A young man stands on a street with cars in the background, appearing contemplative."
+        },
+        "gpt-5.4": {
+          "summary": "A social-media screenshot shows a man standing outdoors at night above an Arabic comments thread."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person smiles in a nighttime urban scene while discussing film appreciation."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A man with glasses smiles slightly while standing outdoors at night, with a blurred background of parked cars and city lights."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a social media post featuring a still image of a man with glasses smiling at night, overlaid with Arabic comments discussing a film's plot."
+        }
+      }
+    },
+    "image_00062": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A close-up overhead shot shows two fried eggs topped with triangular pieces of white cheese, olive oil, and a sprinkle of spices, served on a white plate."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a plate of eggs topped with spices and pieces of cheese."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows fried eggs topped with small pieces of white cheese and seasoning in a white bowl or deep plate."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A plate of eggs topped with cheese and spices."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white bowl contains fried eggs with melted cheese and spices."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up overhead shot of a white bowl containing fried eggs topped with triangular slices of cheese and sprinkled with brown spices."
+        }
+      }
+    },
+    "image_00063": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A shirtless person with headphones takes a mirror selfie in a gym, with a 'Breaking NEWS' overlay covering their face, presented in a black and white, grainy style."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is taking a mirror selfie in a gym, wearing headphones and displaying a 'Breaking NEWS' graphic over their face."
+        },
+        "gpt-5.4": {
+          "summary": "A dark black-and-white mirror selfie shows a shirtless person in a gym, with workout machines in the background and a phone sticker reading \"Breaking NEWS.\""
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A muscular individual takes a mirror selfie in a gym."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A muscular person takes a mirror selfie in a gym, with a 'Breaking NEWS' graphic covering their face."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A shirtless individual wearing headphones takes a black-and-white mirror selfie in a gym, with their face obscured by a 'Breaking NEWS' graphic."
+        }
+      }
+    },
+    "image_00064": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A headshot of a young person with dark hair against a blue background, featuring a gray bar obscuring the eyes and red markings across the top of the image."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a child with a blurred face, wearing a red shirt against a blue background."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up portrait photo shows a person in a red shirt against a blue background, with the eyes covered by a gray bar."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A young boy in a red shirt against a blue background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A young person in a red shirt with their eyes obscured by a gray bar, standing against a blue background with faint purple markings."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up portrait of a young boy with short dark hair and a red shirt, set against a blue background with faint purple markings, featuring a gray bar obscuring the eyes."
+        }
+      }
+    },
+    "image_00065": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A very close-up, high-detail shot of a person's blue eye and eyebrow."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a close-up of a person's eye with visible eyelashes and eyebrow."
+        },
+        "gpt-5.4": {
+          "summary": "An extreme close-up shows one eye, eyebrow, and a finger lifting the upper eyelid in a soft, low-detail selfie-style shot."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Close-up of an eye with dramatic makeup featuring blue eyeshadow."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of a human eye with blue irises, dark eyeliner, and glossy lashes."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up photograph of a human eye with blue irises, dark eyebrows, and visible eyelashes."
+        }
+      }
+    },
+    "image_00066": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A hand holds a shiny red apple in a dimly lit indoor setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "A hand holding a shiny red apple in a dimly lit room."
+        },
+        "gpt-5.4": {
+          "summary": "A hand is holding a shiny red apple indoors against a dim plain wall and doorway background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A hand holds a red apple against an indoor background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A hand holds a shiny red apple against a dimly lit indoor background."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up shot of a hand holding a shiny red apple indoors against a blurred background."
+        }
+      }
+    },
+    "image_00067": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "An animated character resembling [PERSON] holds a bitten red apple, makes a 'shush' gesture, and has a question mark floating near her head."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a character holding a red apple and making a questioning gesture."
+        },
+        "gpt-5.4": {
+          "summary": "A cartoon of [PERSON] holds a red apple and gestures with a finger to her lips, with a large question mark beside her."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[PERSON] holding a red apple while pondering."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "[PERSON] holds a red apple and puts a finger to her lips, with a question mark floating nearby."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon illustration of [PERSON] holding a red apple while placing a finger to her lips in a shushing gesture, accompanied by a question mark."
+        }
+      }
+    },
+    "image_00068": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A [ORGANIZATION] graphic showcases six football player portraits with their names, national flags, and team logos, presented as player cards against a blue background with '[ORGANIZATION] FC26' and 'Player of the Month' branding."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features six football players displayed on cards, highlighting their names and nationalities, in a promotional context for [ORGANIZATION]."
+        },
+        "gpt-5.4": {
+          "summary": "A blue [ORGANIZATION] 26 promotional graphic shows six [ORGANIZATION] football player cards for January Player of the Month voting."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Six player cards from [ORGANIZATION] FC26 featuring nominees in a blue-themed layout."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Six football player cards from [ORGANIZATION] are displayed on a blue background, highlighting monthly players with Arabic text below."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A promotional graphic for [ORGANIZATION] displaying six football player cards as nominees for the January Player of the Month in Serie A."
+        }
+      }
+    },
+    "image_00069": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A music streaming application interface is displayed in dark mode, featuring an artist list, Arabic song lyrics, and album art for a track titled \"[LOCATION]\" by \"Getafe\"."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a [ORGANIZATION] interface featuring a song titled 'Getafe' by [LOCATION], with Arabic lyrics visible."
+        },
+        "gpt-5.4": {
+          "summary": "A desktop [ORGANIZATION] screen shows the song “Getafe” by [LOCATION] playing with Arabic lyrics displayed in the center and album art on the right."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A [ORGANIZATION] interface showing a playlist titled '[PERSON]' by [PERSON] featuring Arabic lyrics."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A music player interface showing Arabic lyrics, artist '[LOCATION]', and album art for 'ALO [LOCATION]'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of the [ORGANIZATION] desktop application displaying Arabic lyrics for the song 'Getafe' by [LOCATION], with the artist's album art visible on the right."
+        }
+      }
+    },
+    "image_00070": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital graphic from \"stats.fm\" displays music listening statistics for January 2026, including top tracks, top artists, and a \"71% danceable\" metric, alongside three profile pictures of male artists."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a music statistics summary for January 2026, highlighting top tracks and artists along with a danceability score."
+        },
+        "gpt-5.4": {
+          "summary": "A pink stats.fm-style music recap graphic for January 2026 shows artist portraits, lists of top tracks and top artists, and a note saying the music is 71% danceable."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A music listening report from January 2026 showing top tracks like '[LOCATION]' and artists such as [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A pink-toned music stats summary for January 2026, showing top tracks and artists with a 'You're 71% danceable' personality tag."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A pink-themed music statistics graphic for January 2026 displaying top tracks and artists alongside circular portraits of three male musicians."
+        }
+      }
+    },
+    "image_00071": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A smartphone screen displays a music player notification for \"FATEEN W MISHO\" by \"[PERSON], 3ab3az\" and a Bluetooth low battery warning."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a smartphone notification showing a music track and a low battery alert for a Bluetooth device."
+        },
+        "gpt-5.4": {
+          "summary": "A smartphone notification shade is open, showing a music player for 'FATEEN W MISHO' and a Bluetooth low-battery alert for a connected device."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A smartphone screen showing a music player interface playing '[PERSON]' by [PERSON]."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A smartphone notification panel showing [ORGANIZATION] playback and a low battery warning for a Bluetooth device."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a mobile media control interface showing [ORGANIZATION] playing the song 'Yonyo, 3ab3az' by FATEEN W MISHO alongside a low battery warning for a Bluetooth device."
+        }
+      }
+    },
+    "image_00072": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a classroom with a moldy wall, a whiteboard with writing, and a few pieces of furniture."
+        },
+        "gpt-5.4": {
+          "summary": "A classroom wall shows extensive black mold and water damage around a whiteboard, door, and ceiling area."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A classroom wall covered in mold growth next to a whiteboard."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A classroom with severe mold damage on the walls, featuring a whiteboard with handwritten text and basic furniture."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A classroom interior featuring a yellow wall with extensive black mold damage, a whiteboard with handwritten text, and basic furniture."
+        }
+      }
+    },
+    "image_00073": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark hooded figure, resembling a grim reaper, is surrounded by various meme images with Arabic text, set against an ominous background."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dark, hooded figure with various humorous cartoon images surrounding it, conveying a playful and ominous mood."
+        },
+        "gpt-5.4": {
+          "summary": "A dark meme-style collage shows a hooded, faceless figure against a fiery background with large Arabic text and several smaller floating meme images around it."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT]'s post featuring a character in space with various meme stickers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-robed figure points at floating cartoon images against a fiery background, with Arabic text overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hooded figure resembling the Grim Reaper stands against a fiery background, surrounded by floating meme images and Arabic text overlays. The central caption reads 'أنا جاهز ومعاي' (I am ready and with me), while smaller memes include cartoon characters and penguins with humorous captions."
+        }
+      }
+    },
+    "image_00074": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A social media profile page is displayed, featuring a profile picture, follower and post counts, recent posts, and story highlights."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image displays a social media profile with various posts, including personal photos and activities."
+        },
+        "gpt-5.4": {
+          "summary": "A screenshot of an [ORGANIZATION] profile page shows a sports-themed account with follower stats, story highlights, and a photo grid featuring car selfies, a masked group shot, and a black car."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "Profile page of a person showcasing various photos in their feed."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A social media profile grid showing car rides, selfies with a woman, and one black-and-white photo with a person in a Dalí mask."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of an [ORGANIZATION] profile page for '[ACCOUNT]' displaying a grid of photos featuring a man and woman in cars, one person wearing a mask, and a car exterior."
+        }
+      }
+    },
+    "image_00075": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A distressed image features the Palestinian flag with white Arabic calligraphy, a pile of rubble, and text at the bottom."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a wrinkled flag with Arabic text and a background of stones."
+        },
+        "gpt-5.4": {
+          "summary": "A stylized poster shows the Palestinian flag with large Arabic calligraphy over a smoky, metallic-looking background and rubble at the bottom."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A flag of [LOCATION] overlaid by Arabic calligraphy against a textured background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A Palestinian flag is overlaid with white Arabic calligraphy on a textured, gray fabric background, with rubble at the bottom and text reading 'ULTRAS SIEMPRE PALOMA 2006'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A stylized image featuring a Palestinian flag draped over fabric with Arabic calligraphy overlaid and a pile of rubble in the corner."
+        }
+      }
+    },
+    "image_00076": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A person wearing a red fez and dreadlocks is shown in a close-up portrait, holding a rolled item in their mouth."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a person wearing a red hat with dreadlocks, partially obscured."
+        },
+        "gpt-5.4": {
+          "summary": "Close-up indoor selfie of a person wearing a red hat and holding a rolled smoking item near their mouth."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing a red fez hat holds food near their mouth."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person with dreadlocks wearing a red fez hat holds a stick-like object to their mouth."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up selfie of a person with dreadlocks wearing a red fez hat and holding a rolled cigarette or joint near their mouth."
+        }
+      }
+    },
+    "image_00077": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark-themed mobile screen displays a chat interface with a conversation in Arabic and Latin script, featuring text related to AI image modification."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a text conversation discussing image modification and AI tools."
+        },
+        "gpt-5.4": {
+          "summary": "A dark-mode screenshot of the [LOCATION] app shows a query about image editing and a long Darija/Arabic response discussing [LOCATION] image-generation and the \"Modify Image\" feature."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A post discussing AI capabilities in modifying images using [LOCATION] models."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-mode interface showing a chat with [LOCATION] about image modification features, including text-based editing and image generation options."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a chat interface displaying a conversation in [LOCATION] about the image editing capabilities of different AI models like [LOCATION] and [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00078": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A weathered wall is covered in various graffiti, including the prominent phrase \"YOUR-Nightmare\" and repeated stencils of \"PALOMA O PLOMO\" and \"VALIENTES DE PALOMA 2011\" under dim lighting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features graffiti on a wall that reads 'YOUR-NIGHTMARE' alongside various printed logos and text."
+        },
+        "gpt-5.4": {
+          "summary": "A weathered outdoor wall at night is covered with black graffiti reading \"your-nightmare\" and multiple repeated stencil tags."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A graffiti-covered wall featuring 'YOUR-Nightmare' in bold letters."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A weathered wall at night displays graffiti reading 'YOUR-Nightmare' surrounded by repeated logos and text including '[ORGANIZATION] O [ORGANIZATION]' and 'VALIENTES DE PALOMA 2011'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A weathered white wall at night covered in black graffiti and stickers, featuring the large text 'YOUR-Nightmare' surrounded by smaller logos."
+        }
+      }
+    },
+    "image_00079": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Several used spray paint cans of various brands and colors are scattered on a dirt and concrete ground, illuminated by artificial light."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows several discarded spray cans scattered on the ground."
+        },
+        "gpt-5.4": {
+          "summary": "Several spray paint cans lie on dirt and rocks outdoors at night under warm light."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A collection of spray paint cans scattered outdoors at night."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Several spray paint cans lie scattered on cracked pavement at night."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A collection of used spray paint cans is scattered on a rough, paved surface at night."
+        }
+      }
+    },
+    "image_00080": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A white wall is covered with red graffiti and black stickers, featuring phrases like \"VALIENTES DE PALOMA,\" \"ZONE [ORGANIZATION],\" \"PALOMA O PLOMO,\" and Arabic script, suggesting a fan or group's markings."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features graffiti on a wall, including various tags and symbols related to a group or event."
+        },
+        "gpt-5.4": {
+          "summary": "A white outdoor wall at night is covered with red graffiti and multiple football-supporter style stencils and stickers, including Arabic writing and '[ORGANIZATION] slogans."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A wall covered in graffiti featuring Arabic script and logos of '[ORGANIZATION] from different years."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white wall at night covered in red graffiti and stickers from a group called '[ORGANIZATION], including Arabic text and the year 2011."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white wall at night covered in red spray-painted graffiti and stickers featuring Arabic text, the acronym MAT, and logos for a group called [ORGANIZATION]."
+        }
+      }
+    },
+    "image_00081": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A black bag is open, revealing several spray paint cans of various colors and a red, white, and black patterned knitted item with red fringe."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a partially open bag containing various spray paint cans and a colorful knitted item."
+        },
+        "gpt-5.4": {
+          "summary": "An open black backpack contains several spray paint cans and a red-and-white knitted scarf."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A backpack contains spray paint cans and a knitted hat featuring skull patterns."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A black bag contains multiple spray paint cans and a red-and-white skull-patterned knitted hat."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "An open black bag contains multiple spray paint cans and a red, white, and black patterned scarf."
+        }
+      }
+    },
+    "image_00082": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cartoon image features [PERSON] from [PERSON] and [PERSON] lying on a pile of french fries with a very full belly, accompanied by Arabic text and emojis, conveying a humorous message about successful eating."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon mouse with a large belly, humorously celebrating a successful meal."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous cartoon meme shows [PERSON] from [PERSON] and [PERSON] sitting with a swollen belly among fries, with Arabic text and laughing emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon cat character humorously depicted as a large cheese ball."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon cat wearing a diaper sits happily on spaghetti, with Arabic text above praising its success."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon cat with an exaggeratedly large belly sits happily on a pile of breadsticks, accompanied by Arabic text and emojis."
+        }
+      }
+    },
+    "image_00083": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark hooded figure, resembling a grim reaper, stands against a fiery background, surrounded by various meme-like images and Arabic text."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a dark, hooded figure with various humorous cartoon images surrounding it, conveying a playful and comedic tone."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style image shows a hooded dark figure with Arabic text over it and several small reaction or cartoon images floating around."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "[ACCOUNT]'s post featuring a character in space with various meme stickers."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A dark-robed figure points at floating cartoon images against a fiery background, with Arabic text overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A hooded figure resembling the Grim Reaper stands against a fiery background, surrounded by floating meme images and Arabic text overlays."
+        }
+      }
+    },
+    "image_00084": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is cooking in a kitchen while wearing headphones and interacting with an audience."
+        },
+        "gpt-5.4": {
+          "summary": "A mobile screenshot shows a video app description page with a comedic thumbnail of a person wearing headphones inside a frying pan, plus likes, views, and channel details."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person wearing headphones appears inside a frying pan being held by another hand."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person wearing headphones is shown inside a frying pan, overlaid on a cooking scene."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A screenshot of a [ORGANIZATION] video featuring a man in a frying pan with food being cooked above him, including Arabic and English text describing the content."
+        }
+      }
+    },
+    "image_00085": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a close-up of a printed document page with visible text and a stack of papers beside it."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows printed French-language document pages on a desk, with page number 69 visible."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A close-up of a document page titled 'Page 69' lying atop an orange surface."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A close-up of page 69 from a French-language textbook or workbook, resting on an orange surface with sunlight casting shadows."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up, angled shot of a printed document page resting on an orange surface with visible scribbles. The text is in French and includes financial figures and tax-related terms."
+        }
+      }
+    },
+    "image_00086": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cartoon mouse resembling [PERSON] from [PERSON] and [PERSON], wearing a military uniform with numerous medals and a large belly, is depicted lying on its back with Arabic text above it."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character in a military uniform with exaggerated features, set against a colorful background with Arabic text."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous meme shows [PERSON] from [PERSON] and [PERSON] dressed in a decorated military-style uniform with Arabic text over the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon mouse in military attire appears surprised as a hand reaches towards him."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon cat in a decorated military uniform appears triumphant, with Arabic text overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring the cartoon character [PERSON] dressed in a decorated military uniform with Arabic text overlaid."
+        }
+      }
+    },
+    "image_00087": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon mouse with a large belly, humorously celebrating a successful meal."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous cartoon meme shows [PERSON] from [PERSON] and [PERSON] sitting with an exaggerated round belly among fries, with Arabic text and laughing emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon cat character humorously depicted as a large cheese ball."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon cat wearing a diaper laughs triumphantly while lying on spaghetti, with Arabic text and emojis above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon cat with an exaggeratedly large belly sits on a pile of breadsticks, accompanied by Arabic text and emojis indicating humorous success."
+        }
+      }
+    },
+    "image_00088": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A digital rendering of a soccer player in a white uniform is shown on a virtual stadium field, with a prominent digital trading card featuring the same player, [PERSON], overlaid."
+        },
+        "gpt-4o-mini": {
+          "summary": "A soccer player is captured in action, with a digital card of [ORGANIZATION] displayed beside him."
+        },
+        "gpt-5.4": {
+          "summary": "A soccer game screenshot shows a player in white kicking on a stadium field beside a [LOCATION] card-style graphic."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A soccer player in action next to a virtual card featuring [PERSON]"
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A football player in action on a pitch next to a glowing player card displaying '[PERSON] and stats."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A digital rendering of a soccer player in a white kit is shown on a virtual pitch next to a collectible trading card featuring the same player."
+        }
+      }
+    },
+    "image_00089": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A humorous cartoon image features [PERSON] from [PERSON] and [PERSON], depicted as an old man with a turban and beard, lying contentedly on a pile of bones, with Arabic text about eating."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon mouse character dressed in traditional attire, surrounded by bones, with Arabic text above it."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous edited cartoon image shows a character sitting among bones with Arabic text written across the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon mouse dressed as a sage sits amidst bones in an animated scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon mouse wearing a turban and denim jacket sits atop bones with Arabic text overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon mouse with a long white beard and turban sits among bones holding a staff, overlaid with Arabic text expressing exhaustion from hunger."
+        }
+      }
+    },
+    "image_00090": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cartoon mouse, resembling [PERSON], is depicted with a large belly, wearing a military uniform adorned with medals and a cap, lying on its back with Arabic text above it."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character in a military uniform with a humorous expression, surrounded by Arabic text."
+        },
+        "gpt-5.4": {
+          "summary": "An edited cartoon meme shows [PERSON] from [PERSON] and [PERSON] in a decorated military uniform, sitting and laughing with Arabic text over the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon mouse in military attire appears surprised as a hand reaches towards him."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon cat in a decorated military uniform shouts while lying on a bed, with Arabic text overlaid."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring the cartoon character [PERSON] dressed in a decorated military uniform with Arabic text overlaid."
+        }
+      }
+    },
+    "image_00091": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A humorous meme features a modified cartoon character, [PERSON] from [PERSON] and [PERSON], with a distended belly, a wig, and long eyelashes, lying down with a human hand pointing at his stomach, accompanied by text that reads 'I just ate' and Arabic script."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon mouse with exaggerated features, humorously expressing satisfaction after eating."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous edited cartoon meme shows a mouse with an oversized round belly sitting among bones, with the caption \"I just ate\" and Arabic text."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon rabbit humorously points at a large ball of food while saying 'I just ate'."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon mouse with curly hair and long lashes holds a large white ball while text reads 'I just ate'."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring the cartoon character [PERSON] with a human hand and wig, expressing satisfaction after eating."
+        }
+      }
+    },
+    "image_00092": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cartoon image features [PERSON] from [PERSON] and [PERSON] depicted as an old, wise figure with a beard and staff,"
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon mouse character dressed in traditional attire, surrounded by bones, with Arabic text above it."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous edited cartoon image shows [PERSON] disguised with long blond hair and a beard, sitting among many large bones with Arabic text overlaid at the top."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon mouse dressed as a sage sits amidst bones in an animated scene."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon mouse wearing a turban and beard sits atop bones with Arabic text overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon mouse character with a long white beard and turban sits among bones holding a staff, overlaid with Arabic text expressing themes of exhaustion, hunger, and eventual relief."
+        }
+      }
+    },
+    "image_00093": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A nighttime outdoor shot features a weathered wall covered in peeling posters, with black graffiti reading \"SIEMPRE PALOMA 2006\" prominently displayed above a red and white curb."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a graffiti wall with the text 'SIEMPRE PALOMA 2006' prominently displayed."
+        },
+        "gpt-5.4": {
+          "summary": "A nighttime street scene shows a weathered mural-covered wall with large black graffiti reading \"SIEMPRE PALOMA 2006\" beside an empty roadside curb."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A nighttime street scene featuring a wall covered in graffiti art depicting buildings and trees."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Nighttime photo of a weathered wall with graffiti reading 'SIEMPRE PALOMA 2006' over faded murals."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A nighttime street view of a weathered construction hoarding covered in peeling posters and black graffiti reading '[ORGANIZATION]."
+        }
+      }
+    },
+    "image_00094": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image shows a small shop filled with various snacks and candies, with a white cat sitting among the items."
+        },
+        "gpt-5.4": {
+          "summary": "A small convenience shop counter filled with candy and snacks is shown with a white cat sitting behind it in front of stocked shelves."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A small shop filled with snacks and a white cat sitting behind shelves."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A white cat sits calmly on a checkout counter in a brightly stocked candy and grocery store."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A white cat sits behind a cluttered counter in a small shop, surrounded by shelves and bins filled with various candies and snacks."
+        }
+      }
+    },
+    "image_00095": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A parked Peugeot van with Arabic text on the rear windows, set against a tiled wall."
+        },
+        "gpt-5.4": {
+          "summary": "The rear of a white [PERSON] with Arabic writing on its back windows is parked on a dimly lit street beside a checkered tiled wall at night."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A Peugeot van parked in a narrow alleyway at night."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A beige Peugeot van parked at night with Arabic text on its rear windows and a license plate."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A rear view of a beige Peugeot van parked at night against a checkered wall, featuring Arabic text on the windows and an Algerian license plate."
+        }
+      }
+    },
+    "image_00096": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A dark red, intricately designed formal gown with a high slit and sheer elements is displayed on a white mannequin in a studio setting."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features an elegant burgundy evening gown displayed on a mannequin."
+        },
+        "gpt-5.4": {
+          "summary": "A mannequin displays a dark burgundy, sheer evening gown with lace embellishments, thin straps, and a high slit in a studio-style fashion image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A luxurious red gown displayed on a mannequin against a neutral background."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A split-view image of an ornate, deep red evening gown displayed on a mannequin, showcasing its detailed beading and flowing fabric."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A split-view studio shot of a dark red, floor-length evening gown with lace detailing and a high slit displayed on a mannequin."
+        }
+      }
+    },
+    "image_00097": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "A person is seen looking up while another individual appears to be interacting with them, possibly in a casual or informal setting."
+        },
+        "gpt-5.4": {
+          "summary": "A close-up shows a man indoors looking up while standing beside someone in a camouflage jacket, with subtitle text over the image."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A person getting a haircut in what appears to be an informal barber shop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A person looks upward while another holds a blade near their neck in a dimly lit setting."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A close-up side profile of a man with dark curly hair and a beard, wearing a fleece-lined jacket, looking upwards while another person in a camouflage jacket holds an object near his face."
+        }
+      }
+    },
+    "image_00098": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character with a large belly, wearing a sombrero and a mustache, conveying a humorous message about being full."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous edited cartoon image shows [PERSON] from [PERSON] and [PERSON] sitting with an exaggerated full belly among food-stick-like items, wearing a sombrero and fake mustache, with Spanish and Arabic text plus emoji overlays."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon mouse wearing a sombrero and mustache sits in an oversized taco shell."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Cartoon mouse wearing a sombrero and mustache, holding a large belly with text overlays."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon mouse with a large belly, sombrero, and mustache is shown alongside text in Spanish and Arabic indicating fullness."
+        }
+      }
+    },
+    "image_00099": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "Low-information image with no confident visual summary."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon mouse with a beard and turban, lying on a pile of bones, accompanied by humorous Arabic text."
+        },
+        "gpt-5.4": {
+          "summary": "A meme-style edited cartoon image shows [PERSON] and [PERSON] on a bed with Arabic text overlaid and humorous face swaps/additions."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon character in a boat appears distressed while Arabic text above conveys humor."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Cartoon mouse with a beard and turban sits atop bones, with Arabic text overlay."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A meme featuring the cartoon character [PERSON] from '[PERSON] and [PERSON]' edited with a black turban and beard, sitting on a pile of bones, accompanied by Arabic text."
+        }
+      }
+    },
+    "image_00100": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A cartoon character, resembling [PERSON], dressed in traditional attire, is depicted in a desert setting with Arabic text above, humorously referencing Ramadan and fatigue."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character dressed in traditional attire, set against a desert background with camels and palm trees."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous cartoon image shows [PERSON] dressed in traditional clothing and laughing in a desert-style setting with Arabic text in the background."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon rabbit dressed in traditional [LOCATION] attire sits cross-legged against a desert backdrop."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "A cartoon mouse in desert attire laughs while Arabic text is displayed above."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon cat character dressed in traditional desert attire reclines on a camel in a sandy landscape with palm trees and camels in the background."
+        }
+      }
+    },
+    "image_00101": {
+      "model_captions": {
+        "gemini-2.5-flash": {
+          "summary": "A humorous cartoon image features [PERSON] from [PERSON] and [PERSON] with an exaggerated full belly, wearing a sombrero and a mustache, accompanied by Spanish and Arabic text and emojis."
+        },
+        "gpt-4o-mini": {
+          "summary": "The image features a cartoon character with a large belly, wearing a sombrero and a mustache, conveying a humorous message about being full."
+        },
+        "gpt-5.4": {
+          "summary": "A humorous edited cartoon image shows [PERSON] from [PERSON] and [PERSON] with an exaggerated full belly, a fake mustache and sombrero, sitting among breadstick-like snacks with Spanish and Arabic text plus emojis."
+        },
+        "qwen2.5-vl-7b-instruct": {
+          "summary": "A cartoon mouse wearing a sombrero and mustache sits in an oversized taco shell."
+        },
+        "qwen3-vl-8b-instruct": {
+          "summary": "Cartoon mouse wearing a sombrero and mustache, holding a large belly with text overlays."
+        },
+        "qwen3.5-35b-a3b": {
+          "summary": "A cartoon mouse with an exaggeratedly full belly, wearing a sombrero and mustache, accompanied by laughing emojis and text in Spanish and Arabic indicating satisfaction after eating."
+        }
+      }
     }
   }
 }
